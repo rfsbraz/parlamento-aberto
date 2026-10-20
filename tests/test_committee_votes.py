@@ -214,7 +214,7 @@ def test_unanimous_committee_votes_have_a_composition(con):
     missing = committee_votes_without_composition(con)
     assert missing == [], "; ".join(
         f"unanimous committee vote {vote_id} needs inferred rows but committee "
-        f"{committee_id} has no ComposicaoOrgaos record"
+        f"{committee_id} has no members in ComposicaoOrgaos"
         for committee_id, vote_id in missing
     )
 
@@ -258,7 +258,7 @@ SYNTHETIC_COMMITTEE_VOTE = {
 
 def test_missing_composition_check_fires(tmp_path):
     # A synthetic unanimous committee vote, with no detail, in a committee that has no
-    # composition record.
+    # members in ComposicaoOrgaos.
     data = tmp_path / "data"
     shutil.copytree(FIXTURES, data)
     path = data / "iniciativas" / "XVII" / "999" / "999999.json"

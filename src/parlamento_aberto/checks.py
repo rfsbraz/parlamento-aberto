@@ -5,8 +5,9 @@ import duckdb
 
 def committee_votes_without_composition(con: duckdb.DuckDBPyConnection) -> list[tuple[int, int]]:
     """(committee_id, vote_id) for unanimous committee votes that need inferred rows (no
-    favour, against or abstention listed) in a committee with no ComposicaoOrgaos record.
-    Those votes would silently get no group rows."""
+    favour, against or abstention listed) in a committee with no members in ComposicaoOrgaos:
+    no record, or a record with an empty HistoricoComposicao. Those votes would
+    silently get no group rows."""
     return con.sql(
         """
         select v.committee_id, v.vote_id

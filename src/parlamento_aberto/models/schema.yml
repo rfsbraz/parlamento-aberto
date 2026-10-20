@@ -4,10 +4,10 @@ models:
   seed_seats:
     description: >-
       Seats in the Assembleia da República per legislature, hand-kept, each row citing its
-      source. For legislatures whose seat count changed mid-way (I had 263 seats, then 250
-      after the December 1979 interim election) the row holds the highest count.
+      source. Legislature I is split like the AR folders: I-A (from 1976, 263 seats) and
+      I-B (from the December 1979 interim election, 250 seats), with the same citation.
     columns:
-      legislature: Legislature in Roman numerals, for example XVII.
+      legislature: Legislature in Roman numerals as in the AR folder names, for example XVII or I-A.
       seats: Total number of seats in that legislature.
       source: Where the seat count comes from.
 
@@ -60,7 +60,11 @@ models:
       source_file: Normalised file the row was read from, relative to data/.
 
   stg_registo_biografico__biographies:
-    description: RegistoBiografico, one row per person record, scalar fields only.
+    description: >-
+      RegistoBiografico, one row per person record, scalar fields only. II and III come from
+      the older XML-shaped files listed on the AR I Legislatura page (camelCase keys). For
+      every other legislature except XVII, the AR file repeats the current register of about
+      339 people, so those rows are not that legislature's deputies (docs/known-gaps.md).
     columns:
       cadastro_id: Person id shared across legislatures and datasets (CadId).
       full_name: Full name (CadNomeCompleto).
@@ -110,6 +114,10 @@ models:
       sex: Sex as published by the AR, M or F. Null without a RegistoBiografico record.
       birth_date: Date of birth. Null without a RegistoBiografico record.
       profession: Profession. Null without a RegistoBiografico record.
+      biography_legislature: >-
+        Legislature of the RegistoBiografico record the biography fields come from, the latest
+        one for the person. Real per-legislature biographies exist only for II and III; XVII is
+        the current register. Null without a RegistoBiografico record.
 
   mandates:
     description: >-

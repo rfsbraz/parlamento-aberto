@@ -362,3 +362,22 @@ def test_ppd_in_i_b_maps_to_psd(con):
     ).fetchall()
     assert [r[:3] for r in rows] == [("I-B", "PPD", "PSD")]
     assert rows[0][3] > 0
+
+
+@fixture_only
+def test_ppd_in_i_b_maps_to_psd_in_the_fixture(con):
+    # Initiative 33171 (I-B): PPD is an author group and votes in vote 48952.
+    positions = con.sql(
+        """
+        select group_code_raw, group_code, position from vote_group_positions
+        where vote_id = 48952 and group_code_raw = 'PPD'
+        """
+    ).fetchall()
+    assert positions == [("PPD", "PSD", "favour")]
+    authors = con.sql(
+        """
+        select author_type, group_code_raw, group_code, count(*) from initiative_authors
+        where initiative_id = 33171 and group_code_raw = 'PPD' group by all order by author_type
+        """
+    ).fetchall()
+    assert [r[:3] for r in authors] == [("deputy", "PPD", "PSD"), ("group", "PPD", "PSD")]

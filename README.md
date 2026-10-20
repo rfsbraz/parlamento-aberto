@@ -29,4 +29,14 @@ uv run pytest
 uv run python scripts/check_file_size.py
 ```
 
+## Fetching AR data
+
+```sh
+uv run python -m parlamento_aberto fetch                         # current legislature
+uv run python -m parlamento_aberto fetch --all                   # every legislature
+uv run python -m parlamento_aberto fetch --dataset iniciativas --legislature XVI
+```
+
+`sources.yaml` lists every file. The newest legislature in it is the current one. Requests go one at a time, with gzip, and retry the AR's temporary "Recurso Não Encontrado" pages with backoff. Run it after 06:00 Lisbon time; the AR server is slow between 04:00 and 06:00. Files whose download hash matches `data/_meta/sources.lock.json` are skipped. A download that is HTML, does not parse, or is empty where the last copy had records keeps the last good copy and is marked stale in the lock. `--raw-dir DIR` keeps the downloads outside the repo, and `--offline` replays them.
+
 Design: `docs/design.md`. Repo settings: `docs/repo-settings.md`.

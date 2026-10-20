@@ -4,8 +4,10 @@ Two cases, both only inside string values (never keys, never numeric fields):
 
 - a NIF label (NIF, NIF/NIPC, número fiscal, Contribuinte n.º) followed by a 9-digit
   number (also written 3-3-3 with spaces or dots) that passes the mod-11 check and
-  starts like a personal NIF (1, 2, 3, 45, 70, 74, 75 or 78). Company NIPCs
-  (5, 6, 8, 9, 71, 72, 77, 79) stay.
+  does not start with a company prefix. Only company NIPCs (5, 6, 71, 72, 79) stay.
+  Everything else is treated as a personal NIF, including 8 (the old sole-trader range),
+  9x (condominiums, irregular companies, sole traders' estates) and 77: they can
+  identify a person (Lei 52/2019, art. 17.º, n.º 2, al. a)).
 - Beneficiário/Beneficiária n.º followed by digits.
 
 The number becomes [removido]; the label stays. Masking is idempotent. The guard fails
@@ -24,7 +26,8 @@ from pathlib import Path
 from .normalise import dump_line, dump_record
 
 MASK = "[removido]"
-PERSONAL_PREFIXES = ("1", "2", "3", "45", "70", "74", "75", "78")
+# The only prefixes kept as company NIPCs. Keep in step with ept.NIPC_PREFIX.
+COMPANY_PREFIXES = ("5", "6", "71", "72", "79")
 
 _NO = r"n\.?\s*[º°o]\.?"
 NIF_RE = re.compile(
@@ -55,7 +58,7 @@ def valid_nif(digits: str) -> bool:
 
 
 def personal_nif(digits: str) -> bool:
-    return digits.startswith(PERSONAL_PREFIXES) and valid_nif(digits)
+    return valid_nif(digits) and not digits.startswith(COMPANY_PREFIXES)
 
 
 def mask_text(text: str) -> tuple[str, int]:

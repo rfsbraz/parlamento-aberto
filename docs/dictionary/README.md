@@ -32,7 +32,7 @@ Como consultar uma publicação: [querying.md](../querying.md).
 | [question_authors](question_authors.md) | Uma linha por pergunta e autor. |
 | [question_recipients](question_recipients.md) | Uma linha por pergunta e organismo destinatário. |
 | [interest_declarations](interest_declarations.md) | Uma linha por declaração no registo de interesses, de duas fontes: os dados abertos da AR (source = ar_open_data, XI a XV) e a Entidade para a Transparência (source = ept, XVI e XVII). |
-| [interests](interests.md) | Uma linha por interesse declarado, das mesmas duas fontes de interest_declarations (ar_open_data, XI a XV, e ept, XVI e XVII): atividades e cargos, cargos sociais, associações, sociedades, apoios, serviços e outras situações. |
+| [interests](interests.md) | Uma linha por interesse declarado, das mesmas duas fontes de interest_declarations (ar_open_data, XI a XV, e ept, XVI e XVII): atividades e cargos, cargos sociais, sociedades, apoios, serviços e outras situações. |
 | [plenary_attendance](plenary_attendance.md) | Uma linha por reunião plenária e pessoa na sua lista de presenças. |
 | [plenary_attendance_summary](plenary_attendance_summary.md) | Uma linha por legislatura, pessoa, grupo e tipo de reunião (solene ou comemorativa, ou não), a partir de plenary_attendance: o número de reuniões nas listas de presenças e quantas caem em cada categoria, para que qualquer taxa se possa calcular. |
 

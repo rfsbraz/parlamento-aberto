@@ -29,6 +29,8 @@ def with_check(base8: str) -> str:
 VALID = with_check("5" + "0" * 7)
 PERSONAL = [with_check(d + "0" * 7) for d in "1234"]
 OTHER_7X = with_check("70" + "0" * 6)
+COMPANY = [with_check(p + "0" * (8 - len(p))) for p in ("5", "6", "71", "72", "79")]
+WIDER = [with_check(p + "1" * (8 - len(p))) for p in ("8", "90", "91", "98", "77")]
 
 
 def findings(path: str, text: str) -> list[str]:
@@ -65,7 +67,12 @@ def test_valid_nipc_in_the_nipc_column_passes(tmp_path):
     assert findings(STORED, (tmp_path / "1.json").read_text()) == []
 
 
-@pytest.mark.parametrize("value", [*PERSONAL, OTHER_7X])
+@pytest.mark.parametrize("value", COMPANY)
+def test_each_company_prefix_in_the_nipc_column_passes(value):
+    assert findings(STORED, record(col9=value)) == []
+
+
+@pytest.mark.parametrize("value", [*PERSONAL, OTHER_7X, *WIDER])
 def test_personal_or_other_7x_in_the_nipc_column_fails(value):
     assert findings(STORED, record(col9=value))
 
@@ -77,9 +84,15 @@ def test_nine_digits_outside_the_nipc_column_fail(value):
     assert findings("tests/fixtures/ept/x.json", json.dumps({"a": value}))
 
 
-def test_personal_range_fails_even_on_a_nipc_line():
-    line = f'   "col9": "{PERSONAL[0]}"'
+@pytest.mark.parametrize("value", [PERSONAL[0], *WIDER])
+def test_personal_range_fails_even_on_a_nipc_line(value):
+    line = f'   "col9": "{value}"'
     assert "ept-personal-nif" in findings(STORED, line)
+
+
+def test_the_association_nipc_column_is_not_allowed():
+    # col8 was the association section's NIPC column, which is never stored.
+    assert findings(STORED, f'   "col8": "{COMPANY[0]}"')
 
 
 def test_rules_leave_the_ar_data_alone():

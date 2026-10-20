@@ -671,7 +671,7 @@ models:
     columns:
       declaration_key: Declaração a que o item pertence.
       item_number: Posição do item dentro da declaração, com as secções pela ordem do separador 4.
-      category: activity, association, support, service, society ou other_situation (atividade, associação, apoio, serviço, sociedade ou outra situação).
+      category: activity, support, service, society ou other_situation (atividade, apoio, serviço, sociedade ou outra situação). A secção de filiação em entidades de natureza associativa nunca é lida (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)).
       source_list: Designação da secção do separador 4 como a EpT a mostra.
       item_id: Nulo. As linhas da EpT não têm id.
       type_code: Nulo. A EpT não tem código de tipo.
@@ -691,7 +691,7 @@ models:
       is_paid: Nulo. A EpT não diz o que significam 1 e 0.
       start_date: Data de início como dia em Europe/Lisbon.
       end_date: Data de fim como dia em Europe/Lisbon.
-      entity_nipc: NIPC da entidade, só quando é um NIPC de empresa válido (9 dígitos, dígito de controlo mod 11, primeiro dígito 5, 6, 8 ou 9, ou prefixo 71, 72, 77 ou 79). Nulo nos outros casos.
+      entity_nipc: NIPC da entidade, só quando é um NIPC de empresa válido (9 dígitos, dígito de controlo mod 11, primeiro dígito 5 ou 6, ou prefixo 71, 72 ou 79). Nulo nos outros casos, incluindo 8, 9x e 77, que podem identificar uma pessoa.
       beneficiary: Beneficiário de um apoio ou benefício tal como escrito.
       beneficiary_company: Empresa do beneficiário, nos apoios.
       share_value_eur: Valor da participação social em euros, tal como escrito.
@@ -741,7 +741,7 @@ models:
   interests:
     description: >-
       Uma linha por interesse declarado, das mesmas duas fontes de interest_declarations
-      (ar_open_data, XI a XV, e ept, XVI e XVII): atividades e cargos, cargos sociais, associações,
+      (ar_open_data, XI a XV, e ept, XVI e XVII): atividades e cargos, cargos sociais,
       sociedades, apoios, serviços e outras situações. O texto está tal como publicado, por isso os
       itens de texto livre podem dizer "Nada a declarar". Na AR o JSON prevalece sobre o mapeador
       antigo: a V1 publica as atividades como um único campo de texto livre, e a V5 também é lida
@@ -754,7 +754,7 @@ models:
       declaration_key: Declaração, liga a interest_declarations.
       item_number: Posição do item dentro da declaração.
       cadastro_id: Id da pessoa, liga a deputies. Na EpT vem de seed_ept_holders e pode ser nulo.
-      category: activity, social_position, association, society, support, service ou other_situation (atividade, cargo social, associação, sociedade, apoio, serviço ou outra situação). association só existe na EpT.
+      category: activity, social_position, society, support, service ou other_situation (atividade, cargo social, sociedade, apoio, serviço ou outra situação). Da EpT não entra a filiação em entidades de natureza associativa (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)).
       source_list: Lista, campo ou secção publicada de onde vem o item, por exemplo GenCargosMaisTresAnos.
       item_id: Id do item na AR, quando publicado. Nulo na EpT.
       type_code: Código Type da V3 tal como publicado (0, 1 ou 2), não documentado pela AR.
@@ -772,7 +772,7 @@ models:
       date_raw: Data única ou período tal como publicado nos apoios e serviços da V5.
       source: Fonte da linha, ar_open_data ou ept.
       paid_raw: Remuneração tal como publicada, S ou N na AR, 1 ou 0 na EpT (não documentado pela EpT).
-      entity_nipc: NIPC da entidade, só na EpT e só quando é um NIPC de empresa válido (dígito de controlo mod 11, começa por 5, 6, 8, 9, 71, 72, 77 ou 79). Nulo nos outros casos.
+      entity_nipc: NIPC da entidade, só na EpT e só quando é um NIPC de empresa válido (dígito de controlo mod 11, começa por 5, 6, 71, 72 ou 79). Nulo nos outros casos, incluindo 8, 9x e 77, que podem identificar uma pessoa.
       beneficiary: Beneficiário de um apoio ou benefício tal como escrito. Só EpT.
       beneficiary_company: Empresa do beneficiário, nos apoios. Só EpT.
       share_value_eur: Valor da participação social em euros, tal como escrito. Só EpT.

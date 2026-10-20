@@ -21,6 +21,7 @@ ACT = "2c6d9562-dea5-488b-9afe-42519c636daf"
 SUP = "62fb0107-a68d-4ba2-822b-bc8adc54369b"
 SER = "b1f8c095-fe0c-4bb3-b493-902dc0c31232"
 SOC = "9b58c917-b14c-4eed-9b3c-40c3d99d45da"
+ASSOC = "cd0e811a-d9bb-49ee-b0f0-1dae0680eb22"
 
 
 def with_check(base8: str) -> str:
@@ -34,11 +35,12 @@ def bad_check(base8: str) -> str:
     return good[:8] + str((int(good[8]) + 1) % 10)
 
 
-VALID = {
-    p: with_check(p + "0" * (8 - len(p))) for p in ("5", "6", "8", "9", "71", "72", "77", "79")
-}
+VALID = {p: with_check(p + "0" * (8 - len(p))) for p in ("5", "6", "71", "72", "79")}
+# 8 (old sole-trader range), 9x (condominiums, irregular companies, sole traders' estates)
+# and 77 can identify a person: never kept.
+WIDER = {p: with_check(p + "1" * (8 - len(p))) for p in ("8", "90", "91", "98", "77")}
 PERSONAL = {p: with_check(p + "0" * (8 - len(p))) for p in ("1", "2", "3", "4")}
-OTHER_7X = {p: with_check(p + "0" * 6) for p in ("70", "73", "74", "75", "76", "78")}
+OTHER_7X = {p: with_check(p + "0" * 6) for p in ("70", "73", "74", "75", "76", "77", "78")}
 WRONG_CHECK = bad_check("5" + "1" * 7)
 
 
@@ -48,6 +50,8 @@ def raw_with_leaks():
     for tab in raw["data"]["data"]["value"]:
         if tab["key"] == ept.TAB4:
             for sec in tab["value"][0]["value"]:
+                if sec["key"] not in ept.SECTIONS:
+                    continue
                 for row in sec["value"]:
                     for cell in row["value"]:
                         col = cell["key"].rsplit("-", 1)[-1]
@@ -128,7 +132,7 @@ def test_strip_keeps_metadata_and_tab4_only():
     assert len(acts) == 2
     assert set(acts[0]) == {"col1", "col2", "col3", "col4", "col5", "col6", "col7"}
     assert acts[1]["col7"] is None
-    assert out["tab4"]["cd0e811a-d9bb-49ee-b0f0-1dae0680eb22"] == []
+    assert ASSOC not in out["tab4"]
 
 
 def test_strip_drops_personal_range_values_from_the_nipc_column():
@@ -146,6 +150,8 @@ def nipc_raw(values):
     tab4 = next(t for t in raw["data"]["value"] if t["key"] == ept.TAB4)
     cells = []
     for sec in tab4["value"][0]["value"]:
+        if sec["key"] not in ept.SECTIONS:
+            continue
         nif_col = ept.SECTIONS[sec["key"]][1]
         for row in sec["value"]:
             if row["isEmpty"]:
@@ -168,7 +174,15 @@ def test_strip_keeps_a_valid_company_nipc(prefix):
 
 @pytest.mark.parametrize(
     "value",
-    [*PERSONAL.values(), *OTHER_7X.values(), WRONG_CHECK, "NIPC sintético", "5" * 8, "5" * 10],
+    [
+        *PERSONAL.values(),
+        *OTHER_7X.values(),
+        *WIDER.values(),
+        WRONG_CHECK,
+        "NIPC sintético",
+        "5" * 8,
+        "5" * 10,
+    ],
 )
 def test_strip_drops_anything_else_in_the_nipc_column(value):
     raw, cells = nipc_raw([value] * 4)
@@ -183,6 +197,7 @@ def test_is_company_nipc():
     assert all(ept.is_company_nipc(v) for v in VALID.values())
     assert not any(ept.is_company_nipc(v) for v in PERSONAL.values())
     assert not any(ept.is_company_nipc(v) for v in OTHER_7X.values())
+    assert not any(ept.is_company_nipc(v) for v in WIDER.values())
     assert not ept.is_company_nipc(WRONG_CHECK)
     assert not ept.is_company_nipc(int(VALID["5"]))
 
@@ -480,3 +495,53 @@ def test_search_is_paged(tmp_path):
     client = ept.Client(post=api, throttle=None, page_size=1)
     assert [d["id"] for d in client.declarations(510, 1)] == [10, 11]
     assert len(client.titularidades(510)) == 2
+
+
+@pytest.mark.parametrize("value", [*WIDER.values(), *PERSONAL.values()])
+def test_guard_fails_on_a_sole_trader_condominium_or_77_number_in_the_nipc_column(value):
+    with pytest.raises(ept.LeakError) as e:
+        ept.assert_clean(stored(ACT, ept.SECTIONS[ACT][1], value))
+    assert value not in str(e.value)
+
+
+def test_nipc_prefixes_match_privacy():
+    from parlamento_aberto import privacy
+
+    for d in range(100):
+        prefix = f"{d:02d}"
+        assert bool(ept.NIPC_PREFIX.match(prefix)) == prefix.startswith(privacy.COMPANY_PREFIXES)
+
+
+# Associations (Reg. EpT 258/2024, art. 15.º, n.º 1, al. b): never parsed or stored
+
+
+def raw_with_association():
+    """The fixture with every association cell visible and filled with synthetic text."""
+    raw = copy.deepcopy(RAW)
+    tab4 = next(t for t in raw["data"]["data"]["value"] if t["key"] == ept.TAB4)
+    sec = next(s for s in tab4["value"][0]["value"] if s["key"] == ASSOC)
+    for row in sec["value"]:
+        row["isEmpty"] = False
+        for cell in row["value"]:
+            cell["isVisible"] = True
+            col = cell["key"].rsplit("-", 1)[-1]
+            cell["value"] = VALID["5"] if col == "col8" else f"Associação sintética {col}"
+    return raw
+
+
+def test_strip_drops_the_association_section():
+    out = ept.strip(raw_with_association()["data"])
+    ept.assert_clean(out)
+    text = dumps(out)
+    assert ASSOC not in text
+    assert "Associação sintética" not in text
+    assert VALID["5"] not in text
+    assert ASSOC not in ept.SECTIONS
+    assert ASSOC in ept.DROPPED_SECTIONS
+
+
+def test_guard_fails_on_a_stored_association_section():
+    with pytest.raises(ept.LeakError):
+        ept.assert_clean({"id": 1, "tab4": {ASSOC: []}})
+    with pytest.raises(ept.LeakError):
+        ept.assert_clean({"id": 1, "tab4": {ASSOC: [{"col1": "x"}]}})

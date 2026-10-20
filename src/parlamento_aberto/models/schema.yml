@@ -779,6 +779,7 @@ models:
       submitted_at: Hora de entrega tal como publicada (submitedDate).
       submitted_date: Entrega como dia em Europe/Lisbon.
       is_current: Verdadeiro para a declaração publicada mais recente sem sucessora, por titular, órgão e cargo.
+      retrieved_at: Dia (Lisboa) em que a declaração foi obtida da EpT. Nulo nas declarações guardadas antes de #45.
 
   stg_ept_registo_interesses__items:
     description: >-

@@ -151,6 +151,7 @@ DECLARATION_COLUMNS = {
     "submitted_at": "VARCHAR",
     "submitted_date": "DATE",
     "is_current": "BOOLEAN",
+    "retrieved_at": "DATE",
 }
 AR_ITEM_COLUMNS = {
     "declaration_key": "VARCHAR",
@@ -347,6 +348,7 @@ def parse_declaration(rec: dict, ranges: Ranges, source_file: str) -> tuple[dict
         supersedes_declaration_id=rec.get("relatedDeclarationId"),
         submitted_at=_text(rec.get("submitedDate")),
         submitted_date=submitted,
+        retrieved_at=_text(rec.get("retrieved_at")),
     )
     return decl, items
 

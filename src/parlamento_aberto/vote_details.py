@@ -45,7 +45,7 @@ def detail_items(detail: str) -> list[dict]:
     return [{"detail": detail, "item_number": n, **row} for n, row in enumerate(rows, 1)]
 
 
-def build_detail_items(con: duckdb.DuckDBPyConnection) -> None:
+def build_detail_items(con: duckdb.DuckDBPyConnection, data_dir: str | None = None) -> None:
     union = " union ".join(f"select detail from {t} where detail is not null" for t in SOURCES)
     details = [
         d for (d,) in con.sql(f"select distinct detail from ({union}) order by 1").fetchall()

@@ -33,3 +33,9 @@ It must be a GitHub App installation token or a fine-grained personal access tok
 `GITHUB_TOKEN` cannot replace it: PRs it opens do not trigger CI, and merges it makes do not trigger later workflows. If the secret is missing, data-sync and data-merge stop at their first step with an error naming `DATA_BOT_TOKEN`. The discover job still runs without it: it pushes nothing and lists any new links in its issue, which it opens with `GITHUB_TOKEN`.
 
 Merge policy while native auto-merge is unavailable: `data-merge.yml` runs when CI finishes on the `data/nightly` PR and squash-merges it if CI passed on the PR's current head and it has no `hold:` label. Held PRs wait for Rodrigo.
+
+## Data releases
+
+`.github/workflows/data-release.yml` runs on every push to `main` that touches `data/`, `src/` or `docs/data-changelog.md`. It skips when `main` has no `data/_meta/sources.lock.json`. Otherwise it runs all data tests on `data/`, builds the release assets and checks row counts against the latest release. It uses `GITHUB_TOKEN` only, with `contents: write` for this job.
+
+Publishing waits for Rodrigo's OK, since the first public release goes out with the repo going public. Until the repository variable `DATA_RELEASES` (Settings, Secrets and variables, Actions, Variables) is set to `on`, each run uploads the assets as a workflow artifact, kept for 7 days, and creates no release or tag.

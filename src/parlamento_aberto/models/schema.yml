@@ -1,5 +1,11 @@
+# Version of the published schema, in manifest.json. Bump the major on a breaking change
+# (a column removed or renamed, a type changed); the site refuses an unknown major.
+schema_version: "1.0.0"
+
 # Every model, in run order, with a description of every column.
-# The data dictionary (#10) is generated from this file.
+# The data dictionary in docs/dictionary is generated from this file
+# (uv run python -m parlamento_aberto.dictionary). An optional quirks list on a model
+# goes on its page, for example where the JSON disagrees with the old mappers.
 models:
   seed_seats:
     description: >-
@@ -106,6 +112,38 @@ models:
       group_acronym: Group acronym, for example PS.
       name: Full name of the party or group.
 
+  seed_coalitions:
+    description: >-
+      Hand-kept list of the electoral coalitions that won seats, one row per legislature,
+      coalition list and parliamentary group it maps to, each row citing its source. Started
+      from the old coalition_detector.py, keeping only coalitions that elected deputies and
+      groups that exist in parliamentary_groups.
+    columns:
+      legislature: Legislature in Roman numerals (the data folder name) the election filled.
+      coalition: Short name the coalition is known by, for example AD or CDU.
+      ballot_acronym: Acronym of the list on the ballot, for example PCP-PEV or PPD/PSD.CDS-PP.
+      coalition_name: Name of the coalition list.
+      group_code: Parliamentary group its deputies sat in, as listed in that legislature's parliamentary_groups.
+      source_url: Reference for the composition of the coalition.
+      election_url: CNE page of the election, with the official results map.
+      note: Exceptions, for example circles where the parties ran separately.
+
+  coalitions:
+    description: >-
+      One row per legislature, coalition list and parliamentary group, from seed_coalitions.
+      Use it to read results by group: for example AD in XVII sits as PSD and CDS-PP, and CDU
+      as PCP (and PEV until XIV). Parties that ran alone are not listed.
+    columns:
+      legislature: Legislature in Roman numerals.
+      coalition: Short name the coalition is known by, for example AD or CDU.
+      ballot_acronym: Acronym of the list on the ballot.
+      coalition_name: Name of the coalition list.
+      group_code: Parliamentary group, joins to parliamentary_groups on legislature and group_acronym.
+      group_name: Name of that group in parliamentary_groups.
+      source_url: Reference for the composition of the coalition.
+      election_url: CNE page of the election, with the official results map.
+      note: Exceptions, for example circles where the parties ran separately.
+
   deputies:
     description: One row per person (cadastro_id) who appears on any list, elected or not. Use mandates to find who sat when.
     columns:
@@ -134,6 +172,9 @@ models:
       effective period for the same person starting on D + 1) do not count, up to that excess
       and the number of people starting a seat on D. Counts for Constituinte to VI are still
       overstated on many days, see docs/known-gaps.md.
+    quirks:
+      - >-
+        InformacaoBase lists everyone on the lists of a legislature, elected or not: 1,446 people for XVII at the 20 Oct 2026 sync, against 230 seats. Count seats from the is_effective periods that cover a date, not from rows of the lists. The old site counted every record as a deputy.
     columns:
       legislature: Legislature in Roman numerals.
       cadastro_id: Person id, joins to deputies.
@@ -146,6 +187,9 @@ models:
 
   group_memberships:
     description: One row per deputy, legislature and parliamentary group period (DepGP).
+    quirks:
+      - >-
+        AR writes the extract date as the end date of an open membership. The old mapper stored that date as published, so open memberships looked closed. Here an open membership has a null end_date and is_open = true.
     columns:
       legislature: Legislature in Roman numerals.
       cadastro_id: Person id, joins to deputies.
@@ -299,6 +343,9 @@ models:
       One row per vote id, from the Votacao arrays of Iniciativas events (plenary), of
       their Comissao entries (committee) and the VotacaoDebate arrays of Atividades (plenary). A vote on several initiatives voted together is
       published on each of them with the same content, so it is kept once.
+    quirks:
+      - >-
+        A vote on several initiatives is published on each of them with the same content, so vote ids repeat in the source. The old mapper stored one row per event the vote was published on. Here it is one row per vote id, and initiative_votes links it to every initiative and event.
     columns:
       vote_id: AR id of the vote.
       legislature: Legislature the vote date falls in. Can differ from the initiative's legislature.
@@ -418,6 +465,9 @@ models:
       One row per intervention in plenary, with debate, speaker and diary reference. The speaker
       is a deputy (cadastro_id), a government member or an invited guest. Records AR publishes
       with every key null are dropped.
+    quirks:
+      - >-
+        AR publishes some Intervencoes records with every key null. They are dropped here, so row counts are below the record counts in sources.lock.json, which the staging model matches.
     columns:
       legislature: Legislature in Roman numerals.
       intervention_id: AR id of the intervention.
@@ -449,6 +499,9 @@ models:
 
   questions:
     description: One row per pergunta or requerimento a deputy sent to government or another public body.
+    quirks:
+      - >-
+        Some published send dates are impossible, for example 2909-07-30 in X. The old mapper kept ISO dates as published. Here sent_date is null and sent_date_invalid is true, and sent_date_raw keeps the published text.
     columns:
       legislature: Legislature in Roman numerals.
       question_id: AR id of the question or request.
@@ -487,3 +540,107 @@ models:
       is_withdrawn: True when it was withdrawn (retirado).
       answer_count: Answers received from this recipient.
       first_answer_date: Date of the first answer, null without one.
+
+  stg_registo_interesses__files:
+    description: >-
+      RegistoInteresses, one row per file. Every file lists the same people (the XVII
+      lists), and only XI to XV hold declarations. Built by a Python model
+      (interests.py), which fails on a format or list it does not know.
+    columns:
+      legislature: Legislature in Roman numerals, from the file path.
+      source_file: Normalised file, relative to data/.
+      people: Records in the file, one per person.
+      declarations: Declarations found in it.
+
+  stg_registo_interesses__declarations:
+    description: >-
+      RegistoInteresses declarations, one row each, from cadRgi (V1, V2), RecordInterests
+      (V3) or the V5 form. Dates are as published.
+    columns:
+      declaration_key: Key built as legislature-cadastro_id-n, n counting the person's declarations in the file.
+      cadastro_id: Person id (cadId, RecordId or IdCadastroGODE).
+      format_version: Format of the record, V1, V2, V3 or V5.
+      declaration_id: AR id of the declaration (rgiId or FactoDeclaracao.Id). V3 publishes none.
+      declared_legislature: Legislature the declaration names (rgiLegDes or Legislatura). V3 names none, so it is the file's.
+      position: Office declared (rgiCargoDes, PositionDesignation or CargoFuncao).
+      position_start_raw: Start of the office as published (rgiCargoData, a year, PositionBeginDate or DataInicioFuncao).
+      position_changed_raw: Date the office changed as published (PositionChangedDate or DataAlteracaoFuncao).
+      position_end_raw: End of the office as published (PositionEndDate or DataCessacaoFuncao).
+      version_date_raw: Date of this version of the declaration (rgiDataVersao), V1 and V2 only.
+      is_exclusive: Office held in exclusivity (V3 Exclusivity, V5 Exclusividade). Null for V1 and V2.
+      items: Number of declared items, one row each in stg_registo_interesses__items.
+      legislature: Legislature in Roman numerals, from the file path.
+      source_file: Normalised file the row was read from, relative to data/.
+
+  stg_registo_interesses__items:
+    description: >-
+      One row per declared item, as published. Free-text fields of V1 and V2 (and V1
+      activities) become one item each.
+    columns:
+      declaration_key: Declaration the item belongs to.
+      item_number: Position of the item within the declaration.
+      category: activity, social_position, society, support, service or other_situation.
+      source_list: Published list or field the item comes from, for example rgiCargosSociais or GenCargosMenosTresAnos.
+      item_id: AR id of the item, when published.
+      type_code: V3 Type code as published (0, 1 or 2), undocumented by the AR.
+      description: Activity, office, support, service or situation as written.
+      entity: Entity, company or body named.
+      nature: Nature of the entity or benefit (V5 Natureza, NaturezaBeneficio).
+      activity_area: Area of activity.
+      location: Head office or place.
+      share: Shareholding as written, for societies.
+      paid_raw: Paid flag as published (S, N, or 0 in V5).
+      start_date_raw: Start date as published, a year, a month or a day.
+      end_date_raw: End date as published.
+      date_raw: Single date or period as published for V5 supports and services.
+      legislature: Legislature in Roman numerals, from the file path.
+      source_file: Normalised file the row was read from, relative to data/.
+
+  interest_declarations:
+    description: >-
+      One row per declaration in the register of interests, XI to XV. XVI and XVII are not in
+      the AR open data (declarations moved to the Entidade para a Transparência). Only people on
+      the XVII lists are covered, since every file lists those people. Names, spouse, marital
+      status, property regime, tax and contact fields are left out; join deputies for names.
+    columns:
+      legislature: Legislature in Roman numerals, from the file.
+      declaration_key: Key of the declaration, joins to interests.
+      cadastro_id: Person id, joins to deputies.
+      format_version: Published format, V1 (XI), V2 (XII, XIII), V3 (XIV) or V5 (XIV, XV).
+      declaration_id: AR id of the declaration. Null for V3, which publishes none.
+      position: Office declared, for example Deputado.
+      position_start_date: Start of the office, when published as a full date.
+      position_changed_date: Date the office changed, when published as a full date.
+      position_end_date: End of the office, when published as a full date.
+      position_start_raw: Start of the office as published. V1 and V2 publish a year.
+      version_date: Date of this version of the declaration, V1 and V2 only.
+      is_exclusive: Office held in exclusivity. Null for V1 and V2.
+      items: Number of rows in interests for this declaration.
+
+  interests:
+    description: >-
+      One row per declared interest: activities and offices, social positions, societies,
+      supports, services and other situations. Text is as published, so free-text items can
+      read "Nada a declarar". The JSON wins over the old mapper: V1 publishes activities as
+      one free-text field, and V5 is read too (XIV, XV), since the dump has it.
+    columns:
+      legislature: Legislature in Roman numerals.
+      declaration_key: Declaration, joins to interest_declarations.
+      item_number: Position of the item within the declaration.
+      cadastro_id: Person id, joins to deputies.
+      category: activity, social_position, society, support, service or other_situation.
+      source_list: Published list or field the item comes from, for example GenCargosMaisTresAnos.
+      item_id: AR id of the item, when published.
+      type_code: V3 Type code as published (0, 1 or 2), undocumented by the AR.
+      description: Activity, office, support, service or situation as written.
+      entity: Entity, company or body named.
+      nature: Nature of the entity or benefit, V5 only.
+      activity_area: Area of activity.
+      location: Head office or place.
+      share: Shareholding as written, for societies.
+      is_paid: True for S, false for N. Null otherwise, including the 0 V5 publishes.
+      start_date: Start date, when published as a full date.
+      end_date: End date, when published as a full date.
+      start_date_raw: Start date as published, a year, a month or a day.
+      end_date_raw: End date as published.
+      date_raw: Single date or period as published for V5 supports and services.

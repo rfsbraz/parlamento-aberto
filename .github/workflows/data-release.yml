@@ -1,0 +1,96 @@
+name: data release
+
+# On every push to main that touches data or code: build staging and marts, run all data
+# tests, and build the release assets (one Parquet and one gzipped CSV per mart,
+# manifest.json, CHANGELOG.md). A failing test or an unacknowledged row drop stops the run
+# before anything is published, so the previous release stays latest.
+#
+# Publishing is off until Rodrigo sets the repository variable DATA_RELEASES to "on"
+# (the first public release needs his OK). Until then each run uploads the assets as a
+# workflow artifact instead. Only GITHUB_TOKEN is used; no secret is needed.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "src/**"
+      - "docs/data-changelog.md"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: data-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - name: Check for data
+        id: data
+        run: |
+          if [ -f data/_meta/sources.lock.json ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No data/_meta/sources.lock.json on main yet, nothing to release."
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: astral-sh/setup-uv@v6
+        if: steps.data.outputs.present == 'true'
+
+      - name: Install
+        if: steps.data.outputs.present == 'true'
+        run: uv sync --locked
+
+      - name: Data tests
+        if: steps.data.outputs.present == 'true'
+        env:
+          PA_DATA_DIR: data
+          PARLAMENTO_DATA_DIR: data
+        run: uv run pytest
+
+      - name: Previous release
+        if: steps.data.outputs.present == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/previous"
+          gh release list --limit 1000 --json tagName --jq '.[].tagName' > "$RUNNER_TEMP/tags.txt"
+          if [ -s "$RUNNER_TEMP/tags.txt" ]; then
+            gh release download --pattern manifest.json --pattern CHANGELOG.md --dir "$RUNNER_TEMP/previous"
+          fi
+
+      - name: Build release
+        id: build
+        if: steps.data.outputs.present == 'true'
+        run: |
+          uv run python -m parlamento_aberto.release build --data data --out "$RUNNER_TEMP/release" \
+            --sha "$GITHUB_SHA" --date "$(TZ=Europe/Lisbon date +%F)" \
+            --previous "$RUNNER_TEMP/previous" --tags "$(tr '\n' ' ' < "$RUNNER_TEMP/tags.txt")" \
+            | tee -a "$GITHUB_OUTPUT"
+
+      - name: Keep the assets
+        if: steps.data.outputs.present == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-release
+          path: ${{ runner.temp }}/release
+          retention-days: 7
+
+      - name: Publish
+        if: steps.data.outputs.present == 'true' && vars.DATA_RELEASES == 'on'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.build.outputs.tag }}
+        run: |
+          gh release create "$TAG" "$RUNNER_TEMP"/release/* --target "$GITHUB_SHA" \
+            --title "$TAG" --notes-file "$RUNNER_TEMP/release/CHANGELOG.md" --latest

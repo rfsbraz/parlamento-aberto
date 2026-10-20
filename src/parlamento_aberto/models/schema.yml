@@ -313,6 +313,28 @@ models:
       source_url: Reference for the mapping.
       note: Why the alias exists.
 
+  seed_ept_holders:
+    description: >-
+      EpT holder to AR cadastro_id crosswalk (#47), one row per Entidade para a Transparência
+      holder who is a Deputado or Deputada at entity 4508 (XVII) or 510 (before XVII). Written by
+      python -m parlamento_aberto.ept_crosswalk from the EpT titularidade lists and InformacaoBase
+      XIV to XVII, matching the normalised full name within the legislatures the body covers, and
+      taking every other holder from seed_ept_holder_overrides. Ids only. Two holder ids can share a
+      cadastro_id when EpT filed one person under a new holder id at the other body.
+    columns:
+      ept_holder_id: EpT holder id (holderId), unique.
+      cadastro_id: AR cadastro id of the deputy, null when unmatched.
+      match: name (normalised full name, one candidate), override (from seed_ept_holder_overrides) or unmatched (no AR deputy found).
+
+  seed_ept_holder_overrides:
+    description: >-
+      Hand-kept EpT holders the name match leaves with no candidate or more than one, each with a
+      note on how it was resolved (#47). An empty cadastro_id marks a holder with no AR deputy.
+    columns:
+      ept_holder_id: EpT holder id (holderId).
+      cadastro_id: AR cadastro id picked by hand, null when no AR deputy was found.
+      note: Why this cadastro_id, or why none.
+
   initiatives:
     description: One row per initiative.
     columns:

@@ -6,7 +6,9 @@
 -- Votes without a detail take absent groups and deputies from the ausencias field.
 -- Unanimous votes that list no favour, against or abstention position get a favour
 -- row for every other group seated on the vote date, with inferred = true. For a
--- plenary vote, seated follows the same rule as the seated_on(d) macro. For a committee
+-- plenary vote, seated follows the period rule of the seated_on(d) macro (latest start,
+-- then the longer period), without its tie on effective periods or its swap-day step: on
+-- a swap day both deputies count, which can only add a group for that one day. For a committee
 -- vote, it means the groups with an active effective member of that committee on the
 -- day (ComposicaoOrgaos: sioDes Ativo, sioTipMem Efetivo; on overlapping situation
 -- periods the latest-starting wins, then the longer one).

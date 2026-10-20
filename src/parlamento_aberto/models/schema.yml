@@ -125,8 +125,13 @@ models:
       Who held a seat on day D is the seated_on(D) query, not a column. AR periods for one
       person can overlap on a handover day, for example an Efetivo and a Suspenso period that
       both cover the same day. The rule: among a person's periods covering D, the one that
-      starts latest wins, and on a tie the longer one (an open end counts as longest) wins.
-      The person is seated if that period is Efetivo, Efetivo Temporário or Efetivo Definitivo.
+      starts latest wins, on a tie the longer one (an open end counts as longest) wins, and on
+      a tie in both dates the effective one wins. The person is seated if that period is
+      Efetivo, Efetivo Temporário or Efetivo Definitivo. On a swap day, when a circle has more
+      deputies on D than on both D - 1 and D + 1, effective periods that end on D (with no
+      effective period for the same person starting on D + 1) do not count, up to that excess
+      and the number of people starting a seat on D. Counts for Constituinte to VI are still
+      overstated on many days, see docs/known-gaps.md.
     columns:
       legislature: Legislature in Roman numerals.
       cadastro_id: Person id, joins to deputies.

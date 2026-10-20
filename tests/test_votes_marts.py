@@ -14,13 +14,15 @@ from parlamento_aberto.build import build
 FIXTURES = Path(__file__).parent / "fixtures" / "data"
 DATA_DIR = Path(os.environ.get("PARLAMENTO_DATA_DIR", FIXTURES))
 fixture_only = pytest.mark.skipif(DATA_DIR != FIXTURES, reason="pinned to the fixtures")
+data_only = pytest.mark.skipif(DATA_DIR == FIXTURES, reason="needs the full data")
 
 # Codes the AR uses in vote details for deputies outside any group. They are not groups.
 NON_GROUP_CODES = {"Indep", "Ninsc"}
-# Codes found in a legislature's votes but missing from its InformacaoBase groups, left as
-# published until someone decides what to do with them. PPD: I-B lists the party as PSD.
+# Codes found in a legislature's votes but missing from its InformacaoBase groups even after
+# the alias seed, left as published until someone decides what to do with them.
 # PSN: 6 votes dated in VII on VI initiatives list PSN, which had no seat in VII.
-KNOWN_UNLISTED_CODES = {("I-B", "PPD"), ("VII", "PSN")}
+KNOWN_UNLISTED_CODES = {("VII", "PSN")}
+GROUP_CODE_MARTS = ("vote_group_positions", "vote_deputy_dissents", "initiative_authors")
 # Share of named dissenters per legislature allowed to stay without a cadastro_id.
 MAX_UNMATCHED_DISSENTER_SHARE = 0.01
 
@@ -48,13 +50,14 @@ def test_every_detail_string_is_fully_parsed(con):
 def test_every_group_code_exists_in_its_legislature(con):
     rows = con.sql(
         """
-        select distinct c.legislature, c.group_acronym
+        select distinct c.legislature, c.group_code
         from (
-            select legislature, group_acronym from vote_group_positions
+            select legislature, group_code from vote_group_positions
             union all
-            select legislature, group_acronym from vote_deputy_dissents
+            select legislature, group_code from vote_deputy_dissents
         ) c
-        left join parliamentary_groups g using (legislature, group_acronym)
+        left join parliamentary_groups g
+          on g.legislature = c.legislature and g.group_acronym = c.group_code
         where g.group_acronym is null
         """
     ).fetchall()
@@ -75,7 +78,7 @@ def test_every_vote_falls_in_a_legislature(con):
 def test_one_position_per_vote_group_and_position(con):
     rows, keys = con.sql(
         """
-        select count(*), count(distinct (vote_id, group_acronym, position))
+        select count(*), count(distinct (vote_id, group_code, position))
         from vote_group_positions
         """
     ).fetchone()
@@ -116,8 +119,8 @@ def test_unmatched_dissenters_stay_under_the_threshold(con):
 
 
 def test_inferred_positions_are_the_groups_seated_that_day(con):
-    # Inferred rows must be exactly the groups seated_on(date) gives, minus groups the vote
-    # already lists (for example as absent).
+    # Inferred rows must be exactly the groups seated_on(date) gives, after the alias seed,
+    # minus groups the vote already lists (for example as absent).
     votes = con.sql(
         """
         select distinct p.vote_id, p.legislature, v.date
@@ -129,23 +132,25 @@ def test_inferred_positions_are_the_groups_seated_that_day(con):
     for vote_id, legislature, day in votes:
         seated = con.execute(
             """
-            select distinct g.group_acronym
+            select distinct coalesce(a.group_code, g.group_acronym)
             from seated_on(?::date) s
             join group_memberships g
               on g.legislature = s.legislature
              and g.cadastro_id = s.cadastro_id
              and g.start_date <= ?::date
              and (g.end_date is null or g.end_date >= ?::date)
+            left join seed_group_aliases a
+              on a.legislature = g.legislature and a.alias = g.group_acronym
             where s.legislature = ?
             """,
             [day, day, day, legislature],
         ).fetchall()
         listed = con.execute(
-            "select group_acronym from vote_group_positions where vote_id = ? and not inferred",
+            "select group_code from vote_group_positions where vote_id = ? and not inferred",
             [vote_id],
         ).fetchall()
         inferred = con.execute(
-            "select group_acronym from vote_group_positions where vote_id = ? and inferred",
+            "select group_code from vote_group_positions where vote_id = ? and inferred",
             [vote_id],
         ).fetchall()
         assert set(inferred) == set(seated) - set(listed), vote_id
@@ -189,8 +194,8 @@ def test_vote_takes_the_legislature_of_its_date(con):
 def test_counts_and_named_dissenters(con):
     rows = con.sql(
         """
-        select group_acronym, position, deputies, inferred from vote_group_positions
-        where vote_id = 171494 and group_acronym = 'PS' order by position
+        select group_code, position, deputies, inferred from vote_group_positions
+        where vote_id = 171494 and group_code = 'PS' order by position
         """
     ).fetchall()
     assert rows == [("PS", "abstention", None, False), ("PS", "against", 2, False)]
@@ -210,8 +215,8 @@ def test_counts_and_named_dissenters(con):
 def test_unanimous_vote_without_detail_infers_every_seated_group(con):
     rows = con.sql(
         """
-        select group_acronym, position, inferred from vote_group_positions
-        where vote_id = 171953 order by group_acronym
+        select group_code, position, inferred from vote_group_positions
+        where vote_id = 171953 order by group_code
         """
     ).fetchall()
     groups = [r[0] for r in rows]
@@ -225,7 +230,7 @@ def test_unanimous_vote_with_an_absent_group_infers_the_rest(con):
     rows = dict(
         con.sql(
             """
-            select group_acronym, position || ':' || inferred from vote_group_positions
+            select group_code, position || ':' || inferred from vote_group_positions
             where vote_id = 150525
             """
         ).fetchall()
@@ -258,7 +263,7 @@ def test_initiative_authors(con):
 def test_non_inscribed_dissenters_match_on_name(con):
     rows = con.sql(
         """
-        select name, group_acronym, cadastro_id is not null from vote_deputy_dissents
+        select name, group_code, cadastro_id is not null from vote_deputy_dissents
         where vote_id = 90081 order by name
         """
     ).fetchall()
@@ -266,3 +271,92 @@ def test_non_inscribed_dissenters_match_on_name(con):
         ("Cristina Rodrigues", "Ninsc", True),
         ("Joacine Katar Moreira", "Ninsc", True),
     ]
+
+
+def test_every_alias_cites_a_source():
+    import csv
+
+    from parlamento_aberto.build import MODELS
+
+    with (MODELS / "seeds" / "group_aliases.csv").open(encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    assert rows
+    for row in rows:
+        assert row["source_url"].startswith("https://"), row
+        assert row["note"].strip(), row
+        assert row["alias"] != row["group_code"], row
+
+
+@pytest.mark.parametrize("mart", GROUP_CODE_MARTS)
+def test_group_code_is_the_alias_or_the_raw_code(con, mart):
+    wrong = con.sql(
+        f"""
+        select m.legislature, m.group_code_raw, m.group_code
+        from {mart} m
+        left join seed_group_aliases a
+          on a.legislature = m.legislature and a.alias = m.group_code_raw
+        where m.group_code is distinct from coalesce(a.group_code, m.group_code_raw)
+        """
+    ).fetchall()
+    assert wrong == []
+
+
+def test_listed_absences_stay_absences(con):
+    # Every absence published in a detail or in ausencias is an absent row, never inferred,
+    # and its group gets no inferred row on that vote.
+    missing = con.sql(
+        """
+        select v.vote_id, i.group_acronym
+        from votes v
+        join stg_votes__detail_items i on i.detail = v.detail
+        where i.kind = 'group' and i.position = 'absent'
+          and not exists (
+              select 1 from vote_group_positions p
+              where p.vote_id = v.vote_id and p.group_code_raw = i.group_acronym
+                and p.position = 'absent' and not p.inferred
+          )
+        union all
+        select v.vote_id, g
+        from votes v, unnest(v.absent_groups) as u(g)
+        where v.detail is null and g not like '%(%'
+          and not exists (
+              select 1 from vote_group_positions p
+              where p.vote_id = v.vote_id and p.group_code_raw = g
+                and p.position = 'absent' and not p.inferred
+          )
+        """
+    ).fetchall()
+    assert missing == []
+    overlap = con.sql(
+        """
+        select a.vote_id, a.group_code
+        from vote_group_positions a
+        join vote_group_positions b
+          on a.vote_id = b.vote_id and a.group_code = b.group_code
+        where a.position = 'absent' and not a.inferred and b.inferred
+        """
+    ).fetchall()
+    assert overlap == []
+
+
+@fixture_only
+def test_listed_absence_on_a_unanimous_activity_vote(con):
+    rows = con.sql(
+        """
+        select group_code, position, inferred from vote_group_positions
+        where vote_id = 150521 and group_code = 'JPP'
+        """
+    ).fetchall()
+    assert rows == [("JPP", "absent", False)]
+
+
+@data_only
+def test_ppd_in_i_b_maps_to_psd(con):
+    rows = con.sql(
+        """
+        select legislature, group_code_raw, group_code, count(*) from vote_group_positions
+        where group_code_raw = 'PPD' and legislature = 'I-B' group by all
+        """
+    ).fetchall()
+    assert [r[:3] for r in rows] == [("I-B", "PPD", "PSD")]
+    assert rows[0][3] > 0

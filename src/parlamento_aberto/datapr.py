@@ -27,6 +27,7 @@ CATCH_UP = "30 8 * * *"
 HOLD_ROW_DROP = "hold: row-drop"
 HOLD_SCHEMA = "hold: schema-change"
 HOLD_NEW = "hold: new-dataset"
+HOLD_SOURCE_CHANGED = "hold: source-changed"
 HISTORICAL = "historical-change"
 DATA = "data"
 
@@ -98,6 +99,8 @@ def labels(reports: list[dict], current: str) -> list[str]:
             out.add(HOLD_ROW_DROP)
         if "key set changed" in flags:
             out.add(HOLD_SCHEMA)
+        if "copy differs" in flags or "copy not checked" in flags:
+            out.add(HOLD_SOURCE_CHANGED)
         if r.get("status") == "new":
             out.add(HOLD_NEW)
         if r.get("status") in ("new", "updated") and legislature_of(r["source"]) != current:

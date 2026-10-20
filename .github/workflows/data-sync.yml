@@ -121,6 +121,7 @@ jobs:
           gh label create "hold: row-drop" --color B60205 --description "Record count dropped over 5%" 2>/dev/null || true
           gh label create "hold: schema-change" --color B60205 --description "Top-level key set changed" 2>/dev/null || true
           gh label create "hold: new-dataset" --color B60205 --description "New dataset or legislature" 2>/dev/null || true
+          gh label create "hold: source-changed" --color B60205 --description "A file that repeated XVII now differs" 2>/dev/null || true
           gh label create "historical-change" --color C5DEF5 --description "Changes outside the current legislature" 2>/dev/null || true
           number=$(gh pr list --head "$BRANCH" --base main --state open --json number --jq '.[0].number // empty')
           if [ -z "$number" ]; then

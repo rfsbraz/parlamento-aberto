@@ -117,6 +117,18 @@ Adding the four II and III files needs fetcher support that is not on main yet:
 
 None of the six files has an entry in `sources.yaml`. The entries for the four (c) files, and a comment recording that the two OrgaoComposicao files stay out, go in #23.
 
+## RegistoInteresses
+
+Every RegistoInteresses file, Constituinte to XV, lists the same 1,446 people: the XVII lists, the same set as AtividadeDeputado. People who are not on the XVII lists have no declarations here. XVI and XVII have no file: declarations moved to the Entidade para a Transparência.
+
+- Constituinte to X carry no declaration, only the person list (V3 with no `RecordInterests`). Constituinte, I-A, I-B and II to X are byte-identical; I differs in 17 records.
+- Declarations sit in XI (V1, 24), XII and XIII (V2, 43 and 61), XIV (V3, 111 declarations for 56 people, and V5, 15) and XV (V5, 98). Each names the legislature of its own file.
+- V1 publishes activities as one free-text field, not a list. V1 and V2 publish supports, services and other situations as free text, which often says "Nada a declarar": 104 of the 129 other situations, 108 of the 151 services and 62 of the 255 supports. They stay as published.
+- Dates are free text: a year, a month, a day in ISO or day-first order, or a period. `start_date` and `end_date` are set only for full ISO dates (1,285 of 2,782 items have a `start_date`); the published text is in the `_raw` columns.
+- V5 publishes `Remunerada` as `N` or `0`, never `S`, so `is_paid` is null for `0`. V3 publishes a `Type` code (0, 1 or 2) that the AR does not document; it is kept as `type_code`.
+
+`test_full_data_declarations_are_pinned` in `tests/test_interests_coalitions.py` pins the declaration counts per legislature and format.
+
 ## Votes
 
 1,130 plenary votes are not unanimous and have no detail (`detalhe`), so the published record does not say how each group voted. 791 come from Iniciativas and 339 from Atividades, spread across every legislature from I to XVII. 445 have no description either. They stay in `votes` with their result, but have no rows in `vote_group_positions` or `vote_deputy_dissents`, and nothing is inferred for them. `test_non_unanimous_votes_without_detail_are_pinned` in `tests/test_committee_votes.py` pins this count.

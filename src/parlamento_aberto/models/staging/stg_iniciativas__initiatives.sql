@@ -25,7 +25,15 @@ select
             'event_id': cast(e.EvtId as bigint),
             'phase': e.Fase,
             'phase_date': cast(e.DataFase as date),
-            'votes': e.Votacao
+            'votes': e.Votacao,
+            'committees': list_transform(
+                e.Comissao,
+                c -> {
+                    'committee_id': cast(c.IdComissao as bigint),
+                    'committee_name': trim(c.Nome),
+                    'votes': c.Votacao
+                }
+            )
         }
     ) as events,
     {legislature} as legislature,
@@ -59,6 +67,20 @@ from read_json(
                 descricao VARCHAR,
                 detalhe VARCHAR,
                 ausencias VARCHAR[]
+            )[],
+            Comissao STRUCT(
+                IdComissao VARCHAR,
+                Nome VARCHAR,
+                Votacao STRUCT(
+                    id VARCHAR,
+                    data VARCHAR,
+                    resultado VARCHAR,
+                    reuniao VARCHAR,
+                    unanime VARCHAR,
+                    descricao VARCHAR,
+                    detalhe VARCHAR,
+                    ausencias VARCHAR[]
+                )[]
             )[]
         )[]'
     }

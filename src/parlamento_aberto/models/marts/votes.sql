@@ -1,14 +1,21 @@
--- One row per vote id. A vote on several initiatives voted together is published on
+-- One row per vote id, plenary and committee. body is 'plenary' or the committee name. A vote on several initiatives voted together is published on
 -- each of them; the copies are identical, so the first by source file is kept.
 -- The legislature is the one the vote date falls in, which is not always the
 -- legislature of the initiative (some initiatives are voted after it ends).
 with records as (
-    select vote_id, 'iniciativas' as source, date, result, meeting, meeting_type, unanimous,
-        description, detail, absent_groups, source_file
+    select vote_id, 'plenary' as body, null::bigint as committee_id, 'iniciativas' as source,
+        date, result, meeting, meeting_type, unanimous, description, detail, absent_groups,
+        source_file
     from stg_iniciativas__votes
     union all
-    select vote_id, 'atividades' as source, date, result, meeting, meeting_type, unanimous,
-        description, detail, absent_groups, source_file
+    select vote_id, committee_name as body, committee_id, 'iniciativas' as source,
+        date, result, meeting, null as meeting_type, unanimous, description, detail,
+        absent_groups, source_file
+    from stg_iniciativas__committee_votes
+    union all
+    select vote_id, 'plenary' as body, null::bigint as committee_id, 'atividades' as source,
+        date, result, meeting, meeting_type, unanimous, description, detail, absent_groups,
+        source_file
     from stg_atividades__votes
 ),
 ranked as (
@@ -22,6 +29,8 @@ select
     r.vote_id,
     l.legislature,
     r.date,
+    r.body,
+    r.committee_id,
     r.source,
     r.result,
     r.unanimous,

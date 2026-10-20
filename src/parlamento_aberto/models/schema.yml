@@ -155,7 +155,7 @@ models:
       author_committee: Committee that authored the initiative, when the author is a committee (IniAutorOutros.iniAutorComissao).
       author_deputies: Deputy authors (IniAutorDeputados) as cadastro_id, name, group_acronym.
       author_groups: Group authors (IniAutorGruposParlamentares) as group acronyms.
-      events: Events (IniEventos) as event_id, phase, phase_date and the raw votes (Votacao).
+      events: Events (IniEventos) as event_id, phase, phase_date, the raw plenary votes (Votacao) and the committees (Comissao) as committee_id, committee_name and their raw votes.
       legislature: Legislature in Roman numerals, from the file path.
       source_file: Normalised file the row was read from, relative to data/.
 
@@ -194,6 +194,37 @@ models:
       description: Description of what was voted (descricao).
       detail: Who voted which way (detalhe), null when absent or empty.
       absent_groups: Groups listed as absent (ausencias).
+      legislature: Legislature in Roman numerals, from the file path.
+      source_file: Normalised file the row was read from, relative to data/.
+
+  stg_iniciativas__committee_votes:
+    description: One row per committee vote record (Votacao inside IniEventos[].Comissao[]).
+    columns:
+      vote_id: AR id of the vote (id). Committee vote ids do not overlap plenary ones.
+      initiative_id: Initiative the record is published on.
+      event_id: Event the committee entry belongs to (EvtId).
+      phase: Phase of that event (Fase).
+      phase_date: Date of that event (DataFase).
+      committee_id: AR id of the committee (IdComissao), the same id as idOrgao in ComposicaoOrgaos.
+      committee_name: Committee name (Nome), trimmed.
+      date: Date of the vote (data).
+      result: Result as published (resultado).
+      meeting: Committee meeting number (reuniao).
+      unanimous: True when the AR marks the vote unanimous (unanime), otherwise false.
+      description: Description of what was voted (descricao), for example MAIORIA or ARTIGO A ARTIGO.
+      detail: Who voted which way (detalhe), null when absent or empty.
+      absent_groups: Groups listed as absent (ausencias).
+      legislature: Legislature of the initiative, from the file path.
+      source_file: Normalised file the row was read from, relative to data/.
+
+  stg_composicao_orgaos__committee_members:
+    description: ComposicaoOrgaos Comissoes, one row per committee member record (HistoricoComposicao).
+    columns:
+      committee_id: AR id of the committee (DetalheOrgao.idOrgao).
+      committee_name: Committee name (DetalheOrgao.nomeSigla), trimmed.
+      cadastro_id: Person id (depCadId), joins to deputies.
+      situations: Membership periods (depSituacao) as status (sioDes, Ativo or Inativo), membership (sioTipMem, Efetivo or Suplente), start_date, end_date.
+      groups: Group periods (depGP) as group_acronym, start_date, end_date. An open period has a null end date.
       legislature: Legislature in Roman numerals, from the file path.
       source_file: Normalised file the row was read from, relative to data/.
 
@@ -250,29 +281,32 @@ models:
 
   votes:
     description: >-
-      One row per vote id, from the Votacao arrays of Iniciativas events and the
-      VotacaoDebate arrays of Atividades. A vote on several initiatives voted together is
+      One row per vote id, from the Votacao arrays of Iniciativas events (plenary), of
+      their Comissao entries (committee) and the VotacaoDebate arrays of Atividades (plenary). A vote on several initiatives voted together is
       published on each of them with the same content, so it is kept once.
     columns:
       vote_id: AR id of the vote.
       legislature: Legislature the vote date falls in. Can differ from the initiative's legislature.
       date: Date of the vote.
+      body: Where the vote was held, plenary or the committee name. Filter on plenary for plenary votes only.
+      committee_id: For a committee vote, the AR id of the committee; null for plenary votes.
       source: iniciativas or atividades.
       result: Result as published, for example Aprovado or Rejeitado.
       unanimous: True when the AR marks the vote unanimous.
-      meeting: Meeting number.
-      meeting_type: Meeting type code, RP for a plenary meeting.
+      meeting: Meeting number (of the plenary or of the committee).
+      meeting_type: Meeting type code, RP for a plenary meeting. Null for committee votes.
       description: Description of what was voted.
       detail: Who voted which way, as published. Null when the AR gives no detail.
       absent_groups: Groups listed as absent, as published.
       source_records: Number of source records with this vote id.
 
   initiative_votes:
-    description: Links votes to the initiatives and events they are published on.
+    description: Links plenary and committee votes to the initiatives and events they are published on.
     columns:
       vote_id: Vote, joins to votes.
       initiative_id: Initiative, joins to initiatives.
       initiative_legislature: Legislature of the initiative.
+      body: Where the vote was held, plenary or the committee name.
       event_id: Event on the initiative that carries the vote.
       phase: Phase of that event, for example Votação na generalidade.
       phase_date: Date of that event.
@@ -282,10 +316,13 @@ models:
       One row per vote, group and position, from the parsed detail. Votes without a detail
       take absent groups and deputies from the ausencias field. A unanimous vote that lists no favour,
       against or abstention position gets a favour row, with inferred = true, for every
-      other group with a deputy seated on the vote date (the seated_on rule).
+      other group present: for a plenary vote, groups with a deputy seated on the vote date
+      (the seated_on rule); for a committee vote, groups with an active effective member of
+      the committee on the vote date, from ComposicaoOrgaos.
     columns:
       vote_id: Vote, joins to votes.
       legislature: Legislature of the vote.
+      body: Where the vote was held, plenary or the committee name.
       group_code: Group code after seed_group_aliases, joins to parliamentary_groups.group_acronym. Indep and Ninsc mark deputies outside any group.
       group_code_raw: Group code as published (or, for inferred rows, as in the deputy's InformacaoBase membership).
       position: favour, against, abstention or absent.
@@ -300,6 +337,7 @@ models:
     columns:
       vote_id: Vote, joins to votes.
       legislature: Legislature of the vote.
+      body: Where the vote was held, plenary or the committee name.
       position: favour, against, abstention or absent.
       name: Name as written in the detail.
       group_code: Group code after seed_group_aliases.

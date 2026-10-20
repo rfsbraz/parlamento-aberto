@@ -5,6 +5,7 @@
 # names: file name for a table. Natural keys and sizes: see PR #2 notes.
 # Per file: listed_on = the legislature page the file is listed on, when not its own;
 # path = dotted path to the record list in the older XML-shaped files; id = per-file id;
+# format = xml for a file read as XML (default json);
 # copy_of = the file only repeats that legislature: fetched and hashed, not stored,
 # and a record outside it holds the data PR (hold: source-changed).
 datasets:
@@ -583,7 +584,19 @@ datasets:
     layout: records
     id: CadId
     files:
+      # The older RegistoBiograficoConstituinte.xml on the Constituinte page: the real
+      # Constituinte register, 313 people (#28). The only file read as XML; the other
+      # RegistoBiograficoConstituinte.xml on that page repeats the current register.
       - legislature: Constituinte
+        format: xml
+        path: RegistoBiografico.RegistoBiograficoList.pt_ar_wsgode_objectos_DadosRegistoBiograficoWeb
+        id: cadId
+        url: "https://app.parlamento.pt/webutils/docs/doc.xml?path=m07VtbDPgpyA1pm4HsEa9DbDRoxtDWzBUeVCvLCQuBRIA1eWeyh5rFb%2fz9G4UWqX7bZVHc9NQnRE5oJw7J3ULzOpUaOr7LQb%2fKlhx08b04syLU6R5nhgTfI%2bt9YrK6vDijcc9QY7eA%2fSQiVcYbMI20uODg0Ql9oedgmDvmx2bY%2fBYpwuiUPIaZlUPodnHR78Cf6DgfguPXgSJCkTPcT8Z5OGVLKzqPBrfZmqXz%2fUcqNnfK%2fSgnCeoik%2fW6KqCmUfRD1fon0OpYlskPmIgGfkzTQ08baswaz33IrdHZKBm2Pkpl4APCu6VgsCN5GEQr6idqYcYlJPRCYfuHuzbnHzpcO%2f2edPNcIkzd12xKxX2ja3slbRQo9Jird5mLT5SlhGWBwoq29kC%2f9bd%2bCFld0%2bSw%3d%3d&fich=RegistoBiograficoConstituinte.xml&Inline=true"
+      # RegistoBiograficoCons_json.txt on the Constituinte page has the same records as the
+      # II and III copies. Fetched and hashed, not stored; a record outside XVII holds the data PR.
+      - legislature: Constituinte
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=paW5jv%2bWSJUpWFDDW%2fDOZMeKPjAxn5jq%2bwknvhZEYVARtQcuwbEQZb7CL3s8JrZjWHe88PdQ2Hr1SbqGcysPqRZXAHv5HwHNkOzgzW0TCMQELit31HqL16BSLw%2bVTM%2ffxpGVzjIf6QiqdzSoWvM%2fEVsXWd75O67yN9%2f7JOHjahnYBfHJ7n57qUda4s%2bffUUzFPmlzSrPi60iC7C0jMWG4drBEI%2bcjuvXWpZF%2bR37SrmKkS%2bd5HSp5OOv1q%2fKbOqoIfUDELDGRdEtimEKVt%2frniom9x5%2brq%2baGlKR9ld3ws7JFDxiYbwLRoc1sJ2BHJHQKUxTa2cQyAMTD0dcM1ZFRVVbPeeUWTd4HeN28Lz7OYeIwUFpRk2Ox1gij38jC01HntO05LG51C7vCVfGQjxJGA%3d%3d&fich=RegistoBiograficoCons_json.txt&Inline=true"
       - legislature: I
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=3iFCP%2fgwvJrlnQbu2l97Q1jiU2zxWIdLy%2ftO6I61sD%2b41zlMaCXmxVMQZJvA419C0jttnH%2f02x5%2fQBkhZ%2fgEgfUtaAFKgI9k9zyU68Keg9Bjowtdld7geuEF5m2A37PWX8p9hUP5tRGaS8XmlqYpnUae%2bOl263M9FVot8G78Y6mnfNFn5TRxf4VYUJ7mvSXKq2Bb5%2fN28Uju%2fYEBp5XyAIextyPkKU5JfVg39ixB5FI7y9Bvhn0WnG8u3mVGQ8x4uMTs%2bCDEvLZpi6vMUCZS6RoszfOs97SsestwReGZyo3hQSDEJ6DgxEXdkCJiuiKWISsap0RhRrxyIwiu7cq%2blFDIrk3vQQKvTN%2fRLz5FOAkDrGVrftm6lJ8%2f9hPeYGGPh37Z0S3%2fLGcjWbW5q4ND3g%3d%3d&fich=RegistoBiograficoI_json.txt&Inline=true"

@@ -62,7 +62,8 @@ models:
   stg_registo_biografico__biographies:
     description: >-
       RegistoBiografico, one row per person record, scalar fields only. II and III come from
-      the older XML-shaped files listed on the AR I Legislatura page (camelCase keys). For
+      the older XML-shaped files listed on the AR I Legislatura page (camelCase keys), and
+      Constituinte from the older RegistoBiograficoConstituinte.xml in the same shape. For
       every other legislature except XVII, the AR file repeats the current register of about
       339 people, so those rows are not that legislature's deputies (docs/known-gaps.md).
     columns:
@@ -116,8 +117,8 @@ models:
       profession: Profession. Null without a RegistoBiografico record.
       biography_legislature: >-
         Legislature of the RegistoBiografico record the biography fields come from, the latest
-        one for the person. Real per-legislature biographies exist only for II and III; XVII is
-        the current register. Null without a RegistoBiografico record.
+        one for the person. Real per-legislature biographies exist only for Constituinte, II and
+        III; XVII is the current register. Null without a RegistoBiografico record.
 
   mandates:
     description: >-

@@ -20,6 +20,7 @@ ROOT = FIX / ept.DATASET
 ACT = "2c6d9562-dea5-488b-9afe-42519c636daf"
 SER = "b1f8c095-fe0c-4bb3-b493-902dc0c31232"
 SOC = "9b58c917-b14c-4eed-9b3c-40c3d99d45da"
+ASSOC = "cd0e811a-d9bb-49ee-b0f0-1dae0680eb22"
 RANGES = [
     ("XIV", dt.date(2019, 10, 25), dt.date(2022, 3, 28)),
     ("XV", dt.date(2022, 3, 29), dt.date(2024, 3, 25)),
@@ -108,10 +109,10 @@ def test_item_rows_match_the_unified_shape():
     assert [i["item_number"] for i in items] == [1, 2, 3, 4, 5]
 
 
-def test_society_support_association_and_other_fields():
+def test_society_support_and_other_fields():
     _, items = parse(load(502, 510))
     by = {i["category"]: i for i in items}
-    assert set(by) == {"association", "support", "society", "other_situation"}
+    assert set(by) == {"activity", "support", "society", "other_situation"}
     soc = by["society"]
     assert soc["entity"] == "Sociedade sintética, Lda" and soc["nature"] == "Quotas"
     assert soc["share_value_eur"] == "5000" and soc["share_pct"] == "10"
@@ -281,6 +282,34 @@ def test_unknown_enum_or_section_fails():
     rec["tab4"]["00000000-0000-4000-8000-000000000000"] = []
     with pytest.raises(ept_interests.EptParseError, match="section"):
         parse(rec)
+
+
+def test_an_association_section_is_never_parsed():
+    # Reg. EpT 258/2024, art. 15.º, n.º 1, al. b): memberships are not public.
+    assert ASSOC not in ept_interests.SECTION_FIELDS
+    rec = load(502, 510)
+    rec["tab4"][ASSOC] = [{"col1": "Associado sintético", "col2": "Associação sintética"}]
+    with pytest.raises((ept.LeakError, ept_interests.EptParseError)):
+        parse(rec)
+    rec["tab4"][ASSOC] = []
+    with pytest.raises((ept.LeakError, ept_interests.EptParseError)):
+        parse(rec)
+
+
+def test_no_fixture_holds_an_association_section():
+    for f in sorted(ROOT.rglob("*.json")):
+        text = f.read_text()
+        assert ASSOC not in text and "Associa" not in text, f.name
+
+
+@pytest.mark.parametrize("base8", ["8" + "1" * 7, "90" + "1" * 6, "91" + "1" * 6, "77" + "1" * 6])
+def test_a_sole_trader_condominium_or_77_value_in_the_input_fails(base8):
+    rec = load(902, 4508)
+    rec["tab4"][ACT][0]["col9"] = with_check(base8)
+    with pytest.raises(ept.LeakError):
+        parse(rec)
+    with pytest.raises(ept.LeakError):
+        ept_interests.assert_rows_clean([], [{"entity_nipc": with_check(base8)}])
 
 
 def test_no_dataset_folder_gives_empty_tables(tmp_path):

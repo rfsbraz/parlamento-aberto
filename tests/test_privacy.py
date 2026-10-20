@@ -29,12 +29,15 @@ def bad_check(n: str) -> str:
 
 PERSON = [nif(p) for p in ("10000001", "23456780", "31111112", "45000003", "70000004")]
 PERSON += [nif(p) for p in ("74000005", "75000006", "78000007")]
-COMPANY = [nif(p) for p in ("50000001", "60000002", "80000003", "90000004")]
-COMPANY += [nif(p) for p in ("71000005", "72000006", "77000007", "79000008")]
+COMPANY = [nif(p) for p in ("50000001", "60000002", "71000005", "72000006", "79000008")]
+# 8 (the old sole-trader range), 9x (condominiums, irregular companies, sole traders'
+# estates) and 77 can identify a person, so they are masked like a personal NIF.
+WIDER = [nif(p) for p in ("80000003", "81234560", "90000004", "91000009", "98000001")]
+WIDER += [nif(p) for p in ("77000007",)]
 
 
 def test_check_digit():
-    for n in PERSON + COMPANY:
+    for n in PERSON + COMPANY + WIDER:
         assert privacy.valid_nif(n)
         assert not privacy.valid_nif(bad_check(n))
     assert not privacy.valid_nif("12345")
@@ -81,6 +84,32 @@ def test_masks_personal_nif_written_in_groups_of_three(sep):
 def test_leaves_company_nipc(n):
     text = f"A empresa X, NIF/NIPC {n}, com sede no Porto."
     assert privacy.mask_text(text) == (text, 0)
+
+
+@pytest.mark.parametrize("n", WIDER)
+@pytest.mark.parametrize("label", ["NIF", "NIF/NIPC", "Contribuinte n.º"])
+def test_masks_sole_trader_condominium_and_77_numbers(label, n):
+    text = f"A entidade, {label} {n}, com sede no Porto."
+    out, count = privacy.mask_text(text)
+    assert n not in out
+    assert (out, count) == (f"A entidade, {label} {M}, com sede no Porto.", 1)
+
+
+@pytest.mark.parametrize("n", WIDER)
+def test_guard_fails_on_an_unmasked_sole_trader_condominium_or_77_number(n):
+    bad = {"1/1.json": dump_record({"t": f"NIF/NIPC {n}"})}
+    with pytest.raises(privacy.UnmaskedError) as e:
+        privacy.guard(bad)
+    assert n not in str(e.value)
+
+
+@pytest.mark.parametrize("n", COMPANY)
+def test_guard_passes_a_company_nipc(n):
+    privacy.guard({"1/1.json": dump_record({"t": f"NIF/NIPC {n}"})})
+
+
+def test_only_five_company_prefixes():
+    assert privacy.COMPANY_PREFIXES == ("5", "6", "71", "72", "79")
 
 
 def test_leaves_numbers_that_fail_the_check_or_have_no_label():

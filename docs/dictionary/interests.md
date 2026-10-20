@@ -1,6 +1,6 @@
 # interests
 
-Uma linha por interesse declarado, das mesmas duas fontes de interest_declarations (ar_open_data, XI a XV, e ept, XVI e XVII): atividades e cargos, cargos sociais, associações, sociedades, apoios, serviços e outras situações. O texto está tal como publicado, por isso os itens de texto livre podem dizer "Nada a declarar". Na AR o JSON prevalece sobre o mapeador antigo: a V1 publica as atividades como um único campo de texto livre, e a V5 também é lida (XIV, XV), porque o dump a contém. Na EpT só entra o separador 4. As primeiras colunas são as de sempre; paid_raw e as colunas da EpT vêm depois. As linhas da EpT ficam fora da licença CC BY 4.0 e fora dos ficheiros publicados até haver autorização de reutilização (Lei n.º 52/2019, art. 17.º).
+Uma linha por interesse declarado, das mesmas duas fontes de interest_declarations (ar_open_data, XI a XV, e ept, XVI e XVII): atividades e cargos, cargos sociais, sociedades, apoios, serviços e outras situações. O texto está tal como publicado, por isso os itens de texto livre podem dizer "Nada a declarar". Na AR o JSON prevalece sobre o mapeador antigo: a V1 publica as atividades como um único campo de texto livre, e a V5 também é lida (XIV, XV), porque o dump a contém. Na EpT só entra o separador 4. As primeiras colunas são as de sempre; paid_raw e as colunas da EpT vêm depois. As linhas da EpT ficam fora da licença CC BY 4.0 e fora dos ficheiros publicados até haver autorização de reutilização (Lei n.º 52/2019, art. 17.º).
 
 Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
@@ -14,7 +14,7 @@ Ficheiros da publicação: `interests.parquet` e `interests.csv.gz`.
 | `declaration_key` | VARCHAR | Declaração, liga a interest_declarations. |
 | `item_number` | INTEGER | Posição do item dentro da declaração. |
 | `cadastro_id` | BIGINT | Id da pessoa, liga a deputies. Na EpT vem de seed_ept_holders e pode ser nulo. |
-| `category` | VARCHAR | activity, social_position, association, society, support, service ou other_situation (atividade, cargo social, associação, sociedade, apoio, serviço ou outra situação). association só existe na EpT. |
+| `category` | VARCHAR | activity, social_position, society, support, service ou other_situation (atividade, cargo social, sociedade, apoio, serviço ou outra situação). Da EpT não entra a filiação em entidades de natureza associativa (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)). |
 | `source_list` | VARCHAR | Lista, campo ou secção publicada de onde vem o item, por exemplo GenCargosMaisTresAnos. |
 | `item_id` | BIGINT | Id do item na AR, quando publicado. Nulo na EpT. |
 | `type_code` | INTEGER | Código Type da V3 tal como publicado (0, 1 ou 2), não documentado pela AR. |
@@ -32,7 +32,7 @@ Ficheiros da publicação: `interests.parquet` e `interests.csv.gz`.
 | `date_raw` | VARCHAR | Data única ou período tal como publicado nos apoios e serviços da V5. |
 | `source` | VARCHAR | Fonte da linha, ar_open_data ou ept. |
 | `paid_raw` | VARCHAR | Remuneração tal como publicada, S ou N na AR, 1 ou 0 na EpT (não documentado pela EpT). |
-| `entity_nipc` | VARCHAR | NIPC da entidade, só na EpT e só quando é um NIPC de empresa válido (dígito de controlo mod 11, começa por 5, 6, 8, 9, 71, 72, 77 ou 79). Nulo nos outros casos. |
+| `entity_nipc` | VARCHAR | NIPC da entidade, só na EpT e só quando é um NIPC de empresa válido (dígito de controlo mod 11, começa por 5, 6, 71, 72 ou 79). Nulo nos outros casos, incluindo 8, 9x e 77, que podem identificar uma pessoa. |
 | `beneficiary` | VARCHAR | Beneficiário de um apoio ou benefício tal como escrito. Só EpT. |
 | `beneficiary_company` | VARCHAR | Empresa do beneficiário, nos apoios. Só EpT. |
 | `share_value_eur` | VARCHAR | Valor da participação social em euros, tal como escrito. Só EpT. |
@@ -152,7 +152,7 @@ Uma linha por linha do separador 4 de uma declaração da EpT em stg_ept_registo
 |---|---|---|
 | `declaration_key` | VARCHAR | Declaração a que o item pertence. |
 | `item_number` | INTEGER | Posição do item dentro da declaração, com as secções pela ordem do separador 4. |
-| `category` | VARCHAR | activity, association, support, service, society ou other_situation (atividade, associação, apoio, serviço, sociedade ou outra situação). |
+| `category` | VARCHAR | activity, support, service, society ou other_situation (atividade, apoio, serviço, sociedade ou outra situação). A secção de filiação em entidades de natureza associativa nunca é lida (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)). |
 | `source_list` | VARCHAR | Designação da secção do separador 4 como a EpT a mostra. |
 | `item_id` | BIGINT | Nulo. As linhas da EpT não têm id. |
 | `type_code` | INTEGER | Nulo. A EpT não tem código de tipo. |
@@ -172,7 +172,7 @@ Uma linha por linha do separador 4 de uma declaração da EpT em stg_ept_registo
 | `is_paid` | BOOLEAN | Nulo. A EpT não diz o que significam 1 e 0. |
 | `start_date` | DATE | Data de início como dia em Europe/Lisbon. |
 | `end_date` | DATE | Data de fim como dia em Europe/Lisbon. |
-| `entity_nipc` | VARCHAR | NIPC da entidade, só quando é um NIPC de empresa válido (9 dígitos, dígito de controlo mod 11, primeiro dígito 5, 6, 8 ou 9, ou prefixo 71, 72, 77 ou 79). Nulo nos outros casos. |
+| `entity_nipc` | VARCHAR | NIPC da entidade, só quando é um NIPC de empresa válido (9 dígitos, dígito de controlo mod 11, primeiro dígito 5 ou 6, ou prefixo 71, 72 ou 79). Nulo nos outros casos, incluindo 8, 9x e 77, que podem identificar uma pessoa. |
 | `beneficiary` | VARCHAR | Beneficiário de um apoio ou benefício tal como escrito. |
 | `beneficiary_company` | VARCHAR | Empresa do beneficiário, nos apoios. |
 | `share_value_eur` | VARCHAR | Valor da participação social em euros, tal como escrito. |

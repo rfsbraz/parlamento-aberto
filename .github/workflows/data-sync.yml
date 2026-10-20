@@ -1,0 +1,139 @@
+name: data sync
+
+# Fetches AR open data and opens or updates one data PR on data/nightly.
+# Scheduled only; PR CI never runs the live fetch. Requests are sequential and
+# gzipped (see src/parlamento_aberto/fetch.py), and nothing runs before 06:00 Lisbon.
+on:
+  schedule:
+    - cron: "15 6 * * *" # nightly, current legislature (skips the 3rd)
+    - cron: "30 5 3 * *" # full sync, 06:30 Lisbon in summer time
+    - cron: "30 6 3 * *" # full sync, 06:30 Lisbon in winter time
+    - cron: "30 8 * * *" # catch-up, stale files only
+  workflow_dispatch:
+    inputs:
+      full:
+        description: Full sync (every legislature)
+        type: boolean
+        default: true
+      dataset:
+        description: Only this dataset, for example iniciativas
+        type: string
+        default: ""
+      legislature:
+        description: Only this legislature, for example XVI
+        type: string
+        default: ""
+
+concurrency:
+  group: data-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  BRANCH: data/nightly
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - uses: astral-sh/setup-uv@v6
+
+      - run: uv sync --locked
+
+      - name: Check DATA_BOT_TOKEN
+        env:
+          DATA_BOT_TOKEN: ${{ secrets.DATA_BOT_TOKEN }}
+        run: uv run python -m parlamento_aberto.datapr check-token
+
+      - name: Plan
+        id: plan
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          FULL: ${{ inputs.full }}
+          DATASET: ${{ inputs.dataset }}
+          LEGISLATURE: ${{ inputs.legislature }}
+        run: |
+          uv run python -m parlamento_aberto.datapr plan --event "$EVENT" --schedule "$SCHEDULE" \
+            --full "${FULL:-false}" --dataset "$DATASET" --legislature "$LEGISLATURE" | tee -a "$GITHUB_OUTPUT"
+
+      - name: Check out data branch
+        if: steps.plan.outputs.mode != 'skip'
+        env:
+          GH_TOKEN: ${{ secrets.DATA_BOT_TOKEN }}
+        run: |
+          # Push as the bot so the PR triggers CI (GITHUB_TOKEN pushes do not).
+          gh auth setup-git
+          git config user.name "parlamento-aberto data bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null; then
+            git switch "$BRANCH"
+            # Keep the open PR current with main. No rebase, no force-push.
+            git merge --no-edit origin/main
+          else
+            git switch -c "$BRANCH"
+          fi
+
+      - name: Fetch, validate and normalise
+        if: steps.plan.outputs.mode != 'skip'
+        env:
+          ARGS: ${{ steps.plan.outputs.args }}
+        run: |
+          # ARGS only holds flags and names checked by datapr plan.
+          # shellcheck disable=SC2086
+          uv run python -m parlamento_aberto fetch $ARGS --report "$RUNNER_TEMP/report.json"
+
+      - name: Commit and push
+        id: commit
+        if: steps.plan.outputs.mode != 'skip'
+        env:
+          MODE: ${{ steps.plan.outputs.mode }}
+        run: |
+          git add data
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "data: $MODE run $(TZ=Europe/Lisbon date +%F)"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+          if [ "$(git rev-list --count origin/main..HEAD)" != "0" ]; then
+            git push origin "$BRANCH"
+            echo "ahead=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open or update the data PR
+        if: steps.commit.outputs.ahead == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.DATA_BOT_TOKEN }}
+          MODE: ${{ steps.plan.outputs.mode }}
+        run: |
+          uv run python -m parlamento_aberto.datapr pr --report "$RUNNER_TEMP/report.json" \
+            --base origin/main --mode "$MODE" --body "$RUNNER_TEMP/body.md" --labels "$RUNNER_TEMP/labels.txt"
+          gh label create "data" --color 0E8A16 --description "Automated AR data update" 2>/dev/null || true
+          gh label create "hold: row-drop" --color B60205 --description "Record count dropped over 5%" 2>/dev/null || true
+          gh label create "hold: schema-change" --color B60205 --description "Top-level key set changed" 2>/dev/null || true
+          gh label create "hold: new-dataset" --color B60205 --description "New dataset or legislature" 2>/dev/null || true
+          gh label create "historical-change" --color C5DEF5 --description "Changes outside the current legislature" 2>/dev/null || true
+          number=$(gh pr list --head "$BRANCH" --base main --state open --json number --jq '.[0].number // empty')
+          if [ -z "$number" ]; then
+            gh pr create --head "$BRANCH" --base main --title "data: AR open data update" --body-file "$RUNNER_TEMP/body.md"
+            number=$(gh pr list --head "$BRANCH" --base main --state open --json number --jq '.[0].number')
+          else
+            gh pr edit "$number" --body-file "$RUNNER_TEMP/body.md"
+          fi
+          # Labels only get added, so a held PR stays held until Rodrigo merges it.
+          while read -r label; do
+            [ -n "$label" ] && gh pr edit "$number" --add-label "$label"
+          done < "$RUNNER_TEMP/labels.txt"
+
+      - name: Fail if a core file has been stale for over 7 days
+        if: steps.plan.outputs.mode != 'skip'
+        run: uv run python -m parlamento_aberto.datapr stale-core

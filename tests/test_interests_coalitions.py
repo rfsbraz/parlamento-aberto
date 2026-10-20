@@ -1,0 +1,328 @@
+"""Interests and coalitions marts (#8).
+
+Runs on the committed fixtures. Set PA_DATA_DIR (or PARLAMENTO_DATA_DIR) to a full data/
+folder to run the same checks on a real sync; the fixture-only checks skip then.
+"""
+
+import csv
+import datetime as dt
+import os
+from pathlib import Path
+
+import pytest
+
+from parlamento_aberto.build import MODELS, build
+from parlamento_aberto.interests import InterestsError, parse_record
+
+FIXTURES = Path(__file__).parent / "fixtures" / "data"
+_data = os.environ.get("PA_DATA_DIR") or os.environ.get("PARLAMENTO_DATA_DIR")
+DATA = Path(_data) if _data else FIXTURES
+ON_FIXTURES = DATA.resolve() == FIXTURES.resolve()
+fixture_only = pytest.mark.skipif(not ON_FIXTURES, reason="pinned to the fixtures")
+data_only = pytest.mark.skipif(ON_FIXTURES, reason="needs the full data")
+
+
+@pytest.fixture(scope="module")
+def con():
+    return build(DATA)
+
+
+def rows(con, sql):
+    return con.sql(sql).fetchall()
+
+
+# --- interests -------------------------------------------------------------------------
+
+
+@fixture_only
+def test_fixture_declarations_per_version(con):
+    # One fixture file per published format: V1 (XI), V2 (XII), V3 and V5 (XIV), V5 (XV).
+    # Constituinte only lists people, with nothing declared, like Constituinte to X.
+    assert rows(
+        con,
+        """
+        select legislature, format_version, count(*), sum(items)
+        from interest_declarations group by all order by 1, 2
+        """,
+    ) == [
+        ("XI", "V1", 1, 4),
+        ("XII", "V2", 3, 15),
+        ("XIV", "V3", 1, 7),
+        ("XIV", "V5", 1, 6),
+        ("XV", "V5", 1, 0),
+    ]
+
+
+@fixture_only
+def test_fixture_items_per_category(con):
+    assert rows(
+        con,
+        """
+        select format_version, category, count(*)
+        from interests join interest_declarations using (declaration_key)
+        group by all order by 1, 2
+        """,
+    ) == [
+        ("V1", "activity", 1),
+        ("V1", "social_position", 1),
+        ("V1", "society", 1),
+        ("V1", "support", 1),
+        ("V2", "activity", 4),
+        ("V2", "other_situation", 3),
+        ("V2", "service", 3),
+        ("V2", "social_position", 1),
+        ("V2", "society", 1),
+        ("V2", "support", 3),
+        ("V3", "activity", 2),
+        ("V3", "other_situation", 1),
+        ("V3", "service", 1),
+        ("V3", "social_position", 1),
+        ("V3", "society", 1),
+        ("V3", "support", 1),
+        ("V5", "activity", 2),
+        ("V5", "other_situation", 1),
+        ("V5", "service", 1),
+        ("V5", "society", 1),
+        ("V5", "support", 1),
+    ]
+
+
+@fixture_only
+def test_fixture_dates_paid_and_exclusivity(con):
+    # Dates are parsed only when published as a full ISO date; the published text stays.
+    assert rows(
+        con,
+        """
+        select start_date_raw, start_date, end_date_raw, end_date, is_paid
+        from interests where category = 'activity' and legislature in ('XII', 'XIV')
+        order by legislature, cadastro_id, declaration_key, item_number
+        """,
+    ) == [
+        ("2010", None, None, None, True),
+        ("2008-03-01", dt.date(2008, 3, 1), "2011-06-19", dt.date(2011, 6, 19), False),
+        ("2005", None, None, None, True),
+        ("2005", None, "2012", None, True),
+        ("2015-02-01", dt.date(2015, 2, 1), None, None, None),
+        ("01-02-2012", None, "2014", None, None),
+        ("2018-01-01", dt.date(2018, 1, 1), None, None, False),
+        ("2010-01-01", dt.date(2010, 1, 1), "2015-12-31", dt.date(2015, 12, 31), None),
+    ]
+    assert rows(
+        con,
+        """
+        select legislature, format_version, cadastro_id, is_exclusive, position_start_date
+        from interest_declarations where format_version in ('V3', 'V5') order by 1, 2
+        """,
+    ) == [
+        ("XIV", "V3", 77, True, dt.date(2019, 10, 25)),
+        ("XIV", "V5", 209, True, dt.date(2022, 3, 29)),
+        ("XV", "V5", 162, False, dt.date(2022, 3, 29)),
+    ]
+
+
+@fixture_only
+def test_fixture_interest_text_is_synthetic(con):
+    for col in ("description", "entity"):
+        values = [v for (v,) in rows(con, f"select {col} from interests") if v]
+        assert values, col
+        assert all(
+            "sintétic" in v or v in ("Vogal", "Presidente", "Nada a declarar") for v in values
+        )
+
+
+def test_marts_leave_out_family_and_contact_fields(con):
+    # Names come from deputies; spouse, marital status, property regime, tax and
+    # contact fields are not republished.
+    cols = {
+        c for t in ("interest_declarations", "interests") for (c, *_) in rows(con, f"describe {t}")
+    }
+    for banned in ("full_name", "spouse_name", "marital_status", "matrimonial_regime", "tax_id"):
+        assert banned not in cols
+
+
+def test_declarations_match_their_file(con):
+    # Every file lists the same people; a declaration must carry the legislature of the
+    # file it is in, or the file is a copy of another legislature.
+    assert (
+        rows(
+            con,
+            """
+        select legislature, declared_legislature, count(*)
+        from stg_registo_interesses__declarations
+        where declared_legislature is distinct from legislature group by all
+        """,
+        )
+        == []
+    )
+    (dupes,) = rows(
+        con,
+        """
+        select count(*) from (
+            select declaration_key from interest_declarations group by 1 having count(*) > 1
+        )
+        """,
+    )[0]
+    assert dupes == 0
+
+
+def test_every_declarant_is_a_deputy(con):
+    assert (
+        rows(
+            con,
+            """
+        select d.legislature, d.cadastro_id from interest_declarations d
+        anti join deputies using (cadastro_id)
+        """,
+        )
+        == []
+    )
+
+
+def test_every_item_belongs_to_a_declaration(con):
+    assert (
+        rows(
+            con,
+            """
+        select i.declaration_key from interests i
+        anti join interest_declarations using (declaration_key)
+        """,
+        )
+        == []
+    )
+    assert (
+        rows(
+            con,
+            """
+        select d.declaration_key from interest_declarations d
+        where d.items <> (
+            select count(*) from interests i where i.declaration_key = d.declaration_key
+        )
+        """,
+        )
+        == []
+    )
+
+
+# Declarations, items and people per legislature and format, from the 20 Oct 2026 sync.
+# XVI and XVII are not in the dump (declarations moved to the Entidade para a
+# Transparência). V3 in XIV has several declarations for some people (111 for 56).
+EXPECTED_FULL = [
+    ("XI", "V1", 24, 76, 24),
+    ("XII", "V2", 43, 402, 43),
+    ("XIII", "V2", 61, 556, 61),
+    ("XIV", "V3", 111, 905, 56),
+    ("XIV", "V5", 15, 165, 15),
+    ("XV", "V5", 98, 678, 98),
+]
+
+
+@data_only
+def test_full_data_declarations_are_pinned(con):
+    got = rows(
+        con,
+        """
+        select legislature, format_version, count(*), sum(items), count(distinct cadastro_id)
+        from interest_declarations group by all order by 1, 2
+        """,
+    )
+    assert got == EXPECTED_FULL
+
+
+@data_only
+def test_full_data_every_file_parses(con):
+    # Every RegistoInteresses file in data/ is read, including the ones with no declaration.
+    files = sorted(p.parent.name for p in (DATA / "registo_interesses").glob("*/records*.ndjson"))
+    assert files
+    staged = [
+        f
+        for (f,) in rows(
+            con, "select distinct legislature from stg_registo_interesses__files order by 1"
+        )
+    ]
+    assert sorted(staged) == files
+
+
+def test_unknown_version_fails():
+    with pytest.raises(InterestsError, match="RegistoInteressesV9"):
+        parse_record({"RegistoInteressesV9": {"x": 1}}, "XV")
+
+
+def test_unknown_list_fails():
+    # A list the parser does not know would be silently dropped, so it fails instead.
+    body = {
+        "IdCadastroGODE": 1.0,
+        "Legislatura": "XV",
+        "FactoDeclaracao": {"Id": 1},
+        "GenNovaLista": [{"Id": 2}],
+    }
+    with pytest.raises(InterestsError, match="GenNovaLista"):
+        parse_record({"RegistoInteressesV5": body}, "XV")
+
+
+# --- coalitions ------------------------------------------------------------------------
+
+
+def seed_rows():
+    path = MODELS / "seeds" / "coalitions.csv"
+    with path.open(encoding="utf-8", newline="") as f:
+        return list(csv.DictReader(f))
+
+
+def test_every_coalition_row_cites_a_source():
+    seed = seed_rows()
+    assert seed
+    for row in seed:
+        assert row["source_url"].startswith("https://"), row
+        assert row["election_url"].startswith("https://www.cne.pt/"), row
+
+
+def test_coalition_rows_are_unique():
+    keys = [(r["legislature"], r["ballot_acronym"], r["group_code"]) for r in seed_rows()]
+    assert len(keys) == len(set(keys))
+
+
+def test_coalition_groups_exist_in_the_groups_mart(con):
+    # On the fixtures only some legislatures have a group list; on full data, all do.
+    missing = rows(
+        con,
+        """
+        select c.legislature, c.coalition, c.group_code from coalitions c
+        where c.legislature in (select legislature from parliamentary_groups)
+        and not exists (
+            select 1 from parliamentary_groups g
+            where g.legislature = c.legislature and g.group_acronym = c.group_code
+        )
+        """,
+    )
+    assert missing == []
+
+
+@data_only
+def test_every_coalition_legislature_has_groups(con):
+    assert (
+        rows(
+            con,
+            """
+        select distinct legislature from coalitions
+        except select legislature from parliamentary_groups
+        """,
+        )
+        == []
+    )
+
+
+@fixture_only
+def test_fixture_coalitions(con):
+    # XVII: AD ran as PPD/PSD.CDS-PP, and with PPM only in the Açores. CDU is PCP alone,
+    # since PEV lost its seats in 2022.
+    assert rows(
+        con,
+        "select coalition, ballot_acronym, group_code, group_name is not null from coalitions "
+        "where legislature = 'XVII' order by 1, 2, 3",
+    ) == [
+        ("AD", "PPD/PSD.CDS-PP", "CDS-PP", True),
+        ("AD", "PPD/PSD.CDS-PP", "PSD", True),
+        ("AD", "PPD/PSD.CDS-PP.PPM", "CDS-PP", True),
+        ("AD", "PPD/PSD.CDS-PP.PPM", "PSD", True),
+        ("CDU", "PCP-PEV", "PCP", True),
+    ]

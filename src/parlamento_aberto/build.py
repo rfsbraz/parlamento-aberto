@@ -5,7 +5,8 @@ Each model is one SELECT in models/<layer>/<name>.sql and becomes a table called
 every column. Seeds are CSV files in models/seeds and load as seed_<name>.
 models/macros.sql holds the seating rule (seated_on, seated_during). It runs right after the
 mandates table is built, so later marts can use it.
-Models listed in PYTHON_MODELS are built by a Python function instead of a SQL file.
+Models listed in PYTHON_MODELS are built by a Python function instead of a SQL file; it gets
+the connection and the data folder, and may write the tables in BUILT_ALONGSIDE too.
 """
 
 from pathlib import Path
@@ -13,11 +14,17 @@ from pathlib import Path
 import duckdb
 import yaml
 
+from parlamento_aberto.interests import build_interest_tables
 from parlamento_aberto.vote_details import build_detail_items
 
 MODELS = Path(__file__).parent / "models"
 LAYERS = ("staging", "marts")
-PYTHON_MODELS = {"stg_votes__detail_items": build_detail_items}
+PYTHON_MODELS = {
+    "stg_votes__detail_items": build_detail_items,
+    "stg_registo_interesses__files": build_interest_tables,
+}
+# Tables a Python model above writes alongside its own.
+BUILT_ALONGSIDE = {"stg_registo_interesses__declarations", "stg_registo_interesses__items"}
 # The seating macros read mandates and are created as soon as it exists.
 MACROS_AFTER = "mandates"
 
@@ -45,7 +52,9 @@ def build(data_dir: Path | str, database: str = ":memory:") -> duckdb.DuckDBPyCo
     con = duckdb.connect(database)
     for name in load_schema():
         if name in PYTHON_MODELS:
-            PYTHON_MODELS[name](con)
+            PYTHON_MODELS[name](con, data_dir)
+            continue
+        if name in BUILT_ALONGSIDE:
             continue
         if name.startswith("seed_"):
             csv = (MODELS / "seeds" / f"{name.removeprefix('seed_')}.csv").as_posix()

@@ -13,8 +13,10 @@ income and assets in other tabs, attachments, and the entity NIF/NIPC in one tab
 ``strip`` keeps an allow-list of metadata keys and the known tab 4 columns only, and
 replaces any 9-digit number left in a value. In the entity NIF/NIPC column it keeps only a
 valid company NIPC (see ``is_company_nipc``) and drops anything else, such as a sole
-trader's personal NIF. Nothing is written before ``assert_clean`` passes, and the raw
-response is never stored or logged.
+trader's personal NIF. The associations section (memberships) is dropped whole, without
+reading a cell: Reg. EpT 258/2024, art. 15.º, n.º 1, al. b) keeps it out of public access.
+Nothing is written before ``assert_clean`` passes, and the raw response is never stored
+or logged.
 
 Requests go one at a time, at most one per second. The run is incremental: a declaration
 is fetched again only when it is new or its state changed. Replaced and modified versions
@@ -53,16 +55,17 @@ PAGE_SIZE = 500
 
 TAB4 = "1483a8d1-adca-4f39-8038-98cc6f728fcb"
 TAB4_GROUP = "88ff2a6e-3702-4687-9f05-2738f70ccbd0"
+# Tab 4 sections that are never read, stored or parsed. Their cells are not looked at.
+DROPPED_SECTIONS = {
+    # Filiação ou funções em entidades de natureza associativa: not public under
+    # Reg. EpT 258/2024, art. 15.º, n.º 1, al. b).
+    "cd0e811a-d9bb-49ee-b0f0-1dae0680eb22": "association",
+}
 # section GUID -> (category, entity NIF/NIPC column or None, other columns kept)
 SECTIONS = {
     "2c6d9562-dea5-488b-9afe-42519c636daf": (
         "activity",
         "col9",
-        ("col1", "col2", "col3", "col4", "col5", "col6", "col7"),
-    ),
-    "cd0e811a-d9bb-49ee-b0f0-1dae0680eb22": (
-        "association",
-        "col8",
         ("col1", "col2", "col3", "col4", "col5", "col6", "col7"),
     ),
     "62fb0107-a68d-4ba2-822b-bc8adc54369b": (
@@ -88,6 +91,7 @@ SECTIONS = {
 }
 for _cat, _nif, _cols in SECTIONS.values():
     assert _nif not in _cols
+assert not set(SECTIONS) & set(DROPPED_SECTIONS)
 
 META_KEYS = (
     "id",
@@ -135,10 +139,13 @@ SEARCH_KEYS = (
 NINE = re.compile(r"(?<!\d)\d{3}[ .-]?\d{3}[ .-]?\d{3}(?!\d)")
 NIF_KEY = re.compile(r"nif|nipc", re.IGNORECASE)
 REMOVED = "[removido]"
-# Company NIPC ranges: 5 (legal persons), 6 (public bodies), 8 and 9 (other and
-# provisional), 71, 72, 77 and 79. 1 to 4 are people, and the other 7x prefixes
-# (estates, sole traders and so on) can identify a person, so they are dropped.
-NIPC_PREFIX = re.compile(r"^(?:[5689]|7[1279])")
+# Company NIPC ranges kept: 5 (legal persons), 6 (public bodies), 71, 72 and 79. Every
+# other prefix can identify a person and is dropped like a personal NIF (Lei 52/2019,
+# art. 17.º, n.º 2, al. a); Reg. EpT 258/2024, art. 15.º, n.º 2, al. a)): 1 to 4 are
+# people, 8 is the old sole-trader range, 9x covers condominiums, irregular companies and
+# sole traders' estates, and the other 7x prefixes, 77 included, are estates and the like.
+# Keep in step with privacy.COMPANY_PREFIXES.
+NIPC_PREFIX = re.compile(r"^(?:[56]|7[129])")
 NIPC_SEPARATORS = re.compile(r"[\s.-]")
 
 
@@ -201,6 +208,8 @@ def _assert_tab4(tab4, path: str) -> None:
         return assert_clean(tab4, path, _top=False)
     for guid, rows in tab4.items():
         here = f"{path}.{guid}"
+        if guid in DROPPED_SECTIONS:
+            raise LeakError(f"{DROPPED_SECTIONS[guid]} section at {here}")
         nif_col = SECTIONS[guid][1] if guid in SECTIONS else None
         if nif_col is None or not isinstance(rows, list):
             assert_clean({guid: rows}, path, _top=False)
@@ -247,6 +256,8 @@ def _tab4(sections: list) -> dict:
     out = {}
     for sec in sections:
         key = sec.get("key")
+        if key in DROPPED_SECTIONS:
+            continue
         if key not in SECTIONS:
             raise ShapeError(f"unknown tab 4 section {key}")
         _, nif_col, cols = SECTIONS[key]

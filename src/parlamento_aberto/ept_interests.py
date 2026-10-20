@@ -62,18 +62,6 @@ SECTION_FIELDS = {
             "col7": "end_date_raw",
         },
     ),
-    "cd0e811a-d9bb-49ee-b0f0-1dae0680eb22": (
-        "Filiação ou funções em entidades de natureza associativa",
-        {
-            "col1": "description",
-            "col2": "entity",
-            "col3": "activity_area",
-            "col4": "location",
-            "col5": "paid_raw",
-            "col6": "start_date_raw",
-            "col7": "end_date_raw",
-        },
-    ),
     "62fb0107-a68d-4ba2-822b-bc8adc54369b": (
         "Apoios ou benefícios",
         {

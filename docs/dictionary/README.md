@@ -46,5 +46,12 @@ Termos: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx
 Todos os CSV de uma publicação começam com essa linha, que também consta do
 `manifest.json`.
 
+As linhas de `interest_declarations` e `interests` com `source = 'ept'` vêm da
+Entidade para a Transparência (XVI e XVII) e não estão cobertas pela CC BY 4.0: a EpT
+não deu autorização de reutilização (Lei n.º 52/2019, art. 17.º). Ficam fora dos
+ficheiros publicados, e o `manifest.json` conta-as em `excluded_sources`. Ver
+[sources/ept.md](../sources/ept.md).
+
 Biografias, datas de nascimento e registos de interesses são dados pessoais. Os marts
-contêm apenas o que a AR publica. Para reportar dados errados, veja o README principal.
+contêm apenas o que a AR e a EpT publicam, sem os campos que deixamos de fora. Para
+reportar dados errados, veja o README principal.

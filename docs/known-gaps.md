@@ -152,6 +152,43 @@ As declarações da XVI e da XVII vêm da API pública da Entidade para a Transp
 
 A comissão 8331 (Comissão de Agricultura e Pescas, XV) tem 27 votações entre 2022-04-26 e 2024-01-04. A ComposicaoOrgaos da XV publica a comissão e as suas 116 reuniões, mas o histórico de membros (`HistoricoComposicao`) está vazio. Nenhuma das 27 votações precisa de linhas inferidas: 23 têm detalhe e 4 não são unânimes. `test_unanimous_committee_votes_have_a_composition` falha, indicando a comissão e a votação, se uma votação unânime em comissão que precise de linhas inferidas calhar numa comissão sem membros.
 
+## Presenças no Plenário
+
+O mart `plenary_attendance` lê as listas de presenças de `composicao_orgaos/<legislatura>/Plenario.Reunioes.ndjson`. Nos dados de 20 de outubro de 2026:
+
+| Legislatura | Reuniões | Com lista de presenças | Linhas |
+|---|---:|---:|---:|
+| Constituinte a IV | 132 a 417 cada | 0 | 0 |
+| V | 419 | 1 | 234 |
+| VI | 375 | 374 | 86 019 |
+| VII | 406 | 406 | 91 526 |
+| VIII | 224 | 224 | 51 517 |
+| IX | 269 | 269 | 61 871 |
+| X | 468 | 468 | 107 640 |
+| XI | 155 | 155 | 35 650 |
+| XII | 469 | 469 | 107 868 |
+| XIII | 413 | 413 | 94 990 |
+| XIV | 197 | 197 | 45 310 |
+| XV | 192 | 192 | 44 160 |
+| XVI | 103 | 103 | 23 690 |
+| XVII | 125 | 125 | 28 750 |
+
+São 779 225 linhas, cerca de 230 por reunião (quem tinha lugar, substitutos incluídos). Não há listas antes da VI, além de uma reunião da V. A partir da VII, todas as reuniões têm lista. `test_rows_and_meetings_per_legislature_match_the_source` em `tests/test_plenary_attendance.py` fixa as linhas e as reuniões por legislatura. Se a AR acrescentar listas, o teste falha: atualize o valor fixado e esta tabela em conjunto.
+
+Os dados abertos não têm legenda para os códigos de presença (`siglaFalta`), e a documentação da AR do ficheiro OrgaoComposicao só diz "Sigla da Falta do Deputado". Os significados em `seed_attendance_codes` vêm da comparação, deputado a deputado, entre o código nos dados abertos e o rótulo da página de cada reunião no parlamento.pt (`DetalheReuniaoPlenaria.aspx?BID=<meeting_id>`), em 8 reuniões de 2009 a 2026 consultadas a 20 de outubro de 2026, e da [Resolução da AR n.º 21/2009](https://www.parlamento.pt/Legislacao/Documents/Legislacao_Anotada/RegimePresencasFaltasPlenario.pdf), que aprova o regime de presenças e faltas ao Plenário. Cada linha do seed cita a reunião onde o código foi confirmado. As páginas mostram, por exemplo:
+
+- PP e PT como Presença (P). O PP usou-se de 1991 a março de 2009.
+- CO como Presença em Comissão autorizada pelo PAR, ME e MP como Ausência em Missão Parlamentar (AMP).
+- FIJ, FAJ e QVJ como Falta Justificada (FJ).
+- QV como Falta ao Quórum de Votação.
+- FA só como Falta, sem a indicar justificada nem injustificada.
+
+Não sobra nenhum código por confirmar. Se a AR publicar um código novo, o build para com o erro `attendance code not in seed_attendance_codes`.
+
+O FA é uma falta que a AR ainda não classificou. O prazo para a justificar é de cinco dias parlamentares (n.º 11 e 12 da resolução), mas há FA com vários meses. O mart conta um FA como `pending` (por justificar) enquanto a reunião tiver menos de 60 dias na data de atualização dos dados (`source_updated`, a data em que o ficheiro da AR foi recolhido com alterações pela última vez, em `sources.lock.json`), e como `unclassified` (não classificada) a partir daí. Nunca o conta como falta injustificada. Nos dados de 20 de outubro de 2026, a XVII tem 34 FA (27 por justificar e 7 não classificadas) e 42 QV. Há quem conte 40 FA e 43 QV: são as linhas com data a partir de 1 de janeiro de 2025, que somam 6 FA e 1 QV da XVI. `test_xvii_fa_and_qv_counts_are_pinned` fixa os dois números.
+
+As listas trazem o motivo da falta (`motivoFalta`), um texto que inclui doença, parentalidade, luto e assistência à família. Fica nos dados brutos tal como a AR o publica, mas não entra no staging nem nos marts.
+
 ## Contagem de lugares
 
 As contagens de lugares por dia da Constituinte à VI estão sobrestimadas. Em alguns dias, `seated_on(d)` devolve mais deputados do que os lugares da legislatura, porque a fonte não fecha alguns períodos de substituição (#27). Se contar deputados por data nessas legislaturas, espere valores acima do real.

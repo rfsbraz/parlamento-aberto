@@ -118,6 +118,7 @@ Os mapeadores antigos em `scripts/data_processing/mappers/` e os dois documentos
 - **interventions**: a partir das Intervencoes, com o debate, o orador e a referência da publicação.
 - **questions**: perguntas e requerimentos, a partir das PerguntasRequerimentos.
 - **interests**: a partir do RegistoInteresses, nas versões que o mapeador antigo trata (v1 a v3).
+- **plenary_attendance** e **plenary_attendance_summary**: as listas de presenças das reuniões plenárias, a partir da ComposicaoOrgaos, associadas ao `cadastro_id` pela legislatura, pelo nome parlamentar e pelo grupo. Cada código de presença tem uma categoria num seed (`seed_attendance_codes`), confirmada nas páginas de cada reunião no parlamento.pt. O resumo conta, por legislatura, pessoa e grupo, as reuniões e cada categoria em separado, com as reuniões solenes e comemorativas numa linha à parte. O motivo da falta, texto livre, não entra.
 
 ## Testes e prova das contagens
 

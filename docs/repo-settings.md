@@ -4,7 +4,7 @@ Definições de `rfsbraz/parlamento-aberto`, aplicadas por mim na interface do G
 
 | Definição | Valor |
 | --- | --- |
-| Allow auto-merge | Ligado |
+| Allow auto-merge | Desligado |
 | Automatically delete head branches | Ligado |
 | Merge methods | Só squash merge |
 | Verificações obrigatórias em `main` | `ruff`, `pytest`, `data dictionary`, `gitleaks`, `file size`, `actionlint` |
@@ -12,6 +12,8 @@ Definições de `rfsbraz/parlamento-aberto`, aplicadas por mim na interface do G
 | Eliminação de `main` | Não permitida |
 | Aprovações obrigatórias | Nenhuma, porque os PR de dados são integrados quando as verificações passam |
 | Regras aplicadas aos administradores | Não |
+
+Mantenho a integração automática nativa desligada porque é o workflow `data-merge.yml` que integra os PR de dados (ver abaixo).
 
 Confirmei a proteção de `main` com `gh api repos/rfsbraz/parlamento-aberto/branches/main/protection` a 20 de outubro de 2026.
 

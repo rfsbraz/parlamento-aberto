@@ -64,7 +64,7 @@ def test_csv_has_the_attribution_header_and_every_row(built):
         with gzip.open(built / f"{mart}.csv.gz", "rt", encoding="utf-8") as f:
             first = f.readline()
             body = f.read()
-        assert first.startswith("# Fonte: Assembleia da República, dados abertos."), mart
+        assert first.startswith("# Fonte: Assembleia da República, dados abertos, atualizados a ")
         assert "CC BY 4.0" in first and SHA in first
         rows = list(csv.reader(io.StringIO(body)))
         assert rows[0] == [c for c in load_schema()[mart]["columns"]], mart
@@ -79,7 +79,7 @@ def test_manifest(built):
     assert m["tag"] == "data-2026-10-20"
     assert m["built_at"].endswith("Z")
     assert m["attribution"] == "Fonte: Assembleia da República, dados abertos"
-    assert m["licence"] == "CC BY 4.0"
+    assert m["licence"]["marts"] == "CC BY 4.0"  # the full split is in test_licence.py
     # Row counts per mart and per legislature for marts that have one.
     deputies = m["marts"]["deputies"]
     assert deputies["rows"] > 0 and deputies["rows_by_legislature"] is None

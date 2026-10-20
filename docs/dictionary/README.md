@@ -33,16 +33,21 @@ How to query a release: [querying.md](../querying.md).
 | [interest_declarations](interest_declarations.md) | One row per declaration in the register of interests, XI to XV. |
 | [interests](interests.md) | One row per declared interest: activities and offices, social positions, societies, supports, services and other situations. |
 
-## Licence and attribution
+## Licença e atribuição
 
-The data is published under CC BY 4.0 (`LICENSE-DATA`). The AR allows free reuse of
-its open data as long as the source is credited. Credit it as:
+Os marts publicados nas releases e este dicionário estão sob CC BY 4.0
+(`LICENSE-DATA`), com a Assembleia da República como fonte. Cite assim, com a data de
+atualização que vem no `manifest.json` (`source_updated`):
 
-> Fonte: Assembleia da República, dados abertos.
+> Fonte: Assembleia da República, dados abertos, atualizados a AAAA-MM-DD.
 
-Terms: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx
+Dados brutos em `data/`. Dados abertos da Assembleia da República reutilizados nos termos da AR, com a fonte e a data de atualização (Lei n.º 26/2016, art. 19.º, n.º 5).
+Termos da AR: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx
 
-Every CSV in a release starts with that line, and `manifest.json` carries it too.
+`data/ept_*` e tudo o que deriva deles. Dados da Entidade para a Transparência, fora da licença dos marts: regidos pela Lei n.º 52/2019, art. 17.º, e pelos termos da EpT; republicação pendente da resposta da EpT.
+
+Cada CSV de uma release começa com a fonte, a data de atualização e a licença do mart,
+e o `manifest.json` traz o mesmo por mart.
 
 Biographies, birth dates and interest registers are personal data. The marts carry
 only what the AR publishes. See the main README to report wrong data.

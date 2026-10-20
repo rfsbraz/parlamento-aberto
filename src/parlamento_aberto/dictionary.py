@@ -17,6 +17,7 @@ from pathlib import Path
 
 import duckdb
 
+from parlamento_aberto import release
 from parlamento_aberto.build import MODELS, build, load_schema
 
 ROOT = Path(__file__).parents[2]
@@ -28,7 +29,7 @@ GENERATED = (
     "Generated from `src/parlamento_aberto/models/schema.yml` by "
     "`uv run python -m parlamento_aberto.dictionary`. Do not edit by hand."
 )
-ATTRIBUTION = "Fonte: Assembleia da República, dados abertos."
+ATTRIBUTION = f"{release.ATTRIBUTION}, atualizados a AAAA-MM-DD."
 
 
 def marts() -> list[str]:
@@ -108,21 +109,30 @@ def _index(schema: dict) -> str:
     lines += [f"| [{m}]({m}.md) | {_first_sentence(schema[m]['description'])} |" for m in marts()]
     lines += [
         "",
-        "## Licence and attribution",
+        "## Licença e atribuição",
         "",
-        "The data is published under CC BY 4.0 (`LICENSE-DATA`). The AR allows free reuse of",
-        "its open data as long as the source is credited. Credit it as:",
+        f"Os marts publicados nas releases e este dicionário estão sob {release.MARTS_LICENCE}",
+        "(`LICENSE-DATA`), com a Assembleia da República como fonte. Cite assim, com a data de",
+        "atualização que vem no `manifest.json` (`source_updated`):",
         "",
         f"> {ATTRIBUTION}",
         "",
-        "Terms: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx",
+        f"Dados brutos em `data/`. {release.RAW_TERMS}.",
+        f"Termos da AR: {release.AR_TERMS_URL}",
         "",
-        "Every CSV in a release starts with that line, and `manifest.json` carries it too.",
+        f"`data/ept_*` e tudo o que deriva deles. {release.EPT_TERMS}.",
+        "",
+        "Cada CSV de uma release começa com a fonte, a data de atualização e a licença do mart,",
+        "e o `manifest.json` traz o mesmo por mart.",
         "",
         "Biographies, birth dates and interest registers are personal data. The marts carry",
         "only what the AR publishes. See the main README to report wrong data.",
     ]
     return "\n".join(lines) + "\n"
+
+
+def render_index() -> str:
+    return _index(load_schema())
 
 
 def render(con: duckdb.DuckDBPyConnection) -> dict[str, str]:

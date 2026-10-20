@@ -9,7 +9,7 @@ The AR allows free reuse of its open data as long as the source is credited. Ter
 ## Licences
 
 - Code: MIT (`LICENSE`).
-- Data: CC BY 4.0 (`LICENSE-DATA`), for everything under `data/` and the published marts.
+- Dados: ver `LICENSE-DATA`. Os dados brutos da AR em `data/` são reutilizados nos termos da AR; os marts e o dicionário estão sob CC BY 4.0; os dados da EpT ficam fora da CC BY.
 
 ## Personal data
 

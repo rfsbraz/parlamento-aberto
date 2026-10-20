@@ -88,13 +88,18 @@ votes <- dbGetQuery(con, paste0("select * from '", base, "votes.parquet'"))
 questions <- readr::read_csv(paste0(base, "questions.csv.gz"), skip = 1)
 ```
 
-## Licence and attribution
+## Licença e atribuição
 
-The data is CC BY 4.0 (`LICENSE-DATA`). The AR allows free reuse of its open data as long as
-the source is credited, so credit anything built on it with:
+Os marts das releases estão sob CC BY 4.0 (`LICENSE-DATA`), com a Assembleia da República
+como fonte. A AR permite a reutilização livre dos seus dados abertos desde que se mencione
+a fonte, e a Lei n.º 26/2016, art. 19.º, n.º 5, pede também a data da última atualização.
+Cite o que construir com estes dados assim, com a data `source_updated` do `manifest.json`:
 
-> Fonte: Assembleia da República, dados abertos.
+> Fonte: Assembleia da República, dados abertos, atualizados a AAAA-MM-DD.
 
-Terms: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx. The same line is in
-every CSV and in `manifest.json`. Each release names the data commit it was built from, so
-you can cite a tag and rebuild it from git.
+Termos da AR: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx. A mesma linha,
+já com a data, abre cada CSV, e o `manifest.json` traz a licença de cada mart. Os dados
+brutos em `data/` não estão sob CC BY: são dados da AR, reutilizados nos termos da AR. Os
+dados da Entidade para a Transparência ficam fora da CC BY e não entram nas releases. Cada
+release indica o commit de dados de onde foi construída, por isso pode citar uma tag e
+reconstruí-la a partir do git.

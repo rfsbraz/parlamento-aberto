@@ -66,7 +66,11 @@ The site goes on Cloudflare Pages (free tier, 20,000 files per deploy), pre-rend
 
 **Source terms.** The parlamento.pt open data page says the data "podem ser livremente reutilizados por qualquer instituição ou pessoa para a criação de novos conteúdos, devendo apenas ser mencionada a fonte (Assembleia da República)". Source: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx (checked 17 Oct 2026). The only condition is attribution.
 
-**Data: CC BY 4.0**, for both the normalised raw files in `data/` and the published marts, with the attribution passed through ("Fonte: Assembleia da República, dados abertos") in the README, the manifest and every CSV header comment.
+**Dados: licença repartida** (`LICENSE-DATA`, 20 out. 2026).
+
+- Os ficheiros brutos da AR em `data/` são dados da AR reutilizados nos termos da AR, não sob uma licença nossa. A Lei n.º 26/2016, art. 19.º, n.º 5, pede que se mencionem a fonte e a data da última atualização e que a informação não seja alterada ([diariodarepublica.pt](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2016-106603618)).
+- Os marts publicados e o dicionário de dados estão sob CC BY 4.0, com a AR creditada. A atribuição ("Fonte: Assembleia da República, dados abertos") e a data de atualização (`source_updated`, a data de recolha mais recente em `sources.lock.json`) vão no `manifest.json` e no comentário inicial de cada CSV, com a licença de cada mart.
+- `data/ept_*` e tudo o que deriva da EpT ficam fora da CC BY: regem-se pela Lei n.º 52/2019, art. 17.º, e pelos termos da EpT, que não publica termos de reutilização. A republicação está pendente da resposta da EpT. `release.ept_derived` marca um mart construído a partir de modelos ou seeds da EpT, e um teste falha se algum mart publicado o for.
 
 **Code: MIT**, since AGPL discourages reuse of a small pipeline. The site repo keeps AGPL-3.0.
 

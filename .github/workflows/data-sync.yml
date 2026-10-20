@@ -95,6 +95,9 @@ jobs:
         id: commit
         if: steps.plan.outputs.mode != 'skip'
         env:
+          # git push asks gh for credentials (gh auth setup-git above), and gh reads
+          # GH_TOKEN from this step's environment, so the push needs it here too (#38).
+          GH_TOKEN: ${{ secrets.DATA_BOT_TOKEN }}
           MODE: ${{ steps.plan.outputs.mode }}
         run: |
           git add data

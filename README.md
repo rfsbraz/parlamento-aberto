@@ -59,9 +59,13 @@ uv run python -m parlamento_aberto.ept fetch              # into data/ept_regist
 uv run python -m parlamento_aberto.ept fetch --limit 5    # first 5 holders, for a quick check
 ```
 
-It reads EpT entities 510 (Assembleia da República) and 4508 (Assembleia da República - XVII Legislatura): the titularidades, then each holder's declarations in every state, then each new or changed declaration. Requests go one at a time, at most one per second, so a full first run takes about an hour. A declaration is fetched again only when its state changes, and replaced or modified versions are kept under their own ids.
+It reads EpT entities 510 (Assembleia da República) and 4508 (Assembleia da República - XVII Legislatura): the titularidades, then each holder's declarations in every state, then each new or changed declaration. Requests go one at a time, at most one per second. On 20 Oct 2026 that was 881 titularidades, 695 holder searches and 1,424 declarations, so a full first run takes about an hour. A declaration is fetched again only when its state changes, and replaced or modified versions are kept under their own ids.
 
-Each declaration is stripped in memory before anything is written. Only the metadata (ids, entity, role, holder, nature, state, related declaration, dates) and tab 4 (activities, associations, supports, services, societies, other situations) are kept. The holder's NIF, the entity NIF/NIPC column, personal data, income and assets, and attachments are dropped, and any 9-digit number left in a value becomes `[removido]`. A file with a `nif` key or a 9-digit value is never written: the run stops instead. Logs and the run report carry counts and ids only.
+Each declaration is stripped in memory before anything is written. Only the metadata (ids, entity, role, holder, nature, state, related declaration, dates) and tab 4 (activities, associations, supports, services, societies, other situations) are kept. The holder's NIF, personal data, income and assets, and attachments are dropped, and any 9-digit number left in a value becomes `[removido]`.
+
+The entity NIF/NIPC column of tab 4 keeps only a valid company NIPC: 9 digits (after dropping spaces, dots, dashes and a `PT` prefix), a valid mod-11 check digit, and a first digit of 5, 6, 8 or 9 or a prefix of 71, 72, 77 or 79. Anything else in that column is dropped: first digit 1 to 4 (people), any other 7x prefix, a failed check digit, or text.
+
+A file with a `nif` key, a value in the personal range, or a 9-digit value outside the NIPC column is never written: the run stops instead. Two gitleaks rules in `.gitleaks.toml` check the same on `data/ept_registo_interesses/` and `tests/fixtures/ept/` (the check digit is left to the tests). Logs and the run report carry counts and ids only.
 
 Layout: `data/ept_registo_interesses/titularidades.ndjson`, `declarations.ndjson` (the search results, by id) and `<entity id>/<id // 1000>/<id>.json` (one stripped declaration, tab 4 keyed by section GUID and column).
 

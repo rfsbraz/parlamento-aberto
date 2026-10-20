@@ -14,9 +14,32 @@ from parlamento_aberto import ept
 
 FIX = Path(__file__).parent / "fixtures" / "ept"
 RAW = json.loads((FIX / "getdeclaration.json").read_text())
-# Built at runtime so no fixture or source line holds a 9-digit literal.
+# Built at runtime so no fixture or source line holds a 9-digit literal. Every number
+# here is synthetic: a repeated digit pattern, with the check digit computed.
 PLANTED = "".join(str(d) for d in (1, 2, 3, 4, 5, 6, 7, 8, 9))
 ACT = "2c6d9562-dea5-488b-9afe-42519c636daf"
+SUP = "62fb0107-a68d-4ba2-822b-bc8adc54369b"
+SER = "b1f8c095-fe0c-4bb3-b493-902dc0c31232"
+SOC = "9b58c917-b14c-4eed-9b3c-40c3d99d45da"
+
+
+def with_check(base8: str) -> str:
+    total = sum(int(d) * w for d, w in zip(base8, range(9, 1, -1), strict=True))
+    r = total % 11
+    return base8 + str(0 if r < 2 else 11 - r)
+
+
+def bad_check(base8: str) -> str:
+    good = with_check(base8)
+    return good[:8] + str((int(good[8]) + 1) % 10)
+
+
+VALID = {
+    p: with_check(p + "0" * (8 - len(p))) for p in ("5", "6", "8", "9", "71", "72", "77", "79")
+}
+PERSONAL = {p: with_check(p + "0" * (8 - len(p))) for p in ("1", "2", "3", "4")}
+OTHER_7X = {p: with_check(p + "0" * 6) for p in ("70", "73", "74", "75", "76", "78")}
+WRONG_CHECK = bad_check("5" + "1" * 7)
 
 
 def raw_with_leaks():
@@ -29,7 +52,7 @@ def raw_with_leaks():
                     for cell in row["value"]:
                         col = cell["key"].rsplit("-", 1)[-1]
                         if col == ept.SECTIONS[sec["key"]][1]:
-                            cell["value"] = PLANTED
+                            cell["value"] = PERSONAL["1"]
                         if sec["key"] == ACT and col == "col1" and row["key"].endswith("_0"):
                             cell["value"] = f"Cargo sintético, contribuinte {PLANTED}"
     return raw
@@ -108,11 +131,93 @@ def test_strip_keeps_metadata_and_tab4_only():
     assert out["tab4"]["cd0e811a-d9bb-49ee-b0f0-1dae0680eb22"] == []
 
 
-def test_strip_drops_every_entity_nif_column():
+def test_strip_drops_personal_range_values_from_the_nipc_column():
     out = ept.strip(raw_with_leaks()["data"])
+    assert PERSONAL["1"] not in dumps(out)
     for guid, (_, nif_col, _) in ept.SECTIONS.items():
         for row in out["tab4"][guid]:
             assert nif_col not in row
+
+
+def nipc_raw(values):
+    """The fixture with the NIPC column of each filled row set from ``values`` in turn."""
+    raw = copy.deepcopy(RAW)["data"]
+    it = iter(values)
+    tab4 = next(t for t in raw["data"]["value"] if t["key"] == ept.TAB4)
+    cells = []
+    for sec in tab4["value"][0]["value"]:
+        nif_col = ept.SECTIONS[sec["key"]][1]
+        for row in sec["value"]:
+            if row["isEmpty"]:
+                continue
+            for cell in row["value"]:
+                if cell["key"].endswith(f"-{nif_col}"):
+                    cell["value"] = next(it)
+                    cells.append((sec["key"], int(row["key"].rsplit("_", 1)[1])))
+    return raw, cells
+
+
+@pytest.mark.parametrize("prefix", sorted(VALID))
+def test_strip_keeps_a_valid_company_nipc(prefix):
+    raw, cells = nipc_raw([VALID[prefix], f" PT {VALID[prefix]} ", VALID[prefix], VALID[prefix]])
+    out = ept.strip(raw)
+    ept.assert_clean(out)
+    for guid, i in cells:
+        assert out["tab4"][guid][i][ept.SECTIONS[guid][1]] == VALID[prefix]
+
+
+@pytest.mark.parametrize(
+    "value",
+    [*PERSONAL.values(), *OTHER_7X.values(), WRONG_CHECK, "NIPC sintético", "5" * 8, "5" * 10],
+)
+def test_strip_drops_anything_else_in_the_nipc_column(value):
+    raw, cells = nipc_raw([value] * 4)
+    out = ept.strip(raw)
+    ept.assert_clean(out)
+    assert len(cells) == 4
+    for guid, i in cells:
+        assert ept.SECTIONS[guid][1] not in out["tab4"][guid][i]
+
+
+def test_is_company_nipc():
+    assert all(ept.is_company_nipc(v) for v in VALID.values())
+    assert not any(ept.is_company_nipc(v) for v in PERSONAL.values())
+    assert not any(ept.is_company_nipc(v) for v in OTHER_7X.values())
+    assert not ept.is_company_nipc(WRONG_CHECK)
+    assert not ept.is_company_nipc(int(VALID["5"]))
+
+
+def stored(guid, col, value):
+    return {"id": 1, "tab4": {guid: [{"col1": "x", col: value}]}}
+
+
+@pytest.mark.parametrize("guid", [ACT, SUP, SER, SOC])
+def test_guard_allows_a_valid_nipc_only_in_the_nipc_column(guid):
+    nif_col = ept.SECTIONS[guid][1]
+    ept.assert_clean(stored(guid, nif_col, VALID["5"]))
+    other = "col1" if nif_col != "col1" else "col2"
+    with pytest.raises(ept.LeakError):
+        ept.assert_clean(stored(guid, other, VALID["5"]))
+
+
+@pytest.mark.parametrize(
+    "value", [*PERSONAL.values(), OTHER_7X["70"], WRONG_CHECK, int(VALID["5"]), f"PT{VALID['5']}"]
+)
+def test_guard_fails_on_anything_but_a_valid_nipc_in_the_nipc_column(value):
+    with pytest.raises(ept.LeakError):
+        ept.assert_clean(stored(ACT, "col9", value))
+
+
+@pytest.mark.parametrize("value", [VALID["5"], PERSONAL["2"]])
+def test_guard_fails_on_any_nine_digits_outside_the_nipc_column(value):
+    for obj in (
+        {"id": 1, "holder": value},
+        {"tab4": {"00000000-0000-4000-8000-000000000000": [{"col9": value}]}},
+        [{"nested": {"tab4": {ACT: [{"col9": value}]}}}],
+        {"a": {"tab4": {ACT: [{"col9": value}]}}},
+    ):
+        with pytest.raises(ept.LeakError):
+            ept.assert_clean(obj)
 
 
 def test_strip_drops_hidden_cells():

@@ -11,8 +11,10 @@ República deputies through an unauthenticated JSON API (https://api.entidadetra
 A declaration carries the holder's full NIF in a top-level ``nif`` field, personal data,
 income and assets in other tabs, attachments, and the entity NIF/NIPC in one tab 4 column.
 ``strip`` keeps an allow-list of metadata keys and the known tab 4 columns only, and
-replaces any 9-digit number left in a value. Nothing is written before ``assert_clean``
-passes, and the raw response is never stored or logged.
+replaces any 9-digit number left in a value. In the entity NIF/NIPC column it keeps only a
+valid company NIPC (see ``is_company_nipc``) and drops anything else, such as a sole
+trader's personal NIF. Nothing is written before ``assert_clean`` passes, and the raw
+response is never stored or logged.
 
 Requests go one at a time, at most one per second. The run is incremental: a declaration
 is fetched again only when it is new or its state changed. Replaced and modified versions
@@ -51,7 +53,7 @@ PAGE_SIZE = 500
 
 TAB4 = "1483a8d1-adca-4f39-8038-98cc6f728fcb"
 TAB4_GROUP = "88ff2a6e-3702-4687-9f05-2738f70ccbd0"
-# section GUID -> (category, entity NIF/NIPC column or None, columns kept)
+# section GUID -> (category, entity NIF/NIPC column or None, other columns kept)
 SECTIONS = {
     "2c6d9562-dea5-488b-9afe-42519c636daf": (
         "activity",
@@ -133,6 +135,40 @@ SEARCH_KEYS = (
 NINE = re.compile(r"(?<!\d)\d{3}[ .-]?\d{3}[ .-]?\d{3}(?!\d)")
 NIF_KEY = re.compile(r"nif|nipc", re.IGNORECASE)
 REMOVED = "[removido]"
+# Company NIPC ranges: 5 (legal persons), 6 (public bodies), 8 and 9 (other and
+# provisional), 71, 72, 77 and 79. 1 to 4 are people, and the other 7x prefixes
+# (estates, sole traders and so on) can identify a person, so they are dropped.
+NIPC_PREFIX = re.compile(r"^(?:[5689]|7[1279])")
+NIPC_SEPARATORS = re.compile(r"[\s.-]")
+
+
+def check_digit_ok(digits: str) -> bool:
+    """Portuguese NIF/NIPC mod-11 check digit."""
+    total = sum(int(d) * w for d, w in zip(digits[:8], range(9, 1, -1), strict=True))
+    r = total % 11
+    return int(digits[8]) == (0 if r < 2 else 11 - r)
+
+
+def is_company_nipc(v) -> bool:
+    """True for a 9-digit string in a company range with a valid check digit."""
+    return (
+        isinstance(v, str)
+        and len(v) == 9
+        and v.isascii()
+        and v.isdigit()
+        and bool(NIPC_PREFIX.match(v))
+        and check_digit_ok(v)
+    )
+
+
+def company_nipc(v) -> str | None:
+    """The NIPC column value: a valid company NIPC, or None (dropped)."""
+    if not isinstance(v, str):
+        return None
+    s = NIPC_SEPARATORS.sub("", v.strip())
+    if s[:2].upper() == "PT":
+        s = s[2:]
+    return s if is_company_nipc(s) else None
 
 
 class LeakError(ValueError):
@@ -159,19 +195,48 @@ def clean(v):
     return v
 
 
-def assert_clean(obj, path: str = "") -> None:
-    """Raise LeakError on any nif/nipc key or 9-digit value. The message names the path only."""
+def _assert_tab4(tab4, path: str) -> None:
+    """A valid company NIPC is allowed only in the NIPC column of a known section."""
+    if not isinstance(tab4, dict):
+        return assert_clean(tab4, path, _top=False)
+    for guid, rows in tab4.items():
+        here = f"{path}.{guid}"
+        nif_col = SECTIONS[guid][1] if guid in SECTIONS else None
+        if nif_col is None or not isinstance(rows, list):
+            assert_clean({guid: rows}, path, _top=False)
+            continue
+        for i, row in enumerate(rows):
+            if not isinstance(row, dict):
+                assert_clean(row, f"{here}[{i}]", _top=False)
+                continue
+            for col, v in row.items():
+                if col == nif_col and v is not None:
+                    if not is_company_nipc(v):
+                        raise LeakError(f"not a company NIPC at {here}[{i}].{col}")
+                else:
+                    assert_clean({col: v}, f"{here}[{i}]", _top=False)
+
+
+def assert_clean(obj, path: str = "", *, _top: bool = True) -> None:
+    """Raise LeakError on any nif/nipc key or 9-digit value. The message names the path only.
+
+    The one exception is a valid company NIPC in the NIPC column of a known tab 4 section,
+    in a stored declaration (a top-level dict with a ``tab4`` key).
+    """
     if isinstance(obj, dict):
         for k, v in obj.items():
             here = f"{path}.{k}" if path else str(k)
+            if _top and k == "tab4" and not NINE.search(str(k)):
+                _assert_tab4(v, here)
+                continue
             if NIF_KEY.search(str(k)):
                 raise LeakError(f"nif key at {here}")
             if NINE.search(str(k)):
                 raise LeakError(f"9-digit key under {path or '<root>'}")
-            assert_clean(v, here)
+            assert_clean(v, here, _top=False)
     elif isinstance(obj, list):
         for i, v in enumerate(obj):
-            assert_clean(v, f"{path}[{i}]")
+            assert_clean(v, f"{path}[{i}]", _top=False)
     elif isinstance(obj, bool) or obj is None:
         return
     elif NINE.search(str(obj)):
@@ -190,9 +255,14 @@ def _tab4(sections: list) -> dict:
             vals = {}
             for cell in row.get("value") or []:
                 col = str(cell.get("key", "")).rsplit("-", 1)[-1]
-                if col == nif_col or col not in cols or not cell.get("isVisible"):
+                if not cell.get("isVisible"):
                     continue
-                vals[col] = clean(cell.get("value"))
+                if col == nif_col:
+                    nipc = company_nipc(cell.get("value"))
+                    if nipc is not None:
+                        vals[col] = nipc
+                elif col in cols:
+                    vals[col] = clean(cell.get("value"))
             if any(v is not None for v in vals.values()):
                 rows.append(vals)
         out[key] = rows

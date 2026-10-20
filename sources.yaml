@@ -3,6 +3,10 @@
 # layout: records = one JSON file per record, by id; tables = NDJSON per table.
 # ids: per-table natural key used for record order; bucket: split into fixed id ranges.
 # names: file name for a table. Natural keys and sizes: see PR #2 notes.
+# Per file: listed_on = the legislature page the file is listed on, when not its own;
+# path = dotted path to the record list in the older XML-shaped files; id = per-file id;
+# copy_of = the file only repeats that legislature: fetched and hashed, not stored,
+# and a record outside it holds the data PR (hold: source-changed).
 datasets:
   agenda_parlamentar:
     layout: tables
@@ -29,9 +33,31 @@ datasets:
       - legislature: I
         part: B
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=fsHLKJMtAWoHSfxkeP4JGYfHlATMeXJRjb%2fFMXtCkgIWp7zyfvUAoXKuRr1%2fIMWqSv35aGWUjxeBsUkaedirddrnzdtq%2bXazOzOCTk8ZbFuIGZ7E1r6eEFWeJEFQUltD4H2%2bIDlq%2fvm6RRmXBsCNsNkdUr%2fqv0vYTmmQgkF0wNOlgjKrHJYVSlxV6o2PCZdXLxPOn%2bHrROwgcOAQOC%2bpG9%2fqlyGltoW32mWRY244wkVX1EBvtMH6K8Mc7jZViSp0TdJQ4N9ZV%2baODncpjVzyIbg3q63%2bN%2fQK9DAUwdmaFSmPUTX5Tf%2fsVVfoPzP5JhX%2bJDvQZcrrf6zQGO%2bA%2bEIiNzR%2brOhPKo1e8BL4XR7vkjOkoCTstu%2fawAyxNnJRLk%2f7BSRLux2WR8frMLExxkwUaA%3d%3d&fich=AtividadeDeputadoIB_json.txt&Inline=true"
+      # AtividadeDeputadoII_json.txt as listed on the I Legislatura page: the real II data,
+      # in the older XML shape (#18, #23).
       - legislature: II
+        listed_on: I
+        path: ArrayOfAtividadeDeputado.AtividadeDeputado
+        id: deputado.depCadId
+        url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=5ZFgQ350zgpYpfjOulWwor%2faWXnWgRAPrFXBn5s76OAeqkNosrKPr61l9DtFhB8%2bP0Q6S3Rh8WwXcQJHL4UHb8E7CltijiJrS2NwiGee2qLvkQ%2blrwWkZiEbLr07ovb%2ba5y%2fySikAP%2bIv1moGTgaB%2fMZVeFCzYkVGjR46tWB8adPyxlXGx99yfJGrXH52IRDu1xGmsfYtRGWwYaAAWXwahvc%2b%2bdo%2fOODj6YmIgEYFOreFsrHWyCyec%2faStIEesamrYH4Pap%2funsPejwqWfV6LJsgQcLGM3UfBrk9WUR0wR2VhYG3WZLiTrkVRzjbBUblqsXEwja2sDdtA7W5ji7kG4v6xlJBCHDWOhKinzwP%2bH6i4hBVi7hcv9rx8JA9MMGYHVSr6N3pCqeYTVu3QTKckg%3d%3d&fich=AtividadeDeputadoII_json.txt&Inline=true"
+      # The AtividadeDeputadoII_json.txt listed on the II Legislatura page only repeats XVII.
+      # Fetched and hashed, not stored; a record outside XVII holds the data PR.
+      - legislature: II
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=UbjRqcr5mdDWRkwXyXXgSBoQkDcwexEmE%2fcwCMd%2fbm%2bWxxMD0IkpAddwPE7h8jFX9RazHnFkjcSF2ru9QV3Me7x7ssELa2iGMGUWEmF9NNhRdJ6xqkbBW3F5TTCIh00iNUwgHAuy76pv%2fxGuLXwBjoi%2bkWlmOZwX0K7UaB4HxfmY8C0agRt4MdV8AQw0VK9fEYC73BQDnNSDBKtlxyM6fMBXDwNeIioS1ToQb6i3ipXc5d3H0orhT9U7HgVfJbgIK9a69dzQj40rw%2byA908uUOOLYE%2fYcjNlWgwbgKwKPOULIeQoBHMq%2fiT6Ea5I6MuubKDAPg49tZxu%2bCq6TlVXL4yIq0jB3g5N96uYg02MfPt92KKoe2AnnSoRwDXtLOsSndCJhKiahykiCsPM%2fg2QsA%3d%3d&fich=AtividadeDeputadoII_json.txt&Inline=true"
+      # AtividadeDeputadoIII_json.txt as listed on the I Legislatura page: the real III data,
+      # in the older XML shape (#18, #23).
       - legislature: III
+        listed_on: I
+        path: ArrayOfAtividadeDeputado.AtividadeDeputado
+        id: deputado.depCadId
+        url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=vh7C5UFuWmo%2b9QflMSOymAQxLeHoxot5kaSBZiclxMIx7aywj9jc%2bdgbymu6NgF1usZ7YS7Z88HolMTI6aI%2buk45ZHAM9e4muvS9GsHMsuGQS7ITM%2f5UmXR4YEpbw3rPGezQsycwjMHetgO%2f%2beci7%2fzmlDC%2fkQY3%2fUpVixPpSOOAnkyMOz3k0w5AfE62vGXSDZ%2buc5Zzvg9JpaIf2TC1p1rHsvYyovUdc2%2fNNGPvbDuy9%2fwvFBowKkFSWgEUXmsB9BBRQ7ERrZ5Hm5GQnYkFOwDe1NP2M753nrfn4V0zJALn0hM9WwummoeJh5q76Sd1HcJ2ZGbRnt4OgYnKh6g5is74%2ffOlaRqptlJFXI5nw7Q%2bePMOk452Y%2fe75BKtqBUvvsB2meKmBtbRVurHK%2b6mfZQg7%2bwrheNB1%2fJwyFuPDMI%3d&fich=AtividadeDeputadoIII_json.txt&Inline=true"
+      # The AtividadeDeputadoIII_json.txt listed on the III Legislatura page only repeats XVII.
+      # Fetched and hashed, not stored; a record outside XVII holds the data PR.
+      - legislature: III
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=yhtF5HxKXLSIR8YXScqDuGO%2bz2Gzz2nQpr6ClNQ%2bpXU6Hq9STHFnK9BVAbMerWiDZedLBp8vIFeZWtMy%2fOK5%2beB07uu01%2fNnPkerotroaFsTopbpgAO0MzkDrQk0o86f3OanmDj1wwsv3JnTuwrUJq75gqm9qcSg9X0Q1Z3ILiXhaD6FsTHst4jBfuYKegnamY1rW7FfdtSMpbg%2b3FKJ3QeEf4QYDvdSvo0S7gbbPvMBkgFSzoctRZSUl4jbx8LO%2bBjp80VHsxez6mvtNHQPfo544K%2ffSMS6BV4s6hUUKW92LzvMfJ58aEPo5GvNCuowdf6qo%2bI1BgBD65drgAv%2fbjmPh4LgqixB5I2q93ar%2fkdJr%2fKXreTn34gpiSjVYlKAK6AO6vZLf%2bQqlP4DDQb%2bdA%3d%3d&fich=AtividadeDeputadoIII_json.txt&Inline=true"
       - legislature: IV
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=Q1Qftkppp1dXP4itcBChXMuFt%2buevfhxIFgbJnaPB8TGjFJBZeiLs4%2bf1RdVH8KvWC7DFruJrNfF4UCPbh4mzDgkF4ckX4LB8DlkHOLonVv5HEoXz%2f276kb5pfPEK7Q4JcFxKA5vhk%2bSeyeXzinG5F9NUR%2fKuoQPB8EckaMlIVnbNPerioDnvQVrSbsUxtuHr4GA6Z%2fjzbczUhRdVNkzLJmLth4IAZ%2bbQ4xJSugfYtNtiPw5c3tsRDGHBYLHPeTkWHQ0WsMh%2f6oOEjJ24Wc%2b46zyQOiLyh7yFakB8kGuewbepQm5Bnqd%2fLZlxCEjQbVDV%2fgtYBxOW5pJ9qJXcB%2bq91wywfyDGYRWeMRwyKuJNCkw5415a1wZpKlRaifthoB1&fich=AtividadeDeputadoIV_json.txt&Inline=true"
@@ -99,6 +125,8 @@ datasets:
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=TluZsmwU1kxwQvBqdeKyZl4YB2wK27OWofmPHdN8gOjysKi7SYJRQaYjVATYzndN2B2YwS%2bKB5TPWzImqhi83iJXtIORhe7PKf4tf7L6l%2fexGbE2ZMPirwlpqHiiENlPR6w4jQ0p%2fwuPnd1iaTjrAB%2fM7nwXdURXBPb7Rf36kx0WLdV7IrIVXY%2bWKLYCf2FxLscuS3sI%2fDDXXo3cuxgPZIRw49QBVPHUSDSaWRwjUlfhYCKedMJCsfmnZA0NS1z1kl6Lz94jOhRvmLRNhc6awtLPbGOQ7dmsFUSLRscaGqKX55uYxqF83tHnbO5LYJu1ty5%2bwFdwfDQRVD3lE%2btZAtx96%2f7GNysrDbaxHfG4gd4%3d&fich=AtividadesXVII_json.txt&Inline=true"
   composicao_orgaos:
     layout: tables
+    # The I Legislatura page also lists OrgaoComposicaoII/III_json.txt. They are older,
+    # smaller copies of the II and III files below, so they stay out (#18).
     files:
       - legislature: Constituinte
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=HWGU6raFVZiiEwVOZmxBZZiFGx9HRFD2Dw5O26kZJcGZVju0WPJg%2b8WLhl5k7nORvZSeZRHoC2K%2b3fmdpVizf26eadgUdwO0ydprDIn24bduqE2VH49iA8lfRVk0Fb7yKh8XlQwF40x%2f%2f51bJnSYLcbF3q0bPmTG4bcy8H3EaMFEDAEOqR4hC61vYF1MkfBKPkxO52YXJOh4L3t3WHXCUxKUynn4EyBGrpomfamIr%2fN5es7OhsG4zKTopQsmtx2HhXLdQWf5ESHbzF7GRCbu5P3yjUku2pJenZobuCkxDNuFOglzsOIa6bABjsCS2zHMYPGdIbYbYI8wnG06r0duIBwVtktmR%2b30woCgrZKSCrKcCBAmRelrYdRHEYKT4qul%2b7WgcTjIKOEbKZwBOFyZX0x%2fRPuWZlLaAoZrdtMwFcs%3d&fich=OrgaoComposicaoCons_json.txt&Inline=true"
@@ -565,9 +593,31 @@ datasets:
       - legislature: I
         part: B
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=g65geUP1tInCy5zJU5zP%2fVn18PpuavggNxduR3TGH7k4QJToSfISQmgeEYbUr7xHghMLoKkm0QBL3r4Pvm%2fkyqUSzTu1fEPdhU1FL6HCrM9crJwcUMcJCGhybxsr0qcoJJBEWF7QN7B1oD085qhko2iYNppi%2bS%2fF1CF1bTOgoD7MBBeFdiwNzrNpNdVYlTuW5SIQjfrDbIj0u63EZ7Obb71UsLI2260Pew%2fLpzrQaDIc%2fs1i3YedsXxy8elzbfJaxPB2Ti2OtAxvtiAH7EBFvG1%2fEbwqYENLaiKQIqW3QVOf09Wgwb%2feo3nh9tIY6aD8Jz3KA2HAh91LGAMUdGxHLwEBSV3A38AUY8dSwg%2fECSM8Ap8IaPi5lcWuoiE2rU5MLEm44kK1ieO2UnE6Xrj9Xw%3d%3d&fich=RegistoBiograficoIB_json.txt&Inline=true"
+      # RegistoBiograficoII_json.txt as listed on the I Legislatura page: the real II data,
+      # in the older XML shape (#18, #23).
       - legislature: II
+        listed_on: I
+        path: RegistoBiografico.RegistoBiograficoList.pt_ar_wsgode_objectos_DadosRegistoBiograficoWeb
+        id: cadId
+        url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=gmgkyAetoy3FihNNlcZr0yvRLOnPAyuc8a%2f37RnSye0D0AYn1CA7vhoPEzWiPrNpVV8FvCwMQMvGD1Tqs9oPqV2C36EYNBuIZnaFOCH5PHaNdhJiCqdYnIYivV0xLK49jjiyFoO10UjlYZUwKmOEb5Siod11QZ5uysJfJaOgY5W5VYdsk9uiRL54bvN1anGGmE8EK77dGgGphsc%2bpMe6SGU9QYwsi%2flW3j30tdlt2BauEtRZIc4fZYJ5F6w2XjrOUj8%2fn6gdRfNnX0C6VI51JmImSgfia169Y3yIWOLfQPDukx%2fztwrFCXQP8lI4HJ6gk4fRxw4qyPw6y5zrKP0YCsIdXaOzrtIt3sC4B%2b7%2fenXx1BAGmE0oUKDOt%2bKK5uPxRpIRY4%2bStxBJPLAXAzrCLQ%3d%3d&fich=RegistoBiograficoII_json.txt&Inline=true"
+      # The RegistoBiograficoII_json.txt listed on the II Legislatura page only repeats XVII.
+      # Fetched and hashed, not stored; a record outside XVII holds the data PR.
+      - legislature: II
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=%2fPKV7YM0pl036jhkPhRlGjSehyZQ0NkRUkygmE1S1tNNcpk3bXqW%2baZjwUQ1iPcdbCzM2x%2fUYYYXnnTWhkwMPIBbQyD4JSDcy6Ukn%2fGmLa5Ka3XqnMeDOfWlQSknA4QkCsyibY4lf4%2b6Wno2a0nXrxGaC8ykxx6gZsjY5678b5Jq%2fHLBNB6406Iry3NIRVNd3QZY%2bP%2fgRrGyzhBRkMvbCmAkRYQHQI5f7LwaEtiGVhHV1gQNeqKP0OZbe8HH2SmtPFSQ4cRnLAjuI%2bbUr0ZyZY52y6WZIONPraHlJLZSdHrO9V4mHBHX33RiCISF1V%2fE2p8xoCQZAY1Edb9uu2JgpWV%2fSrvfkPc75D3zmuobJH5ep09W5yLiwXIK%2b70oCMMB6f8glw44VQNLraOFiIslHw%3d%3d&fich=RegistoBiograficoII_json.txt&Inline=true"
+      # RegistoBiograficoIII_json.txt as listed on the I Legislatura page: the real III data,
+      # in the older XML shape (#18, #23).
       - legislature: III
+        listed_on: I
+        path: RegistoBiografico.RegistoBiograficoList.pt_ar_wsgode_objectos_DadosRegistoBiograficoWeb
+        id: cadId
+        url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=U58x1QAhHtlY4ZrrysfUqfdxhEL3AeN9lkf7yg6ge98wdfPTcjaPMF5nYXjKVIBPX3Pn9khKgP3r6LtjasxYvody1U%2fdtHnA%2bltp6kattZQR44sjhHOREIRKGkQd2frp6nlCVBvkHqBL3a4by%2fb7FY0ugFf1w6gqFRzVJik6KW0jY0336kLzMzWh0z7rb2GftMuEBsB5Xxp7opZWxSgXmDxdlMMOe%2fKioYemLitSS%2b864HVeyZGdj5YaQSVQhUoKWNllGp%2fVrT9gAWncarVBBvGKfYgIMBv6F32nZaVJ1b6E%2bmJbfcxPyzY%2fYCB93G9qxjcGj1Q3mvP3kFaNhIeR7Nn66dcw4BuAn9D6ipR5Jxat1mb2taBaf4E38fk21ZIeekbjtm9O3Qq6QyowmEBjug%3d%3d&fich=RegistoBiograficoIII_json.txt&Inline=true"
+      # The RegistoBiograficoIII_json.txt listed on the III Legislatura page only repeats XVII.
+      # Fetched and hashed, not stored; a record outside XVII holds the data PR.
+      - legislature: III
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=8Frrae7qn7bqqQjCnBHP0L%2fiujZ2%2bNBmA2KZSHzE70cHUGGugPNon2DaOfDmWI1gdJgpY0x3epcG9E2EhK5Atp6uYsElw2tocN%2bOStUjvMFyPaW5LxQNmFCF4r5XAs3p5LZWUrQ5gdV1CVJa3GVzjqt%2f7gUZuGFxPbs7nnF2kwCMcclTuSmJcseLklLWsuFYY9WMsUwb7ifQt7gqyavYzmSuCjW6ZWbJ10Pav4heYPiXXIYweNsKq16Fdwi2xy%2bC6Jg83b4sPIGOt%2fYgfh1yPeMpuISmhdvPy7tRFHd4NawwRZRCffOa57vnWXfKGSXoqPFqN8f%2f1MLH8xY1pSaQk52k9pCJS1DvfcezbXLGnJkpqFpUq86XOC5PWoJdwLjqZHcOYrg999hCzrX4q0eSRA%3d%3d&fich=RegistoBiograficoIII_json.txt&Inline=true"
       - legislature: IV
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=KDBH%2f8FUshH3bd6TnkWcIgCH%2fucqIzNI6la22XlpUqldlbyd2FQR9NLgvmmyOK0FTYBFq7hztcQkU8rnpKJtGF9zjBsBFmX3CmGB4KT2TDH4Qc%2bIolcf9BmIWhhavyhwFg%2bsQZHKFY5SjX0ZBD2rjYgeZm781voCF9bVOTGm1Ts3cNC4R49vXQmzKe5hx%2f93nB26Pvcbh8nHwTcLqj5r3ZDIkkDxJGK2kuE35aroslmxJnTq1o%2fd9Fm6BxzjILVmCP6XFdZnIi6rZQ93MCkmTjc8aNSnSvlYCx%2bY%2fbQJ%2bY%2bEUMoJmHHWDs97GFQotQ528EK%2fM%2fvr7rDHjkqTM20ewC1RQGZ0%2fWHQ%2b%2fGUqF%2b1gnNbSW7mmDkh7A6kBNn1LKkPrF%2frAmCC0cEY5jkckimePA%3d%3d&fich=RegistoBiograficoIV_json.txt&Inline=true"

@@ -119,7 +119,7 @@ None of the six files has an entry in `sources.yaml`. The entries for the four (
 
 ## RegistoInteresses
 
-Every RegistoInteresses file, Constituinte to XV, lists the same 1,446 people: the XVII lists, the same set as AtividadeDeputado. People who are not on the XVII lists have no declarations here. XVI and XVII have no file: declarations moved to the Entidade para a Transparência.
+Every RegistoInteresses file, Constituinte to XV, lists the same 1,446 people: the XVII lists, the same set as AtividadeDeputado. People who are not on the XVII lists have no declarations here. XVI and XVII have no file: declarations moved to the Entidade para a Transparência. The private EpT build for XVI and XVII is described in [sources/ept.md](sources/ept.md).
 
 - Constituinte to X carry no declaration, only the person list (V3 with no `RecordInterests`). Constituinte, I-A, I-B and II to X are byte-identical; I differs in 17 records.
 - Declarations sit in XI (V1, 24), XII and XIII (V2, 43 and 61), XIV (V3, 111 declarations for 56 people, and V5, 15) and XV (V5, 98). Each names the legislature of its own file.

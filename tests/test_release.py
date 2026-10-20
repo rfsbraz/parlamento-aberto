@@ -5,6 +5,7 @@ import gzip
 import hashlib
 import io
 import json
+import re
 import shutil
 from pathlib import Path
 
@@ -46,7 +47,7 @@ def test_one_parquet_and_one_csv_per_mart(built):
     expected = sorted(
         [f"{m}.parquet" for m in marts]
         + [f"{m}.csv.gz" for m in marts]
-        + ["manifest.json", "CHANGELOG.md"]
+        + ["manifest.json", "CHANGELOG.md", "macros.sql"]
     )
     assert names == expected
 
@@ -97,6 +98,43 @@ def test_manifest(built):
     assert sorted(m["sources"]) == sorted(lock)
     for key, entry in m["sources"].items():
         assert entry == {"sha256": lock[key].get("sha256"), "fetched": lock[key]["fetched"]}
+
+
+def test_macros_sql_is_published_with_its_hash(built):
+    # The seating rule ships with the data it was built with, byte for byte (#78).
+    source = (MODELS / "macros.sql").read_bytes()
+    assert (built / "macros.sql").read_bytes() == source
+    m = json.loads((built / "manifest.json").read_text())
+    assert m["macros"] == {
+        "name": "macros.sql",
+        "sha256": hashlib.sha256(source).hexdigest(),
+        "licence": "MIT",
+    }
+
+
+def test_published_macros_sql_runs_on_the_published_mandates(built):
+    # What a consumer does: load mandates.parquet and macros.sql from the same release into
+    # a fresh DuckDB and ask who is seated, with the same answer as the build.
+    con = duckdb.connect()
+    con.execute(f"create table mandates as select * from '{built / 'mandates.parquet'}'")
+    con.execute((built / "macros.sql").read_text(encoding="utf-8"))
+    (day,) = con.execute("select max(start_date) from mandates").fetchone()
+    (n,) = con.execute("select count(*) from seated_on(?)", [day]).fetchone()
+    assert n > 0
+    ref = duckdb.connect()
+    ref.execute(f"create table mandates as select * from '{built / 'mandates.parquet'}'")
+    ref.execute((MODELS / "macros.sql").read_text(encoding="utf-8"))
+    assert ref.execute("select count(*) from seated_on(?)", [day]).fetchone() == (n,)
+
+
+def test_querying_seating_example_runs_on_a_built_release(built, capsys):
+    # The Python example in docs/querying.md that checks the hash and loads macros.sql.
+    text = (Path(__file__).parents[1] / "docs" / "querying.md").read_text(encoding="utf-8")
+    [block] = [b for b in re.findall(r"```python\n(.*?)```", text, flags=re.S) if "macros" in b]
+    url = "https://github.com/rfsbraz/parlamento-aberto/releases/latest/download/"
+    assert url in block
+    exec(block.replace(url, built.as_uri() + "/"), {})
+    assert "count_star()" in capsys.readouterr().out
 
 
 def test_changelog_excerpt(built):

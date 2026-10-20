@@ -35,7 +35,7 @@ uv run python scripts/check_file_size.py
 
 ## Publicações de dados
 
-Cada push para `main` que altera dados ou código constrói os marts, corre todos os testes de dados sobre `data/` e, se passarem, publica uma GitHub Release com a tag `data-AAAA-MM-DD` (`-2`, `-3` para a segunda ou terceira do dia). Cada publicação tem um ficheiro Parquet e um CSV comprimido com gzip por mart, o `manifest.json` e um excerto `CHANGELOG.md` de `docs/data-changelog.md`. A primeira linha de cada CSV é um comentário `#` com a atribuição, por isso salte uma linha ao ler (`skiprows=1` no pandas, `skip = 1` no R ou no DuckDB). Um mart que perde mais de 5% das linhas numa legislatura, face à publicação anterior, bloqueia a publicação, a menos que `docs/data-changelog.md` o registe. A publicação está desligada até o repositório ser público (ver `docs/repo-settings.md`).
+Cada push para `main` que altera dados ou código constrói os marts, corre todos os testes de dados sobre `data/` e, se passarem, publica uma GitHub Release com a tag `data-AAAA-MM-DD` (`-2`, `-3` para a segunda ou terceira do dia). Cada publicação tem um ficheiro Parquet e um CSV comprimido com gzip por mart, o `macros.sql` com a regra de quem tem lugar num dia, o `manifest.json` e um excerto `CHANGELOG.md` de `docs/data-changelog.md`. A primeira linha de cada CSV é um comentário `#` com a atribuição, por isso salte uma linha ao ler (`skiprows=1` no pandas, `skip = 1` no R ou no DuckDB). Um mart que perde mais de 5% das linhas numa legislatura, face à publicação anterior, bloqueia a publicação, a menos que `docs/data-changelog.md` o registe. A publicação está desligada até o repositório ser público (ver `docs/repo-settings.md`).
 
 Para construir os mesmos ficheiros localmente:
 

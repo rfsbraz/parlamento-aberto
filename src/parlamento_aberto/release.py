@@ -1,5 +1,6 @@
-"""Build a data release: one Parquet and one gzipped CSV per mart, manifest.json and a
-CHANGELOG.md excerpt, after checking row counts against the previous release.
+"""Build a data release: one Parquet and one gzipped CSV per mart, the seating macros
+(macros.sql), manifest.json and a CHANGELOG.md excerpt, after checking row counts against the
+previous release.
 
 python -m parlamento_aberto.release build --data data --out DIR --sha SHA --date YYYY-MM-DD
     [--changelog docs/data-changelog.md] [--previous DIR] [--tags "data-2026-10-19 ..."]
@@ -40,6 +41,10 @@ EPT_TERMS = (
 EPT_MODEL = re.compile(r"(?:^|_)ept_")
 REPO = "https://github.com/rfsbraz/parlamento-aberto"
 MAX_DROP = 0.05
+# The seating rule ships as code next to the data built with it, so consumers count seats the
+# same way (#78). It is code, so it carries the code licence (LICENSE), not CC BY.
+MACROS = "macros.sql"
+MACROS_LICENCE = "MIT"
 # Sources whose rows stay in the marts but out of the published files, with the reason. The
 # EpT register has no reuse authorisation yet (Lei n.º 52/2019, art. 17.º), so it is not
 # covered by CC BY 4.0.
@@ -212,6 +217,13 @@ def export(con, out: Path, tag: str, sha: str, updated: str) -> dict:
     return entries
 
 
+def export_macros(out: Path) -> dict:
+    """Copy models/macros.sql into the release, byte for byte, and describe it."""
+    path = out / MACROS
+    shutil.copyfile(MODELS / MACROS, path)
+    return {"name": MACROS, "sha256": _sha256(path), "licence": MACROS_LICENCE}
+
+
 def sources(data: Path) -> dict:
     lock = json.loads((data / "_meta" / "sources.lock.json").read_text(encoding="utf-8"))
     return {
@@ -259,6 +271,7 @@ def cmd_build(a) -> int:
                 "ar_terms": AR_TERMS_URL,
             },
             "marts": export(con, staging, tag, a.sha, updated),
+            "macros": export_macros(staging),
             "sources": sources(data),
             "excluded_sources": excluded_rows(con),
         }

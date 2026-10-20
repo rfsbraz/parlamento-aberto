@@ -56,6 +56,7 @@ Razões: gratuito e sem custos de saída de tráfego, junto do código e dos dad
 Cada publicação contém:
 - um ficheiro Parquet por mart, mais um CSV comprimido com gzip de cada mart para quem usa folhas de cálculo;
 - `manifest.json` com a versão do schema, a hora do build, o SHA do commit de dados de onde foi construída, o número de linhas por mart e por legislatura, e o SHA-256 e a data de descarga de cada ficheiro da fonte usado;
+- `macros.sql`, a regra de quem tem lugar num dia, igual à usada nos marts;
 - um excerto `CHANGELOG.md` com as alterações ao schema.
 
 Os snapshots em bruto deixam de ser arquivados como ficheiros das publicações. O histórico do git é o arquivo, e o SHA do commit no manifest chega para reconstruir qualquer publicação. O R2 e o Hugging Face não são usados na v1; o Hugging Face pode ser acrescentado mais tarde como espelho, num PR pequeno.

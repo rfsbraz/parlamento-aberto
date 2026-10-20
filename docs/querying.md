@@ -1,8 +1,8 @@
 # Consultar uma publicação
 
 Cada publicação de dados tem um ficheiro Parquet e um CSV comprimido com gzip por mart, mais o
-`manifest.json` (tag, commit de dados, número de linhas e hashes dos ficheiros) e o
-`CHANGELOG.md`. A publicação mais recente está sempre em:
+`macros.sql` com a regra de quem tem lugar num dia, o `manifest.json` (tag, commit de dados,
+número de linhas e hashes dos ficheiros) e o `CHANGELOG.md`. A publicação mais recente está sempre em:
 
 ```
 https://github.com/rfsbraz/parlamento-aberto/releases/latest/download/<mart>.parquet
@@ -87,6 +87,42 @@ con <- dbConnect(duckdb::duckdb())
 votes <- dbGetQuery(con, paste0("select * from '", base, "votes.parquet'"))
 questions <- readr::read_csv(paste0(base, "questions.csv.gz"), skip = 1)
 ```
+
+## Quem tem lugar num dia
+
+A regra de quem tem lugar num dia vem em cada publicação, no `macros.sql`, igual à usada nos
+marts. O `manifest.json` lista-o na chave `macros`, com o SHA-256. Com o pacote `duckdb` do
+Python, carregue o `mandates.parquet` e o `macros.sql` da mesma publicação:
+
+```python
+import hashlib
+import json
+import urllib.request
+
+import duckdb
+
+base = "https://github.com/rfsbraz/parlamento-aberto/releases/latest/download/"
+
+
+def get(name):
+    with urllib.request.urlopen(base + name) as r:
+        return r.read()
+
+
+manifest = json.loads(get("manifest.json"))
+macros = get("macros.sql")
+assert hashlib.sha256(macros).hexdigest() == manifest["macros"]["sha256"]
+
+con = duckdb.connect()
+con.execute(f"create table mandates as select * from '{base}mandates.parquet'")
+con.execute(macros.decode("utf-8"))
+day = con.sql("select max(start_date) from mandates").fetchone()[0]
+print(con.sql("select legislature, count(*) from seated_on(?) group by 1", params=[day]))
+```
+
+Para contar lugares numa tag fixa, troque `latest/download` por `download/<tag>`. O
+`macros.sql` cria `seated_on(d)`, `seated_during(d0, d1)` e `seated_by_period_during(d0, d1)`,
+que só precisam da tabela `mandates`. É código, sob a licença MIT do repositório.
 
 ## Licença e atribuição
 

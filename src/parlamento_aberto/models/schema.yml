@@ -139,3 +139,155 @@ models:
       start_date: First day in the group.
       end_date: Last day in the group, null while the membership is open.
       is_open: True when the legislature is running and AR's end date is on or after the extract date.
+
+  stg_iniciativas__initiatives:
+    description: Iniciativas, one row per initiative record.
+    columns:
+      initiative_id: AR id of the initiative (IniId).
+      number: Initiative number within its type and legislature (IniNr).
+      type_code: Initiative type code (IniTipo), for example J.
+      type: Initiative type (IniDescTipo), for example Projeto de Lei.
+      session_number: Legislative session the initiative was submitted in (IniSel).
+      title: Title (IniTitulo).
+      text_url: Link to the initiative text (IniLinkTexto).
+      author_kind_code: Code of the kind of author (IniAutorOutros.sigla), for example D, G or V.
+      author_kind: Kind of author (IniAutorOutros.nome), for example Deputados, Grupos Parlamentares or Governo.
+      author_committee: Committee that authored the initiative, when the author is a committee (IniAutorOutros.iniAutorComissao).
+      author_deputies: Deputy authors (IniAutorDeputados) as cadastro_id, name, group_acronym.
+      author_groups: Group authors (IniAutorGruposParlamentares) as group acronyms.
+      events: Events (IniEventos) as event_id, phase, phase_date and the raw votes (Votacao).
+      legislature: Legislature in Roman numerals, from the file path.
+      source_file: Normalised file the row was read from, relative to data/.
+
+  stg_iniciativas__votes:
+    description: One row per vote record (Votacao) in an initiative event. A vote on several initiatives appears once per initiative.
+    columns:
+      vote_id: AR id of the vote (id).
+      initiative_id: Initiative the record is published on.
+      event_id: Event the vote belongs to (EvtId).
+      phase: Phase of that event (Fase), for example Votação na generalidade.
+      phase_date: Date of that event (DataFase).
+      date: Date of the vote (data).
+      result: Result as published (resultado), for example Aprovado or Rejeitado.
+      meeting: Meeting number (reuniao).
+      meeting_type: Meeting type code (tipoReuniao), RP for a plenary meeting.
+      unanimous: True when the AR marks the vote unanimous (unanime), otherwise false.
+      description: Description of what was voted (descricao).
+      detail: Who voted which way (detalhe), null when absent or empty.
+      absent_groups: Groups listed as absent (ausencias).
+      legislature: Legislature of the initiative, from the file path.
+      source_file: Normalised file the row was read from, relative to data/.
+
+  stg_atividades__votes:
+    description: One row per vote record (VotacaoDebate) on an activity in Atividades AtividadesGerais, such as a vote of condolence or a motion.
+    columns:
+      vote_id: AR id of the vote (id).
+      activity_type: Activity type code (Tipo), for example VOT or MOC.
+      activity_type_description: Activity type (DescTipo).
+      activity_number: Activity number (Numero).
+      activity_subject: Activity subject (Assunto).
+      date: Date of the vote (data).
+      result: Result as published (resultado).
+      meeting: Meeting number (reuniao).
+      meeting_type: Meeting type code (tipoReuniao).
+      unanimous: True when the AR marks the vote unanimous (unanime), otherwise false.
+      description: Description of what was voted (descricao).
+      detail: Who voted which way (detalhe), null when absent or empty.
+      absent_groups: Groups listed as absent (ausencias).
+      legislature: Legislature in Roman numerals, from the file path.
+      source_file: Normalised file the row was read from, relative to data/.
+
+  stg_votes__detail_items:
+    description: >-
+      Built in Python by the vote parser. One row per item in each distinct vote detail
+      string, or one row with an error when the parser rejects the string.
+    columns:
+      detail: The detail string, joins to the detail column of the vote models.
+      item_number: Position of the item in the string, from 1. 0 on an error row.
+      kind: group (a whole group), count (a number of a group's deputies, as in 2-PS) or deputy (a named deputy).
+      group_acronym: Group code as written in the string.
+      position: favour, against, abstention or absent.
+      deputies: For a count item, the number of deputies.
+      name: For a deputy item, the name as written in the string.
+      error: Why the parser rejected the string, null when it was parsed.
+
+  initiatives:
+    description: One row per initiative.
+    columns:
+      legislature: Legislature of the initiative, from the file path. Legislature I is published in two files, I-A and I-B.
+      initiative_id: AR id of the initiative.
+      number: Initiative number within its type and legislature.
+      type_code: Initiative type code, for example J.
+      type: Initiative type, for example Projeto de Lei.
+      session_number: Legislative session the initiative was submitted in.
+      title: Title.
+      author_kind: Kind of author as published, for example Deputados, Grupos Parlamentares or Governo.
+      first_event_date: Date of the earliest event on the initiative.
+      text_url: Link to the initiative text.
+
+  initiative_authors:
+    description: One row per author of an initiative.
+    columns:
+      legislature: Legislature of the initiative.
+      initiative_id: Initiative, joins to initiatives.
+      author_type: deputy, group, or other for any author that is not a deputy or a group (Governo, a regional assembly, a committee, citizens).
+      cadastro_id: For a deputy, the person id, joins to deputies.
+      group_acronym: For a deputy, the group listed with them; for a group, its acronym.
+      name: For a deputy, the name as published; for other, the author (the committee name, or the kind of author such as Governo).
+
+  votes:
+    description: >-
+      One row per vote id, from the Votacao arrays of Iniciativas events and the
+      VotacaoDebate arrays of Atividades. A vote on several initiatives voted together is
+      published on each of them with the same content, so it is kept once.
+    columns:
+      vote_id: AR id of the vote.
+      legislature: Legislature the vote date falls in. Can differ from the initiative's legislature.
+      date: Date of the vote.
+      source: iniciativas or atividades.
+      result: Result as published, for example Aprovado or Rejeitado.
+      unanimous: True when the AR marks the vote unanimous.
+      meeting: Meeting number.
+      meeting_type: Meeting type code, RP for a plenary meeting.
+      description: Description of what was voted.
+      detail: Who voted which way, as published. Null when the AR gives no detail.
+      absent_groups: Groups listed as absent, as published.
+      source_records: Number of source records with this vote id.
+
+  initiative_votes:
+    description: Links votes to the initiatives and events they are published on.
+    columns:
+      vote_id: Vote, joins to votes.
+      initiative_id: Initiative, joins to initiatives.
+      initiative_legislature: Legislature of the initiative.
+      event_id: Event on the initiative that carries the vote.
+      phase: Phase of that event, for example Votação na generalidade.
+      phase_date: Date of that event.
+
+  vote_group_positions:
+    description: >-
+      One row per vote, group and position, from the parsed detail. Votes without a detail
+      take absent groups and deputies from the ausencias field. A unanimous vote that lists no favour,
+      against or abstention position gets a favour row, with inferred = true, for every
+      other group with a deputy seated on the vote date (the seated_on rule).
+    columns:
+      vote_id: Vote, joins to votes.
+      legislature: Legislature of the vote.
+      group_acronym: Group code as written by the AR. Indep and Ninsc mark deputies outside any group.
+      position: favour, against, abstention or absent.
+      deputies: Null when the group as a whole took the position (apart from any of its deputies listed under another position). Otherwise the number of its deputies who did.
+      inferred: True when the row comes from the unanimous rule rather than the published detail.
+
+  vote_deputy_dissents:
+    description: >-
+      One row per deputy named in a vote detail, usually for voting apart from their group,
+      or named as absent in the ausencias field of a vote without a detail. Matched to cadastro_id by parliamentary name (ignoring case and spacing) and group
+      within the vote's legislature, or by name alone for Indep and Ninsc.
+    columns:
+      vote_id: Vote, joins to votes.
+      legislature: Legislature of the vote.
+      position: favour, against, abstention or absent.
+      name: Name as written in the detail.
+      group_acronym: Group code as written in the detail.
+      cadastro_id: Person id, joins to deputies. Null when no deputy or more than one matches.
+      candidates: Number of deputies matching the name and group. 0 is unmatched, more than 1 is ambiguous.

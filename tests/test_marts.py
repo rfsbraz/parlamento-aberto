@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 import pytest
@@ -129,3 +130,36 @@ def test_every_column_has_a_description(con):
         assert list(described) == cols, name
         assert all(str(d).strip() for d in described.values()), name
         assert str(schema[name].get("description", "")).strip(), name
+
+
+# Pinned so a change in the source shows up in the PR diff instead of silently
+# moving the seat count through the seated_on tie rule.
+EXPECTED_EFFECTIVE_SUSPENDED_OVERLAPS = {"XVII": 2}
+
+
+def test_overlapping_effective_and_suspended_periods_are_pinned(con):
+    rows = con.sql(
+        """
+        select a.legislature, count(*)
+        from mandates a
+        join mandates b
+          on a.legislature = b.legislature
+         and a.cadastro_id = b.cadastro_id
+         and a.is_effective
+         and b.situation like 'Suspenso%'
+         and a.start_date <= coalesce(b.end_date, date '9999-12-31')
+         and b.start_date <= coalesce(a.end_date, date '9999-12-31')
+        group by all
+        """
+    ).fetchall()
+    assert dict(rows) == EXPECTED_EFFECTIVE_SUSPENDED_OVERLAPS
+
+
+def test_fixture_biographies_are_synthetic():
+    # Real biographies and birth dates must not be committed as fixtures.
+    paths = sorted((FIXTURES / "registo_biografico").glob("*/*/*.json"))
+    assert paths
+    for path in paths:
+        record = json.loads(path.read_text(encoding="utf-8"))
+        assert record["CadNomeCompleto"].startswith("Pessoa Sintética"), path.name
+        assert record["CadDtNascimento"].startswith("1900-"), path.name

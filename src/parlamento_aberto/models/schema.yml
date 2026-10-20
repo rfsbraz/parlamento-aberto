@@ -657,6 +657,7 @@ models:
       submitted_at: Submission time as published (submitedDate).
       submitted_date: Submission as the Europe/Lisbon day.
       is_current: True for the newest published declaration with no successor, per holder, body and role.
+      retrieved_at: Dia (Lisboa) em que a declaração foi obtida da EpT. Nulo nas declarações guardadas antes de #45.
 
   stg_ept_registo_interesses__items:
     description: >-

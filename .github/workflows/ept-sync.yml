@@ -1,0 +1,97 @@
+name: ept sync
+
+# Sincronização semanal do registo de interesses da EpT (#45) para
+# data/ept_registo_interesses, no ramo data/ept, com um único PR em rascunho e retido
+# (hold: new-dataset, hold: ept). O data-merge.yml só faz merge do ramo dos dados da AR, por isso
+# este PR nunca entra no main sozinho. Pedidos sequenciais, no máximo um por segundo
+# (src/parlamento_aberto/ept.py). O PR CI nunca corre esta recolha.
+on:
+  schedule:
+    - cron: "15 6 * * 1" # segunda-feira, 07:15 em Lisboa no verão, 06:15 no inverno
+  workflow_dispatch:
+
+concurrency:
+  group: ept-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  BRANCH: data/ept
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - uses: astral-sh/setup-uv@v6
+
+      - run: uv sync --locked
+
+      - name: Check DATA_BOT_TOKEN
+        env:
+          DATA_BOT_TOKEN: ${{ secrets.DATA_BOT_TOKEN }}
+        run: uv run python -m parlamento_aberto.datapr check-token
+
+      - name: Check out data branch
+        env:
+          GH_TOKEN: ${{ secrets.DATA_BOT_TOKEN }}
+        run: |
+          gh auth setup-git
+          git config user.name "parlamento-aberto data bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null; then
+            git switch "$BRANCH"
+            # Sem rebase nem force-push: o main entra por merge.
+            git merge --no-edit origin/main
+          else
+            git switch -c "$BRANCH"
+          fi
+
+      - name: Fetch and strip
+        run: |
+          # O relatório só tem contagens e ids.
+          uv run python -m parlamento_aberto.ept fetch --data data --report "$RUNNER_TEMP/report.json"
+
+      - name: Check for leaks
+        run: |
+          uv run python -m parlamento_aberto.ept_sync check --data data --counts "$RUNNER_TEMP/counts.json"
+
+      - name: Commit and push
+        id: commit
+        env:
+          GH_TOKEN: ${{ secrets.DATA_BOT_TOKEN }}
+        run: |
+          git add data/ept_registo_interesses
+          if ! git diff --cached --quiet; then
+            git commit -m "data: sincronização EpT $(TZ=Europe/Lisbon date +%F)"
+          fi
+          if [ "$(git rev-list --count origin/main..HEAD)" != "0" ]; then
+            git push origin "$BRANCH"
+            echo "ahead=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open or update the draft PR
+        if: steps.commit.outputs.ahead == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.DATA_BOT_TOKEN }}
+        run: |
+          uv run python -m parlamento_aberto.ept_sync body --report "$RUNNER_TEMP/report.json" \
+            --counts "$RUNNER_TEMP/counts.json" --base origin/main --body "$RUNNER_TEMP/body.md"
+          gh label create "hold: new-dataset" --color B60205 --description "New dataset or legislature" 2>/dev/null || true
+          gh label create "hold: ept" --color B60205 --description "EpT data, publication pending" 2>/dev/null || true
+          number=$(gh pr list --head "$BRANCH" --base main --state open --json number --jq '.[0].number // empty')
+          if [ -z "$number" ]; then
+            gh pr create --draft --head "$BRANCH" --base main \
+              --title "dados: registo de interesses da EpT (XVI e XVII)" --body-file "$RUNNER_TEMP/body.md"
+            number=$(gh pr list --head "$BRANCH" --base main --state open --json number --jq '.[0].number')
+          else
+            gh pr edit "$number" --body-file "$RUNNER_TEMP/body.md"
+          fi
+          gh pr edit "$number" --add-label "hold: new-dataset" --add-label "hold: ept"

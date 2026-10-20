@@ -1,14 +1,14 @@
-## What and why?
+## O quê e porquê?
 
 
 
 Closes #
 
-## How was it tested?
+## Como foi testado?
 
 
 
-## AI use
+## Uso de IA
 
-What was AI-assisted, and what did you check by hand?
+O que teve ajuda de IA, e o que verificou à mão?
 

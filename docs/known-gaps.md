@@ -1,18 +1,18 @@
-# Known gaps in the source
+# Lacunas conhecidas na fonte
 
-What the AR publishes, as of the full sync on 20 Oct 2026. These are gaps in the source, not in the pipeline, and we do not patch them by hand. `test_intervention_coverage_is_pinned` in `tests/test_interventions_questions.py` pins the first and last meeting date per legislature, so when AR fills a gap the test fails. Update the pin and this page together.
+O que a AR publica, à data da sincronização completa de 20 de outubro de 2026. São lacunas na fonte, não no pipeline, e não as corrigimos à mão. `test_intervention_coverage_is_pinned` em `tests/test_interventions_questions.py` fixa a primeira e a última data de reunião por legislatura, por isso, quando a AR preencher uma lacuna, o teste falha. Atualize o valor fixado e esta página em conjunto.
 
-## Deputies and biographies
+## Deputados e biografias
 
-RegistoBiografico and AtividadeDeputado are listed on every legislature page, but most of those files are not that legislature's data (#23):
+O RegistoBiografico e a AtividadeDeputado constam da página de cada legislatura, mas a maior parte desses ficheiros não tem os dados dessa legislatura (#23):
 
-- RegistoBiografico: the files for Constituinte, I-A, I-B and IV to XVI, JSON and XML alike, are older snapshots of the XVII register: the same 339 people, with older content (335 people in `RegistoBiograficoI`). Only Constituinte, II and III have real files, all in the older shape: `RegistoBiograficoII/III_json.txt` listed on the I Legislatura page, with 432 and 454 people, and the older of the two `RegistoBiograficoConstituinte.xml` files on the Constituinte page (530,619 bytes, 313 people), the only file read as XML (`format: xml`, #28). XVII is the current register.
-- AtividadeDeputado: every file is a snapshot of the XVII list, with the same 1,446 people tagged XVII and an older extract date than XVII. II and III come from `AtividadeDeputadoII/III_json.txt` on the I Legislatura page. IV to IX carry some activity dated in their own period; Constituinte, I-A and I-B carry none.
-- These older snapshots are fetched and hashed but not stored (`copy_of: XVII` in `sources.yaml`): RegistoBiografico for Constituinte, I-A, I-B and II to XVI, and AtividadeDeputado for Constituinte, I-A, I-B, II and III. The check is on ids only, since the content is older than XVII by design. If one ever holds a record whose id is not in XVII, the data PR gets `hold: source-changed`. AtividadeDeputado IV to XVI stay stored for now.
+- RegistoBiografico: os ficheiros da Constituinte, I-A, I-B e IV a XVI, tanto em JSON como em XML, são cópias mais antigas do registo da XVII: as mesmas 339 pessoas, com conteúdo mais antigo (335 pessoas em `RegistoBiograficoI`). Só a Constituinte, a II e a III têm ficheiros reais, todos no formato mais antigo: `RegistoBiograficoII/III_json.txt`, listados na página I Legislatura, com 432 e 454 pessoas, e o mais antigo dos dois ficheiros `RegistoBiograficoConstituinte.xml` na página da Constituinte (530 619 bytes, 313 pessoas), o único ficheiro lido como XML (`format: xml`, #28). A XVII é o registo atual.
+- AtividadeDeputado: todos os ficheiros são cópias da lista da XVII, com as mesmas 1446 pessoas marcadas como XVII e uma data de extração mais antiga do que a da XVII. A II e a III vêm de `AtividadeDeputadoII/III_json.txt`, na página I Legislatura. A IV a IX têm alguma atividade datada no seu próprio período; a Constituinte, a I-A e a I-B não têm nenhuma.
+- Estas cópias mais antigas são descarregadas e o seu hash é calculado, mas não são guardadas (`copy_of: XVII` no `sources.yaml`): o RegistoBiografico da Constituinte, I-A, I-B e II a XVI, e a AtividadeDeputado da Constituinte, I-A, I-B, II e III. A verificação é feita só pelos ids, porque o conteúdo é, por natureza, mais antigo do que o da XVII. Se alguma vez uma delas tiver um registo cujo id não está na XVII, o PR de dados recebe `hold: source-changed`. A AtividadeDeputado da IV à XVI continua guardada, por agora.
 
-The `deputies` mart takes biography fields from the latest legislature with a record for the person and names it in `biography_legislature`. People on the lists of each legislature (InformacaoBase) with a biography, from the 20 Oct 2026 data:
+O mart `deputies` tira os campos biográficos da legislatura mais recente com um registo da pessoa e indica-a em `biography_legislature`. Pessoas nas listas de cada legislatura (InformacaoBase) com biografia, nos dados de 20 de outubro de 2026:
 
-| Legislature | People | With a biography |
+| Legislatura | Pessoas | Com biografia |
 |---|---:|---:|
 | Constituinte | 313 | 313 |
 | I-A, I-B | 565 | 349 |
@@ -20,141 +20,141 @@ The `deputies` mart takes biography fields from the latest legislature with a re
 | III | 459 | 458 |
 | IV | 417 | 249 |
 | V | 417 | 172 |
-| VI to XVI | 459 to 1,513 | 56 to 263 |
-| XVII | 1,446 | 339 |
+| VI a XVI | 459 a 1513 | 56 a 263 |
+| XVII | 1446 | 339 |
 
-The older Constituinte register has birth dates for 38 of its 313 people.
+O registo mais antigo da Constituinte tem datas de nascimento para 38 das suas 313 pessoas.
 
-Not used: `AtividadeDeputadoCons.xml` on the Constituinte page (267,833 bytes, link to `fich=AtividadeDeputadoX.xml`) is served corrupt. It comes as `text/xml` but is not XML, gzip or zip. No Constituinte activity file is read.
+Não usado: `AtividadeDeputadoCons.xml`, na página da Constituinte (267 833 bytes, ligação para `fich=AtividadeDeputadoX.xml`), é servido corrompido. Vem como `text/xml`, mas não é XML, gzip nem zip. Não se lê nenhum ficheiro de atividade da Constituinte.
 
 ## Intervencoes
 
-No file is published for the Constituinte, I (I-A, I-B) or III.
+Não há ficheiro publicado para a Constituinte, a I (I-A, I-B) nem a III.
 
-| Legislature | Legislature dates | First and last meeting with interventions | Gap |
+| Legislatura | Datas da legislatura | Primeira e última reunião com intervenções | Lacuna |
 |---|---|---|---|
-| II | 1980-11-13 to 1983-05-30 | 1980-12-10 to 1982-04-25 | Only 98 records. Nothing after April 1982, and no meetings between 1981-04-25 and 1981-12-12 or between 1981-12-12 and 1982-04-01. |
-| IV | 1985-11-04 to 1987-08-12 | 1985-11-04 to 1986-10-31 | Nothing for the last 9 months. |
-| VII | 1995-10-27 to 1999-10-24 | 1996-10-16 to 1999-10-01 | Nothing for the first year, and no meetings between 1997-10-03 and 1998-09-16. |
-| XII | 2011-06-20 to 2015-10-22 | 2013-09-16 to 2015-10-21 | Nothing before September 2013, about two years. |
-| XIV | 2019-10-25 to 2022-03-28 | 2019-10-25 to 2022-03-22 | No meetings between 2020-09-10 and 2021-09-15. |
-| XVII | 2025-06-03, running | 2026-09-16 to 2026-09-18 | Only 81 records, all from the 16 to 18 September 2026 sittings. |
+| II | 1980-11-13 a 1983-05-30 | 1980-12-10 a 1982-04-25 | Só 98 registos. Nada depois de abril de 1982, e nenhuma reunião entre 1981-04-25 e 1981-12-12 nem entre 1981-12-12 e 1982-04-01. |
+| IV | 1985-11-04 a 1987-08-12 | 1985-11-04 a 1986-10-31 | Nada nos últimos 9 meses. |
+| VII | 1995-10-27 a 1999-10-24 | 1996-10-16 a 1999-10-01 | Nada no primeiro ano, e nenhuma reunião entre 1997-10-03 e 1998-09-16. |
+| XII | 2011-06-20 a 2015-10-22 | 2013-09-16 a 2015-10-21 | Nada antes de setembro de 2013, cerca de dois anos. |
+| XIV | 2019-10-25 a 2022-03-28 | 2019-10-25 a 2022-03-22 | Nenhuma reunião entre 2020-09-10 e 2021-09-15. |
+| XVII | 2025-06-03, em curso | 2026-09-16 a 2026-09-18 | Só 81 registos, todos das reuniões de 16 a 18 de setembro de 2026. |
 
-Every other legislature (V, VI, VIII to XI, XIII, XV, XVI) runs from its first weeks to within about six weeks of its end, with no stretch over 100 days without a meeting other than VI's spring of 1992 (1992-04-09 to 1992-07-27).
+Todas as outras legislaturas (V, VI, VIII a XI, XIII, XV, XVI) vão das primeiras semanas até cerca de seis semanas antes do fim, sem nenhum período de mais de 100 dias sem reuniões, exceto a primavera de 1992 na VI (1992-04-09 a 1992-07-27).
 
-AR also publishes 113 Intervencoes records with every key null, in V, XI, XIV, XV and XVI. Staging keeps them so the counts match `sources.lock.json`. The `interventions` mart drops them.
+A AR publica também 113 registos de Intervencoes com todas as chaves a nulo, na V, XI, XIV, XV e XVI. O staging mantém-nos para que as contagens batam com `sources.lock.json`. O mart `interventions` exclui-os.
 
 ## PerguntasRequerimentos
 
-Files start at VI. Nothing is published for earlier legislatures.
+Os ficheiros começam na VI. Não há nada publicado para as legislaturas anteriores.
 
-28 questions have a sent date (`DataEnvio`) whose year is outside their legislature, for example 0024, 2208 or 2909. Most are typos of the entry date. The `questions` mart keeps the published value in `sent_date_raw`, sets `sent_date` to null and `sent_date_invalid` to true. One requerimento in VII (id 16560) has no authors.
+28 perguntas têm uma data de envio (`DataEnvio`) cujo ano fica fora da sua legislatura, por exemplo 0024, 2208 ou 2909. A maior parte são gralhas da data de entrada. O mart `questions` guarda o valor publicado em `sent_date_raw`, põe `sent_date` a nulo e `sent_date_invalid` a verdadeiro. Um requerimento da VII (id 16560) não tem autores.
 
-## The six extra files listed under legislature I (#18)
+## Os seis ficheiros extra listados na legislatura I (#18)
 
-These are findings about files that `sources.yaml` leaves out, not gaps in the pipeline. Counts and ids only; no personal data is copied here.
+Estas são conclusões sobre ficheiros que o `sources.yaml` deixa de fora, não lacunas no pipeline. Só contagens e ids; não se copia aqui nenhum dado pessoal.
 
-The "I Legislatura" pages of three sections list six JSON files whose names say II or III. The links and sizes differ from the files of the same name on the II and III pages. On each "I Legislatura" page they sit next to `II.xml` and `III.xml` files of the same names, with no heading or note explaining them.
+As páginas "I Legislatura" de três secções listam seis ficheiros JSON cujos nomes dizem II ou III. As ligações e os tamanhos são diferentes dos ficheiros com o mesmo nome nas páginas da II e da III. Em cada página "I Legislatura" estão junto a ficheiros `II.xml` e `III.xml` com os mesmos nomes, sem título nem nota que os explique.
 
-Downloaded on 20 Oct 2026 (one request each, sequential, gzip):
+Descarregados a 20 de outubro de 2026 (um pedido cada, sequenciais, com gzip):
 
-| Listed under I | Bytes | SHA-256 (first 16) |
+| Listado na I | Bytes | SHA-256 (primeiros 16) |
 |---|---:|---|
-| `AtividadeDeputadoII_json.txt` | 1,616,466 | `bee91d796d68cc0f` |
-| `AtividadeDeputadoIII_json.txt` | 2,198,748 | `a467d185b52e7b42` |
-| `RegistoBiograficoII_json.txt` | 456,728 | `bd44852b3c2f0347` |
-| `RegistoBiograficoIII_json.txt` | 498,226 | `1dd5ab65b203412d` |
-| `OrgaoComposicaoII_json.txt` | 315,438 | `9bdd7714a6a40e02` |
-| `OrgaoComposicaoIII_json.txt` | 336,853 | `0d4ac781fa337a87` |
+| `AtividadeDeputadoII_json.txt` | 1 616 466 | `bee91d796d68cc0f` |
+| `AtividadeDeputadoIII_json.txt` | 2 198 748 | `a467d185b52e7b42` |
+| `RegistoBiograficoII_json.txt` | 456 728 | `bd44852b3c2f0347` |
+| `RegistoBiograficoIII_json.txt` | 498 226 | `1dd5ab65b203412d` |
+| `OrgaoComposicaoII_json.txt` | 315 438 | `9bdd7714a6a40e02` |
+| `OrgaoComposicaoIII_json.txt` | 336 853 | `0d4ac781fa337a87` |
 
-All six use an older shape: XML converted to JSON, with a `?xml` key, a single root element (`ArrayOfAtividadeDeputado`, `RegistoBiografico`, `OrganizacaoAR`) and camelCase field names (`depCadId`, `cadId`). The files on the II and III pages, and every other JSON file in `sources.yaml`, use the current shape: a top-level list or object with PascalCase names.
+Os seis usam um formato mais antigo: XML convertido para JSON, com uma chave `?xml`, um único elemento raiz (`ArrayOfAtividadeDeputado`, `RegistoBiografico`, `OrganizacaoAR`) e nomes de campos em camelCase (`depCadId`, `cadId`). Os ficheiros nas páginas da II e da III, e todos os outros ficheiros JSON do `sources.yaml`, usam o formato atual: uma lista ou um objeto no topo, com nomes em PascalCase.
 
-### OrgaoComposicaoII and III: older copies, keep excluded
+### OrgaoComposicaoII e III: cópias mais antigas, continuam excluídas
 
-They hold legislature II and III data, the same as the files on the II and III pages, but less of it:
+Têm dados da II e da III, os mesmos dos ficheiros nas páginas da II e da III, mas em menor quantidade:
 
-| | Listed under I | On the II or III page | Overlap |
+| | Listado na I | Na página da II ou da III | Em comum |
 |---|---:|---:|---:|
-| II: plenary members (`depCadId`) | 432 | 440 | 432 |
-| II: committees | 30 | 30 | |
-| II: last date | 1983-05-31 | 1983-05-30 | |
-| III: plenary members | 454 | 459 | 454 |
-| III: committees | 32 | 32 | |
+| II: membros do plenário (`depCadId`) | 432 | 440 | 432 |
+| II: comissões | 30 | 30 | |
+| II: última data | 1983-05-31 | 1983-05-30 | |
+| III: membros do plenário | 454 | 459 | 454 |
+| III: comissões | 32 | 32 | |
 
-Every member id in the extra files is also in the current file, which has a few more. Outcome (b) in #18: an older export of the same data. They stay out of `sources.yaml`.
+Todos os ids de membros dos ficheiros extra estão também no ficheiro atual, que tem mais alguns. Resultado (b) em #18: uma exportação mais antiga dos mesmos dados. Continuam fora do `sources.yaml`.
 
-### AtividadeDeputadoII/III and RegistoBiograficoII/III: the only copy of II and III data
+### AtividadeDeputadoII/III e RegistoBiograficoII/III: a única cópia dos dados da II e da III
 
-These hold records that are missing from the files on the II and III pages:
+Estes têm registos que faltam nos ficheiros das páginas da II e da III:
 
-| | Listed under I | On the II or III page | Overlap |
+| | Listado na I | Na página da II ou da III | Em comum |
 |---|---:|---:|---:|
-| AtividadeDeputado II: deputies | 432, all with `legDes` II | 1,446, all with `LegDes` XVII | 2 |
-| AtividadeDeputado II: dates | 3,479, from 1980-11 to 1983-05 | none before June 2025 | |
-| AtividadeDeputado III: deputies | 454, all `legDes` III | 1,446, all `LegDes` XVII | 4 |
-| AtividadeDeputado III: dates | 6,127, from 1983-05 to 1985-11 | none before June 2025 | |
-| RegistoBiografico II: people (`cadId`) | 432 | 339 | 2 |
-| RegistoBiografico III: people | 454 | 339 | 4 |
+| AtividadeDeputado II: deputados | 432, todos com `legDes` II | 1446, todos com `LegDes` XVII | 2 |
+| AtividadeDeputado II: datas | 3479, de 1980-11 a 1983-05 | nenhuma antes de junho de 2025 | |
+| AtividadeDeputado III: deputados | 454, todos `legDes` III | 1446, todos `LegDes` XVII | 4 |
+| AtividadeDeputado III: datas | 6127, de 1983-05 a 1985-11 | nenhuma antes de junho de 2025 | |
+| RegistoBiografico II: pessoas (`cadId`) | 432 | 339 | 2 |
+| RegistoBiografico III: pessoas | 454 | 339 | 4 |
 
-Legislature II ran from November 1980 to May 1983 and III from May 1983 to November 1985, which matches the extra files. The files on the II and III pages carry the current deputy list and register instead (see below). Outcome (c) in #18: these four files are the II and III data. The `RegistoInteresses` lists inside both RegistoBiografico files are empty.
+A II decorreu de novembro de 1980 a maio de 1983 e a III de maio de 1983 a novembro de 1985, o que corresponde aos ficheiros extra. Os ficheiros nas páginas da II e da III trazem antes a lista atual de deputados e o registo atual (ver abaixo). Resultado (c) em #18: estes quatro ficheiros são os dados da II e da III. As listas `RegistoInteresses` dentro dos dois ficheiros RegistoBiografico estão vazias.
 
-### Related: current-shape AtividadeDeputado and RegistoBiografico are not per legislature
+### Relacionado: a AtividadeDeputado e o RegistoBiografico no formato atual não são por legislatura
 
-Checked across all 20 files of each in the 20 Oct download:
+Verificado nos 20 ficheiros de cada um, na descarga de 20 de outubro:
 
-- Every AtividadeDeputado file, Constituinte to XVII, has the same 1,446 records keyed by `Deputado.DepCadId`, all with `Deputado.LegDes` XVII. Only X to XVII have activity entries tagged with their own legislature. Constituinte, I-A, I-B, II and III have no dates before June 2025.
-- Every RegistoBiografico file has 335 to 339 people, and the union of all 20 files is 339 ids. The register is the same small set whatever legislature page it is on.
+- Todos os ficheiros AtividadeDeputado, da Constituinte à XVII, têm os mesmos 1446 registos indexados por `Deputado.DepCadId`, todos com `Deputado.LegDes` XVII. Só a X a XVII têm entradas de atividade marcadas com a sua própria legislatura. A Constituinte, a I-A, a I-B, a II e a III não têm datas antes de junho de 2025.
+- Todos os ficheiros RegistoBiografico têm entre 335 e 339 pessoas, e a união dos 20 ficheiros dá 339 ids. O registo é o mesmo pequeno conjunto, seja qual for a página de legislatura em que está.
 
-So per-legislature deputies and biographies for old legislatures are not in the current-shape files. For II and III they are in the extra files above. For other old legislatures, the `.xml` files on each page may be the source, which has not been checked.
+Assim, os deputados e as biografias por legislatura das legislaturas antigas não estão nos ficheiros no formato atual. Para a II e a III estão nos ficheiros extra acima. Para as outras legislaturas antigas, os ficheiros `.xml` de cada página podem ser a fonte, o que não foi verificado.
 
-### Decision needed
+### Decisão pendente
 
-Adding the four II and III files needs fetcher support that is not on main yet:
+Acrescentar os quatro ficheiros da II e da III precisa de suporte no fetcher que ainda não está em main:
 
-- a dotted path to the record list (`ArrayOfAtividadeDeputado.AtividadeDeputado`, `RegistoBiografico.RegistoBiograficoList.pt_ar_wsgode_objectos_DadosRegistoBiograficoWeb`), with ids `deputado.depCadId` and `cadId`;
-- a source key that does not clash with the current-shape `II` and `III` entries, for example `part: xml`, giving `atividade_deputado/II-xml`;
-- and a choice on whether the current-shape II and III files, which only repeat the XVII list, stay in `sources.yaml` at all.
+- um caminho com pontos até à lista de registos (`ArrayOfAtividadeDeputado.AtividadeDeputado`, `RegistoBiografico.RegistoBiograficoList.pt_ar_wsgode_objectos_DadosRegistoBiograficoWeb`), com os ids `deputado.depCadId` e `cadId`;
+- uma chave de fonte que não colida com as entradas `II` e `III` no formato atual, por exemplo `part: xml`, o que dá `atividade_deputado/II-xml`;
+- e uma escolha sobre se os ficheiros da II e da III no formato atual, que só repetem a lista da XVII, ficam sequer no `sources.yaml`.
 
-None of the six files has an entry in `sources.yaml`. The entries for the four (c) files, and a comment recording that the two OrgaoComposicao files stay out, go in #23.
+Nenhum dos seis ficheiros tem entrada no `sources.yaml`. As entradas dos quatro ficheiros (c), e um comentário a registar que os dois ficheiros OrgaoComposicao ficam de fora, vão para o #23.
 
 ## RegistoInteresses
 
-Every RegistoInteresses file, Constituinte to XV, lists the same 1,446 people: the XVII lists, the same set as AtividadeDeputado. People who are not on the XVII lists have no declarations here. XVI and XVII have no file: declarations moved to the Entidade para a Transparência. The private EpT build for XVI and XVII is described in [sources/ept.md](sources/ept.md).
+Todos os ficheiros RegistoInteresses, da Constituinte à XV, listam as mesmas 1446 pessoas: as listas da XVII, o mesmo conjunto da AtividadeDeputado. As pessoas que não estão nas listas da XVII não têm declarações aqui. A XVI e a XVII não têm ficheiro: as declarações passaram para a Entidade para a Transparência. A construção privada da EpT para a XVI e a XVII está descrita em [sources/ept.md](sources/ept.md).
 
-- Constituinte to X carry no declaration, only the person list (V3 with no `RecordInterests`). Constituinte, I-A, I-B and II to X are byte-identical; I differs in 17 records.
-- Declarations sit in XI (V1, 24), XII and XIII (V2, 43 and 61), XIV (V3, 111 declarations for 56 people, and V5, 15) and XV (V5, 98). Each names the legislature of its own file.
-- V1 publishes activities as one free-text field, not a list. V1 and V2 publish supports, services and other situations as free text, which often says "Nada a declarar": 104 of the 129 other situations, 108 of the 151 services and 62 of the 255 supports. They stay as published.
-- Dates are free text: a year, a month, a day in ISO or day-first order, or a period. `start_date` and `end_date` are set only for full ISO dates (1,285 of 2,782 items have a `start_date`); the published text is in the `_raw` columns.
-- V5 publishes `Remunerada` as `N` or `0`, never `S`, so `is_paid` is null for `0`. V3 publishes a `Type` code (0, 1 or 2) that the AR does not document; it is kept as `type_code`.
+- A Constituinte a X não trazem nenhuma declaração, só a lista de pessoas (V3 sem `RecordInterests`). A Constituinte, I-A, I-B e II a X são idênticas byte a byte; a I difere em 17 registos.
+- As declarações estão na XI (V1, 24), XII e XIII (V2, 43 e 61), XIV (V3, 111 declarações de 56 pessoas, e V5, 15) e XV (V5, 98). Cada uma indica a legislatura do seu próprio ficheiro.
+- A V1 publica as atividades como um único campo de texto livre, não como lista. A V1 e a V2 publicam os apoios, os serviços e as outras situações como texto livre, que muitas vezes diz "Nada a declarar": 104 das 129 outras situações, 108 dos 151 serviços e 62 dos 255 apoios. Ficam tal como publicados.
+- As datas são texto livre: um ano, um mês, um dia em ISO ou com o dia primeiro, ou um período. `start_date` e `end_date` só são preenchidos para datas ISO completas (1285 dos 2782 itens têm `start_date`); o texto publicado está nas colunas `_raw`.
+- A V5 publica `Remunerada` como `N` ou `0`, nunca `S`, por isso `is_paid` é nulo para `0`. A V3 publica um código `Type` (0, 1 ou 2) que a AR não documenta; fica como `type_code`.
 
-`test_full_data_declarations_are_pinned` in `tests/test_interests_coalitions.py` pins the declaration counts per legislature and format.
+`test_full_data_declarations_are_pinned` em `tests/test_interests_coalitions.py` fixa o número de declarações por legislatura e formato.
 
-## Votes
+## Votações
 
-1,130 plenary votes are not unanimous and have no detail (`detalhe`), so the published record does not say how each group voted. 791 come from Iniciativas and 339 from Atividades, spread across every legislature from I to XVII. 445 have no description either. They stay in `votes` with their result, but have no rows in `vote_group_positions` or `vote_deputy_dissents`, and nothing is inferred for them. `test_non_unanimous_votes_without_detail_are_pinned` in `tests/test_committee_votes.py` pins this count.
+1130 votações em plenário não são unânimes e não têm detalhe (`detalhe`), por isso o registo publicado não diz como votou cada grupo. 791 vêm das Iniciativas e 339 das Atividades, espalhadas por todas as legislaturas da I à XVII. 445 também não têm descrição. Ficam em `votes` com o seu resultado, mas não têm linhas em `vote_group_positions` nem em `vote_deputy_dissents`, e não se infere nada para elas. `test_non_unanimous_votes_without_detail_are_pinned` em `tests/test_committee_votes.py` fixa este número.
 
-4,705 committee votes (48% of the 9,723) are not unanimous and have no detail either, across 111 committees in VIII to XVII, most of them in XII (1,504) and XIII (1,691). 2,562 have no description. 638 say "sem votos contra" (no votes against) in the description, which does not say which groups voted for or abstained, so nothing is inferred from it. They stay in `votes` with no group rows. The same test pins this count.
+4705 votações em comissão (48% das 9723) também não são unânimes nem têm detalhe, em 111 comissões da VIII à XVII, a maior parte na XII (1504) e na XIII (1691). 2562 não têm descrição. 638 dizem "sem votos contra" na descrição, o que não diz que grupos votaram a favor ou se abstiveram, por isso não se infere nada a partir daí. Ficam em `votes` sem linhas por grupo. O mesmo teste fixa este número.
 
-Committee 8331 (Comissão de Agricultura e Pescas, XV) has 27 votes between 2022-04-26 and 2024-01-04. ComposicaoOrgaos XV publishes the committee and its 116 meetings, but its member history (`HistoricoComposicao`) is empty. None of the 27 votes needs inferred rows: 23 have a detail and 4 are not unanimous. `test_unanimous_committee_votes_have_a_composition` fails, naming the committee and vote, if a unanimous committee vote that needs inferred rows lands on a committee with no members.
+A comissão 8331 (Comissão de Agricultura e Pescas, XV) tem 27 votações entre 2022-04-26 e 2024-01-04. A ComposicaoOrgaos da XV publica a comissão e as suas 116 reuniões, mas o histórico de membros (`HistoricoComposicao`) está vazio. Nenhuma das 27 votações precisa de linhas inferidas: 23 têm detalhe e 4 não são unânimes. `test_unanimous_committee_votes_have_a_composition` falha, indicando a comissão e a votação, se uma votação unânime em comissão que precise de linhas inferidas calhar numa comissão sem membros.
 
-## Seat counts
+## Contagem de lugares
 
-Per-day seat counts for Constituinte to VI are overstated. On some days `seated_on(d)` returns more deputies than the legislature has seats, because the source does not close some stand-in periods (#27). If you count deputies by date in those legislatures, expect too many.
+As contagens de lugares por dia da Constituinte à VI estão sobrestimadas. Em alguns dias, `seated_on(d)` devolve mais deputados do que os lugares da legislatura, porque a fonte não fecha alguns períodos de substituição (#27). Se contar deputados por data nessas legislaturas, espere valores acima do real.
 
-- Constituinte to IV record no suspensions, and V and VI record only some. When a deputy comes back, often nothing ends the stand-in's period, so both stay effective until the stand-in's published end date, sometimes the end of the legislature.
-- At the start of a legislature or a new government, some deputies keep an Efetivo period alongside the stand-ins seated for them on day one, with no suspension recorded.
+- A Constituinte a IV não registam suspensões, e a V e a VI só registam algumas. Quando um deputado regressa, muitas vezes nada termina o período do substituto, por isso ambos continuam efetivos até à data de fim publicada do substituto, às vezes o fim da legislatura.
+- No início de uma legislatura ou de um novo governo, alguns deputados mantêm um período Efetivo ao mesmo tempo que os substitutos que tomaram posse por eles no primeiro dia, sem suspensão registada.
 
-Nothing is inferred to fix this: the source does not say which stand-in replaced whom. VII to XVII never pass the seats seed once swap days are handled. `test_seated_never_exceeds_seats_on_full_data` in `tests/test_seats.py` checks every day of every legislature, strictly for VII to XVII, and pins the maximum and the days over for Constituinte to VI, from the 20 Oct 2026 data:
+Não se infere nada para corrigir isto: a fonte não diz que substituto substituiu quem. Da VII à XVII, o número de deputados com lugar nunca ultrapassa o do seed de lugares, uma vez tratados os dias de troca. `test_seated_never_exceeds_seats_on_full_data` em `tests/test_seats.py` verifica cada dia de cada legislatura, de forma estrita para a VII a XVII, e fixa o máximo e os dias acima para a Constituinte a VI, com os dados de 20 de outubro de 2026:
 
-| Legislature | Seats | Max seated | Days over |
+| Legislatura | Lugares | Máximo com lugar | Dias acima |
 |---|---:|---:|---:|
 | Constituinte | 250 | 250 | 0 |
-| I-A | 263 | 271 | 1,178 |
+| I-A | 263 | 271 | 1178 |
 | I-B | 250 | 254 | 249 |
 | II | 250 | 257 | 891 |
 | III | 250 | 258 | 887 |
 | IV | 250 | 256 | 639 |
-| V | 250 | 254 | 1,346 |
+| V | 250 | 254 | 1346 |
 | VI | 230 | 232 | 746 |
 
-If AR closes those periods, the test fails. Update the pin and this table together.
+Se a AR fechar esses períodos, o teste falha. Atualize o valor fixado e esta tabela em conjunto.

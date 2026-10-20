@@ -1,0 +1,52 @@
+name: data merge
+
+# Stands in for native auto-merge, which is off while the repo is private.
+# When CI passes on the data/nightly PR, squash-merge it unless it has a hold: label.
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: data-merge
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.head_branch == 'data/nightly'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          persist-credentials: false
+
+      - uses: astral-sh/setup-uv@v6
+
+      - run: uv sync --locked
+
+      - name: Check DATA_BOT_TOKEN
+        env:
+          DATA_BOT_TOKEN: ${{ secrets.DATA_BOT_TOKEN }}
+        run: uv run python -m parlamento_aberto.datapr check-token
+
+      - name: Decide
+        id: decide
+        env:
+          GH_TOKEN: ${{ secrets.DATA_BOT_TOKEN }}
+          CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+          RUN_HEAD: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          gh pr view data/nightly --json number,state,labels,headRefOid > "$RUNNER_TEMP/pr.json"
+          uv run python -m parlamento_aberto.datapr merge-check --pr "$RUNNER_TEMP/pr.json" \
+            --conclusion "$CONCLUSION" --run-head "$RUN_HEAD" | tee -a "$GITHUB_OUTPUT"
+
+      - name: Squash-merge
+        if: steps.decide.outputs.merge == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.DATA_BOT_TOKEN }}
+          RUN_HEAD: ${{ github.event.workflow_run.head_sha }}
+        run: gh pr merge data/nightly --squash --delete-branch --match-head-commit "$RUN_HEAD"

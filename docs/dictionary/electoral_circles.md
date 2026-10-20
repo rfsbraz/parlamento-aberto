@@ -1,32 +1,32 @@
 # electoral_circles
 
-One row per electoral circle per legislature.
+Uma linha por círculo eleitoral e por legislatura.
 
-Generated from `src/parlamento_aberto/models/schema.yml` by `uv run python -m parlamento_aberto.dictionary`. Do not edit by hand.
+Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
-Release files: `electoral_circles.parquet` and `electoral_circles.csv.gz`.
+Ficheiros da publicação: `electoral_circles.parquet` e `electoral_circles.csv.gz`.
 
-## Columns
+## Colunas
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `legislature` | VARCHAR | Legislature in Roman numerals. |
-| `circle_id` | INTEGER | AR id of the electoral circle. |
-| `name` | VARCHAR | Name of the electoral circle. |
+| `legislature` | VARCHAR | Legislatura em numeração romana. |
+| `circle_id` | INTEGER | Id do círculo eleitoral na AR. |
+| `name` | VARCHAR | Nome do círculo eleitoral. |
 
-## Known quirks
+## Particularidades conhecidas
 
-- Gaps in the AR source itself are listed in [known gaps](../known-gaps.md).
+- As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
-## Built from
+## Construído a partir de
 
 ### stg_informacao_base__electoral_circles
 
-InformacaoBase CirculosEleitorais, one row per electoral circle.
+InformacaoBase CirculosEleitorais, uma linha por círculo eleitoral.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `circle_id` | INTEGER | AR id of the electoral circle (cpId). |
-| `name` | VARCHAR | Name of the electoral circle (cpDes). |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `circle_id` | INTEGER | Id do círculo eleitoral na AR (cpId). |
+| `name` | VARCHAR | Nome do círculo eleitoral (cpDes). |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |

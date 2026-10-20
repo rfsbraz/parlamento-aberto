@@ -1,44 +1,44 @@
 # mandates
 
-One row per deputy, legislature and situation period (DepSituacao), as published. Who held a seat on day D is the seated_on(D) query, not a column; seated_during(D0, D1) gives the same for every day in a range, and the vote marts use it. AR periods for one person can overlap on a handover day, for example an Efetivo and a Suspenso period that both cover the same day. The rule: among a person's periods covering D, the one that starts latest wins, on a tie the longer one (an open end counts as longest) wins, and on a tie in both dates the effective one wins. The person is seated if that period is Efetivo, Efetivo Temporário or Efetivo Definitivo. On a swap day, when a circle has more deputies on D than on both D - 1 and D + 1, effective periods that end on D (with no effective period for the same person starting on D + 1) do not count, up to that excess and the number of people starting a seat on D. Counts for Constituinte to VI are still overstated on many days, see docs/known-gaps.md.
+Uma linha por deputado, legislatura e período de situação (DepSituacao), tal como publicado. Quem tinha lugar no dia D é a consulta seated_on(D), não uma coluna; seated_during(D0, D1) dá o mesmo para cada dia de um intervalo, e os marts de votações usam-na. Os períodos da AR de uma pessoa podem sobrepor-se num dia de passagem, por exemplo um período Efetivo e um Suspenso que cobrem o mesmo dia. A regra: entre os períodos de uma pessoa que cobrem D, ganha o que começa mais tarde; em caso de empate, ganha o mais longo (um fim em aberto conta como o mais longo); e, com as duas datas empatadas, ganha o efetivo. A pessoa tem lugar se esse período for Efetivo, Efetivo Temporário ou Efetivo Definitivo. Num dia de troca, quando um círculo tem mais deputados em D do que em D - 1 e em D + 1, os períodos efetivos que terminam em D (sem período efetivo da mesma pessoa a começar em D + 1) não contam, até esse excesso e ao número de pessoas que começam um lugar em D. As contagens da Constituinte à VI continuam sobrestimadas em muitos dias, ver docs/known-gaps.md.
 
-Generated from `src/parlamento_aberto/models/schema.yml` by `uv run python -m parlamento_aberto.dictionary`. Do not edit by hand.
+Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
-Release files: `mandates.parquet` and `mandates.csv.gz`.
+Ficheiros da publicação: `mandates.parquet` e `mandates.csv.gz`.
 
-## Columns
+## Colunas
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `legislature` | VARCHAR | Legislature in Roman numerals. |
-| `cadastro_id` | BIGINT | Person id, joins to deputies. |
-| `deputy_id` | BIGINT | Id of this person in this legislature. |
-| `circle_id` | INTEGER | Electoral circle the person ran in, joins to electoral_circles. |
-| `situation` | VARCHAR | Situation as published, for example Efetivo, Suplente, Suspenso(Eleito). |
-| `is_effective` | BOOLEAN | True for Efetivo, Efetivo Temporário and Efetivo Definitivo, the situations that hold a seat. |
-| `start_date` | DATE | First day of the situation. |
-| `end_date` | DATE | Last day of the situation, null while it is open. |
+| `legislature` | VARCHAR | Legislatura em numeração romana. |
+| `cadastro_id` | BIGINT | Id da pessoa, liga a deputies. |
+| `deputy_id` | BIGINT | Id desta pessoa nesta legislatura. |
+| `circle_id` | INTEGER | Círculo eleitoral por onde a pessoa concorreu, liga a electoral_circles. |
+| `situation` | VARCHAR | Situação tal como publicada, por exemplo Efetivo, Suplente, Suspenso(Eleito). |
+| `is_effective` | BOOLEAN | Verdadeiro para Efetivo, Efetivo Temporário e Efetivo Definitivo, as situações que ocupam um lugar. |
+| `start_date` | DATE | Primeiro dia da situação. |
+| `end_date` | DATE | Último dia da situação, nulo enquanto está aberta. |
 
-## Known quirks
+## Particularidades conhecidas
 
-- InformacaoBase lists everyone on the lists of a legislature, elected or not: 1,446 people for XVII at the 20 Oct 2026 sync, against 230 seats. Count seats from the is_effective periods that cover a date, not from rows of the lists. The old site counted every record as a deputy.
-- Gaps in the AR source itself are listed in [known gaps](../known-gaps.md).
+- A InformacaoBase lista todas as pessoas nas listas de uma legislatura, eleitas ou não: 1446 pessoas na XVII na sincronização de 20 de outubro de 2026, para 230 lugares. Conte os lugares a partir dos períodos is_effective que cobrem uma data, não a partir das linhas das listas. O site antigo contava cada registo como um deputado.
+- As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
-## Built from
+## Construído a partir de
 
 ### stg_informacao_base__deputies
 
-InformacaoBase Deputados, one row per person on the lists of a legislature, elected or not.
+InformacaoBase Deputados, uma linha por pessoa nas listas de uma legislatura, eleita ou não.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `cadastro_id` | BIGINT | Person id shared across legislatures and datasets (DepCadId). |
-| `deputy_id` | BIGINT | Id of this person in this legislature (DepId). |
-| `full_name` | VARCHAR | Full name (DepNomeCompleto). |
-| `parliamentary_name` | VARCHAR | Name used in parliament (DepNomeParlamentar). |
-| `circle_id` | INTEGER | Electoral circle the person ran in (DepCPId). |
-| `circle_name` | VARCHAR | Name of that electoral circle (DepCPDes). |
-| `situations` | STRUCT(situation VARCHAR, start_date DATE, end_date DATE)[] | Situation periods (DepSituacao) as situation, start_date, end_date. |
-| `groups` | STRUCT(group_id BIGINT, group_acronym VARCHAR, start_date DATE, end_date DATE)[] | Group memberships (DepGP) as group_id, group_acronym, start_date, end_date. |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `cadastro_id` | BIGINT | Id da pessoa, comum a todas as legislaturas e conjuntos de dados (DepCadId). |
+| `deputy_id` | BIGINT | Id desta pessoa nesta legislatura (DepId). |
+| `full_name` | VARCHAR | Nome completo (DepNomeCompleto). |
+| `parliamentary_name` | VARCHAR | Nome usado no parlamento (DepNomeParlamentar). |
+| `circle_id` | INTEGER | Círculo eleitoral por onde a pessoa concorreu (DepCPId). |
+| `circle_name` | VARCHAR | Nome desse círculo eleitoral (DepCPDes). |
+| `situations` | STRUCT(situation VARCHAR, start_date DATE, end_date DATE)[] | Períodos de situação (DepSituacao) como situation, start_date, end_date. |
+| `groups` | STRUCT(group_id BIGINT, group_acronym VARCHAR, start_date DATE, end_date DATE)[] | Filiações em grupos (DepGP) como group_id, group_acronym, start_date, end_date. |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |

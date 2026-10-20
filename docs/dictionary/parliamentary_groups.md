@@ -1,32 +1,32 @@
 # parliamentary_groups
 
-One row per parliamentary group per legislature.
+Uma linha por grupo parlamentar e por legislatura.
 
-Generated from `src/parlamento_aberto/models/schema.yml` by `uv run python -m parlamento_aberto.dictionary`. Do not edit by hand.
+Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
-Release files: `parliamentary_groups.parquet` and `parliamentary_groups.csv.gz`.
+Ficheiros da publicação: `parliamentary_groups.parquet` e `parliamentary_groups.csv.gz`.
 
-## Columns
+## Colunas
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `legislature` | VARCHAR | Legislature in Roman numerals. |
-| `group_acronym` | VARCHAR | Group acronym, for example PS. |
-| `name` | VARCHAR | Full name of the party or group. |
+| `legislature` | VARCHAR | Legislatura em numeração romana. |
+| `group_acronym` | VARCHAR | Sigla do grupo, por exemplo PS. |
+| `name` | VARCHAR | Nome completo do partido ou grupo. |
 
-## Known quirks
+## Particularidades conhecidas
 
-- Gaps in the AR source itself are listed in [known gaps](../known-gaps.md).
+- As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
-## Built from
+## Construído a partir de
 
 ### stg_informacao_base__parliamentary_groups
 
-InformacaoBase GruposParlamentares, one row per parliamentary group.
+InformacaoBase GruposParlamentares, uma linha por grupo parlamentar.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `group_acronym` | VARCHAR | Group acronym (sigla), for example PS. |
-| `name` | VARCHAR | Full name of the party or group (nome). |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `group_acronym` | VARCHAR | Sigla do grupo (sigla), por exemplo PS. |
+| `name` | VARCHAR | Nome completo do partido ou grupo (nome). |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |

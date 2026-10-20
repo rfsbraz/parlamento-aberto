@@ -1,25 +1,25 @@
-# Querying a release
+# Consultar uma publicação
 
-Each data release has one Parquet file and one gzipped CSV per mart, plus `manifest.json`
-(tag, data commit, row counts and file hashes) and `CHANGELOG.md`. The latest release is
-always at:
+Cada publicação de dados tem um ficheiro Parquet e um CSV comprimido com gzip por mart, mais o
+`manifest.json` (tag, commit de dados, número de linhas e hashes dos ficheiros) e o
+`CHANGELOG.md`. A publicação mais recente está sempre em:
 
 ```
 https://github.com/rfsbraz/parlamento-aberto/releases/latest/download/<mart>.parquet
 https://github.com/rfsbraz/parlamento-aberto/releases/latest/download/<mart>.csv.gz
 ```
 
-Swap `latest/download` for `download/<tag>`, for example `download/data-2026-10-20`, to
-pin a release. What each column means is in the [data dictionary](dictionary/README.md).
+Troque `latest/download` por `download/<tag>`, por exemplo `download/data-2026-10-20`, para
+fixar uma publicação. O significado de cada coluna está no [dicionário de dados](dictionary/README.md).
 
-Every CSV starts with one attribution line before the header, so skip one line when you
-read it. Parquet files have no such line.
+Todos os CSV começam com uma linha de atribuição antes do cabeçalho, por isso salte uma linha
+ao lê-los. Os ficheiros Parquet não têm essa linha.
 
 ## DuckDB
 
-DuckDB reads the files straight from the URL; it loads its `httpfs` extension on first use.
+O DuckDB lê os ficheiros diretamente do URL; carrega a extensão `httpfs` na primeira utilização.
 
-Plenary votes per year:
+Votações em plenário por ano:
 
 ```sql
 select year(date) as year, count(*) as votes
@@ -29,7 +29,7 @@ group by year
 order by year;
 ```
 
-How each group voted on the latest plenary votes of XVII:
+Como votou cada grupo nas votações em plenário mais recentes da XVII:
 
 ```sql
 select v.date, v.vote_id, v.result, p.group_code, p.position, p.inferred
@@ -41,7 +41,7 @@ order by v.date desc, v.vote_id, p.group_code
 limit 20;
 ```
 
-Interventions per deputy in XVII, with the deputy's name:
+Intervenções por deputado na XVII, com o nome do deputado:
 
 ```sql
 select d.parliamentary_name, count(*) as interventions
@@ -54,7 +54,7 @@ order by interventions desc
 limit 10;
 ```
 
-The CSV, skipping the attribution line:
+O CSV, saltando a linha de atribuição:
 
 ```sql
 select *
@@ -64,7 +64,7 @@ limit 5;
 
 ## pandas
 
-Needs `pandas` and `pyarrow`.
+Precisa de `pandas` e `pyarrow`.
 
 ```python
 import pandas as pd
@@ -78,7 +78,7 @@ print(plenary.groupby(plenary["date"].astype("datetime64[ns]").dt.year).size())
 
 ## R
 
-With the `duckdb` and `DBI` packages for Parquet, and `readr` for the CSV:
+Com os pacotes `duckdb` e `DBI` para o Parquet, e `readr` para o CSV:
 
 ```r
 library(DBI)
@@ -90,7 +90,7 @@ questions <- readr::read_csv(paste0(base, "questions.csv.gz"), skip = 1)
 
 ## Licença e atribuição
 
-Os marts das releases estão sob CC BY 4.0 (`LICENSE-DATA`), com a Assembleia da República
+Os marts das publicações estão sob CC BY 4.0 (`LICENSE-DATA`), com a Assembleia da República
 como fonte. A AR permite a reutilização livre dos seus dados abertos desde que se mencione
 a fonte, e a Lei n.º 26/2016, art. 19.º, n.º 5, pede também a data da última atualização.
 Cite o que construir com estes dados assim, com a data `source_updated` do `manifest.json`:
@@ -100,6 +100,6 @@ Cite o que construir com estes dados assim, com a data `source_updated` do `mani
 Termos da AR: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx. A mesma linha,
 já com a data, abre cada CSV, e o `manifest.json` traz a licença de cada mart. Os dados
 brutos em `data/` não estão sob CC BY: são dados da AR, reutilizados nos termos da AR. Os
-dados da Entidade para a Transparência ficam fora da CC BY e não entram nas releases. Cada
-release indica o commit de dados de onde foi construída, por isso pode citar uma tag e
+dados da Entidade para a Transparência ficam fora da CC BY e não entram nas publicações. Cada
+publicação indica o commit de dados de onde foi construída, por isso pode citar uma tag e
 reconstruí-la a partir do git.

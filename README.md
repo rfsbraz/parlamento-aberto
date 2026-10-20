@@ -1,25 +1,25 @@
 # parlamento-aberto
 
-Clean, versioned, documented open data about the Assembleia da República, rebuilt from the official open data dumps. The raw source lives in git under `data/`, so every change the AR makes shows up as a reviewable diff, and each data release publishes Parquet and CSV tables built from it.
+Dados abertos sobre a Assembleia da República, limpos, versionados e documentados, reconstruídos a partir dos dumps oficiais de dados abertos. A fonte em bruto fica no git, em `data/`, para que cada alteração feita pela AR apareça como um diff que se pode rever, e cada publicação de dados disponibiliza tabelas em Parquet e CSV construídas a partir dela.
 
 Fonte: Assembleia da República, dados abertos.
 
-The AR allows free reuse of its open data as long as the source is credited. Terms: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx
+A AR permite a reutilização livre dos seus dados abertos, desde que a fonte seja mencionada. Termos: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx
 
-## Licences
+## Licenças
 
-- Code: MIT (`LICENSE`).
+- Código: MIT (`LICENSE`).
 - Dados: ver `LICENSE-DATA`. Os dados brutos da AR em `data/` são reutilizados nos termos da AR; os marts e o dicionário estão sob CC BY 4.0; os dados da EpT ficam fora da CC BY.
 
-## Personal data
+## Dados pessoais
 
-Biographies, birth dates and interest registers are personal data. This repo republishes only what the AR publishes.
+Biografias, datas de nascimento e registos de interesses são dados pessoais. Este repositório republica apenas o que a AR publica.
 
-To report wrong data, open an issue with the [Correção de dados](../../issues/new?template=correcao-de-dados.yml) form. Personal-data removal requests can use the same form, or GitHub private vulnerability reporting once the repo is public. Please do not paste the personal data itself into a public issue.
+Para reportar dados errados, abra uma issue com o formulário [Correção de dados](../../issues/new?template=correcao-de-dados.yml). Os pedidos de remoção de dados pessoais podem usar o mesmo formulário, ou o reporte privado de vulnerabilidades do GitHub quando o repositório for público. Não cole os próprios dados pessoais numa issue pública.
 
-## Development
+## Desenvolvimento
 
-Requires [uv](https://docs.astral.sh/uv/).
+Requer o [uv](https://docs.astral.sh/uv/).
 
 ```sh
 uv sync
@@ -29,63 +29,63 @@ uv run pytest
 uv run python scripts/check_file_size.py
 ```
 
-## Data releases
+## Publicações de dados
 
-Each push to `main` that changes data or code builds the marts, runs every data test on `data/` and, if they pass, publishes a GitHub Release tagged `data-YYYY-MM-DD` (`-2`, `-3` for a second or third that day). Each release has one Parquet file and one gzipped CSV per mart, `manifest.json` and a `CHANGELOG.md` excerpt from `docs/data-changelog.md`. The first line of every CSV is a `#` comment with the attribution, so skip one line when reading (`skiprows=1` in pandas, `skip = 1` in R or DuckDB). A mart that loses more than 5% of its rows in a legislature against the previous release blocks the release unless `docs/data-changelog.md` acknowledges it. Publishing is off until the repo goes public (see `docs/repo-settings.md`).
+Cada push para `main` que altera dados ou código constrói os marts, corre todos os testes de dados sobre `data/` e, se passarem, publica uma GitHub Release com a tag `data-AAAA-MM-DD` (`-2`, `-3` para a segunda ou terceira do dia). Cada publicação tem um ficheiro Parquet e um CSV comprimido com gzip por mart, o `manifest.json` e um excerto `CHANGELOG.md` de `docs/data-changelog.md`. A primeira linha de cada CSV é um comentário `#` com a atribuição, por isso salte uma linha ao ler (`skiprows=1` no pandas, `skip = 1` no R ou no DuckDB). Um mart que perde mais de 5% das linhas numa legislatura, face à publicação anterior, bloqueia a publicação, a menos que `docs/data-changelog.md` o registe. A publicação está desligada até o repositório ser público (ver `docs/repo-settings.md`).
 
-To build the same assets locally:
+Para construir os mesmos ficheiros localmente:
 
 ```sh
 uv run python -m parlamento_aberto.release build --data data --out dist --sha "$(git rev-parse HEAD)" --date "$(date +%F)"
 ```
 
-## Fetching AR data
+## Descarregar os dados da AR
 
 ```sh
-uv run python -m parlamento_aberto fetch                         # current legislature
-uv run python -m parlamento_aberto fetch --all                   # every legislature
+uv run python -m parlamento_aberto fetch                         # legislatura atual
+uv run python -m parlamento_aberto fetch --all                   # todas as legislaturas
 uv run python -m parlamento_aberto fetch --dataset iniciativas --legislature XVI
 ```
 
-`sources.yaml` lists every file. The newest legislature in it is the current one. Requests go one at a time, with gzip, and retry the AR's temporary "Recurso Não Encontrado" pages with backoff. Run it after 06:00 Lisbon time; the AR server is slow between 04:00 and 06:00. Files whose download hash matches `data/_meta/sources.lock.json` are skipped. A download that is HTML, does not parse, or is empty where the last copy had records keeps the last good copy and is marked stale in the lock. `--raw-dir DIR` keeps the downloads outside the repo, and `--offline` replays them.
+O `sources.yaml` lista todos os ficheiros. A legislatura mais recente que lá consta é a atual. Os pedidos são feitos um de cada vez, com gzip, e as páginas temporárias "Recurso Não Encontrado" da AR são repetidas com espera crescente. Corra depois das 06:00, hora de Lisboa; o servidor da AR é lento entre as 04:00 e as 06:00. Os ficheiros cujo hash coincide com `data/_meta/sources.lock.json` são saltados. Um ficheiro descarregado que seja HTML, não se consiga ler, ou venha vazio quando a última cópia tinha registos mantém a última cópia boa e fica marcado como desatualizado (stale) no lock. `--raw-dir DIR` guarda os ficheiros descarregados fora do repositório, e `--offline` volta a usá-los.
 
-## Fetching the EpT register of interests
+## Descarregar o registo de interesses da EpT
 
-AR open data has the register of interests only up to XV. XVI and XVII declarations are at the Entidade para a Transparência (EpT), which has a public JSON API (#42). This is a private build: nothing from it is published yet.
+Os dados abertos da AR só têm o registo de interesses até à XV. As declarações da XVI e da XVII estão na Entidade para a Transparência (EpT), que tem uma API JSON pública (#42). Esta construção é privada: ainda não se publica nada dela.
 
 ```sh
-uv run python -m parlamento_aberto.ept dry-run            # counts only, writes nothing
-uv run python -m parlamento_aberto.ept fetch              # into data/ept_registo_interesses
-uv run python -m parlamento_aberto.ept fetch --limit 5    # first 5 holders, for a quick check
+uv run python -m parlamento_aberto.ept dry-run            # só contagens, não escreve nada
+uv run python -m parlamento_aberto.ept fetch              # para data/ept_registo_interesses
+uv run python -m parlamento_aberto.ept fetch --limit 5    # os primeiros 5 titulares, para uma verificação rápida
 ```
 
-It reads EpT entities 510 (Assembleia da República) and 4508 (Assembleia da República - XVII Legislatura): the titularidades, then each holder's declarations in every state, then each new or changed declaration. Requests go one at a time, at most one per second. On 20 Oct 2026 that was 881 titularidades, 695 holder searches and 1,424 declarations, so a full first run takes about an hour. A declaration is fetched again only when its state changes, and replaced or modified versions are kept under their own ids.
+Lê as entidades 510 (Assembleia da República) e 4508 (Assembleia da República - XVII Legislatura) da EpT: as titularidades, depois as declarações de cada titular em todos os estados, depois cada declaração nova ou alterada. Os pedidos são feitos um de cada vez, no máximo um por segundo. A 20 de outubro de 2026 eram 881 titularidades, 695 pesquisas de titulares e 1424 declarações, pelo que uma primeira execução completa demora cerca de uma hora. Uma declaração só volta a ser descarregada quando o seu estado muda, e as versões substituídas ou modificadas ficam guardadas com os seus próprios ids.
 
-Each declaration is stripped in memory before anything is written. Only the metadata (ids, entity, role, holder, nature, state, related declaration, dates) and tab 4 (activities, associations, supports, services, societies, other situations) are kept. The holder's NIF, personal data, income and assets, and attachments are dropped, and any 9-digit number left in a value becomes `[removido]`.
+Cada declaração é limpa em memória antes de se escrever o que quer que seja. Só ficam os metadados (ids, entidade, cargo, titular, natureza, estado, declaração relacionada, datas) e o separador 4 (atividades, associações, apoios, serviços, sociedades, outras situações). O NIF do titular, os dados pessoais, os rendimentos e património e os anexos são descartados, e qualquer número de 9 dígitos que reste num valor passa a `[removido]`.
 
-The entity NIF/NIPC column of tab 4 keeps only a valid company NIPC: 9 digits (after dropping spaces, dots, dashes and a `PT` prefix), a valid mod-11 check digit, and a first digit of 5, 6, 8 or 9 or a prefix of 71, 72, 77 or 79. Anything else in that column is dropped: first digit 1 to 4 (people), any other 7x prefix, a failed check digit, or text.
+A coluna NIF/NIPC da entidade no separador 4 só mantém um NIPC de empresa válido: 9 dígitos (depois de retirar espaços, pontos, hífenes e um prefixo `PT`), um dígito de controlo mod 11 válido e um primeiro dígito 5, 6, 8 ou 9 ou um prefixo 71, 72, 77 ou 79. Tudo o resto nessa coluna é descartado: primeiro dígito de 1 a 4 (pessoas singulares), qualquer outro prefixo 7x, um dígito de controlo errado, ou texto.
 
-A file with a `nif` key, a value in the personal range, or a 9-digit value outside the NIPC column is never written: the run stops instead. Two gitleaks rules in `.gitleaks.toml` check the same on `data/ept_registo_interesses/` and `tests/fixtures/ept/` (the check digit is left to the tests). Logs and the run report carry counts and ids only.
+Um ficheiro com uma chave `nif`, um valor na gama das pessoas singulares, ou um valor de 9 dígitos fora da coluna NIPC nunca é escrito: em vez disso, a execução para. Duas regras do gitleaks em `.gitleaks.toml` verificam o mesmo em `data/ept_registo_interesses/` e `tests/fixtures/ept/` (o dígito de controlo fica a cargo dos testes). Os logs e o relatório da execução só contêm contagens e ids.
 
-Layout: `data/ept_registo_interesses/titularidades.ndjson`, `declarations.ndjson` (the search results, by id) and `<entity id>/<id // 1000>/<id>.json` (one stripped declaration, tab 4 keyed by section GUID and column).
+Estrutura: `data/ept_registo_interesses/titularidades.ndjson`, `declarations.ndjson` (os resultados da pesquisa, por id) e `<id da entidade>/<id // 1000>/<id>.json` (uma declaração limpa, com o separador 4 indexado por GUID da secção e coluna).
 
-The build reads the stored declarations into `stg_ept_registo_interesses__declarations` and `stg_ept_registo_interesses__items` (#46), with the same leading columns as the XI to XV staging tables. Only Deputado and Deputada declarations are read. The legislature comes from the Lisbon day of the office start (or of the submission when there is none), not from the EpT body, so entity 510 rows fall in XIV, XV or XVI. UTC dates become Lisbon days and the published values stay in the `_raw` columns. Replaced and modified versions stay as rows, linked by `supersedes_declaration_id`, `superseded_by_declaration_id` and `chain_root_declaration_id`, and `is_current` marks the newest published one with no successor. The NIPC column carries through as `entity_nipc`, valid company NIPCs only.
+O build lê as declarações guardadas para `stg_ept_registo_interesses__declarations` e `stg_ept_registo_interesses__items` (#46), com as mesmas primeiras colunas das tabelas de staging da XI à XV. Só são lidas as declarações de Deputado e Deputada. A legislatura vem do dia, em Lisboa, do início do cargo (ou da entrega, quando não há início), não do órgão da EpT, por isso as linhas da entidade 510 caem na XIV, XV ou XVI. As datas em UTC passam a dias de Lisboa e os valores publicados ficam nas colunas `_raw`. As versões substituídas e modificadas ficam como linhas, ligadas por `supersedes_declaration_id`, `superseded_by_declaration_id` e `chain_root_declaration_id`, e `is_current` marca a mais recente publicada sem sucessora. A coluna NIPC passa para `entity_nipc`, só com NIPC de empresas válidos.
 
-## Data dictionary
+## Dicionário de dados
 
-`docs/dictionary` has one page per mart, generated from `src/parlamento_aberto/models/schema.yml`. `docs/querying.md` shows how to query a release with DuckDB, pandas and R. After changing a model or its column descriptions, regenerate the pages; CI fails when they are out of date:
+`docs/dictionary` tem uma página por mart, gerada a partir de `src/parlamento_aberto/models/schema.yml`. `docs/querying.md` mostra como consultar uma publicação com DuckDB, pandas e R. Depois de alterar um modelo ou as descrições das suas colunas, volte a gerar as páginas; o CI falha quando estão desatualizadas:
 
 ```sh
 uv run python -m parlamento_aberto.dictionary
 ```
 
-## Discover
+## Descoberta
 
-Every Monday at 08:00 Lisbon, `.github/workflows/discover.yml` reads the AR open data pages and compares their JSON links with `sources.yaml`. New links for a known dataset, such as a new legislature, become a PR on `data/discover` labelled `hold: new-dataset`, which is never merged automatically. Removed links, files that match no dataset and pages it cannot read become one issue labelled `discover`. The `discover` block of `sources.yaml` lists what is left out on purpose. To run it locally (about 300 requests, two seconds apart):
+Todas as segundas-feiras às 08:00, hora de Lisboa, `.github/workflows/discover.yml` lê as páginas de dados abertos da AR e compara as suas ligações JSON com o `sources.yaml`. As ligações novas de um conjunto de dados conhecido, como uma nova legislatura, dão origem a um PR em `data/discover` com a etiqueta `hold: new-dataset`, que nunca é integrado automaticamente. As ligações removidas, os ficheiros que não correspondem a nenhum conjunto de dados e as páginas que não consegue ler dão origem a uma issue com a etiqueta `discover`. O bloco `discover` do `sources.yaml` lista o que fica de fora de propósito. Para correr localmente (cerca de 300 pedidos, com dois segundos de intervalo):
 
 ```sh
 uv run python -m parlamento_aberto.discover scan --scan scan.json
 uv run python -m parlamento_aberto.discover diff --scan scan.json --report report.json
 ```
 
-Design: `docs/design.md`. Repo settings: `docs/repo-settings.md`.
+Desenho: `docs/design.md`. Definições do repositório: `docs/repo-settings.md`.

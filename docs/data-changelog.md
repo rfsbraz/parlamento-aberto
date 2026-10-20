@@ -1,12 +1,14 @@
-# Data changelog
+# Changelog dos dados
 
-Changes to the published marts that consumers should know about. The `## Unreleased` section goes into the next release as its `CHANGELOG.md`.
+Alterações aos marts publicados que quem usa os dados deve conhecer. A secção `## Unreleased` vai para a próxima publicação como o seu `CHANGELOG.md`.
 
-- Schema changes: one line each, for example `- schema: votes gains committee_id.` Bump `schema_version` in `src/parlamento_aberto/models/schema.yml` too, the major for a breaking change.
-- Row drops: a mart that loses more than 5% of its rows in a legislature, against the previous release, blocks the release. If the drop is right, acknowledge it with `- drift: <mart> <legislature>: why`, using `all` for marts without a legislature column. A line the previous release already carried does not count again.
+- Alterações ao schema: uma linha cada, por exemplo `- schema: votes gains committee_id.` Suba também `schema_version` em `src/parlamento_aberto/models/schema.yml`, a versão major numa alteração incompatível.
+- Quedas de linhas: um mart que perde mais de 5% das linhas numa legislatura, face à publicação anterior, bloqueia a publicação. Se a queda estiver correta, registe-a com `- drift: <mart> <legislature>: motivo`, usando `all` para marts sem coluna de legislatura. Uma linha que a publicação anterior já trazia não volta a contar.
 
-After a release, move the released lines under a heading with its tag.
+Depois de uma publicação, passe as linhas publicadas para um título com a respetiva tag.
+
+Os títulos `## Unreleased` e os prefixos `schema:` e `drift:` ficam em inglês, porque o build de publicação os lê.
 
 ## Unreleased
 
-- schema: first release, schema 1.0.0.
+- schema: primeira publicação, schema 1.0.0.

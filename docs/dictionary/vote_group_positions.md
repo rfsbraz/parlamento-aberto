@@ -1,69 +1,69 @@
 # vote_group_positions
 
-One row per vote, group and position, from the parsed detail. Votes without a detail take absent groups and deputies from the ausencias field. A unanimous vote that lists no favour, against or abstention position gets a favour row, with inferred = true, for every other group present: for a plenary vote, groups with a deputy seated on the vote date (the seated_on rule); for a committee vote, groups with an active effective member of the committee on the vote date, from ComposicaoOrgaos.
+Uma linha por votação, grupo e sentido de voto, a partir do detalhe lido. As votações sem detalhe tiram os grupos e deputados ausentes do campo ausencias. Uma votação unânime que não indica nenhum sentido a favor, contra ou abstenção recebe uma linha a favor, com inferred = true, para cada outro grupo presente: numa votação em plenário, os grupos com um deputado com lugar na data da votação (a regra seated_on); numa votação em comissão, os grupos com um membro efetivo ativo da comissão na data da votação, segundo a ComposicaoOrgaos.
 
-Generated from `src/parlamento_aberto/models/schema.yml` by `uv run python -m parlamento_aberto.dictionary`. Do not edit by hand.
+Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
-Release files: `vote_group_positions.parquet` and `vote_group_positions.csv.gz`.
+Ficheiros da publicação: `vote_group_positions.parquet` e `vote_group_positions.csv.gz`.
 
-## Columns
+## Colunas
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `vote_id` | BIGINT | Vote, joins to votes. |
-| `legislature` | VARCHAR | Legislature of the vote. |
-| `body` | VARCHAR | Where the vote was held, plenary or the committee name. |
-| `group_code` | VARCHAR | Group code after seed_group_aliases, joins to parliamentary_groups.group_acronym. Indep and Ninsc mark deputies outside any group. |
-| `group_code_raw` | VARCHAR | Group code as published (or, for inferred rows, as in the deputy's InformacaoBase membership). |
-| `position` | VARCHAR | favour, against, abstention or absent. |
-| `deputies` | INTEGER | Null when the group as a whole took the position (apart from any of its deputies listed under another position). Otherwise the number of its deputies who did. |
-| `inferred` | BOOLEAN | True when the row comes from the unanimous rule rather than the published detail. |
+| `vote_id` | BIGINT | Votação, liga a votes. |
+| `legislature` | VARCHAR | Legislatura da votação. |
+| `body` | VARCHAR | Onde decorreu a votação, plenary (plenário) ou o nome da comissão. |
+| `group_code` | VARCHAR | Código do grupo depois de seed_group_aliases, liga a parliamentary_groups.group_acronym. Indep e Ninsc marcam deputados fora de qualquer grupo. |
+| `group_code_raw` | VARCHAR | Código do grupo tal como publicado (ou, nas linhas inferidas, como na filiação do deputado na InformacaoBase). |
+| `position` | VARCHAR | favour, against, abstention ou absent (a favor, contra, abstenção ou ausente). |
+| `deputies` | INTEGER | Nulo quando o grupo como um todo tomou esse sentido de voto (exceto deputados seus indicados noutro sentido). Caso contrário, o número dos seus deputados que o tomaram. |
+| `inferred` | BOOLEAN | Verdadeiro quando a linha vem da regra da unanimidade e não do detalhe publicado. |
 
-## Known quirks
+## Particularidades conhecidas
 
-- Gaps in the AR source itself are listed in [known gaps](../known-gaps.md).
+- As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
-## Built from
+## Construído a partir de
 
 Marts: [deputies](deputies.md), [mandates](mandates.md), [group_memberships](group_memberships.md), [votes](votes.md).
 
 ### stg_composicao_orgaos__committee_members
 
-ComposicaoOrgaos Comissoes, one row per committee member record (HistoricoComposicao).
+ComposicaoOrgaos Comissoes, uma linha por registo de membro de uma comissão (HistoricoComposicao).
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `committee_id` | BIGINT | AR id of the committee (DetalheOrgao.idOrgao). |
-| `committee_name` | VARCHAR | Committee name (DetalheOrgao.nomeSigla), trimmed. |
-| `cadastro_id` | BIGINT | Person id (depCadId), joins to deputies. |
-| `situations` | STRUCT(status VARCHAR, membership VARCHAR, start_date DATE, end_date DATE)[] | Membership periods (depSituacao) as status (sioDes, Ativo or Inativo), membership (sioTipMem, Efetivo or Suplente), start_date, end_date. |
-| `groups` | STRUCT(group_acronym VARCHAR, start_date DATE, end_date DATE)[] | Group periods (depGP) as group_acronym, start_date, end_date. An open period has a null end date. |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `committee_id` | BIGINT | Id da comissão na AR (DetalheOrgao.idOrgao). |
+| `committee_name` | VARCHAR | Nome da comissão (DetalheOrgao.nomeSigla), sem espaços nas pontas. |
+| `cadastro_id` | BIGINT | Id da pessoa (depCadId), liga a deputies. |
+| `situations` | STRUCT(status VARCHAR, membership VARCHAR, start_date DATE, end_date DATE)[] | Períodos como membro (depSituacao) como status (sioDes, Ativo ou Inativo), membership (sioTipMem, Efetivo ou Suplente), start_date, end_date. |
+| `groups` | STRUCT(group_acronym VARCHAR, start_date DATE, end_date DATE)[] | Períodos em grupos (depGP) como group_acronym, start_date, end_date. Um período aberto tem data de fim nula. |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |
 
 ### stg_votes__detail_items
 
-Built in Python by the vote parser. One row per item in each distinct vote detail string, or one row with an error when the parser rejects the string.
+Construído em Python pelo parser das votações. Uma linha por item em cada texto de detalhe distinto, ou uma linha com um erro quando o parser rejeita o texto.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `detail` | VARCHAR | The detail string, joins to the detail column of the vote models. |
-| `item_number` | INTEGER | Position of the item in the string, from 1. 0 on an error row. |
-| `kind` | VARCHAR | group (a whole group), count (a number of a group's deputies, as in 2-PS) or deputy (a named deputy). |
-| `group_acronym` | VARCHAR | Group code as written in the string. |
-| `position` | VARCHAR | favour, against, abstention or absent. |
-| `deputies` | INTEGER | For a count item, the number of deputies. |
-| `name` | VARCHAR | For a deputy item, the name as written in the string. |
-| `error` | VARCHAR | Why the parser rejected the string, null when it was parsed. |
+| `detail` | VARCHAR | O texto do detalhe, liga à coluna detail dos modelos de votações. |
+| `item_number` | INTEGER | Posição do item no texto, a partir de 1. 0 numa linha de erro. |
+| `kind` | VARCHAR | group (um grupo inteiro), count (um número de deputados de um grupo, como em 2-PS) ou deputy (um deputado nomeado). |
+| `group_acronym` | VARCHAR | Código do grupo tal como escrito no texto. |
+| `position` | VARCHAR | favour, against, abstention ou absent (a favor, contra, abstenção ou ausente). |
+| `deputies` | INTEGER | Num item count, o número de deputados. |
+| `name` | VARCHAR | Num item deputy, o nome tal como escrito no texto. |
+| `error` | VARCHAR | Porque é que o parser rejeitou o texto, nulo quando foi lido. |
 
 ### seed_group_aliases
 
-Hand-kept aliases for group codes the AR writes differently within a legislature, each row citing its source. Marts keep the published code in group_code_raw and put the aliased code, or the published one when no alias applies, in group_code.
+Aliases mantidos à mão para códigos de grupo que a AR escreve de forma diferente dentro de uma legislatura, cada linha com a sua fonte. Os marts guardam o código publicado em group_code_raw e põem em group_code o código do alias, ou o publicado quando não se aplica nenhum alias.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `legislature` | VARCHAR | Legislature in Roman numerals (the data folder name, for example I-B) the alias applies to. |
-| `alias` | VARCHAR | Code as published, for example PPD. |
-| `group_code` | VARCHAR | Code it maps to, as listed in that legislature's parliamentary_groups. |
-| `source_url` | VARCHAR | Reference for the mapping. |
-| `note` | VARCHAR | Why the alias exists. |
+| `legislature` | VARCHAR | Legislatura em numeração romana (o nome da pasta de dados, por exemplo I-B) a que o alias se aplica. |
+| `alias` | VARCHAR | Código tal como publicado, por exemplo PPD. |
+| `group_code` | VARCHAR | Código correspondente, como listado em parliamentary_groups nessa legislatura. |
+| `source_url` | VARCHAR | Referência para a correspondência. |
+| `note` | VARCHAR | Porque existe o alias. |

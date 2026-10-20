@@ -1,34 +1,34 @@
 # sessions
 
-One row per legislative session.
+Uma linha por sessão legislativa.
 
-Generated from `src/parlamento_aberto/models/schema.yml` by `uv run python -m parlamento_aberto.dictionary`. Do not edit by hand.
+Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
-Release files: `sessions.parquet` and `sessions.csv.gz`.
+Ficheiros da publicação: `sessions.parquet` e `sessions.csv.gz`.
 
-## Columns
+## Colunas
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `legislature` | VARCHAR | Legislature in Roman numerals. |
-| `session_number` | INTEGER | Session number within the legislature. |
-| `start_date` | DATE | First day of the session. |
-| `end_date` | DATE | Last day of the session. |
+| `legislature` | VARCHAR | Legislatura em numeração romana. |
+| `session_number` | INTEGER | Número da sessão dentro da legislatura. |
+| `start_date` | DATE | Primeiro dia da sessão. |
+| `end_date` | DATE | Último dia da sessão. |
 
-## Known quirks
+## Particularidades conhecidas
 
-- Gaps in the AR source itself are listed in [known gaps](../known-gaps.md).
+- As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
-## Built from
+## Construído a partir de
 
 ### stg_informacao_base__sessions
 
-InformacaoBase SessoesLegislativas, one row per legislative session.
+InformacaoBase SessoesLegislativas, uma linha por sessão legislativa.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `session_number` | INTEGER | Session number within the legislature (numSessao). |
-| `start_date` | DATE | First day of the session (dataInicio). |
-| `end_date` | DATE | Last day of the session (dataFim). |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `session_number` | INTEGER | Número da sessão dentro da legislatura (numSessao). |
+| `start_date` | DATE | Primeiro dia da sessão (dataInicio). |
+| `end_date` | DATE | Último dia da sessão (dataFim). |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |

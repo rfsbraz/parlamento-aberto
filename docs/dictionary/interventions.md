@@ -1,81 +1,81 @@
 # interventions
 
-One row per intervention in plenary, with debate, speaker and diary reference. The speaker is a deputy (cadastro_id), a government member or an invited guest. Records AR publishes with every key null are dropped.
+Uma linha por intervenção em plenário, com debate, orador e referência no Diário. O orador é um deputado (cadastro_id), um membro do Governo ou um convidado. Os registos que a AR publica com todas as chaves a nulo são excluídos.
 
-Generated from `src/parlamento_aberto/models/schema.yml` by `uv run python -m parlamento_aberto.dictionary`. Do not edit by hand.
+Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
-Release files: `interventions.parquet` and `interventions.csv.gz`.
+Ficheiros da publicação: `interventions.parquet` e `interventions.csv.gz`.
 
-## Columns
+## Colunas
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `legislature` | VARCHAR | Legislature in Roman numerals. |
-| `intervention_id` | BIGINT | AR id of the intervention. |
-| `session_number` | INTEGER | Legislative session number. |
-| `meeting_date` | DATE | Date of the plenary meeting. |
-| `intervention_type` | VARCHAR | Type of intervention as published, for example Intervenção or Pedido de esclarecimento. |
-| `session_phase` | VARCHAR | Part of the sitting as published, POD (ordem do dia), PAOD (antes da ordem do dia) or Outras. |
-| `debate_id` | BIGINT | AR id of the debate. |
-| `debate` | VARCHAR | Debate title, often null. |
-| `debate_phase` | VARCHAR | Phase of the debate as published, for example GENERALIDADE, often null. |
-| `activity_id` | BIGINT | AR id of the parliamentary activity the intervention belongs to. |
-| `summary` | VARCHAR | Summary of the intervention. |
-| `abstract` | VARCHAR | Longer abstract, often null. |
-| `speaker_kind` | VARCHAR | deputy when cadastro_id is set, otherwise government when a government member is named, otherwise guest when a guest is named, otherwise null. |
-| `cadastro_id` | BIGINT | Person id of the deputy who spoke, joins to deputies. Null when the speaker is not a deputy. |
-| `speaker_name` | VARCHAR | Parliamentary name of the deputy as published on the intervention. |
-| `group_acronym` | VARCHAR | Group of the deputy when speaking, joins to parliamentary_groups. |
-| `speaker_role` | VARCHAR | Capacity the person spoke in as published, for example Deputado, P.A.R. or Sec. Mesa. |
-| `government_member_name` | VARCHAR | Name of the government member who spoke. |
-| `government_member_role` | VARCHAR | Office of the government member. |
-| `government` | VARCHAR | Government the member belonged to. |
-| `guest_name` | VARCHAR | Name of an invited speaker. |
-| `guest_role` | VARCHAR | Office of the invited speaker. |
-| `publication_type` | VARCHAR | Diary series, for example DAR I série. |
-| `publication_number` | INTEGER | Diary issue number. |
-| `publication_date` | DATE | Diary issue date. |
-| `pages` | VARCHAR[] | Diary pages as published, zero-padded strings. |
-| `diary_url` | VARCHAR | Link to the diary issue. |
+| `legislature` | VARCHAR | Legislatura em numeração romana. |
+| `intervention_id` | BIGINT | Id da intervenção na AR. |
+| `session_number` | INTEGER | Número da sessão legislativa. |
+| `meeting_date` | DATE | Data da reunião plenária. |
+| `intervention_type` | VARCHAR | Tipo de intervenção tal como publicado, por exemplo Intervenção ou Pedido de esclarecimento. |
+| `session_phase` | VARCHAR | Parte da sessão tal como publicada, POD (ordem do dia), PAOD (antes da ordem do dia) ou Outras. |
+| `debate_id` | BIGINT | Id do debate na AR. |
+| `debate` | VARCHAR | Título do debate, muitas vezes nulo. |
+| `debate_phase` | VARCHAR | Fase do debate tal como publicada, por exemplo GENERALIDADE, muitas vezes nula. |
+| `activity_id` | BIGINT | Id na AR da atividade parlamentar a que a intervenção pertence. |
+| `summary` | VARCHAR | Sumário da intervenção. |
+| `abstract` | VARCHAR | Resumo mais longo, muitas vezes nulo. |
+| `speaker_kind` | VARCHAR | deputy (deputado) quando cadastro_id está preenchido, senão government (Governo) quando é indicado um membro do Governo, senão guest (convidado) quando é indicado um convidado, senão nulo. |
+| `cadastro_id` | BIGINT | Id da pessoa do deputado que falou, liga a deputies. Nulo quando quem falou não é deputado. |
+| `speaker_name` | VARCHAR | Nome parlamentar do deputado tal como publicado na intervenção. |
+| `group_acronym` | VARCHAR | Grupo do deputado quando falou, liga a parliamentary_groups. |
+| `speaker_role` | VARCHAR | Qualidade em que a pessoa falou, tal como publicada, por exemplo Deputado, P.A.R. ou Sec. Mesa. |
+| `government_member_name` | VARCHAR | Nome do membro do Governo que falou. |
+| `government_member_role` | VARCHAR | Cargo do membro do Governo. |
+| `government` | VARCHAR | Governo a que o membro pertencia. |
+| `guest_name` | VARCHAR | Nome de um orador convidado. |
+| `guest_role` | VARCHAR | Cargo do orador convidado. |
+| `publication_type` | VARCHAR | Série do Diário, por exemplo DAR I série. |
+| `publication_number` | INTEGER | Número do Diário. |
+| `publication_date` | DATE | Data do Diário. |
+| `pages` | VARCHAR[] | Páginas do Diário tal como publicadas, texto com zeros à esquerda. |
+| `diary_url` | VARCHAR | Ligação para o número do Diário. |
 
-## Known quirks
+## Particularidades conhecidas
 
-- AR publishes some Intervencoes records with every key null. They are dropped here, so row counts are below the record counts in sources.lock.json, which the staging model matches.
-- Gaps in the AR source itself are listed in [known gaps](../known-gaps.md).
+- A AR publica alguns registos de Intervencoes com todas as chaves a nulo. São excluídos aqui, pelo que as contagens de linhas ficam abaixo das contagens de registos em sources.lock.json, com as quais o modelo de staging bate.
+- As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
-## Built from
+## Construído a partir de
 
 ### stg_intervencoes__interventions
 
-Intervencoes, one row per source record, including the records AR publishes with every key null. Row counts per legislature match sources.lock.json.
+Intervencoes, uma linha por registo da fonte, incluindo os registos que a AR publica com todas as chaves a nulo. As contagens de linhas por legislatura batem com sources.lock.json.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `intervention_id` | BIGINT | AR id of the intervention (Id). Null on the empty records. |
-| `session_number` | INTEGER | Legislative session number (Sessao). |
-| `meeting_date` | DATE | Date of the plenary meeting (DataReuniaoPlenaria). |
-| `intervention_type` | VARCHAR | Type of intervention as published (TipoIntervencao), for example Intervenção or Pedido de esclarecimento. |
-| `session_phase` | VARCHAR | Part of the sitting as published (FaseSessao), POD (ordem do dia), PAOD (antes da ordem do dia) or Outras. |
-| `debate_id` | BIGINT | AR id of the debate (IdDebate). |
-| `debate` | VARCHAR | Debate title (Debate), often null. |
-| `debate_phase` | VARCHAR | Phase of the debate as published (FaseDebate), for example GENERALIDADE, often null. |
-| `activity_id` | BIGINT | AR id of the parliamentary activity the intervention belongs to (ActividadeId). |
-| `summary` | VARCHAR | Summary of the intervention (Sumario). |
-| `abstract` | VARCHAR | Longer abstract (Resumo), often null. |
-| `cadastro_id` | BIGINT | Person id of the deputy who spoke (Deputados.idCadastro), null when the speaker is not a deputy. |
-| `speaker_name` | VARCHAR | Parliamentary name of the deputy (Deputados.nome). |
-| `group_acronym` | VARCHAR | Group of the deputy when speaking (Deputados.GP). |
-| `speaker_role` | VARCHAR | Capacity the person spoke in as published (Qualidade), for example Deputado, P.A.R. or Sec. Mesa. |
-| `government_member_name` | VARCHAR | Name of the government member who spoke (MembrosGoverno.nome). |
-| `government_member_role` | VARCHAR | Office of the government member (MembrosGoverno.cargo). |
-| `government` | VARCHAR | Government the member belonged to (MembrosGoverno.governo). |
-| `guest_name` | VARCHAR | Name of an invited speaker (Convidados.nome). |
-| `guest_role` | VARCHAR | Office of the invited speaker (Convidados.cargo). |
-| `publication_count` | BIGINT | Number of publication references (Publicacao); 1 on every record so far. |
-| `publication_type` | VARCHAR | Diary series of the publication (Publicacao.pubTipo), for example DAR I série. |
-| `publication_number` | INTEGER | Diary issue number (Publicacao.pubNr). |
-| `publication_date` | DATE | Diary issue date (Publicacao.pubdt). |
-| `pages` | VARCHAR[] | Diary pages as published (Publicacao.pag), zero-padded strings. |
-| `diary_url` | VARCHAR | Link to the diary issue (Publicacao.URLDiario). |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `intervention_id` | BIGINT | Id da intervenção na AR (Id). Nulo nos registos vazios. |
+| `session_number` | INTEGER | Número da sessão legislativa (Sessao). |
+| `meeting_date` | DATE | Data da reunião plenária (DataReuniaoPlenaria). |
+| `intervention_type` | VARCHAR | Tipo de intervenção tal como publicado (TipoIntervencao), por exemplo Intervenção ou Pedido de esclarecimento. |
+| `session_phase` | VARCHAR | Parte da sessão tal como publicada (FaseSessao), POD (ordem do dia), PAOD (antes da ordem do dia) ou Outras. |
+| `debate_id` | BIGINT | Id do debate na AR (IdDebate). |
+| `debate` | VARCHAR | Título do debate (Debate), muitas vezes nulo. |
+| `debate_phase` | VARCHAR | Fase do debate tal como publicada (FaseDebate), por exemplo GENERALIDADE, muitas vezes nula. |
+| `activity_id` | BIGINT | Id na AR da atividade parlamentar a que a intervenção pertence (ActividadeId). |
+| `summary` | VARCHAR | Sumário da intervenção (Sumario). |
+| `abstract` | VARCHAR | Resumo mais longo (Resumo), muitas vezes nulo. |
+| `cadastro_id` | BIGINT | Id da pessoa do deputado que falou (Deputados.idCadastro), nulo quando quem falou não é deputado. |
+| `speaker_name` | VARCHAR | Nome parlamentar do deputado (Deputados.nome). |
+| `group_acronym` | VARCHAR | Grupo do deputado quando falou (Deputados.GP). |
+| `speaker_role` | VARCHAR | Qualidade em que a pessoa falou, tal como publicada (Qualidade), por exemplo Deputado, P.A.R. ou Sec. Mesa. |
+| `government_member_name` | VARCHAR | Nome do membro do Governo que falou (MembrosGoverno.nome). |
+| `government_member_role` | VARCHAR | Cargo do membro do Governo (MembrosGoverno.cargo). |
+| `government` | VARCHAR | Governo a que o membro pertencia (MembrosGoverno.governo). |
+| `guest_name` | VARCHAR | Nome de um orador convidado (Convidados.nome). |
+| `guest_role` | VARCHAR | Cargo do orador convidado (Convidados.cargo). |
+| `publication_count` | BIGINT | Número de referências de publicação (Publicacao); 1 em todos os registos até agora. |
+| `publication_type` | VARCHAR | Série do Diário da publicação (Publicacao.pubTipo), por exemplo DAR I série. |
+| `publication_number` | INTEGER | Número do Diário (Publicacao.pubNr). |
+| `publication_date` | DATE | Data do Diário (Publicacao.pubdt). |
+| `pages` | VARCHAR[] | Páginas do Diário tal como publicadas (Publicacao.pag), texto com zeros à esquerda. |
+| `diary_url` | VARCHAR | Ligação para o número do Diário (Publicacao.URLDiario). |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |

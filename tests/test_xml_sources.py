@@ -46,7 +46,8 @@ def xml(body: bytes) -> Response:
 
 
 def test_xml_reads_as_the_json_shape_of_the_older_files():
-    v = validate(xml(old_xml(person(5, ("Cons", "IA")), person(6, born=False))), None, BIO_PATH, "xml")
+    body = old_xml(person(5, ("Cons", "IA")), person(6, born=False))
+    v = validate(xml(body), None, BIO_PATH, "xml")
     assert v.ok and v.records == 2
     first, second = v.data["RegistoBiografico"]["RegistoBiograficoList"][ITEM]
     assert first == {
@@ -114,7 +115,11 @@ def test_xml_source_is_stored_as_records(tmp_path):
         "https://ar.test/bio-XVII": Response(200, "application/json", b'[{"CadId": 7.0}]'),
     }
     reports = sync.run(
-        srcs, data, get=lambda u: routes[u], today="2026-10-20", fetch_kwargs={"sleep": lambda s: None}
+        srcs,
+        data,
+        get=lambda u: routes[u],
+        today="2026-10-20",
+        fetch_kwargs={"sleep": lambda s: None},
     )
     assert {r["source"]: r["status"] for r in reports}["registo_biografico/Constituinte"] == "new"
     root = data / "registo_biografico" / "Constituinte"
@@ -144,5 +149,6 @@ def test_constituinte_biographies_come_from_the_older_xml(real):
 
 
 def test_only_that_one_file_is_read_as_xml(real):
-    assert [k for k, s in real.items() if s.format == "xml"] == ["registo_biografico/Constituinte"]
-    assert not [k for k, s in real.items() if "AtividadeDeputadoCons" in s.url]
+    only = ["registo_biografico/Constituinte"]
+    assert [k for k, s in real.items() if s.format == "xml"] == only
+    assert [k for k, s in real.items() if "/doc.xml?" in s.url] == only

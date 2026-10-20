@@ -2,7 +2,10 @@
 # The data dictionary (#10) is generated from this file.
 models:
   seed_seats:
-    description: Seats in the Assembleia da República per legislature, hand-kept, each row citing its source.
+    description: >-
+      Seats in the Assembleia da República per legislature, hand-kept, each row citing its
+      source. For legislatures whose seat count changed mid-way (I had 263 seats, then 250
+      after the December 1979 interim election) the row holds the highest count.
     columns:
       legislature: Legislature in Roman numerals, for example XVII.
       seats: Total number of seats in that legislature.
@@ -109,7 +112,13 @@ models:
       profession: Profession. Null without a RegistoBiografico record.
 
   mandates:
-    description: One row per deputy, legislature and situation period (DepSituacao). Seated on date D means is_effective and the period covers D.
+    description: >-
+      One row per deputy, legislature and situation period (DepSituacao), as published.
+      Who held a seat on day D is the seated_on(D) query, not a column. AR periods for one
+      person can overlap on a handover day, for example an Efetivo and a Suspenso period that
+      both cover the same day. The rule: among a person's periods covering D, the one that
+      starts latest wins, and on a tie the longer one (an open end counts as longest) wins.
+      The person is seated if that period is Efetivo, Efetivo Temporário or Efetivo Definitivo.
     columns:
       legislature: Legislature in Roman numerals.
       cadastro_id: Person id, joins to deputies.

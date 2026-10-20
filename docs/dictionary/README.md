@@ -16,6 +16,7 @@ How to query a release: [querying.md](../querying.md).
 | [sessions](sessions.md) | One row per legislative session. |
 | [electoral_circles](electoral_circles.md) | One row per electoral circle per legislature. |
 | [parliamentary_groups](parliamentary_groups.md) | One row per parliamentary group per legislature. |
+| [coalitions](coalitions.md) | One row per legislature, coalition list and parliamentary group, from seed_coalitions. |
 | [deputies](deputies.md) | One row per person (cadastro_id) who appears on any list, elected or not. |
 | [mandates](mandates.md) | One row per deputy, legislature and situation period (DepSituacao), as published. |
 | [group_memberships](group_memberships.md) | One row per deputy, legislature and parliamentary group period (DepGP). |
@@ -29,6 +30,8 @@ How to query a release: [querying.md](../querying.md).
 | [questions](questions.md) | One row per pergunta or requerimento a deputy sent to government or another public body. |
 | [question_authors](question_authors.md) | One row per question and author. |
 | [question_recipients](question_recipients.md) | One row per question and recipient body. |
+| [interest_declarations](interest_declarations.md) | One row per declaration in the register of interests, XI to XV. |
+| [interests](interests.md) | One row per declared interest: activities and offices, social positions, societies, supports, services and other situations. |
 
 ## Licence and attribution
 

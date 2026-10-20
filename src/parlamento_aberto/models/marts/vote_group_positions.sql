@@ -1,4 +1,5 @@
--- One row per vote, group and position.
+-- One row per vote, group and position. group_code_raw is the code as published;
+-- group_code applies seed_group_aliases for the vote's legislature.
 -- deputies is null when the group as a whole took the position (apart from any of
 -- its deputies listed under another position), otherwise the number of its deputies
 -- who did: the count in the detail ("2-PS") or, without a count, the named deputies.
@@ -48,10 +49,16 @@ from_absences as (
     from absence_items
     group by all
 ),
-listed as (
+listed_raw as (
     select * from from_detail
     union
     select * from from_absences
+),
+listed as (
+    select l.*, coalesce(a.group_code, l.group_acronym) as group_code
+    from listed_raw l
+    left join seed_group_aliases a
+      on a.legislature = l.legislature and a.alias = l.group_acronym
 ),
 to_infer as (
     select v.vote_id, v.legislature, v.date
@@ -78,13 +85,19 @@ covering as (
      and (m.end_date is null or m.end_date >= d.day)
 ),
 seated_groups as (
-    select distinct c.legislature, c.day, g.group_acronym
+    select distinct
+        c.legislature,
+        c.day,
+        g.group_acronym,
+        coalesce(a.group_code, g.group_acronym) as group_code
     from covering c
     join group_memberships g
       on g.legislature = c.legislature
      and g.cadastro_id = c.cadastro_id
      and g.start_date <= c.day
      and (g.end_date is null or g.end_date >= c.day)
+    left join seed_group_aliases a
+      on a.legislature = g.legislature and a.alias = g.group_acronym
     where c.rn = 1 and c.is_effective
 ),
 inferred as (
@@ -94,15 +107,27 @@ inferred as (
         s.group_acronym,
         'favour' as position,
         null::integer as deputies,
-        true as inferred
+        true as inferred,
+        s.group_code
     from to_infer t
     join seated_groups s on s.legislature = t.legislature and s.day = t.date
     where not exists (
         select 1 from listed l
-        where l.vote_id = t.vote_id and l.group_acronym = s.group_acronym
+        where l.vote_id = t.vote_id and l.group_code = s.group_code
     )
+),
+all_rows as (
+    select * from listed
+    union all
+    select * from inferred
 )
-select * from listed
-union all
-select * from inferred
-order by vote_id, group_acronym, position
+select
+    vote_id,
+    legislature,
+    group_code,
+    group_acronym as group_code_raw,
+    position,
+    deputies,
+    inferred
+from all_rows
+order by vote_id, group_code, position, group_code_raw

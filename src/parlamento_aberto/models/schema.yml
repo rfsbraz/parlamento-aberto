@@ -211,6 +211,18 @@ models:
       name: For a deputy item, the name as written in the string.
       error: Why the parser rejected the string, null when it was parsed.
 
+  seed_group_aliases:
+    description: >-
+      Hand-kept aliases for group codes the AR writes differently within a legislature, each
+      row citing its source. Marts keep the published code in group_code_raw and put the
+      aliased code, or the published one when no alias applies, in group_code.
+    columns:
+      legislature: Legislature in Roman numerals (the data folder name, for example I-B) the alias applies to.
+      alias: Code as published, for example PPD.
+      group_code: Code it maps to, as listed in that legislature's parliamentary_groups.
+      source_url: Reference for the mapping.
+      note: Why the alias exists.
+
   initiatives:
     description: One row per initiative.
     columns:
@@ -232,7 +244,8 @@ models:
       initiative_id: Initiative, joins to initiatives.
       author_type: deputy, group, or other for any author that is not a deputy or a group (Governo, a regional assembly, a committee, citizens).
       cadastro_id: For a deputy, the person id, joins to deputies.
-      group_acronym: For a deputy, the group listed with them; for a group, its acronym.
+      group_code: For a deputy, the group listed with them; for a group, its code. After seed_group_aliases.
+      group_code_raw: The same code as published.
       name: For a deputy, the name as published; for other, the author (the committee name, or the kind of author such as Governo).
 
   votes:
@@ -273,7 +286,8 @@ models:
     columns:
       vote_id: Vote, joins to votes.
       legislature: Legislature of the vote.
-      group_acronym: Group code as written by the AR. Indep and Ninsc mark deputies outside any group.
+      group_code: Group code after seed_group_aliases, joins to parliamentary_groups.group_acronym. Indep and Ninsc mark deputies outside any group.
+      group_code_raw: Group code as published (or, for inferred rows, as in the deputy's InformacaoBase membership).
       position: favour, against, abstention or absent.
       deputies: Null when the group as a whole took the position (apart from any of its deputies listed under another position). Otherwise the number of its deputies who did.
       inferred: True when the row comes from the unanimous rule rather than the published detail.
@@ -288,6 +302,7 @@ models:
       legislature: Legislature of the vote.
       position: favour, against, abstention or absent.
       name: Name as written in the detail.
-      group_acronym: Group code as written in the detail.
+      group_code: Group code after seed_group_aliases.
+      group_code_raw: Group code as written in the detail.
       cadastro_id: Person id, joins to deputies. Null when no deputy or more than one matches.
       candidates: Number of deputies matching the name and group. 0 is unmatched, more than 1 is ambiguous.

@@ -29,6 +29,16 @@ uv run pytest
 uv run python scripts/check_file_size.py
 ```
 
+## Data releases
+
+Each push to `main` that changes data or code builds the marts, runs every data test on `data/` and, if they pass, publishes a GitHub Release tagged `data-YYYY-MM-DD` (`-2`, `-3` for a second or third that day). Each release has one Parquet file and one gzipped CSV per mart, `manifest.json` and a `CHANGELOG.md` excerpt from `docs/data-changelog.md`. The first line of every CSV is a `#` comment with the attribution, so skip one line when reading (`skiprows=1` in pandas, `skip = 1` in R or DuckDB). A mart that loses more than 5% of its rows in a legislature against the previous release blocks the release unless `docs/data-changelog.md` acknowledges it. Publishing is off until the repo goes public (see `docs/repo-settings.md`).
+
+To build the same assets locally:
+
+```sh
+uv run python -m parlamento_aberto.release build --data data --out dist --sha "$(git rev-parse HEAD)" --date "$(date +%F)"
+```
+
 ## Fetching AR data
 
 ```sh

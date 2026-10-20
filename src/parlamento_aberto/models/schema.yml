@@ -1,3 +1,7 @@
+# Version of the published schema, in manifest.json. Bump the major on a breaking change
+# (a column removed or renamed, a type changed); the site refuses an unknown major.
+schema_version: "1.0.0"
+
 # Every model, in run order, with a description of every column.
 # The data dictionary (#10) is generated from this file.
 models:

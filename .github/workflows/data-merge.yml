@@ -1,7 +1,8 @@
 name: data merge
 
-# Stands in for native auto-merge, which is off while the repo is private.
-# When CI passes on the data/nightly PR, squash-merge it unless it has a hold: label.
+# Mantenho o auto-merge nativo desligado nas definições do repositório, e é este workflow
+# que faz o merge: quando o CI passa no PR data/nightly, faz squash-merge, a menos que o
+# PR tenha uma etiqueta hold:.
 on:
   workflow_run:
     workflows: [CI]
@@ -16,7 +17,12 @@ concurrency:
 
 jobs:
   merge:
-    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.head_branch == 'data/nightly'
+    # Um fork pode abrir um PR a partir do seu próprio ramo data/nightly, por isso só
+    # conta uma execução sobre o ramo deste repositório.
+    if: >-
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.head_branch == 'data/nightly' &&
+      github.event.workflow_run.head_repository.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5

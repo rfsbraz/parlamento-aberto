@@ -12,7 +12,7 @@ import duckdb
 
 from parlamento_aberto.votes import VoteDetailError, parse_detalhe
 
-SOURCES = ("stg_iniciativas__votes", "stg_atividades__votes")
+SOURCES = ("stg_iniciativas__votes", "stg_iniciativas__committee_votes", "stg_atividades__votes")
 COLUMNS = {
     "detail": "VARCHAR",
     "item_number": "INTEGER",

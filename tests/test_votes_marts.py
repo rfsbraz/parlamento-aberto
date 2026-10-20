@@ -125,7 +125,7 @@ def test_inferred_positions_are_the_groups_seated_that_day(con):
         """
         select distinct p.vote_id, p.legislature, v.date
         from vote_group_positions p join votes v using (vote_id)
-        where p.inferred
+        where p.inferred and v.body = 'plenary'
         """
     ).fetchall()
     assert votes
@@ -242,7 +242,9 @@ def test_unanimous_vote_with_an_absent_group_infers_the_rest(con):
 
 @fixture_only
 def test_activity_votes_are_included(con):
-    rows = con.sql("select source, count(*) from votes group by all order by 1").fetchall()
+    rows = con.sql(
+        "select source, count(*) from votes where body = 'plenary' group by all order by 1"
+    ).fetchall()
     assert rows == [("atividades", 5), ("iniciativas", 8)]
 
 

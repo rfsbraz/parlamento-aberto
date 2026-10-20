@@ -4,7 +4,7 @@
 -- within the vote's legislature, accepting the published code or its alias. Indep and Ninsc are not groups, so those names are
 -- matched on the name alone. A name with no match, or more than one, stays null.
 with named as (
-    select distinct v.vote_id, v.legislature, i.position, i.name, i.group_acronym
+    select distinct v.vote_id, v.legislature, v.body, i.position, i.name, i.group_acronym
     from votes v
     join stg_votes__detail_items i on i.detail = v.detail
     where i.kind = 'deputy'
@@ -13,6 +13,7 @@ with named as (
     select
         v.vote_id,
         v.legislature,
+        v.body,
         'absent' as position,
         trim(regexp_extract(g, '^(.+) \([^()]+\)$', 1)) as name,
         regexp_extract(g, '^.+ \(([^()]+)\)$', 1) as group_acronym
@@ -42,6 +43,7 @@ candidates as (
 select
     vote_id,
     legislature,
+    body,
     position,
     name,
     group_code,
@@ -49,5 +51,5 @@ select
     case when count(distinct candidate) = 1 then any_value(candidate) end as cadastro_id,
     count(distinct candidate)::integer as candidates
 from candidates
-group by vote_id, legislature, position, name, group_code, group_acronym
+group by vote_id, legislature, body, position, name, group_code, group_acronym
 order by vote_id, name

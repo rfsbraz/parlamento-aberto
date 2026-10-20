@@ -6,7 +6,9 @@ The AR open data has `RegistoInteresses` files only up to XV. From XVI on, deput
 
 - Build it privately. XVI and XVII declarations are normalised into the same `interest_declarations` and `interests` marts as XI to XV, with `source = 'ept'`.
 - No publication. EpT rows do not go into a release, the site or any public copy of the repo until Rodrigo decides.
-- No contact with the EpT. No email or request to them until Rodrigo decides.
+- No contact with the EpT beyond one email asking whether personal NIFs may be reused. Nothing else is sent until Rodrigo decides.
+- Company NIPCs are stored (changed later on 20 Oct 2026). From the tab 4 entity NIF/NIPC column we keep a value only when it is a company NIPC: see [Company NIPCs](#company-nipcs). Every other value in that column is dropped.
+- Personal NIFs stay out: the holder's top-level `nif` is never stored, and neither is a personal NIF in the entity column. This waits on the EpT's answer about reuse. If the EpT confirms reuse is allowed, the decision is revisited.
 - The `ept_registo_interesses` data PR is held for Rodrigo (new dataset, `hold:` label) and never auto-merges.
 - **Publication scope: pending Rodrigo's decision.** The legal question below has to be settled before the repo or any EpT-derived data goes public.
 
@@ -27,13 +29,23 @@ Open question: whether republishing the register of interests fields, which n.º
 The fetcher strips these in memory, before anything is written to disk, a log or CI output:
 
 - the holder's NIF, the top-level `nif` field of `getdeclaration`;
-- the entity NIF/NIPC column of every tab 4 section (the column numbers are listed below);
-- any 9-digit number anywhere in a kept value, replaced before writing;
+- any value in the entity NIF/NIPC column of a tab 4 section that is not a company NIPC under the rule below (the column numbers are listed in the tab 4 table);
+- any 9-digit number in any other kept value, replaced before writing;
 - tab 2 (personal data: identification, address, contacts, spouse);
 - tab 3 (income and assets);
 - attachments.
 
-The raw `getdeclaration` response is never kept. Fixtures are synthetic or scrubbed, and tests fail if a `nif` key or a 9-digit value shows up in a fixture, a seed or a normalised file.
+The raw `getdeclaration` response is never kept. Fixtures are synthetic or scrubbed, and tests fail if a `nif` key shows up, or a 9-digit value anywhere other than a valid company NIPC in the entity NIF/NIPC column, in a fixture, a seed or a normalised file.
+
+### Company NIPCs
+
+A value from the entity NIF/NIPC column is kept only if all of these hold:
+
+- it is exactly 9 digits;
+- its check digit is valid (mod 11: weight the first 8 digits 9 down to 2 and sum; if the sum mod 11 is 0 or 1 the check digit is 0, otherwise it is 11 minus the remainder);
+- it starts with 5, 6, 8 or 9, or with 71, 72, 77 or 79 (legal persons, public bodies and other non-individual entities).
+
+Everything else in the column is dropped: a first digit of 1, 2, 3 or 4 (individuals), any other prefix starting with 7, an invalid check digit, and any value that is not 9 digits.
 
 ## API
 
@@ -70,7 +82,7 @@ The portal's declaration URLs (`entidadetransparencia.pt/titularidades/<ids>/dec
 
 Tab 4 is the GUID `1483a8d1-adca-4f39-8038-98cc6f728fcb`. Its one group holds six sections, each a list of rows whose cells are keyed `<section GUID>-colN` and carry `value` and `isVisible`. We keep only visible cells of the columns below.
 
-| Section GUID | Category | Label | Kept columns | NIF/NIPC column (dropped) |
+| Section GUID | Category | Label | Kept columns | NIF/NIPC column (company NIPCs kept, the rest dropped) |
 |---|---|---|---|---|
 | `2c6d9562-dea5-488b-9afe-42519c636daf` | activity | Atividades profissionais, cargos públicos, privados e sociais | col1 to col7 | col9 |
 | `cd0e811a-d9bb-49ee-b0f0-1dae0680eb22` | association | Filiação ou funções em entidades de natureza associativa | col1 to col7 | col8 |

@@ -1,0 +1,610 @@
+{
+ "DataFimleg": "2015-10-22",
+ "DataInicioleg": "2014-09-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PS",
+   "idCadastro": "4209",
+   "nome": "Elza Pais"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "2092",
+   "nome": "Luísa Salgueiro"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "4553",
+   "nome": "Ivo Oliveira"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PS"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2015-04-17",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "305100",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2015-04-17",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "305984",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/04/114/2015-04-17/33?pgs=33-34&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "736199",
+     "obs": null,
+     "pag": [
+      "33-34"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "114",
+     "pubSL": "4",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2015-04-17",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "10607",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2015-04-23",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": [
+    {
+     "autor": "BE",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "39363",
+     "leg": "XII",
+     "nr": "880",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/077/2015-04-24/28?pgs=28-35&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2039",
+       "obs": null,
+       "pag": [
+        "28-35"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "77",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-04-24",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/077/2015-04-24/28?pgs=28-35&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2039",
+       "obs": null,
+       "pag": [
+        "28-35"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "77",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-04-24",
+       "supl": null
+      }
+     ],
+     "sel": "4",
+     "tipo": "J",
+     "titulo": "Legaliza o cultivo de canábis para consumo pessoal e cria o enquadramento legal para os clubes sociais de canábis"
+    },
+    {
+     "autor": "PCP",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "39371",
+     "leg": "XII",
+     "nr": "1435",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/077/2015-04-24/28?pgs=28-35&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2039",
+       "obs": null,
+       "pag": [
+        "28-35"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "77",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-04-24",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/077/2015-04-24/28?pgs=28-35&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2039",
+       "obs": null,
+       "pag": [
+        "28-35"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "77",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-04-24",
+       "supl": null
+      }
+     ],
+     "sel": "4",
+     "tipo": "R",
+     "titulo": "Recomenda ao Governo que analise a evolução dos impactos na saúde do consumo de cannabis, adote medidas para prevenir o seu consumo e estude a utilização de cannabis para fins terapêuticos"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2015-04-23",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2433",
+         "nome": "José Moura Soeiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:27",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150423pln&url=l12/sl4/a2015/m04/&tI=01:51:09:160&drc=00:03:10:952"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150423pln&url=l12/sl4/a2015/m04/&tI=02:13:37:811&drc=00:02:34:576"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/077/2015-04-24/28?pgs=28-29,34-35&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "198288",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "28-29",
+          "34-35"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "77",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-04-24",
+         "supl": null
+        }
+       ],
+       "sumario": "Legaliza o cultivo de canábis para consumo pessoal e cria o enquadramento legal para os clubes sociais de canábis; Recomenda ao Governo que analise a evolução dos impactos na saúde do consumo de cannabis, adote medidas para prevenir o seu consumo e estude a utilização de cannabis para fins terapêuticos; Recomenda ao Governo uma política ativa no âmbito da prevenção das toxicodependências e redução de riscos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "4197",
+         "nome": "Paula Santos"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:27",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150423pln&url=l12/sl4/a2015/m04/&tI=01:54:26:432&drc=00:03:24:860"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150423pln&url=l12/sl4/a2015/m04/&tI=02:11:31:351&drc=00:01:05:061"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/077/2015-04-24/29?pgs=29-30,34&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "198289",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "29-30",
+          "34-34"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "77",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-04-24",
+         "supl": null
+        }
+       ],
+       "sumario": "Legaliza o cultivo de canábis para consumo pessoal e cria o enquadramento legal para os clubes sociais de canábis; Recomenda ao Governo que analise a evolução dos impactos na saúde do consumo de cannabis, adote medidas para prevenir o seu consumo e estude a utilização de cannabis para fins terapêuticos; Recomenda ao Governo uma política ativa no âmbito da prevenção das toxicodependências e redução de riscos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "4209",
+         "nome": "Elza Pais"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:27",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150423pln&url=l12/sl4/a2015/m04/&tI=01:57:54:980&drc=00:03:56:094"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150423pln&url=l12/sl4/a2015/m04/&tI=02:12:39:837&drc=00:00:56:234"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/077/2015-04-24/30?pgs=30-31,34&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "198290",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "30-31",
+          "34-34"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "77",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-04-24",
+         "supl": null
+        }
+       ],
+       "sumario": "Legaliza o cultivo de canábis para consumo pessoal e cria o enquadramento legal para os clubes sociais de canábis; Recomenda ao Governo que analise a evolução dos impactos na saúde do consumo de cannabis, adote medidas para prevenir o seu consumo e estude a utilização de cannabis para fins terapêuticos; Recomenda ao Governo uma política ativa no âmbito da prevenção das toxicodependências e redução de riscos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4393",
+         "nome": "Cristóvão Simão Ribeiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:27",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150423pln&url=l12/sl4/a2015/m04/&tI=02:02:00:093&drc=00:04:16:189"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/077/2015-04-24/31?pgs=31-32&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "198291",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "31-32"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "77",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-04-24",
+         "supl": null
+        }
+       ],
+       "sumario": "Legaliza o cultivo de canábis para consumo pessoal e cria o enquadramento legal para os clubes sociais de canábis; Recomenda ao Governo que analise a evolução dos impactos na saúde do consumo de cannabis, adote medidas para prevenir o seu consumo e estude a utilização de cannabis para fins terapêuticos; Recomenda ao Governo uma política ativa no âmbito da prevenção das toxicodependências e redução de riscos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1923",
+         "nome": "Teresa Caeiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:27",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150423pln&url=l12/sl4/a2015/m04/&tI=02:06:20:385&drc=00:05:02:606"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/077/2015-04-24/32?pgs=32-34&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "198292",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "32-34"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "77",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-04-24",
+         "supl": null
+        }
+       ],
+       "sumario": "Legaliza o cultivo de canábis para consumo pessoal e cria o enquadramento legal para os clubes sociais de canábis; Recomenda ao Governo que analise a evolução dos impactos na saúde do consumo de cannabis, adote medidas para prevenir o seu consumo e estude a utilização de cannabis para fins terapêuticos; Recomenda ao Governo uma política ativa no âmbito da prevenção das toxicodependências e redução de riscos.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "305270",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/077/2015-04-24/28?pgs=28-35&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "744117",
+     "obs": null,
+     "pag": [
+      "28-35"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "77",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2015-04-24",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "335",
+   "Comissao": null,
+   "DataFase": "2015-04-24",
+   "EvtId": "73",
+   "Fase": "Votação Deliberação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "305438",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/078/2015-04-27/39?pgs=39-40&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "744118",
+     "obs": null,
+     "pag": [
+      "39-40"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "78",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2015-04-27",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2015-04-24",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I><BR>Abstenção:<I>BE</I>",
+     "id": "69286",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "78",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "39372",
+ "IniLeg": "XII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a5463794e324d305a574d744e5452685a6930304e3255354c574535597a41744f5467335a5751305a44517a4d3255354c6d527659773d3d&fich=e727c4ec-54af-47e9-a9c0-987ed4d433e9.doc&Inline=true",
+ "IniNr": "1436",
+ "IniObs": null,
+ "IniSel": "4",
+ "IniTextoSubst": "SIM",
+ "IniTextoSubstCampo": "Texto incial substituído e alteração do título a pedido do autor da iniciativa em 22-04-2015.",
+ "IniTipo": "R",
+ "IniTitulo": "Recomenda ao Governo uma política ativa no âmbito da prevenção das toxicodependências e redução de riscos",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

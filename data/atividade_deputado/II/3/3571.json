@@ -1,0 +1,55 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "MANUEL CASTELHANO"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LEIRIA",
+  "depCPId": "10",
+  "depCadId": "3571",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "4799",
+  "depNomeCompleto": "MANUEL FERREIRA CASTELHANO",
+  "depNomeParlamentar": "MANUEL CASTELHANO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-05-23",
+     "sioDtInicio": "1981-05-22"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-22",
+     "sioDtInicio": "1982-07-19"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-10-31",
+     "sioDtInicio": "1982-10-29"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-25",
+     "sioDtInicio": "1982-11-22"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

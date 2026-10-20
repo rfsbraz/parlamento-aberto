@@ -1,0 +1,931 @@
+{
+ "DataFimleg": "2023-09-14",
+ "DataInicioleg": "2022-03-29",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "CH",
+   "idCadastro": "6535",
+   "nome": "André Ventura"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7338",
+   "nome": "Bruno Nunes"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "6858",
+   "nome": "Diogo Pacheco de Amorim"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7332",
+   "nome": "Filipe Melo"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7340",
+   "nome": "Gabriel Mithá Ribeiro"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7330",
+   "nome": "Jorge Galveias"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7345",
+   "nome": "Pedro dos Santos Frazão"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7391",
+   "nome": "Pedro Pessanha"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7336",
+   "nome": "Pedro Pinto"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7390",
+   "nome": "Rita Matias"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7344",
+   "nome": "Rui Afonso"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7342",
+   "nome": "Rui Paulo Sousa"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "CH"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2023-02-14",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1325567",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/15/01/165/2023-02-14/20?pgs=20-21&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "973730",
+     "obs": null,
+     "pag": [
+      "20-21"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "165",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2023-02-14",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2023-02-14",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1323660",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2023-02-16",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1323801",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2023-02-16",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1323849",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "18803",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2023-03-03",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2023-03-03",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CH",
+         "idCadastro": "6535",
+         "nome": "André Ventura"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:06",
+       "horaTermo": "13:23",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_03_03_10_00_00_clean_14_plenario.xml&idsegmento=39"
+        },
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_03_03_10_00_00_clean_14_plenario.xml&idsegmento=49"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/097/2023-03-04/36?pgs=36,47-49&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "323192",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "36-36",
+          "47-49"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "97",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-03-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Parlamentar Eventual para apurar e prevenir interferência política abusiva no sistema bancário português",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "7274",
+         "nome": "Hugo Carneiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:06",
+       "horaTermo": "13:23",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_03_03_10_00_00_clean_14_plenario.xml&idsegmento=40"
+        },
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_03_03_10_00_00_clean_14_plenario.xml&idsegmento=42"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/097/2023-03-04/37?pgs=37-39,40-41&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "323193",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "37-39",
+          "40-41"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "97",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-03-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Parlamentar Eventual para apurar e prevenir interferência política abusiva no sistema bancário português",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CH",
+         "idCadastro": "6535",
+         "nome": "André Ventura"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:06",
+       "horaTermo": "13:23",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_03_03_10_00_00_clean_14_plenario.xml&idsegmento=41"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/097/2023-03-04/39?pgs=39-40&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "323194",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "39-40"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "97",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-03-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Parlamentar Eventual para apurar e prevenir interferência política abusiva no sistema bancário português",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PAN",
+         "idCadastro": "6864",
+         "nome": "Inês de Sousa Real"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:06",
+       "horaTermo": "13:23",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_03_03_10_00_00_clean_14_plenario.xml&idsegmento=43"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/097/2023-03-04/41?pgs=41&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "323195",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "41-41"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "97",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-03-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Parlamentar Eventual para apurar e prevenir interferência política abusiva no sistema bancário português",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "5710",
+         "nome": "Duarte Alves"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:06",
+       "horaTermo": "13:23",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_03_03_10_00_00_clean_14_plenario.xml&idsegmento=44"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/097/2023-03-04/41?pgs=41-42&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "323196",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "41-42"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "97",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-03-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Parlamentar Eventual para apurar e prevenir interferência política abusiva no sistema bancário português",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "4557",
+         "nome": "Mariana Mortágua"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:06",
+       "horaTermo": "13:23",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_03_03_10_00_00_clean_14_plenario.xml&idsegmento=45"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/097/2023-03-04/43?pgs=43&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "323197",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "43-43"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "97",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-03-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Parlamentar Eventual para apurar e prevenir interferência política abusiva no sistema bancário português",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "L",
+         "idCadastro": "7337",
+         "nome": "Rui Tavares"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:06",
+       "horaTermo": "13:23",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_03_03_10_00_00_clean_14_plenario.xml&idsegmento=46"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/097/2023-03-04/43?pgs=43-44&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "323198",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "43-44"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "97",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-03-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Parlamentar Eventual para apurar e prevenir interferência política abusiva no sistema bancário português",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "IL",
+         "idCadastro": "6550",
+         "nome": "João Cotrim Figueiredo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:06",
+       "horaTermo": "13:23",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_03_03_10_00_00_clean_14_plenario.xml&idsegmento=47"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/097/2023-03-04/44?pgs=44-45&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "323199",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "44-45"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "97",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-03-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Parlamentar Eventual para apurar e prevenir interferência política abusiva no sistema bancário português",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "6706",
+         "nome": "Miguel Matos"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:06",
+       "horaTermo": "13:23",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_03_03_10_00_00_clean_14_plenario.xml&idsegmento=48"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/097/2023-03-04/45?pgs=45-46&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "323200",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "45-46"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "97",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-03-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Parlamentar Eventual para apurar e prevenir interferência política abusiva no sistema bancário português",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "7274",
+         "nome": "Hugo Carneiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:06",
+       "horaTermo": "13:23",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_03_03_10_00_00_clean_14_plenario.xml&idsegmento=50"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/097/2023-03-04/49?pgs=49-50&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "323201",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "49-50"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "97",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-03-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Parlamentar Eventual para apurar e prevenir interferência política abusiva no sistema bancário português",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CH",
+         "idCadastro": "6535",
+         "nome": "André Ventura"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:06",
+       "horaTermo": "13:23",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_03_03_10_00_00_clean_14_plenario.xml&idsegmento=51"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/097/2023-03-04/50?pgs=50-51&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "323202",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "50-51"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "97",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-03-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Parlamentar Eventual para apurar e prevenir interferência política abusiva no sistema bancário português",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1324441",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/097/2023-03-04/36?pgs=36-51&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "27151",
+     "idPag": null,
+     "obs": null,
+     "pag": [
+      "36-51"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "97",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2023-03-04",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "335",
+   "Comissao": null,
+   "DataFase": "2023-03-03",
+   "EvtId": "73",
+   "Fase": "Votação Deliberação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1324576",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/097/2023-03-04/59?pgs=59&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "974567",
+     "obs": null,
+     "pag": [
+      "59-59"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "97",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2023-03-04",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2023-03-03",
+     "descricao": null,
+     "detalhe": "A Favor: <I>CH</I>, <I> IL</I><BR>Contra:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> L</I><BR>Abstenção:<I>PSD</I>, <I> PAN</I>",
+     "id": "104422",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "96",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "649",
+   "Comissao": null,
+   "DataFase": "2024-03-25",
+   "EvtId": "38",
+   "Fase": "Iniciativa Caducada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1514123",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  }
+ ],
+ "IniId": "152478",
+ "IniLeg": "XV",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a79394562324e31625756756447397a5357357059326c6864476c32595338335a6a6734597a637759793168595746684c5451784e6a457459544d314d69316d4e446b33597a64684d6a5a6d4d4751755a47396a65413d3d&fich=7f88c70c-aaaa-4161-a352-f497c7a26f0d.docx&Inline=true",
+ "IniNr": "469",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "R",
+ "IniTitulo": "Constituição de uma Comissão Parlamentar Eventual para apurar e prevenir interferência política abusiva no sistema bancário português",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

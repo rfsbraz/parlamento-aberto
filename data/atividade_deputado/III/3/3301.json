@@ -1,0 +1,45 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "JORGE MENDONÇA"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "MADEIRA",
+  "depCPId": "20",
+  "depCadId": "3301",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3650",
+  "depNomeCompleto": "JORGE NÉLIO PRAXEDAS FERRAZ MENDONÇA",
+  "depNomeParlamentar": "JORGE MENDONÇA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-11-02",
+     "sioDtInicio": "1983-05-31"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-10-01",
+     "sioDtInicio": "1984-05-01"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

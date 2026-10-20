@@ -1,0 +1,45 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PS",
+     "dpl_lg": "III",
+     "nome": "JOSÉ MARTINS PIRES"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "CASTELO BRANCO",
+  "depCPId": "5",
+  "depCadId": "3316",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "988",
+    "gpSigla": "PS"
+   }
+  },
+  "depId": "3497",
+  "depNomeCompleto": "JOSÉ MARTINS PIRES",
+  "depNomeParlamentar": "JOSÉ MARTINS PIRES",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-02-08",
+     "sioDtInicio": "1983-05-31"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-11-04",
+     "sioDtInicio": "1984-02-15"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

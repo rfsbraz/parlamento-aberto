@@ -1,0 +1,69 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "JOÃO TEIXEIRA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "29899",
+      "iniNr": "422",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Dia do professor.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29647",
+      "iniNr": "178",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Elevação da vila da Régua à categoria de cidade.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29620",
+      "iniNr": "171",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação das freguesias de Santa Maria Maior e da Madalena, em substituição da freguesia de Chaves.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "VILA REAL",
+  "depCPId": "17",
+  "depCadId": "3002",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3642",
+  "depNomeCompleto": "JOÃO MARIA FERREIRA TEIXEIRA",
+  "depNomeParlamentar": "JOÃO TEIXEIRA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1985-11-04",
+    "sioDtInicio": "1983-05-31"
+   }
+  },
+  "legDes": "III"
+ }
+}

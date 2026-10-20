@@ -1,0 +1,90 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "REINALDO GOMES"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30581",
+      "iniNr": "248",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação do Centro de Promoção Náutica e Piscatória de Peniche.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30519",
+      "iniNr": "217",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia da Golpilheira no concelho da Batalha",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30518",
+      "iniNr": "216",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Santo Onofre no concelho das Caldas da Rainha",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "31019",
+      "iniNr": "78",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-lei nº 1/81, de 7 de Janeiro, que define empresa mista de pesca.",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LEIRIA",
+  "depCPId": "10",
+  "depCadId": "3069",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3277",
+  "depNomeCompleto": "REINALDO ALBERTO RAMOS GOMES",
+  "depNomeParlamentar": "REINALDO GOMES",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-06-23",
+     "sioDtInicio": "1980-11-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-08-12",
+     "sioDtInicio": "1982-07-02"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-08-15"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

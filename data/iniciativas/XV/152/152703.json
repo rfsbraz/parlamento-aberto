@@ -1,0 +1,845 @@
+{
+ "DataFimleg": "2023-09-14",
+ "DataInicioleg": "2022-03-29",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "CH",
+   "idCadastro": "6535",
+   "nome": "André Ventura"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7338",
+   "nome": "Bruno Nunes"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "6858",
+   "nome": "Diogo Pacheco de Amorim"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7332",
+   "nome": "Filipe Melo"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7340",
+   "nome": "Gabriel Mithá Ribeiro"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7330",
+   "nome": "Jorge Galveias"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7345",
+   "nome": "Pedro dos Santos Frazão"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7391",
+   "nome": "Pedro Pessanha"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7336",
+   "nome": "Pedro Pinto"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7390",
+   "nome": "Rita Matias"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7344",
+   "nome": "Rui Afonso"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7342",
+   "nome": "Rui Paulo Sousa"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "CH"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2023-03-24",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1347876",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/15/01/191/2023-03-24/22?pgs=22-23&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "974467",
+     "obs": null,
+     "pag": [
+      "22-23"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "191",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2023-03-24",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2023-03-24",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1325415",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2023-03-28",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1325680",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "181",
+   "Comissao": [
+    {
+     "AccId": "64009",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2023-03-28",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8330",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Economia, Obras Públicas, Planeamento e Habitação",
+     "Numero": "8330",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2023-03-28",
+   "EvtId": "126",
+   "Fase": "Baixa comissão para discussão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1325681",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2023-03-29",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1325733",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "19492",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2023-10-03",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": [
+    {
+     "autor": "PAN",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "243311",
+     "leg": "XV",
+     "nr": "906",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/009/2023-10-04/15?pgs=15-24&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16475",
+       "obs": null,
+       "pag": [
+        "15-24"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "9",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-04",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "R",
+     "titulo": "Recomenda ao Governo a conclusão urgente do inventário do património imobiliário do Estado com aptidão para uso habitacional como medida essencial para o combate à crise habitacional"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2023-10-03",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PAN",
+         "idCadastro": "6864",
+         "nome": "Inês de Sousa Real"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "17:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_03_15_00_00_clean_14_plenario.xml&idsegmento=16"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/009/2023-10-04/16?pgs=16&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "346309",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "16-16"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "9",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo que identifique o património imobiliário habitacional do Estado que está a ser indevidamente utilizado, alvo de fraude ou a necessitar de obras de reabilitação; Recomenda ao Governo a conclusão urgente do inventário do património imobiliário do Estado com aptidão para uso habitacional como medida essencial para o combate à crise habitacional.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PAN",
+         "idCadastro": "6864",
+         "nome": "Inês de Sousa Real"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "17:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_03_15_00_00_clean_14_plenario.xml&idsegmento=18"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/009/2023-10-04/16?pgs=16-17&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "346310",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "16-17"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "9",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo que identifique o património imobiliário habitacional do Estado que está a ser indevidamente utilizado, alvo de fraude ou a necessitar de obras de reabilitação; Recomenda ao Governo a conclusão urgente do inventário do património imobiliário do Estado com aptidão para uso habitacional como medida essencial para o combate à crise habitacional.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "IL",
+         "idCadastro": "7343",
+         "nome": "Carlos Guimarães Pinto"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "17:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_03_15_00_00_clean_14_plenario.xml&idsegmento=19"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/009/2023-10-04/17?pgs=17-18&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "346311",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "17-18"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "9",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo que identifique o património imobiliário habitacional do Estado que está a ser indevidamente utilizado, alvo de fraude ou a necessitar de obras de reabilitação; Recomenda ao Governo a conclusão urgente do inventário do património imobiliário do Estado com aptidão para uso habitacional como medida essencial para o combate à crise habitacional.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "7329",
+         "nome": "António Topa Gomes"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "17:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_03_15_00_00_clean_14_plenario.xml&idsegmento=20"
+        },
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_03_15_00_00_clean_14_plenario.xml&idsegmento=25"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/009/2023-10-04/18?pgs=18-19,23&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "346312",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "18-19",
+          "23-23"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "9",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo que identifique o património imobiliário habitacional do Estado que está a ser indevidamente utilizado, alvo de fraude ou a necessitar de obras de reabilitação; Recomenda ao Governo a conclusão urgente do inventário do património imobiliário do Estado com aptidão para uso habitacional como medida essencial para o combate à crise habitacional.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "L",
+         "idCadastro": "7337",
+         "nome": "Rui Tavares"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "17:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_03_15_00_00_clean_14_plenario.xml&idsegmento=21"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/009/2023-10-04/19?pgs=19-20&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "346313",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "19-20"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "9",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo que identifique o património imobiliário habitacional do Estado que está a ser indevidamente utilizado, alvo de fraude ou a necessitar de obras de reabilitação; Recomenda ao Governo a conclusão urgente do inventário do património imobiliário do Estado com aptidão para uso habitacional como medida essencial para o combate à crise habitacional.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "4210",
+         "nome": "José Rui Cruz"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "17:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_03_15_00_00_clean_14_plenario.xml&idsegmento=22"
+        },
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_03_15_00_00_clean_14_plenario.xml&idsegmento=26"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/009/2023-10-04/20?pgs=20-21,24&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "346314",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "20-21",
+          "24-24"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "9",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo que identifique o património imobiliário habitacional do Estado que está a ser indevidamente utilizado, alvo de fraude ou a necessitar de obras de reabilitação; Recomenda ao Governo a conclusão urgente do inventário do património imobiliário do Estado com aptidão para uso habitacional como medida essencial para o combate à crise habitacional.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "5854",
+         "nome": "Isabel Pires"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "17:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_03_15_00_00_clean_14_plenario.xml&idsegmento=23"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/009/2023-10-04/21?pgs=21-22&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "346315",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "21-22"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "9",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo que identifique o património imobiliário habitacional do Estado que está a ser indevidamente utilizado, alvo de fraude ou a necessitar de obras de reabilitação; Recomenda ao Governo a conclusão urgente do inventário do património imobiliário do Estado com aptidão para uso habitacional como medida essencial para o combate à crise habitacional.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "1715",
+         "nome": "Bruno Dias"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "17:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_03_15_00_00_clean_14_plenario.xml&idsegmento=24"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/009/2023-10-04/22?pgs=22-23&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "346319",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "22-23"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "9",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo que identifique o património imobiliário habitacional do Estado que está a ser indevidamente utilizado, alvo de fraude ou a necessitar de obras de reabilitação; Recomenda ao Governo a conclusão urgente do inventário do património imobiliário do Estado com aptidão para uso habitacional como medida essencial para o combate à crise habitacional.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1451237",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/009/2023-10-04/24?pgs=24-32&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "997337",
+     "obs": null,
+     "pag": [
+      "24-32"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "9",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2023-10-04",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2023-10-04",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1451358",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/010/2023-10-06/51?pgs=51&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "996776",
+     "obs": null,
+     "pag": [
+      "51-51"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "10",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2023-10-06",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2023-10-04",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> CH</I><BR>Contra:<I>PS</I>, <I> IL</I>, <I> PCP</I>, <I> BE</I>, <I> PAN</I>, <I> L</I>",
+     "id": "115737",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "10",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "152703",
+ "IniLeg": "XV",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a79394562324e31625756756447397a5357357059326c6864476c32595338324e5463795a5449324e4330784d5463354c5451305a4749744f5755344e79307a4e6d466d4d44597759546b77597a41755a47396a65413d3d&fich=6572e264-1179-44db-9e87-36af060a90c0.docx&Inline=true",
+ "IniNr": "567",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "R",
+ "IniTitulo": "Recomenda ao Governo que identifique o património imobiliário habitacional do Estado que está a ser indevidamente utilizado, alvo de fraude ou a necessitar de obras de reabilitação",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

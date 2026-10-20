@@ -1,0 +1,877 @@
+{
+ "DataFimleg": "1993-10-14",
+ "DataInicioleg": "1992-10-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": null,
+ "IniAutorGruposParlamentares": null,
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Governo",
+  "sigla": "V"
+ },
+ "IniDescTipo": "Proposta de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "1993-06-24",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "14977",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "1993-06-24",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "14978",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "638",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "1993-06-24",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "1993-06-24",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "31",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSÃO ASSUNTOS EUROPEUS",
+     "Numero": "31",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/06/02/007/1992-11-13/57?pgs=57-58&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Relatório da Comissão",
+       "pag": [
+        "57-58"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VI",
+       "pubNr": "7",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "1992-11-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/06/03/005/1993-11-04/47?pgs=47-48&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Relatório da Comissão",
+       "pag": [
+        "47-48"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VI",
+       "pubNr": "5",
+       "pubSL": "3",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "1993-11-04",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/06/02/007/1992-11-13/57?pgs=57-58&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Relatório da Comissão",
+       "pag": [
+        "57-58"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VI",
+       "pubNr": "7",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "1992-11-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/06/03/005/1993-11-04/47?pgs=47-48&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Relatório da Comissão",
+       "pag": [
+        "47-48"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VI",
+       "pubNr": "5",
+       "pubSL": "3",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "1993-11-04",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "181",
+       "motivoCessacao": null,
+       "nome": "José Lamego"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "1993-11-03",
+       "dataRemessa": "1993-11-03",
+       "numeroOficio": "OF 1766/COM",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      },
+      {
+       "dataDocumento": "1993-11-03",
+       "dataRemessa": null,
+       "numeroOficio": null,
+       "observacoes": "DO TRIBUNAL DE JUSTICA DAS COMUNIDADES.",
+       "tipoRemessa": "Texto Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "1993-06-24",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "107410",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "639",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "1993-06-24",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "1993-06-24",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "1",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSÃO ASSUNTOS CONSTITUCIONAIS DIREITOS LIBERDADES E GARANTIAS",
+     "Numero": "1",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/06/03/005/1993-11-04/43?pgs=43-47&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Parecer da Comissão",
+       "pag": [
+        "43-47"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VI",
+       "pubNr": "5",
+       "pubSL": "3",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "1993-11-04",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/06/03/005/1993-11-04/43?pgs=43-47&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Parecer da Comissão",
+       "pag": [
+        "43-47"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VI",
+       "pubNr": "5",
+       "pubSL": "3",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "1993-11-04",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "618",
+       "motivoCessacao": null,
+       "nome": "Guilherme Silva"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "1993-11-03",
+       "dataRemessa": "1993-11-03",
+       "numeroOficio": "OF 1764/COM",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      },
+      {
+       "dataDocumento": "1993-11-03",
+       "dataRemessa": null,
+       "numeroOficio": null,
+       "observacoes": "DO TRIBUNAL DE JUSTICA DAS COMUNIDADES EUROPEIAS.",
+       "tipoRemessa": "Texto Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "1993-06-24",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "107413",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "1993-06-25",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "14979",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "1993-06-26",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "14980",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/06/02/044S1/1993-06-26/828-(2)?pgs=828-(2)-828-(16)&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "28248",
+     "obs": "-(2) -(16)",
+     "pag": [
+      "828-(2)-828-(16)"
+     ],
+     "pagFinalDiarioSupl": "1º Supl.",
+     "pubLeg": "VI",
+     "pubNr": "44",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "1993-06-26",
+     "supl": "1º Supl."
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "344",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "1993-11-03",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "1993-11-03",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "209",
+         "nome": "António Filipe"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "19:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/03/007/1993-11-04/208?pgs=208-209&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "39213",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "208-209"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VI",
+         "pubNr": "7",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1993-11-04",
+         "supl": null
+        }
+       ],
+       "sumario": "APROVA P/ RATIF. A CONVENCAO RELATIVA A ADESAO DOREINO DE ESPANHA E DA REPUBLICA PORTUGUESA A CONVENCAO SOBREA LEI APLICAVEL AS OBRIGACOES CONTRATUAIS E O PRIMEIRO ESEGUNDO PROTOCOLOS RELATIVOS A SUA INTERPRETACAO ECOMPETENCIA DO TRIBUNAL DE JUSTICA DAS COMUNIDADES EUROPEIAS",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "226",
+         "nome": "Nogueira de Brito"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "19:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/03/007/1993-11-04/208?pgs=208&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "39214",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "208-208"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VI",
+         "pubNr": "7",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1993-11-04",
+         "supl": null
+        }
+       ],
+       "sumario": "APROVA P/ RATIF. A CONVENCAO RELATIVA A ADESAO DOREINO DE ESPANHA E DA REPUBLICA PORTUGUESA A CONVENCAO SOBREA LEI APLICAVEL AS OBRIGACOES CONTRATUAIS E O PRIMEIRO ESEGUNDO PROTOCOLOS RELATIVOS A SUA INTERPRETACAO ECOMPETENCIA DO TRIBUNAL DE JUSTICA DAS COMUNIDADES EUROPEIAS",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "618",
+         "nome": "Guilherme Silva"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "19:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/03/007/1993-11-04/207?pgs=207-208&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "39215",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "207-208"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VI",
+         "pubNr": "7",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1993-11-04",
+         "supl": null
+        }
+       ],
+       "sumario": "APROVA P/ RATIF. A CONVENCAO RELATIVA A ADESAO DOREINO DE ESPANHA E DA REPUBLICA PORTUGUESA A CONVENCAO SOBREA LEI APLICAVEL AS OBRIGACOES CONTRATUAIS E O PRIMEIRO ESEGUNDO PROTOCOLOS RELATIVOS A SUA INTERPRETACAO ECOMPETENCIA DO TRIBUNAL DE JUSTICA DAS COMUNIDADES EUROPEIAS",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "176",
+         "nome": "Menezes Ferreira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "19:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/03/007/1993-11-04/206?pgs=206-207&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "39216",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "206-207"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VI",
+         "pubNr": "7",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1993-11-04",
+         "supl": null
+        }
+       ],
+       "sumario": "APROVA P/ RATIF. A CONVENCAO RELATIVA A ADESAO DOREINO DE ESPANHA E DA REPUBLICA PORTUGUESA A CONVENCAO SOBREA LEI APLICAVEL AS OBRIGACOES CONTRATUAIS E O PRIMEIRO ESEGUNDO PROTOCOLOS RELATIVOS A SUA INTERPRETACAO ECOMPETENCIA DO TRIBUNAL DE JUSTICA DAS COMUNIDADES EUROPEIAS",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "19:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": "S.E.  ADJUNTO DO MINISTRO DA  JUSTIÇA",
+        "governo": "XII GOVERNO CONSTITUCIONAL",
+        "nome": "Borges Soeiro"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/03/007/1993-11-04/205?pgs=205-206&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "107942",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "205-206"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VI",
+         "pubNr": "7",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1993-11-04",
+         "supl": null
+        }
+       ],
+       "sumario": "APROVA P/ RATIF. A CONVENCAO RELATIVA A ADESAO DOREINO DE ESPANHA E DA REPUBLICA PORTUGUESA A CONVENCAO SOBREA LEI APLICAVEL AS OBRIGACOES CONTRATUAIS E O PRIMEIRO ESEGUNDO PROTOCOLOS RELATIVOS A SUA INTERPRETACAO ECOMPETENCIA DO TRIBUNAL DE JUSTICA DAS COMUNIDADES EUROPEIAS",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "95669",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/03/007/1993-11-04?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "344",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VI",
+     "pubNr": "7",
+     "pubSL": "3",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "1993-11-04",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "330",
+   "Comissao": null,
+   "DataFase": "1993-11-04",
+   "EvtId": "56",
+   "Fase": "Votação global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "95676",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": [
+      "PSN"
+     ],
+     "data": "1993-11-04",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> PCP</I>, <I> CDS-PP</I>, <I> PEV</I>, <I> Mário Tomé (Indep)</I>, <I> Manuel Sérgio (PSN)</I>, <I> João Corregedor Da Fonseca (Indep)</I><BR>Ausência: <I>PSN</I>",
+     "id": "21782",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/03/008/1993-11-05?org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "106103",
+       "obs": null,
+       "pag": null,
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VI",
+       "pubNr": "8",
+       "pubSL": "3",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "1993-11-05",
+       "supl": null
+      }
+     ],
+     "resultado": "Aprovado",
+     "reuniao": "8",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "360",
+   "Comissao": null,
+   "DataFase": "1993-12-16",
+   "EvtId": "57",
+   "Fase": "Resolução (Publicação DAR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "126238",
+   "OevTextId": "1517",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "1517",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "375",
+   "Comissao": null,
+   "DataFase": "1993-12-17",
+   "EvtId": "78",
+   "Fase": "Envio ao Presidente da República",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "126240",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "1993-12-20",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "126239",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "600",
+   "Comissao": null,
+   "DataFase": "1994-02-03",
+   "EvtId": "44",
+   "Fase": "Resolução da AR (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "132986",
+   "OevTextId": "2584",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "2584",
+   "Votacao": null
+  }
+ ],
+ "IniId": "3745",
+ "IniLeg": "VI",
+ "IniLinkTexto": "",
+ "IniNr": "32",
+ "IniObs": "Obrigação contratual; Convenção de Roma; Bruxelas.",
+ "IniSel": "2",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "S",
+ "IniTitulo": "Aprova, para ratificação, a Convenção relativa à adesão do Reino de Espanha e da República Portuguesa à Convenção sobre a lei aplicável às obrigações contratuais e os primeiro e segundo protocolos relativos à sua interpretação e competência do Tribunal de Justiça das Comunidades Europeias.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

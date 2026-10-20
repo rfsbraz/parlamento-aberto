@@ -1,0 +1,69 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": null,
+   "Audiencias": null,
+   "Cms": null,
+   "DadosLegisDeputado": [
+    {
+     "Dpl_grpar": "PSD",
+     "Dpl_lg": "XVII",
+     "Nome": "Alexandre Homem Cristo"
+    }
+   ],
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": null,
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": null,
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": null,
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Lisboa",
+  "DepCPId": 11.0,
+  "DepCadId": 8422.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-10-19",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7261.0,
+    "GpSigla": "PSD"
+   }
+  ],
+  "DepId": 16569.0,
+  "DepNomeCompleto": "Manuel Alexandre Mateus Homem Cristo",
+  "DepNomeParlamentar": "Alexandre Homem Cristo",
+  "DepSituacao": [
+   {
+    "SioDes": "Suspenso(Eleito)",
+    "SioDtFim": null,
+    "SioDtInicio": "2025-06-06"
+   },
+   {
+    "SioDes": "Efetivo",
+    "SioDtFim": "2025-06-05",
+    "SioDtInicio": "2025-06-05"
+   },
+   {
+    "SioDes": "Suspenso(Eleito)",
+    "SioDtFim": "2025-06-04",
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

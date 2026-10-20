@@ -1,0 +1,56 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "MDP/CDE",
+     "dpl_lg": "II",
+     "nome": "JOÃO CORREGEDOR DA FONSECA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "33135",
+     "iniNr": "11",
+     "iniSelLg": "II",
+     "iniSelNr": "3",
+     "iniTi": "Requere ao Governo o envio à Comissão Parlamentar de Direitos, Liberdades e Garantias do relatório sobre os acontecimentos do 1º de Maio de 1982 elaborado pela Procuradoria-Geral da República",
+     "iniTp": "R",
+     "iniTpdesc": "Projeto de Resolução"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "212",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "986",
+    "gpSigla": "MDP/CDE"
+   }
+  },
+  "depId": "4929",
+  "depNomeCompleto": "JOÃO CERVEIRA CORREGEDOR DA FONSECA",
+  "depNomeParlamentar": "JOÃO CORREGEDOR DA FONSECA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-06",
+     "sioDtInicio": "1982-11-04"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1983-01-07"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "MÁRIO MONTALVÃO MACHADO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "30759",
+     "iniNr": "378",
+     "iniSelLg": "II",
+     "iniSelNr": "3",
+     "iniTi": "Prazo de caducidade em acções de resolução de contratos de arrendamento (alteração ao artº 1094º do Código Civil)",
+     "iniTp": "J",
+     "iniTpdesc": "Projeto de Lei"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "PORTO",
+  "depCPId": "13",
+  "depCadId": "313",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3308",
+  "depNomeCompleto": "MÁRIO JÚLIO MONTALVÃO MACHADO",
+  "depNomeParlamentar": "MÁRIO MONTALVÃO MACHADO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-01",
+     "sioDtInicio": "1980-11-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-01-11",
+     "sioDtInicio": "1982-08-01"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1983-01-15"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

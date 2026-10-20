@@ -1,0 +1,121 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "JOÃO PORTO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "31072",
+     "iniNr": "104",
+     "iniSelLg": "II",
+     "iniSelNr": "2",
+     "iniTi": "Decreto-lei nº 272-A/81, de 30 de Setembro (Aprova o Código do Processo de Trabalho)",
+     "iniTp": "F",
+     "iniTpdesc": "Ratificação"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "PORTO",
+  "depCPId": "13",
+  "depCadId": "3432",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "3310",
+  "depNomeCompleto": "JOÃO LOPES PORTO",
+  "depNomeParlamentar": "JOÃO PORTO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-02-03",
+     "sioDtInicio": "1981-01-09"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-06-15",
+     "sioDtInicio": "1981-02-06"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-07-09",
+     "sioDtInicio": "1981-06-18"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-09-16",
+     "sioDtInicio": "1981-07-10"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-10-20",
+     "sioDtInicio": "1981-09-19"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-01-11",
+     "sioDtInicio": "1981-10-22"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-03-16",
+     "sioDtInicio": "1982-01-19"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-04-15",
+     "sioDtInicio": "1982-03-23"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-05-18",
+     "sioDtInicio": "1982-04-17"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-06-21",
+     "sioDtInicio": "1982-05-25"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-19",
+     "sioDtInicio": "1982-06-29"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-08-12",
+     "sioDtInicio": "1982-07-27"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-10-29",
+     "sioDtInicio": "1982-08-14"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-22",
+     "sioDtInicio": "1982-10-31"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-11-24"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

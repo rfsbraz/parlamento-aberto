@@ -1,0 +1,86 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PS",
+     "dpl_lg": "III",
+     "nome": "JOAQUIM ARENGA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "29987",
+     "iniNr": "476",
+     "iniSelLg": "III",
+     "iniSelNr": "2",
+     "iniTi": "Criação da freguesia de Lentisqueira no concelho de Mira.",
+     "iniTp": "J",
+     "iniTpdesc": "Projeto de Lei"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "FARO",
+  "depCPId": "8",
+  "depCadId": "3331",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "988",
+    "gpSigla": "PS"
+   }
+  },
+  "depId": "4570",
+  "depNomeCompleto": "JOAQUIM MANUEL LEITÃO RIBEIRO ARENGA",
+  "depNomeParlamentar": "JOAQUIM ARENGA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-07-15",
+     "sioDtInicio": "1983-06-30"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-09-24",
+     "sioDtInicio": "1983-09-20"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-05-03",
+     "sioDtInicio": "1983-11-03"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-11-10",
+     "sioDtInicio": "1984-05-04"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-01-01",
+     "sioDtInicio": "1984-12-01"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-02-24",
+     "sioDtInicio": "1985-01-08"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-03-11",
+     "sioDtInicio": "1985-02-25"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-11-01",
+     "sioDtInicio": "1985-03-22"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

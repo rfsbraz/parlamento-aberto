@@ -1,0 +1,106 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "CARLOS OLIVEIRA E SOUSA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30639",
+      "iniNr": "321",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Criação do município de Canas de Senhorim.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "31072",
+      "iniNr": "104",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 272-A/81, de 30 de Setembro (Aprova o Código do Processo de Trabalho)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30576",
+      "iniNr": "243",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Paredes do Bairro no concelho de Anadia.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "AVEIRO",
+  "depCPId": "1",
+  "depCadId": "3100",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "4763",
+  "depNomeCompleto": "CARLOS EDUARDO DE OLIVEIRA E SOUSA",
+  "depNomeParlamentar": "CARLOS OLIVEIRA E SOUSA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-06-02",
+     "sioDtInicio": "1981-04-28"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-06-29",
+     "sioDtInicio": "1981-06-06"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-07-10",
+     "sioDtInicio": "1981-07-09"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-10-31",
+     "sioDtInicio": "1981-10-12"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-01-09",
+     "sioDtInicio": "1981-11-02"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-10-19",
+     "sioDtInicio": "1982-01-26"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-10-28",
+     "sioDtInicio": "1982-10-21"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-10-29"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

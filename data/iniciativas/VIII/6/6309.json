@@ -1,0 +1,951 @@
+{
+ "DataFimleg": "2000-09-14",
+ "DataInicioleg": "1999-10-25",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "BE",
+   "idCadastro": "1651",
+   "nome": "Francisco Louçã"
+  },
+  {
+   "GP": "BE",
+   "idCadastro": "263",
+   "nome": "Luís Fazenda"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "BE"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Deputados",
+  "sigla": "D"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "1999-12-10",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "25184",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "1999-12-16",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "25185",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "4366",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "1999-12-16",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "1999-12-16",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "27",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSAO DE TRABALHO, SOLIDARIEDADE E SEGURANÇA SOCIAL",
+     "Numero": "27",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/08/01/037/2000-05-04/1414?pgs=1414-1415&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "1414-1415"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VIII",
+       "pubNr": "37",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2000-05-04",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/08/01/037/2000-05-04/1414?pgs=1414-1415&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "1414-1415"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VIII",
+       "pubNr": "37",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2000-05-04",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "1603",
+       "motivoCessacao": null,
+       "nome": "Carlos Alberto"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2000-05-02",
+       "dataRemessa": "2000-05-02",
+       "numeroOficio": "OF 678/COM",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      },
+      {
+       "dataDocumento": "2000-05-02",
+       "dataRemessa": null,
+       "numeroOficio": null,
+       "observacoes": "DP 30 D OF 1276/COM, 99.12.22.SEP 5-00.01.07.REJEIT 00.05.04",
+       "tipoRemessa": "Texto Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "1999-12-16",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "117131",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "1999-12-17",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "25186",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "1999-12-18",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "25187",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/08/01/010/1999-12-18/152?pgs=152-154&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "40613",
+     "obs": null,
+     "pag": [
+      "152-154"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VIII",
+     "pubNr": "10",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "1999-12-18",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "55",
+   "Comissao": null,
+   "DataFase": "2000-01-07",
+   "EvtId": "49",
+   "Fase": "Publicação em Separata",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "25188",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/sep/08/01/005/2000-01-07?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "40614",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VIII",
+     "pubNr": "5",
+     "pubSL": "1",
+     "pubTipo": "Separata",
+     "pubTp": "S",
+     "pubdt": "2000-01-07",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "1736",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2000-05-03",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "PCP",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "6147",
+     "leg": "VIII",
+     "nr": "146",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/060/2000-05-04/2410?pgs=2410-2423&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "432",
+       "obs": null,
+       "pag": [
+        "2410-2423"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VIII",
+       "pubNr": "60",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2000-05-04",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "J",
+     "titulo": "Altera o regime jurídico do contrato de trabalho a termo combatendo a precariedade no emprego."
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2000-05-03",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "20:05",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/060/2000-05-04/2423?pgs=2423&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28004",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2423-2423"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "60",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-05-04",
+         "supl": null
+        }
+       ],
+       "sumario": "TRABALHO: CONTRATOS A TERMO E PRECARIEDADE DE EMPREGO",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "219",
+         "nome": "Odete Santos"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "20:05",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/060/2000-05-04/2420?pgs=2420&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28005",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2420-2420"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "60",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-05-04",
+         "supl": null
+        }
+       ],
+       "sumario": "TRABALHO: CONTRATOS A TERMO E PRECARIEDADE DE EMPREGO",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "20:05",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/060/2000-05-04/2418?pgs=2418-2422&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28006",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2418-2422"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "60",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-05-04",
+         "supl": null
+        }
+       ],
+       "sumario": "TRABALHO: CONTRATOS A TERMO E PRECARIEDADE DE EMPREGO",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1241",
+         "nome": "Pedro da Vinha Costa"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "20:05",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/060/2000-05-04/2417?pgs=2417-2418&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28007",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2417-2418"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "60",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-05-04",
+         "supl": null
+        }
+       ],
+       "sumario": "TRABALHO: CONTRATOS A TERMO E PRECARIEDADE DE EMPREGO",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "263",
+         "nome": "Luís Fazenda"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "20:05",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/060/2000-05-04/2420?pgs=2420-2421&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28008",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2420-2421"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "60",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-05-04",
+         "supl": null
+        }
+       ],
+       "sumario": "TRABALHO: CONTRATOS A TERMO E PRECARIEDADE DE EMPREGO",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1625",
+         "nome": "Maria Celeste Cardona"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "20:05",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/060/2000-05-04/2415?pgs=2415-2416,2421&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28009",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2415-2416",
+          "2421-2421"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "60",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-05-04",
+         "supl": null
+        }
+       ],
+       "sumario": "TRABALHO: CONTRATOS A TERMO E PRECARIEDADE DE EMPREGO",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "219",
+         "nome": "Odete Santos"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "20:05",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/060/2000-05-04/2413?pgs=2413-2417&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28010",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2413-2417"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "60",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-05-04",
+         "supl": null
+        }
+       ],
+       "sumario": "TRABALHO: CONTRATOS A TERMO E PRECARIEDADE DE EMPREGO",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1655",
+         "nome": "Telmo Correia"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "20:05",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/060/2000-05-04/2412?pgs=2412-2413&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28011",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2412-2413"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "60",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-05-04",
+         "supl": null
+        }
+       ],
+       "sumario": "TRABALHO: CONTRATOS A TERMO E PRECARIEDADE DE EMPREGO",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1603",
+         "nome": "Carlos Alberto"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "20:05",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/060/2000-05-04/2412?pgs=2412-2416&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28012",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2412-2416"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "60",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-05-04",
+         "supl": null
+        }
+       ],
+       "sumario": "TRABALHO: CONTRATOS A TERMO E PRECARIEDADE DE EMPREGO",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "263",
+         "nome": "Luís Fazenda"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "20:05",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/060/2000-05-04/2410?pgs=2410-2413,2422-2423&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28016",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2410-2413",
+          "2422-2423"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "60",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-05-04",
+         "supl": null
+        }
+       ],
+       "sumario": "TRABALHO: CONTRATOS A TERMO E PRECARIEDADE DE EMPREGO",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "105388",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/060/2000-05-04/2410?pgs=2410-2423&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "111209",
+     "obs": null,
+     "pag": [
+      "2410-2423"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VIII",
+     "pubNr": "60",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2000-05-04",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2000-05-04",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "105387",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/061/2000-05-05/2454?pgs=2454&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "283165",
+     "obs": null,
+     "pag": [
+      "2454-2454"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VIII",
+     "pubNr": "61",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2000-05-05",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2000-05-04",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PCP</I>, <I> PEV</I>, <I> BE</I><BR>Contra:<I>PS</I>, <I> PSD</I><BR>Abstenção:<I>CDS-PP</I>",
+     "id": "24831",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "61",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "6309",
+ "IniLeg": "VIII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395753556c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a526b4d7a63355a544e6c4c5455325a5463744e446469596931685a6a49304c575268596a55774f4759335a446b785979356b62324d3d&fich=4d379e3e-56e7-47bb-af24-dab508f7d91c.doc&Inline=true",
+ "IniNr": "44",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Alteração do decreto-lei n° 64-A/89, de 27 de Fevereiro (contrato de trabalho a termo)",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

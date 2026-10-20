@@ -1,0 +1,4627 @@
+{
+ "DataFimleg": "2013-09-14",
+ "DataInicioleg": "2012-09-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": null,
+ "IniAutorGruposParlamentares": null,
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Governo",
+  "sigla": "V"
+ },
+ "IniDescTipo": "Proposta de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2013-06-07",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "291650",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2013-06-07",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "291669",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2013-06-07",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "291670",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2013-06-07",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292605",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/149/2013-06-07/10?pgs=10-33&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "639203",
+     "obs": null,
+     "pag": [
+      "10-33"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "149",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2013-06-07",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "31445",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": [
+      {
+       "data": "2013-06-25",
+       "id": "95581",
+       "tipo": "AUD"
+      },
+      {
+       "data": "2013-06-26",
+       "id": "95585",
+       "tipo": "AUD"
+      },
+      {
+       "data": "2013-07-04",
+       "id": "95663",
+       "tipo": "AUD"
+      },
+      {
+       "data": "2013-07-04",
+       "id": "95662",
+       "tipo": "AUD"
+      },
+      {
+       "data": "2013-07-11",
+       "id": "95696",
+       "tipo": "AUD"
+      }
+     ],
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2013-06-07",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2013-06-07",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": "2013-07-04",
+     "DatainicioApreciacaoPublica": "2013-06-15",
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Associação Nacional de Municípios Portugueses",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3251774d6d5a694e6a55784c5745785a6d51744e4755794e6930345a54637a4c5756684f5441334f5755794d544d324e6935775a47593d&fich=d02fb651-a1fd-4e26-8e73-ea9079e21366.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-05",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Associação Sindical de Professores Licenciados",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c324d794f54686d4e5456694c54597a4d7a63744e4745774e793034597a41784c54646b4e6d45304d446869597a6777595335775a47593d&fich=c298f55b-6337-4a07-8c01-7d6a408bc80a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-02",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Associação Sindical dos Diplomatas Portugueses",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a41354d7a6b7959546b334c575577595463744e474a685a6931685a4756684c5759334d57513559544d78595455794e6935775a47593d&fich=09392a97-e0a7-4baf-adea-f71d9a31a526.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-04",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da CGTP - Confederação Geral dos Trabalhadores Portugueses",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a526d4e5463794d6a56684c5449794e5755744e44646d597930344e54646a4c5451784f5745344f47566d5a6d4d314d6935306157593d&fich=4f57225a-225e-47fc-857c-419a88effc52.tif&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-10",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer da Comissão de Ambiente, Ordenamento do Território e Poder Local",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a5535596d55344f54526b4c5755794e544d744e474e685a5331694e6a4d304c5463315a4759324d325a68596a426b5a6935775a47593d&fich=59be894d-e253-4cae-b634-75df63fab0df.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-10",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer da Comissão de Educação, Ciência e Cultura",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3251304d6a51784e574e694c5449325a5445744e4441344e5331684d4759324c574d354d57466c4d4745784d544d344d4335775a47593d&fich=d42415cb-26e1-4085-a0f6-c91ae0a11380.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-10",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer da Comissão e Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a4d314f5464685a444d354c54466d4e3259744e4467314d4331694f4751774c5449795a6a49345a544e6a4e544978596935515245593d&fich=3597ad39-1f7f-4850-b8d0-22f28e3c521b.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Comissão Nacional de Proteção de Dados",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c325932593249325a57466a4c54466c4d5455744e47526a5a5330344d4749784c5441354d6d55774e6a4532596d55354d5335515245593d&fich=f6cb6eac-1e15-4dce-80b1-092e0616be91.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Delegação Distrital de Faro do STFPSSRA",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a4134596a566a5a6a51324c54466d595751744e446379596931684f5755774c5449314d7a5532596a6c6a5a474d775a4335775a47593d&fich=08b5cf46-1fad-472b-a9e0-25356b9cdc0d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-04",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Distrital da Guarda do Sindicato dos Professores da Região Centro",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c324d314e6a59334d4751774c5749335a5467744e4459784e7930354e6d4a694c544577596a51325a4459344d574e6d597935775a47593d&fich=c56670d0-b7e8-4617-96bb-10b46d681cfc.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-04",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Distrital de Castelo Branco do Sindicato dos Professores da Região Centro",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c32566d597a55315a4456694c5745794d6a41744e4755314e433168596d55314c546c68596a4e6b4d57466d4f474d775a6935775a47593d&fich=efc55d5b-a220-4e54-abe5-9ab3d1af8c0f.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Distrital de Castelo Branco do STFPSSRA",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a4e694e574e684d6a55324c544d334f5751744e4449324e6931684e5759304c5464685a546330597a5a6a59574978597935775a47593d&fich=3b5ca256-379d-4266-a5f4-7ae74c6cab1c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Distrital de Coimbra do Sindicato dos Professores da Região Centro",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a4e6c4d5467314d5467334c5749305a4749744e474e6b595330354e4755334c5449314d3245344d7a49325a475577597935775a47593d&fich=3e185187-b4db-4cda-94e7-253a8326de0c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Distrital de Évora do STFPSSRA",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a41334d57466c596d526c4c575532596a67744e4445334d6930344f4759304c5749304e7a49334f5745354f474d304f4335775a47593d&fich=071aebde-e6b8-4172-88f4-b47279a98c48.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-04",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Distrital de Faro do Sindicato dos Professores da Zona Sul",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a4d315a6a41335a5449324c546b774e546b744e474e6d59693035597a686d4c54457a4f4445794e6a4d324e54597a4d4335775a47593d&fich=35f07e26-9059-4cfb-9c8f-138126365630.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Distrital de Santarém do STFPSSRA",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c324d314f4467315a54557a4c544a6a596d55744e445a6c596930355a6d526d4c5749354e3255325a5745304f444d31596935775a47593d&fich=c5885e53-2cbe-46eb-9fdf-b97e6ea4835b.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Regional da Guarda do STAL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c32526a5957526a4e7a686b4c544534596a4d744e44426c4f433168593245784c546c6d5a5459304e475133595749334f5335775a47593d&fich=dcadc78d-18b3-40e8-aca1-9fe644d7ab79.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-04",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Regional de Aveiro do STAL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a426b4d546b35596a5a6a4c57466d5a6d51744e446c6b4f533169597a59354c544d794f54426d5a474a6b4e57526c596935775a47593d&fich=0d199b6c-affd-49d9-bc69-3290fdbd5deb.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Regional de Beja do STAL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a646b5a6a4d774d7a426c4c5755315a6a45744e445a6b4e433035597a52694c546b354d4759304f47566d4e7a67314e7935775a47593d&fich=7df3030e-e5f1-46d4-9c4b-990f48ef7857.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-05",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Regional de Braga do STAL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a55304e546b794d7a526c4c574a6a4d446b744e4749774e5331694e7a426c4c546c694e444e684d575a6859545a684f4335515245593d&fich=5459234e-bc09-4b05-b70e-9b43a1faa6a8.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Regional de Bragança do STAL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a6733596a686a4e6a59304c54566b5a546b744e4459314d5330354f444e684c5456684d474e6c4d6d4e6c5a6a64694d7935306157593d&fich=87b8c664-5de9-4651-983a-5a0ce2cef7b3.tif&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Regional de Castelo Branco do STAL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a466c593251794e5451344c5456684f4455744e47597a4e5331685a5755794c57526d5a6a5133597a67794f5751304e7935306157593d&fich=1ecd2548-5a85-4f35-aee2-dff47c829d47.tif&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-05",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Regional de Lisboa do STAL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a6b344f474d785a4451344c54566d595467744e444a684f5330344d324a694c5441324e5751304e6a5135597a63325a5335775a47593d&fich=988c1d48-5fa8-42a9-83bb-065d4649c76e.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Regional de Portalegre do STAL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a6334595745785a5455354c574a695a6d51744e44466a596930354d54466c4c5441354e5745324e7a49794e6d4a6d4e5335775a47593d&fich=78aa1e59-bbfd-41cb-911e-095a67226bf5.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Regional de Santarém do STAL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3259304d6a6b354e4755354c5463314d574d744e4756695a6931684e546b794c5749304e47566b4e574e6a5a475533597935306157593d&fich=f42994e9-751c-4ebf-a592-b44ed5ccde7c.tif&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-04",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Regional de Setúbal do STAL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c32526c4e44497a4e44686b4c54646d4e6d55744e44566d597931684d4745774c544e6d5a6a55344f446c6a4f5756694e4335775a47593d&fich=de42348d-7f6e-45fc-a0a0-3ff5889c9eb4.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Regional de Viana do Castelo do STAL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c32493259544e6a5a444e684c546c694e3255744e445578596930344d4755344c5745784e5759774d475177597a49775a5335775a47593d&fich=b6a3cd3a-9b7e-451b-80e8-a15f00d0c20e.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-05",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Direção Regional de Vila Real do STAL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a526c4e4745785a4467774c575a694d574d744e445a6b4d6930344f475a6d4c54466b597a4535596d52684d444e6a5a4335775a47593d&fich=4e4a1d80-fb1c-46d2-88ff-1dc19bda03cd.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Federação Nacional dos Sindicatos dos Trabalhadores em Funções Públicas e Sociais",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a526b597a49794e446c684c544d7a5a4449744e474578596931684e32497a4c5451334f575533596d45314d6a45774e4335775a47593d&fich=4dc2249a-33d2-4a1b-a7b3-479e7ba52104.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-05",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da FENPROF - Federação Nacional dos Professores",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a4d324d574d314e7a49784c5755324e5463744e44686a4e4331684e7a51354c5751794d4452694d4451785a574d325a4335515245593d&fich=361c5721-e657-48c4-a749-d204b041ec6d.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-02",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da Frente Comum dos Sindicatos da Administração Pública",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a55775a6d49774e5468684c57566b4d5441744e475a6c4d79316859546b334c5455334e5467794f44517a5a6a4d324e6935775a47593d&fich=50fb058a-ed10-4fe3-aa97-57582843f366.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-05",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da UGT - União Geral de Trabalhadores",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c32517a4e5449344e444a6c4c57466a5a5463744e4452684d7930354d4751774c544a684e6d4534596d51305a5749354f5335515245593d&fich=d352842e-ace7-44a3-90d0-2a6a8bd4eb99.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-05",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da União dos Sindicatos do Norte Alentejano",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3252684d6a5a695957466d4c5468684f5463744e4464684e5330354d7a4d314c544e6a597a64694f474d784f444d794f5335775a47593d&fich=da26baaf-8a97-47a5-9335-3cc7b8c18329.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-06-21",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer de Fátima Inácio Gomes",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a4531595745314d4749774c5464694d5459744e444977597930354e7a59784c575a6a4f57566d5a6a49785a6a64694d6935775a47593d&fich=15aa50b0-7b16-420c-9761-fc9eff21f7b2.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-05",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer de José Janela",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c32566c5a6d4d345954526b4c54646c4f5749744e446b784d5330344e474d784c57597a5a4749304e6d4a6c597a6b774d5335775a47593d&fich=eefc8a4d-7e9b-4911-84c1-f3db46bec901.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-09",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer de José Viana",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a6b344f574e6959324d324c5463314d6d4d744e474531595331694d7a41774c575934596a55334e6a49794d5755774d7935515245593d&fich=989cbcc6-752c-4a5a-b300-f8b576221e03.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-06-28",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer de Leonel de Sousa",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a5a6a4e6a42694e7a68684c5467304e4445744e444a6c4d433035595755784c5452685a6a68684f54426a597a51355a6935775a47593d&fich=6c60b78a-8441-42e0-9ae1-4af8a90cc49f.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-02",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer de Teresa Maria Silva dos Santos Duarte",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a4d7a5a474a6b4e54566a4c57526a4d4459744e445a694d7930354d47566b4c5759344d5467794e5451354d324a6b4f5335775a47593d&fich=33dbd55c-dc06-46b3-90ed-f81825493bd9.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-06-24",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer do Sindicato  da Carreira de Investigação e Fiscalização do Serviço de Estrangeiros e Fronteiras",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3251794e6d55304d54597a4c57517a4d6a55744e47466b595330355a6a457a4c5442684d4452684d446730593249354d7935775a47593d&fich=d26e4163-d325-4ada-9f13-0a04a084cb93.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-05",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer do Sindicato dos Professores da Madeira",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a63794d57566c4f4749354c544e6c4f5751744e475934596931694d5746684c5745324f5745784e5452694e574d785a4335775a47593d&fich=721ee8b9-3e9d-4f8b-b1aa-a69a154b5c1d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-05",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer do Sindicato dos Professores da Zona Sul",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c325a6b4f54646c5a6a4a684c54686a4d6a51744e4463344e5330344f574d304c5759344d446b794d574d7a5a474532596935775a47593d&fich=fd97ef2a-8c24-4785-89c4-f80921c3da6b.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-05",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer do Sindicato dos Professores do Norte",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a4d7a597a41795a575a6b4c5455344f4455744e4455305a6931694d7a566c4c5441334e474a694d7a49335a5459304e7935775a47593d&fich=33c02efd-5885-454f-b35e-074bb327e647.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-04",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer do Sindicato dos Quadros Técnicos do Estado e Entidades com Fins Públicos",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a417a4d6a5533596d517a4c574e6c5a444d744e4459344e5331694d6a566b4c574a685a5445775a6a45784e5751325a5335775a47593d&fich=03257bd3-ced3-4685-b25d-bae10f115d6e.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-05",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer do Sindicato dos Trabalhadores do Município de Lisboa",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a6b305a4459794f44466d4c546c694e4745744e4455314d4330354f5467334c574e694d6a63315a44646b5a574e694e5335515245593d&fich=94d6281f-9b4a-4550-9987-cb275d7decb5.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer do STAL - Sindicato Nacional dos Trabalhadores da Administração Local e Regional",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a45354e54566d5a6a67344c544e694e3251744e47466a5a6931695932557a4c5445774e3256694f4467315a5755305a5335775a47593d&fich=1955ff88-3b7d-4acf-bce3-107eb885ee4e.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-03",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer do STFPSSRA - Sindicato dos Trabalhadores em Funções Públicas e Sociais do Sul e Regiões Autónomas",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a59325a44466d593249334c57526c4d4745744e474a6a4e4331684e6a51784c5759325a474979595749324e7a526d597935775a47593d&fich=66d1fcb7-de0a-4bc4-a641-f6db2ab674fc.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3514",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Orçamento, Finanças e Administração Pública",
+     "Numero": "3514",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/166/2013-07-10/74?pgs=74-109&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "74-109"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "166",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2013-07-10",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/166/2013-07-10/74?pgs=74-109&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "74-109"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "166",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2013-07-10",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "2103",
+       "motivoCessacao": null,
+       "nome": "Isabel Santos"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2013-07-10",
+       "dataRemessa": "2013-07-10",
+       "numeroOficio": "email",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2013-07-10",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I><BR>Contra:<I>PCP</I>, <I> BE</I>",
+       "id": "64434",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "194",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
+    }
+   ],
+   "DataFase": "2013-06-07",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "291671",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "22",
+   "Comissao": null,
+   "DataFase": "2013-06-11",
+   "EvtId": "144",
+   "Fase": "Audição promovida pelo PAR para a ALRAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "291735",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "23",
+   "Comissao": null,
+   "DataFase": "2013-06-11",
+   "EvtId": "145",
+   "Fase": "Audição promovida pelo PAR para a ALRAM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "291736",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "24",
+   "Comissao": null,
+   "DataFase": "2013-06-11",
+   "EvtId": "146",
+   "Fase": "Audição promovida pelo PAR para o Governo da RAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "291737",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "25",
+   "Comissao": null,
+   "DataFase": "2013-06-11",
+   "EvtId": "147",
+   "Fase": "Audição promovida pelo PAR para o Governo da RAM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "291738",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "55",
+   "Comissao": null,
+   "DataFase": "2013-06-15",
+   "EvtId": "49",
+   "Fase": "Publicação em Separata",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "291869",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/sep/12/02/040/2013-06-15?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "634104",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "40",
+     "pubSL": "2",
+     "pubTipo": "Separata",
+     "pubTp": "S",
+     "pubdt": "2013-06-15",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764f4449784e32466a59325574596d5a6b4f4330305a44466d4c5745784e3255744e32466a5a4451314e4464685a6a517a4c6e426b5a673d3d&fich=8217acce-bfd8-4d1f-a17e-7acd4547af43.pdf&Inline=true",
+     "anexoNome": "Texto do Parecer"
+    }
+   ],
+   "CodigoFase": "175",
+   "Comissao": null,
+   "DataFase": "2013-06-17",
+   "EvtId": "151",
+   "Fase": "Parecer do Governo da RAM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "291853",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764f445a6d5a4459314d4745744e6d517a5a4330304e6a4d7a4c5749774f4459744f574931597a5533596d4d78595755304c6e426b5a673d3d&fich=86fd650a-6d3d-4633-b086-9b5c57bc1ae4.pdf&Inline=true",
+     "anexoNome": "Texto do Parecer"
+    }
+   ],
+   "CodigoFase": "174",
+   "Comissao": null,
+   "DataFase": "2013-06-26",
+   "EvtId": "150",
+   "Fase": "Parecer do Governo da RAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292218",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e7a6b79595445324d7a49744e6a4d324e7930305a44497a4c546b334d5755744d7a41785a5745315a6a4e6b5a6d55354c6e426b5a673d3d&fich=792a1632-6367-4d23-971e-301ea5f3dfe9.pdf&Inline=true",
+     "anexoNome": "Texto do Parecer"
+    }
+   ],
+   "CodigoFase": "172",
+   "Comissao": null,
+   "DataFase": "2013-06-28",
+   "EvtId": "148",
+   "Fase": "Parecer da ALRAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292200",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764f5463784e444d334e5751744d5746694f4330305a4445324c5746694e6d59744d445a684e7a63304d6a55344e5451314c6e426b5a673d3d&fich=9714375d-1ab8-4d16-ab6f-06a774258545.pdf&Inline=true",
+     "anexoNome": "Texto do Parecer"
+    }
+   ],
+   "CodigoFase": "173",
+   "Comissao": null,
+   "DataFase": "2013-07-04",
+   "EvtId": "149",
+   "Fase": "Parecer da ALRAM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292279",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "9522",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2013-07-11",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Lei",
+     "id": "37782",
+     "leg": "XII",
+     "nr": "153",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/112/2013-07-12/3?pgs=3-19&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1792",
+       "obs": null,
+       "pag": [
+        "3-19"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "112",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2013-07-12",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "P",
+     "titulo": "Estabelece a duração do período normal de trabalho dos trabalhadores em funções públicas, e procede à quinta alteração à Lei n.º 59/2008, de 11 de setembro, à quarta alteração ao Decreto-Lei n.º 259/98, de 18 de agosto, e à quinta alteração à Lei n.º 2/2004, de 15 de janeiro."
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2013-07-11",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2103",
+         "nome": "Isabel Santos"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "19:42",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130711pln&url=l12/sl2/a2013/m07/&tI=00:03:26:579&drc=00:00:19:972"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/112/2013-07-12/3?pgs=3-4&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190469",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3-4"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "112",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece a duração do período normal de trabalho dos trabalhadores em funções públicas, e procede à quinta alteração à Lei n.º 59/2008, de 11 de setembro, à quarta alteração ao Decreto-Lei n.º 259/98, de 18 de agosto, e à quinta alteração à Lei n.º 2/2004, de 15 de janeiro; Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "42",
+         "nome": "Duarte Pacheco"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "19:42",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130711pln&url=l12/sl2/a2013/m07/&tI=00:04:10:865&drc=00:00:40:519"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/112/2013-07-12/4?pgs=4&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190470",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4-4"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "112",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece a duração do período normal de trabalho dos trabalhadores em funções públicas, e procede à quinta alteração à Lei n.º 59/2008, de 11 de setembro, à quarta alteração ao Decreto-Lei n.º 259/98, de 18 de agosto, e à quinta alteração à Lei n.º 2/2004, de 15 de janeiro; Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "19:42",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130711pln&url=l12/sl2/a2013/m07/&tI=00:05:10:668&drc=00:06:46:807"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130711pln&url=l12/sl2/a2013/m07/&tI=00:20:48:684&drc=00:01:26:062"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130711pln&url=l12/sl2/a2013/m07/&tI=00:51:54:643&drc=00:01:51:307"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": "S.E.  DA   ADMINISTRAÇÃO PÚBLICA",
+        "governo": "XIX GOVERNO CONSTITUCIONAL",
+        "nome": "Hélder Rosalino"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/112/2013-07-12/4?pgs=4-6,8-9,17-18&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190471",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "17-18",
+          "4-6",
+          "8-9"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "112",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece a duração do período normal de trabalho dos trabalhadores em funções públicas, e procede à quinta alteração à Lei n.º 59/2008, de 11 de setembro, à quarta alteração ao Decreto-Lei n.º 259/98, de 18 de agosto, e à quinta alteração à Lei n.º 2/2004, de 15 de janeiro; Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2103",
+         "nome": "Isabel Santos"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "19:42",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130711pln&url=l12/sl2/a2013/m07/&tI=00:12:25:363&drc=00:04:17:626"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/112/2013-07-12/6?pgs=6-7&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190472",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "6-7"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "112",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece a duração do período normal de trabalho dos trabalhadores em funções públicas, e procede à quinta alteração à Lei n.º 59/2008, de 11 de setembro, à quarta alteração ao Decreto-Lei n.º 259/98, de 18 de agosto, e à quinta alteração à Lei n.º 2/2004, de 15 de janeiro; Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2156",
+         "nome": "Mariana Aiveca"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "19:42",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130711pln&url=l12/sl2/a2013/m07/&tI=00:16:51:055&drc=00:02:37:628"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/112/2013-07-12/7?pgs=7&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190473",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "7-7"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "112",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece a duração do período normal de trabalho dos trabalhadores em funções públicas, e procede à quinta alteração à Lei n.º 59/2008, de 11 de setembro, à quarta alteração ao Decreto-Lei n.º 259/98, de 18 de agosto, e à quinta alteração à Lei n.º 2/2004, de 15 de janeiro; Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "2069",
+         "nome": "Jorge Machado"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "19:42",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130711pln&url=l12/sl2/a2013/m07/&tI=00:19:37:170&drc=00:00:58:701"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/112/2013-07-12/8?pgs=8&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190474",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "8-8"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "112",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece a duração do período normal de trabalho dos trabalhadores em funções públicas, e procede à quinta alteração à Lei n.º 59/2008, de 11 de setembro, à quarta alteração ao Decreto-Lei n.º 259/98, de 18 de agosto, e à quinta alteração à Lei n.º 2/2004, de 15 de janeiro; Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "42",
+         "nome": "Duarte Pacheco"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "19:42",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130711pln&url=l12/sl2/a2013/m07/&tI=00:22:37:793&drc=00:07:21:207"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/112/2013-07-12/9?pgs=9-11&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190475",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "9-11"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "112",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece a duração do período normal de trabalho dos trabalhadores em funções públicas, e procede à quinta alteração à Lei n.º 59/2008, de 11 de setembro, à quarta alteração ao Decreto-Lei n.º 259/98, de 18 de agosto, e à quinta alteração à Lei n.º 2/2004, de 15 de janeiro; Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "780",
+         "nome": "José Luís Ferreira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "19:42",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130711pln&url=l12/sl2/a2013/m07/&tI=00:30:27:245&drc=00:03:30:187"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/112/2013-07-12/11?pgs=11-12&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190476",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "11-12"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "112",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece a duração do período normal de trabalho dos trabalhadores em funções públicas, e procede à quinta alteração à Lei n.º 59/2008, de 11 de setembro, à quarta alteração ao Decreto-Lei n.º 259/98, de 18 de agosto, e à quinta alteração à Lei n.º 2/2004, de 15 de janeiro; Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "4018",
+         "nome": "Artur Rêgo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "19:42",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130711pln&url=l12/sl2/a2013/m07/&tI=00:34:28:353&drc=00:04:20:378"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/112/2013-07-12/12?pgs=12-14&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190477",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "12-14"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "112",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece a duração do período normal de trabalho dos trabalhadores em funções públicas, e procede à quinta alteração à Lei n.º 59/2008, de 11 de setembro, à quarta alteração ao Decreto-Lei n.º 259/98, de 18 de agosto, e à quinta alteração à Lei n.º 2/2004, de 15 de janeiro; Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "2069",
+         "nome": "Jorge Machado"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "19:42",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130711pln&url=l12/sl2/a2013/m07/&tI=00:39:14:747&drc=00:06:24:218"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/112/2013-07-12/14?pgs=14-15&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190478",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "14-15"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "112",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece a duração do período normal de trabalho dos trabalhadores em funções públicas, e procede à quinta alteração à Lei n.º 59/2008, de 11 de setembro, à quarta alteração ao Decreto-Lei n.º 259/98, de 18 de agosto, e à quinta alteração à Lei n.º 2/2004, de 15 de janeiro; Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2215",
+         "nome": "Nuno Sá"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "19:42",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130711pln&url=l12/sl2/a2013/m07/&tI=00:46:13:813&drc=00:04:58:014"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/112/2013-07-12/16?pgs=16-17&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190479",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "16-17"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "112",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece a duração do período normal de trabalho dos trabalhadores em funções públicas, e procede à quinta alteração à Lei n.º 59/2008, de 11 de setembro, à quarta alteração ao Decreto-Lei n.º 259/98, de 18 de agosto, e à quinta alteração à Lei n.º 2/2004, de 15 de janeiro; Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2156",
+         "nome": "Mariana Aiveca"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "19:42",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130711pln&url=l12/sl2/a2013/m07/&tI=00:54:00:101&drc=00:03:46:346"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/112/2013-07-12/18?pgs=18-19&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190480",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "18-19"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "112",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece a duração do período normal de trabalho dos trabalhadores em funções públicas, e procede à quinta alteração à Lei n.º 59/2008, de 11 de setembro, à quarta alteração ao Decreto-Lei n.º 259/98, de 18 de agosto, e à quinta alteração à Lei n.º 2/2004, de 15 de janeiro; Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292343",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/112/2013-07-12/3?pgs=3-19&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "642263",
+     "obs": null,
+     "pag": [
+      "3-19"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "112",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2013-07-12",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2013-07-11",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292449",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/112/2013-07-12/59?pgs=59&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "642264",
+     "obs": null,
+     "pag": [
+      "59-59"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "112",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2013-07-12",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2013-07-11",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "64455",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "112",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "270",
+   "Comissao": [
+    {
+     "AccId": "31745",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": [
+      {
+       "data": "2013-07-16",
+       "id": "95708",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-07-16",
+       "id": "95707",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-07-17",
+       "id": "95709",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-07-24",
+       "id": "95773",
+       "tipo": "AUP"
+      }
+     ],
+     "Audiencias": [
+      {
+       "data": "2013-10-18",
+       "id": "96135",
+       "tipo": "AUD"
+      }
+     ],
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2013-07-16",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2013-07-11",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2013-07-15",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da ANAFRE",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c324d7a4f445a6b4e5463334c575931596a67744e44646b4f5330354d7a49324c57526a4d7a677a4e6a49794d47526c4d4335775a47593d&fich=c386d577-f5b8-47d9-9326-dc3836220de0.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-26",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de alteração apresentada pelo Grupo Parlamentar do BE",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c324e684f5445774f5459334c545a6b4d4759744e4749784e5330344e544d784c5449784e6a63774e5745304f4759304d6935515245593d&fich=ca910967-6d0f-4b15-8531-216705a48f42.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-26",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Propostas de alteração apresentadas pelo Grupo Parlamentar do PCP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a55775a5441344e6a52684c5467354d7a51744e4755354d7931684e6d4a6a4c5759354e44497a4d4451344f445979595335515245593d&fich=50e0864a-8934-4e93-a6bc-f9423048862a.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-26",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Propostas de alteração apresentadas pelos Grupos Parlamentares de PSD/CDS-PP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a63355a44426a597a517a4c5745304e474d744e4759304e693034596d59344c5455325a575a6b59574a6d5a6a64684d5335515245593d&fich=79d0cc43-a44c-4f46-8bf8-56efdabff7a1.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-26",
+       "TipoDocumento": "Quadro comparativo",
+       "TituloDocumento": "Quadro comparativo (legislação em vigor, proposta de lei e propostas de alteração)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3255334d32466a597a4d304c57526d5a6a55744e444d784d4331685a6a67784c5459304d544d7a4e6a59794e6d59334d4335775a47593d&fich=e73acc34-dff5-4310-af81-641336626f70.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-30",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Relatório de Votações na Especialidade",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a51304f544d784f546c6d4c5455314e3255744e474d354e4331694d6d49354c574d314f4749325a54417a4e324e684d5335515245593d&fich=4493199f-557e-4c94-b2b9-c58b6e037ca1.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-29",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final da 5ª COFAP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3251334e3251794e47517a4c5745334f4459744e4759324e5331684d4449344c575a694d5463784d7a6b344e6d59324d6935775a47593d&fich=d77d24d3-a786-4f65-a028-fb1713986f62.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3514",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Orçamento, Finanças e Administração Pública",
+     "Numero": "3514",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2013-07-29",
+       "dataRemessa": null,
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      },
+      {
+       "dataDocumento": "2013-07-29",
+       "dataRemessa": "2013-07-29",
+       "numeroOficio": "email",
+       "observacoes": null,
+       "tipoRemessa": "Texto Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2013-07-29",
+       "descricao": "Texto Final apreciado e aprovado Artigo a Artigo",
+       "detalhe": null,
+       "id": "64684",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "203",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
+    }
+   ],
+   "DataFase": "2013-07-11",
+   "EvtId": "14",
+   "Fase": "Baixa comissão especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292450",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/182/2013-07-31/94?pgs=94-148&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "641600",
+     "obs": "Relatório da discussão e votação na especialidade, texto final e propostas de alteração apresentadas pelo PCP, PSD/CDS-PP e BE",
+     "pag": [
+      "94-148"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "182",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2013-07-31",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "9573",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "320",
+   "Comissao": null,
+   "DataFase": "2013-07-29",
+   "EvtId": "18",
+   "Fase": "Votação final global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2013-07-29",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "438",
+         "nome": "Carlos Zorrinho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:10",
+       "horaTermo": "21:44",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130729pln&url=l12/sl2/a2013/m07/&tI=02:50:01:328&drc=00:02:38:672"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/116/2013-07-30/60?pgs=60&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190605",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "60-60"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "116",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-30",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "2069",
+         "nome": "Jorge Machado"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:10",
+       "horaTermo": "21:44",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130729pln&url=l12/sl2/a2013/m07/&tI=02:52:57:333&drc=00:03:45:637"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/116/2013-07-30/61?pgs=61-62&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190606",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "61-62"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "116",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-30",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2156",
+         "nome": "Mariana Aiveca"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:10",
+       "horaTermo": "21:44",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130729pln&url=l12/sl2/a2013/m07/&tI=02:57:02:397&drc=00:02:32:635"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/116/2013-07-30/62?pgs=62&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190607",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "62-62"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "116",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-30",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "2665",
+         "nome": "Jorge Paulo Oliveira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:10",
+       "horaTermo": "21:44",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130729pln&url=l12/sl2/a2013/m07/&tI=02:59:49:072&drc=00:03:04:625"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/116/2013-07-30/62?pgs=62-63&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190608",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "62-63"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "116",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-07-30",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292921",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/116/2013-07-30?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "9573",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "116",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2013-07-30",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2013-07-29",
+     "descricao": "Texto Final apresentado pela Comissão de Orçamento, Finanças e Administração Pública relativo à Proposta de Lei n.º 154/XII/2.ª (GOV).",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "64796",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "116",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "348",
+   "Comissao": [
+    {
+     "AccId": "31913",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2013-07-31",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2013-07-30",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2013-07-31",
+       "TipoDocumento": "Redacção final",
+       "TituloDocumento": "Redação Final da 5ª COFAP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a566b4d6a49775a6a466d4c546b314d3251744e4456685a4331694e5451354c54566a4e5463304d544a6c4e545a6d596935775a47593d&fich=5d220f1f-953d-45ad-b549-5c57412e56fb.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3514",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Orçamento, Finanças e Administração Pública",
+     "Numero": "3514",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": null,
+       "dataRemessa": "2013-07-31",
+       "numeroOficio": "email",
+       "observacoes": null,
+       "tipoRemessa": "Redação Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2013-07-31",
+       "descricao": "Redação Final fixada nos termos regimentais sem votos contra",
+       "detalhe": null,
+       "id": "64772",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "204",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
+    }
+   ],
+   "DataFase": "2013-07-30",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292871",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "350",
+   "Comissao": null,
+   "DataFase": "2013-08-02",
+   "EvtId": "31",
+   "Fase": "Decreto (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292941",
+   "OevTextId": "17744",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "17744",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "370",
+   "Comissao": null,
+   "DataFase": "2013-08-08",
+   "EvtId": "23",
+   "Fase": "Envio para promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "293013",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d4576595456684d325177595455744e6a6b775a4330305a6a646a4c5745304d325574596d45795a4455315a575132596d45304c6e426b5a673d3d&fich=a5a3d0a5-690d-4f7c-a43e-ba2d55ed6ba4.pdf&Inline=true",
+     "anexoNome": "Veto"
+    }
+   ],
+   "CodigoFase": "409",
+   "Comissao": null,
+   "DataFase": "2013-09-05",
+   "EvtId": "120",
+   "Fase": "Veto (Receção)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Nos termos do artigo 279.º, n.º 1 da Constituição - Acórdão do Tribunal Constitucional n.º 474/2013.",
+   "OevId": "293178",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "410",
+   "Comissao": null,
+   "DataFase": "2013-09-11",
+   "EvtId": "30",
+   "Fase": "Veto (Leitura)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "293238",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/118/2013-09-12/4?pgs=4-12&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "642871",
+     "obs": null,
+     "pag": [
+      "4-12"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "118",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2013-09-12",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "415",
+   "Comissao": null,
+   "DataFase": "2013-09-11",
+   "EvtId": "47",
+   "Fase": "Veto (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "293411",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/187/2013-09-11/3?pgs=3-76&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "642886",
+     "obs": "Mensagem do PR e, em anexo, Acórdão do TC n.º 474/2013",
+     "pag": [
+      "3-76"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "187",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2013-09-11",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "430",
+   "Comissao": null,
+   "DataFase": "2013-09-17",
+   "EvtId": "48",
+   "Fase": "Acordão TC (nº/ano - Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Acórdão do TC n.º 474/2013-",
+   "OevId": "293261",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "http://data.dre.pt/eli/diario/1/179/2013/0/pt/html",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "641837",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "179",
+     "pubSL": "3",
+     "pubTipo": "DR I série",
+     "pubTp": "M",
+     "pubdt": "2013-09-17",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "225",
+   "Comissao": null,
+   "DataFase": "2013-10-11",
+   "EvtId": "152",
+   "Fase": "Requerimento",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Requerimento apresentado pelo PCP, solicitando a baixa a 5.ª Comissão, para apreciação e debate, das propostas de alteração ao Decreto n.º 177-XII, deferido pela PAR.",
+   "OevId": "293644",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "9593",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "441",
+   "Comissao": null,
+   "DataFase": "2013-10-11",
+   "EvtId": "111",
+   "Fase": "Reapreciação do decreto",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2013-09-11",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1740",
+         "nome": "Basílio Horta"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:11",
+       "horaTermo": "17:14",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130911pln&url=l12/sl2/a2013/m09/&tI=00:11:10:412&drc=00:02:57:552"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/118/2013-09-12/5?pgs=5&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190914",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5-5"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "118",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-09-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1657",
+         "nome": "João Pinho de Almeida"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:11",
+       "horaTermo": "17:14",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130911pln&url=l12/sl2/a2013/m09/&tI=00:14:40:838&drc=00:03:22:409"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/118/2013-09-12/6?pgs=6-7&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190915",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "6-7"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "118",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-09-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "2234",
+         "nome": "João Oliveira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:11",
+       "horaTermo": "17:14",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130911pln&url=l12/sl2/a2013/m09/&tI=00:18:16:522&drc=00:02:38:330"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/118/2013-09-12/7?pgs=7&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190916",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "7-7"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "118",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-09-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "3926",
+         "nome": "Pedro Filipe Soares"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:11",
+       "horaTermo": "17:14",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130911pln&url=l12/sl2/a2013/m09/&tI=00:21:03:658&drc=00:03:15:189"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/118/2013-09-12/7?pgs=7-8&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190917",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "7-8"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "118",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-09-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "834",
+         "nome": "Heloísa Apolónia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:11",
+       "horaTermo": "17:14",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130911pln&url=l12/sl2/a2013/m09/&tI=00:24:26:683&drc=00:03:17:825"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/118/2013-09-12/8?pgs=8-9&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190918",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "8-9"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "118",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-09-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4389",
+         "nome": "Teresa Leal Coelho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:11",
+       "horaTermo": "17:14",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130911pln&url=l12/sl2/a2013/m09/&tI=00:27:51:317&drc=00:04:16:396"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/118/2013-09-12/9?pgs=9-10&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190919",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "9-10"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "118",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-09-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1740",
+         "nome": "Basílio Horta"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:11",
+       "horaTermo": "17:14",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130911pln&url=l12/sl2/a2013/m09/&tI=00:32:08:891&drc=00:01:12:365"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/118/2013-09-12/10?pgs=10-11&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190920",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "10-11"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "118",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-09-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1657",
+         "nome": "João Pinho de Almeida"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:11",
+       "horaTermo": "17:14",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130911pln&url=l12/sl2/a2013/m09/&tI=00:33:28:024&drc=00:01:47:486"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/118/2013-09-12/11?pgs=11&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190921",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "11-11"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "118",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-09-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4389",
+         "nome": "Teresa Leal Coelho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:11",
+       "horaTermo": "17:14",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130911pln&url=l12/sl2/a2013/m09/&tI=00:35:25:000&drc=00:02:32:251"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/118/2013-09-12/11?pgs=11-12&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190922",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "11-12"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "118",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-09-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      }
+     ]
+    },
+    {
+     "dataReuniaoPlenaria": "2013-10-11",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "209",
+         "nome": "António Filipe"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=00:03:47:571&drc=00:03:33:986"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=00:20:10:909&drc=00:01:43:127"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/3?pgs=3-4,7-8&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192754",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3-4",
+          "7-8"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "42",
+         "nome": "Duarte Pacheco"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=00:07:31:879&drc=00:02:02:132"
+        },
+        {
+         "link": null
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/4?pgs=4-5&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192756",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4-5"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2215",
+         "nome": "Nuno Sá"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=00:09:44:639&drc=00:01:56:215"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/5?pgs=5&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192757",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5-5"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "780",
+         "nome": "José Luís Ferreira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=00:11:49:058&drc=00:02:37:523"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/5?pgs=5-6&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192758",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5-6"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1657",
+         "nome": "João Pinho de Almeida"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=00:14:29:305&drc=00:03:18:616"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=00:25:28:817&drc=00:00:54:500"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/6?pgs=6-7,9&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192760",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "6-7",
+          "9-9"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "3926",
+         "nome": "Pedro Filipe Soares"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=00:17:55:776&drc=00:02:09:564"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/7?pgs=7&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192761",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "7-7"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "2665",
+         "nome": "Jorge Paulo Oliveira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=00:57:25:755&drc=00:02:37:873"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:26:03:084&drc=00:01:10:461"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/16?pgs=16-17,24&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192777",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "16-17",
+          "24-24"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "2069",
+         "nome": "Jorge Machado"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:00:08:064&drc=00:03:20:364"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/17?pgs=17-18&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192778",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "17-18"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "780",
+         "nome": "José Luís Ferreira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:03:37:365&drc=00:03:27:550"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/18?pgs=18-19&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192779",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "18-19"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2156",
+         "nome": "Mariana Aiveca"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:07:07:728&drc=00:04:54:954"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/19?pgs=19-20&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192780",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "19-20"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "42",
+         "nome": "Duarte Pacheco"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:12:06:624&drc=00:02:13:445"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/20?pgs=20-21&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192781",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "20-21"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2156",
+         "nome": "Mariana Aiveca"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:14:26:380&drc=00:01:21:872"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/21?pgs=21&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192782",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "21-21"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2215",
+         "nome": "Nuno Sá"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:15:56:002&drc=00:02:51:089"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:24:40:388&drc=00:01:19:012"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/21?pgs=21-22,24&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192783",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "21-22",
+          "24-24"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "4018",
+         "nome": "Artur Rêgo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:18:52:115&drc=00:05:48:273"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/22?pgs=22-23&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192784",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "22-23"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2191",
+         "nome": "Helena Pinto"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:28:05:734&drc=00:02:15:680"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:54:24:976&drc=00:04:35:524"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/24?pgs=24-25,30-31&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192785",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "24-25",
+          "30-31"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2264",
+         "nome": "Pedro Farmhouse"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:30:26:327&drc=00:04:56:914"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/25?pgs=25-26&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192786",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "25-26"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "4173",
+         "nome": "Margarida Neto"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:35:31:031&drc=00:03:41:606"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/26?pgs=26-27&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192787",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "26-27"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4439",
+         "nome": "António Prôa"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:39:18:441&drc=00:05:49:314"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/27?pgs=27-28&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192788",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "27-28"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "4471",
+         "nome": "Paulo Sá"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:45:13:173&drc=00:03:29:222"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/28?pgs=28-29&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192789",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "28-29"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "834",
+         "nome": "Heloísa Apolónia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:48:47:822&drc=00:05:25:186"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/29?pgs=29-30&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192790",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "29-30"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4439",
+         "nome": "António Prôa"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=01:59:29:027&drc=00:00:38:838"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/31?pgs=31&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192791",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "31-31"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2191",
+         "nome": "Helena Pinto"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:12",
+       "horaTermo": "13:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20131011pln&url=l12/sl3/a2013/m10/&tI=02:00:07:741&drc=00:00:28:542"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12/31?pgs=31&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "192792",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "31-31"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "9",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-10-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "293365",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/118/2013-09-12?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "9593",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "118",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2013-09-12",
+     "supl": null
+    },
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/009/2013-10-12?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "9594",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "9",
+     "pubSL": "3",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2013-10-12",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "465",
+   "Comissao": [
+    {
+     "AccId": "32148",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2013-10-15",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2013-10-11",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2013-10-21",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Propostas de alteração apresentadas pelo Grupo Parlamentar do BE",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c32566d4d7a6b7859324d774c54417a4e5751744e4467314e5331694e6d4e694c54686c5a54526b593259344d3245324f4335775a47593d&fich=ef391cc0-035d-4855-b6cb-8ee4dcf83a68.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-10-21",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Propostas de alteração apresentadas pelo Grupo Parlamentar do PCP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3259334d57466a4d444d7a4c5755784e4745744e446b344e5330345a6a45304c574e694d5755344e7a63795954566a595335515245593d&fich=f71ac033-e14a-4985-8f14-cb1e8772a5ca.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-10-22",
+       "TipoDocumento": "Quadro comparativo",
+       "TituloDocumento": "Quadro comparativo das propostas de alteração",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a646c4d5445774e575a694c5451314f4463744e475a6b59533035597a59354c5459794f475133595749335a6d5a6a4e6935775a47593d&fich=7e1105fb-4587-4fda-9c69-628d7ab7ffc6.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-11-07",
+       "TipoDocumento": "Redacção final",
+       "TituloDocumento": "Redação Final do texto do Projeto de Decreto originário da reapreciação do Decreto 177/XII aprovado pela Comissão",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a63795a5755794f57566b4c546b774e3259744e444268596931685a4441334c544d314e444e6c4e6a677a5a474935596935775a47593d&fich=72ee29ed-907f-40ab-ad07-3543e683db9b.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-10-23",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório de discussão e votação indiciária, na especialidade, das propostas de alteração ao Decreto n.º 177/XII",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a52694f544a6b4d6a51354c5745345a4759744e4467314f5330354e3255334c546c6a595749334d7a59774e546b314d5335515245593d&fich=4b92d249-a8df-4859-97e7-9cab73605951.PDF&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3514",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Orçamento, Finanças e Administração Pública",
+     "Numero": "3514",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/03/017/2013-10-31/2?pgs=2-52&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Relatório da discussão e votação na especialidade e anexos incluindo as propostas de alteração do PSD/CDS-PP, PCP e BE",
+       "pag": [
+        "2-52"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "17",
+       "pubSL": "3",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2013-10-31",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/03/017/2013-10-31/2?pgs=2-52&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Relatório da discussão e votação na especialidade e anexos incluindo as propostas de alteração do PSD/CDS-PP, PCP e BE",
+       "pag": [
+        "2-52"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "17",
+       "pubSL": "3",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2013-10-31",
+       "supl": null
+      }
+     ],
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2013-10-22",
+       "dataRemessa": null,
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      },
+      {
+       "dataDocumento": "2013-10-22",
+       "dataRemessa": "2013-10-23",
+       "numeroOficio": "email",
+       "observacoes": null,
+       "tipoRemessa": "Texto Final"
+      },
+      {
+       "dataDocumento": "2013-10-22",
+       "dataRemessa": "2013-11-06",
+       "numeroOficio": "e-mail",
+       "observacoes": null,
+       "tipoRemessa": "Redação Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2013-10-22",
+       "descricao": "Relatório de Discussão e Votação Indiciária na Especialidade das propostas de alteração ao Decreto n.º 177/XII",
+       "detalhe": null,
+       "id": "65067",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "211",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
+    }
+   ],
+   "DataFase": "2013-10-11",
+   "EvtId": "180",
+   "Fase": "Nova apreciação na especialidade em Comissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "293746",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "481",
+   "Comissao": null,
+   "DataFase": "2013-10-25",
+   "EvtId": "110",
+   "Fase": "Votação Propostas de Alteração",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "293965",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/015/2013-10-26/61?pgs=61&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "659382",
+     "obs": null,
+     "pag": [
+      "61-61"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "15",
+     "pubSL": "3",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2013-10-26",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2013-10-25",
+     "descricao": "Votação da assunção pelo Plenário das votações indiciárias realizadas em sede de Comissão",
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "65114",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "15",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "511",
+   "Comissao": null,
+   "DataFase": "2013-10-25",
+   "EvtId": "100",
+   "Fase": "Votação novo decreto",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "293966",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/015/2013-10-26/61?pgs=61&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "659383",
+     "obs": null,
+     "pag": [
+      "61-61"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "15",
+     "pubSL": "3",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2013-10-26",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2013-10-25",
+     "descricao": "Votação do novo Decreto com as alterações introduzidas",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "65115",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "15",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "516",
+   "Comissao": [
+    {
+     "AccId": "32395",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2013-11-06",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2013-10-25",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2013-11-06",
+       "TipoDocumento": "Redacção final",
+       "TituloDocumento": "Redação Final do novo decreto aprovada pela COFAP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a597a596a466959546b794c5745304d5451744e4751775a433034597a45324c5745794d444d334d7a686a595464684d4335775a47593d&fich=63b1ba92-a414-4d0d-8c16-a203738ca7a0.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3514",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Orçamento, Finanças e Administração Pública",
+     "Numero": "3514",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": null,
+       "dataRemessa": "2013-11-06",
+       "numeroOficio": "email",
+       "observacoes": null,
+       "tipoRemessa": "Redação Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2013-11-06",
+       "descricao": "Redação Final do novo decreto fixada nos termos regimentais",
+       "detalhe": null,
+       "id": "65263",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "220",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
+    }
+   ],
+   "DataFase": "2013-10-25",
+   "EvtId": "132",
+   "Fase": "2ª Baixa Comissão para Redação final Novo Decreto",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "294209",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "519",
+   "Comissao": null,
+   "DataFase": "2013-11-08",
+   "EvtId": "60",
+   "Fase": "Decreto (2ª versão) (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "294175",
+   "OevTextId": "17829",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "17829",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "520",
+   "Comissao": null,
+   "DataFase": "2013-11-14",
+   "EvtId": "66",
+   "Fase": "Envio para promulgação (2ª versão)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "294200",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "526",
+   "Comissao": null,
+   "DataFase": "2013-11-20",
+   "EvtId": "67",
+   "Fase": "Promulgação (2ª versão)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "294331",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "527",
+   "Comissao": null,
+   "DataFase": "2013-11-21",
+   "EvtId": "68",
+   "Fase": "Referenda (2ª versão)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "294332",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "528",
+   "Comissao": null,
+   "DataFase": "2013-11-25",
+   "EvtId": "69",
+   "Fase": "Envio INCM (2ª versão)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "294333",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "580",
+   "Comissao": null,
+   "DataFase": "2013-11-28",
+   "EvtId": "32",
+   "Fase": "Lei (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "294336",
+   "OevTextId": "17850",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "17850",
+   "Votacao": null
+  }
+ ],
+ "IniId": "37783",
+ "IniLeg": "XII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d4576596a56694e6d4a6b5a475574597a5530597930304e3255774c574a6b4e7a5174596a4131596d5a6c5a575a684e546b354c6d527659773d3d&fich=b5b6bdde-c54c-47e0-bd74-b05bfeefa599.doc&Inline=true",
+ "IniNr": "154",
+ "IniObs": null,
+ "IniSel": "2",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "P",
+ "IniTitulo": "Institui e regula o sistema de requalificação de trabalhadores em funções públicas visando a melhor afetação dos recursos humanos da Administração Pública, e procede à nona alteração à Lei n.º 12 A/2008, de 27 de fevereiro, à quinta alteração ao Decreto-Lei n.º 74/70, de 2 de março, à décima segunda alteração ao Decreto-Lei n.º 139-A/90, de 28 de abril, à terceira alteração ao Decreto-Lei n.º 209/2009, de 3 de setembro, e à primeira alteração ao Decreto-Lei n.º 132/2012, de 27 de junho.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

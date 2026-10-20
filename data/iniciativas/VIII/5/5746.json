@@ -1,0 +1,959 @@
+{
+ "DataFimleg": "2001-09-14",
+ "DataInicioleg": "2000-09-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": null,
+ "IniAutorGruposParlamentares": null,
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Governo",
+  "sigla": "V"
+ },
+ "IniDescTipo": "Proposta de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2001-02-19",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "22963",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2001-02-19",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "22964",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "4445",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2001-02-21",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2001-02-19",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSAO DE ASSUNTOS CONSTITUCIONAIS, DIREITOS, LIBERDADES E GARANTIAS",
+     "Numero": "3",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/08/02/042/2001-03-17/1539?pgs=1539-1540&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "1539-1540"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VIII",
+       "pubNr": "42",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2001-03-17",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/08/02/042/2001-03-17/1539?pgs=1539-1540&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "1539-1540"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VIII",
+       "pubNr": "42",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2001-03-17",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "1239",
+       "motivoCessacao": null,
+       "nome": "Luís Marques Guedes"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2001-03-14",
+       "dataRemessa": "2001-03-14",
+       "numeroOficio": "0439/COM",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2001-03-13",
+       "descricao": "UNANIMIDADE",
+       "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> CDS-PP</I>, <I> BE</I>",
+       "id": "28070",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "139",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2001-02-19",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "145819",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2001-02-21",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "145867",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2001-02-22",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "146208",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/08/02/036/2001-02-22/1415?pgs=1415-1416&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "231976",
+     "obs": null,
+     "pag": [
+      "1415-1416"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VIII",
+     "pubNr": "36",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2001-02-22",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "170",
+   "Comissao": null,
+   "DataFase": "2001-03-15",
+   "EvtId": "55",
+   "Fase": "Audição Assembleias Legislativas Regionais (Parecer do Gov. Regional ou de comissões da AR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Parecer da Comissão de Política Geral, Assuntos Europeus e Poder Local da Assembleia Legislativa Regional da Madeira",
+   "OevId": "146894",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/08/02/041/2001-03-15/1523?pgs=1523&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "261681",
+     "obs": null,
+     "pag": [
+      "1523-1523"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VIII",
+     "pubNr": "41",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2001-03-15",
+     "supl": null
+    },
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/08/02/041/2001-03-15/1523?pgs=1523&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "261682",
+     "obs": "Parecer do Governo Regional dos Açores",
+     "pag": [
+      "1523-1523"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VIII",
+     "pubNr": "41",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2001-03-15",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "170",
+   "Comissao": null,
+   "DataFase": "2001-03-15",
+   "EvtId": "55",
+   "Fase": "Audição Assembleias Legislativas Regionais (Parecer do Gov. Regional ou de comissões da AR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Parecer do Governo Regional dos Açores.",
+   "OevId": "159443",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/08/02/041/2001-03-15/1523?pgs=1523&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "282187",
+     "obs": null,
+     "pag": [
+      "1523-1523"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VIII",
+     "pubNr": "41",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2001-03-15",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "1923",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2001-03-23",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2001-03-23",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:25",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": "S.E.  DA  PRESIDÊNCIA  DO  CONS.  MINISTROS",
+        "governo": "XIV GOVERNO CONSTITUCIONAL",
+        "nome": "Vitalino Canas"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/02/064/2001-03-24/2513?pgs=2513-2514,2518-2519&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "137201",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2513-2514",
+          "2518-2519"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "64",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2001-03-24",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA A LEI N.74/98 DE 11 DE NOVEMBRO QUE APROVA O REGIME DA PUBLICACAO IDENTIFICACAO E FORMULARIO DOS DIPLOMAS NO SENTIDO DE ATRIBUIR RELEVANCIA JURIDICA PARA TODOS OS EFEITOS LEGAIS A VERSAO ELECTRONICA DO DIARIO DA REPUBLICA",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "123",
+         "nome": "Miguel Macedo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:25",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/02/064/2001-03-24/2514?pgs=2514-2515&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "137202",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2514-2515"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "64",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2001-03-24",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA A LEI N.74/98 DE 11 DE NOVEMBRO QUE APROVA O REGIME DA PUBLICACAO IDENTIFICACAO E FORMULARIO DOS DIPLOMAS NO SENTIDO DE ATRIBUIR RELEVANCIA JURIDICA PARA TODOS OS EFEITOS LEGAIS A VERSAO ELECTRONICA DO DIARIO DA REPUBLICA",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "209",
+         "nome": "António Filipe"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:25",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/02/064/2001-03-24/2515?pgs=2515&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "137203",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2515-2515"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "64",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2001-03-24",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA A LEI N.74/98 DE 11 DE NOVEMBRO QUE APROVA O REGIME DA PUBLICACAO IDENTIFICACAO E FORMULARIO DOS DIPLOMAS NO SENTIDO DE ATRIBUIR RELEVANCIA JURIDICA PARA TODOS OS EFEITOS LEGAIS A VERSAO ELECTRONICA DO DIARIO DA REPUBLICA",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1047",
+         "nome": "Nuno Teixeira de Melo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:25",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/02/064/2001-03-24/2515?pgs=2515-2516&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "137204",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2515-2516"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "64",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2001-03-24",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA A LEI N.74/98 DE 11 DE NOVEMBRO QUE APROVA O REGIME DA PUBLICACAO IDENTIFICACAO E FORMULARIO DOS DIPLOMAS NO SENTIDO DE ATRIBUIR RELEVANCIA JURIDICA PARA TODOS OS EFEITOS LEGAIS A VERSAO ELECTRONICA DO DIARIO DA REPUBLICA",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1166",
+         "nome": "Claudio Monteiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:25",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/02/064/2001-03-24/2516?pgs=2516-2518&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "137227",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2516-2518"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "64",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2001-03-24",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA A LEI N.74/98 DE 11 DE NOVEMBRO QUE APROVA O REGIME DA PUBLICACAO IDENTIFICACAO E FORMULARIO DOS DIPLOMAS NO SENTIDO DE ATRIBUIR RELEVANCIA JURIDICA PARA TODOS OS EFEITOS LEGAIS A VERSAO ELECTRONICA DO DIARIO DA REPUBLICA",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1047",
+         "nome": "Nuno Teixeira de Melo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:25",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/02/064/2001-03-24/2519?pgs=2519&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "137230",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2519-2519"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "64",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2001-03-24",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA A LEI N.74/98 DE 11 DE NOVEMBRO QUE APROVA O REGIME DA PUBLICACAO IDENTIFICACAO E FORMULARIO DOS DIPLOMAS NO SENTIDO DE ATRIBUIR RELEVANCIA JURIDICA PARA TODOS OS EFEITOS LEGAIS A VERSAO ELECTRONICA DO DIARIO DA REPUBLICA",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "123",
+         "nome": "Miguel Macedo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:25",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/02/064/2001-03-24/2519?pgs=2519&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "137231",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2519-2519"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "64",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2001-03-24",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA A LEI N.74/98 DE 11 DE NOVEMBRO QUE APROVA O REGIME DA PUBLICACAO IDENTIFICACAO E FORMULARIO DOS DIPLOMAS NO SENTIDO DE ATRIBUIR RELEVANCIA JURIDICA PARA TODOS OS EFEITOS LEGAIS A VERSAO ELECTRONICA DO DIARIO DA REPUBLICA",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "145869",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/02/064/2001-03-24?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "1923",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VIII",
+     "pubNr": "64",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2001-03-24",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "170",
+   "Comissao": null,
+   "DataFase": "2001-03-24",
+   "EvtId": "55",
+   "Fase": "Audição Assembleias Legislativas Regionais (Parecer do Gov. Regional ou de comissões da AR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Parecer do Governo Regional da Madeira",
+   "OevId": "147028",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/08/02/044/2001-03-24/1565?pgs=1565&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "261854",
+     "obs": null,
+     "pag": [
+      "1565-1565"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VIII",
+     "pubNr": "44",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2001-03-24",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2001-03-29",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "145868",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/02/066/2001-03-30/2615?pgs=2615&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "261349",
+     "obs": null,
+     "pag": [
+      "2615-2615"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VIII",
+     "pubNr": "66",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2001-03-30",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2001-03-29",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I><BR>Abstenção:<I>PSD</I>, <I> PCP</I>, <I> CDS-PP</I>, <I> PEV</I>, <I> BE</I>",
+     "id": "27930",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "66",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "270",
+   "Comissao": [
+    {
+     "AccId": "4603",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2001-03-29",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2001-03-29",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSAO DE ASSUNTOS CONSTITUCIONAIS, DIREITOS, LIBERDADES E GARANTIAS",
+     "Numero": "3",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2001-03-29",
+   "EvtId": "14",
+   "Fase": "Baixa comissão especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "146766",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "649",
+   "Comissao": null,
+   "DataFase": "2002-04-04",
+   "EvtId": "38",
+   "Fase": "Iniciativa Caducada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Esta Iniciativa caducou em 2002-04-04",
+   "OevId": "151682",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  }
+ ],
+ "IniId": "5746",
+ "IniLeg": "VIII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395753556c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32457a4d6a4977593249344c54526d4e4463744e44597a4e5331694e5755774c5755774d47517a4d325578595445324f43356b62324d3d&fich=a3220cb8-4f47-4635-b5e0-e00d33e1a168.doc&Inline=true",
+ "IniNr": "62",
+ "IniObs": null,
+ "IniSel": "2",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "P",
+ "IniTitulo": "Altera a Lei nº 74/98, de 11 de Novembro que, aprova o regime da publicação, identificação e formulário dos diplomas,  no sentido de atribuir relevância jurídica para todos os efeitos legais à versão electrónica do Diário da República",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

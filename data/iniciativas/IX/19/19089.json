@@ -1,0 +1,821 @@
+{
+ "DataFimleg": "2003-09-14",
+ "DataInicioleg": "2002-04-05",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PS",
+   "idCadastro": "156",
+   "nome": "António Costa"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "170",
+   "nome": "Guilherme D'oliveira Martins"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "507",
+   "nome": "Joel Hasse Ferreira"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "189",
+   "nome": "José Magalhães"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1987",
+   "nome": "Eduardo Cabrita"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1676",
+   "nome": "Elisa Guimarães Ferreira"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PS"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Deputados",
+  "sigla": "D"
+ },
+ "IniDescTipo": "Inquérito Parlamentar",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2002-06-06",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152263",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2002-06-07",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152310",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2002-06-12",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152311",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2002-06-15",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152918",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2b/09/01/007/2002-06-15/32?pgs=32&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "271188",
+     "obs": null,
+     "pag": [
+      "32-32"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "7",
+     "pubSL": "1",
+     "pubTipo": "DAR II série B",
+     "pubTp": "B",
+     "pubdt": "2002-06-15",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "2182",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2002-06-19",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": [
+    {
+     "autor": "BE",
+     "dataEntrada": null,
+     "descTipo": "Inquérito Parlamentar",
+     "id": "19077",
+     "leg": "IX",
+     "nr": "2",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/021/2002-06-20/837?pgs=837-838&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "632",
+       "obs": null,
+       "pag": [
+        "837-838"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "21",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2002-06-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/021/2002-06-20/837?pgs=837-838&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "632",
+       "obs": null,
+       "pag": [
+        "837-838"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "21",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2002-06-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/021/2002-06-20/837?pgs=837-838&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "632",
+       "obs": null,
+       "pag": [
+        "837-838"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "21",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2002-06-20",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "I",
+     "titulo": "Constituição de uma Comissão Eventual de Inquérito Parlamentar a actuação grovernamental quanto as dívidas fiscais da SAD do Benfica."
+    },
+    {
+     "autor": "PCP",
+     "dataEntrada": null,
+     "descTipo": "Inquérito Parlamentar",
+     "id": "19090",
+     "leg": "IX",
+     "nr": "3",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/021/2002-06-20/837?pgs=837-838&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "632",
+       "obs": null,
+       "pag": [
+        "837-838"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "21",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2002-06-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/021/2002-06-20/837?pgs=837-838&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "632",
+       "obs": null,
+       "pag": [
+        "837-838"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "21",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2002-06-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/021/2002-06-20/837?pgs=837-838&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "632",
+       "obs": null,
+       "pag": [
+        "837-838"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "21",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2002-06-20",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "I",
+     "titulo": "Constituição de uma Comissão de Inquérito Parlamentar de Inquérito à aceitação pelo Estado de acções da SAD Benfica como garantia de dívidas fiscais em processo de execução."
+    },
+    {
+     "autor": "PSD, CDS-PP",
+     "dataEntrada": null,
+     "descTipo": "Inquérito Parlamentar",
+     "id": "19091",
+     "leg": "IX",
+     "nr": "4",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/021/2002-06-20/837?pgs=837-838&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "632",
+       "obs": null,
+       "pag": [
+        "837-838"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "21",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2002-06-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/021/2002-06-20/837?pgs=837-838&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "632",
+       "obs": null,
+       "pag": [
+        "837-838"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "21",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2002-06-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/021/2002-06-20/837?pgs=837-838&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "632",
+       "obs": null,
+       "pag": [
+        "837-838"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "21",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2002-06-20",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "I",
+     "titulo": "Constituição de uma Comissão Eventual de Inquérito Parlamentar aos actos do Governo e da Administração Fiscal no que respeita à aceitação de acções ou partes sociais de pessoas colectivas, como garantia ou dação em pagamento de dívidas fiscais ou à Segurança Social, desde 1996."
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2002-06-19",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "618",
+         "nome": "Guilherme Silva"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:15",
+       "horaTermo": "19:00",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/021/2002-06-20/837?pgs=837&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141140",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "837-837"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "21",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-20",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Eventual de Inquérito Parlamentar a actuação grovernamental quanto as dívidas fiscais da SAD do Benfica; Constituição de uma Comissão de Inquérito Parlamentar de Inquérito à aceitação pelo Estado de acções da SAD Benfica como garantia de dívidas fiscais em processo de execução;Constituição de uma Comissão Eventual de Inquérito Parlamentar aos actos do Governo e da Administração Fiscal no que respeita à aceitação de acções ou partes sociais de pessoas colectivas, como garantia ou dação em pagamento de dívidas fiscais ou à Segurança Social, desde 1996; Apreciação dos actos do Governo referentes ao processo de aceitação pelo Estado de acções da SAD Benfica como garantia de dívidas fiscais em execução.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "156",
+         "nome": "António Costa"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:15",
+       "horaTermo": "19:00",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/021/2002-06-20/837?pgs=837&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141141",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "837-837"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "21",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-20",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Eventual de Inquérito Parlamentar a actuação grovernamental quanto as dívidas fiscais da SAD do Benfica; Constituição de uma Comissão de Inquérito Parlamentar de Inquérito à aceitação pelo Estado de acções da SAD Benfica como garantia de dívidas fiscais em processo de execução;Constituição de uma Comissão Eventual de Inquérito Parlamentar aos actos do Governo e da Administração Fiscal no que respeita à aceitação de acções ou partes sociais de pessoas colectivas, como garantia ou dação em pagamento de dívidas fiscais ou à Segurança Social, desde 1996; Apreciação dos actos do Governo referentes ao processo de aceitação pelo Estado de acções da SAD Benfica como garantia de dívidas fiscais em execução.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "215",
+         "nome": "Lino de Carvalho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:15",
+       "horaTermo": "19:00",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/021/2002-06-20/837?pgs=837-838&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141142",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "837-838"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "21",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-20",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Eventual de Inquérito Parlamentar a actuação grovernamental quanto as dívidas fiscais da SAD do Benfica; Constituição de uma Comissão de Inquérito Parlamentar de Inquérito à aceitação pelo Estado de acções da SAD Benfica como garantia de dívidas fiscais em processo de execução;Constituição de uma Comissão Eventual de Inquérito Parlamentar aos actos do Governo e da Administração Fiscal no que respeita à aceitação de acções ou partes sociais de pessoas colectivas, como garantia ou dação em pagamento de dívidas fiscais ou à Segurança Social, desde 1996; Apreciação dos actos do Governo referentes ao processo de aceitação pelo Estado de acções da SAD Benfica como garantia de dívidas fiscais em execução.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1953",
+         "nome": "Diogo Feio"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:15",
+       "horaTermo": "19:00",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/021/2002-06-20/838?pgs=838&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141143",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "838-838"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "21",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-20",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Eventual de Inquérito Parlamentar a actuação grovernamental quanto as dívidas fiscais da SAD do Benfica; Constituição de uma Comissão de Inquérito Parlamentar de Inquérito à aceitação pelo Estado de acções da SAD Benfica como garantia de dívidas fiscais em processo de execução;Constituição de uma Comissão Eventual de Inquérito Parlamentar aos actos do Governo e da Administração Fiscal no que respeita à aceitação de acções ou partes sociais de pessoas colectivas, como garantia ou dação em pagamento de dívidas fiscais ou à Segurança Social, desde 1996; Apreciação dos actos do Governo referentes ao processo de aceitação pelo Estado de acções da SAD Benfica como garantia de dívidas fiscais em execução.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "1651",
+         "nome": "Francisco Louçã"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:15",
+       "horaTermo": "19:00",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/021/2002-06-20/838?pgs=838&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141144",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "838-838"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "21",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-20",
+         "supl": null
+        }
+       ],
+       "sumario": "Constituição de uma Comissão Eventual de Inquérito Parlamentar a actuação grovernamental quanto as dívidas fiscais da SAD do Benfica; Constituição de uma Comissão de Inquérito Parlamentar de Inquérito à aceitação pelo Estado de acções da SAD Benfica como garantia de dívidas fiscais em processo de execução;Constituição de uma Comissão Eventual de Inquérito Parlamentar aos actos do Governo e da Administração Fiscal no que respeita à aceitação de acções ou partes sociais de pessoas colectivas, como garantia ou dação em pagamento de dívidas fiscais ou à Segurança Social, desde 1996; Apreciação dos actos do Governo referentes ao processo de aceitação pelo Estado de acções da SAD Benfica como garantia de dívidas fiscais em execução.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152366",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/021/2002-06-20/836?pgs=836-838&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "271302",
+     "obs": null,
+     "pag": [
+      "836-838"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "21",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2002-06-20",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "335",
+   "Comissao": null,
+   "DataFase": "2002-06-20",
+   "EvtId": "73",
+   "Fase": "Votação Deliberação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Texto de substituição relativo à parte deliberativa",
+   "OevId": "152485",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/022/2002-06-21/873?pgs=873&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "271303",
+     "obs": null,
+     "pag": [
+      "873-873"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "22",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2002-06-21",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2002-06-20",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "28996",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "22",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "360",
+   "Comissao": null,
+   "DataFase": "2002-06-20",
+   "EvtId": "57",
+   "Fase": "Resolução (Publicação DAR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152531",
+   "OevTextId": "4359",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "4359",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2002-06-26",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152620",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "600",
+   "Comissao": null,
+   "DataFase": "2002-07-03",
+   "EvtId": "44",
+   "Fase": "Resolução da AR (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "153047",
+   "OevTextId": "4389",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "4389",
+   "Votacao": null
+  }
+ ],
+ "IniId": "19089",
+ "IniLeg": "IX",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379394a5745786c5a79394562324e31625756756447397a5357357059326c6864476c32595338334d7a67325a5759784d6930784f5446684c5451775a6a63744f5441785a433035596a41774f47566c596d566d4f5451755a47396a&fich=7386ef12-191a-40f7-901d-9b008eebef94.doc&Inline=true",
+ "IniNr": "5",
+ "IniObs": "Regulamento da Comissão e Eleição da Mesa: DAR II S B 12, de 2002-09-07\nRelatório final da Comissão: DAR II S B 21, de 2002-11-23\nDeclarações de voto referentes ao relatório final (PS e BE): DAR II S B 28, de 2003-01-17",
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "I",
+ "IniTitulo": "Apreciação dos actos do Governo referentes ao processo de aceitação pelo Estado de acções da SAD Benfica como garantia de dívidas fiscais em execução.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

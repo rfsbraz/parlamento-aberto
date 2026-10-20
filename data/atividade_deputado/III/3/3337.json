@@ -1,0 +1,98 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PS",
+     "dpl_lg": "III",
+     "nome": "JOÃO JOAQUIM GOMES"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "29663",
+     "iniNr": "223",
+     "iniSelLg": "III",
+     "iniSelNr": "1",
+     "iniTi": "Elevação de Agualva-Cacém à categoria de vila.",
+     "iniTp": "J",
+     "iniTpdesc": "Projeto de Lei"
+    }
+   },
+   "intev": {
+    "pt_gov_ar_wsar_objectos_IntervencoesOut": [
+     {
+      "intId": "222734",
+      "intSu": "Lei que regula o funcionamento do Conselho de Comunicação Social",
+      "intTe": "Responde aos Pedidos de Esclarecimento dos Deputados Jorge Lemos (PCP) e João Amaral (PCP)",
+      "pubDar": "462-463; 463-464",
+      "pubDtreu": "1983-07-04",
+      "pubLg": "III",
+      "pubNr": "14",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "222781",
+      "intSu": "Lei que regula o funcionamento do Conselho de Comunicação Social",
+      "pubDar": "488-488",
+      "pubDtreu": "1983-07-04",
+      "pubLg": "III",
+      "pubNr": "14",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Interpelação à mesa"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "3337",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "988",
+    "gpSigla": "PS"
+   }
+  },
+  "depId": "3534",
+  "depNomeCompleto": "JOÃO JOAQUIM GOMES",
+  "depNomeParlamentar": "JOÃO JOAQUIM GOMES",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-02-01",
+     "sioDtInicio": "1983-05-31"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-07-08",
+     "sioDtInicio": "1984-05-01"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-10-11",
+     "sioDtInicio": "1984-07-14"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-05-28",
+     "sioDtInicio": "1984-12-12"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-11-04",
+     "sioDtInicio": "1985-06-17"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

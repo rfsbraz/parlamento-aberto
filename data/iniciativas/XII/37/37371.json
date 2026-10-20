@@ -1,0 +1,2923 @@
+{
+ "DataFimleg": "2013-09-14",
+ "DataInicioleg": "2012-09-15",
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e5464684e7a6b304f444d744f5451315a6930305a6d51314c546c6a4e7a637459544a6a5a4441314d6a56694e4759354c6e426b5a673d3d&fich=57a79483-945f-4fd5-9c77-a2cd0525b4f9.pdf&Inline=true",
+   "anexoNome": "Parecer Câmara dos Solicitadores"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e444d344e7a45774d4755745a6a64694e5330304d544a6a4c546c6b5a4755744f5455344e444d334d4745314d4441324c6e426b5a673d3d&fich=4387100e-f7b5-412c-9dde-9584370a5006.pdf&Inline=true",
+   "anexoNome": "Parecer do CSM"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a4467315a6a6779597a55744d6a67324d433030597a526a4c546777597a55744f54677a4e6d59335a544e694e6a686a4c6e426b5a673d3d&fich=d85f82c5-2860-4c4c-80c5-9836f7e3b68c.pdf&Inline=true",
+   "anexoNome": "Parecer da Ordem dos Advogados"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e6a63794d44637a595749744e5745344e7930304d574d314c5468694d7a4d745a47466d4f574a6c4e7a59304e6a56684c6e426b5a673d3d&fich=672073ab-5a87-41c5-8b33-daf9be76465a.pdf&Inline=true",
+   "anexoNome": "Parecer do SFJ"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d457659574d315a6d517a5a4463745a5749794e5330305a6a4e6d4c5467334e5441744d6a686a4f574e6a5a6d4e684d6a4d324c6e426b5a673d3d&fich=ac5fd3d7-eb25-4f3f-8750-28c9ccfca236.pdf&Inline=true",
+   "anexoNome": "Parecer do CSMP"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764f4745774f5746684d6a67744e3249304d433030596d59784c54686859324d745a6d59334d5759795a474e6c4e4745314c6e426b5a673d3d&fich=8a09aa28-7b40-4bf1-8acc-ff71f2dce4a5.pdf&Inline=true",
+   "anexoNome": "Parecer do CSTAFISCAIS"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a4755355a6a45794f546b745a474e6b4e6930304f544e6c4c574a6a595455745a6a55324e4755324f4452694f54526d4c6e426b5a673d3d&fich=de9f1299-dcd6-493e-bca5-f564e684b94f.pdf&Inline=true",
+   "anexoNome": "Parecer da Odem dos Notários"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e6a55334d7a45325a4751744d6d49304e5330304e32566a4c5467784e544d74596d49344e7a4d3259575a6c4e5745784c6e426b5a673d3d&fich=657316dd-2b45-47ec-8153-bb8736afe5a1.pdf&Inline=true",
+   "anexoNome": "Parecer da ANM"
+  }
+ ],
+ "IniAutorDeputados": null,
+ "IniAutorGruposParlamentares": null,
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Governo",
+  "sigla": "V"
+ },
+ "IniDescTipo": "Proposta de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2012-11-30",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "287607",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2012-11-30",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "287755",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/041/2012-11-30/42?pgs=42-114&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "607165",
+     "obs": null,
+     "pag": [
+      "42-114"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "41",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2012-11-30",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2012-12-05",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "287786",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2012-12-05",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "287787",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "30148",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2012-12-12",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2012-12-07",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2013-01-30",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer - Associação Nacional de Municípios Portugueses",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938334e6d526a4e7a6c694d43316b597a5a6b4c5451784f5459744f445a6c596930784e6a45794d545533596a63784d544d756347526d&fich=76dc79b0-dc6d-4196-86eb-1612157b7113.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2012-12-26",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer - Câmara dos Solicitadores",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793969596d59314d6a6b304f4330314e44417a4c54517a4e44457459545a694d5330794e44597a597a59774e7a466d5a4467756347526d&fich=bbf52948-5403-4341-a6b1-2463c6071fd8.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2012-12-19",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer - Conselho Superior da Magistratura",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938334e7a45785a5463774d53316d4e7a5a6d4c54526a4f5445744f574534595330324d6a63304d7a557a4d7a4d344f4441756347526d&fich=7711e701-f76f-4c91-9a8a-627435333880.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2012-12-19",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer - Conselho Superior de Ministério Público",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396b4f4451794e6a49344e79316c4d6a41314c545179595759744f57526c4e43316b596a59324f444a6959546c6c4f4751756347526d&fich=d8426287-e205-42af-9de4-db6682ba9e8d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2012-12-28",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer - Conselho Superior dos Tribunais Administrativos e Fiscais",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938325932526d4e546b344e4331694e5463344c5451314d324974595467335a693169597a6c6a5a47466b5a6a59344e4755756347526d&fich=6cdf5984-b578-453b-a87f-bc9cdadf684e.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2012-12-27",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer - Ordem dos Advogados",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938334d6d45315a475a6a4d79303059545a6b4c54526d4d474974596a686b5969316c4e546b32595451335932526d4e7a6b756347526d&fich=72a5dfc3-4a6d-4f0b-b8db-e596a47cdf79.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2012-12-19",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer e Notas Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793835596a46684e7a55324f4330794e4749304c5452694d474d744f4451334e79316a593259784d7a686d596a63334e6d49756347526d&fich=9b1a7568-24b4-4b0c-8477-ccf138fb776b.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3510",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
+     "Numero": "3510",
+     "Observacao": null,
+     "PareceresRecebidos": [
+      {
+       "link": "",
+       "nome": "Ordem dos Advogados em 2012-12-27"
+      },
+      {
+       "link": "",
+       "nome": "Conselho Superior da Magistratura em 2012-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Conselho Superior do Ministério Público em 2012-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Conselho Superior dos Tribunais Administrativos e Fiscais em 2012-12-28"
+      },
+      {
+       "link": "",
+       "nome": "Câmara dos Solicitadores em 2012-12-26"
+      },
+      {
+       "link": "",
+       "nome": "Associação Nacional de Municípios Portugueses em 2013-01-30"
+      }
+     ],
+     "PedidosParecer": [
+      {
+       "link": "",
+       "nome": "Ordem dos Advogados em 2012-12-11"
+      },
+      {
+       "link": "",
+       "nome": "Conselho Superior da Magistratura em 2012-12-11"
+      },
+      {
+       "link": "",
+       "nome": "Conselho Superior do Ministério Público em 2012-12-11"
+      },
+      {
+       "link": "",
+       "nome": "Conselho Superior dos Tribunais Administrativos e Fiscais em 2012-12-11"
+      },
+      {
+       "link": "",
+       "nome": "Câmara dos Solicitadores em 2012-12-11"
+      },
+      {
+       "link": "",
+       "nome": "Associação Nacional de Municípios Portugueses em 2012-12-11"
+      }
+     ],
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/053/2012-12-19/86?pgs=86-104&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "86-104"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "53",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2012-12-19",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/053/2012-12-19/86?pgs=86-104&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "86-104"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "53",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2012-12-19",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "413",
+       "motivoCessacao": null,
+       "nome": "Luís Pita Ameixa"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2012-12-19",
+       "dataRemessa": "2012-12-19",
+       "numeroOficio": "1697/XII/1.ª - CACDL",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2012-12-19",
+       "descricao": null,
+       "detalhe": null,
+       "id": "62699",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "112",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
+    }
+   ],
+   "DataFase": "2012-12-05",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "287788",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "22",
+   "Comissao": null,
+   "DataFase": "2012-12-06",
+   "EvtId": "144",
+   "Fase": "Audição promovida pelo PAR para a ALRAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "287789",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "23",
+   "Comissao": null,
+   "DataFase": "2012-12-06",
+   "EvtId": "145",
+   "Fase": "Audição promovida pelo PAR para a ALRAM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "287790",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "24",
+   "Comissao": null,
+   "DataFase": "2012-12-06",
+   "EvtId": "146",
+   "Fase": "Audição promovida pelo PAR para o Governo da RAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "287791",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "25",
+   "Comissao": null,
+   "DataFase": "2012-12-06",
+   "EvtId": "147",
+   "Fase": "Audição promovida pelo PAR para o Governo da RAM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "287792",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "9111",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2012-12-20",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2012-12-20",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "18:01",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20121220pln&url=l12/sl2/a2012/m12/&tI=00:31:40:642&drc=00:09:14:354"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20121220pln&url=l12/sl2/a2012/m12/&tI=00:58:00:574&drc=00:03:05:973"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20121220pln&url=l12/sl2/a2012/m12/&tI=01:26:42:995&drc=00:03:28:286"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": "MIN.   DA   JUSTIÇA",
+        "governo": "XIX GOVERNO CONSTITUCIONAL",
+        "nome": "Paula Teixeira Da Cruz"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/033/2012-12-21/9?pgs=9-11,16,23-24&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "187807",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "16-16",
+          "23-24",
+          "9-11"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "33",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-12-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1554",
+         "nome": "Filipe Neto Brandão"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "18:01",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20121220pln&url=l12/sl2/a2012/m12/&tI=00:41:15:461&drc=00:04:14:005"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/033/2012-12-21/11?pgs=11-12&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "187808",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "11-12"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "33",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-12-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4389",
+         "nome": "Teresa Leal Coelho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "18:01",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20121220pln&url=l12/sl2/a2012/m12/&tI=00:45:36:410&drc=00:05:39:836"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/033/2012-12-21/13?pgs=13-14&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "187809",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "13-14"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "33",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-12-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "2234",
+         "nome": "João Oliveira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "18:01",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20121220pln&url=l12/sl2/a2012/m12/&tI=00:51:21:996&drc=00:02:52:706"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/033/2012-12-21/14?pgs=14-15&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "187810",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "14-15"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "33",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-12-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "780",
+         "nome": "José Luís Ferreira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "18:01",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20121220pln&url=l12/sl2/a2012/m12/&tI=00:54:19:512&drc=00:03:36:199"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/033/2012-12-21/15?pgs=15&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "187811",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "15-15"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "33",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-12-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4389",
+         "nome": "Teresa Leal Coelho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "18:01",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20121220pln&url=l12/sl2/a2012/m12/&tI=01:01:14:672&drc=00:02:04:106"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/033/2012-12-21/16?pgs=16-17&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "187812",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "16-17"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "33",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-12-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "413",
+         "nome": "Luís Pita Ameixa"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "18:01",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20121220pln&url=l12/sl2/a2012/m12/&tI=01:03:27:118&drc=00:04:09:865"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20121220pln&url=l12/sl2/a2012/m12/&tI=01:30:19:468&drc=00:01:27:359"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/033/2012-12-21/17?pgs=17-18,24&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "187813",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "17-18",
+          "24-24"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "33",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-12-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "2234",
+         "nome": "João Oliveira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "18:01",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20121220pln&url=l12/sl2/a2012/m12/&tI=01:07:47:733&drc=00:06:16:505"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/033/2012-12-21/18?pgs=18-20&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "187814",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "18-20"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "33",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-12-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2194",
+         "nome": "Cecília Honório"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "18:01",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20121220pln&url=l12/sl2/a2012/m12/&tI=00:25:58:090&drc=00:02:24:338"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/033/2012-12-21/20?pgs=20-21&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "187815",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "20-21"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "33",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-12-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "4289",
+         "nome": "Teresa Anjinho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "18:01",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20121220pln&url=l12/sl2/a2012/m12/&tI=01:19:57:055&drc=00:06:18:257"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/033/2012-12-21/21?pgs=21-22&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "187816",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "21-22"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "33",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-12-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "18:01",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20121220pln&url=l12/sl2/a2012/m12/&tI=01:31:54:702&drc=00:00:27:167"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": "MIN.   DA   JUSTIÇA",
+        "governo": "XIX GOVERNO CONSTITUCIONAL",
+        "nome": "Paula Teixeira Da Cruz"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/033/2012-12-21/24?pgs=24&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "187817",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "24-24"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "33",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-12-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "413",
+         "nome": "Luís Pita Ameixa"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "18:01",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20121220pln&url=l12/sl2/a2012/m12/&tI=01:32:31:775&drc=00:00:34:776"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/033/2012-12-21/25?pgs=25&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "187818",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "25-25"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "33",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-12-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "287976",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/033/2012-12-21?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "9111",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "33",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2012-12-21",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d7a46695a57526b5a4749745a6d59304d5330304d6d457a4c574a6d597a4174595751774d6a56684d4455354d4445344c6e426b5a673d3d&fich=31bedddb-ff41-42a3-bfc0-ad025a059018.pdf&Inline=true",
+     "anexoNome": "Texto do Parecer"
+    }
+   ],
+   "CodigoFase": "174",
+   "Comissao": null,
+   "DataFase": "2012-12-21",
+   "EvtId": "150",
+   "Fase": "Parecer do Governo da RAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "288281",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2012-12-21",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "288095",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/034/2012-12-22/33?pgs=33&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "615103",
+     "obs": null,
+     "pag": [
+      "33-33"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "34",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2012-12-22",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2012-12-21",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "62364",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "34",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "270",
+   "Comissao": [
+    {
+     "AccId": "30258",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": [
+      {
+       "data": "2013-04-03",
+       "id": "94929",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-04-09",
+       "id": "94967",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-04-09",
+       "id": "94959",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-04-09",
+       "id": "94958",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-04-10",
+       "id": "94971",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-04-10",
+       "id": "94970",
+       "tipo": "AUP"
+      }
+     ],
+     "Audiencias": [
+      {
+       "data": "2013-05-08",
+       "id": "95190",
+       "tipo": "AUD"
+      },
+      {
+       "data": "2013-05-14",
+       "id": "95230",
+       "tipo": "AUD"
+      },
+      {
+       "data": "2013-05-14",
+       "id": "95229",
+       "tipo": "AUD"
+      },
+      {
+       "data": "2013-05-14",
+       "id": "95228",
+       "tipo": "AUD"
+      }
+     ],
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2012-12-21",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2012-12-21",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2013-05-28",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "1 - Propostas de Alteração PSD/CDS-PP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314e54637a596d5930595330344f544e684c54526a4e3251744f574d314d693031596d4e6a59544177596d51314d44517555455247&fich=5573bf4a-893a-4c7d-9c52-5bcca00bd504.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-05-28",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "2 - Propostas de Alteração - PS",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a4d5455314e6a55325a433034597a526c4c54517a4f4755744f4755304f43316c59546b304f5445324e5759314d5441756347526d&fich=c155656d-8c4e-438e-8e48-ea949165f510.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-06-12",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "3 - Propostas de Alteração - PCP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938344e7a56695a6d5a6b5a6930324e5445784c54517a4d474974596d59775a6930344d6d4d784d446b774d324e68597a637555455247&fich=875bffdf-6511-430b-bf0f-82c10903cac7.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-06-12",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "4 - Propostas de Alteração - BE",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279383359545a6a5a6d45794e4330324d6d4d334c545132596d51744f545a684e5330324e6a4d794e7a41325a5463774d6d497555455247&fich=7a6cfa24-62c7-46bd-96a5-6632706e702b.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-06-19",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "5 - Propostas de Alteração PSD/CDS-PP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938334f54526d4e6d4d344f43316c4e47557a4c54526d4d5749744f5449324e4330344d7a49325a6a426c4d44566c4f44517555455247&fich=794f6c88-e4e3-4f1b-9264-8326f0e05e84.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-01-18",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer - Associação Sindical dos Juízes Portugueses",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938324e6d55334d7a55344f4331685a6d4d794c5451315a444d744f445178597931684d4451314e57457a4e57566a5a4451756347526d&fich=66e73588-afc2-45d3-841c-a0455a35ecd4.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-03-06",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer - Sindicato dos Magistrados do Ministério Público",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a4d574532595759324f5330315a446c684c5451354f544d744f5755314e7930354f57566a4e446c6d597a55795a4463756347526d&fich=31a6af69-5d9a-4993-9e57-99ec49fc52d7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-04-29",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Pronúncia - Faculdade de Direito da Universidade de Coimbra",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774f4451795932566c5a53316c5a4755304c5451304f446b744f4455334e43316b596d59354d44646c4e7a41314d4759756347526d&fich=0842ceee-ede4-4489-8574-dbf907e7050f.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-06-19",
+       "TipoDocumento": "Quadro comparativo",
+       "TituloDocumento": "Quadro Comparativo",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938795a6d45355a446b795a6930334e57466a4c545178597a6774596a51775a433077596d55794e5445334d446b354f4459756347526d&fich=2fa9d92f-75ac-41c8-b40d-0be251709986.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-06-26",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final e Relatório da Discussão e Votação na Especialidade CACDLG",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939694f47526c5a6a4977596930775a4468694c5451775a5745744f4749315a5331695a4449304d6d52684d3256685a6d497555455247&fich=b8def20b-0d8b-40ea-8b5e-bd242da3eafb.PDF&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3510",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
+     "Numero": "3510",
+     "Observacao": null,
+     "PareceresRecebidos": [
+      {
+       "link": "",
+       "nome": "Faculdade de Direito da Universidade de Coimbra em 2013-04-29"
+      }
+     ],
+     "PedidosParecer": [
+      {
+       "link": "",
+       "nome": "Faculdade de Direito da Universidade de Coimbra em 2013-03-14"
+      }
+     ],
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/157/2013-06-26?org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Relatório da discussão e votação na especialidade, texto final e propostas de alteração apresentadas pelo PSD/CDS-PP, PS, PCP e BE",
+       "pag": null,
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "157",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2013-06-26",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/157/2013-06-26?org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Relatório da discussão e votação na especialidade, texto final e propostas de alteração apresentadas pelo PSD/CDS-PP, PS, PCP e BE",
+       "pag": null,
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "157",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2013-06-26",
+       "supl": null
+      }
+     ],
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": null,
+       "dataRemessa": "2013-06-26",
+       "numeroOficio": "802/XII/1.ª-CACDLG",
+       "observacoes": "Aprovado com a ausência do PEV nas reuniões da CACDLG de 18, 19 e 26 de junho de 2013",
+       "tipoRemessa": "Texto Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2013-06-26",
+       "descricao": "Aprovado com a ausência do PEV nas reuniões da CACDLG de 18, 19 e 26 de junho de 2013",
+       "detalhe": null,
+       "id": "64257",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "158",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
+    }
+   ],
+   "DataFase": "2012-12-21",
+   "EvtId": "14",
+   "Fase": "Baixa comissão especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "288096",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d474a6d5a574d784e5455745a6a42684e4330304d7a56694c546b79596d4d744d44597a597a6b324f475132593255794c6e426b5a673d3d&fich=0bfec155-f0a4-435b-92bc-063c968d6ce2.pdf&Inline=true",
+     "anexoNome": "Texto do Parecer"
+    }
+   ],
+   "CodigoFase": "172",
+   "Comissao": null,
+   "DataFase": "2012-12-27",
+   "EvtId": "148",
+   "Fase": "Parecer da ALRAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "288145",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "9513",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "280",
+   "Comissao": null,
+   "DataFase": "2013-06-28",
+   "EvtId": "15",
+   "Fase": "Requerimento avocação plenário",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2013-06-28",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "2234",
+         "nome": "João Oliveira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130628pln&url=l12/sl2/a2013/m06/&tI=03:31:05:019&drc=00:03:37:432"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/50?pgs=50-51&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190426",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "50-51"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "413",
+         "nome": "Luís Pita Ameixa"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130628pln&url=l12/sl2/a2013/m06/&tI=03:34:52:139&drc=00:02:38:638"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/51?pgs=51&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190427",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "51-51"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1537",
+         "nome": "Hugo Velosa"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130628pln&url=l12/sl2/a2013/m06/&tI=03:37:42:962&drc=00:03:34:318"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/52?pgs=52&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190428",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "52-52"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "4289",
+         "nome": "Teresa Anjinho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130628pln&url=l12/sl2/a2013/m06/&tI=03:41:30:722&drc=00:02:21:862"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/52?pgs=52-53&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190429",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "52-53"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2194",
+         "nome": "Cecília Honório"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130628pln&url=l12/sl2/a2013/m06/&tI=03:44:05:824&drc=00:03:10:834"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/53?pgs=53-54&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190430",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "53-54"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "3948",
+         "nome": "Graça Mota"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/58?pgs=58-59&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190431",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "58-59"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4391",
+         "nome": "Conceição Bessa Ruão"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/59?pgs=59-62&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190432",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "59-62"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4365",
+         "nome": "Maria Manuela Tender"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/62?pgs=62-65&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190433",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "62-65"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "2234",
+         "nome": "João Oliveira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/65?pgs=65-66&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190434",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "65-66"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2194",
+         "nome": "Cecília Honório"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/66?pgs=66&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190435",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "66-66"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "1941",
+         "nome": "Ana Drago"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/66?pgs=66&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190436",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "66-66"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "4161",
+         "nome": "Catarina Martins"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/66?pgs=66&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190437",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "66-66"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2191",
+         "nome": "Helena Pinto"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/66?pgs=66&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190438",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "66-66"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "803",
+         "nome": "João Semedo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/66?pgs=66&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190439",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "66-66"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "263",
+         "nome": "Luís Fazenda"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/66?pgs=66&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190440",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "66-66"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "3926",
+         "nome": "Pedro Filipe Soares"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": [
+        {
+         "link": null
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/66?pgs=66&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190441",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "66-66"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2156",
+         "nome": "Mariana Aiveca"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:08",
+       "horaTermo": "14:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/66?pgs=66&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "190442",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "66-66"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "107",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-06-29",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei de Organização do Sistema Judiciário.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292187",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "9513",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "107",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2013-06-29",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2013-06-28",
+     "descricao": "Requerimento 1A, apresentado pelo PS, de avocação para Plenário da votação na especialidade das suas propostas de alteração aos artigos 106.º-A e 218.º da Proposta de Lei n.º 114/XII/2.ª (GOV), Requerimento 2A, apresentado pelo PCP, de avocação para Plenário da votação na especialidade das suas propostas de alteração aos artigos 84.º, 92.º, 102.º e 225.º da Proposta de Lei n.º 114/XII/2.ª (GOV) - Aprova a Lei de Organização do Sistema Judiciário, bem como do artigo 81.º do Texto Final apresentado pela Comissão.",
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "64325",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "107",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "310",
+   "Comissao": null,
+   "DataFase": "2013-06-28",
+   "EvtId": "34",
+   "Fase": "Votação na especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292188",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/50?pgs=50-57&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "640018",
+     "obs": null,
+     "pag": [
+      "50-57"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "107",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2013-06-29",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2013-06-28",
+     "descricao": "Votação da proposta 3P apresentada pelo PCP de alteração ao artigo 84.º (Substituição dos juízes de direito) da PPL",
+     "detalhe": "A Favor: <I>PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I><BR>Abstenção:<I>PS</I>",
+     "id": "64326",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "107",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2013-06-28",
+     "descricao": "Votação da proposta 3P apresentada pelo PCP de alteração ao artigo 92.º (Competências) da PPL",
+     "detalhe": "A Favor: <I>PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>",
+     "id": "64327",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "107",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2013-06-28",
+     "descricao": "Votação da proposta 3P apresentada pelo PCP de alteração ao artigo 102.º (Administrador do tribunal de comarca) da PPL",
+     "detalhe": "A Favor: <I>PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I><BR>Abstenção:<I>PS</I>",
+     "id": "64328",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "107",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2013-06-28",
+     "descricao": "Votação da proposta 1P apresentada pelo PS de aditamento do artigo 106.º-A (Congruência e autonomia) à PPL",
+     "detalhe": "A Favor: <I>PS</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I><BR>Abstenção:<I>PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "64329",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "107",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2013-06-28",
+     "descricao": "Votação da proposta 1P apresentada pelo PS de alteração do artigo 218.º (Normas complementares) da PPL",
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "64330",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "107",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2013-06-28",
+     "descricao": "Votação da proposta 3P apresentada pelo PCP de alteração ao artigo 225.º (Entrada em vigor) da PPL",
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "64331",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "107",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2013-06-28",
+     "descricao": "Votação do artigo 81.º (Desdobramento) do Texto Final",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PCP</I>, <I> BE</I>, <I> PEV</I><BR>Abstenção:<I>PS</I>",
+     "id": "64332",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "107",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "320",
+   "Comissao": null,
+   "DataFase": "2013-06-28",
+   "EvtId": "18",
+   "Fase": "Votação final global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292179",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/107/2013-06-29/57?pgs=57&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "640017",
+     "obs": null,
+     "pag": [
+      "57-57"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "107",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2013-06-29",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2013-06-28",
+     "descricao": "Texto Final apresentado pela Comissão de Assuntos Constitucionais, Diereitos, Liberdades e Garantias relativo à Proposta de Lei n.º 114/XII/2.ª (GOV)",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "64319",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "107",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "348",
+   "Comissao": [
+    {
+     "AccId": "31818",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2013-07-16",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2013-07-16",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2013-07-26",
+       "TipoDocumento": "Redacção final",
+       "TituloDocumento": "Adenda à Redação Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938324f474a6d4d574a694e5330774d54637a4c5452684f546b74596a6b334d53307a4d6d466b4f5464685a54646d4e6a417555455247&fich=68bf1bb5-0173-4a99-b971-32ad97ae7f60.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-23",
+       "TipoDocumento": "Redacção final",
+       "TituloDocumento": "Redação Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938344d4451774e7a686a5a5330774e6a51784c54526c4e575574595759305a43307a4e5751324e6d59344e6a45304d7a497555455247&fich=804078ce-0641-4e5e-af4d-35d66f861432.PDF&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3510",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
+     "Numero": "3510",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": null,
+       "dataRemessa": "2013-07-23",
+       "numeroOficio": "899/XII/1.ª-CACDLG",
+       "observacoes": null,
+       "tipoRemessa": "Redação Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2013-07-23",
+       "descricao": null,
+       "detalhe": null,
+       "id": "64578",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "167",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
+    }
+   ],
+   "DataFase": "2013-07-16",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292552",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "350",
+   "Comissao": null,
+   "DataFase": "2013-07-29",
+   "EvtId": "31",
+   "Fase": "Decreto (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292801",
+   "OevTextId": "17713",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "17713",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "370",
+   "Comissao": null,
+   "DataFase": "2013-08-02",
+   "EvtId": "23",
+   "Fase": "Envio para promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "292912",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "380",
+   "Comissao": null,
+   "DataFase": "2013-08-14",
+   "EvtId": "24",
+   "Fase": "Promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "293041",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "390",
+   "Comissao": null,
+   "DataFase": "2013-08-19",
+   "EvtId": "25",
+   "Fase": "Referenda",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "293042",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2013-08-20",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "293043",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a6a6379597a526d4d5451745954426c4f5330304e7a497a4c5467344e5745744f444a6c4e47566d4f574577596d5a694c6e426b5a673d3d&fich=f72c4f14-a0e9-4723-885a-82e4ef9a0bfb.pdf&Inline=true",
+     "anexoNome": "Pedido fiscalização abstracta sucessiva pelo Provedor Justiça"
+    }
+   ],
+   "CodigoFase": "580",
+   "Comissao": null,
+   "DataFase": "2013-08-26",
+   "EvtId": "32",
+   "Fase": "Lei (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Pedido fiscalização abstracta sucessiva pelo Provedor de Justiça em 18-03-2016",
+   "OevId": "293096",
+   "OevTextId": "17777",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "17777",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "590",
+   "Comissao": null,
+   "DataFase": "2013-10-24",
+   "EvtId": "131",
+   "Fase": "Retificação à lei (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "293881",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "http://data.dre.pt/eli/diario/1/206/2013/0/pt/html",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "652880",
+     "obs": "Declaração de retificação n.º 42/2013",
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "206",
+     "pubSL": "3",
+     "pubTipo": "DR I série",
+     "pubTp": "M",
+     "pubdt": "2013-10-24",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  }
+ ],
+ "IniId": "37371",
+ "IniLeg": "XII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e446379596a45344f4467745a5759775a533030595449344c546b7a4e6a67744d544d304e4759314e446b784f474d774c6d527659773d3d&fich=472b1888-ef0e-4a28-9368-1344f54918c0.doc&Inline=true",
+ "IniNr": "114",
+ "IniObs": null,
+ "IniSel": "2",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "P",
+ "IniTitulo": "Aprova a Lei de Organização do Sistema Judiciário.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

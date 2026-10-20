@@ -1,0 +1,888 @@
+{
+ "DataFimleg": "2025-06-02",
+ "DataInicioleg": "2024-03-26",
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764f4441344f5459784d7a49744e6a51334d4330304d6d56694c5749774d7a51744d7a5179595467794f44466b5a6a55354c6e426b5a673d3d&fich=80896132-6470-42eb-b034-342a8281df59.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d4576596a4d325a6a42694d7a59744e574d344e5330304d5745344c546c694e3259744d6d5a685a6a45334f474d774d446b7a4c6e426b5a673d3d&fich=b36f0b36-5c85-41a8-9b7f-2faf178c0093.pdf&Inline=true",
+   "anexoNome": "Resolução AM Braga"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d4576596d59334e7a566a4d324d74597a526a5a5330304f4745334c546c6b5a5455745a6d526c4d7a49775a5449354e4455324c6e426b5a673d3d&fich=bf775c3c-c4ce-48a7-9de5-fde320e29456.pdf&Inline=true",
+   "anexoNome": "Resolução CM Braga"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764f5459304e6a64685a6d51744e5451795a6930304e3251324c54686b593249744f57557a596a45314e6d566c5a5445354c6d52765933673d&fich=96467afd-542f-47d6-8dcb-9e3b156eee19.docx&Inline=true",
+   "anexoNome": "Texto – versão 1, de 2025-02-04"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a6d55784d4459334d7a45744d6a49324e6930304d6a6c6a4c5468694f5751744d575578595452684e324a684e6d566d4c6d52765933673d&fich=fe106731-2266-429c-8b9d-1e1a4a7ba6ef.docx&Inline=true",
+   "anexoNome": "Texto – versão 2, de 2025-02-19"
+  }
+ ],
+ "IniAutorDeputados": [
+  {
+   "GP": "PSD",
+   "idCadastro": "4300",
+   "nome": "Hugo Soares"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8924",
+   "nome": "Ricardo Araújo"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "2665",
+   "nome": "Jorge Paulo Oliveira"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "2114",
+   "nome": "Emídio Guerreiro"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8175",
+   "nome": "Ana Santos"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "6930",
+   "nome": "Carlos Eduardo Reis"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "7325",
+   "nome": "Carlos Cação"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8425",
+   "nome": "Joaquim Barbosa"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8863",
+   "nome": "Dulcineia Catarina Moura"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "7335",
+   "nome": "Sónia Ramos"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8783",
+   "nome": "Carlos Silva Santiago"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8698",
+   "nome": "Olga Freire"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8411",
+   "nome": "Luís Newton"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "4328",
+   "nome": "Maurício Marques"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "5993",
+   "nome": "Alberto Fonseca"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "2397",
+   "nome": "Francisco Covelinhas Lopes"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8152",
+   "nome": "Almiro Moreira"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "4308",
+   "nome": "Salvador Malheiro"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "6937",
+   "nome": "Alberto Machado"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8978",
+   "nome": "Silvério Regalado"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "6081",
+   "nome": "Sonia dos Reis"
+  },
+  {
+   "GP": "CDS-PP",
+   "idCadastro": "8723",
+   "nome": "Paulo Núncio"
+  },
+  {
+   "GP": "CDS-PP",
+   "idCadastro": "1657",
+   "nome": "João Pinho de Almeida"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PSD"
+  },
+  {
+   "GP": "CDS-PP"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2025-02-04",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1583023",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2025-02-04",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1626423",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/16/01/174/2025-02-04/28?pgs=28-33&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1021723",
+     "obs": null,
+     "pag": [
+      "28-33"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVI",
+     "pubNr": "174",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2025-02-04",
+     "supl": null
+    },
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/16/01/185/2025-02-19/19?pgs=19-23&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1022021",
+     "obs": "Alteração do texto inicial",
+     "pag": [
+      "19-23"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVI",
+     "pubNr": "185",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2025-02-19",
+     "supl": null
+    },
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/16/01/103/2024-10-01/24?pgs=24-29&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1022667",
+     "obs": "Alteração de texto (segunda) e autores iniciais",
+     "pag": [
+      "24-29"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVI",
+     "pubNr": "103",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2024-10-01",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e6a6b79597a557a4e5755744e32466c4f5330304e54646c4c54686a4f544d744e44526d4f5441784e5451774e57457a4c6d52765933673d&fich=692c535e-7ae9-457e-8c93-44f9015405a3.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2025-02-05",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1583076",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "86622",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2025-02-06",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-03-21",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765130394e4c7a457a5131424d513151765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a5a474535595463794d43303259574d784c5452694d3251744f474a6b5a4331695a6a59314e54637a5a6a4e6a4d7a59756347526d&fich=cda9a720-6ac1-4b3d-8bdd-bf65573f3c36.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8405",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Poder Local e Coesão Territorial",
+     "Numero": "8405",
+     "Observacao": null,
+     "PareceresRecebidos": [
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765130394e4c7a457a5131424d513151765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938304e4759324e6a49334d79316b4d44426a4c5451324e6d5574595745344d43316b4e6d4d34593255324e7a4534595441756347526d&fich=44f66273-d00c-466e-aa80-d6c8ce6718a0.pdf&Inline=true",
+       "nome": "FREGUESIA DE GUALTAR em 2025-03-10"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765130394e4c7a457a5131424d513151765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938324d6d51325a474d7a4d4330784e3252684c5451354d4745744f44566a4d433168596a45784e7a55784e3259785a4455756347526d&fich=62d6dc30-17da-490a-85c0-ab117517f1d5.pdf&Inline=true",
+       "nome": "Assembleia Municipal de Braga em 2025-02-26"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765130394e4c7a457a5131424d513151765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938354e5459334f4467304d4330784d54646b4c5452695a546b744f546377597930784d6a6c6d4f4445354e4745324d5451756347526d&fich=95678840-117d-4be9-970c-129f8194a614.pdf&Inline=true",
+       "nome": "Câmara Municipal de Braga em 2025-02-26"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765130394e4c7a457a5131424d513151765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d596d4a694e5445314e53316d597a4a684c5451794e4749744f5749794e5330314f44677a4d6a4a684e7a59324d7a45756347526d&fich=fbbb5155-fc2a-424b-9b25-588322a76631.pdf&Inline=true",
+       "nome": "Assembleia de Freguesia de Gualtar em 2025-03-10"
+      }
+     ],
+     "PedidosParecer": [
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765130394e4c7a457a5131424d513151765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938304e4759324e6a49334d79316b4d44426a4c5451324e6d5574595745344d43316b4e6d4d34593255324e7a4534595441756347526d&fich=44f66273-d00c-466e-aa80-d6c8ce6718a0.pdf&Inline=true",
+       "nome": "FREGUESIA DE GUALTAR em 2025-02-07"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765130394e4c7a457a5131424d513151765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938324d6d51325a474d7a4d4330784e3252684c5451354d4745744f44566a4d433168596a45784e7a55784e3259785a4455756347526d&fich=62d6dc30-17da-490a-85c0-ab117517f1d5.pdf&Inline=true",
+       "nome": "Assembleia Municipal de Braga em 2025-02-07"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765130394e4c7a457a5131424d513151765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938354e5459334f4467304d4330784d54646b4c5452695a546b744f546377597930784d6a6c6d4f4445354e4745324d5451756347526d&fich=95678840-117d-4be9-970c-129f8194a614.pdf&Inline=true",
+       "nome": "Câmara Municipal de Braga em 2025-02-07"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765130394e4c7a457a5131424d513151765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d596d4a694e5445314e53316d597a4a684c5451794e4749744f5749794e5330314f44677a4d6a4a684e7a59324d7a45756347526d&fich=fbbb5155-fc2a-424b-9b25-588322a76631.pdf&Inline=true",
+       "nome": "Assembleia de Freguesia de Gualtar em 2025-02-07"
+      }
+     ],
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "7483",
+       "motivoCessacao": null,
+       "nome": "Gilberto Anjos"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2025-02-05",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1583077",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2025-02-06",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1583182",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "40994",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2025-03-13",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "PS",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "314661",
+     "leg": "XVI",
+     "nr": "486",
+     "publicacao": null,
+     "sel": "1",
+     "tipo": "J",
+     "titulo": "Elevação da povoação de Gualtar à categoria de Vila"
+    },
+    {
+     "autor": "PSD, CDS-PP",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "314705",
+     "leg": "XVI",
+     "nr": "504",
+     "publicacao": null,
+     "sel": "1",
+     "tipo": "J",
+     "titulo": "Elevação da Povoação Meixomil à Categoria de Vila"
+    },
+    {
+     "autor": "PSD, CDS-PP",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "314706",
+     "leg": "XVI",
+     "nr": "505",
+     "publicacao": null,
+     "sel": "1",
+     "tipo": "J",
+     "titulo": "Elevação da Povoação de Seroa à Categoria de Vila"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2025-03-13",
+     "oradores": null
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1615487",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2025-03-13",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1615624",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/101/2025-03-14/53?pgs=53&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1021431",
+     "obs": null,
+     "pag": [
+      "53-53"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVI",
+     "pubNr": "101",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2025-03-14",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": [
+      "Miguel Arruda (Ninsc)"
+     ],
+     "data": "2025-03-13",
+     "descricao": "Texto de substituição relativo aos Projetos de Lei n.º 486/XVI/1.ª (PS) e n.º 501/XVI/1.ª (PSD, CDS-PP), apresentado pela Comissão de Poder Local e Coesão Territorial",
+     "detalhe": "Ausência: <I>Miguel Arruda (Ninsc)</I>",
+     "id": "138762",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "100",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "310",
+   "Comissao": null,
+   "DataFase": "2025-03-13",
+   "EvtId": "34",
+   "Fase": "Votação na especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1615625",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/101/2025-03-14/53?pgs=53&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1021432",
+     "obs": null,
+     "pag": [
+      "53-53"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVI",
+     "pubNr": "101",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2025-03-14",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": [
+      "Miguel Arruda (Ninsc)"
+     ],
+     "data": "2025-03-13",
+     "descricao": "Votação da assunção pelo Plenário das votações indiciárias realizadas na especialidade em sede de Comissão",
+     "detalhe": "Ausência: <I>Miguel Arruda (Ninsc)</I>",
+     "id": "138763",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "100",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "320",
+   "Comissao": null,
+   "DataFase": "2025-03-13",
+   "EvtId": "18",
+   "Fase": "Votação final global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1615626",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/101/2025-03-14/53?pgs=53&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1021433",
+     "obs": null,
+     "pag": [
+      "53-53"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVI",
+     "pubNr": "101",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2025-03-14",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": [
+      "Miguel Arruda (Ninsc)"
+     ],
+     "data": "2025-03-13",
+     "descricao": "Texto de substituição relativo aos Projetos de Lei n.º 486/XVI/1.ª (PS) e n.º 501/XVI/1.ª (PSD, CDS-PP), apresentado pela Comissão de Poder Local e Coesão Territorial ",
+     "detalhe": "Ausência: <I>Miguel Arruda (Ninsc)</I>",
+     "id": "138764",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "100",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "348",
+   "Comissao": [
+    {
+     "AccId": "87095",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2025-03-17",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8405",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Poder Local e Coesão Territorial",
+     "Numero": "8405",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2025-03-14",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1615773",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "350",
+   "Comissao": null,
+   "DataFase": "2025-03-19",
+   "EvtId": "31",
+   "Fase": "Decreto (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1615939",
+   "OevTextId": "104889",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "104889",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "370",
+   "Comissao": null,
+   "DataFase": "2025-03-25",
+   "EvtId": "23",
+   "Fase": "Envio para promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1616116",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "380",
+   "Comissao": null,
+   "DataFase": "2025-03-25",
+   "EvtId": "24",
+   "Fase": "Promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1616251",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "390",
+   "Comissao": null,
+   "DataFase": "2025-03-26",
+   "EvtId": "25",
+   "Fase": "Referenda",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1616252",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2025-04-01",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1616253",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "580",
+   "Comissao": null,
+   "DataFase": "2025-04-03",
+   "EvtId": "32",
+   "Fase": "Lei (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1616318",
+   "OevTextId": "104996",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "104996",
+   "Votacao": null
+  }
+ ],
+ "IniId": "314702",
+ "IniLeg": "XVI",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d6d56684e47526d4e7a4d744e325a695a6930304d574e684c57466c4e4459744f4455314f5467304d544e694e6a466d4c6d52765933673d&fich=2ea4df73-7fbf-41ca-ae46-85598413b61f.docx&Inline=true",
+ "IniNr": "501",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "SIM",
+ "IniTextoSubstCampo": "Substituição do texto a pedido do autor em 2025-02-19. Substituição do texto a pedido do autor em 2025-03-05.",
+ "IniTipo": "J",
+ "IniTitulo": "Elevação da Freguesia de Gualtar à categoria de Vila \n",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

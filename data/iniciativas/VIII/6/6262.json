@@ -1,0 +1,1167 @@
+{
+ "DataFimleg": "2000-09-14",
+ "DataInicioleg": "1999-10-25",
+ "IniAnexos": null,
+ "IniAutorDeputados": null,
+ "IniAutorGruposParlamentares": null,
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Governo",
+  "sigla": "V"
+ },
+ "IniDescTipo": "Proposta de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2000-01-14",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "24997",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2000-01-17",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "24998",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "4265",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2000-01-17",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2000-01-17",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSAO DE ASSUNTOS CONSTITUCIONAIS, DIREITOS, LIBERDADES E GARANTIAS",
+     "Numero": "3",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/08/01/020/2000-02-05/438?pgs=438-439&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "438-439"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VIII",
+       "pubNr": "20",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2000-02-05",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/08/01/020/2000-02-05/438?pgs=438-439&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "438-439"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VIII",
+       "pubNr": "20",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2000-02-05",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "123",
+       "motivoCessacao": null,
+       "nome": "Miguel Macedo"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2000-02-03",
+       "dataRemessa": "2000-02-03",
+       "numeroOficio": "OF 195/COM",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      },
+      {
+       "dataDocumento": "2000-02-03",
+       "dataRemessa": null,
+       "numeroOficio": null,
+       "observacoes": "APREC GENER 00.02.04.APROVADO GEN 00.02.04. BX 1A COM.",
+       "tipoRemessa": "Texto Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2000-01-17",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "116879",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2000-01-19",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "24999",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2000-02-01",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "25000",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/08/01/017/2000-02-01/343?pgs=343-344&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "40553",
+     "obs": null,
+     "pag": [
+      "343-344"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VIII",
+     "pubNr": "17",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2000-02-01",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "5907",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2000-02-04",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2000-02-04",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "229",
+         "nome": "Narana Coissoró"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "10:25",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/036/2000-02-05/1378?pgs=1378-1379&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28979",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1378-1379"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "36",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-02-05",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA O ART.69, N.2 DA LEI 69/98, DE 8 DE ABRIL, QUE REGULAA ESTRUTURA E FUNCIONAMENTO DO CENTRO DE ESTUDOS JUDICIARIOSE INTRODUZ UM REGIME EXCEPCIONAL DE AFECTACAO DE MAGISTRADOSJUBILADOS",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "179",
+         "nome": "Jorge Lacão"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "10:25",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/036/2000-02-05/1377?pgs=1377&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28980",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1377-1377"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "36",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-02-05",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA O ART.69, N.2 DA LEI 69/98, DE 8 DE ABRIL, QUE REGULAA ESTRUTURA E FUNCIONAMENTO DO CENTRO DE ESTUDOS JUDICIARIOSE INTRODUZ UM REGIME EXCEPCIONAL DE AFECTACAO DE MAGISTRADOSJUBILADOS",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "219",
+         "nome": "Odete Santos"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "10:25",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/036/2000-02-05/1375?pgs=1375-1378&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28981",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1375-1378"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "36",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-02-05",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA O ART.69, N.2 DA LEI 69/98, DE 8 DE ABRIL, QUE REGULAA ESTRUTURA E FUNCIONAMENTO DO CENTRO DE ESTUDOS JUDICIARIOSE INTRODUZ UM REGIME EXCEPCIONAL DE AFECTACAO DE MAGISTRADOSJUBILADOS",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1436",
+         "nome": "Joaquim Sarmento"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "10:25",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/036/2000-02-05/1374?pgs=1374-1375&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28982",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1374-1375"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "36",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-02-05",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA O ART.69, N.2 DA LEI 69/98, DE 8 DE ABRIL, QUE REGULAA ESTRUTURA E FUNCIONAMENTO DO CENTRO DE ESTUDOS JUDICIARIOSE INTRODUZ UM REGIME EXCEPCIONAL DE AFECTACAO DE MAGISTRADOSJUBILADOS",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "123",
+         "nome": "Miguel Macedo"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "10:25",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/036/2000-02-05/1372?pgs=1372-1374&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28983",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1372-1374"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "36",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-02-05",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA O ART.69, N.2 DA LEI 69/98, DE 8 DE ABRIL, QUE REGULAA ESTRUTURA E FUNCIONAMENTO DO CENTRO DE ESTUDOS JUDICIARIOSE INTRODUZ UM REGIME EXCEPCIONAL DE AFECTACAO DE MAGISTRADOSJUBILADOS",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "219",
+         "nome": "Odete Santos"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "10:25",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/036/2000-02-05/1371?pgs=1371&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28984",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1371-1371"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "36",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-02-05",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA O ART.69, N.2 DA LEI 69/98, DE 8 DE ABRIL, QUE REGULAA ESTRUTURA E FUNCIONAMENTO DO CENTRO DE ESTUDOS JUDICIARIOSE INTRODUZ UM REGIME EXCEPCIONAL DE AFECTACAO DE MAGISTRADOSJUBILADOS",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "229",
+         "nome": "Narana Coissoró"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "10:25",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/036/2000-02-05/1370?pgs=1370&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28985",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1370-1370"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "36",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-02-05",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA O ART.69, N.2 DA LEI 69/98, DE 8 DE ABRIL, QUE REGULAA ESTRUTURA E FUNCIONAMENTO DO CENTRO DE ESTUDOS JUDICIARIOSE INTRODUZ UM REGIME EXCEPCIONAL DE AFECTACAO DE MAGISTRADOSJUBILADOS",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "10:25",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": "MIN.  DA  JUSTIÇA",
+        "governo": "XIV GOVERNO CONSTITUCIONAL",
+        "nome": "António Costa"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/036/2000-02-05/1368?pgs=1368-1372,1379-1380&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "28986",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1368-1372",
+          "1379-1380"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VIII",
+         "pubNr": "36",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2000-02-05",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA O ART.69, N.2 DA LEI 69/98, DE 8 DE ABRIL, QUE REGULAA ESTRUTURA E FUNCIONAMENTO DO CENTRO DE ESTUDOS JUDICIARIOSE INTRODUZ UM REGIME EXCEPCIONAL DE AFECTACAO DE MAGISTRADOSJUBILADOS",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "249844",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/036/2000-02-05?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "5907",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VIII",
+     "pubNr": "36",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2000-02-05",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2000-02-04",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "105610",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2000-02-04",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> BE</I><BR>Abstenção:<I>PSD</I>, <I> PCP</I>, <I> CDS-PP</I>",
+     "id": "24902",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/036/2000-02-05?org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "111331",
+       "obs": null,
+       "pag": null,
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VIII",
+       "pubNr": "36",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2000-02-05",
+       "supl": null
+      }
+     ],
+     "resultado": "Aprovado",
+     "reuniao": "36",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "270",
+   "Comissao": [
+    {
+     "AccId": "4216",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2000-02-04",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2000-02-04",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSAO DE ASSUNTOS CONSTITUCIONAIS, DIREITOS, LIBERDADES E GARANTIAS",
+     "Numero": "3",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/08/01/022/2000-02-19/458?pgs=458-460&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "458-460"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VIII",
+       "pubNr": "22",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2000-02-19",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/08/01/022/2000-02-19/458?pgs=458-460&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "458-460"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VIII",
+       "pubNr": "22",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2000-02-19",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "179",
+       "motivoCessacao": null,
+       "nome": "Jorge Lacão"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": null,
+       "dataRemessa": "2000-02-16",
+       "numeroOficio": "OF 254/COM",
+       "observacoes": null,
+       "tipoRemessa": "Texto Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2000-02-04",
+   "EvtId": "14",
+   "Fase": "Baixa comissão especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "116751",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2000-02-05",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "105611",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/036/2000-02-05/1368?pgs=1368-1380&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "111330",
+     "obs": null,
+     "pag": [
+      "1368-1380"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VIII",
+     "pubNr": "36",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2000-02-05",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "370",
+   "Comissao": null,
+   "DataFase": "2000-02-08",
+   "EvtId": "23",
+   "Fase": "Envio para promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "131278",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "320",
+   "Comissao": null,
+   "DataFase": "2000-02-18",
+   "EvtId": "18",
+   "Fase": "Votação final global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "105592",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2000-02-18",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> BE</I><BR>Abstenção:<I>PSD</I>, <I> PCP</I>, <I> CDS-PP</I>, <I> PEV</I>",
+     "id": "24896",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/08/01/038/2000-02-19?org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "111322",
+       "obs": null,
+       "pag": null,
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VIII",
+       "pubNr": "38",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2000-02-19",
+       "supl": null
+      }
+     ],
+     "resultado": "Aprovado",
+     "reuniao": "38",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "348",
+   "Comissao": null,
+   "DataFase": "2000-02-22",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "*",
+   "OevId": "149165",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "343",
+   "Comissao": null,
+   "DataFase": "2000-02-25",
+   "EvtId": "76",
+   "Fase": "Devolução do texto final pela comissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "149166",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "380",
+   "Comissao": null,
+   "DataFase": "2000-03-01",
+   "EvtId": "24",
+   "Fase": "Promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "131279",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "350",
+   "Comissao": null,
+   "DataFase": "2000-03-03",
+   "EvtId": "31",
+   "Fase": "Decreto (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "131276",
+   "OevTextId": "2342",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "2342",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "390",
+   "Comissao": null,
+   "DataFase": "2000-03-09",
+   "EvtId": "25",
+   "Fase": "Referenda",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "131280",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2000-03-13",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "131277",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "580",
+   "Comissao": null,
+   "DataFase": "2000-03-20",
+   "EvtId": "32",
+   "Fase": "Lei (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "134109",
+   "OevTextId": "3504",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "3504",
+   "Votacao": null
+  }
+ ],
+ "IniId": "6262",
+ "IniLeg": "VIII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395753556c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245785a6a4e6b595745344c544e6c59544d744e47466c4e4331684e32526a4c5441304f4746694f54517a4e5467784e69356b62324d3d&fich=a1f3daa8-3ea3-4ae4-a7dc-048ab9435816.doc&Inline=true",
+ "IniNr": "13",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "P",
+ "IniTitulo": "Altera o Artigo 69° n°2 da Lei n°16/98 de 8 de Abril que regula a estrutura e funcionamento do Centro de Estudos Judiciários e introduz um regime excepcional de afectação de Magistrados Judiciais Jubilados",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

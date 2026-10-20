@@ -1,0 +1,60 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "ANTÓNIO BARBOSA DE AZEVEDO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "29882",
+      "iniNr": "412",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Elevação de Vila Nova de Famalição a cidade.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29904",
+      "iniNr": "389",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Ensino preparatório e secundário ministrado  em seminários menores",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "BRAGA",
+  "depCPId": "3",
+  "depCadId": "2926",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3591",
+  "depNomeCompleto": "ANTÓNIO SÉRGIO BARBOSA DE AZEVEDO",
+  "depNomeParlamentar": "ANTÓNIO BARBOSA DE AZEVEDO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1985-11-04",
+    "sioDtInicio": "1983-05-31"
+   }
+  },
+  "legDes": "III"
+ }
+}

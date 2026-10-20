@@ -1,0 +1,940 @@
+{
+ "DataFimleg": "2012-09-14",
+ "DataInicioleg": "2011-06-20",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PCP",
+   "idCadastro": "4104",
+   "nome": "Rita Rato"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2184",
+   "nome": "Miguel Tiago"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2234",
+   "nome": "João Oliveira"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2077",
+   "nome": "Francisco Lopes"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "1696",
+   "nome": "Honório Novo"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4197",
+   "nome": "Paula Santos"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "3934",
+   "nome": "João Ramos"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "1058",
+   "nome": "Bernardino Soares"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PCP"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Deputados",
+  "sigla": "D"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2012-03-29",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "283080",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2012-04-04",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "283215",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2012-04-04",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "283216",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "22",
+   "Comissao": null,
+   "DataFase": "2012-04-04",
+   "EvtId": "144",
+   "Fase": "Audição promovida pelo PAR para a ALRAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "283197",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "23",
+   "Comissao": null,
+   "DataFase": "2012-04-04",
+   "EvtId": "145",
+   "Fase": "Audição promovida pelo PAR para a ALRAM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "283198",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "24",
+   "Comissao": null,
+   "DataFase": "2012-04-04",
+   "EvtId": "146",
+   "Fase": "Audição promovida pelo PAR para o Governo da RAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "283199",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "25",
+   "Comissao": null,
+   "DataFase": "2012-04-04",
+   "EvtId": "147",
+   "Fase": "Audição promovida pelo PAR para o Governo da RAM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "283200",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2012-04-04",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "283429",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/01/156/2012-04-03/24?pgs=24-34&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "589074",
+     "obs": null,
+     "pag": [
+      "24-34"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "156",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2012-04-03",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "28574",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2012-04-10",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2012-04-04",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2012-05-07",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer e Nota Técnica da CECC",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a684452554e444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d7a55775a5441355a6d5974593251794f53303059574e694c574a684d546b744d5467344d7a42694f54646a4d7a46694c6e426b5a673d3d&fich=350e09ff-cd29-4acb-ba19-18830b97c31b.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3517",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Educação, Ciência e Cultura",
+     "Numero": "3517",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/01/173/2012-05-03/25?pgs=25-34&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "25-34"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "173",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2012-05-03",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/01/174/2012-05-04/5?pgs=5-14&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "5-14"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "174",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2012-05-04",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/01/173/2012-05-03/25?pgs=25-34&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "25-34"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "173",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2012-05-03",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/01/174/2012-05-04/5?pgs=5-14&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "5-14"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "174",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2012-05-04",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "4170",
+       "motivoCessacao": null,
+       "nome": "Duarte Marques"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2012-05-02",
+       "dataRemessa": "2012-05-02",
+       "numeroOficio": "email",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "PCP",
+        "PEV"
+       ],
+       "data": "2012-05-02",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> BE</I><BR>Ausência: <I>PCP</I>, <I> PEV</I>",
+       "id": "60592",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "89",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2012-04-04",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "283217",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e445a6c4e47526d4d544d745a445a684e433030595449774c546b354f4467744e444a6d5a4459334e6a42685a6d51794c6e426b5a673d3d&fich=46e4df13-d6a4-4a20-9988-42fd6760afd2.pdf&Inline=true",
+     "anexoNome": "Texto do Parecer"
+    }
+   ],
+   "CodigoFase": "173",
+   "Comissao": null,
+   "DataFase": "2012-04-24",
+   "EvtId": "149",
+   "Fase": "Parecer da ALRAM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "283609",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a6a466b59574d334d7a41744e3251794e693030593256694c54677a4f446b745a6a59355a6a5a6d596a4e6c4f4749354c6e426b5a673d3d&fich=f1dac730-7d26-4ceb-8389-f69f6fb3e8b9.pdf&Inline=true",
+     "anexoNome": "Texto do Parecer"
+    }
+   ],
+   "CodigoFase": "172",
+   "Comissao": null,
+   "DataFase": "2012-05-02",
+   "EvtId": "148",
+   "Fase": "Parecer da ALRAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "283775",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "8755",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2012-05-17",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "BE",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "36923",
+     "leg": "XII",
+     "nr": "296",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/110/2012-05-18/31?pgs=31-38&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1646",
+       "obs": null,
+       "pag": [
+        "31-38"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "110",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2012-05-18",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "R",
+     "titulo": "Recomenda ao Governo a alteração ao regulamento de atribuição de bolsas no sentido do seu deferimento a estudantes de familias carenciadas que não sejam titulares de dívidas do agregado familiar."
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2012-05-17",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "4104",
+         "nome": "Rita Rato"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:06",
+       "horaTermo": "18:09",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20120517pln&url=l12/sl1/a2012/m05/&tI=01:47:32:237&drc=00:03:17:619"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20120517pln&url=l12/sl1/a2012/m05/&tI=02:06:14:601&drc=00:01:33:661"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/110/2012-05-18/31?pgs=31-32,37-38&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "184871",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "31-32",
+          "37-38"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-05-18",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei-Quadro da Ação Social Escolar no Ensino Superior e define os apoios específicos aos estudantes; Recomenda ao Governo a alteração ao regulamento de atribuição de bolsas no sentido do seu deferimento a estudantes de familias carenciadas que não sejam titulares de dívidas do agregado familiar.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "1941",
+         "nome": "Ana Drago"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:06",
+       "horaTermo": "18:09",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20120517pln&url=l12/sl1/a2012/m05/&tI=01:51:00:606&drc=00:03:08:364"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20120517pln&url=l12/sl1/a2012/m05/&tI=02:04:05:917&drc=00:02:04:351"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/110/2012-05-18/32?pgs=32-33,37&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "184872",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "32-33",
+          "37-37"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-05-18",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei-Quadro da Ação Social Escolar no Ensino Superior e define os apoios específicos aos estudantes; Recomenda ao Governo a alteração ao regulamento de atribuição de bolsas no sentido do seu deferimento a estudantes de familias carenciadas que não sejam titulares de dívidas do agregado familiar.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4170",
+         "nome": "Duarte Marques"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:06",
+       "horaTermo": "18:09",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20120517pln&url=l12/sl1/a2012/m05/&tI=01:54:15:095&drc=00:02:32:434"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20120517pln&url=l12/sl1/a2012/m05/&tI=02:07:56:451&drc=00:01:24:074"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/110/2012-05-18/33?pgs=33-34,38&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "184873",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "33-34",
+          "38-38"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-05-18",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei-Quadro da Ação Social Escolar no Ensino Superior e define os apoios específicos aos estudantes; Recomenda ao Governo a alteração ao regulamento de atribuição de bolsas no sentido do seu deferimento a estudantes de familias carenciadas que não sejam titulares de dívidas do agregado familiar.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "4428",
+         "nome": "Inês Teotónio Pereira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:06",
+       "horaTermo": "18:09",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20120517pln&url=l12/sl1/a2012/m05/&tI=01:56:56:215&drc=00:03:12:729"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/110/2012-05-18/34?pgs=34-35&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "184874",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "34-35"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-05-18",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei-Quadro da Ação Social Escolar no Ensino Superior e define os apoios específicos aos estudantes; Recomenda ao Governo a alteração ao regulamento de atribuição de bolsas no sentido do seu deferimento a estudantes de familias carenciadas que não sejam titulares de dívidas do agregado familiar.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "4453",
+         "nome": "Pedro Delgado Alves"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:06",
+       "horaTermo": "18:09",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20120517pln&url=l12/sl1/a2012/m05/&tI=02:00:18:321&drc=00:03:32:659"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/110/2012-05-18/36?pgs=36&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "184875",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "36-36"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-05-18",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Lei-Quadro da Ação Social Escolar no Ensino Superior e define os apoios específicos aos estudantes; Recomenda ao Governo a alteração ao regulamento de atribuição de bolsas no sentido do seu deferimento a estudantes de familias carenciadas que não sejam titulares de dívidas do agregado familiar.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "284010",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/110/2012-05-18/31?pgs=31-38&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "593690",
+     "obs": null,
+     "pag": [
+      "31-38"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "110",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2012-05-18",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2012-05-18",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "284113",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/111/2012-05-19/50?pgs=50&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "592403",
+     "obs": null,
+     "pag": [
+      "50-50"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "111",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2012-05-19",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2012-05-18",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>",
+     "id": "60722",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "111",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "36887",
+ "IniLeg": "XII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a5755324d4456695a6a59744e6a55334d7930305a574e694c5749354e6d51744e574a684e474a694d6d49794e7a646d4c6d527659773d3d&fich=ee605bf6-6573-4ecb-b96d-5ba4bb2b277f.doc&Inline=true",
+ "IniNr": "207",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Aprova a Lei-Quadro da Ação Social Escolar no Ensino Superior e define os apoios específicos aos estudantes.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

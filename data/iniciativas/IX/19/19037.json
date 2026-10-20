@@ -1,0 +1,5985 @@
+{
+ "DataFimleg": "2003-09-14",
+ "DataInicioleg": "2002-04-05",
+ "IniAnexos": null,
+ "IniAutorDeputados": null,
+ "IniAutorGruposParlamentares": null,
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Governo",
+  "sigla": "V"
+ },
+ "IniDescTipo": "Proposta de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2002-05-23",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152082",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2002-05-24",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152083",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "5693",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2002-06-06",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2002-05-24",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": "2002-07-23",
+     "DatainicioApreciacaoPublica": "2002-06-24",
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "109",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSÃO DE TRABALHO E DOS ASSUNTOS SOCIAIS",
+     "Numero": "109",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/01/013/2002-06-15/369?pgs=369&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "369-369"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "13",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2002-06-15",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/01/013/2002-06-15/369?pgs=369&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "369-369"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "13",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2002-06-15",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "1867",
+       "motivoCessacao": null,
+       "nome": "Vieira da Silva"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2002-06-11",
+       "dataRemessa": "2002-06-12",
+       "numeroOficio": "413/COM",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2002-06-12",
+       "descricao": "UNANIMIDADE",
+       "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+       "id": "29017",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "10",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2002-05-24",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152132",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2002-05-29",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152084",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2002-06-01",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152700",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/01/010/2002-06-01/271?pgs=271&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "271098",
+     "obs": null,
+     "pag": [
+      "271-271"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "10",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2002-06-01",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "2183",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2002-06-14",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "BE",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "19049",
+     "leg": "IX",
+     "nr": "15",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/773?pgs=773-798&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "631",
+       "obs": null,
+       "pag": [
+        "773-798"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "20",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2002-06-15",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "R",
+     "titulo": "Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos."
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2002-06-14",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": "MIN.  DA  SEGURANÇA SOCIAL E DO TRABALHO",
+        "governo": "XV GOVERNO CONSTITUCIONAL",
+        "nome": "Antonio Bagao Felix"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/773?pgs=773-776,778-779,781-782,784-785,797&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141080",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "773-776",
+          "778-779",
+          "781-782",
+          "784-785",
+          "797-797"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "618",
+         "nome": "Guilherme Silva"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/776?pgs=776&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141081",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "776-776"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1867",
+         "nome": "Vieira da Silva"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/776?pgs=776-777&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141082",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "776-777"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1655",
+         "nome": "Telmo Correia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/777?pgs=777&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141083",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "777-777"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "1651",
+         "nome": "Francisco Louçã"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/779?pgs=779&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141084",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "779-779"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "231",
+         "nome": "Isabel Castro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/779?pgs=779-780,784&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141085",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "779-780",
+          "784-784"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "215",
+         "nome": "Lino de Carvalho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/780?pgs=780&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141086",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "780-780"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1655",
+         "nome": "Telmo Correia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/781?pgs=781&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141087",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "781-781"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "215",
+         "nome": "Lino de Carvalho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/781?pgs=781&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141088",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "781-781"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1023",
+         "nome": "Maria do Rosário Carneiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/782?pgs=782&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141089",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "782-782"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1612",
+         "nome": "Ana Manso"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/782?pgs=782-783&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141090",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "782-783"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1657",
+         "nome": "João Pinho de Almeida"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/788?pgs=788-789&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141091",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "788-789"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "263",
+         "nome": "Luís Fazenda"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/785?pgs=785-786&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141092",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "785-786"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1612",
+         "nome": "Ana Manso"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/786?pgs=786-789&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141093",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "786-789"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "1773",
+         "nome": "João Teixeira Lopes"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/788?pgs=788-789&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141094",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "788-789"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "722",
+         "nome": "Paulo Pedroso"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/789?pgs=789-792,796-797&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "141095",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "789-792",
+          "796-797"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "231",
+         "nome": "Isabel Castro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/792?pgs=792-793&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144562",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "792-793"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "215",
+         "nome": "Lino de Carvalho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/793?pgs=793-794&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144563",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "793-794"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1655",
+         "nome": "Telmo Correia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/794?pgs=794-795&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144564",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "794-795"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "722",
+         "nome": "Paulo Pedroso"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/797?pgs=797-798&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144565",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "797-798"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": "MIN.  DA  SEGURANÇA SOCIAL E DO TRABALHO",
+        "governo": "XV GOVERNO CONSTITUCIONAL",
+        "nome": "Antonio Bagao Felix"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/798?pgs=798&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144566",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "798-798"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "20",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-06-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção; Ampliar a aplicação do Rendimento Mínimo e as medidas de inserção na vida activa dos cidadãos.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152367",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/020/2002-06-15/773?pgs=773-798&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "271291",
+     "obs": null,
+     "pag": [
+      "773-798"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "20",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2002-06-15",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "60",
+   "Comissao": null,
+   "DataFase": "2002-06-20",
+   "EvtId": "53",
+   "Fase": "Retificação da iniciativa",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "153014",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/01/014/2002-06-20/389?pgs=389&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "271351",
+     "obs": "(Apresentadas pelo Governo)",
+     "pag": [
+      "389-389"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "14",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2002-06-20",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "170",
+   "Comissao": null,
+   "DataFase": "2002-06-20",
+   "EvtId": "55",
+   "Fase": "Audição Assembleias Legislativas Regionais (Parecer do Gov. Regional ou de comissões da AR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "153015",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/01/014/2002-06-20/389?pgs=389&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "271352",
+     "obs": "Parecer  da  Comissão de Saúde, Assuntos Sociais e Protecção Civil da Assembleia Legislativa Regional da Madeira)",
+     "pag": [
+      "389-389"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "14",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2002-06-20",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2002-06-20",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152475",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/022/2002-06-21/873?pgs=873&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "271311",
+     "obs": null,
+     "pag": [
+      "873-873"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "22",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2002-06-21",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2002-06-20",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PCP</I>, <I> BE</I>, <I> PEV</I><BR>Abstenção:<I>PS</I>",
+     "id": "28988",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "22",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "270",
+   "Comissao": [
+    {
+     "AccId": "5774",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2002-09-24",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2002-06-20",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "109",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSÃO DE TRABALHO E DOS ASSUNTOS SOCIAIS",
+     "Numero": "109",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/01/030/2002-10-08/900?pgs=900-915&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Relatório da apreciação e votação na especialidade, propostas de alteração e texto final",
+       "pag": [
+        "900-915"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "30",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2002-10-08",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/01/035/2002-10-25/1054?pgs=1054-1059&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Redacção final do texto (publicado ao abrigo do artº165º, nº4, do RAR)",
+       "pag": [
+        "1054-1059"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "35",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2002-10-25",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/01/030/2002-10-08/900?pgs=900-915&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Relatório da apreciação e votação na especialidade, propostas de alteração e texto final",
+       "pag": [
+        "900-915"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "30",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2002-10-08",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/01/035/2002-10-25/1054?pgs=1054-1059&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Redacção final do texto (publicado ao abrigo do artº165º, nº4, do RAR)",
+       "pag": [
+        "1054-1059"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "35",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2002-10-25",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "1607",
+       "motivoCessacao": null,
+       "nome": "Patinha Antão"
+      },
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "1612",
+       "motivoCessacao": null,
+       "nome": "Ana Manso"
+      },
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "1991",
+       "motivoCessacao": null,
+       "nome": "Clara Carneiro"
+      },
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "1488",
+       "motivoCessacao": null,
+       "nome": "Afonso Candal"
+      },
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "177",
+       "motivoCessacao": null,
+       "nome": "João Rui de Almeida"
+      },
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "1701",
+       "motivoCessacao": null,
+       "nome": "Luísa Portugal"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2002-09-24",
+       "dataRemessa": null,
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      },
+      {
+       "dataDocumento": "2002-09-24",
+       "dataRemessa": "2002-09-25",
+       "numeroOficio": "782/COM",
+       "observacoes": null,
+       "tipoRemessa": "Texto Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2002-09-23",
+       "descricao": "ARTIGO A ARTIGO",
+       "detalhe": null,
+       "id": "29238",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "26",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
+    }
+   ],
+   "DataFase": "2002-06-20",
+   "EvtId": "14",
+   "Fase": "Baixa comissão especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152557",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "170",
+   "Comissao": null,
+   "DataFase": "2002-06-22",
+   "EvtId": "55",
+   "Fase": "Audição Assembleias Legislativas Regionais (Parecer do Gov. Regional ou de comissões da AR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "153030",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/01/015/2002-06-22/449?pgs=449&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "271369",
+     "obs": "Parecer  da  Comissão de Assuntos Sociais da Assembleia Legislativa Regional dos Açores)",
+     "pag": [
+      "449-449"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "15",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2002-06-22",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "55",
+   "Comissao": null,
+   "DataFase": "2002-06-24",
+   "EvtId": "49",
+   "Fase": "Publicação em Separata",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "152677",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/sep/09/01/007/2002-06-24?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "271081",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "7",
+     "pubSL": "1",
+     "pubTipo": "Separata",
+     "pubTp": "S",
+     "pubdt": "2002-06-24",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "2268",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "280",
+   "Comissao": null,
+   "DataFase": "2002-09-26",
+   "EvtId": "15",
+   "Fase": "Requerimento avocação plenário",
+   "IniciativasConjuntas": [
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Lei",
+     "id": "19037",
+     "leg": "IX",
+     "nr": "6",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/041/2002-09-27/1687?pgs=1687&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "649",
+       "obs": null,
+       "pag": [
+        "1687-1687"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "41",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2002-09-27",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "P",
+     "titulo": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2002-09-26",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1867",
+         "nome": "Vieira da Silva"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:20",
+       "horaTermo": "18:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/041/2002-09-27/1687?pgs=1687&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "142105",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1687-1687"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "41",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-09-27",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "153458",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/041/2002-09-27/1678?pgs=1678&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "272748",
+     "obs": null,
+     "pag": [
+      "1678-1678"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "41",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2002-09-27",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": [
+    "PS"
+   ],
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2002-09-26",
+     "descricao": "Da discussão e votação na especialidade, pelo Plenário dos artigos 4.º e 5.º",
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "29202",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "39",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": "2269",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "280",
+   "Comissao": null,
+   "DataFase": "2002-09-26",
+   "EvtId": "15",
+   "Fase": "Requerimento avocação plenário",
+   "IniciativasConjuntas": [
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Lei",
+     "id": "19037",
+     "leg": "IX",
+     "nr": "6",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/041/2002-09-27/1687?pgs=1687&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "649",
+       "obs": null,
+       "pag": [
+        "1687-1687"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "41",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2002-09-27",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "P",
+     "titulo": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2002-09-26",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1867",
+         "nome": "Vieira da Silva"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:20",
+       "horaTermo": "18:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/041/2002-09-27/1687?pgs=1687&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "142105",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1687-1687"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "41",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-09-27",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "153459",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/041/2002-09-27/1687?pgs=1687&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "272749",
+     "obs": null,
+     "pag": [
+      "1687-1687"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "41",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2002-09-27",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": [
+    "PS"
+   ],
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2002-09-26",
+     "descricao": "Da discussão e votação na especialidade, pelo Plenário dos artigos 12.º e 14.º",
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "29203",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "39",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": "2270",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "320",
+   "Comissao": null,
+   "DataFase": "2002-09-26",
+   "EvtId": "18",
+   "Fase": "Votação final global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2002-09-26",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "722",
+         "nome": "Paulo Pedroso"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:20",
+       "horaTermo": "18:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/041/2002-09-27/1690?pgs=1690&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "142106",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1690-1690"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "41",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-09-27",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1600",
+         "nome": "Jamila Madeira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:20",
+       "horaTermo": "18:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/041/2002-09-27/1690?pgs=1690&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "142107",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1690-1690"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "41",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-09-27",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1553",
+         "nome": "Teresa Venda"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:20",
+       "horaTermo": "18:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/041/2002-09-27/1690?pgs=1690&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "142108",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1690-1690"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "41",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-09-27",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "159",
+         "nome": "Artur Penedos"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:20",
+       "horaTermo": "18:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/041/2002-09-27/1690?pgs=1690&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "142109",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1690-1690"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "41",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-09-27",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "153460",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/041/2002-09-27?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "2270",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "41",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2002-09-27",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2002-09-26",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "29204",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "39",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "350",
+   "Comissao": null,
+   "DataFase": "2002-09-26",
+   "EvtId": "31",
+   "Fase": "Decreto (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "153973",
+   "OevTextId": "4429",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "4429",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "348",
+   "Comissao": null,
+   "DataFase": "2002-10-08",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "*",
+   "OevId": "153637",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "348",
+   "Comissao": [
+    {
+     "AccId": "6365",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2002-10-08",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2002-10-08",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "109",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSÃO DE TRABALHO E DOS ASSUNTOS SOCIAIS",
+     "Numero": "109",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": null,
+       "dataRemessa": "2002-10-10",
+       "numeroOficio": "939/COM",
+       "observacoes": null,
+       "tipoRemessa": "Redação Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2002-10-08",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "*",
+   "OevId": "155468",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "343",
+   "Comissao": null,
+   "DataFase": "2002-10-10",
+   "EvtId": "76",
+   "Fase": "Devolução do texto final pela comissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "153638",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "344",
+   "Comissao": null,
+   "DataFase": "2002-10-25",
+   "EvtId": "85",
+   "Fase": "Envio publicação redação final do texto",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "153972",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "370",
+   "Comissao": null,
+   "DataFase": "2002-11-21",
+   "EvtId": "23",
+   "Fase": "Envio para promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Decreto n.º 18/IX",
+   "OevId": "154299",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "410",
+   "Comissao": null,
+   "DataFase": "2003-01-08",
+   "EvtId": "30",
+   "Fase": "Veto (Leitura)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Tribunal Constitucional, em sede de fiscalização preventiva pronunciou-se pela insconstitucionalidade da norma do artigo 4.º, n.º 1 do Decreto n.º 18/IX",
+   "OevId": "154931",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "415",
+   "Comissao": null,
+   "DataFase": "2003-01-09",
+   "EvtId": "47",
+   "Fase": "Veto (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Mensagem do PR e Acórdão do TC - Decreto nº 18/IX",
+   "OevId": "155690",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/01/056S1/2003-01-09/2328-(2)?pgs=2328-(2)-2328-(15)&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "276254",
+     "obs": "-(2) a 2328-(15)",
+     "pag": [
+      "2328-(2)-2328-(15)"
+     ],
+     "pagFinalDiarioSupl": "1º Supl.",
+     "pubLeg": "IX",
+     "pubNr": "56",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2003-01-09",
+     "supl": "1º Supl."
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "2437",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "440",
+   "Comissao": null,
+   "DataFase": "2003-02-05",
+   "EvtId": "20",
+   "Fase": "Discussão generalidade decreto",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2003-02-05",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "156",
+         "nome": "António Costa"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3487?pgs=3487&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144159",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3487-3487"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96, de 29 de Junho e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1612",
+         "nome": "Ana Manso"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3487?pgs=3487-3488&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144160",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3487-3488"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96, de 29 de Junho e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1867",
+         "nome": "Vieira da Silva"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3488?pgs=3488-3489&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144161",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3488-3489"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96, de 29 de Junho e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1047",
+         "nome": "Nuno Teixeira de Melo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3489?pgs=3489-3490&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144178",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3489-3490"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96, de 29 de Junho e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "263",
+         "nome": "Luís Fazenda"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3490?pgs=3490-3491&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144179",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3490-3491"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96, de 29 de Junho e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "231",
+         "nome": "Isabel Castro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3491?pgs=3491&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144180",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3491-3491"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96, de 29 de Junho e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "215",
+         "nome": "Lino de Carvalho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3491?pgs=3491-3492&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146533",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3491-3492"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96, de 29 de Junho e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": "MIN.  DA  SEGURANÇA SOCIAL E DO TRABALHO",
+        "governo": "XV GOVERNO CONSTITUCIONAL",
+        "nome": "Antonio Bagao Felix"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3492?pgs=3492-3493&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146534",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3492-3493"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96, de 29 de Junho e cria o rendimento social de inserção",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": "Decreto n.º 18/IX",
+   "OevId": "155084",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "2437",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "83",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2003-02-06",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "450",
+   "Comissao": null,
+   "DataFase": "2003-02-05",
+   "EvtId": "58",
+   "Fase": "Votação generalidade decreto",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Segunda Deliberação do Decreto n.º 18/IX",
+   "OevId": "155106",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3493?pgs=3493-3494&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "276078",
+     "obs": null,
+     "pag": [
+      "3493-3494"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "83",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2003-02-06",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2003-02-05",
+     "descricao": "Expurgo do n.º 1 do artigo 4.º do Decreto n.º 18/IX",
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "29704",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "81",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "470",
+   "Comissao": null,
+   "DataFase": "2003-02-05",
+   "EvtId": "21",
+   "Fase": "Discussão especialidade decreto em Plenário",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Decreto n.º 18/IX",
+   "OevId": "155085",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3494?pgs=3494-3505&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "276079",
+     "obs": null,
+     "pag": [
+      "3494-3505"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "83",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2003-02-06",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "2442",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "480",
+   "Comissao": null,
+   "DataFase": "2003-02-05",
+   "EvtId": "59",
+   "Fase": "Votação especialidade decreto",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2003-02-05",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1867",
+         "nome": "Vieira da Silva"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3494?pgs=3494-3496,3498-3499,3503-3504&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144184",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3494-3496",
+          "3498-3499",
+          "3503-3504"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96 e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "215",
+         "nome": "Lino de Carvalho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3495?pgs=3495,3505&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144185",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3495-3495",
+          "3505-3505"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96 e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "219",
+         "nome": "Odete Santos"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3495?pgs=3495-3496&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146750",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3495-3496"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96 e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "231",
+         "nome": "Isabel Castro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3496?pgs=3496-3497,3502&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146751",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3496-3497",
+          "3502-3502"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96 e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": "MIN.  DA  SEGURANÇA SOCIAL E DO TRABALHO",
+        "governo": "XV GOVERNO CONSTITUCIONAL",
+        "nome": "Antonio Bagao Felix"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3497?pgs=3497&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146752",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3497-3497"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96 e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "321",
+         "nome": "Francisco José Martins"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3498?pgs=3498-3500&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146753",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3498-3500"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96 e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1047",
+         "nome": "Nuno Teixeira de Melo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3500?pgs=3500&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146754",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3500-3500"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96 e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "215",
+         "nome": "Lino de Carvalho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3500?pgs=3500&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146755",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3500-3500"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96 e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1655",
+         "nome": "Telmo Correia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3500?pgs=3500&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146756",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3500-3500"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96 e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "215",
+         "nome": "Lino de Carvalho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3501?pgs=3501&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146757",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3501-3501"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96 e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1655",
+         "nome": "Telmo Correia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3502?pgs=3502&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146758",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3502-3502"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96 e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "263",
+         "nome": "Luís Fazenda"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3502?pgs=3502-3503&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146759",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3502-3503"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96 e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "618",
+         "nome": "Guilherme Silva"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3504?pgs=3504&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146760",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3504-3504"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96 e cria o rendimento social de inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1867",
+         "nome": "Vieira da Silva"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3504?pgs=3504&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146761",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3504-3504"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o rendimento mínimo garantido previsto na Lei n.º 19-A/96 e cria o rendimento social de inserção",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": "Decreto n.º 18/IX",
+   "OevId": "155107",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "2442",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "83",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2003-02-06",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2003-02-05",
+     "descricao": "Proposta de alteração, ao artigo 1.º, apresentada pelo PPD/PSD e CDS-PP",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PCP</I>, <I> BE</I>, <I> PEV</I><BR>Abstenção:<I>PS</I>",
+     "id": "29705",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "81",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-02-05",
+     "descricao": "Proposta de alteração, ao n.º 1 do artigo 4.º, apresentada pelo PPD/PSD e CDS-PP",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PCP</I>, <I> BE</I>, <I> PEV</I><BR>Abstenção:<I>PS</I>",
+     "id": "29706",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "81",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-02-05",
+     "descricao": "Proposta de alteração, ao n.º 2 do artigo 4.º, apresentada pelo PPD/PSD e CDS-PP",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "29708",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "81",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-02-05",
+     "descricao": "Proposta de alteração, da alínea b) do n.º 1 do artigo 5.º, apresentada pelo PS",
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "29709",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "81",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-02-05",
+     "descricao": "Proposta de eliminação, da alínea c) do n.º 1 do artigo 5.º, apresentada pelo PS",
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "29710",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "81",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-02-05",
+     "descricao": "Proposta de alteração, ao artigo 41.º, apresentada pelo PPD/PSD e CDS-PP",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Abstenção:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "29718",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "81",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-02-05",
+     "descricao": "Proposta de aditamento, de uma nova alínea d) ao n.º 1 do artigo 6.º, apresentada pelo PS",
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "29720",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "81",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-02-05",
+     "descricao": "Proposta de aditamento, de um novo n.º 4 ao artigo 6.º, apresentada pelo PPD/PSD e CDS-PP",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "29712",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "81",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-02-05",
+     "descricao": "Proposta de alteração, ao artigo 7.º, apresentada pelo PPD/PSD e CDS-PP",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "29713",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "81",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-02-05",
+     "descricao": "Proposta de alteração, ao artigo 9.º, apresentada pelo PPD/PSD e CDS-PP",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "29714",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "81",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-02-05",
+     "descricao": "Proposta de alteração, aos n.ºs 1, 2 e 3 do artigo 14.º, apresentada pelo PS",
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "29715",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "81",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-02-05",
+     "descricao": "Proposta de alteração, ao artigo 26.º, apresentada pelo PPD/PSD e CDS-PP",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "29716",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "81",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-02-05",
+     "descricao": "Proposta de alteração, ao artigo 40.º, apresentada pelo PPD/PSD e CDS-PP",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Abstenção:<I>PS</I>, <I> PCP</I>, <I> PEV</I>",
+     "id": "29717",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "81",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": "2443",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "510",
+   "Comissao": null,
+   "DataFase": "2003-02-05",
+   "EvtId": "22",
+   "Fase": "Votação final global decreto",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2003-02-05",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "722",
+         "nome": "Paulo Pedroso"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3506?pgs=3506&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144188",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3506-3506"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1612",
+         "nome": "Ana Manso"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "18:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06/3506?pgs=3506&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144189",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3506-3506"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "83",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-02-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": "Do novo Decreto",
+   "OevId": "155108",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/083/2003-02-06?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "2443",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "83",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2003-02-06",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2003-02-05",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "29719",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "81",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "519",
+   "Comissao": null,
+   "DataFase": "2003-02-05",
+   "EvtId": "60",
+   "Fase": "Decreto (2ª versão) (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "155414",
+   "OevTextId": "4524",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "4524",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "348",
+   "Comissao": null,
+   "DataFase": "2003-02-12",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Decreto (2.ª Versão)*",
+   "OevId": "155491",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "430",
+   "Comissao": null,
+   "DataFase": "2003-02-12",
+   "EvtId": "48",
+   "Fase": "Acordão TC (nº/ano - Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Acórdão nº 509/2002 - Decreto nº 18/IX",
+   "OevId": "155691",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "http://data.dre.pt/eli/diario/1a/36/2003/0/pt/html",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "276258",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "36",
+     "pubSL": "1",
+     "pubTipo": "DR I série A",
+     "pubTp": "R",
+     "pubdt": "2003-02-12",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "348",
+   "Comissao": [
+    {
+     "AccId": "6366",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2003-02-13",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2003-02-13",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "109",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSÃO DE TRABALHO E DOS ASSUNTOS SOCIAIS",
+     "Numero": "109",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": null,
+       "dataRemessa": "2003-02-26",
+       "numeroOficio": "1945/COM",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2003-02-13",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "*",
+   "OevId": "155469",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "343",
+   "Comissao": null,
+   "DataFase": "2003-02-26",
+   "EvtId": "76",
+   "Fase": "Devolução do texto final pela comissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Decreto (2.ª Versão)",
+   "OevId": "155492",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "520",
+   "Comissao": null,
+   "DataFase": "2003-03-06",
+   "EvtId": "66",
+   "Fase": "Envio para promulgação (2ª versão)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Decreto n.º 34/IX",
+   "OevId": "155490",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "570",
+   "Comissao": null,
+   "DataFase": "2003-03-26",
+   "EvtId": "63",
+   "Fase": "Novo Veto do PR - Mensagem (Leitura)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Veto relativo ao Decreto n.º 34/IX",
+   "OevId": "155768",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/01/082/2003-03-28/3377?pgs=3377-3378&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "276757",
+     "obs": null,
+     "pag": [
+      "3377-3378"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "82",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2003-03-28",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "335",
+   "Comissao": null,
+   "DataFase": "2003-04-10",
+   "EvtId": "73",
+   "Fase": "Votação Deliberação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Segunda Deliberação do Decreto n.º 34/IX",
+   "OevId": "156038",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4677?pgs=4677&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "276979",
+     "obs": null,
+     "pag": [
+      "4677-4677"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "110",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2003-04-11",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2003-04-10",
+     "descricao": "O decreto não foi confirmado (por unanimidade)",
+     "detalhe": "Contra:<I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "29984",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "108",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": "2515",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "440",
+   "Comissao": null,
+   "DataFase": "2003-04-10",
+   "EvtId": "20",
+   "Fase": "Discussão generalidade decreto",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2003-04-10",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "215",
+         "nome": "Lino de Carvalho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4619?pgs=4619&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144875",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4619-4619"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1612",
+         "nome": "Ana Manso"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4619?pgs=4619-4620&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144876",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4619-4620"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "215",
+         "nome": "Lino de Carvalho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4620?pgs=4620-4621&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144877",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4620-4621"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "263",
+         "nome": "Luís Fazenda"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4621?pgs=4621-4622&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144878",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4621-4622"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1867",
+         "nome": "Vieira da Silva"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4622?pgs=4622-4623&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144879",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4622-4623"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "231",
+         "nome": "Isabel Castro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4623?pgs=4623-4624&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144880",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4623-4624"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1290",
+         "nome": "Álvaro Castello-branco"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4624?pgs=4624&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144881",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4624-4624"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": "MIN.  DA  SEGURANÇA SOCIAL E DO TRABALHO",
+        "governo": "XV GOVERNO CONSTITUCIONAL",
+        "nome": "Antonio Bagao Felix"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4624?pgs=4624-4626&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144882",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4624-4626"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "189",
+         "nome": "José Magalhães"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4626?pgs=4626&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144883",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4626-4626"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1047",
+         "nome": "Nuno Teixeira de Melo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4626?pgs=4626&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144884",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4626-4626"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "215",
+         "nome": "Lino de Carvalho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4626?pgs=4626&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144885",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4626-4626"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": "Decreto nº 34/IX",
+   "OevId": "155974",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "2515",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "110",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2003-04-11",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "2527",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "480",
+   "Comissao": null,
+   "DataFase": "2003-04-10",
+   "EvtId": "59",
+   "Fase": "Votação especialidade decreto",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2003-04-10",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "189",
+         "nome": "José Magalhães"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4677?pgs=4677-4678&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144886",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4677-4678"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1239",
+         "nome": "Luís Marques Guedes"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4677?pgs=4677-4678&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144887",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4677-4678"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "1058",
+         "nome": "Bernardino Soares"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4678?pgs=4678&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144888",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4678-4678"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1867",
+         "nome": "Vieira da Silva"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4678?pgs=4678-4680&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144889",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4678-4680"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1607",
+         "nome": "Patinha Antão"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4678?pgs=4678-4679&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144890",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4678-4679"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "215",
+         "nome": "Lino de Carvalho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4679?pgs=4679&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144891",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4679-4679"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1290",
+         "nome": "Álvaro Castello-branco"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4680?pgs=4680-4681&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144892",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4680-4681"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "263",
+         "nome": "Luís Fazenda"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4681?pgs=4681&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144893",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4681-4681"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": "Decreto n.º 34/IX",
+   "OevId": "156039",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "2527",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "110",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2003-04-11",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2003-04-10",
+     "descricao": "Proposta de alteração, apresentada pelo PS, ao artigo 4.º",
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "29985",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "108",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-04-10",
+     "descricao": "Proposta de alteração, apresentada pelo PS, ao artigo 5.º",
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "29986",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "108",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-04-10",
+     "descricao": "Proposta de alteração, apresentada pelo PS, ao artigo 6.º",
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "29987",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "108",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-04-10",
+     "descricao": "Proposta de eliminação, apresentada pelo PS, do artigo 7.º",
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "29988",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "108",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-04-10",
+     "descricao": "Proposta de alteração, apresentada pelo PPD/PSD e CDS-PP, da alínea a) do n.º 1 do artigo 7.º",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Abstenção:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "29989",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "108",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-04-10",
+     "descricao": "Proposta de alteração, apresentada pelo PPD/PSD e CDS-PP, da alínea c) do n.º 1 do artigo 7.º",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PCP</I>, <I> BE</I>, <I> PEV</I><BR>Abstenção:<I>PS</I>",
+     "id": "29990",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "108",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-04-10",
+     "descricao": "Proposta de aditamento, apresentada pelo PPD/PSD e CDS-PP, de um novo n.º 3 ao artigo 7.º",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PCP</I>, <I> BE</I>, <I> PEV</I><BR>Abstenção:<I>PS</I>",
+     "id": "29991",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "108",
+     "tipoReuniao": "RP",
+     "unanime": null
+    },
+    {
+     "ausencias": null,
+     "data": "2003-04-10",
+     "descricao": "Proposta de alteração, apresentada pelo PS, ao artigo 15.º",
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "29992",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "108",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": "2528",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "510",
+   "Comissao": null,
+   "DataFase": "2003-04-10",
+   "EvtId": "22",
+   "Fase": "Votação final global decreto",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2003-04-10",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1239",
+         "nome": "Luís Marques Guedes"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "22:10",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11/4684?pgs=4684&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "144895",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4684-4684"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-04-11",
+         "supl": null
+        }
+       ],
+       "sumario": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": "Novo Decreto",
+   "OevId": "156040",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/110/2003-04-11?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "2528",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "110",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2003-04-11",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2003-04-10",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PCP</I>, <I> BE</I>, <I> PEV</I><BR>Abstenção:<I>PS</I>",
+     "id": "29993",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "108",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "535",
+   "Comissao": null,
+   "DataFase": "2003-04-10",
+   "EvtId": "86",
+   "Fase": "Decreto (3ª versão) (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "156211",
+   "OevTextId": "4577",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "4577",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "348",
+   "Comissao": null,
+   "DataFase": "2003-04-23",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Decreto (3.ª Versão)*",
+   "OevId": "156220",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "343",
+   "Comissao": null,
+   "DataFase": "2003-04-30",
+   "EvtId": "76",
+   "Fase": "Devolução do texto final pela comissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Decreto (3.ª Versão)",
+   "OevId": "156221",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "536",
+   "Comissao": null,
+   "DataFase": "2003-05-05",
+   "EvtId": "87",
+   "Fase": "Envio para Promulgação (3ª versão)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Decreto n.º 44/IX",
+   "OevId": "156409",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "537",
+   "Comissao": null,
+   "DataFase": "2003-05-09",
+   "EvtId": "89",
+   "Fase": "Promulgação (3ª versão)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Decreto n.º 44/IX",
+   "OevId": "156515",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "538",
+   "Comissao": null,
+   "DataFase": "2003-05-12",
+   "EvtId": "88",
+   "Fase": "Referenda (3ª versão)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Decreto n.º 44/IX",
+   "OevId": "156516",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "539",
+   "Comissao": null,
+   "DataFase": "2003-05-14",
+   "EvtId": "90",
+   "Fase": "Envio INCM (3ª versão)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "156517",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "580",
+   "Comissao": null,
+   "DataFase": "2003-05-21",
+   "EvtId": "32",
+   "Fase": "Lei (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "156579",
+   "OevTextId": "4622",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "4622",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "602",
+   "Comissao": null,
+   "DataFase": "2003-05-29",
+   "EvtId": "36",
+   "Fase": "Retificação (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "170184",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "http://data.dre.pt/eli/diario/1a/124/2003/0/pt/html",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "298706",
+     "obs": "Declaração de Rectificação nº 7/2003 (Republicação da Lei )",
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "124",
+     "pubSL": "1",
+     "pubTipo": "DR I série A",
+     "pubTp": "R",
+     "pubdt": "2003-05-29",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  }
+ ],
+ "IniId": "19037",
+ "IniLeg": "IX",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379394a5745786c5a79394562324e31625756756447397a5357357059326c6864476c32595338304d7a6b32597a6b344e4330344e4455334c5451794d475174595451314d6930314e6a45784d6a526c5a4449344d7a45755a47396a&fich=4396c984-8457-420d-a452-561124ed2831.doc&Inline=true",
+ "IniNr": "6",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "P",
+ "IniTitulo": "Revoga o Rendimento Mínimo Garantido previsto na Lei n.º 19-A/96 e cria o Rendimento Social de Inserção",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

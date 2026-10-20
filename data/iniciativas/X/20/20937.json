@@ -1,0 +1,704 @@
+{
+ "DataFimleg": "2006-09-14",
+ "DataInicioleg": "2005-03-10",
+ "IniAnexos": null,
+ "IniAutorDeputados": null,
+ "IniAutorGruposParlamentares": null,
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Governo",
+  "sigla": "V"
+ },
+ "IniDescTipo": "Proposta de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2005-06-30",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "171021",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2005-07-01",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "171074",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "8110",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2005-07-08",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2005-07-06",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "244",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas (pré RAR)",
+     "Numero": "244",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/10/01/091/2006-03-04/19?pgs=19-21&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "19-21"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "91",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2006-03-04",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/10/01/091/2006-03-04/19?pgs=19-21&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "19-21"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "91",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2006-03-04",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "1742",
+       "motivoCessacao": null,
+       "nome": "Mário Santos David"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2006-03-01",
+       "dataRemessa": "2006-03-01",
+       "numeroOficio": "2015/COM",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "BE"
+       ],
+       "data": "2006-03-01",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> PCP</I>, <I> CDS-PP</I><BR>Ausência: <I>BE</I>",
+       "id": "33874",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "39",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2005-07-01",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "171100",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2005-07-06",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "171084",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2005-07-07",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "172014",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/10/01/032S2/2005-07-07/2?pgs=2-26&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "307963",
+     "obs": null,
+     "pag": [
+      "2-26"
+     ],
+     "pagFinalDiarioSupl": "2º Supl.",
+     "pubLeg": "X",
+     "pubNr": "32",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2005-07-07",
+     "supl": "2º Supl."
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "3733",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2006-03-03",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": [
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20936",
+     "leg": "X",
+     "nr": "7",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/098/2006-03-04/4616?pgs=4616-4619&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "888",
+       "obs": null,
+       "pag": [
+        "4616-4619"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "98",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-03-04",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova, para ratificação, o Acordo de Diálogo político e Cooperação entre a Comunidade Europeia e os seus Estados Membros, por um lado, e as Repúblicas da Costa Rica, de El Salvador, da Guatemala, das Honduras, da Nicarágua e do Panamá, por outro, assinado em Roma, em 15 de Dezembro de 2003."
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2006-03-03",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:40",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": "S.E. DOS ASSUNTOS EUROPEUS",
+        "governo": "XVII GOVERNO CONSTITUCIONAL",
+        "nome": "Fernando de Oliveira Neves"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/098/2006-03-04/4616?pgs=4616-4617&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "154652",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4616-4617"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "98",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-03-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, o Acordo de Diálogo político e Cooperação entre a Comunidade Europeia e os seus Estados Membros, por um lado, e as Repúblicas da Costa Rica, de El Salvador, da Guatemala, das Honduras, da Nicarágua e do Panamá, por outro, assinado em Roma, em 15 de Dezembro de 2003; idem, e a Comunidade Andina e os seus Países Membros, Repúblicas da Bolívia, Colômbia, Equador, Peru e Venezuela, por outro, incluíndo as declarações, assinado em Roma, em 15 de Dezembro de 2003",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1742",
+         "nome": "Mário Santos David"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:40",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/098/2006-03-04/4617?pgs=4617&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "154653",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4617-4617"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "98",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-03-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, o Acordo de Diálogo político e Cooperação entre a Comunidade Europeia e os seus Estados Membros, por um lado, e as Repúblicas da Costa Rica, de El Salvador, da Guatemala, das Honduras, da Nicarágua e do Panamá, por outro, assinado em Roma, em 15 de Dezembro de 2003; idem, e a Comunidade Andina e os seus Países Membros, Repúblicas da Bolívia, Colômbia, Equador, Peru e Venezuela, por outro, incluíndo as declarações, assinado em Roma, em 15 de Dezembro de 2003",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2197",
+         "nome": "Renato Leal"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:40",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/098/2006-03-04/4617?pgs=4617-4618&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "154654",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4617-4618"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "98",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-03-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, o Acordo de Diálogo político e Cooperação entre a Comunidade Europeia e os seus Estados Membros, por um lado, e as Repúblicas da Costa Rica, de El Salvador, da Guatemala, das Honduras, da Nicarágua e do Panamá, por outro, assinado em Roma, em 15 de Dezembro de 2003; idem, e a Comunidade Andina e os seus Países Membros, Repúblicas da Bolívia, Colômbia, Equador, Peru e Venezuela, por outro, incluíndo as declarações, assinado em Roma, em 15 de Dezembro de 2003",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1450",
+         "nome": "Hélder Amaral"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "12:40",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/098/2006-03-04/4618?pgs=4618-4619&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "154655",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4618-4619"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "98",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-03-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, o Acordo de Diálogo político e Cooperação entre a Comunidade Europeia e os seus Estados Membros, por um lado, e as Repúblicas da Costa Rica, de El Salvador, da Guatemala, das Honduras, da Nicarágua e do Panamá, por outro, assinado em Roma, em 15 de Dezembro de 2003; idem, e a Comunidade Andina e os seus Países Membros, Repúblicas da Bolívia, Colômbia, Equador, Peru e Venezuela, por outro, incluíndo as declarações, assinado em Roma, em 15 de Dezembro de 2003",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "173539",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/098/2006-03-04/4616?pgs=4616-4619&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "327921",
+     "obs": null,
+     "pag": [
+      "4616-4619"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "X",
+     "pubNr": "98",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2006-03-04",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "330",
+   "Comissao": null,
+   "DataFase": "2006-03-08",
+   "EvtId": "56",
+   "Fase": "Votação global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "173674",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/099/2006-03-09/4677?pgs=4677&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "328878",
+     "obs": null,
+     "pag": [
+      "4677-4677"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "X",
+     "pubNr": "99",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2006-03-09",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2006-03-08",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> BE</I>, <I> CDS-PP</I><BR>Abstenção:<I>PEV</I>, <I> PCP</I>",
+     "id": "33905",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "97",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "360",
+   "Comissao": null,
+   "DataFase": "2006-03-08",
+   "EvtId": "57",
+   "Fase": "Resolução (Publicação DAR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "242595",
+   "OevTextId": "14157",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "14157",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "371",
+   "Comissao": null,
+   "DataFase": "2006-03-31",
+   "EvtId": "121",
+   "Fase": "Envio para Ratificação / Assinatura",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "173903",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2006-03-31",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "173904",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "600",
+   "Comissao": null,
+   "DataFase": "2006-04-28",
+   "EvtId": "44",
+   "Fase": "Resolução da AR (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "243164",
+   "OevTextId": "14229",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "14229",
+   "Votacao": null
+  }
+ ],
+ "IniId": "20937",
+ "IniLeg": "X",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c637939595447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5533595459314d7a59774c574532596d51744e4455794e693035597a6c6d4c546b314f445a685a5456694e574d344d53356b62324d3d&fich=57a65360-a6bd-4526-9c9f-9586ae5b5c81.doc&Inline=true",
+ "IniNr": "8",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "S",
+ "IniTitulo": "Aprova, para ratificação, o Acordo de Diálogo Político e Cooperação entre a Comunidade Europeia e os seus Estados Membros, por um lado, e a Comunidade Andina e os seus Países Membros, Repúblicas da Bolívia, Colômbia, Equador, Peru e Venezuela, por outro, incluíndo as declarações, assinado em Roma, em 15 de Dezembro de 2003.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

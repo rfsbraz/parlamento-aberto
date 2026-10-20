@@ -1,0 +1,68 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": null,
+   "Audiencias": null,
+   "Cms": null,
+   "DadosLegisDeputado": null,
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": null,
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": null,
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": null,
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Lisboa",
+  "DepCPId": 11.0,
+  "DepCadId": 1646.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-10-03",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7261.0,
+    "GpSigla": "PSD"
+   }
+  ],
+  "DepId": 16585.0,
+  "DepNomeCompleto": "Carlos Manuel das Neves Reis dos Santos",
+  "DepNomeParlamentar": "Carlos Reis",
+  "DepSituacao": [
+   {
+    "SioDes": "Suspenso(Não Eleito)",
+    "SioDtFim": null,
+    "SioDtInicio": "2025-11-03"
+   },
+   {
+    "SioDes": "Efetivo Temporário",
+    "SioDtFim": "2025-11-02",
+    "SioDtInicio": "2025-11-01"
+   },
+   {
+    "SioDes": "Suplente",
+    "SioDtFim": "2025-10-31",
+    "SioDtInicio": "2025-06-05"
+   },
+   {
+    "SioDes": "Efetivo Temporário",
+    "SioDtFim": "2025-06-04",
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

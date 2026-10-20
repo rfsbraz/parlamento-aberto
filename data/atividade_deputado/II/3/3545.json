@@ -1,0 +1,78 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PS",
+     "dpl_lg": "II",
+     "nome": "ANTÓNIO LOJA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "31174",
+      "iniNr": "214",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 379/82, de 14 de Setembro de 1982, que introduz alterações ao Código do Registo Civil e publica nova tabela de emolumentos e novos modelos a ele anexo.",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "31173",
+      "iniNr": "212",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 402/82, de 23 de Setembro, que introduz alterações ao Código de Processo Penal e legislação complementar e estabelece o regime de execução das penas e medidas de segurança.",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "31172",
+      "iniNr": "211",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 400/82, de 23 de Setembro, que aprova o Código Penal.",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "31171",
+      "iniNr": "210",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 401/82, de 23 de Setembro, que institui o regime aplicável em matéria penal aos jovens com idade compreendida entre os 16 e os 21 anos.",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "MADEIRA",
+  "depCPId": "20",
+  "depCadId": "3545",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "980",
+    "gpSigla": "PS"
+   }
+  },
+  "depId": "4908",
+  "depNomeCompleto": "ANTÓNIO EGÍDIO FERNANDES LOJA",
+  "depNomeParlamentar": "ANTÓNIO LOJA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1982-11-12",
+    "sioDtInicio": "1982-08-26"
+   }
+  },
+  "legDes": "II"
+ }
+}

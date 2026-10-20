@@ -1,0 +1,87 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "MARIA ADELAIDE PAIVA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30732",
+      "iniNr": "367",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Revoga a lei nº 69/79, de 11 de Outubro (serviço de apoio do Conselho de Imprensa) e integra o serviço de apoio do Conselho de Imprensa na Direcção dos Serviços Parlamentares da Assembleia da República",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30728",
+      "iniNr": "366",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Introduz aloterações à lei nº 31/78, de 20 de Junho (Conselho de Imprensa)",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "3481",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3302",
+  "depNomeCompleto": "MARIA ADELAIDE SANTOS DE ALMEIDA E PAIVA",
+  "depNomeParlamentar": "MARIA ADELAIDE PAIVA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-06-22",
+     "sioDtInicio": "1980-11-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-14",
+     "sioDtInicio": "1982-06-25"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-10-26",
+     "sioDtInicio": "1982-07-24"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-11",
+     "sioDtInicio": "1982-10-29"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-01-06",
+     "sioDtInicio": "1982-11-12"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1983-01-14"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

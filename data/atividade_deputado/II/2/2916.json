@@ -1,0 +1,56 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PCP",
+     "dpl_lg": "II",
+     "nome": "ÁLVARO CUNHAL"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "36066",
+     "iniNr": "3",
+     "iniSelLg": "II",
+     "iniSelNr": "1",
+     "iniTi": "Projecto de Revisão Constitucional",
+     "iniTp": "C",
+     "iniTpdesc": "Projeto de Revisão Constitucional"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "2916",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "982",
+    "gpSigla": "PCP"
+   }
+  },
+  "depId": "3449",
+  "depNomeCompleto": "ÁLVARO BARREIRINHAS CUNHAL",
+  "depNomeParlamentar": "ÁLVARO CUNHAL",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-06-09",
+     "sioDtInicio": "1980-11-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-10-21",
+     "sioDtInicio": "1982-10-07"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

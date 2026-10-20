@@ -1,0 +1,841 @@
+{
+ "DataFimleg": "2025-06-02",
+ "DataInicioleg": "2024-03-26",
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d6a526a5a5752684e3245744e7a677a4e7930305a5746684c5467305a4459744e7a4d355a5455304f44566a4e574d7a4c6e426b5a673d3d&fich=24ceda7a-7837-4eaa-84d6-739e5485c5c3.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d544134596a59784e6d55744e6a55314d6930304f4755324c5749774f4759744d4455785a54426c4e6d52684e47597a4c6e426b5a673d3d&fich=108b616e-6552-48e6-b08f-051e0e6da4f3.pdf&Inline=true",
+   "anexoNome": "Anexo 1"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764f5745314e54417a59574d744e4456684d5330305a6a52684c546b304f546b744e6a49355a6d4533593252694d474a6c4c6e426b5a673d3d&fich=9a5503ac-45a1-4f4a-9499-629fa7cdb0be.pdf&Inline=true",
+   "anexoNome": "Anexo 2"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765957466b5a544a6d5a6a6374595756695a4330305a446b7a4c546b354d5745744f44566d59544a6b4f546b304e546b314c6e426b5a673d3d&fich=aade2ff7-aebd-4d93-991a-85fa2d994595.pdf&Inline=true",
+   "anexoNome": "Anexo 3"
+  }
+ ],
+ "IniAutorDeputados": [
+  {
+   "GP": "PSD",
+   "idCadastro": "4300",
+   "nome": "Hugo Soares"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8244",
+   "nome": "Ângela Almeida"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8863",
+   "nome": "Dulcineia Catarina Moura"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8698",
+   "nome": "Olga Freire"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8783",
+   "nome": "Carlos Silva Santiago"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8152",
+   "nome": "Almiro Moreira"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8978",
+   "nome": "Silvério Regalado"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "4308",
+   "nome": "Salvador Malheiro"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "3918",
+   "nome": "Paula Cardoso"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "2641",
+   "nome": "Paulo Cavaleiro"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "2071",
+   "nome": "Miguel Santos"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "7335",
+   "nome": "Sónia Ramos"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "2665",
+   "nome": "Jorge Paulo Oliveira"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8411",
+   "nome": "Luís Newton"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "4328",
+   "nome": "Maurício Marques"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "5993",
+   "nome": "Alberto Fonseca"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "2397",
+   "nome": "Francisco Covelinhas Lopes"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "6937",
+   "nome": "Alberto Machado"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "6081",
+   "nome": "Sonia dos Reis"
+  },
+  {
+   "GP": "CDS-PP",
+   "idCadastro": "1657",
+   "nome": "João Pinho de Almeida"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PSD"
+  },
+  {
+   "GP": "CDS-PP"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2024-12-04",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1560440",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2024-12-04",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1582216",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/16/01/137/2024-12-04/9?pgs=9-10&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1020254",
+     "obs": null,
+     "pag": [
+      "9-10"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVI",
+     "pubNr": "137",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2024-12-04",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e57526c4d6a597a5957517459325978595330304e3245344c54686d596a51744d6a59344d324d345a54686c5a54646b4c6d52765933673d&fich=5de263ad-cf1a-47a8-8fb4-2683c8e8ee7d.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2024-12-12",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1570645",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "76220",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2024-12-12",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-01-10",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer Assembleia de Freguesia de Requeixo, Nossa Senhora de Fátima e Nariz",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765130394e4c7a457a5131424d513151765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a4d324d7a595751774e5330304d5455784c54526c59544974596a6c69595330794d5451354d7a59794f5755774e5463756347526d&fich=c3c3ad05-4151-4ea2-b9ba-21493629e057.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-01-03",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer da UF Requeixo, Nossa Senhora de Fátima e Nariz",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765130394e4c7a457a5131424d513151765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938335a444d795a474d325a6930794f4455774c5451314e3259744f4468685a4330775a6d55345a4459334e6d59344e4445756347526d&fich=7d32dc6f-2850-457f-88ad-0fe8d676f841.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8405",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Poder Local e Coesão Territorial",
+     "Numero": "8405",
+     "Observacao": null,
+     "PareceresRecebidos": [
+      {
+       "link": "",
+       "nome": "Assembleia de Freguesia de Requeixo, Nossa Senhora de Fátima e Nariz em 2025-01-10"
+      },
+      {
+       "link": "",
+       "nome": "Freguesia de Requeixo, Nossa Senhora de Fátima e Nariz em 2025-01-03"
+      }
+     ],
+     "PedidosParecer": [
+      {
+       "link": "",
+       "nome": "FREGUESIA DE ARADAS em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Assembleia de Freguesia de Aradas em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Freguesia de Eixo e Eirol em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Assembleia de Freguesia de Eixo e Eirol em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Freguesia de Esgueira em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Assembleia de Freguesia de Esgueira em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Freguesia de Oliveirinha em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Assembleia de Freguesia de Oliveirinha em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Assembleia de Freguesia de Requeixo, Nossa Senhora de Fátima e Nariz em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Freguesia de Requeixo, Nossa Senhora de Fátima e Nariz em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Freguesia de Santa Joana em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Assembleia de Freguesia de Santa Joana em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Freguesia de São Bernardo em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Assembleia de Freguesia de São Bernardo em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Junta de Freguesia de Vera Cruz em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Assembleia de Freguesia de União de freguesias de Glória e Vera Cruz em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Assembleia Municipal de Aveiro em 2024-12-19"
+      },
+      {
+       "link": "",
+       "nome": "Assembleia Municipal de Aveiro em 2024-12-19"
+      }
+     ],
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2024-12-12",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1570646",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2024-12-12",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1570722",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "40482",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2024-12-20",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "PSD, CDS-PP",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "304379",
+     "leg": "XVI",
+     "nr": "368",
+     "publicacao": null,
+     "sel": "1",
+     "tipo": "J",
+     "titulo": "Procede à alteração dos limites territoriais entre a Freguesia de Ferrel e da Freguesia da Atouguia da Baleia do concelho de Peniche"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2024-12-20",
+     "oradores": null
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1580986",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2024-12-20",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1581194",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/071/2024-12-21/84?pgs=84&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1021778",
+     "obs": null,
+     "pag": [
+      "84-84"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVI",
+     "pubNr": "71",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2024-12-21",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2024-12-20",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CH</I>, <I> IL</I>, <I> BE</I>, <I> L</I>, <I> CDS-PP</I><BR>Abstenção:<I>PCP</I>",
+     "id": "127706",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "70",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "310",
+   "Comissao": null,
+   "DataFase": "2024-12-20",
+   "EvtId": "34",
+   "Fase": "Votação na especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1581195",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/071/2024-12-21/84?pgs=84&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1021779",
+     "obs": null,
+     "pag": [
+      "84-84"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVI",
+     "pubNr": "71",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2024-12-21",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2024-12-20",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CH</I>, <I> IL</I>, <I> BE</I>, <I> L</I>, <I> CDS-PP</I><BR>Abstenção:<I>PCP</I>",
+     "id": "127707",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "70",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "320",
+   "Comissao": null,
+   "DataFase": "2024-12-20",
+   "EvtId": "18",
+   "Fase": "Votação final global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1581196",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/071/2024-12-21/84?pgs=84&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1021780",
+     "obs": null,
+     "pag": [
+      "84-84"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVI",
+     "pubNr": "71",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2024-12-21",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2024-12-20",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CH</I>, <I> IL</I>, <I> BE</I>, <I> L</I>, <I> CDS-PP</I><BR>Abstenção:<I>PCP</I>",
+     "id": "127708",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "70",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "345",
+   "Comissao": null,
+   "DataFase": "2024-12-20",
+   "EvtId": "135",
+   "Fase": "Requerimento dispensa do prazo previsto Artº 157 RAR",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1581197",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/071/2024-12-21/84?pgs=84&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1021781",
+     "obs": null,
+     "pag": [
+      "84-84"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVI",
+     "pubNr": "71",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2024-12-21",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": [
+      "PAN"
+     ],
+     "data": "2024-12-20",
+     "descricao": "Requerimento oral, apresentado pelo PSD, solicitando a dispensa de redação final e do prazo para apresentação de reclamações contra inexatidões relativamente ao Projeto de Lei n.º 367/XVI/1.ª (PSD e CDS-PP) ; e Projeto de Lei n.º 368/XVI/1.ª (PSD e CDS-PP)",
+     "detalhe": "Ausência: <I>PAN</I>",
+     "id": "127709",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "70",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "350",
+   "Comissao": null,
+   "DataFase": "2024-12-23",
+   "EvtId": "31",
+   "Fase": "Decreto (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1581237",
+   "OevTextId": "94619",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "94619",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "370",
+   "Comissao": null,
+   "DataFase": "2024-12-23",
+   "EvtId": "23",
+   "Fase": "Envio para promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1581238",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "380",
+   "Comissao": null,
+   "DataFase": "2024-12-23",
+   "EvtId": "24",
+   "Fase": "Promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1581262",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "390",
+   "Comissao": null,
+   "DataFase": "2024-12-27",
+   "EvtId": "25",
+   "Fase": "Referenda",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1581263",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2024-12-30",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1581264",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "580",
+   "Comissao": null,
+   "DataFase": "2025-01-06",
+   "EvtId": "32",
+   "Fase": "Lei (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1581314",
+   "OevTextId": "94629",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "94629",
+   "Votacao": null
+  }
+ ],
+ "IniId": "304372",
+ "IniLeg": "XVI",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a5745304e7a426a5a5745744d6d4d775a6930305a5449334c574931596a63744f5459794e5441784f5759775a5751334c6d527659773d3d&fich=ea470cea-2c0f-4e27-b5b7-9625019f0ed7.doc&Inline=true",
+ "IniNr": "367",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Procede à alteração dos limites territoriais entre as freguesias de Aradas, Eixo e Eirol, Esgueira, Oliveirinha, Requeixo, Nª Srª de Fátima e Nariz, Santa Joana, São Bernardo e União de freguesias de Glória e Vera Cruz, do concelho de Aveiro",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

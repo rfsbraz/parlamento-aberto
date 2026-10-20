@@ -1,0 +1,50 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PS",
+     "dpl_lg": "II",
+     "nome": "MANUEL MELO SANTOS"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "AVEIRO",
+  "depCPId": "1",
+  "depCadId": "3642",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "980",
+    "gpSigla": "PS"
+   }
+  },
+  "depId": "9947",
+  "depNomeCompleto": "MANUEL JOAQUIM DE MELO PIRES TAVARES SANTOS",
+  "depNomeParlamentar": "MANUEL MELO SANTOS",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-04-03",
+     "sioDtInicio": "1982-04-01"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-05-04",
+     "sioDtInicio": "1982-04-20"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-06-19",
+     "sioDtInicio": "1982-06-18"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

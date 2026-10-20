@@ -1,0 +1,81 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "MANUEL PEREIRA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30710",
+      "iniNr": "361",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Baldios",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30644",
+      "iniNr": "324",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Alteração do regime de registo de propriedade de automóveis adquiridos por contrato verbal de compra e venda.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30625",
+      "iniNr": "291",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Baldios.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "COIMBRA",
+  "depCPId": "6",
+  "depCadId": "3040",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3259",
+  "depNomeCompleto": "MANUEL PEREIRA",
+  "depNomeParlamentar": "MANUEL PEREIRA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-01-12",
+     "sioDtInicio": "1980-11-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-07-10"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-06",
+     "sioDtInicio": "1981-09-04"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

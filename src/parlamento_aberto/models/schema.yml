@@ -1,6 +1,6 @@
 # Version of the published schema, in manifest.json. Bump the major on a breaking change
 # (a column removed or renamed, a type changed); the site refuses an unknown major.
-schema_version: "1.1.0"
+schema_version: "1.2.0"
 
 # Every model, in run order, with a description of every column.
 # The data dictionary in docs/dictionary is generated from this file
@@ -780,3 +780,116 @@ models:
       share_holder: Titular da participação social tal como escrito. Só EpT.
       is_professional_secrecy: Segredo profissional invocado, nos serviços e outras situações. Só EpT.
       observation: Observação de uma outra situação. Só EpT.
+
+  # Plenary attendance (#71).
+  seed_attendance_codes:
+    description: >-
+      Lista mantida à mão dos códigos de presença e falta (siglaFalta) das listas de presenças
+      do Plenário, uma linha por código, cada uma com a sua fonte. Os dados abertos não têm
+      legenda. Cada significado foi confirmado comparando o código de cada deputado nos dados
+      abertos com o rótulo que a página dessa reunião no parlamento.pt mostra
+      (DetalheReuniaoPlenaria.aspx?BID=<meeting_id>, páginas consultadas a 20 de outubro de
+      2026), e com a Resolução da AR n.º 21/2009, que aprova o regime de presenças e faltas ao
+      Plenário.
+    columns:
+      code: Código tal como publicado (siglaFalta), por exemplo PR ou FJ.
+      meaning: Significado do código.
+      category: >-
+        present (presença), other_body_or_mission (presença noutro órgão, em comissão autorizada
+        pelo Presidente da AR ou em missão parlamentar), justified (falta justificada),
+        missed_quorum_vote (falta ao quórum de votação), pending (falta ainda por justificar) ou
+        unjustified (falta injustificada).
+      pending_days: >-
+        Só no FA. Uma falta FA conta como pending enquanto a reunião tiver menos destes dias na
+        data de atualização dos dados, e como unclassified a partir daí. Nunca como unjustified.
+      source: Página da AR e documento de onde vem o significado.
+
+  stg_composicao_orgaos__plenary_attendance:
+    description: >-
+      ComposicaoOrgaos Plenario Reunioes, uma linha por pessoa na lista de presenças de uma
+      reunião plenária. As reuniões sem lista não dão linhas. O motivo da falta (motivoFalta),
+      texto livre que inclui doença, parentalidade e luto, não é lido.
+    columns:
+      meeting_id: Id da reunião na AR (Reuniao.reuId).
+      meeting_number: Número da reunião na legislatura (Reuniao.reuNumero).
+      session_number: Número da sessão legislativa (Reuniao.selNumero).
+      meeting_date: Data da reunião (Presencas.dtReuniao).
+      meeting_type: Tipo de reunião (Presencas.tipoReuniao), Ordinária, Extraordinária, Solene ou Comemorativa.
+      parliamentary_name: Nome parlamentar tal como na lista (nomeDeputado).
+      group_acronym: Código do grupo tal como na lista (siglaGrupo).
+      code: Código de presença ou falta (siglaFalta).
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
+
+  plenary_attendance:
+    description: >-
+      Uma linha por reunião plenária e pessoa na sua lista de presenças. As listas trazem quem
+      tinha lugar em cada reunião, substitutos incluídos. Associado ao cadastro_id pela
+      legislatura, pelo nome parlamentar exato e pelo grupo, que tem de ser um dos grupos da
+      pessoa (DepGP) nessa legislatura. Nunca entre legislaturas: há nomes parlamentares de
+      pessoas diferentes em legislaturas diferentes. O motivo da falta não é publicado, só o
+      código. O build para se aparecer um código que não está em seed_attendance_codes.
+    quirks:
+      - >-
+        Há listas de presenças a partir da VI (uma reunião na V) e para todas as reuniões a partir
+        da VII. Não há listas da Constituinte à IV. Ver docs/known-gaps.md.
+      - >-
+        Os dados abertos não têm legenda para os códigos. Os significados vêm das páginas de cada
+        reunião no parlamento.pt, que mostram por exemplo PP e PT como Presença (P), FIJ, FAJ e
+        QVJ como Falta Justificada (FJ) e CO como Presença em Comissão autorizada pelo PAR. A fonte
+        de cada código está em seed_attendance_codes.
+      - >-
+        FA é uma falta que a AR ainda não classificou. Com menos de 60 dias na data de atualização
+        dos dados (source_updated) é pending (por justificar); a partir daí é unclassified (não
+        classificada). Nunca é contada como injustificada.
+      - >-
+        As listas incluem reuniões solenes, comemorativas e extraordinárias. is_ceremonial marca as
+        solenes e as comemorativas, para as deixar de fora de uma taxa.
+    columns:
+      legislature: Legislatura em numeração romana.
+      meeting_id: Id da reunião na AR. A página da reunião é https://www.parlamento.pt/DeputadoGP/Paginas/DetalheReuniaoPlenaria.aspx?BID=<meeting_id>.
+      meeting_number: Número da reunião na legislatura.
+      session_number: Número da sessão legislativa, liga a sessions.
+      meeting_date: Data da reunião.
+      meeting_type: Tipo de reunião, Ordinária, Extraordinária, Solene ou Comemorativa.
+      is_ceremonial: Verdadeiro numa reunião solene ou comemorativa.
+      cadastro_id: Id da pessoa, liga a deputies. Nulo quando nenhum deputado ou mais do que um corresponde ao nome e ao grupo (os testes falham nesse caso).
+      parliamentary_name: Nome parlamentar tal como na lista.
+      group_code: Código do grupo depois de seed_group_aliases. Indep e Ninsc marcam deputados fora de qualquer grupo.
+      group_code_raw: Código do grupo tal como na lista.
+      code: Código de presença ou falta tal como publicado, liga a seed_attendance_codes.
+      category: >-
+        Categoria do código, de seed_attendance_codes: present, other_body_or_mission, justified,
+        missed_quorum_vote, pending ou unjustified. Uma falta FA com 60 dias ou mais em
+        source_updated passa a unclassified.
+      is_pending: Verdadeiro para uma falta FA com menos de 60 dias em source_updated. Não é uma falta injustificada.
+      source_updated: >-
+        Data de atualização dos dados desta legislatura: a data em que o ficheiro da AR foi
+        recolhido com alterações pela última vez (fetched em data/_meta/sources.lock.json). É a
+        referência da regra dos 60 dias do FA.
+
+  plenary_attendance_summary:
+    description: >-
+      Uma linha por legislatura, pessoa, grupo e tipo de reunião (solene ou comemorativa, ou
+      não), a partir de plenary_attendance: o número de reuniões nas listas de presenças e
+      quantas caem em cada categoria, para que qualquer taxa se possa calcular. Cada reunião
+      conta uma vez, mesmo em dias com mais do que uma. Para deixar de fora as reuniões solenes
+      e comemorativas, filtre is_ceremonial = false; para as incluir, some as duas linhas. Quem
+      mudou de grupo na legislatura tem linhas por grupo. Mostre sempre meetings ao lado de uma
+      taxa: muitos substitutos têm poucas reuniões.
+    columns:
+      legislature: Legislatura em numeração romana.
+      cadastro_id: Id da pessoa, liga a deputies.
+      parliamentary_name: Nome parlamentar na reunião mais recente.
+      group_code: Código do grupo depois de seed_group_aliases.
+      is_ceremonial: Verdadeiro na linha das reuniões solenes e comemorativas.
+      meetings: Número de reuniões plenárias em cujas listas de presenças a pessoa consta com este grupo.
+      present: Reuniões com presença (PT, PR e PP).
+      other_body_or_mission: Reuniões noutro órgão, em comissão autorizada pelo Presidente da AR ou em missão parlamentar (PNO, CO, ME e MP).
+      justified: Faltas justificadas (FJ, FIJ, FAJ e QVJ).
+      missed_quorum_vote: Faltas ao quórum de votação (QV).
+      pending: Faltas FA por justificar, com menos de 60 dias em source_updated.
+      unclassified: Faltas FA não classificadas, com 60 dias ou mais em source_updated.
+      unjustified: Faltas injustificadas (FI).
+      first_meeting_date: Data da primeira dessas reuniões.
+      last_meeting_date: Data da última dessas reuniões.

@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 
 import pytest
@@ -21,6 +22,32 @@ LEGISLATURES += ["IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII"]
 
 def test_samples_cover_every_legislature():
     assert {s["legislature"] for s in SAMPLES} == set(LEGISLATURES)
+
+
+def _item_form(body):
+    kind = "count" if re.fullmatch(r"\s*\d+-\S+", body) else "named" if "(" in body else "group"
+    return kind + (" lead" if body.startswith(" ") else "") + (" double" if "  " in body else "")
+
+
+def test_samples_cover_every_form_in_the_data():
+    # A run over all 35,506 strings in the 20 Oct 2026 Iniciativas files found these forms.
+    headers = {
+        seg.split(":")[0] + ":" + seg.split(":", 1)[1][:1]
+        for s in SAMPLES
+        for seg in s["detalhe"].split("<BR>")
+    }
+    items = {_item_form(b) for s in SAMPLES for b in re.findall(r"<I>(.*?)</I>", s["detalhe"])}
+    assert headers == {"A Favor: ", "Contra:<", "Abstenção:<", "Ausência: "}
+    assert items == {
+        "group",
+        "group lead",
+        "count",
+        "count lead",
+        "named",
+        "named lead",
+        "named double",
+        "named lead double",
+    }
 
 
 @pytest.mark.parametrize(

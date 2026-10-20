@@ -39,4 +39,13 @@ uv run python -m parlamento_aberto fetch --dataset iniciativas --legislature XVI
 
 `sources.yaml` lists every file. The newest legislature in it is the current one. Requests go one at a time, with gzip, and retry the AR's temporary "Recurso Não Encontrado" pages with backoff. Run it after 06:00 Lisbon time; the AR server is slow between 04:00 and 06:00. Files whose download hash matches `data/_meta/sources.lock.json` are skipped. A download that is HTML, does not parse, or is empty where the last copy had records keeps the last good copy and is marked stale in the lock. `--raw-dir DIR` keeps the downloads outside the repo, and `--offline` replays them.
 
+## Discover
+
+Every Monday at 08:00 Lisbon, `.github/workflows/discover.yml` reads the AR open data pages and compares their JSON links with `sources.yaml`. New links for a known dataset, such as a new legislature, become a PR on `data/discover` labelled `hold: new-dataset`, which is never merged automatically. Removed links, files that match no dataset and pages it cannot read become one issue labelled `discover`. The `discover` block of `sources.yaml` lists what is left out on purpose. To run it locally (about 300 requests, two seconds apart):
+
+```sh
+uv run python -m parlamento_aberto.discover scan --scan scan.json
+uv run python -m parlamento_aberto.discover diff --scan scan.json --report report.json
+```
+
 Design: `docs/design.md`. Repo settings: `docs/repo-settings.md`.

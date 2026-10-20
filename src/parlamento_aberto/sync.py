@@ -6,6 +6,7 @@ import json
 from collections.abc import Callable
 from pathlib import Path
 
+from . import privacy
 from .fetch import Response, fetch, is_soft_404
 from .normalise import LayoutError, as_int, dump_line, get_path, normalise, records_at
 from .sources import Source
@@ -126,14 +127,18 @@ def sync_source(
 
     verdict = validate(resp, last, src.path, src.format)
     files = None
+    masked = 0
     if verdict.ok:
         try:
             if src.copy_of:
                 verdict.flags += copy_flags(src, verdict.data, data_dir)
             else:
+                # Private citizens' numbers in free text never reach data/ (privacy.py).
+                data, masked = privacy.mask_tree(verdict.data)
                 files = normalise(
-                    verdict.data, src.layout, src.id_key, src.ids, src.bucket, src.names, src.path
+                    data, src.layout, src.id_key, src.ids, src.bucket, src.names, src.path
                 )
+                privacy.guard(files)
         except LayoutError as e:
             verdict.ok, verdict.reason = False, f"layout: {e}"
 
@@ -179,6 +184,7 @@ def sync_source(
         "files": len(files),
         "largest_file": max((len(b) for b in files.values()), default=0),
         "flags": verdict.flags,
+        "masked": masked,
         **diff_counts(old, files),
     }
 

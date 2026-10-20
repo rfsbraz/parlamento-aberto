@@ -258,9 +258,11 @@ def test_fixtures_are_clean_and_synthetic():
     files = sorted(FIX.rglob("*.json"))
     assert files
     for f in files:
-        data = json.loads(f.read_text())
-        ept.assert_clean(data)
-        assert "Pessoa Sintética" in f.read_text()
+        text = f.read_text()
+        ept.assert_clean(json.loads(text))
+        # titularidades.json has no names. A fixture with a holder name uses a made-up one.
+        if '"holder"' in text:
+            assert "Pessoa Sintética" in text, f.name
 
 
 # Throttle

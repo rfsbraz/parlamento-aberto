@@ -1,0 +1,702 @@
+{
+ "DataFimleg": "2003-09-14",
+ "DataInicioleg": "2002-04-05",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PSD",
+   "idCadastro": "390",
+   "nome": "Mota Amaral"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "1239",
+   "nome": "Luís Marques Guedes"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "189",
+   "nome": "José Magalhães"
+  },
+  {
+   "GP": "CDS-PP",
+   "idCadastro": "1655",
+   "nome": "Telmo Correia"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "1058",
+   "nome": "Bernardino Soares"
+  },
+  {
+   "GP": "BE",
+   "idCadastro": "1651",
+   "nome": "Francisco Louçã"
+  },
+  {
+   "GP": "PEV",
+   "idCadastro": "231",
+   "nome": "Isabel Castro"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PSD"
+  },
+  {
+   "GP": "PS"
+  },
+  {
+   "GP": "CDS-PP"
+  },
+  {
+   "GP": "PCP"
+  },
+  {
+   "GP": "BE"
+  },
+  {
+   "GP": "PEV"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Deputados",
+  "sigla": "D"
+ },
+ "IniDescTipo": "Projeto de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "6338",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2002-10-07",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2002-10-04",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "103",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSÃO DE ASSUNTOS EUROPEUS E POLÍTICA EXTERNA",
+     "Numero": "103",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "162",
+       "motivoCessacao": null,
+       "nome": "Edite Estrela"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2002-11-12",
+       "dataRemessa": "2002-11-21",
+       "numeroOficio": "1355/COM",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "PCP",
+        "BE",
+        "PEV"
+       ],
+       "data": "2002-11-21",
+       "descricao": "Maioria",
+       "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I><BR>Ausência: <I>PCP</I>, <I> BE</I>, <I> PEV</I>",
+       "id": "29770",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "37",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2002-10-04",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "155401",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2002-12-18",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "154179",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2002-12-18",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "154180",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2002-12-18",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "154181",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "2354",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2002-12-18",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": [
+    {
+     "autor": "PSD, PS, CDS-PP, PCP, BE, PEV",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "19333",
+     "leg": "IX",
+     "nr": "71",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/068/2002-12-19/2890?pgs=2890-2892&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "668",
+       "obs": null,
+       "pag": [
+        "2890-2892"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "68",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2002-12-19",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "R",
+     "titulo": "Grupos Parlamentares de Amizade."
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2002-12-18",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "215",
+         "nome": "Lino de Carvalho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:15",
+       "horaTermo": "19:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/068/2002-12-19/2890?pgs=2890&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "143450",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2890-2890"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "68",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-12-19",
+         "supl": null
+        }
+       ],
+       "sumario": "Grupos Parlamentares de Amizade e Delegações e Deputações Parlamentares",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "162",
+         "nome": "Edite Estrela"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:15",
+       "horaTermo": "19:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/068/2002-12-19/2890?pgs=2890-2891&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "143451",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2890-2891"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "68",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-12-19",
+         "supl": null
+        }
+       ],
+       "sumario": "Grupos Parlamentares de Amizade e Delegações e Deputações Parlamentares",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1559",
+         "nome": "Gonçalo Breda Marques"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:15",
+       "horaTermo": "19:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/068/2002-12-19/2891?pgs=2891-2892&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "143452",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2891-2892"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "68",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-12-19",
+         "supl": null
+        }
+       ],
+       "sumario": "Grupos Parlamentares de Amizade e Delegações e Deputações Parlamentares",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1047",
+         "nome": "Nuno Teixeira de Melo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:15",
+       "horaTermo": "19:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/068/2002-12-19/2892?pgs=2892&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "143453",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2892-2892"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "68",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2002-12-19",
+         "supl": null
+        }
+       ],
+       "sumario": "Grupos Parlamentares de Amizade e Delegações e Deputações Parlamentares",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "154198",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/068/2002-12-19/2890?pgs=2890-2892&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "275086",
+     "obs": null,
+     "pag": [
+      "2890-2892"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "68",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2002-12-19",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2002-12-19",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "154799",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/01/053/2002-12-19/2246?pgs=2246-2247&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "275495",
+     "obs": null,
+     "pag": [
+      "2246-2247"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "53",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2002-12-19",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "335",
+   "Comissao": null,
+   "DataFase": "2002-12-19",
+   "EvtId": "73",
+   "Fase": "Votação Deliberação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "154286",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/01/069/2002-12-20/2946?pgs=2946&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "275087",
+     "obs": null,
+     "pag": [
+      "2946-2946"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "69",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2002-12-20",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2002-12-19",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "29458",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "67",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "360",
+   "Comissao": null,
+   "DataFase": "2002-12-19",
+   "EvtId": "57",
+   "Fase": "Resolução (Publicação DAR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "154464",
+   "OevTextId": "4477",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "4477",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2003-01-15",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "154933",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "600",
+   "Comissao": null,
+   "DataFase": "2003-01-22",
+   "EvtId": "44",
+   "Fase": "Resolução da AR (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "154918",
+   "OevTextId": "4505",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "4505",
+   "Votacao": null
+  }
+ ],
+ "IniId": "19334",
+ "IniLeg": "IX",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379394a5745786c5a79394562324e31625756756447397a5357357059326c6864476c325953387a4d6d5579596a6c6a5a4330335a445a684c5451324e7a4d745957517a4e53316d4d574d7a595467344d44497a4d6a6b755a47396a&fich=32e2b9cd-7d6a-4673-ad35-f1c3a8802329.doc&Inline=true",
+ "IniNr": "72",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "R",
+ "IniTitulo": "Delegações e Deputações Parlamentares.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

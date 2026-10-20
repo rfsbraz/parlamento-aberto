@@ -1,0 +1,66 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": null,
+   "Audiencias": null,
+   "Cms": null,
+   "DadosLegisDeputado": null,
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": [
+    {
+     "IntId": null,
+     "IntSu": null,
+     "IntTe": null,
+     "PubDar": null,
+     "PubDtreu": null,
+     "PubLg": null,
+     "PubNr": null,
+     "PubSl": null,
+     "PubTp": null,
+     "TinDs": null
+    }
+   ],
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": null,
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": null,
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Porto",
+  "DepCPId": 13.0,
+  "DepCadId": 8381.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-10-19",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7262.0,
+    "GpSigla": "CH"
+   }
+  ],
+  "DepId": 16709.0,
+  "DepNomeCompleto": "Juliana Alves Praça de Almeida Nunes",
+  "DepNomeParlamentar": "Juliana Nunes",
+  "DepSituacao": [
+   {
+    "SioDes": "Suplente",
+    "SioDtFim": null,
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

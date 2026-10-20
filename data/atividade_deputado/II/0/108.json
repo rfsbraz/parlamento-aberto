@@ -1,0 +1,69 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "MANUEL MOREIRA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30647",
+      "iniNr": "327",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Criação da freguesia de Rio Mau no concelho de Penafiel.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30504",
+      "iniNr": "203",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Remunerações e abonos dos eleitos locais",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30370",
+      "iniNr": "77",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Elevação à categoria de cidade a vila de Vila Nova de Gaia",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "PORTO",
+  "depCPId": "13",
+  "depCadId": "108",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3319",
+  "depNomeCompleto": "MANUEL MARIA MOREIRA",
+  "depNomeParlamentar": "MANUEL MOREIRA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1983-05-31",
+    "sioDtInicio": "1980-11-13"
+   }
+  },
+  "legDes": "II"
+ }
+}

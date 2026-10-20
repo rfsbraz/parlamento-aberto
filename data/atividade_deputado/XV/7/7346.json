@@ -1,0 +1,63 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": null,
+   "Audiencias": null,
+   "Cms": null,
+   "DadosLegisDeputado": null,
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": null,
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": [
+     {
+      "ActAs": "Conta Geral do Estado de 2022",
+      "ActId": "126690",
+      "ActSelLg": null,
+      "ActTp": "Conta Geral do Estado",
+      "ActTpCod": null,
+      "AnoCiv": null,
+      "DtNom": null
+     }
+    ],
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": null,
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Santarém",
+  "DepCPId": 14.0,
+  "DepCadId": 7346.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-10-03",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7262.0,
+    "GpSigla": "CH"
+   }
+  ],
+  "DepId": 16929.0,
+  "DepNomeCompleto": "Pedro Alexandre Arrabaça da Silva Oliveira Correia",
+  "DepNomeParlamentar": "Pedro Correia",
+  "DepSituacao": [
+   {
+    "SioDes": "Efetivo",
+    "SioDtFim": null,
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

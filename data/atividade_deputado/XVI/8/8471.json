@@ -1,0 +1,82 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": null,
+   "Audiencias": null,
+   "Cms": null,
+   "DadosLegisDeputado": [
+    {
+     "Dpl_grpar": "PSD",
+     "Dpl_lg": "XVI",
+     "Nome": "Emídio Sousa"
+    }
+   ],
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": [
+    {
+     "IntId": "456120",
+     "IntSu": "Recomenda a criação da carreira de médico dentista nas entidades públicas empresariais integradas no Serviço Nacional de Saúde ",
+     "IntTe": null,
+     "PubDar": "90-90",
+     "PubDtreu": "2024-12-20",
+     "PubLg": "XVI",
+     "PubNr": "71",
+     "PubSl": "1",
+     "PubTp": "D",
+     "TinDs": "Declaração de voto"
+    }
+   ],
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": null,
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": null,
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Aveiro",
+  "DepCPId": 1.0,
+  "DepCadId": 8471.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-10-03",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7261.0,
+    "GpSigla": "PSD"
+   }
+  ],
+  "DepId": 15852.0,
+  "DepNomeCompleto": "Emídio Ferreira dos Santos Sousa",
+  "DepNomeParlamentar": "Emídio Sousa",
+  "DepSituacao": [
+   {
+    "SioDes": "Suspenso(Eleito)",
+    "SioDtFim": null,
+    "SioDtInicio": "2025-06-06"
+   },
+   {
+    "SioDes": "Efetivo",
+    "SioDtFim": "2025-06-05",
+    "SioDtInicio": "2025-06-05"
+   },
+   {
+    "SioDes": "Suspenso(Eleito)",
+    "SioDtFim": "2025-06-04",
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

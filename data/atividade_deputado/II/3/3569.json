@@ -1,0 +1,45 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "JOSÉ NUNES PEREIRA"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "GUARDA",
+  "depCPId": "9",
+  "depCadId": "3569",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "4795",
+  "depNomeCompleto": "JOSÉ NUNES PEREIRA",
+  "depNomeParlamentar": "JOSÉ NUNES PEREIRA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-03",
+     "sioDtInicio": "1982-06-29"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-24",
+     "sioDtInicio": "1982-07-19"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

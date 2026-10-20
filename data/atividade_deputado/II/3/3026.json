@@ -1,0 +1,61 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "LACERDA DE QUEIROZ"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "30473",
+     "iniNr": "168",
+     "iniSelLg": "II",
+     "iniSelNr": "1",
+     "iniTi": "Elevação de Trofa à categoria de vila.",
+     "iniTp": "J",
+     "iniTpdesc": "Projeto de Lei"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "PORTO",
+  "depCPId": "13",
+  "depCadId": "3026",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3314",
+  "depNomeCompleto": "ANTÓNIO AUGUSTO LACERDA DE QUEIROZ",
+  "depNomeParlamentar": "LACERDA DE QUEIROZ",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-08-12",
+     "sioDtInicio": "1980-11-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-11",
+     "sioDtInicio": "1982-08-15"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-11-12"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

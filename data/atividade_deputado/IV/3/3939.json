@@ -1,0 +1,73 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": null,
+   "Audiencias": null,
+   "Cms": null,
+   "DadosLegisDeputado": null,
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": null,
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": null,
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": null,
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Braga",
+  "DepCPId": 3.0,
+  "DepCadId": 3939.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-08-15",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7263.0,
+    "GpSigla": "PS"
+   }
+  ],
+  "DepId": 15943.0,
+  "DepNomeCompleto": "Hernâni Vítor Ferreira Loureiro",
+  "DepNomeParlamentar": "Hernâni Loureiro",
+  "DepSituacao": [
+   {
+    "SioDes": "Efetivo Definitivo",
+    "SioDtFim": null,
+    "SioDtInicio": "2026-07-12"
+   },
+   {
+    "SioDes": "Efetivo Temporário",
+    "SioDtFim": "2026-07-11",
+    "SioDtInicio": "2026-06-02"
+   },
+   {
+    "SioDes": "Suspenso(Não Eleito)",
+    "SioDtFim": "2026-06-01",
+    "SioDtInicio": "2026-05-03"
+   },
+   {
+    "SioDes": "Efetivo Temporário",
+    "SioDtFim": "2026-05-02",
+    "SioDtInicio": "2026-01-13"
+   },
+   {
+    "SioDes": "Suplente",
+    "SioDtFim": "2026-01-12",
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

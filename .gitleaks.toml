@@ -1,0 +1,36 @@
+# The default rules, plus two rules and two allowlists for the EpT register of interests
+# (#44). The EpT rules cover only the EpT data and fixtures: the AR files elsewhere in
+# data/ hold thousands of 9-digit ids, sizes and counts.
+[extend]
+useDefault = true
+
+# A personal NIF range (first digit 1 to 4) is never stored, in any column.
+[[rules]]
+id = "ept-personal-nif"
+description = "9 digits starting 1 to 4 in the EpT data"
+regex = '''(?:^|[^0-9])([1-4][0-9]{8})(?:[^0-9]|$)'''
+secretGroup = 1
+path = '''(?:^|/)(?:data/ept_registo_interesses|tests/fixtures/ept)/'''
+
+# No 9-digit value is stored, except a company NIPC in a tab 4 NIPC column (allowlist
+# below). The check digit is checked by the tests (ept.assert_clean), not here.
+[[rules]]
+id = "ept-nine-digits"
+description = "9 digits in the EpT data outside the NIPC column"
+regex = '''(?:^|[^0-9])([0-9]{9})(?:[^0-9]|$)'''
+secretGroup = 1
+path = '''(?:^|/)(?:data/ept_registo_interesses|tests/fixtures/ept)/'''
+
+[[allowlists]]
+description = "a company NIPC alone on a tab 4 NIPC column line of a pretty-printed declaration"
+targetRules = ["ept-nine-digits"]
+regexTarget = "line"
+regexes = ['''^\s*"col[6-9]": "(?:[5689][0-9]{8}|7[1279][0-9]{7})",?\s*$''']
+
+# The EpT tab 4 section, row and column keys (for example
+# "2c6d9562-dea5-488b-9afe-42519c636daf-col1") are public form GUIDs that the
+# generic-api-key rule reads as secrets.
+[[allowlists]]
+description = "EpT tab 4 form GUIDs"
+regexTarget = "secret"
+regexes = ['''^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}(_\d+|-col\d+)?$''']

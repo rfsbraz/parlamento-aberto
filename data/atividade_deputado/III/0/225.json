@@ -1,0 +1,78 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "III",
+     "nome": "GIRÃO PEREIRA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "29492",
+      "iniNr": "81",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Elevação à categoria de cidade da vila de Vila Nova de Gaia.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29493",
+      "iniNr": "80",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Nossa Senhora de Fátima no concelho de Aveiro",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29458",
+      "iniNr": "11",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação das freguesias de Santo António de Vagos e de Santo André de Vagos no concelho de Vagos.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29456",
+      "iniNr": "10",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Santa Catarina no concelho de Vagos.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "AVEIRO",
+  "depCPId": "1",
+  "depCadId": "225",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "991",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "3700",
+  "depNomeCompleto": "JOSÉ GIRÃO PEREIRA",
+  "depNomeParlamentar": "GIRÃO PEREIRA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1983-06-30",
+    "sioDtInicio": "1983-05-31"
+   }
+  },
+  "legDes": "III"
+ }
+}

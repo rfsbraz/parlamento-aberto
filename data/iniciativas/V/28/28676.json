@@ -1,0 +1,945 @@
+{
+ "DataFimleg": "1989-10-14",
+ "DataInicioleg": "1988-10-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PRD",
+   "idCadastro": "2996",
+   "nome": "Isabel Espada"
+  },
+  {
+   "GP": "PRD",
+   "idCadastro": "3075",
+   "nome": "Rui Santos Silva"
+  },
+  {
+   "GP": "PRD",
+   "idCadastro": "2944",
+   "nome": "Barbosa da Costa"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PRD"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "1989-03-30",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "219992",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "1989-03-30",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "219993",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "14431",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "1989-03-30",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "814",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSÃO DE ASSUNTOS CONSTITUCIONAIS DIREITOS LIBERDADES E GARANTIAS",
+     "Numero": "814",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/05/04/026/1991-02-16/800?pgs=800-801&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "800-801"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "V",
+       "pubNr": "26",
+       "pubSL": "4",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "1991-02-16",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/05/04/026/1991-02-16/800?pgs=800-801&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "800-801"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "V",
+       "pubNr": "26",
+       "pubSL": "4",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "1991-02-16",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PCP",
+       "id": "219",
+       "motivoCessacao": null,
+       "nome": "Odete Santos"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "1991-02-04",
+       "dataRemessa": null,
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "1989-03-30",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "219995",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "14313",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "1989-03-30",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "820",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSÃO DE SAÚDE",
+     "Numero": "820",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/05/04/024/1991-02-06/770?pgs=770&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "770-770"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "V",
+       "pubNr": "24",
+       "pubSL": "4",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "1991-02-06",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/05/04/024/1991-02-06/770?pgs=770&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "770-770"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "V",
+       "pubNr": "24",
+       "pubSL": "4",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "1991-02-06",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "175",
+       "motivoCessacao": null,
+       "nome": "João Ferraz de Abreu"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "1989-03-30",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "219148",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "1989-03-31",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "219994",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "1989-04-01",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "219977",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/05/02/027/1989-04-01/838?pgs=838-839&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "332550",
+     "obs": null,
+     "pag": [
+      "838-839"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "V",
+     "pubNr": "27",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "1989-04-01",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "4371",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "1991-02-14",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": [
+    {
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "28368",
+     "leg": "V",
+     "nr": "669",
+     "sel": "4",
+     "tipo": "J",
+     "titulo": "Programas de televisão de interesse público"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "1991-02-14",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputados": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "20:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/05/04/042/1991-02-15/1370?pgs=1370-1371&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "159081",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1370-1371"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "V",
+         "pubNr": "42",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1991-02-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Programas televisivos destinados à educação para a saúde",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputados": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "20:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/05/04/042/1991-02-15/1371?pgs=1371&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "159082",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1371-1371"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "V",
+         "pubNr": "42",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1991-02-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Programas televisivos destinados à educação para a saúde",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputados": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "20:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/05/04/042/1991-02-15/1371?pgs=1371-1372,1374-1375&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "159083",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1371-1372",
+          "1374-1375"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "V",
+         "pubNr": "42",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1991-02-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Programas televisivos destinados à educação para a saúde",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputados": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "20:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/05/04/042/1991-02-15/1372?pgs=1372-1373&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "159084",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1372-1373"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "V",
+         "pubNr": "42",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1991-02-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Programas televisivos destinados à educação para a saúde",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputados": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "20:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/05/04/042/1991-02-15/1373?pgs=1373&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "159085",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1373-1373"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "V",
+         "pubNr": "42",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1991-02-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Programas televisivos destinados à educação para a saúde",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputados": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "20:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/05/04/042/1991-02-15/1374?pgs=1374,1378-1379&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "159086",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1374-1374",
+          "1378-1379"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "V",
+         "pubNr": "42",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1991-02-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Programas televisivos destinados à educação para a saúde",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputados": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "20:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/05/04/042/1991-02-15/1375?pgs=1375-1376&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "159087",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1375-1376"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "V",
+         "pubNr": "42",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1991-02-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Programas televisivos destinados à educação para a saúde",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputados": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "20:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/05/04/042/1991-02-15/1376?pgs=1376-1378&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "159088",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1376-1378"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "V",
+         "pubNr": "42",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1991-02-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Programas televisivos destinados à educação para a saúde",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputados": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "20:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/05/04/042/1991-02-15/1376?pgs=1376&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "159089",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1376-1376"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "V",
+         "pubNr": "42",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1991-02-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Programas televisivos destinados à educação para a saúde",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputados": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "20:50",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/05/04/042/1991-02-15/1378?pgs=1378-1379&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "159090",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1378-1379"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "V",
+         "pubNr": "42",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1991-02-15",
+         "supl": null
+        }
+       ],
+       "sumario": "Programas televisivos destinados à educação para a saúde",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "219907",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/05/04/042/1991-02-15?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "332556",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "V",
+     "pubNr": "42",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "1991-02-15",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "1991-02-19",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "219908",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/05/04/044/1991-02-20?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "332557",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "V",
+     "pubNr": "44",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "1991-02-20",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "1991-02-19",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PCP</I>, <I> PRD</I>, <I> CDS</I>, <I> Raul Castro (Indep)</I>, <I> Jorge Lemos (Indep)</I>, <I> José Magalhães (Indep)</I><BR>Contra:<I>PSD</I><BR>Abstenção:<I>PS</I>, <I> Herculano Pombo (Indep)</I>",
+     "id": "45007",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "44",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "28676",
+ "IniLeg": "V",
+ "IniLinkTexto": "",
+ "IniNr": "377",
+ "IniObs": null,
+ "IniSel": "2",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Programas televisivos destinados à educação para a saúde",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

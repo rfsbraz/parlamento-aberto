@@ -1,0 +1,66 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "JÚLIO CASTRO CALDAS"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "30726",
+     "iniNr": "349",
+     "iniSelLg": "II",
+     "iniSelNr": "2",
+     "iniTi": "Suspensão do Decreto-Lei nº 224/82, de 8 de Junho.",
+     "iniTp": "J",
+     "iniTpdesc": "Projeto de Lei"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "VIANA DO CASTELO",
+  "depCPId": "16",
+  "depCadId": "3494",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3335",
+  "depNomeCompleto": "JÚLIO DE LEMOS DE CASTRO CALDAS",
+  "depNomeParlamentar": "JÚLIO CASTRO CALDAS",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1980-11-18",
+     "sioDtInicio": "1980-11-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-09-16",
+     "sioDtInicio": "1981-07-07"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-20",
+     "sioDtInicio": "1981-12-15"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-08-23"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

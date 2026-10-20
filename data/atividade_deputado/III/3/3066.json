@@ -1,0 +1,121 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PCP",
+     "dpl_lg": "III",
+     "nome": "RAIMUNDO CABRAL"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30101",
+      "iniNr": "55",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei n.º 341/83 de 21 de Julho (determina o modelo orçamental e contabilístico das autarquias locais)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30089",
+      "iniNr": "47",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei n.º 400/82, de 23 de Setembro (aprova o Código Penal)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30088",
+      "iniNr": "46",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei n.º 401/82, de 23 de Setembro (institui o regime aplicável em matéria penal a jovens com idade compreendida entre os 16 e 21 anos)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30085",
+      "iniNr": "44",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei n.º 39/83, de 25 de Janeiro (estabelece o regime a que deve obedecer o registo criminal e as condições de acesso a informação criminal)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30083",
+      "iniNr": "43",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei n.º 402/82, de 23 de Setembro de 1982 (introduz alterações ao Código do Processo Penal e legislação complementar e estabelece o regime de execução das penas e medidas de segurança)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30116",
+      "iniNr": "40",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei nº 477/82, de 22 de Dezembro (define os crimes que não admitem liberdade provisória).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30063",
+      "iniNr": "13",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei nº 352/81, de 28 de Dezembro (Aprova o Estatuto da Ordem dos Engenheiros).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30059",
+      "iniNr": "10",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei nº 421/80 de 30 de Setembro (Estabelece normas relativas  a actividade publicitária).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "SANTARÉM",
+  "depCPId": "14",
+  "depCadId": "3066",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "990",
+    "gpSigla": "PCP"
+   }
+  },
+  "depId": "3690",
+  "depNomeCompleto": "RAIMUNDO DO CÉU CABRAL",
+  "depNomeParlamentar": "RAIMUNDO CABRAL",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-06-15",
+     "sioDtInicio": "1983-05-31"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-10-17",
+     "sioDtInicio": "1983-06-20"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

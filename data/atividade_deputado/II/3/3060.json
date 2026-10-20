@@ -1,0 +1,96 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "NATÁLIA CORREIA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30674",
+      "iniNr": "319",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Amnistia os crimes de fim exclusivamente ou predominantemente político cometidos entre 25 de Abril de 1974 e 30 de Novembro não abrangidos por anteriores amnistias independentemente da conjuntura em que tiverem ocorrido",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30628",
+      "iniNr": "294",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Amnistia as infracções disciplinares praticadas nos meios de comunicação social referidos no artº 39º da Constituição.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "33128",
+      "iniNr": "5",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Instituição do Dia Internacional da Língua Portuguesa",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "3060",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3298",
+  "depNomeCompleto": "NATÁLIA DE OLIVEIRA CORREIA",
+  "depNomeParlamentar": "NATÁLIA CORREIA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-05-25",
+     "sioDtInicio": "1980-11-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-08",
+     "sioDtInicio": "1982-06-15"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-08-12",
+     "sioDtInicio": "1982-08-02"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-10-11",
+     "sioDtInicio": "1982-08-15"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-22",
+     "sioDtInicio": "1982-10-19"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-11-27"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

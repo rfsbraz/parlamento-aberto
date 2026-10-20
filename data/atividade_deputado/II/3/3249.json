@@ -1,0 +1,86 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "JOÃO MORGADO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30639",
+      "iniNr": "321",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Criação do município de Canas de Senhorim.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30400",
+      "iniNr": "111",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Sobre amnistia.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30369",
+      "iniNr": "76",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Entrada em vigor do Decreto-Lei n.º 537/79, de 31 de Dezembro, Código do Processo de Trabalho",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "VISEU",
+  "depCPId": "18",
+  "depCadId": "3249",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "3350",
+  "depNomeCompleto": "JOÃO DA SILVA MENDES MORGADO",
+  "depNomeParlamentar": "JOÃO MORGADO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-06",
+     "sioDtInicio": "1980-11-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-09-17",
+     "sioDtInicio": "1982-07-09"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-10-29",
+     "sioDtInicio": "1982-09-27"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-10-31"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

@@ -1,0 +1,803 @@
+{
+ "DataFimleg": "2017-09-14",
+ "DataInicioleg": "2016-09-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PAN",
+   "idCadastro": "5777",
+   "nome": "André Silva"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PAN"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324979596d5532596d526b4c54466b4d7a51744e4756694e6931684e4449344c5751314e544a6b4e5745334f5751334e6935775a47593d&fich=b2be6bdd-1d34-4eb6-a428-d552d5a79d76.pdf&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2016-12-16",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "321223",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2016-12-16",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "321572",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/13/02/043/2016-12-16/17?pgs=17-19&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "777349",
+     "obs": null,
+     "pag": [
+      "17-19"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XIII",
+     "pubNr": "43",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2016-12-16",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2016-12-20",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "321292",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2016-12-21",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "321337",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2016-12-21",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "321315",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/02/031/2016-12-22/20?pgs=20-25&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "779909",
+     "obs": null,
+     "pag": [
+      "20-25"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XIII",
+     "pubNr": "31",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2016-12-22",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "11671",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2016-12-22",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "PAN",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "40854",
+     "leg": "XIII",
+     "nr": "359",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/02/032/2016-12-23/48?pgs=48&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2261",
+       "obs": null,
+       "pag": [
+        "48-48"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIII",
+       "pubNr": "32",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2016-12-23",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "J",
+     "titulo": "Regula a compra e venda de animais de companhia"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2016-12-22",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "2084",
+         "nome": "Nuno Magalhães"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:04",
+       "horaTermo": "18:02",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/02/032/2016-12-23/48?pgs=48&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "204638",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "48-48"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIII",
+         "pubNr": "32",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2016-12-23",
+         "supl": null
+        }
+       ],
+       "sumario": "Regula a compra e venda de animais de companhia;Determina a impossibilidade de utilização da internet para anunciar a venda de animais selvagens.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "321489",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/02/032/2016-12-23/38?pgs=38&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "779910",
+     "obs": null,
+     "pag": [
+      "38-38"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XIII",
+     "pubNr": "32",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2016-12-23",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2016-12-22",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> BE</I>, <I> PCP</I>, <I> PEV</I>, <I> PAN</I><BR>Abstenção:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "74078",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "32",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "270",
+   "Comissao": [
+    {
+     "AccId": "39074",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": [
+      {
+       "data": "2017-05-10",
+       "id": "105126",
+       "tipo": "AUD"
+      },
+      {
+       "data": "2017-05-10",
+       "id": "105122",
+       "tipo": "AUD"
+      }
+     ],
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2017-07-06",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2016-12-22",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2017-07-12",
+       "TipoDocumento": "Quadro comparativo",
+       "TituloDocumento": "Guião de Votação na Especialidade - PJL 359/XIII/2ª (PAN) e 360/XIII/2ª (PAN)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4a5447566e4c304e50545338335130464e4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a566b5a5463314d7a67744e6a4d324e79303059575a6c4c546b314d5459745a47497a5a5449354f546b314e575a684c6e426b5a673d3d&fich=c5de7538-6367-4afe-9516-db3e299955fa.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2017-07-12",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório do Texto de Substituição - PJL 359/XIII/2ª (PAN) e 360/XIII/2ª (PAN)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4a5447566e4c304e50545338335130464e4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a4e684e3251324f5441744d4446684e7930305a545a6a4c574a6d4e5459744e546b784e444e6b5a5446694e474e684c6c424552673d3d&fich=63a7d690-01a7-4e6c-bf56-59143de1b4ca.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2017-07-12",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final - PJL 359/XIII/2ª (PAN) e 360/XIII/2ª (PAN)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4a5447566e4c304e50545338335130464e4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6d557759324d78597a59744d6a597a4d793030596d59794c5745345a5451744e54677a4e7a5135597a68694d574d784c6e426b5a673d3d&fich=fe0cc1c6-2633-4bf2-a8e4-583749c8b1c1.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "4530",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Agricultura e Mar",
+     "Numero": "4530",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/13/02/138/2017-07-12/5?pgs=5-30&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Relatório da discussão e votação e texto final",
+       "pag": [
+        "5-30"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIII",
+       "pubNr": "138",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2017-07-12",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/13/02/138/2017-07-12/5?pgs=5-30&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Relatório da discussão e votação e texto final",
+       "pag": [
+        "5-30"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIII",
+       "pubNr": "138",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2017-07-12",
+       "supl": null
+      }
+     ],
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": null,
+       "dataRemessa": "2017-07-12",
+       "numeroOficio": "Email",
+       "observacoes": null,
+       "tipoRemessa": "Texto Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "PEV"
+       ],
+       "data": "2017-07-06",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PS</I>, <I> BE</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> PAN</I><BR>Abstenção:<I>PSD</I><BR>Ausência: <I>PEV</I>",
+       "id": "76438",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "85",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
+    }
+   ],
+   "DataFase": "2016-12-22",
+   "EvtId": "14",
+   "Fase": "Baixa comissão especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "321490",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "320",
+   "Comissao": null,
+   "DataFase": "2017-07-19",
+   "EvtId": "18",
+   "Fase": "Votação final global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "328887",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/02/109/2017-07-20/91?pgs=91&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "798979",
+     "obs": null,
+     "pag": [
+      "91-91"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XIII",
+     "pubNr": "109",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2017-07-20",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2017-07-19",
+     "descricao": "Texto Final apresentado pela Comissão de Agricultura e Mar relativo aos Projetos de Lei n.ºs 359/XIII/2.ª (PAN) e 360/XIII/2.ª (PAN)",
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> BE</I>, <I> PCP</I>, <I> PEV</I>, <I> PAN</I><BR>Abstenção:<I>CDS-PP</I>",
+     "id": "76564",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "109",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "348",
+   "Comissao": [
+    {
+     "AccId": "40967",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "3027-07-26",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "3027-07-24",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2017-07-27",
+       "TipoDocumento": "Redacção final",
+       "TituloDocumento": "Redação Final do Texto de Substituição_PJL 359/XIII/2ª (PAN) e PJL 360/XIII/2ª (PAN)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4a5447566e4c304e50545338335130464e4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d544e6d4f444d354f5455745954646c59533030595745794c546b314f474974596d51795a545579596d4e6a4d474a6b4c6e426b5a673d3d&fich=13f83995-a7ea-4aa2-958b-bd2e52bcc0bd.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "4530",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Agricultura e Mar",
+     "Numero": "4530",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": null,
+       "dataRemessa": "3027-07-27",
+       "numeroOficio": "Email",
+       "observacoes": null,
+       "tipoRemessa": "Redação Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2017-07-26",
+       "descricao": "Redação Final fixada nos termos regimentais sem votos contra",
+       "detalhe": null,
+       "id": "76769",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "92",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
+    }
+   ],
+   "DataFase": "2017-07-24",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "329025",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "350",
+   "Comissao": null,
+   "DataFase": "2017-07-28",
+   "EvtId": "31",
+   "Fase": "Decreto (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "329374",
+   "OevTextId": "20193",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "20193",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "370",
+   "Comissao": null,
+   "DataFase": "2017-08-03",
+   "EvtId": "23",
+   "Fase": "Envio para promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "329711",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "380",
+   "Comissao": null,
+   "DataFase": "2017-08-03",
+   "EvtId": "24",
+   "Fase": "Promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "329903",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "390",
+   "Comissao": null,
+   "DataFase": "2017-08-07",
+   "EvtId": "25",
+   "Fase": "Referenda",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "329904",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2017-08-10",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "329905",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "580",
+   "Comissao": null,
+   "DataFase": "2017-08-23",
+   "EvtId": "32",
+   "Fase": "Lei (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "330177",
+   "OevTextId": "20336",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "20336",
+   "Votacao": null
+  }
+ ],
+ "IniId": "40855",
+ "IniLeg": "XIII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6377596a63794e6d4a6d4c575a6b4d3245744e44597a4d4331684f4467344c5446684d32557959544d324d7a45304e53356b62324d3d&fich=70b726bf-fd3a-4630-a888-1a3e2a363145.doc&Inline=true",
+ "IniNr": "360",
+ "IniObs": null,
+ "IniSel": "2",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Determina a impossibilidade de utilização da internet para anunciar a venda de animais selvagens",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": [
+  {
+   "assunto": "Pretendem que seja criada legislação adequada que impeça o comércio de animais em anúncios de classificados de páginas na internet.",
+   "dcl": null,
+   "descTipo": null,
+   "id": "12737",
+   "legislatura": "XIII",
+   "numero": "58",
+   "sessao": "1",
+   "tipo": null
+  }
+ ],
+ "PropostasAlteracao": null
+}

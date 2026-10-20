@@ -1,0 +1,117 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "JOSÉ GAMA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30639",
+      "iniNr": "321",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Criação do município de Canas de Senhorim.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30615",
+      "iniNr": "281",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Amnistia de alguns crimes militares.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30603",
+      "iniNr": "269",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Férias escolares.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "31072",
+      "iniNr": "104",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 272-A/81, de 30 de Setembro (Aprova o Código do Processo de Trabalho)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30369",
+      "iniNr": "76",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Entrada em vigor do Decreto-Lei n.º 537/79, de 31 de Dezembro, Código do Processo de Trabalho",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30355",
+      "iniNr": "63",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Nozedo de Baixo no concelho de Vinhais",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30354",
+      "iniNr": "62",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Reelevação a freguesia do lugar de Estevais, concelho de Mogadouro",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "FORA DA EUROPA",
+  "depCPId": "22",
+  "depCadId": "1341",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "3363",
+  "depNomeCompleto": "JOSÉ AUGUSTO GAMA",
+  "depNomeParlamentar": "JOSÉ GAMA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1980-12-11",
+     "sioDtInicio": "1980-11-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-04-10",
+     "sioDtInicio": "1980-12-12"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1981-04-28"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

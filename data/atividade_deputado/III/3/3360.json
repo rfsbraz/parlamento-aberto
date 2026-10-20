@@ -1,0 +1,144 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PS",
+     "dpl_lg": "III",
+     "nome": "MONTEIRO ANTÓNIO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "29791",
+      "iniNr": "349",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Elevação a vila da povoação de Marinhais.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29783",
+      "iniNr": "341",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Além-da-Ribeira, no concelho de Tomar.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29748",
+      "iniNr": "293",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Foros de Salvaterra no concelho de Salvaterra de Magos",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29678",
+      "iniNr": "229",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Elevação de Riachos a vila, no concelho de Torres Novas, distrito de Santarém.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29674",
+      "iniNr": "227",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Demarcação da zona de vinho do Cartaxo.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": {
+    "relatoresIniciativas": {
+     "pt_gov_ar_wsar_objectos_RelatoresIniciativasOut": [
+      {
+       "accDtrel": "1984-01-19",
+       "iniId": "29591",
+       "iniNr": "57",
+       "iniSelLg": "III",
+       "iniTi": "Demarcação da zona dos vinhos de Pinhel.",
+       "iniTp": "Projeto de Lei",
+       "relFase": "Baixa comissão distribuição inicial generalidade"
+      },
+      {
+       "accDtrel": "1984-01-19",
+       "iniId": "29696",
+       "iniNr": "237",
+       "iniSelLg": "III",
+       "iniTi": "Região demarcada de vinho de Arruda dos Vinhos.",
+       "iniTp": "Projeto de Lei",
+       "relFase": "Baixa comissão distribuição inicial generalidade"
+      },
+      {
+       "accDtrel": "1984-01-19",
+       "iniId": "29674",
+       "iniNr": "227",
+       "iniSelLg": "III",
+       "iniTi": "Demarcação da zona de vinho do Cartaxo.",
+       "iniTp": "Projeto de Lei",
+       "relFase": "Baixa comissão distribuição inicial generalidade"
+      },
+      {
+       "accDtrel": "1984-01-18",
+       "iniId": "29656",
+       "iniNr": "221",
+       "iniSelLg": "III",
+       "iniTi": "Região demarcada de vinho de Portalegre.",
+       "iniTp": "Projeto de Lei",
+       "relFase": "Baixa comissão distribuição inicial generalidade"
+      },
+      {
+       "accDtrel": "1984-01-19",
+       "iniId": "29654",
+       "iniNr": "210",
+       "iniSelLg": "III",
+       "iniTi": "Demarcação da região vitivinícola da Vidigueira, Cuba e alvito",
+       "iniTp": "Projeto de Lei",
+       "relFase": "Baixa comissão distribuição inicial generalidade"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "deputado": {
+  "depCPDes": "SANTARÉM",
+  "depCPId": "14",
+  "depCadId": "3360",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "988",
+    "gpSigla": "PS"
+   }
+  },
+  "depId": "4600",
+  "depNomeCompleto": "ALEXANDRE MONTEIRO ANTÓNIO",
+  "depNomeParlamentar": "MONTEIRO ANTÓNIO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-07-26",
+     "sioDtInicio": "1983-10-17"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-10-07",
+     "sioDtInicio": "1984-10-03"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

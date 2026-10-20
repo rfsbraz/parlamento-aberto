@@ -1,0 +1,96 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "ROGÉRIO LEÃO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "31072",
+     "iniNr": "104",
+     "iniSelLg": "II",
+     "iniSelNr": "2",
+     "iniTi": "Decreto-lei nº 272-A/81, de 30 de Setembro (Aprova o Código do Processo de Trabalho)",
+     "iniTp": "F",
+     "iniTpdesc": "Ratificação"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "3427",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "4822",
+  "depNomeCompleto": "ROGÉRIO FERREIRA MONÇÃO LEÃO",
+  "depNomeParlamentar": "ROGÉRIO LEÃO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-01-09",
+     "sioDtInicio": "1980-11-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-02-17",
+     "sioDtInicio": "1981-01-15"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-03-19",
+     "sioDtInicio": "1981-03-04"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-11-12",
+     "sioDtInicio": "1981-04-02"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-11-17",
+     "sioDtInicio": "1981-11-14"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-06-07",
+     "sioDtInicio": "1981-11-26"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-03",
+     "sioDtInicio": "1982-06-10"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-09",
+     "sioDtInicio": "1982-11-04"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-22",
+     "sioDtInicio": "1982-11-20"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-11-24"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

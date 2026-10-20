@@ -1,0 +1,873 @@
+{
+ "DataFimleg": "2006-09-14",
+ "DataInicioleg": "2005-03-10",
+ "IniAnexos": null,
+ "IniAutorDeputados": null,
+ "IniAutorGruposParlamentares": null,
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Governo",
+  "sigla": "V"
+ },
+ "IniDescTipo": "Proposta de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2005-12-06",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "172579",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2005-12-13",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "172905",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "8350",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2006-01-10",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2005-12-15",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "244",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas (pré RAR)",
+     "Numero": "244",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/10/01/101/2006-04-08/29?pgs=29-30&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "29-30"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "101",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2006-04-08",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/10/01/101/2006-04-08/29?pgs=29-30&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "29-30"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "101",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2006-04-08",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "2197",
+       "motivoCessacao": null,
+       "nome": "Renato Leal"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2006-04-03",
+       "dataRemessa": "2006-04-05",
+       "numeroOficio": "11/2ª-CNECP",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2006-04-04",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> BE</I>, <I> PCP</I>, <I> CDS-PP</I>",
+       "id": "33958",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "43",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2005-12-13",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "172637",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2005-12-14",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "172906",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2005-12-15",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "245625",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/10/01/069S1/2005-12-15/27?pgs=27-39&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "375330",
+     "obs": null,
+     "pag": [
+      "27-39"
+     ],
+     "pagFinalDiarioSupl": "1º Supl.",
+     "pubLeg": "X",
+     "pubNr": "69",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2005-12-15",
+     "supl": "1º Supl."
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "5306",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2006-04-07",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": [
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "21097",
+     "leg": "X",
+     "nr": "30",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5085?pgs=5085-5090&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1140",
+       "obs": null,
+       "pag": [
+        "5085-5090"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "110",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-04-08",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5085?pgs=5085-5090&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1140",
+       "obs": null,
+       "pag": [
+        "5085-5090"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "110",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-04-08",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova, para ratificação, a Revisão dos Estatutos da Comunidade dos Países de Língua Portuguesa (CPLP), adoptada pelo Conselho de Ministros da CPLP, na sua VI Reunião Ordinária realizada em São Tomé e Príncipe, em 31 de Julho de 2001."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "21098",
+     "leg": "X",
+     "nr": "31",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5085?pgs=5085-5090&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1140",
+       "obs": null,
+       "pag": [
+        "5085-5090"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "110",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-04-08",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5085?pgs=5085-5090&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1140",
+       "obs": null,
+       "pag": [
+        "5085-5090"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "110",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-04-08",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova, para ratificação, a Convenção sobre o Centro Regional de Excelência em Desenvolvimento Empresarial, aprovada na III Conferência dos Chefes de Estado e de Governo da Comunidade dos Países de Língua Portuguesa em Maputo, a 18 de Julho de 2000, e assinada em Lisboa, a 31 de Maio de 2004."
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2006-04-07",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "11:45",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": "S.E. DOS ASSUNTOS EUROPEUS",
+        "governo": "XVII GOVERNO CONSTITUCIONAL",
+        "nome": "Fernando de Oliveira Neves"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5085?pgs=5085-5086&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "161103",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5085-5086"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-04-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, a Revisão dos Estatutos da Comunidade dos Países de Língua Portuguesa (CPLP), adoptada pelo Conselho de Ministros da CPLP, na sua VII Reunião Ordinária realizada em Brasília, em 30 de Julho de 2002;  Idem, na sua VI Reunião Ordinária realizada em São Tomé e Príncipe, em 31 de Julho de 2001; Idem, a Convenção sobre o Centro Regional de Excelência em Desenvolvimento Empresarial, aprovada na III Conferência dos Chefes de Estado e de Governo da Comunidade dos Países de Língua Portuguesa em Maputo, a 18 de Julho de 2000, e assinada em Lisboa a 31 de Maio de 2004",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2197",
+         "nome": "Renato Leal"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "11:45",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5086?pgs=5086-5087&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "161104",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5086-5087"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-04-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, a Revisão dos Estatutos da Comunidade dos Países de Língua Portuguesa (CPLP), adoptada pelo Conselho de Ministros da CPLP, na sua VII Reunião Ordinária realizada em Brasília, em 30 de Julho de 2002;  Idem, na sua VI Reunião Ordinária realizada em São Tomé e Príncipe, em 31 de Julho de 2001; Idem, a Convenção sobre o Centro Regional de Excelência em Desenvolvimento Empresarial, aprovada na III Conferência dos Chefes de Estado e de Governo da Comunidade dos Países de Língua Portuguesa em Maputo, a 18 de Julho de 2000, e assinada em Lisboa a 31 de Maio de 2004",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "77",
+         "nome": "José Cesário"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "11:45",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5087?pgs=5087-5088&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "161105",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5087-5088"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-04-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, a Revisão dos Estatutos da Comunidade dos Países de Língua Portuguesa (CPLP), adoptada pelo Conselho de Ministros da CPLP, na sua VII Reunião Ordinária realizada em Brasília, em 30 de Julho de 2002;  Idem, na sua VI Reunião Ordinária realizada em São Tomé e Príncipe, em 31 de Julho de 2001; Idem, a Convenção sobre o Centro Regional de Excelência em Desenvolvimento Empresarial, aprovada na III Conferência dos Chefes de Estado e de Governo da Comunidade dos Países de Língua Portuguesa em Maputo, a 18 de Julho de 2000, e assinada em Lisboa a 31 de Maio de 2004",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1450",
+         "nome": "Hélder Amaral"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "11:45",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5088?pgs=5088-5089&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "161106",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5088-5089"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-04-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, a Revisão dos Estatutos da Comunidade dos Países de Língua Portuguesa (CPLP), adoptada pelo Conselho de Ministros da CPLP, na sua VII Reunião Ordinária realizada em Brasília, em 30 de Julho de 2002;  Idem, na sua VI Reunião Ordinária realizada em São Tomé e Príncipe, em 31 de Julho de 2001; Idem, a Convenção sobre o Centro Regional de Excelência em Desenvolvimento Empresarial, aprovada na III Conferência dos Chefes de Estado e de Governo da Comunidade dos Países de Língua Portuguesa em Maputo, a 18 de Julho de 2000, e assinada em Lisboa a 31 de Maio de 2004",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2191",
+         "nome": "Helena Pinto"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "11:45",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5089?pgs=5089&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "161107",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5089-5089"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-04-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, a Revisão dos Estatutos da Comunidade dos Países de Língua Portuguesa (CPLP), adoptada pelo Conselho de Ministros da CPLP, na sua VII Reunião Ordinária realizada em Brasília, em 30 de Julho de 2002;  Idem, na sua VI Reunião Ordinária realizada em São Tomé e Príncipe, em 31 de Julho de 2001; Idem, a Convenção sobre o Centro Regional de Excelência em Desenvolvimento Empresarial, aprovada na III Conferência dos Chefes de Estado e de Governo da Comunidade dos Países de Língua Portuguesa em Maputo, a 18 de Julho de 2000, e assinada em Lisboa a 31 de Maio de 2004",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "1423",
+         "nome": "Luísa Mesquita"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "11:45",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5090?pgs=5090&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "161108",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5090-5090"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-04-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, a Revisão dos Estatutos da Comunidade dos Países de Língua Portuguesa (CPLP), adoptada pelo Conselho de Ministros da CPLP, na sua VII Reunião Ordinária realizada em Brasília, em 30 de Julho de 2002;  Idem, na sua VI Reunião Ordinária realizada em São Tomé e Príncipe, em 31 de Julho de 2001; Idem, a Convenção sobre o Centro Regional de Excelência em Desenvolvimento Empresarial, aprovada na III Conferência dos Chefes de Estado e de Governo da Comunidade dos Países de Língua Portuguesa em Maputo, a 18 de Julho de 2000, e assinada em Lisboa a 31 de Maio de 2004",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "243020",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5085?pgs=5085-5090&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "349443",
+     "obs": null,
+     "pag": [
+      "5085-5090"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "X",
+     "pubNr": "110",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2006-04-08",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "330",
+   "Comissao": null,
+   "DataFase": "2006-04-20",
+   "EvtId": "56",
+   "Fase": "Votação global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "243085",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/114/2006-04-21/5277?pgs=5277&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "350976",
+     "obs": null,
+     "pag": [
+      "5277-5277"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "X",
+     "pubNr": "114",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2006-04-21",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2006-04-20",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> BE</I>, <I> PEV</I>, <I> PCP</I>, <I> CDS-PP</I>",
+     "id": "48685",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "112",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "360",
+   "Comissao": null,
+   "DataFase": "2006-04-20",
+   "EvtId": "57",
+   "Fase": "Resolução (Publicação DAR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "244775",
+   "OevTextId": "14472",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "14472",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "371",
+   "Comissao": null,
+   "DataFase": "2006-05-24",
+   "EvtId": "121",
+   "Fase": "Envio para Ratificação / Assinatura",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "243690",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2006-05-24",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "243691",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "600",
+   "Comissao": null,
+   "DataFase": "2006-06-20",
+   "EvtId": "44",
+   "Fase": "Resolução da AR (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "244253",
+   "OevTextId": "14382",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "14382",
+   "Votacao": null
+  }
+ ],
+ "IniId": "21099",
+ "IniLeg": "X",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c637939595447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49315a4749345a6a6b324c544d304e6d45744e4452695a433034596a4a6b4c54686b4d4441774d444a6a5954637a4d79356b62324d3d&fich=25db8f96-346a-44bd-8b2d-8d00002ca733.doc&Inline=true",
+ "IniNr": "32",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "S",
+ "IniTitulo": "Aprova, para ratificação, a Revisão dos Estatutos da Comunidade dos Países de Língua Portuguesa (CPLP), adoptada pelo Conselho de Ministros da CPLP, na sua VII Reunião Ordinária realizada em Brasília, em 30 de Julho de 2002.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

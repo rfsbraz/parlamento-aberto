@@ -1,0 +1,86 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "ANTUNES DA SILVA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "29802",
+      "iniNr": "306",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Sobre consultas directas aos cidadãos eleitores.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29679",
+      "iniNr": "230",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Coutada, no concelho da Covilhã.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "intev": {
+    "pt_gov_ar_wsar_objectos_IntervencoesOut": [
+     {
+      "intId": "223779",
+      "intSu": "Concede ao Governo autorização para legislar em matéria das atribuições das autarquias locais e competencias dos respectivos orgãos",
+      "pubDar": "787-787",
+      "pubDtreu": "1983-07-12",
+      "pubLg": "III",
+      "pubNr": "20",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Protesto"
+     },
+     {
+      "intId": "223578",
+      "intSu": "Autoriza o Governo a legislar sobre o direito de negociação dos trabalhadores da Administração Pública e regime disciplinar da Função Pública.",
+      "pubDar": "709-709",
+      "pubDtreu": "1983-07-08",
+      "pubLg": "III",
+      "pubNr": "18",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "CASTELO BRANCO",
+  "depCPId": "5",
+  "depCadId": "54",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3594",
+  "depNomeCompleto": "FRANCISCO ANTUNES DA SILVA",
+  "depNomeParlamentar": "ANTUNES DA SILVA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1985-11-04",
+    "sioDtInicio": "1983-05-31"
+   }
+  },
+  "legDes": "III"
+ }
+}

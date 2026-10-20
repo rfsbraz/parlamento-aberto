@@ -1,0 +1,85 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": [
+    {
+     "AccDtaud": null,
+     "ActAs": null,
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": null,
+     "ActLg": null,
+     "ActLoc": null,
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": null,
+     "ActTpdesc": null,
+     "CmsAb": null,
+     "CmsNo": null,
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    }
+   ],
+   "Audiencias": null,
+   "Cms": null,
+   "DadosLegisDeputado": null,
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": [
+    {
+     "IntId": null,
+     "IntSu": null,
+     "IntTe": null,
+     "PubDar": null,
+     "PubDtreu": null,
+     "PubLg": null,
+     "PubNr": null,
+     "PubSl": null,
+     "PubTp": null,
+     "TinDs": null
+    }
+   ],
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": null,
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": null,
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Setúbal",
+  "DepCPId": 15.0,
+  "DepCadId": 6733.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-08-15",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7261.0,
+    "GpSigla": "PSD"
+   }
+  ],
+  "DepId": 17107.0,
+  "DepNomeCompleto": "Fernando Alves Soares",
+  "DepNomeParlamentar": "Fernando Soares",
+  "DepSituacao": [
+   {
+    "SioDes": "Suplente",
+    "SioDtFim": null,
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

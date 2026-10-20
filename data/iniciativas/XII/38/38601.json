@@ -1,0 +1,837 @@
+{
+ "DataFimleg": "2014-09-14",
+ "DataInicioleg": "2013-09-15",
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e54686a5a6d566a4e6d51745a6d497a4f5330304e4456684c546b334e4749744e4755774d7a493259324d334d6d49314c6e426b5a673d3d&fich=58cfec6d-fb39-445a-974b-4e0326cc72b5.pdf&Inline=true",
+   "anexoNome": "Anexo 1"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d7a41305a57517a5a446b74596a55324e4330304d57466a4c5749325a5459745a6d566b4d5441334d7a4e684e546b774c6e426b5a673d3d&fich=304ed3d9-b564-41ac-b6e6-fed10733a590.pdf&Inline=true",
+   "anexoNome": "Anexo 2"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e4449785a474d775a6d49744d5463354d7930305a574e6b4c546c685a5751744f444933595445774f5468694d4455314c6e426b5a673d3d&fich=421dc0fb-1793-4ecd-9aed-827a1098b055.pdf&Inline=true",
+   "anexoNome": "Anexo 3"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d7a41314d6d59774e6a67744d6d49304d533030595755334c546779596a67744d6d52694e32457a4d6d4d784e5445334c6e426b5a673d3d&fich=3052f068-2b41-4ae7-82b8-2db7a32c1517.pdf&Inline=true",
+   "anexoNome": "Anexo 4"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a6a45784e6a6377595745744f44646a4e7930304d3249794c5467324e6d49745a4749794e6a6c694d6a68694e5441784c6e426b5a673d3d&fich=f11670aa-87c7-43b2-866b-db269b28b501.pdf&Inline=true",
+   "anexoNome": "Anexo 5"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d5441324d7a4d355a4451744d324d774e6930304e7a49794c574a6a597a51744e7a4d304e6d566a4d6a6868596a49314c6e426b5a673d3d&fich=106339d4-3c06-4722-bcc4-7346ec28ab25.pdf&Inline=true",
+   "anexoNome": "Anexo 6"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e6a4e684d444a6d59325574596d59324f5330304e44566a4c546c6a595449744d5745354d5745784d3251314e6a6b774c6e426b5a673d3d&fich=63a02fce-bf69-445c-9ca2-1a91a13d5690.pdf&Inline=true",
+   "anexoNome": "Anexo 7"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764f574979596d557a5a4441744e5749304d7930305a6a5a6b4c546731596a6774596a6c6b4d324e6a4f4755314d44566b4c6e426b5a673d3d&fich=9b2be3d0-5b43-4f6d-85b8-b9d3cc8e505d.pdf&Inline=true",
+   "anexoNome": "Anexo 8"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765957526b4f546331596d49745a5755344d533030595441784c5745794e4755744d6d51334f446b774f54646c595445794c6e426b5a673d3d&fich=add975bb-ee81-4a01-a24e-2d789097ea12.pdf&Inline=true",
+   "anexoNome": "Anexo 9"
+  }
+ ],
+ "IniAutorDeputados": [
+  {
+   "GP": "PS",
+   "idCadastro": "2264",
+   "nome": "Pedro Farmhouse"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1977",
+   "nome": "António Gameiro"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "143",
+   "nome": "Alberto Costa"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "163",
+   "nome": "Ferro Rodrigues"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "4064",
+   "nome": "Inês de Medeiros"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "4452",
+   "nome": "Isabel Alves Moreira"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "179",
+   "nome": "Jorge Lacão"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "2209",
+   "nome": "Marcos Perestrello"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1594",
+   "nome": "Maria Antónia de Almeida Santos"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1671",
+   "nome": "Maria de Belém Roseira"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1164",
+   "nome": "Miguel Coelho"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "193",
+   "nome": "Miranda Calha"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "4453",
+   "nome": "Pedro Delgado Alves"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1943",
+   "nome": "Ramos Preto"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "2569",
+   "nome": "Rui Paulo Figueiredo"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1700",
+   "nome": "Vitalino Canas"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PS"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2014-07-17",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "299111",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2014-07-18",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "299397",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/03/145/2014-07-18/9?pgs=9-10&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "689898",
+     "obs": null,
+     "pag": [
+      "9-10"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "145",
+     "pubSL": "3",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2014-07-18",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2014-07-24",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "299144",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "33972",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2014-07-24",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2014-12-16",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Ofício Relatório",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6d51775a6d4e6d4e4451744d47593559533030593245354c5468694e4467744e7a497a596a63774e325268595759344c6e52705a673d3d&fich=fd0fcf44-0f9a-4ca9-8b48-723b707daaf8.tif&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-10-21",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer AF Vale do Paraíso",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a475a684e6d59314e6a67744f475a69596930304e4459334c574577595463744e7a59324e6d45324e7a51784d6d59784c6e52705a673d3d&fich=dfa6f568-8fbb-4467-a0a7-7666a67412f1.tif&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-10-03",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer AM Azambuja",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a63354f44457a4e4459744e5752694d533030597a45784c5467314e6d59744f5451785a6a6c6a59544a694d444d774c6e52705a673d3d&fich=27981346-5db1-4c11-856f-941f9ca2b030.tif&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-09-17",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer CM Azambuja",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e44557859324e684f4451744e546b344e7930304d7a41304c546b784e446b74596a59304e474a6c4f444a6b59574a6c4c6e52705a673d3d&fich=451cca84-5987-4304-9149-b644be82dabe.tif&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-10-21",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer e Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d544a6c4d7a59344e6d59745a4455305a6930304e544d794c54673159546b744e6a6730593251314d44526a5a4449344c6e52705a673d3d&fich=12e3686f-d54f-4532-85a9-684cd504cd28.tif&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-10-21",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer JF Vale do Paraíso",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6d59314d6a4e694f5455744d6d4d794d4330304f4463304c546b795a6a5174596a5134596a4d784e4756695a6a686b4c6e52705a673d3d&fich=6f523b95-2c20-4874-92f4-b48b314ebf8d.tif&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-12-02",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Pareceres JF a AF Azambuja",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765954646a4f544e6c5a6a637459575534596930304d5442694c54686b4d546b74595441334e6d5268597a557a5a474e6a4c6e52705a673d3d&fich=a7c93ef7-ae8b-410b-8d19-a076dac53dcc.tif&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3520",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão do Ambiente, Ordenamento do Território e Poder Local",
+     "Numero": "3520",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/04/020/2014-10-21/2?pgs=2-9&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "2-9"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "20",
+       "pubSL": "4",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2014-10-21",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/04/020/2014-10-21/2?pgs=2-9&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "2-9"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "20",
+       "pubSL": "4",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2014-10-21",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "4092",
+       "motivoCessacao": null,
+       "nome": "Odete Silva"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2014-10-21",
+       "dataRemessa": "2014-10-21",
+       "numeroOficio": "231/CAOTPL",
+       "observacoes": "Parecer",
+       "tipoRemessa": "Relatório/Parecer"
+      },
+      {
+       "dataDocumento": "2014-10-21",
+       "dataRemessa": "2014-12-16",
+       "numeroOficio": "276/CAOTPL",
+       "observacoes": "Ofício remetendo IL para apreciação e votação na Generalidade, Especialidade e Votação Final",
+       "tipoRemessa": "Texto Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2014-07-24",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "299145",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2014-07-25",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "299234",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2014-12-19",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "301485",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/033/2014-12-20/48?pgs=48&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "729147",
+     "obs": null,
+     "pag": [
+      "48-48"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "33",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2014-12-20",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2014-12-19",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "68065",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "33",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "310",
+   "Comissao": null,
+   "DataFase": "2014-12-19",
+   "EvtId": "34",
+   "Fase": "Votação na especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "301486",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/033/2014-12-20/48?pgs=48&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "729148",
+     "obs": null,
+     "pag": [
+      "48-48"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "33",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2014-12-20",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2014-12-19",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "68066",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "33",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "320",
+   "Comissao": null,
+   "DataFase": "2014-12-19",
+   "EvtId": "18",
+   "Fase": "Votação final global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "301487",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/033/2014-12-20/48?pgs=48&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "729149",
+     "obs": null,
+     "pag": [
+      "48-48"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "33",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2014-12-20",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2014-12-19",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "68067",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "33",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "348",
+   "Comissao": [
+    {
+     "AccId": "34819",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2014-12-30",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2015-01-08",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "informação 172-DAPLEN- PJL 639 - Aprovada",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e3259775957466c4f4441744f444e6d5a4330305a5467324c5745774e3245744d546b7959546c6d4e6a566d4d6a517a4c6e52705a673d3d&fich=7f0aae80-83fd-4e86-a07a-192a9f65f243.tif&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3520",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão do Ambiente, Ordenamento do Território e Poder Local",
+     "Numero": "3520",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": null,
+       "dataRemessa": "2015-01-06",
+       "numeroOficio": "e-mail",
+       "observacoes": null,
+       "tipoRemessa": "Redação Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2015-01-06",
+       "descricao": null,
+       "detalhe": null,
+       "id": "68136",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "210",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
+    }
+   ],
+   "DataFase": "2014-12-30",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "301606",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "350",
+   "Comissao": null,
+   "DataFase": "2015-01-15",
+   "EvtId": "31",
+   "Fase": "Decreto (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "302064",
+   "OevTextId": "18376",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "18376",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "370",
+   "Comissao": null,
+   "DataFase": "2015-01-22",
+   "EvtId": "23",
+   "Fase": "Envio para promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "302257",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "380",
+   "Comissao": null,
+   "DataFase": "2015-01-30",
+   "EvtId": "24",
+   "Fase": "Promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "302731",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "390",
+   "Comissao": null,
+   "DataFase": "2015-02-02",
+   "EvtId": "25",
+   "Fase": "Referenda",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "302732",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2015-02-09",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "302733",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "580",
+   "Comissao": null,
+   "DataFase": "2015-02-13",
+   "EvtId": "32",
+   "Fase": "Lei (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "302822",
+   "OevTextId": "18429",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "18429",
+   "Votacao": null
+  }
+ ],
+ "IniId": "38601",
+ "IniLeg": "XII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a544a694f544a6a4e6a67745a6a6c685a4330304f575a6c4c574a694d5755745a6d4d354f5463324d7a6b344f446b334c6d527659773d3d&fich=e2b92c68-f9ad-49fe-bb1e-fc9976398897.doc&Inline=true",
+ "IniNr": "639",
+ "IniObs": null,
+ "IniSel": "3",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Alteração dos limites territoriais das freguesias de Azambuja e de Vale do Paraíso, no município de Azambuja",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

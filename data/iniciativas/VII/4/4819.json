@@ -1,0 +1,889 @@
+{
+ "DataFimleg": "1998-09-14",
+ "DataInicioleg": "1997-10-05",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PSD",
+   "idCadastro": "1401",
+   "nome": "Artur Torres Pereira"
+  },
+  {
+   "GP": "CDS-PP",
+   "idCadastro": "1086",
+   "nome": "Jorge Ferreira"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "219",
+   "nome": "Odete Santos"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1528",
+   "nome": "António José Dias"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PSD"
+  },
+  {
+   "GP": "CDS-PP"
+  },
+  {
+   "GP": "PCP"
+  },
+  {
+   "GP": "PS"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Deputados",
+  "sigla": "D"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "1998-03-05",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "19288",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "1998-03-17",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "19289",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "2144",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "1998-03-17",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "1998-03-17",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "2",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSÃO DE ASSUNTOS CONSTITUCIONAIS, DIR., LIBERD. E GARANTIAS",
+     "Numero": "2",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/07/03/051/1998-05-14/1124?pgs=1124&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "1124-1124"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VII",
+       "pubNr": "51",
+       "pubSL": "3",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "1998-05-14",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/07/03/051/1998-05-14/1124?pgs=1124&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "1124-1124"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VII",
+       "pubNr": "51",
+       "pubSL": "3",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "1998-05-14",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "123",
+       "motivoCessacao": null,
+       "nome": "Miguel Macedo"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "1998-05-13",
+       "dataRemessa": "1998-05-13",
+       "numeroOficio": "OF 653/COM",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "1998-03-17",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "111367",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "1998-03-18",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "19290",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "1998-03-21",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "19291",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/07/03/039/1998-03-21/934?pgs=934-935&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "34785",
+     "obs": null,
+     "pag": [
+      "934-935"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VII",
+     "pubNr": "39",
+     "pubSL": "3",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "1998-03-21",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "939",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "1998-05-13",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "1998-05-13",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1086",
+         "nome": "Jorge Ferreira"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "19:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/07/03/068/1998-05-14/2346?pgs=2346-2347&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "51444",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2346-2347"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VII",
+         "pubNr": "68",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1998-05-14",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA O REGIME DE LICENCA DE PORTE DE ARMAS DE CACA, PRECISAO E RECREIO",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "219",
+         "nome": "Odete Santos"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "19:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/07/03/068/1998-05-14/2346?pgs=2346&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "51445",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2346-2346"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VII",
+         "pubNr": "68",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1998-05-14",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA O REGIME DE LICENCA DE PORTE DE ARMAS DE CACA, PRECISAO E RECREIO",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1528",
+         "nome": "António José Dias"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "19:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/07/03/068/1998-05-14/2345?pgs=2345-2346&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "51446",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2345-2346"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VII",
+         "pubNr": "68",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1998-05-14",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA O REGIME DE LICENCA DE PORTE DE ARMAS DE CACA, PRECISAO E RECREIO",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1401",
+         "nome": "Artur Torres Pereira"
+        }
+       ],
+       "faseDebate": "GENERALIDADE",
+       "faseSessao": "P",
+       "horaInicio": "15:35",
+       "horaTermo": "19:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/07/03/068/1998-05-14/2345?pgs=2345&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "51447",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2345-2345"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VII",
+         "pubNr": "68",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1998-05-14",
+         "supl": null
+        }
+       ],
+       "sumario": "ALTERA O REGIME DE LICENCA DE PORTE DE ARMAS DE CACA, PRECISAO E RECREIO",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "100762",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/07/03/068/1998-05-14?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "939",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VII",
+     "pubNr": "68",
+     "pubSL": "3",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "1998-05-14",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "1998-05-14",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "100761",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "1998-05-14",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> PEV</I>, <I> Lemos Damião (Indep)</I>",
+     "id": "23373",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/07/03/069/1998-05-15?org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "108738",
+       "obs": null,
+       "pag": null,
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VII",
+       "pubNr": "69",
+       "pubSL": "3",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "1998-05-15",
+       "supl": null
+      }
+     ],
+     "resultado": "Aprovado",
+     "reuniao": "69",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "300",
+   "Comissao": null,
+   "DataFase": "1998-05-14",
+   "EvtId": "17",
+   "Fase": "Discussão especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "100759",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/07/03/069/1998-05-15?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "108735",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VII",
+     "pubNr": "69",
+     "pubSL": "3",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "1998-05-15",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "310",
+   "Comissao": null,
+   "DataFase": "1998-05-14",
+   "EvtId": "34",
+   "Fase": "Votação na especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "100758",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "1998-05-14",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> PEV</I>, <I> Lemos Damião (Indep)</I>",
+     "id": "23372",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/07/03/069/1998-05-15?org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "108736",
+       "obs": null,
+       "pag": null,
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VII",
+       "pubNr": "69",
+       "pubSL": "3",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "1998-05-15",
+       "supl": null
+      }
+     ],
+     "resultado": "Aprovado",
+     "reuniao": "69",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "320",
+   "Comissao": null,
+   "DataFase": "1998-05-14",
+   "EvtId": "18",
+   "Fase": "Votação final global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "100755",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "1998-05-14",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> PEV</I>, <I> Lemos Damião (Indep)</I>",
+     "id": "23371",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/07/03/069/1998-05-15?org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "108734",
+       "obs": null,
+       "pag": null,
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "VII",
+       "pubNr": "69",
+       "pubSL": "3",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "1998-05-15",
+       "supl": null
+      }
+     ],
+     "resultado": "Aprovado",
+     "reuniao": "69",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "370",
+   "Comissao": null,
+   "DataFase": "1998-05-25",
+   "EvtId": "23",
+   "Fase": "Envio para promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "129040",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "350",
+   "Comissao": null,
+   "DataFase": "1998-05-28",
+   "EvtId": "31",
+   "Fase": "Decreto (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "129038",
+   "OevTextId": "1986",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "1986",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "380",
+   "Comissao": null,
+   "DataFase": "1998-06-03",
+   "EvtId": "24",
+   "Fase": "Promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "129041",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "390",
+   "Comissao": null,
+   "DataFase": "1998-06-17",
+   "EvtId": "25",
+   "Fase": "Referenda",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "129042",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "1998-06-19",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "129039",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "580",
+   "Comissao": null,
+   "DataFase": "1998-06-26",
+   "EvtId": "32",
+   "Fase": "Lei (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "133603",
+   "OevTextId": "3092",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "3092",
+   "Votacao": null
+  }
+ ],
+ "IniId": "4819",
+ "IniLeg": "VII",
+ "IniLinkTexto": "",
+ "IniNr": "508",
+ "IniObs": "Licença de uso e porte de arma.",
+ "IniSel": "3",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Alteração dos artigos 2° e 5° da lei n° 22/97,de 27 de Junho, alterada pela lei n°93-a/97,de 22 de Agosto (altera o regime de uso e porte de armas de caça, precisão e recreio)",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

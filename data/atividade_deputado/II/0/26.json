@@ -1,0 +1,78 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "ARMÉNIO SANTOS"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30535",
+      "iniNr": "236",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de São Miguel de Alcainça no concelho de Mafra",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30568",
+      "iniNr": "197",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Sobreiro no concelho de Mafra.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30567",
+      "iniNr": "196",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação da Comissão Instaladora do Município da Ericeira.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30566",
+      "iniNr": "195",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação do município da Ericeira.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "26",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3295",
+  "depNomeCompleto": "ARMÉNIO DOS SANTOS",
+  "depNomeParlamentar": "ARMÉNIO SANTOS",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1983-05-31",
+    "sioDtInicio": "1980-11-13"
+   }
+  },
+  "legDes": "II"
+ }
+}

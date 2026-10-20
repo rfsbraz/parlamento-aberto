@@ -1,0 +1,883 @@
+{
+ "DataFimleg": "2025-06-02",
+ "DataInicioleg": "2024-03-26",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "BE",
+   "idCadastro": "7040",
+   "nome": "Fabian Figueiredo"
+  },
+  {
+   "GP": "BE",
+   "idCadastro": "8642",
+   "nome": "Marisa Matias"
+  },
+  {
+   "GP": "BE",
+   "idCadastro": "6063",
+   "nome": "Joana Mortágua"
+  },
+  {
+   "GP": "BE",
+   "idCadastro": "2433",
+   "nome": "José Moura Soeiro"
+  },
+  {
+   "GP": "BE",
+   "idCadastro": "4557",
+   "nome": "Mariana Mortágua"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "BE"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2024-09-13",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1537814",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2024-09-13",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1560129",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/16/01/091/2024-09-13/149?pgs=149-150&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1019569",
+     "obs": null,
+     "pag": [
+      "149-150"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVI",
+     "pubNr": "91",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2024-09-13",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2024-09-16",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1537855",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "181",
+   "Comissao": [
+    {
+     "AccId": "75737",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2024-09-16",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2024-10-09",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação - Discussão em Comissão",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765130394e4c7a4a44546b56445543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c325a6d4d6a55794d47466b4c57526b4f5751744e474d79596930344e575a6a4c57566a4e4459344e47457a5a446b785a53356b62324e34&fich=ff2520ad-dd9d-4c2b-85fc-ec4684a3d91e.docx&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8394",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas ",
+     "Numero": "8394",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2024-09-16",
+   "EvtId": "126",
+   "Fase": "Baixa comissão para discussão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1537856",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2024-09-18",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1537996",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "40891",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2024-10-18",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "PAN",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "284001",
+     "leg": "XVI",
+     "nr": "255",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/052/2024-10-19/72?pgs=72&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36627",
+       "obs": null,
+       "pag": [
+        "72-72"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XVI",
+       "pubNr": "52",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2024-10-19",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/052/2024-10-19/72?pgs=72&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36627",
+       "obs": null,
+       "pag": [
+        "72-72"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XVI",
+       "pubNr": "52",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2024-10-19",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/052/2024-10-19/72?pgs=72&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36627",
+       "obs": null,
+       "pag": [
+        "72-72"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XVI",
+       "pubNr": "52",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2024-10-19",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "R",
+     "titulo": "Recomenda ao Governo que condene a aprovação pelo Afeganistão da Lei sobre Propagação da Virtude e Prevenção do Vício e o Apartheid de Género em curso naquele país contra meninas, raparigas e mulheres"
+    },
+    {
+     "autor": "IL",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "284040",
+     "leg": "XVI",
+     "nr": "275",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/052/2024-10-19/72?pgs=72&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36627",
+       "obs": null,
+       "pag": [
+        "72-72"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XVI",
+       "pubNr": "52",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2024-10-19",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/052/2024-10-19/72?pgs=72&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36627",
+       "obs": null,
+       "pag": [
+        "72-72"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XVI",
+       "pubNr": "52",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2024-10-19",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/052/2024-10-19/72?pgs=72&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36627",
+       "obs": null,
+       "pag": [
+        "72-72"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XVI",
+       "pubNr": "52",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2024-10-19",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "R",
+     "titulo": "Para que o Governo inste perante o Tribunal Penal Internacional que as medidas declaradas pelo regime Talibã contra as mulheres afegãs sejam consideradas “crime contra a humanidade”"
+    },
+    {
+     "autor": "PS",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "284079",
+     "leg": "XVI",
+     "nr": "296",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/052/2024-10-19/72?pgs=72&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36627",
+       "obs": null,
+       "pag": [
+        "72-72"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XVI",
+       "pubNr": "52",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2024-10-19",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/052/2024-10-19/72?pgs=72&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36627",
+       "obs": null,
+       "pag": [
+        "72-72"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XVI",
+       "pubNr": "52",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2024-10-19",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/052/2024-10-19/72?pgs=72&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36627",
+       "obs": null,
+       "pag": [
+        "72-72"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XVI",
+       "pubNr": "52",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2024-10-19",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "R",
+     "titulo": "Recomenda ao Governo que denuncie ao Tribunal Penal Internacional como crime contra a humanidade o ataque aos direitos das mulheres no Afeganistão"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2024-10-18",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "4197",
+         "nome": "Paula Santos"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:03",
+       "horaTermo": "14:17",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/052/2024-10-19/72?pgs=72&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "413760",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "72-72"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XVI",
+         "pubNr": "52",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2024-10-19",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo que condene a aprovação pelo Afeganistão da Lei sobre Propagação da Virtude e Prevenção do Vício e o Apartheid de Género em curso naquele país contra meninas, raparigas e mulheres; Para que o Governo inste perante o Tribunal Penal Internacional que as medidas declaradas pelo regime Talibã contra as mulheres afegãs sejam consideradas “crime contra a humanidade”; Recomenda ao Governo que denuncie junto do Tribunal Penal Internacional o silenciamento da voz das mulheres e raparigas afegãs; Recomenda ao Governo que denuncie ao Tribunal Penal Internacional como crime contra a humanidade o ataque aos direitos das mulheres no Afeganistão.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1559578",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/052/2024-10-19/59?pgs=59&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1019406",
+     "obs": null,
+     "pag": [
+      "59-59"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVI",
+     "pubNr": "52",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2024-10-19",
+     "supl": null
+    },
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/052/2024-10-19/72?pgs=72&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1024040",
+     "obs": null,
+     "pag": [
+      "72-72"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVI",
+     "pubNr": "52",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2024-10-19",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2024-10-18",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> CH</I>, <I> IL</I>, <I> BE</I>, <I> PCP</I>, <I> L</I>, <I> PAN</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "127321",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "51",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "270",
+   "Comissao": [
+    {
+     "AccId": "76068",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2024-10-18",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2024-10-29",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório da votação",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765130394e4c7a4a44546b56445543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a4d344e4463304f5467344c5752694f5751744e4467314e5330354e44566c4c545134595751304d574d324d57526b597935775a47593d&fich=38474988-db9d-4855-945e-48ad41c61ddc.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2024-10-29",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765130394e4c7a4a44546b56445543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a64694d6d45324e6d49334c5749774f4449744e4759304d5331694f4745344c54466a4f545579595755795a54566d5a5335775a47593d&fich=7b2a66b7-b082-4f41-b8a8-1c952ae2e5fe.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8394",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas ",
+     "Numero": "8394",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2024-10-18",
+   "EvtId": "14",
+   "Fase": "Baixa comissão especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1559579",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "320",
+   "Comissao": null,
+   "DataFase": "2024-10-31",
+   "EvtId": "18",
+   "Fase": "Votação final global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1559893",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/16/01/057/2024-11-02/147?pgs=147&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1019885",
+     "obs": null,
+     "pag": [
+      "147-147"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVI",
+     "pubNr": "57",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2024-11-02",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2024-10-31",
+     "descricao": "Texto Final apresentado pela Comissão de Negócios Estrangeiros e Comunidades Portuguesas relativo aos Projetos de Resolução n.º 255/XVI/1.ª (PAN); 275/XVI/1.ª (IL); 286/XVI/1.ª (BE) e 296/XVI/1.ª (PS)",
+     "detalhe": null,
+     "id": "127425",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "56",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "348",
+   "Comissao": [
+    {
+     "AccId": "76138",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2024-11-07",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2024-12-11",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765130394e4c7a4a44546b56445543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a6730596a41784d474d344c546b344d3245744e445a694d5330354e6a51794c54646a5a6a4d794e7a41774e474a69595335775a47593d&fich=84b010c8-983a-46b1-9642-7cf327004bba.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8394",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas ",
+     "Numero": "8394",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "L",
+        "PCP",
+        "CDS-PP"
+       ],
+       "data": "2024-12-11",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CH</I>, <I> IL</I>, <I> BE</I><BR>Ausência: <I>PCP</I>, <I> L</I>, <I> CDS-PP</I>",
+       "id": "127548",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "19",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2024-11-07",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1559957",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "360",
+   "Comissao": null,
+   "DataFase": "2024-12-12",
+   "EvtId": "57",
+   "Fase": "Resolução (Publicação DAR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1570697",
+   "OevTextId": "94597",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "94597",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2024-12-12",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1570698",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "600",
+   "Comissao": null,
+   "DataFase": "2024-12-16",
+   "EvtId": "44",
+   "Fase": "Resolução da AR (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1570844",
+   "OevTextId": "94602",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "94602",
+   "Votacao": null
+  }
+ ],
+ "IniId": "284066",
+ "IniLeg": "XVI",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e4449785a4755794e6a49744d5759784d7930304f544a6b4c546b784f4467745a57466b59324a6b4e4749784e6d497a4c6d52765933673d&fich=421de262-1f13-492d-9188-eadcbd4b16b3.docx&Inline=true",
+ "IniNr": "286",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "R",
+ "IniTitulo": "Recomenda ao Governo que denuncie junto do Tribunal Penal Internacional o silenciamento da voz das mulheres e raparigas afegãs ",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

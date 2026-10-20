@@ -1,0 +1,806 @@
+{
+ "DataFimleg": "2018-09-14",
+ "DataInicioleg": "2017-09-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PCP",
+   "idCadastro": "4297",
+   "nome": "Carla Cruz"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "5524",
+   "nome": "João Dias"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "209",
+   "nome": "António Filipe"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4623",
+   "nome": "Diana Ferreira"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2069",
+   "nome": "Jorge Machado"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4471",
+   "nome": "Paulo Sá"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2184",
+   "nome": "Miguel Tiago"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4104",
+   "nome": "Rita Rato"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PCP"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a51315a6d45794e44566d4c5745794e6a6b744e4449314e4330354f544d304c5451774e6a41344d7a52694e324a694e5335775a47593d&fich=45fa245f-a269-4254-9934-4060834b7bb5.pdf&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2018-04-13",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "337415",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2018-04-13",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "338918",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/13/03/098/2018-04-13/21?pgs=21-23&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "813551",
+     "obs": null,
+     "pag": [
+      "21-23"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XIII",
+     "pubNr": "98",
+     "pubSL": "3",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2018-04-13",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2018-04-17",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "337533",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "42806",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2018-04-17",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2018-07-12",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793831597a457859574a684f4331694f57526a4c5451795a5451744f4459324e6930784e32557a4f4467794f5749304e6d45756347526d&fich=5c11aba8-b9dc-42e4-8666-17e38829b46a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2018-07-12",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer da 9.ª CS",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793833596a426c5a6a68694e79316b4d574d7a4c54526a4f5463744f5455355953316d4e6a513059546c684e6a417859546b756347526d&fich=7b0ef8b7-d1c3-4c97-959a-f644a9a601a9.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "4532",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Saúde",
+     "Numero": "4532",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2018-04-17",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "337534",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2018-04-18",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "337620",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "13661",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2019-02-01",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "BE",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "42312",
+     "leg": "XIII",
+     "nr": "805",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/04/047/2019-02-02/7?pgs=7-11&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2570",
+       "obs": null,
+       "pag": [
+        "7-11"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIII",
+       "pubNr": "47",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2019-02-02",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/04/047/2019-02-02/7?pgs=7-11&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2570",
+       "obs": null,
+       "pag": [
+        "7-11"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIII",
+       "pubNr": "47",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2019-02-02",
+       "supl": null
+      }
+     ],
+     "sel": "3",
+     "tipo": "J",
+     "titulo": "Isenção de pagamento de transporte não urgente de doentes (décima primeira alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro)"
+    },
+    {
+     "autor": "PEV",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "42677",
+     "leg": "XIII",
+     "nr": "887",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/04/047/2019-02-02/7?pgs=7-11&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2570",
+       "obs": null,
+       "pag": [
+        "7-11"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIII",
+       "pubNr": "47",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2019-02-02",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/04/047/2019-02-02/7?pgs=7-11&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2570",
+       "obs": null,
+       "pag": [
+        "7-11"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIII",
+       "pubNr": "47",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2019-02-02",
+       "supl": null
+      }
+     ],
+     "sel": "3",
+     "tipo": "J",
+     "titulo": "Transporte não urgente de doentes"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2019-02-01",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "4297",
+         "nome": "Carla Cruz"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:04",
+       "horaTermo": "12:26",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=2019_02_01_10_00_00_clean_14_plenario&url=l13/sl4/a2019/m02/&tI=00:18:49:361&drc=00:04:03:317"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=2019_02_01_10_00_00_clean_14_plenario&url=l13/sl4/a2019/m02/&tI=00:39:49:630&drc=00:02:41:242"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/04/047/2019-02-02/7?pgs=7,11&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "233147",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "11-11",
+          "7-7"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIII",
+         "pubNr": "47",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2019-02-02",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece os critérios de atribuição de transporte não urgente de doentes; Isenção de pagamento de transporte não urgente de doentes (décima primeira alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Transporte não urgente de doentes",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "4162",
+         "nome": "Moisés Ferreira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:04",
+       "horaTermo": "12:26",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=2019_02_01_10_00_00_clean_14_plenario&url=l13/sl4/a2019/m02/&tI=00:22:52:678&drc=00:03:32:254"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/04/047/2019-02-02/7?pgs=7-8&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "233148",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "7-8"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIII",
+         "pubNr": "47",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2019-02-02",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece os critérios de atribuição de transporte não urgente de doentes; Isenção de pagamento de transporte não urgente de doentes (décima primeira alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Transporte não urgente de doentes",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "780",
+         "nome": "José Luís Ferreira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:04",
+       "horaTermo": "12:26",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=2019_02_01_10_00_00_clean_14_plenario&url=l13/sl4/a2019/m02/&tI=00:26:24:933&drc=00:03:29:105"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/04/047/2019-02-02/8?pgs=8-9&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "233149",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "8-9"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIII",
+         "pubNr": "47",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2019-02-02",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece os critérios de atribuição de transporte não urgente de doentes; Isenção de pagamento de transporte não urgente de doentes (décima primeira alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Transporte não urgente de doentes",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4330",
+         "nome": "Ana Oliveira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:04",
+       "horaTermo": "12:26",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=2019_02_01_10_00_00_clean_14_plenario&url=l13/sl4/a2019/m02/&tI=00:29:54:038&drc=00:03:26:660"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/04/047/2019-02-02/9?pgs=9&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "233150",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "9-9"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIII",
+         "pubNr": "47",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2019-02-02",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece os critérios de atribuição de transporte não urgente de doentes; Isenção de pagamento de transporte não urgente de doentes (décima primeira alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Transporte não urgente de doentes",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "64",
+         "nome": "João Gouveia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:04",
+       "horaTermo": "12:26",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=2019_02_01_10_00_00_clean_14_plenario&url=l13/sl4/a2019/m02/&tI=00:33:20:698&drc=00:02:52:245"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/04/047/2019-02-02/10?pgs=10&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "233151",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "10-10"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIII",
+         "pubNr": "47",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2019-02-02",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece os critérios de atribuição de transporte não urgente de doentes; Isenção de pagamento de transporte não urgente de doentes (décima primeira alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Transporte não urgente de doentes",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "4096",
+         "nome": "Isabel Galriça Neto"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:04",
+       "horaTermo": "12:26",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=2019_02_01_10_00_00_clean_14_plenario&url=l13/sl4/a2019/m02/&tI=00:36:12:943&drc=00:03:36:686"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/04/047/2019-02-02/10?pgs=10-11&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "233152",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "10-11"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIII",
+         "pubNr": "47",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2019-02-02",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece os critérios de atribuição de transporte não urgente de doentes; Isenção de pagamento de transporte não urgente de doentes (décima primeira alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Transporte não urgente de doentes",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "346882",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/04/047/2019-02-02/7?pgs=7-11&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "851990",
+     "obs": null,
+     "pag": [
+      "7-11"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XIII",
+     "pubNr": "47",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2019-02-02",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2019-02-01",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "347068",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/04/047/2019-02-02/33?pgs=33&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "851991",
+     "obs": null,
+     "pag": [
+      "33-33"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XIII",
+     "pubNr": "47",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2019-02-02",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2019-02-01",
+     "descricao": null,
+     "detalhe": "A Favor: <I>BE</I>, <I> PCP</I>, <I> PEV</I>, <I> PAN</I><BR>Contra:<I>PSD</I>, <I> PS</I>, <I> Paulo Trigo Pereira (Ninsc)</I><BR>Abstenção:<I>CDS-PP</I>",
+     "id": "82055",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "47",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "42448",
+ "IniLeg": "XIII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32517a59544a6b4d7a526b4c5459345a4759744e4755304e6931684e7a51794c57566859575579596a67794f544a694d79356b62324d3d&fich=d3a2d34d-68df-4e46-a742-eaae2b8292b3.doc&Inline=true",
+ "IniNr": "829",
+ "IniObs": null,
+ "IniSel": "3",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Estabelece os critérios de atribuição de transporte não urgente de doentes",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

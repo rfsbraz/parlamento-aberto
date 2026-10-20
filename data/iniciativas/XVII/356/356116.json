@@ -1,0 +1,803 @@
+{
+ "DataFimleg": "2026-09-15",
+ "DataInicioleg": "2025-06-03",
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a417a4e57526b595451784c57557a4f5455744e4751794d6930344e54566b4c575135593245794f574a6a4f546b774d6935775a47593d&fich=035dda41-e395-4d22-855d-d9ca29bc9902.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324e6b4f446b354e6a686b4c5751314d4451744e4759344f5330344d4459314c574d334e5759324d47466c4d3245314f4335775a47593d&fich=cd89968d-d504-4f89-8065-c75f60ae3a58.pdf&Inline=true",
+   "anexoNome": "Anexo 1"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5a6c4f57517a4f544d344c5755345a4449744e475132597931684e5441304c5441345a6a67314d324a6b4d324e6c595335775a47593d&fich=6e9d3938-e8d2-4d6c-a504-08f853bd3cea.pdf&Inline=true",
+   "anexoNome": "Anexo 2"
+  }
+ ],
+ "IniAutorDeputados": [
+  {
+   "GP": "PSD",
+   "idCadastro": "8152",
+   "nome": "Almiro Moreira"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8863",
+   "nome": "Dulcineia Catarina Moura"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "4396",
+   "nome": "Andreia Neto"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "4484",
+   "nome": "Marco Claudino"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8698",
+   "nome": "Olga Freire"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8783",
+   "nome": "Carlos Silva Santiago"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "9149",
+   "nome": "Joana Seabra"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "7406",
+   "nome": "José Lago Gonçalves"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "6937",
+   "nome": "Alberto Machado"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "9184",
+   "nome": "Bárbara do Amaral Correia"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "9628",
+   "nome": "Fernando Queiroga"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "7351",
+   "nome": "Francisco Pimentel"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "5984",
+   "nome": "Germana Rocha"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "1478",
+   "nome": "Gonçalo Dinis Capitão"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8546",
+   "nome": "Hernâni Dias"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "7667",
+   "nome": "Liliana Fidalgo"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8179",
+   "nome": "Ana Gabriela Cabilhas"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8374",
+   "nome": "Miguel Guimarães"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "7274",
+   "nome": "Hugo Carneiro"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "2397",
+   "nome": "Francisco Covelinhas Lopes"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "4147",
+   "nome": "Carla Barros"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "7796",
+   "nome": "Francisco Sousa Vieira"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "9505",
+   "nome": "Rui Rocha Pereira"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "9506",
+   "nome": "Ana Isabel Ferreira"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "5993",
+   "nome": "Alberto Fonseca"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "6884",
+   "nome": "Jorge Botelho"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1517",
+   "nome": "Rui Jorge Santos"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "6870",
+   "nome": "Marina Gonçalves"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7338",
+   "nome": "Bruno Nunes"
+  },
+  {
+   "GP": "IL",
+   "idCadastro": "9429",
+   "nome": "Marta Patrícia Silva"
+  },
+  {
+   "GP": "L",
+   "idCadastro": "8491",
+   "nome": "Filipa Pinto"
+  },
+  {
+   "GP": "CDS-PP",
+   "idCadastro": "1657",
+   "nome": "João Pinho de Almeida"
+  },
+  {
+   "GP": "JPP",
+   "idCadastro": "9378",
+   "nome": "Filipe Sousa"
+  }
+ ],
+ "IniAutorGruposParlamentares": null,
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Deputados",
+  "sigla": "D"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2026-02-11",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1704447",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32597a4d6a526c4f5459794c5749794e5463744e4459324d693035597a686a4c5463354e5451794f4442694e6d4e6d4f53356b62324e34&fich=f324e962-b257-4662-9c8c-7954280b6cf9.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2026-02-13",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1704539",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "98317",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2026-02-13",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-02-24",
+       "TipoDocumento": "Link",
+       "TituloDocumento": "Contributos - Consulta Pública",
+       "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=693"
+      },
+      {
+       "DataDocumento": "2026-05-19",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica - PJL 416-XVII-1",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e32526c4e544a6a4d4751744e44526a5a4330304e3249784c546b7a4d7a59744d6a67775a6a686a4f546c685a6a49334c6e426b5a673d3d&fich=7de52c0d-44cd-47b1-9336-280f8c99af27.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-01",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório PJL 416-XVII-1",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d5746684d5449324e5759745a4459344d6930304d7a45784c57497a4d5749744d5451325a474979596a51344f5455324c6e426b5a673d3d&fich=1aa1265f-d682-4311-b31b-146db2b48956.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8459",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão da Reforma do Estado e Poder Local",
+     "Numero": "8459",
+     "Observacao": null,
+     "PareceresRecebidos": [
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d475a6a595745794d7a59744e5449354f4330305a546c6d4c5746694e6a51744d44566c596a4d7a4d544e6c4e6a6b794c6e426b5a673d3d&fich=0fcaa236-5298-4e9f-ab64-05eb3313e692.pdf&Inline=true",
+       "nome": "Junta de Freguesia de Galegos em 2026-04-23"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d5755785a44497a59544d744f4746695a4330305a5746694c5745324e6a51744e4749335a6a466b597a566d4d6a6c684c6e426b5a673d3d&fich=1e1d23a3-8abd-4eab-a664-4b7f1dc5f29a.pdf&Inline=true",
+       "nome": "Junta de Freguesia de Rans em 2026-04-24"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876595759344f544e6b595455744d57497a5a693030593251794c546b794d4449745a445a6d4e574a695954466b5a6d5a6a4c6e426b5a673d3d&fich=af893da5-1b3f-4cd2-9202-d6f5bba1dffc.pdf&Inline=true",
+       "nome": "Assembleia de Freguesia de Rans em 2026-04-24"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a6b7a4f544e6a4e5751744d47517a4f4330304d5752684c54686a4d7a51745a5455794e474d784f5455334e7a45794c6e426b5a673d3d&fich=f9393c5d-0d38-41da-8c34-e524c1957712.pdf&Inline=true",
+       "nome": "Assembleia de Freguesia de Galegos em 2026-05-14"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d544e684e44597a5a5445744d54677a4e7930304d6d4a694c546c6d4d6a41744e546c68596a63304d4759315a6d55314c6e426b5a673d3d&fich=13a463e1-1837-42bb-9f20-59ab740f5fe5.pdf&Inline=true",
+       "nome": "Assembleia de Freguesia de Irivo em 2026-04-30"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d544e684e44597a5a5445744d54677a4e7930304d6d4a694c546c6d4d6a41744e546c68596a63304d4759315a6d55314c6e426b5a673d3d&fich=13a463e1-1837-42bb-9f20-59ab740f5fe5.pdf&Inline=true",
+       "nome": "Junta de Freguesia de Irivo em 2026-04-30"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d444977597a59794d4441745a6a49304d793030597a4d304c5745344e5445744f474d345a545a6c597a597a4e5745334c6e426b5a673d3d&fich=020c6200-f243-4c34-a851-8c8e6ec635a7.pdf&Inline=true",
+       "nome": "Junta de Freguesia de Guilhufe e Urrô em 2026-04-24"
+      }
+     ],
+     "PedidosParecer": [
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d475a6a595745794d7a59744e5449354f4330305a546c6d4c5746694e6a51744d44566c596a4d7a4d544e6c4e6a6b794c6e426b5a673d3d&fich=0fcaa236-5298-4e9f-ab64-05eb3313e692.pdf&Inline=true",
+       "nome": "Junta de Freguesia de Galegos em 2026-03-26"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d5755785a44497a59544d744f4746695a4330305a5746694c5745324e6a51744e4749335a6a466b597a566d4d6a6c684c6e426b5a673d3d&fich=1e1d23a3-8abd-4eab-a664-4b7f1dc5f29a.pdf&Inline=true",
+       "nome": "Junta de Freguesia de Rans em 2026-03-26"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876595759344f544e6b595455744d57497a5a693030593251794c546b794d4449745a445a6d4e574a695954466b5a6d5a6a4c6e426b5a673d3d&fich=af893da5-1b3f-4cd2-9202-d6f5bba1dffc.pdf&Inline=true",
+       "nome": "Assembleia de Freguesia de Rans em 2026-03-26"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a6b7a4f544e6a4e5751744d47517a4f4330304d5752684c54686a4d7a51745a5455794e474d784f5455334e7a45794c6e426b5a673d3d&fich=f9393c5d-0d38-41da-8c34-e524c1957712.pdf&Inline=true",
+       "nome": "Assembleia de Freguesia de Galegos em 2026-03-26"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d544e684e44597a5a5445744d54677a4e7930304d6d4a694c546c6d4d6a41744e546c68596a63304d4759315a6d55314c6e426b5a673d3d&fich=13a463e1-1837-42bb-9f20-59ab740f5fe5.pdf&Inline=true",
+       "nome": "Assembleia de Freguesia de Irivo em 2026-03-26"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d544e684e44597a5a5445744d54677a4e7930304d6d4a694c546c6d4d6a41744e546c68596a63304d4759315a6d55314c6e426b5a673d3d&fich=13a463e1-1837-42bb-9f20-59ab740f5fe5.pdf&Inline=true",
+       "nome": "Junta de Freguesia de Irivo em 2026-03-26"
+      },
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d444977597a59794d4441745a6a49304d793030597a4d304c5745344e5445744f474d345a545a6c597a597a4e5745334c6e426b5a673d3d&fich=020c6200-f243-4c34-a851-8c8e6ec635a7.pdf&Inline=true",
+       "nome": "Junta de Freguesia de Guilhufe e Urrô em 2026-03-26"
+      },
+      {
+       "link": "",
+       "nome": "Assembleia de Freguesia de Guilhufe e Urrô em 2026-03-26"
+      }
+     ],
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "CH",
+       "id": "8091",
+       "motivoCessacao": null,
+       "nome": "Sónia Monteiro"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "IL",
+        "CDS-PP",
+        "JPP"
+       ],
+       "data": "2026-06-01",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I>, <I> L</I><BR>Ausência: <I>IL</I>, <I> CDS-PP</I>, <I> JPP</I>",
+       "id": "171983",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "40",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2026-02-13",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1704540",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2026-02-18",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1704541",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2026-07-17",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1731925",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2026-07-17",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I>, <I> IL</I>, <I> L</I>, <I> CDS-PP</I>, <I> BE</I>, <I> PAN</I>, <I> JPP</I><BR>Abstenção:<I>PCP</I>",
+     "id": "172634",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "111",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "310",
+   "Comissao": null,
+   "DataFase": "2026-07-17",
+   "EvtId": "34",
+   "Fase": "Votação na especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1731926",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2026-07-17",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I>, <I> IL</I>, <I> L</I>, <I> CDS-PP</I>, <I> BE</I>, <I> PAN</I>, <I> JPP</I><BR>Abstenção:<I>PCP</I>",
+     "id": "172635",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "111",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "320",
+   "Comissao": null,
+   "DataFase": "2026-07-17",
+   "EvtId": "18",
+   "Fase": "Votação final global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1731927",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2026-07-17",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I>, <I> IL</I>, <I> L</I>, <I> CDS-PP</I>, <I> BE</I>, <I> PAN</I>, <I> JPP</I><BR>Abstenção:<I>PCP</I>",
+     "id": "172636",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "111",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55324f4446685a546b324c546469596a49744e4449335a4330354e4464684c54517a4d544d315932466c4d54597a4f43356b62324e34&fich=5681ae96-7bb2-427d-947a-43135cae1638.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
+   "CodigoFase": "348",
+   "Comissao": [
+    {
+     "AccId": "109607",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2026-07-21",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-21",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a46694d6d55785a4459744d4459324d6930304e7a67774c5749334f4445744d7a41334f4456695a4441774d3256694c6e426b5a673d3d&fich=c1b2e1d6-0662-4780-b781-30785bd003eb.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-21",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final - Anexo I",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a4d775954466a5a4745744e474a6d4e5330304d4449334c5467795a475174597a5a6b4d575532595756694d7a45334c6e426b5a673d3d&fich=f30a1cda-4bf5-4027-82dd-c6d1e6aeb317.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-21",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final - Anexo II",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e54466c4e7a63354e546b744d7a5268596930304e544e6c4c546b785a6d49744e6d45335a6d5a6a4d7a5a69596a426b4c6e426b5a673d3d&fich=51e77959-34ab-453e-91fb-6a7ffc36bb0d.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8459",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão da Reforma do Estado e Poder Local",
+     "Numero": "8459",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "IL",
+        "L",
+        "CDS-PP"
+       ],
+       "data": "2026-07-21",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I>, <I> JPP</I><BR>Ausência: <I>IL</I>, <I> L</I>, <I> CDS-PP</I>",
+       "id": "172685",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "50",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2026-07-21",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1731940",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "350",
+   "Comissao": null,
+   "DataFase": "2026-07-23",
+   "EvtId": "31",
+   "Fase": "Decreto (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1732024",
+   "OevTextId": "135841",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "135841",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "370",
+   "Comissao": null,
+   "DataFase": "2026-07-29",
+   "EvtId": "23",
+   "Fase": "Envio para promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1752178",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "380",
+   "Comissao": null,
+   "DataFase": "2026-08-12",
+   "EvtId": "24",
+   "Fase": "Promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1752483",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "390",
+   "Comissao": null,
+   "DataFase": "2026-08-12",
+   "EvtId": "25",
+   "Fase": "Referenda",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1752484",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2026-08-14",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1752485",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "580",
+   "Comissao": null,
+   "DataFase": "2026-08-26",
+   "EvtId": "32",
+   "Fase": "Lei (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1752544",
+   "OevTextId": "135942",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "135942",
+   "Votacao": null
+  }
+ ],
+ "IniId": "356116",
+ "IniLeg": "XVII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49324e6a5579596a45784c5749354d6d45744e474d354d4331694e54566a4c5451335a544a6a4f4445345a6a41304d79356b62324d3d&fich=26652b11-b92a-4c90-b55c-47e2c818f043.doc&Inline=true",
+ "IniNr": "416",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Procede à alteração dos limites territoriais entre as freguesias de Galegos, Rans, Irivo, Guilhufe e Urrô do Município de Penafiel ",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

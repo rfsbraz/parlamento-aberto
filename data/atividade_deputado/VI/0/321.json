@@ -1,0 +1,117 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": null,
+   "Audiencias": null,
+   "Cms": [
+    {
+     "CmsCargo": null,
+     "CmsCd": "6",
+     "CmsLg": "VI",
+     "CmsNo": "COMISSÃO ECONOMIA FINANCAS E PLANO",
+     "CmsSituacao": null,
+     "CmsSubCargo": null
+    },
+    {
+     "CmsCargo": null,
+     "CmsCd": "77",
+     "CmsLg": "VI",
+     "CmsNo": "COMISSÃO ECONOMIA FINANÇAS E PLANO (ANTIGA)",
+     "CmsSituacao": null,
+     "CmsSubCargo": null
+    }
+   ],
+   "DadosLegisDeputado": [
+    {
+     "Dpl_grpar": "PSD",
+     "Dpl_lg": "VI",
+     "Nome": "Francisco José Martins"
+    }
+   ],
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": null,
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": null,
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": [
+     {
+      "AccDtrel": "1995-01-26",
+      "IniId": "3436",
+      "IniNr": "452",
+      "IniSelLg": "VI",
+      "IniTi": "Sobre o Imposto Automóvel",
+      "IniTp": "Projeto de Lei",
+      "RelFase": "Baixa comissão distribuição inicial generalidade"
+     }
+    ],
+    "RelatoresPeticoes": null
+   },
+   "Req": [
+    {
+     "ReqAs": "REESTRUTURACAO DA PSP NA CIDADE DE LISBOA: OBJECTIVOS E MEDIDAS A TOMAR A CURTO, MEDIO E LONGO PRAZOS",
+     "ReqDt": null,
+     "ReqId": "11924",
+     "ReqLg": "VI",
+     "ReqNr": "434",
+     "ReqPerTp": "REQ",
+     "ReqSl": "2",
+     "ReqTp": "AC"
+    },
+    {
+     "ReqAs": "CONVENCAO PARA O RECONHECIMENTO DE DECISOES ARBITRAIS ESTRANGEIRAS (NOVA IORQUE, 10 DE JUNHO DE 1958)",
+     "ReqDt": null,
+     "ReqId": "13710",
+     "ReqLg": "VI",
+     "ReqNr": "839",
+     "ReqPerTp": "REQ",
+     "ReqSl": "1",
+     "ReqTp": "AC"
+    }
+   ],
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Lisboa",
+  "DepCPId": 11.0,
+  "DepCadId": 321.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-10-03",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7261.0,
+    "GpSigla": "PSD"
+   }
+  ],
+  "DepId": 16583.0,
+  "DepNomeCompleto": "Francisco José Fernandes Martins",
+  "DepNomeParlamentar": "Francisco José Martins",
+  "DepSituacao": [
+   {
+    "SioDes": "Efetivo Temporário",
+    "SioDtFim": null,
+    "SioDtInicio": "2025-06-06"
+   },
+   {
+    "SioDes": "Suplente",
+    "SioDtFim": "2025-06-05",
+    "SioDtInicio": "2025-06-05"
+   },
+   {
+    "SioDes": "Efetivo Temporário",
+    "SioDtFim": "2025-06-04",
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

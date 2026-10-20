@@ -1,0 +1,71 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": null,
+   "Audiencias": null,
+   "Cms": null,
+   "DadosLegisDeputado": null,
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": [
+    {
+     "IntId": null,
+     "IntSu": null,
+     "IntTe": null,
+     "PubDar": null,
+     "PubDtreu": null,
+     "PubLg": null,
+     "PubNr": null,
+     "PubSl": null,
+     "PubTp": null,
+     "TinDs": null
+    }
+   ],
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": null,
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": null,
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Aveiro",
+  "DepCPId": 1.0,
+  "DepCadId": 4308.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-08-15",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7261.0,
+    "GpSigla": "PSD"
+   }
+  ],
+  "DepId": 15855.0,
+  "DepNomeCompleto": "Salvador Malheiro Ferreira da Silva",
+  "DepNomeParlamentar": "Salvador Malheiro",
+  "DepSituacao": [
+   {
+    "SioDes": "Suspenso(Eleito)",
+    "SioDtFim": null,
+    "SioDtInicio": "2025-06-06"
+   },
+   {
+    "SioDes": "Efetivo",
+    "SioDtFim": "2025-06-05",
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

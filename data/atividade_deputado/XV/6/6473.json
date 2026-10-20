@@ -1,0 +1,62 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": null,
+   "Audiencias": null,
+   "Cms": null,
+   "DadosLegisDeputado": null,
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": null,
+   "ParlamentoJovens": [
+    {
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
+    }
+   ],
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": null,
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": null,
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Lisboa",
+  "DepCPId": 11.0,
+  "DepCadId": 6473.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-10-03",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7269.0,
+    "GpSigla": "PAN"
+   }
+  ],
+  "DepId": 16426.0,
+  "DepNomeCompleto": "Maria de Fátima de Castro Cordeiro Cabral",
+  "DepNomeParlamentar": "Maria De Cabral",
+  "DepSituacao": [
+   {
+    "SioDes": "Suplente",
+    "SioDtFim": null,
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

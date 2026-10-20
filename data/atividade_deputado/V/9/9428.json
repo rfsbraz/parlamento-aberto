@@ -1,0 +1,81 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": null,
+   "Audiencias": null,
+   "Cms": null,
+   "DadosLegisDeputado": null,
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": [
+    {
+     "IntId": null,
+     "IntSu": null,
+     "IntTe": null,
+     "PubDar": null,
+     "PubDtreu": null,
+     "PubLg": null,
+     "PubNr": null,
+     "PubSl": null,
+     "PubTp": null,
+     "TinDs": null
+    }
+   ],
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": null,
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": null,
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Porto",
+  "DepCPId": 13.0,
+  "DepCadId": 9428.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-10-03",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7264.0,
+    "GpSigla": "IL"
+   }
+  ],
+  "DepId": 16714.0,
+  "DepNomeCompleto": "Miguel Machado da Silva Rangel da Fonseca",
+  "DepNomeParlamentar": "Miguel Rangel",
+  "DepSituacao": [
+   {
+    "SioDes": "Efetivo",
+    "SioDtFim": null,
+    "SioDtInicio": "2026-03-28"
+   },
+   {
+    "SioDes": "Suspenso(Eleito)",
+    "SioDtFim": "2026-03-27",
+    "SioDtInicio": "2026-02-26"
+   },
+   {
+    "SioDes": "Suspenso(Eleito)",
+    "SioDtFim": "2026-02-25",
+    "SioDtInicio": "2026-01-27"
+   },
+   {
+    "SioDes": "Efetivo",
+    "SioDtFim": "2026-01-26",
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

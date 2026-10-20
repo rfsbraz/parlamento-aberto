@@ -1,0 +1,731 @@
+{
+ "DataFimleg": "1981-10-14",
+ "DataInicioleg": "1980-11-13",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PSD",
+   "idCadastro": "2906",
+   "nome": "Afonso Moura Guedes"
+  },
+  {
+   "GP": "CDS",
+   "idCadastro": "3570",
+   "nome": "Francisco Oliveira Dias"
+  },
+  {
+   "GP": "PPM",
+   "idCadastro": "3582",
+   "nome": "Jorge Portugal da Silveira"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PSD"
+  },
+  {
+   "GP": "CDS"
+  },
+  {
+   "GP": "PPM"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Deputados",
+  "sigla": "D"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "1981-02-12",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "232896",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "15975",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "1981-02-12",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "1981-02-12",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "839",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSÃO DE ADMINISTRAÇÃO INTERNA E PODER LOCAL",
+     "Numero": "839",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2/02/01/091S1/1981-07-01/1?pgs=1-3&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Parecer e texto alternativo.",
+       "pag": [
+        "1-3"
+       ],
+       "pagFinalDiarioSupl": "1º Supl.",
+       "pubLeg": "II",
+       "pubNr": "91",
+       "pubSL": "1",
+       "pubTipo": "DAR II série",
+       "pubTp": "K",
+       "pubdt": "1981-07-01",
+       "supl": "1º Supl."
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2/02/02/039/1982-01-15/798?pgs=798-800&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Relatório.",
+       "pag": [
+        "798-800"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "II",
+       "pubNr": "39",
+       "pubSL": "2",
+       "pubTipo": "DAR II série",
+       "pubTp": "K",
+       "pubdt": "1982-01-15",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2/02/01/091S1/1981-07-01/1?pgs=1-3&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Parecer e texto alternativo.",
+       "pag": [
+        "1-3"
+       ],
+       "pagFinalDiarioSupl": "1º Supl.",
+       "pubLeg": "II",
+       "pubNr": "91",
+       "pubSL": "1",
+       "pubTipo": "DAR II série",
+       "pubTp": "K",
+       "pubdt": "1981-07-01",
+       "supl": "1º Supl."
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2/02/02/039/1982-01-15/798?pgs=798-800&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": "Relatório.",
+       "pag": [
+        "798-800"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "II",
+       "pubNr": "39",
+       "pubSL": "2",
+       "pubTipo": "DAR II série",
+       "pubTp": "K",
+       "pubdt": "1982-01-15",
+       "supl": null
+      }
+     ],
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "1981-02-12",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "232898",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "1981-02-13",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "232897",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2/02/01/030/1981-02-13/527?pgs=527-530&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "341506",
+     "obs": null,
+     "pag": [
+      "527-530"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "II",
+     "pubNr": "30",
+     "pubSL": "1",
+     "pubTipo": "DAR II série",
+     "pubTp": "K",
+     "pubdt": "1981-02-13",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "60",
+   "Comissao": null,
+   "DataFase": "1981-06-09",
+   "EvtId": "53",
+   "Fase": "Retificação da iniciativa",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "232909",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2/02/01/079/1981-06-09/2848?pgs=2848&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "341519",
+     "obs": null,
+     "pag": [
+      "2848-2848"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "II",
+     "pubNr": "79",
+     "pubSL": "1",
+     "pubTipo": "DAR II série",
+     "pubTp": "K",
+     "pubdt": "1981-06-09",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "15656",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "1981-06-09",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "PCP",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "30347",
+     "leg": "II",
+     "nr": "48",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/02/01/079/1981-06-11?org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "3737",
+       "obs": null,
+       "pag": null,
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "II",
+       "pubNr": "79",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "1981-06-11",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/02/02/064/1982-03-17?org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "3771",
+       "obs": null,
+       "pag": null,
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "II",
+       "pubNr": "64",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "1982-03-17",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/02/02/065/1982-03-19?org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "5115",
+       "obs": null,
+       "pag": null,
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "II",
+       "pubNr": "65",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "1982-03-19",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "J",
+     "titulo": "Regime de criação e extinção das autarquias locais, sua delimitação e fixação da categoria das povoações"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "1981-06-09",
+     "oradores": null
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "232903",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/02/01/079/1981-06-11?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "341513",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "II",
+     "pubNr": "79",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "1981-06-11",
+     "supl": null
+    },
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/02/02/064/1982-03-17?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "341514",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "II",
+     "pubNr": "64",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "1982-03-17",
+     "supl": null
+    },
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/02/02/065/1982-03-19?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "341515",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "II",
+     "pubNr": "65",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "1982-03-19",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "1982-03-18",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "232904",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/02/02/065/1982-03-19?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "341516",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "II",
+     "pubNr": "65",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "1982-03-19",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": [
+      "UDP"
+     ],
+     "data": "1982-03-18",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS</I>, <I> PCP</I>, <I> PPM</I>, <I> ASDI</I>, <I> UEDS</I>, <I> MDP/CDE</I><BR>Ausência: <I>UDP</I>",
+     "id": "47135",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "65",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "310",
+   "Comissao": null,
+   "DataFase": "1982-03-19",
+   "EvtId": "34",
+   "Fase": "Votação na especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "232905",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/02/02/066/1982-03-20?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "341517",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "II",
+     "pubNr": "66",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "1982-03-20",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "1982-03-19",
+     "descricao": "Votada artigo por artigo.",
+     "detalhe": null,
+     "id": "47136",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "66",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "350",
+   "Comissao": null,
+   "DataFase": "1982-04-14",
+   "EvtId": "31",
+   "Fase": "Decreto (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "232906",
+   "OevTextId": "13175",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "13175",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "580",
+   "Comissao": null,
+   "DataFase": "1982-06-02",
+   "EvtId": "32",
+   "Fase": "Lei (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "232907",
+   "OevTextId": "13176",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "13176",
+   "Votacao": null
+  }
+ ],
+ "IniId": "30440",
+ "IniLeg": "II",
+ "IniLinkTexto": "",
+ "IniNr": "143",
+ "IniObs": "Existem mais 14 signatários.",
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Regime de criação de freguesias e municípios e fixação da categoria das povoações.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": [
+  {
+   "autor": "Deputados",
+   "id": "30441",
+   "publicacao": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2/02/02/066/1982-03-12/1243?pgs=1243&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "341509",
+     "obs": null,
+     "pag": [
+      "1243-1243"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "II",
+     "pubNr": "66",
+     "pubSL": "2",
+     "pubTipo": "DAR II série",
+     "pubTp": "K",
+     "pubdt": "1982-03-12",
+     "supl": null
+    }
+   ],
+   "tipo": "Proposta de Alteração"
+  },
+  {
+   "autor": "Deputados",
+   "id": "30442",
+   "publicacao": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2/02/02/067/1982-03-17/1258?pgs=1258&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "341510",
+     "obs": null,
+     "pag": [
+      "1258-1258"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "II",
+     "pubNr": "67",
+     "pubSL": "2",
+     "pubTipo": "DAR II série",
+     "pubTp": "K",
+     "pubdt": "1982-03-17",
+     "supl": null
+    }
+   ],
+   "tipo": "Proposta de Alteração"
+  },
+  {
+   "autor": "Deputados",
+   "id": "30443",
+   "publicacao": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2/02/02/068/1982-03-19/1268?pgs=1268&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "341511",
+     "obs": null,
+     "pag": [
+      "1268-1268"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "II",
+     "pubNr": "68",
+     "pubSL": "2",
+     "pubTipo": "DAR II série",
+     "pubTp": "K",
+     "pubdt": "1982-03-19",
+     "supl": null
+    }
+   ],
+   "tipo": "Proposta de Alteração"
+  },
+  {
+   "autor": "Deputados",
+   "id": "30444",
+   "publicacao": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2/02/02/069S2/1982-03-20/38?pgs=38&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "341512",
+     "obs": null,
+     "pag": [
+      "38-38"
+     ],
+     "pagFinalDiarioSupl": "2º Supl.",
+     "pubLeg": "II",
+     "pubNr": "69",
+     "pubSL": "2",
+     "pubTipo": "DAR II série",
+     "pubTp": "K",
+     "pubdt": "1982-03-20",
+     "supl": "2º Supl."
+    }
+   ],
+   "tipo": "Proposta de Alteração"
+  }
+ ]
+}

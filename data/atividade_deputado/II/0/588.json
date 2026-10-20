@@ -1,0 +1,49 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "FREITAS DO AMARAL"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "30527",
+     "iniNr": "224",
+     "iniSelLg": "II",
+     "iniSelNr": "1",
+     "iniTi": "Destino a dar aos arquivos da ex-PIDE/DGS",
+     "iniTp": "J",
+     "iniTpdesc": "Projeto de Lei"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "588",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "3280",
+  "depNomeCompleto": "DIOGO PINTO DE FREITAS DO AMARAL",
+  "depNomeParlamentar": "FREITAS DO AMARAL",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1981-09-04",
+    "sioDtInicio": "1981-01-09"
+   }
+  },
+  "legDes": "II"
+ }
+}

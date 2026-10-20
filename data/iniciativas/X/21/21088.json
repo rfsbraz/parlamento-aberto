@@ -1,0 +1,814 @@
+{
+ "DataFimleg": "2006-09-14",
+ "DataInicioleg": "2005-03-10",
+ "IniAnexos": null,
+ "IniAutorDeputados": null,
+ "IniAutorGruposParlamentares": null,
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Governo",
+  "sigla": "V"
+ },
+ "IniDescTipo": "Proposta de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2005-11-28",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "172497",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2005-12-02",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "172542",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "8335",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2005-12-13",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2005-12-07",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "244",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas (pré RAR)",
+     "Numero": "244",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/10/01/101/2006-04-08/27?pgs=27-28&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "27-28"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "101",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2006-04-08",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/10/01/101/2006-04-08/27?pgs=27-28&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "27-28"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "101",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2006-04-08",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "77",
+       "motivoCessacao": null,
+       "nome": "José Cesário"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2006-04-04",
+       "dataRemessa": "2006-04-05",
+       "numeroOficio": "9/2ª-CNECP",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2006-04-04",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> BE</I>, <I> PCP</I>, <I> CDS-PP</I>",
+       "id": "33955",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "43",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2005-12-02",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "172585",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2005-12-07",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "172582",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2005-12-09",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "173188",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/10/01/067S1/2005-12-09/2?pgs=2-61&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "325476",
+     "obs": null,
+     "pag": [
+      "2-61"
+     ],
+     "pagFinalDiarioSupl": "1º Supl.",
+     "pubLeg": "X",
+     "pubNr": "67",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2005-12-09",
+     "supl": "1º Supl."
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "5303",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2006-04-07",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2006-04-07",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "11:45",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": "S.E.   DA  CULTURA",
+        "governo": "XVII GOVERNO CONSTITUCIONAL",
+        "nome": "Mário Vieira De Carvalho"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5080?pgs=5080-5082,5085&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "161096",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5080-5082",
+          "5085-5085"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-04-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, a Convenção sobre a Protecção do Património Cultural Subaquático aprovada na XXXI Sessão da Conferência Geral da UNESCO, que teve lugar em Paris, em 2 de Novembro de 2001.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2063",
+         "nome": "Alda Macedo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "11:45",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5080?pgs=5080-5081&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "161097",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5080-5081"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-04-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, a Convenção sobre a Protecção do Património Cultural Subaquático aprovada na XXXI Sessão da Conferência Geral da UNESCO, que teve lugar em Paris, em 2 de Novembro de 2001.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "1785",
+         "nome": "Francisco Madeira Lopes"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "11:45",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5081?pgs=5081&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "161098",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5081-5081"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-04-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, a Convenção sobre a Protecção do Património Cultural Subaquático aprovada na XXXI Sessão da Conferência Geral da UNESCO, que teve lugar em Paris, em 2 de Novembro de 2001.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "77",
+         "nome": "José Cesário"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "11:45",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5082?pgs=5082&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "161099",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5082-5082"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-04-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, a Convenção sobre a Protecção do Património Cultural Subaquático aprovada na XXXI Sessão da Conferência Geral da UNESCO, que teve lugar em Paris, em 2 de Novembro de 2001.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2228",
+         "nome": "Matilde Sousa Franco"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "11:45",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5082?pgs=5082-5083&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "161100",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5082-5083"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-04-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, a Convenção sobre a Protecção do Património Cultural Subaquático aprovada na XXXI Sessão da Conferência Geral da UNESCO, que teve lugar em Paris, em 2 de Novembro de 2001.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "2167",
+         "nome": "Abel Baptista"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "11:45",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5083?pgs=5083-5084&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "161101",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5083-5084"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-04-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, a Convenção sobre a Protecção do Património Cultural Subaquático aprovada na XXXI Sessão da Conferência Geral da UNESCO, que teve lugar em Paris, em 2 de Novembro de 2001.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "1423",
+         "nome": "Luísa Mesquita"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:10",
+       "horaTermo": "11:45",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08/5084?pgs=5084-5085&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "161102",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "5084-5085"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "110",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-04-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, a Convenção sobre a Protecção do Património Cultural Subaquático aprovada na XXXI Sessão da Conferência Geral da UNESCO, que teve lugar em Paris, em 2 de Novembro de 2001.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "243015",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/110/2006-04-08?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "5303",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "X",
+     "pubNr": "110",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2006-04-08",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "330",
+   "Comissao": null,
+   "DataFase": "2006-04-20",
+   "EvtId": "56",
+   "Fase": "Votação global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "243082",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/114/2006-04-21/5277?pgs=5277&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "350973",
+     "obs": null,
+     "pag": [
+      "5277-5277"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "X",
+     "pubNr": "114",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2006-04-21",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2006-04-20",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> BE</I>, <I> PEV</I>, <I> PCP</I>, <I> CDS-PP</I>",
+     "id": "48682",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "112",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "360",
+   "Comissao": null,
+   "DataFase": "2006-04-20",
+   "EvtId": "57",
+   "Fase": "Resolução (Publicação DAR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "244779",
+   "OevTextId": "14476",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "14476",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "371",
+   "Comissao": null,
+   "DataFase": "2006-06-08",
+   "EvtId": "121",
+   "Fase": "Envio para Ratificação / Assinatura",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "244135",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2006-06-08",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "244136",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "600",
+   "Comissao": null,
+   "DataFase": "2006-07-18",
+   "EvtId": "44",
+   "Fase": "Resolução da AR (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "244762",
+   "OevTextId": "14469",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "14469",
+   "Votacao": null
+  }
+ ],
+ "IniId": "21088",
+ "IniLeg": "X",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c637939595447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b79596d4d334d6a51324c546730597a55744e4463304e6931685a44686c4c5459785a6a6c6b4e444a6c4f5463794d53356b62324d3d&fich=92bc7246-84c5-4746-ad8e-61f9d42e9721.doc&Inline=true",
+ "IniNr": "27",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "S",
+ "IniTitulo": "Aprova, para ratificação, a Convenção sobre a Protecção do Património Cultural Subaquático aprovada na XXXI sessão da Conferência Geral da UNESCO que teve lugar em Paris em 2 de Novembro de 2001.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

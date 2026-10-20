@@ -1,0 +1,877 @@
+{
+ "DataFimleg": "2014-09-14",
+ "DataInicioleg": "2013-09-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PS",
+   "idCadastro": "4209",
+   "nome": "Elza Pais"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "4452",
+   "nome": "Isabel Alves Moreira"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "413",
+   "nome": "Luís Pita Ameixa"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "179",
+   "nome": "Jorge Lacão"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "189",
+   "nome": "José Magalhães"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1554",
+   "nome": "Filipe Neto Brandão"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1671",
+   "nome": "Maria de Belém Roseira"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "2132",
+   "nome": "Idália Salvador Serrão"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "2569",
+   "nome": "Rui Paulo Figueiredo"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1550",
+   "nome": "António Cardoso"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "2522",
+   "nome": "Catarina Marcelino"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "4453",
+   "nome": "Pedro Delgado Alves"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PS"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2014-07-07",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "298841",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2014-07-08",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "299336",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/03/142/2014-07-08/14?pgs=14-15&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "688111",
+     "obs": null,
+     "pag": [
+      "14-15"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "142",
+     "pubSL": "3",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2014-07-08",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2014-07-09",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "298886",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "33892",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2014-07-16",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2014-07-09",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2015-01-15",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer - Associação Portuguesa para a Igualdade Parental e Direitos dos Filhos",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939685a6a4535595459344e79316a4e4455774c5451324e575174595459304e7930304e4749794d324e6d4d444578595749756347526d&fich=af19a687-c450-465d-a647-44b23cf011ab.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-08-08",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer - Conselho Superior da Magistratura",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684d575a6a4f4446684e43316b4d6a4e6b4c54517a4f444974596a59345a6931694e325132593249314d574a694e544d756347526d&fich=a1fc81a4-d23d-4382-b68f-b7d6cb51bb53.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-09-18",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer - Conselho Superior do Ministério Público",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684d5459794d574d7a5a433033595445774c545132593251744f544e6b5a53316b5a6a6b32593255355a6a5a6b4d6a45756347526d&fich=a1621c3d-7a10-46cd-93de-df96ce9f6d21.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-09-16",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer - Ordem dos Advogados",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d4e57517a4e3255774e7930344d47526d4c5451304d474d744f5468684e5330344e7a56695a6a6b794f4745355a6a6b756347526d&fich=f5d37e07-80df-440c-98a5-875bf928a9f9.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-10-07",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer - Procuradoria-Geral da República (07-10-2014)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314f575532596a59785a6930355a6d49314c5452695a474d744f4746694d693168597a466a4e6d4d314d4467774f4449756347526d&fich=59e6b61f-9fb5-4bdc-8ab2-ac1c6c508082.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-09-24",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer e Nota Técnica CACDLG",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a464451554e45544563765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a5a6a517a4d54466b597930334f5749774c5451314e7a59745954497a4d53307a5a546c694e4751304d6a646c4e4751756347526d&fich=3f4311dc-79b0-4576-a231-3e9b4d427e4d.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3510",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
+     "Numero": "3510",
+     "Observacao": null,
+     "PareceresRecebidos": [
+      {
+       "link": "",
+       "nome": "Conselho Superior do Ministério Público em 2014-09-18"
+      },
+      {
+       "link": "",
+       "nome": "Conselho Superior da Magistratura em 2014-08-08"
+      },
+      {
+       "link": "",
+       "nome": "Ordem dos Advogados em 2014-09-16"
+      }
+     ],
+     "PedidosParecer": [
+      {
+       "link": "",
+       "nome": "Conselho Superior do Ministério Público em 2014-07-16"
+      },
+      {
+       "link": "",
+       "nome": "Conselho Superior da Magistratura em 2014-07-16"
+      },
+      {
+       "link": "",
+       "nome": "Ordem dos Advogados em 2014-07-16"
+      }
+     ],
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/04/007/2014-09-24/2?pgs=2-21&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "2-21"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "7",
+       "pubSL": "4",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2014-09-24",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/04/007/2014-09-24/2?pgs=2-21&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "2-21"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "7",
+       "pubSL": "4",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2014-09-24",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "CDS-PP",
+       "id": "4289",
+       "motivoCessacao": null,
+       "nome": "Teresa Anjinho"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2014-09-24",
+       "dataRemessa": "2014-09-24",
+       "numeroOficio": "936/XII/1.ª - CACDLG",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2014-09-24",
+       "descricao": null,
+       "detalhe": null,
+       "id": "67397",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "258",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
+    }
+   ],
+   "DataFase": "2014-07-09",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "298887",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": [
+    {
+     "AccId": "34100",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2014-07-16",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2014-07-09",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3510",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
+     "Numero": "3510",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2014-07-10",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "298931",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "10245",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2015-01-07",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2015-01-07",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "4209",
+         "nome": "Elza Pais"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "18:57",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150107pln&url=l12/sl4/a2015/m01/&tI=03:23:07:057&drc=00:03:30:057"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150107pln&url=l12/sl4/a2015/m01/&tI=03:42:35:235&drc=00:02:21:034"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/034/2015-01-08/48?pgs=48,53&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "196968",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "48-48",
+          "53-53"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "34",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-01-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Procede à 21.ª alteração ao Código de Processo Penal, promovendo a proteção de vítimas de violência doméstica instituindo procedimento para a regulação provisória das responsabilidades parentais com atribuição provisória de pensão de alimentos e permitindo o afastamento do agressor.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "3918",
+         "nome": "Maria Paula Cardoso"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "18:57",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150107pln&url=l12/sl4/a2015/m01/&tI=03:26:41:449&drc=00:04:35:798"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/034/2015-01-08/49?pgs=49-50&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "196969",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "49-50"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "34",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-01-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Procede à 21.ª alteração ao Código de Processo Penal, promovendo a proteção de vítimas de violência doméstica instituindo procedimento para a regulação provisória das responsabilidades parentais com atribuição provisória de pensão de alimentos e permitindo o afastamento do agressor.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2194",
+         "nome": "Cecília Honório"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "18:57",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150107pln&url=l12/sl4/a2015/m01/&tI=03:31:19:419&drc=00:03:28:382"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/034/2015-01-08/50?pgs=50&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "196970",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "50-50"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "34",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-01-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Procede à 21.ª alteração ao Código de Processo Penal, promovendo a proteção de vítimas de violência doméstica instituindo procedimento para a regulação provisória das responsabilidades parentais com atribuição provisória de pensão de alimentos e permitindo o afastamento do agressor.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "4104",
+         "nome": "Rita Rato"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "18:57",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150107pln&url=l12/sl4/a2015/m01/&tI=03:34:50:469&drc=00:03:24:520"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/034/2015-01-08/51?pgs=51&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "196971",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "51-51"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "34",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-01-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Procede à 21.ª alteração ao Código de Processo Penal, promovendo a proteção de vítimas de violência doméstica instituindo procedimento para a regulação provisória das responsabilidades parentais com atribuição provisória de pensão de alimentos e permitindo o afastamento do agressor.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "4289",
+         "nome": "Teresa Anjinho"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "18:57",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150107pln&url=l12/sl4/a2015/m01/&tI=03:38:17:497&drc=00:04:12:398"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/034/2015-01-08/52?pgs=52-53&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "196972",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "52-53"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "34",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-01-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Procede à 21.ª alteração ao Código de Processo Penal, promovendo a proteção de vítimas de violência doméstica instituindo procedimento para a regulação provisória das responsabilidades parentais com atribuição provisória de pensão de alimentos e permitindo o afastamento do agressor.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "301648",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/034/2015-01-08?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "10245",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "34",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2015-01-08",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "237",
+   "Comissao": null,
+   "DataFase": "2015-01-09",
+   "EvtId": "122",
+   "Fase": "Requerimento Baixa Comissão sem Votação (Generalidade)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "301951",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/036/2015-01-10/43?pgs=43&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "727099",
+     "obs": null,
+     "pag": [
+      "43-43"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "36",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2015-01-10",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2015-01-09",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "68157",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "36",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2015-01-09",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "301952",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/036/2015-01-10/43?pgs=43-44&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "727098",
+     "obs": null,
+     "pag": [
+      "43-44"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "36",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2015-01-10",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2015-01-09",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I><BR>Abstenção:<I>PCP</I>",
+     "id": "68158",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "36",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "38587",
+ "IniLeg": "XII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a6a566d4d7a4a684d7a55744e54426d596930304d3255354c54686c4d325174596a6779595441774e4452684d6a646d4c6d527659773d3d&fich=f5f32a35-50fb-43e9-8e3d-b82a0044a27f.doc&Inline=true",
+ "IniNr": "633",
+ "IniObs": null,
+ "IniSel": "3",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Procede à 21.ª alteração ao Código de Processo Penal, promovendo a proteção de vítimas de violência doméstica instituindo procedimento para a regulação provisória das responsabilidades parentais com atribuição provisória de pensão de alimentos e permitindo o afastamento do agressor.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

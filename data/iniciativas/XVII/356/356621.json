@@ -1,0 +1,887 @@
+{
+ "DataFimleg": "2026-09-15",
+ "DataInicioleg": "2025-06-03",
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b355a6d526a4e5463354c5749304e6d45744e44637a4d5331685a57526c4c5463325a5745345a6a45314d4452694d6935775a47593d&fich=99fdc579-b46a-4731-aede-76ea8f1504b2.pdf&Inline=true",
+   "anexoNome": "A. I. G"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255304e545978595467354c574669595441744e474a6c4d7931695a5441774c5456694e544d324d544a695a5451344e43356b62324e34&fich=e4561a89-aba0-4be3-be00-5b53612be484.docx&Inline=true",
+   "anexoNome": "Texto da iniciativa - Versão 1 de 2026-04-23"
+  }
+ ],
+ "IniAutorDeputados": [
+  {
+   "GP": "CH",
+   "idCadastro": "8196",
+   "nome": "Ana Martins"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "6535",
+   "nome": "André Ventura"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8255",
+   "nome": "António Carneiro"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8269",
+   "nome": "Armando Grave"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8736",
+   "nome": "Bernardo Pessanha"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7338",
+   "nome": "Bruno Nunes"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7948",
+   "nome": "Carlos Barbosa"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7387",
+   "nome": "Catarina Salgueiro"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8812",
+   "nome": "Cláudia Estêvão"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "6547",
+   "nome": "Cristina Rodrigues"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7890",
+   "nome": "Cristina Vieira Henriques"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8832",
+   "nome": "Daniel Teixeira"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "6858",
+   "nome": "Diogo Pacheco de Amorim"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "2576",
+   "nome": "Eduardo Teixeira"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8465",
+   "nome": "Eliseu Neves"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8017",
+   "nome": "Felicidade Vital"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7332",
+   "nome": "Filipe Melo"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "4223",
+   "nome": "Francisco Gomes"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8551",
+   "nome": "Idalina Durães"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7589",
+   "nome": "João Lopes Aleixo"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7358",
+   "nome": "João Paulo Graça"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8591",
+   "nome": "João Ribeiro"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8596",
+   "nome": "João Tilly"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7330",
+   "nome": "Jorge Galveias"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7723",
+   "nome": "José Barreira Soares"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8353",
+   "nome": "José Carvalho"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8359",
+   "nome": "José Dias Fernandes"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7396",
+   "nome": "José Dotti"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "9073",
+   "nome": "Lina Pinheiro"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7353",
+   "nome": "Luís Paulo Fernandes"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8418",
+   "nome": "Madalena Cordeiro"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7347",
+   "nome": "Manuel Magno"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "4365",
+   "nome": "Manuela Tender"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7965",
+   "nome": "Marcus Santos"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8613",
+   "nome": "Maria José Aguiar"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7385",
+   "nome": "Marta Martins da Silva"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8693",
+   "nome": "Nuno Gabriel"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8778",
+   "nome": "Nuno Simões de Melo"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7971",
+   "nome": "Patrícia Almeida"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7355",
+   "nome": "Patrícia Carvalho"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "9409",
+   "nome": "Patrícia Nascimento"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8730",
+   "nome": "Paulo Seco"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7346",
+   "nome": "Pedro Correia"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7345",
+   "nome": "Pedro dos Santos Frazão"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7391",
+   "nome": "Pedro Pessanha"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7336",
+   "nome": "Pedro Pinto"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8898",
+   "nome": "Pedro Tavares"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "9007",
+   "nome": "Raul Melo"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8918",
+   "nome": "Ricardo Dias Pinto"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "9543",
+   "nome": "Ricardo Lopes Reis"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7883",
+   "nome": "Ricardo Moreira"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7390",
+   "nome": "Rita Matias"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7363",
+   "nome": "Rodrigo Alves Taxa"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7344",
+   "nome": "Rui Afonso"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8951",
+   "nome": "Rui Cardoso"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8946",
+   "nome": "Rui Fernandes"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7342",
+   "nome": "Rui Paulo Sousa"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7373",
+   "nome": "Sandra Ribeiro"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "8091",
+   "nome": "Sónia Monteiro"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7369",
+   "nome": "Vanessa Barata"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "CH"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2026-04-23",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1717940",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32566d4f44497a4e5746684c54566b593245744e446b324e4331684d4445774c54497a4d6d45325a54686b4e4449355a4335775a47593d&fich=ef8235aa-5dca-4964-a010-232a6e8d429d.pdf&Inline=true",
+     "anexoNome": "Despacho PAR n.º 167-XVII"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59785a6a41774e4755774c5455304f5451744e474a6b4d433035597a64684c546b7a4e324532596d59784e544e6c4d69356b62324e34&fich=61f004e0-5494-4bd0-9c7a-937a6bf153e2.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2026-05-06",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Despacho PAR \"Nos termos do despacho n.º 167/XVII\"",
+   "OevId": "1728519",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2e/17/01/071/2026-05-07/15?pgs=15-19&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1024650",
+     "obs": "Despacho n.º 167/XVII — Admissibilidade do Projeto de Lei n.º 587/XVII/1.ª",
+     "pag": [
+      "15-19"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVII",
+     "pubNr": "71",
+     "pubSL": "1",
+     "pubTipo": "DAR II série E",
+     "pubTp": "H",
+     "pubdt": "2026-05-07",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2026-05-06",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1728520",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "108964",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2026-05-06",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-05-06",
+       "TipoDocumento": "Link",
+       "TituloDocumento": "Recolha de contributo - Consulta Pública",
+       "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=844"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8447",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias ",
+     "Numero": "8447",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2026-05-06",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1728521",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325a684e6d59324d5455304c5449324f4449744e4745354e7931684e6a6c6d4c57466a4e6a497a597a4e694d7a566a5a5335775a47593d&fich=fa6f6154-2682-4a97-a69f-ac623c3b35ce.pdf&Inline=true",
+     "anexoNome": "Ofício de redistribuição"
+    }
+   ],
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "109028",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2026-05-12",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-06-01",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a4d3255784e5459784d4330304e6a68684c54526b5a574d7459574d784d43316b4d5751774e6a4e6c4d6a4d314d5445756347526d&fich=33e15610-468a-4dec-ac10-d1d063e23511.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-03",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Parecer do Mecanismo Nacional Anticorrupção - PJL 587-XVII-1ª (CH)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c5a6a686b5a57566c4e4331694d4746684c5451304d545974595459314e7931694d446b354f5749324f575a6b4d5459756347526d&fich=ef8deee4-b0aa-4416-a657-b0999b69fd16.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-08",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Parecer da ANMP - PJL 587-XVII-1ª (CH)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c4d47566a4e6a4d7a5a5330324d3259354c54526d59546b744f4746694e69316d4d7a51355a6a41794e7a67784e444d756347526d&fich=e0ec633e-63f9-4fa9-8ab6-f349f0278143.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-08",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Parecer do CSM - PJL 587-XVII-1ª (CH)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d4f4442694d445a6b4e53316c4f54497a4c5451355a5759744f4749334e7930324f54686d4d3259314d6a63354e7a51756347526d&fich=f80b06d5-e923-49ef-8b77-698f3f527974.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-09",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Parecer da Entidade para a Transparência - PJL 587-XVII-1ª (CH)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938354e574d775a6a59775a53316b4d3251304c5451355a6a67744f445a6a4e7931694e7a63304f57497a4d446b305a4455756347526d&fich=95c0f60e-d3d4-49f8-86c7-b7749b3094d5.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-09",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Parecer da ANAFRE - PJL 587-XVII-1ª (CH)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774f5749344e7a5a6c4d79316b5a5455324c54526b597a6374596a646b5953316b4f54677a4e546b7a4d4759344d446b756347526d&fich=09b876e3-de56-4dc7-b7da-d9835930f809.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-11",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Relatório da CTED - PJL 587-XVII-1ª (CH)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938794e5451794d7a646a4d433169595467774c54526a4d5445744f5751785a533034596d49774d6d5a694d6d526b4d3245756347526d&fich=254237c0-ba80-4c11-9d1e-8bb02fb2dd3a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-06",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Parecer da ANAM - PJL 587-XVII-1ª (CH)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793831597a56684d7a686a4d7930784d446c6d4c545134595441744f44566a4e7930314e4759784e3246684f44426d4d6a4d756347526d&fich=5c5a38c3-109f-48a0-85c7-54f17aa80f23.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-21",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Parecer da Associação Cívica Transparência e Integridade - PJL 587-XVII-1ª (CH)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939685a6a6c6b59545930597930354f544a6b4c54517a4d7a5574596d45784d7930344e546c6b4f4451304f4441794f4459756347526d&fich=af9da64c-992d-4335-ba13-859d84480286.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8461",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Transparência e Estatuto dos Deputados ",
+     "Numero": "8461",
+     "Observacao": null,
+     "PareceresRecebidos": [
+      {
+       "link": "",
+       "nome": "Conselho Superior da Magistratura em 2026-06-08"
+      },
+      {
+       "link": "",
+       "nome": "MENAC - Mecanismo Nacional Anticorrupção em 2026-06-02"
+      },
+      {
+       "link": "",
+       "nome": "Entidade para a Transparência em 2026-06-08"
+      },
+      {
+       "link": "",
+       "nome": "Associação Cívica Transparência e Integridade em 2026-07-21"
+      },
+      {
+       "link": "",
+       "nome": "ANMP - Associação Nacional dos Municípios Portugueses em 2026-06-03"
+      },
+      {
+       "link": "",
+       "nome": "ANAFRE - Associação Nacional de Freguesias em 2026-06-09"
+      },
+      {
+       "link": "",
+       "nome": "ANAM - Associação Nacional de Assembleias Municipais em 2026-06-22"
+      }
+     ],
+     "PedidosParecer": [
+      {
+       "link": "",
+       "nome": "Conselho Superior da Magistratura em 2026-05-25"
+      },
+      {
+       "link": "",
+       "nome": "Conselho Superior do Ministério Publico em 2026-05-25"
+      },
+      {
+       "link": "",
+       "nome": "Ordem dos Advogados em 2026-05-25"
+      },
+      {
+       "link": "",
+       "nome": "MENAC - Mecanismo Nacional Anticorrupção em 2026-05-25"
+      },
+      {
+       "link": "",
+       "nome": "Entidade para a Transparência em 2026-05-25"
+      },
+      {
+       "link": "",
+       "nome": "Associação Cívica Transparência e Integridade em 2026-05-25"
+      },
+      {
+       "link": "",
+       "nome": "ANMP - Associação Nacional dos Municípios Portugueses em 2026-05-25"
+      },
+      {
+       "link": "",
+       "nome": "ANAFRE - Associação Nacional de Freguesias em 2026-05-25"
+      },
+      {
+       "link": "",
+       "nome": "ANAM - Associação Nacional de Assembleias Municipais em 2026-05-25"
+      }
+     ],
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "321",
+       "motivoCessacao": null,
+       "nome": "Francisco José Martins"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2026-05-12",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1728896",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "23",
+   "Comissao": null,
+   "DataFase": "2026-06-11",
+   "EvtId": "145",
+   "Fase": "Audição promovida pelo PAR para a ALRAM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1730235",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "22",
+   "Comissao": null,
+   "DataFase": "2026-06-11",
+   "EvtId": "144",
+   "Fase": "Audição promovida pelo PAR para a ALRAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1730236",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "25",
+   "Comissao": null,
+   "DataFase": "2026-06-11",
+   "EvtId": "147",
+   "Fase": "Audição promovida pelo PAR para o Governo da RAM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1730237",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "24",
+   "Comissao": null,
+   "DataFase": "2026-06-11",
+   "EvtId": "146",
+   "Fase": "Audição promovida pelo PAR para o Governo da RAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1730238",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b78596d56694d4749304c574d785a5455744e474930595331694e474e6c4c574d304e54466a5a54566c5a4463314d5335775a47593d&fich=91beb0b4-c1e5-4b4a-b4ce-c451ce5ed751.pdf&Inline=true",
+     "anexoNome": "Parecer Governo RAM"
+    }
+   ],
+   "CodigoFase": "175",
+   "Comissao": null,
+   "DataFase": "2026-06-19",
+   "EvtId": "151",
+   "Fase": "Parecer do Governo da RAM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1730532",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b794e5759324f54526c4c546c6d597a6b744e44557a5a4330355a6a637a4c5442694e6a63355a4449775a4751774e5335775a47593d&fich=925f694e-9fc9-453d-9f73-0b679d20dd05.pdf&Inline=true",
+     "anexoNome": "Parecer ALRAA"
+    }
+   ],
+   "CodigoFase": "172",
+   "Comissao": null,
+   "DataFase": "2026-07-01",
+   "EvtId": "148",
+   "Fase": "Parecer da ALRAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1731006",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324a684e5441775932466c4c544d314d4759744e4467334e6931685a54426d4c546b334d6a597a4d47593359574a6a597935775a47593d&fich=ba500cae-350f-4876-ae0f-972630f7abcc.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
+   "CodigoFase": "173",
+   "Comissao": null,
+   "DataFase": "2026-07-13",
+   "EvtId": "149",
+   "Fase": "Parecer da ALRAM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1731556",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  }
+ ],
+ "IniId": "356621",
+ "IniLeg": "XVII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49304d444a6c5a474a6b4c574d794f446b744e4759785a533034596d45324c5751305a44597a4e544a6b4e6a55794f43356b62324e34&fich=2402edbd-c289-4f1e-8ba6-d4d6352d6528.docx&Inline=true",
+ "IniNr": "587",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "SIM",
+ "IniTextoSubstCampo": "Substituição do título e do texto a pedido do autor em 2026-04-24.",
+ "IniTipo": "J",
+ "IniTitulo": "Remove o limite temporal de duração da pena acessória de impedimento para o exercício de funções públicas por titulares de cargos políticos condenados por crimes de responsabilidade (9.ª alteração à Lei n.º 34/87, de 16 de julho – Crimes de Responsabilidade dos Titulares de Cargos Políticos)",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

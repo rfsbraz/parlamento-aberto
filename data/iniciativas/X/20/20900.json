@@ -1,0 +1,919 @@
+{
+ "DataFimleg": "2006-09-14",
+ "DataInicioleg": "2005-03-10",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PSD",
+   "idCadastro": "1239",
+   "nome": "Luís Marques Guedes"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "1012",
+   "nome": "Jorge Moreira da Silva"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "2064",
+   "nome": "Jorge Costa"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "246",
+   "nome": "Hermínio Loureiro"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "1245",
+   "nome": "António Montalvão Machado"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PSD"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Deputados",
+  "sigla": "D"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2005-06-09",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "170734",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2005-06-14",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "170751",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "8064",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2005-06-28",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2005-06-17",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "249",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Poder Local, Ambiente e Ordenamento do Território (pré RAR)",
+     "Numero": "249",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/10/01/073/2006-01-07/3?pgs=3-4&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "3-4"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "73",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2006-01-07",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/10/01/073/2006-01-07/3?pgs=3-4&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "3-4"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "73",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2006-01-07",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "2107",
+       "motivoCessacao": null,
+       "nome": "Glória Araújo"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2006-01-04",
+       "dataRemessa": "2005-01-05",
+       "numeroOficio": "1735/COM",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "PCP"
+       ],
+       "data": "2006-01-05",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> BE</I>, <I> PEV</I>, <I> CDS-PP</I><BR>Ausência: <I>PCP</I>",
+       "id": "33630",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "27",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2005-06-14",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "170845",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2005-06-16",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "170830",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2005-06-17",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "172477",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/10/01/024S1/2005-06-17/2?pgs=2-200&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "316106",
+     "obs": null,
+     "pag": [
+      "2-200"
+     ],
+     "pagFinalDiarioSupl": "1º Supl.",
+     "pubLeg": "X",
+     "pubNr": "24",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2005-06-17",
+     "supl": "1º Supl."
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "3623",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2006-01-05",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "CDS-PP",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "21108",
+     "leg": "X",
+     "nr": "185",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/073/2006-01-06/3486?pgs=3486-3497&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "871",
+       "obs": null,
+       "pag": [
+        "3486-3497"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "73",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-06",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/073/2006-01-06/3486?pgs=3486-3497&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "871",
+       "obs": null,
+       "pag": [
+        "3486-3497"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "73",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-06",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "J",
+     "titulo": "Aprova o Sistema Nacional de Qualidade do Ar Interior e Certificação Energética de Edifícios."
+    },
+    {
+     "autor": "PS",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "20847",
+     "leg": "X",
+     "nr": "33",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/073/2006-01-06/3486?pgs=3486-3497&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "871",
+       "obs": null,
+       "pag": [
+        "3486-3497"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "73",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-06",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/073/2006-01-06/3486?pgs=3486-3497&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "871",
+       "obs": null,
+       "pag": [
+        "3486-3497"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "73",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-06",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "R",
+     "titulo": "Qualidade do ar no interior dos edifícios."
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2006-01-05",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1012",
+         "nome": "Jorge Moreira da Silva"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:10",
+       "horaTermo": "18:00",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/073/2006-01-06/3486?pgs=3486-3488,3495-3497&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "153870",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3486-3488",
+          "3495-3497"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "73",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Sistema Nacional de Certificação Energética e de Qualidade do Ar Interior dos edifícios e as respectivas normas técnicas; Aprova o Sistema Nacional de Qualidade do Ar Interior e Certificação Energética de Edifícios; Qualidade do ar no interior dos edifícios.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2107",
+         "nome": "Glória Araújo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:10",
+       "horaTermo": "18:00",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/073/2006-01-06/3488?pgs=3488-3490&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "153871",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3488-3490"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "73",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Sistema Nacional de Certificação Energética e de Qualidade do Ar Interior dos edifícios e as respectivas normas técnicas; Aprova o Sistema Nacional de Qualidade do Ar Interior e Certificação Energética de Edifícios; Qualidade do ar no interior dos edifícios.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "834",
+         "nome": "Heloísa Apolónia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:10",
+       "horaTermo": "18:00",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/073/2006-01-06/3489?pgs=3489-3490&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "153872",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3489-3490"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "73",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Sistema Nacional de Certificação Energética e de Qualidade do Ar Interior dos edifícios e as respectivas normas técnicas; Aprova o Sistema Nacional de Qualidade do Ar Interior e Certificação Energética de Edifícios; Qualidade do ar no interior dos edifícios.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1656",
+         "nome": "António Carlos Monteiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:10",
+       "horaTermo": "18:00",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/073/2006-01-06/3491?pgs=3491&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "153873",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3491-3491"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "73",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Sistema Nacional de Certificação Energética e de Qualidade do Ar Interior dos edifícios e as respectivas normas técnicas; Aprova o Sistema Nacional de Qualidade do Ar Interior e Certificação Energética de Edifícios; Qualidade do ar no interior dos edifícios.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2063",
+         "nome": "Alda Macedo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:10",
+       "horaTermo": "18:00",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/073/2006-01-06/3491?pgs=3491&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "153874",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3491-3491"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "73",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Sistema Nacional de Certificação Energética e de Qualidade do Ar Interior dos edifícios e as respectivas normas técnicas; Aprova o Sistema Nacional de Qualidade do Ar Interior e Certificação Energética de Edifícios; Qualidade do ar no interior dos edifícios.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "2184",
+         "nome": "Miguel Tiago"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:10",
+       "horaTermo": "18:00",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/073/2006-01-06/3492?pgs=3492-3493&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "153875",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3492-3493"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "73",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Sistema Nacional de Certificação Energética e de Qualidade do Ar Interior dos edifícios e as respectivas normas técnicas; Aprova o Sistema Nacional de Qualidade do Ar Interior e Certificação Energética de Edifícios; Qualidade do ar no interior dos edifícios.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2063",
+         "nome": "Alda Macedo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:10",
+       "horaTermo": "18:00",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/073/2006-01-06/3493?pgs=3493-3494&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "153876",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3493-3494"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "73",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Sistema Nacional de Certificação Energética e de Qualidade do Ar Interior dos edifícios e as respectivas normas técnicas; Aprova o Sistema Nacional de Qualidade do Ar Interior e Certificação Energética de Edifícios; Qualidade do ar no interior dos edifícios.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "834",
+         "nome": "Heloísa Apolónia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:10",
+       "horaTermo": "18:00",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/073/2006-01-06/3494?pgs=3494-3495,3497&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "153877",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3494-3495",
+          "3497-3497"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "73",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-06",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Sistema Nacional de Certificação Energética e de Qualidade do Ar Interior dos edifícios e as respectivas normas técnicas; Aprova o Sistema Nacional de Qualidade do Ar Interior e Certificação Energética de Edifícios; Qualidade do ar no interior dos edifícios.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "172762",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/073/2006-01-06/3486?pgs=3486-3497&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "322452",
+     "obs": null,
+     "pag": [
+      "3486-3497"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "X",
+     "pubNr": "73",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2006-01-06",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2006-01-05",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "172805",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/073/2006-01-06/3498?pgs=3498&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "322453",
+     "obs": null,
+     "pag": [
+      "3498-3498"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "X",
+     "pubNr": "73",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2006-01-06",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2006-01-05",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> BE</I>, <I> PEV</I>, <I> PCP</I>, <I> CDS-PP</I><BR>Contra:<I>PS</I>",
+     "id": "33642",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "71",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "20900",
+ "IniLeg": "X",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c637939595447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a417a596a67794e4455344c54566b4d5441744e446b354d7930354d5449304c574e6959574d794d5441324d574a6d5a43356b62324d3d&fich=03b82458-5d10-4993-9124-cbac21061bfd.doc&Inline=true",
+ "IniNr": "113",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Aprova o Sistema Nacional de Certificação Energética e de Qualidade do Ar Interior dos edifícios e as respectivas normas técnicas.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

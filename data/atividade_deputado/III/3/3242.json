@@ -1,0 +1,78 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PS",
+     "dpl_lg": "III",
+     "nome": "JOSÉ FILLOL"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "29907",
+      "iniNr": "390",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Elevação  à categoria de cidade da vila de Peso da Régua",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29852",
+      "iniNr": "379",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da região demarcada de vinhos de Valpaços.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29832",
+      "iniNr": "328",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Lei de bases do sistema educativo",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29805",
+      "iniNr": "307",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Dia do estudante.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "VILA REAL",
+  "depCPId": "17",
+  "depCadId": "3242",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "988",
+    "gpSigla": "PS"
+   }
+  },
+  "depId": "3571",
+  "depNomeCompleto": "JOSÉ AUGUSTO FILLOL GUIMARÃES",
+  "depNomeParlamentar": "JOSÉ FILLOL",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1985-11-04",
+    "sioDtInicio": "1983-05-31"
+   }
+  },
+  "legDes": "III"
+ }
+}

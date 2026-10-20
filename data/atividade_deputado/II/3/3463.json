@@ -1,0 +1,50 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "FERNANDO GARCEZ"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "CASTELO BRANCO",
+  "depCPId": "5",
+  "depCadId": "3463",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "4780",
+  "depNomeCompleto": "FERNANDO ALFREDO GIL MOUTINHO GARCEZ",
+  "depNomeParlamentar": "FERNANDO GARCEZ",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-10-26",
+     "sioDtInicio": "1981-10-22"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-01-11",
+     "sioDtInicio": "1982-10-30"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1983-01-22"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

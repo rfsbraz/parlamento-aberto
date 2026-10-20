@@ -1,0 +1,81 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PS",
+     "dpl_lg": "III",
+     "nome": "FERNANDO DE SOUSA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30210",
+      "iniNr": "162",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 176/85 de 22 de Maio (Estabelece normas sobre as facilidades aduaneiras a conceder aos viajantes que entrem ou saiam do território nacional).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "29832",
+      "iniNr": "328",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Lei de bases do sistema educativo",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29817",
+      "iniNr": "312",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Elevação da vila de Santo Tirso a categoria de cidade.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": {
+    "relatoresIniciativas": {
+     "pt_gov_ar_wsar_objectos_RelatoresIniciativasOut": {
+      "accDtrel": "1984-04-04",
+      "iniId": "29423",
+      "iniNr": "29",
+      "iniSelLg": "III",
+      "iniTi": "Criação da Faculdade de Direito na Universidade do Porto.",
+      "iniTp": "Projeto de Lei",
+      "relFase": "Baixa comissão distribuição inicial generalidade"
+     }
+    }
+   }
+  }
+ },
+ "deputado": {
+  "depCPDes": "PORTO",
+  "depCPId": "13",
+  "depCadId": "168",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "988",
+    "gpSigla": "PS"
+   }
+  },
+  "depId": "3557",
+  "depNomeCompleto": "FERNANDO ALBERTO PEREIRA DE SOUSA",
+  "depNomeParlamentar": "FERNANDO DE SOUSA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1985-11-04",
+    "sioDtInicio": "1983-05-31"
+   }
+  },
+  "legDes": "III"
+ }
+}

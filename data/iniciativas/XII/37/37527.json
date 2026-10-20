@@ -1,0 +1,837 @@
+{
+ "DataFimleg": "2013-09-14",
+ "DataInicioleg": "2012-09-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PCP",
+   "idCadastro": "4104",
+   "nome": "Rita Rato"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2069",
+   "nome": "Jorge Machado"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4297",
+   "nome": "Carla Cruz"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2234",
+   "nome": "João Oliveira"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "210",
+   "nome": "Jerónimo de Sousa"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "3934",
+   "nome": "João Ramos"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "1058",
+   "nome": "Bernardino Soares"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "209",
+   "nome": "António Filipe"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "1715",
+   "nome": "Bruno Dias"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "1696",
+   "nome": "Honório Novo"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2526",
+   "nome": "José Alberto Lourenço"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2077",
+   "nome": "Francisco Lopes"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2184",
+   "nome": "Miguel Tiago"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PCP"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Deputados",
+  "sigla": "D"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2013-02-15",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "289178",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2013-02-15",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "289773",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/083/2013-02-15/11?pgs=11-19&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "622080",
+     "obs": null,
+     "pag": [
+      "11-19"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "83",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2013-02-15",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2013-02-19",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "289252",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "30620",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2013-02-27",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2013-02-15",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2013-04-10",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer da 10ª CSST e Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a457751314e545643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c324e6c5a4449334e6d466a4c54426d597a63744e474d794d7931685a4756684c5759355a474e694d4451774d5463794d5335515245593d&fich=ced276ac-0fc7-4c23-adea-f9dcb0401721.PDF&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3519",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Segurança Social e Trabalho",
+     "Numero": "3519",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/117/2013-04-11/38?pgs=38-51&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "38-51"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "117",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2013-04-11",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/117/2013-04-11/38?pgs=38-51&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "38-51"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "117",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2013-04-11",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "4326",
+       "motivoCessacao": null,
+       "nome": "Nilza de Sena"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2013-04-10",
+       "dataRemessa": "2013-04-10",
+       "numeroOficio": "email",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "PCP"
+       ],
+       "data": "2013-04-10",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> BE</I><BR>Ausência: <I>PCP</I>",
+       "id": "63452",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "121",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2013-02-19",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "289254",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2013-02-20",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "289253",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "9344",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2013-04-11",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "PCP",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "37525",
+     "leg": "XII",
+     "nr": "355",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/077/2013-04-12/48?pgs=48-52&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1752",
+       "obs": null,
+       "pag": [
+        "48-52"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "77",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2013-04-12",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/077/2013-04-12/48?pgs=48-52&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1752",
+       "obs": null,
+       "pag": [
+        "48-52"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "77",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2013-04-12",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "J",
+     "titulo": "Cria um Programa Extraordinário de Combate à Pobreza Infantil e reforça a proteção dos Direitos das Crianças e Jovens."
+    },
+    {
+     "autor": "PCP",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "37526",
+     "leg": "XII",
+     "nr": "356",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/077/2013-04-12/48?pgs=48-52&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1752",
+       "obs": null,
+       "pag": [
+        "48-52"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "77",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2013-04-12",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/077/2013-04-12/48?pgs=48-52&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1752",
+       "obs": null,
+       "pag": [
+        "48-52"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "77",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2013-04-12",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "J",
+     "titulo": "Estabelece a obrigatoriedade de elaboração e apresentação de um Relatório Anual sobre os Direitos da Criança e a situação da Infância em Portugal."
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2013-04-11",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "4104",
+         "nome": "Rita Rato"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "18:44",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130411pln&url=l12/sl2/a2013/m04/&tI=02:44:16:439&drc=00:04:07:567"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/077/2013-04-12/48?pgs=48&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "189335",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "48-48"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "77",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-04-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Cria um Programa Extraordinário de Combate à Pobreza Infantil e reforça a proteção dos Direitos das Crianças e Jovens; Estabelece a obrigatoriedade de elaboração e apresentação de um Relatório Anual sobre os Direitos da Criança e a situação da Infância em Portugal; Cria a Comissão Nacional dos Direitos das Crianças e Jovens.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "4428",
+         "nome": "Inês Teotónio Pereira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "18:44",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130411pln&url=l12/sl2/a2013/m04/&tI=02:48:32:173&drc=00:03:31:721"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/077/2013-04-12/49?pgs=49-50&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "189336",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "49-50"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "77",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-04-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Cria um Programa Extraordinário de Combate à Pobreza Infantil e reforça a proteção dos Direitos das Crianças e Jovens; Estabelece a obrigatoriedade de elaboração e apresentação de um Relatório Anual sobre os Direitos da Criança e a situação da Infância em Portugal; Cria a Comissão Nacional dos Direitos das Crianças e Jovens.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2132",
+         "nome": "Idália Salvador Serrão"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "18:44",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130411pln&url=l12/sl2/a2013/m04/&tI=02:52:07:771&drc=00:03:38:369"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/077/2013-04-12/50?pgs=50-51&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "189337",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "50-51"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "77",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-04-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Cria um Programa Extraordinário de Combate à Pobreza Infantil e reforça a proteção dos Direitos das Crianças e Jovens; Estabelece a obrigatoriedade de elaboração e apresentação de um Relatório Anual sobre os Direitos da Criança e a situação da Infância em Portugal; Cria a Comissão Nacional dos Direitos das Crianças e Jovens.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4326",
+         "nome": "Nilza de Sena"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "18:44",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130411pln&url=l12/sl2/a2013/m04/&tI=02:55:51:830&drc=00:03:01:916"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/077/2013-04-12/51?pgs=51&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "189338",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "51-51"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "77",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-04-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Cria um Programa Extraordinário de Combate à Pobreza Infantil e reforça a proteção dos Direitos das Crianças e Jovens; Estabelece a obrigatoriedade de elaboração e apresentação de um Relatório Anual sobre os Direitos da Criança e a situação da Infância em Portugal; Cria a Comissão Nacional dos Direitos das Crianças e Jovens.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2156",
+         "nome": "Mariana Aiveca"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "18:44",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130411pln&url=l12/sl2/a2013/m04/&tI=02:59:02:405&drc=00:03:57:703"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/077/2013-04-12/51?pgs=51-52&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "189339",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "51-52"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "77",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-04-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Cria um Programa Extraordinário de Combate à Pobreza Infantil e reforça a proteção dos Direitos das Crianças e Jovens; Estabelece a obrigatoriedade de elaboração e apresentação de um Relatório Anual sobre os Direitos da Criança e a situação da Infância em Portugal; Cria a Comissão Nacional dos Direitos das Crianças e Jovens.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "290262",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/077/2013-04-12/47?pgs=47-52&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "632792",
+     "obs": null,
+     "pag": [
+      "47-52"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "77",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2013-04-12",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2013-04-12",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "290422",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/078/2013-04-13/39?pgs=39&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "632831",
+     "obs": null,
+     "pag": [
+      "39-39"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "78",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2013-04-13",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2013-04-12",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>",
+     "id": "63485",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "78",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "37527",
+ "IniLeg": "XII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a57497a4d475a6d595467744d546b324d5330304f4446684c5468684e4455744e7a6b33596a51354d7a64695a6a426c4c6d527659773d3d&fich=eb30ffa8-1961-481a-8a45-797b4937bf0e.doc&Inline=true",
+ "IniNr": "357",
+ "IniObs": null,
+ "IniSel": "2",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Cria a Comissão Nacional dos Direitos das Crianças e Jovens.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

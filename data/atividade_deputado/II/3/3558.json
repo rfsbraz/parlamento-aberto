@@ -1,0 +1,104 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "ANTÓNIO MENDES DE CARVALHO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30661",
+      "iniNr": "338",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Lei-quadro da criação de municípios.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30628",
+      "iniNr": "294",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Amnistia as infracções disciplinares praticadas nos meios de comunicação social referidos no artº 39º da Constituição.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "31072",
+      "iniNr": "104",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 272-A/81, de 30 de Setembro (Aprova o Código do Processo de Trabalho)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30400",
+      "iniNr": "111",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Sobre amnistia.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30355",
+      "iniNr": "63",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Nozedo de Baixo no concelho de Vinhais",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "BRAGA",
+  "depCPId": "3",
+  "depCadId": "3558",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "4773",
+  "depNomeCompleto": "ANTÓNIO MENDES DE CARVALHO",
+  "depNomeParlamentar": "ANTÓNIO MENDES DE CARVALHO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-09-04",
+     "sioDtInicio": "1980-11-03"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-10-28",
+     "sioDtInicio": "1981-09-08"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-16",
+     "sioDtInicio": "1982-10-31"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-01-11",
+     "sioDtInicio": "1982-11-18"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

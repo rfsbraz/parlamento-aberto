@@ -1,0 +1,82 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PS",
+     "dpl_lg": "III",
+     "nome": "JOSÉ LEITÃO"
+    }
+   },
+   "rel": {
+    "relatoresIniciativas": {
+     "pt_gov_ar_wsar_objectos_RelatoresIniciativasOut": {
+      "accDtrel": "1984-05-22",
+      "iniId": "29516",
+      "iniNr": "110",
+      "iniSelLg": "III",
+      "iniTi": "Defesa dos direitos do homem perante a informática",
+      "iniTp": "Projeto de Lei",
+      "relFase": "Baixa comissão distribuição inicial generalidade"
+     }
+    }
+   }
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "190",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "988",
+    "gpSigla": "PS"
+   }
+  },
+  "depId": "4582",
+  "depNomeCompleto": "JOSÉ MAXIMIANO DE ALBUQUERQUE ALMEIDA LEITÃO",
+  "depNomeParlamentar": "JOSÉ LEITÃO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-05-01",
+     "sioDtInicio": "1984-01-19"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-07-14",
+     "sioDtInicio": "1984-05-08"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-07-27",
+     "sioDtInicio": "1984-07-25"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-10-18",
+     "sioDtInicio": "1984-10-11"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-12-12",
+     "sioDtInicio": "1984-10-26"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-01-29",
+     "sioDtInicio": "1985-01-04"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-06-13",
+     "sioDtInicio": "1985-06-03"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PCP",
+     "dpl_lg": "II",
+     "nome": "OSVALDO DE CASTRO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "31143",
+     "iniNr": "186",
+     "iniSelLg": "II",
+     "iniSelNr": "2",
+     "iniTi": "Decreto-Lei nº 292/82, de 26 de Julho, que dá nova redacção ao nº 3 do artigo 7º do Decreto-Lei nº 148/81, de 4 de Junho, sobre a actualização de rendas.",
+     "iniTp": "F",
+     "iniTpdesc": "Ratificação"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LEIRIA",
+  "depCPId": "10",
+  "depCadId": "1373",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "982",
+    "gpSigla": "PCP"
+   }
+  },
+  "depId": "4919",
+  "depNomeCompleto": "OSVALDO ALBERTO ROSÁRIO SARMENTO E CASTRO",
+  "depNomeParlamentar": "OSVALDO DE CASTRO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-10-01",
+     "sioDtInicio": "1981-09-14"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-08-14",
+     "sioDtInicio": "1982-06-15"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-13",
+     "sioDtInicio": "1982-11-11"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": null,
+   "Audiencias": null,
+   "Cms": null,
+   "DadosLegisDeputado": null,
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": null,
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": [
+     {
+      "ActAs": "Conta Geral do Estado de 2014",
+      "ActId": "100550",
+      "ActSelLg": null,
+      "ActTp": "Conta Geral do Estado",
+      "ActTpCod": null,
+      "AnoCiv": null,
+      "DtNom": null
+     }
+    ],
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": null,
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Setúbal",
+  "DepCPId": 15.0,
+  "DepCadId": 6187.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-10-03",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7263.0,
+    "GpSigla": "PS"
+   }
+  ],
+  "DepId": 17064.0,
+  "DepNomeCompleto": "Carlos João Pereira",
+  "DepNomeParlamentar": "Carlos Pereira",
+  "DepSituacao": [
+   {
+    "SioDes": "Efetivo",
+    "SioDtFim": null,
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

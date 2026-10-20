@@ -1,0 +1,69 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "CRISTÓVÃO  NORTE"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30415",
+      "iniNr": "123",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Santa Luzia, no concelho de Tavira.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30408",
+      "iniNr": "117",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Elevação da sede de freguesia de Quarteira, no concelho de Loulé à categoria de vila.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30403",
+      "iniNr": "113",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Elevação do concelho de Portimão à categoria de urbano de 1ª ordem.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "FARO",
+  "depCPId": "8",
+  "depCadId": "2965",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3265",
+  "depNomeCompleto": "CRISTÓVÃO GUERREIRO NORTE",
+  "depNomeParlamentar": "CRISTÓVÃO  NORTE",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1983-05-31",
+    "sioDtInicio": "1980-11-13"
+   }
+  },
+  "legDes": "II"
+ }
+}

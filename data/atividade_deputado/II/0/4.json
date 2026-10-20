@@ -1,0 +1,94 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "ADÉRITO CAMPOS"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30731",
+      "iniNr": "352",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Elevação da vila de Oliveira de Azemeis à categoria de cidade.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30682",
+      "iniNr": "344",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Alteração da actual divisão administrativa entre os concelhos de Oliveira de Azemeis e Vale de Cambra, no lugar das Baralhas.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30380",
+      "iniNr": "87",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de São João no concelho de Ovar",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30379",
+      "iniNr": "86",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Elevação de Cortegaça a categoria de vila",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30378",
+      "iniNr": "85",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia da Borralha, no concelho de Águeda",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "AVEIRO",
+  "depCPId": "1",
+  "depCadId": "4",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3239",
+  "depNomeCompleto": "ADÉRITO MANUEL SOARES CAMPOS",
+  "depNomeParlamentar": "ADÉRITO CAMPOS",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-06-24",
+     "sioDtInicio": "1980-11-03"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-06-26"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

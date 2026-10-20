@@ -1,0 +1,604 @@
+{
+ "DataFimleg": "2012-09-14",
+ "DataInicioleg": "2011-06-20",
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a4749794d7a4a6b4e7a41744d4452684d4330304e44426c4c5467784f5467744e5451784d47526a4d32457a4d6d51354c6d527659773d3d&fich=db232d70-04a0-440e-8198-5410dc3a32d9.doc&Inline=true",
+   "anexoNome": "Convenção PT"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d444e695954426d4d4455744d7a5a6a596930304d324e6d4c5745314f5441744d6d4532597a67354d5449314f5455314c6d527659773d3d&fich=03ba0f05-36cb-43cf-a590-2a6c89125955.doc&Inline=true",
+   "anexoNome": "Convenção FR"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e4441355a47526a4f4445745a545933596930304e6a41784c5745794d4467745a57566b4d5467355a4751794e6a41774c6e426b5a673d3d&fich=409ddc81-e67b-4601-a208-eed189dd2600.pdf&Inline=true",
+   "anexoNome": "Parecer UGT"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764f54557a4d544e6b5a4459745a6a426d4f433030595441304c546732596a49745a444d355a6d5a695a5445354d6a526c4c6e426b5a673d3d&fich=95313dd6-f0f8-4a04-86b2-d39ffbe1924e.pdf&Inline=true",
+   "anexoNome": "Parecer MTSSS"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a574d784e6a6b354d5455744d4455794f4330304e6a6b784c5749344f4449744f575a6c4e325a6c5a546379596a566d4c6e426b5a673d3d&fich=ec169915-0528-4691-b882-9fe7fee72b5f.pdf&Inline=true",
+   "anexoNome": "Parecer MADRP"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d6a526d4f5445774d6a51744e6a4a6a596930304d5745314c5745314f5467744e544d775a6a646c5a6d4577595756694c6e426b5a673d3d&fich=24f91024-62cb-41a5-a598-530f7efa0aeb.pdf&Inline=true",
+   "anexoNome": "Parecer CIP"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e54686c5a5755324d6a63744e6d55344e433030596d55314c5467344f446b744e4749794e6a4d305a5749334e475a6d4c6e426b5a673d3d&fich=58eee627-6e84-4be5-8889-4b2634eb74ff.pdf&Inline=true",
+   "anexoNome": "Parecer CGTP"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e5468694d6d55324d4745744e6a6c684e7930304d6d55784c546b344d445974597a52694e5755354d6d5a6a4e6a49324c6e426b5a673d3d&fich=58b2e60a-69a7-42e1-9806-c4b5e92fc626.pdf&Inline=true",
+   "anexoNome": "Parecer CAP"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764f575577597a51324e5759744d4446685a4330305a5745784c574533595451744f54597a4e6d4a6b4e324e6d5a6a4a6d4c6e426b5a673d3d&fich=9e0c465f-01ad-4ea1-a7a4-9636bd7cff2f.pdf&Inline=true",
+   "anexoNome": "Parecer ACT"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a5467795954633159544974596d49335a4330304e6a6b324c546c684e4759744d54646d5a446c6c4f446c6a596a4a6d4c6e426b5a673d3d&fich=e82a75a2-bb7d-4696-9a4f-17fd9e89cb2f.pdf&Inline=true",
+   "anexoNome": "Convenção Digitalizada"
+  }
+ ],
+ "IniAutorDeputados": null,
+ "IniAutorGruposParlamentares": null,
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Governo",
+  "sigla": "V"
+ },
+ "IniDescTipo": "Proposta de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2012-02-16",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "282093",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2012-02-21",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "282199",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "28205",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2012-02-28",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2012-02-21",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2012-05-02",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer da CNECP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4a44546b56445543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c325a6b5a4746684e7a45304c545a68596d45744e4751785a6931684d474d324c5749305a6d4d354e6a45315a474e6d4f4335775a47593d&fich=fddaa714-6aba-4d1f-a0c6-b4fc9615dcf8.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3511",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+     "Numero": "3511",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/01/173/2012-05-03/63?pgs=63-66&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "63-66"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "173",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2012-05-03",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/01/173/2012-05-03/63?pgs=63-66&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "63-66"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "173",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2012-05-03",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "4361",
+       "motivoCessacao": null,
+       "nome": "Maria Ester Vargas"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2012-05-02",
+       "dataRemessa": "2012-05-02",
+       "numeroOficio": "email",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "PCP",
+        "BE"
+       ],
+       "data": "2012-05-02",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I><BR>Ausência: <I>PCP</I>, <I> BE</I>",
+       "id": "60583",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "42",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2012-02-21",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "282200",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2012-02-22",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "282268",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2012-02-22",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "283519",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/01/125S1/2012-02-22/2?pgs=2-33&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "589562",
+     "obs": null,
+     "pag": [
+      "2-33"
+     ],
+     "pagFinalDiarioSupl": "1º Supl.",
+     "pubLeg": "XII",
+     "pubNr": "125",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2012-02-22",
+     "supl": "1º Supl."
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "16369",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2012-06-08",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": [
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "36573",
+     "leg": "XII",
+     "nr": "9",
+     "publicacao": null,
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo sobre Transporte Aéreo entre a República Portuguesa e a República de Moçambique, assinado em Lisboa, em 30 de Abril de 2010."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "36623",
+     "leg": "XII",
+     "nr": "12",
+     "publicacao": null,
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova, para adesão, a Convenção relativa ao Estatuto dos Apátridas, adoptada em Nova Iorque, a 28 de Setembro de 1954."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "36622",
+     "leg": "XII",
+     "nr": "13",
+     "publicacao": null,
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova, para Adesão, a Convenção para a Redução dos casos de Apatridia, adoptada em Nova Iorque, a 30 de Agosto de 1961."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "36769",
+     "leg": "XII",
+     "nr": "23",
+     "publicacao": null,
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "aprova a Convenção n.º 173 relativa à Protecção dos Créditos dos Trabalhadores em Caso de Insolvência do Empregador, adoptada pela Conferência Geral da Organização Internacional do Trabalho, na sua 79.ª Sessão, realizada em Genebra, em 23 de Junho de 1992."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "36784",
+     "leg": "XII",
+     "nr": "25",
+     "publicacao": null,
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova a Convenção n.º 183 relativa à Revisão da Convenção (Revista) sobre a Protecão da Maternidade, 1952. adotada pela Conferência Geral da Organização Internacional do Trabalho, na sua 88.ª Sessão, realizada em Genebra, a 15 de junho de 2000."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "36800",
+     "leg": "XII",
+     "nr": "26",
+     "publicacao": null,
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo de Parceria entre os Estados de África, das Caraíbas e do Pacífico e a Comunidade Europeia e os Seus Estados-Membros, assinado em Cotonou, em 23 de junho de 2000, e alterado pela primeira vez no luxemburgo, em 25 de junho de 2005, assinado em Ouagadougou, em 22 de junho de 2010"
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "36835",
+     "leg": "XII",
+     "nr": "27",
+     "publicacao": null,
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo de Cooperação entre a República Portuguesa e a República Democrática de Timor-Leste no Domínio da Defesa, assinado em Lisboa, em 27 de setembro e 2011."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "36864",
+     "leg": "XII",
+     "nr": "29",
+     "publicacao": null,
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova a Convenção entre a República Portuguesa e a República Democrática de Timor-Leste para Evitar a Dupla Tributação e Prevenir a Evasão Fiscal em matéria de Impostos sobre o Rendimento, assinado em Lisboa, em 27 de setembero de 2011."
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2012-06-08",
+     "oradores": null
+    }
+   ],
+   "Links": null,
+   "ObsFase": "Consta da Agenda da Reunião Plenária S/Tempos.",
+   "OevId": "299050",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "330",
+   "Comissao": null,
+   "DataFase": "2012-06-08",
+   "EvtId": "56",
+   "Fase": "Votação global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "284544",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/119/2012-06-09/40?pgs=40-41&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "594153",
+     "obs": null,
+     "pag": [
+      "40-41"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "119",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2012-06-09",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2012-06-08",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "60925",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "119",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "360",
+   "Comissao": null,
+   "DataFase": "2012-06-08",
+   "EvtId": "57",
+   "Fase": "Resolução (Publicação DAR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "285291",
+   "OevTextId": "17134",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "17134",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "371",
+   "Comissao": null,
+   "DataFase": "2012-07-05",
+   "EvtId": "121",
+   "Fase": "Envio para Ratificação / Assinatura",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "285383",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2012-07-10",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "285384",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "600",
+   "Comissao": null,
+   "DataFase": "2012-08-08",
+   "EvtId": "44",
+   "Fase": "Resolução da AR (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "286147",
+   "OevTextId": "17224",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "17224",
+   "Votacao": null
+  }
+ ],
+ "IniId": "36783",
+ "IniLeg": "XII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765932526b5a6d5a684e6a6b745a6a41775a6930305a5455354c546c685a44417459546b344e54493059575269596d45344c6d527659773d3d&fich=cddffa69-f00f-4e59-9ad0-a98524adbba8.doc&Inline=true",
+ "IniNr": "24",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "S",
+ "IniTitulo": "Aprova a Convenção n.º 184 sobre a Segurança e a Saúde na Agricultura, adotada pela Conferência Geral da Organização Internacional do Trabalho, na sua 89.ª Sessão, realizada em Genebra, em 21 de junho de 2001.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

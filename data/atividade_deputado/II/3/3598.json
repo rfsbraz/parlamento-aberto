@@ -1,0 +1,86 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "SANCHES OSÓRIO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30639",
+      "iniNr": "321",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Criação do município de Canas de Senhorim.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30674",
+      "iniNr": "319",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Amnistia os crimes de fim exclusivamente ou predominantemente político cometidos entre 25 de Abril de 1974 e 30 de Novembro não abrangidos por anteriores amnistias independentemente da conjuntura em que tiverem ocorrido",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30628",
+      "iniNr": "294",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Amnistia as infracções disciplinares praticadas nos meios de comunicação social referidos no artº 39º da Constituição.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "SANTARÉM",
+  "depCPId": "14",
+  "depCadId": "3598",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "3330",
+  "depNomeCompleto": "JOSÉ EDUARDO FERNANDES DE SANCHES OSÓRIO",
+  "depNomeParlamentar": "SANCHES OSÓRIO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-04-25",
+     "sioDtInicio": "1982-01-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-18",
+     "sioDtInicio": "1982-11-12"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-12-20",
+     "sioDtInicio": "1982-11-29"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-12-22"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

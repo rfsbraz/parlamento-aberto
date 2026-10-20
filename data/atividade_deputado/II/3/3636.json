@@ -1,0 +1,45 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "MARIA HELENA PIMENTA DE CASTRO"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "BRAGA",
+  "depCPId": "3",
+  "depCadId": "3636",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "4784",
+  "depNomeCompleto": "MARIA HELENA VILELA LOPES DE CASTRO PIMENTA DE CASTRO",
+  "depNomeParlamentar": "MARIA HELENA PIMENTA DE CASTRO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-11-28",
+     "sioDtInicio": "1981-11-26"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-15",
+     "sioDtInicio": "1982-07-13"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

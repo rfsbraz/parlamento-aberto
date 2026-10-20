@@ -1,0 +1,82 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "AFONSO MOURA GUEDES"
+    }
+   },
+   "intev": {
+    "pt_gov_ar_wsar_objectos_IntervencoesOut": [
+     {
+      "intId": "221962",
+      "intSu": "Relatório da delegação portuguesa à União Interparlamentar relativo à última reunião da Primavera realizada em Helsínquia",
+      "pubDar": "84-85",
+      "pubDtreu": "1983-06-16",
+      "pubLg": "III",
+      "pubNr": "5",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Leitura"
+     },
+     {
+      "intId": "221963",
+      "intSu": "Relatório da delegação portuguesa à União Interparlamentar relativo à última reunião da Primavera realizada em Helsínquia",
+      "pubDar": "85-85",
+      "pubDtreu": "1983-06-16",
+      "pubLg": "III",
+      "pubNr": "5",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "221861",
+      "intSu": "Alteração da ordem do dia",
+      "pubDar": "40-41; 41-41",
+      "pubDtreu": "1983-06-14",
+      "pubLg": "III",
+      "pubNr": "3",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Interpelação à mesa"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "2906",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3611",
+  "depNomeCompleto": "AFONSO DE SOUSA FREIRE DE MOURA GUEDES",
+  "depNomeParlamentar": "AFONSO MOURA GUEDES",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-07-12",
+     "sioDtInicio": "1983-05-31"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-11-04",
+     "sioDtInicio": "1985-08-08"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

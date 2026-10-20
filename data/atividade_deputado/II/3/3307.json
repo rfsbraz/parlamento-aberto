@@ -1,0 +1,60 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PS",
+     "dpl_lg": "II",
+     "nome": "MANUEL MASSENO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "31189",
+      "iniNr": "226",
+      "iniSelLg": "II",
+      "iniSelNr": "3",
+      "iniTi": "Decreto-Lei nº 464/82, de 2 de Dezembro, que  estatui que os montantes dos subsídios de Natal atribuíveis aos pensionistas de invalidez, velhice e sobrevivência dos regimes contribuitivos de segurança social serão estabelecidos nos diplomas de actualização das pensões respectivas para o período em que se aplicam.",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "31182",
+      "iniNr": "222",
+      "iniSelLg": "II",
+      "iniSelNr": "3",
+      "iniTi": "Decreto-Lei nº 435/82, de 30 de Outubro, que estabelece normas sobre a classificação e gestão dos aldeamentos turísticos.",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "BEJA",
+  "depCPId": "2",
+  "depCadId": "3307",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "980",
+    "gpSigla": "PS"
+   }
+  },
+  "depId": "4875",
+  "depNomeCompleto": "MANUEL JOAQUIM RODRIGUES MASSENO",
+  "depNomeParlamentar": "MANUEL MASSENO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1983-05-31",
+    "sioDtInicio": "1982-11-16"
+   }
+  },
+  "legDes": "II"
+ }
+}

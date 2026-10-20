@@ -1,0 +1,65 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "BERNARDINO PEREIRA"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "PORTO",
+  "depCPId": "13",
+  "depCadId": "1963",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "4838",
+  "depNomeCompleto": "BERNARDINO DA COSTA PEREIRA",
+  "depNomeParlamentar": "BERNARDINO PEREIRA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-11-17",
+     "sioDtInicio": "1980-11-03"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-01-28",
+     "sioDtInicio": "1981-11-27"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-04-15",
+     "sioDtInicio": "1982-03-18"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-06-01",
+     "sioDtInicio": "1982-04-24"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-18",
+     "sioDtInicio": "1982-08-01"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-11-20"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

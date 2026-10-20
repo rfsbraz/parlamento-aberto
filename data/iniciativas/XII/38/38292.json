@@ -1,0 +1,677 @@
+{
+ "DataFimleg": "2014-09-14",
+ "DataInicioleg": "2013-09-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PS",
+   "idCadastro": "462",
+   "nome": "Alberto Martins"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "2569",
+   "nome": "Rui Paulo Figueiredo"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1977",
+   "nome": "António Gameiro"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "152",
+   "nome": "António Braga"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1512",
+   "nome": "Mota Andrade"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1435",
+   "nome": "José Junqueiro"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PS"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2014-03-10",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "296331",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2014-03-11",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "296604",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/03/079/2014-03-11/7?pgs=7-8&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "676876",
+     "obs": null,
+     "pag": [
+      "7-8"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "79",
+     "pubSL": "3",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2014-03-11",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2014-03-12",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "296377",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2014-03-12",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "296378",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "33086",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2014-03-19",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2014-03-12",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2014-04-10",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer da COFAP e Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a564454305a425543394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a63304e7a55344d47566d4c575a6b4e7a59744e444a685a433034597a41324c5464694f474e6b5a4445774e54646b4d5335775a47593d&fich=747580ef-fd76-42ad-8c06-7b8cdd1057d1.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3514",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Orçamento, Finanças e Administração Pública",
+     "Numero": "3514",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/03/096/2014-04-11/17?pgs=17-25&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "17-25"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "96",
+       "pubSL": "3",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2014-04-11",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/03/096/2014-04-11/17?pgs=17-25&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "17-25"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "96",
+       "pubSL": "3",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2014-04-11",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "2297",
+       "motivoCessacao": null,
+       "nome": "Cristóvão Norte"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2014-03-12",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "296379",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "9907",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2014-04-03",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2014-04-03",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2569",
+         "nome": "Rui Paulo Figueiredo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:22",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20140403pln&url=l12/sl3/a2014/m04/&tI=00:28:16:354&drc=00:03:20:894"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20140403pln&url=l12/sl3/a2014/m04/&tI=00:32:42:196&drc=00:00:13:804"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20140403pln&url=l12/sl3/a2014/m04/&tI=00:50:10:914&drc=00:02:01:023"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/069/2014-04-04/8?pgs=8-9,13-14&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "194742",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "13-14",
+          "8-9"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "69",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2014-04-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Altera a Lei Geral Tributária para que o Estado não inviabilize sistematicamente os Planos Especiais de Recuperação de Empresas.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "2297",
+         "nome": "Cristóvão Norte"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:22",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20140403pln&url=l12/sl3/a2014/m04/&tI=00:33:06:954&drc=00:05:13:221"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/069/2014-04-04/9?pgs=9-10&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "194743",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "9-10"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "69",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2014-04-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Altera a Lei Geral Tributária para que o Estado não inviabilize sistematicamente os Planos Especiais de Recuperação de Empresas.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "2419",
+         "nome": "Cecília Meireles"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:22",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20140403pln&url=l12/sl3/a2014/m04/&tI=00:38:31:734&drc=00:04:53:195"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/069/2014-04-04/10?pgs=10-12&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "194744",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "10-12"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "69",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2014-04-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Altera a Lei Geral Tributária para que o Estado não inviabilize sistematicamente os Planos Especiais de Recuperação de Empresas.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "4471",
+         "nome": "Paulo Sá"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:22",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20140403pln&url=l12/sl3/a2014/m04/&tI=00:31:51:797&drc=00:00:34:692"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/069/2014-04-04/12?pgs=12-13&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "194745",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "12-13"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "69",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2014-04-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Altera a Lei Geral Tributária para que o Estado não inviabilize sistematicamente os Planos Especiais de Recuperação de Empresas.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "3926",
+         "nome": "Pedro Filipe Soares"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:22",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20140403pln&url=l12/sl3/a2014/m04/&tI=00:47:13:926&drc=00:02:44:405"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/069/2014-04-04/13?pgs=13&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "194746",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "13-13"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "69",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2014-04-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Altera a Lei Geral Tributária para que o Estado não inviabilize sistematicamente os Planos Especiais de Recuperação de Empresas.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "296685",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/069/2014-04-04?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "9907",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "69",
+     "pubSL": "3",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2014-04-04",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2014-04-04",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "296786",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/070/2014-04-05/36?pgs=36&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "679575",
+     "obs": null,
+     "pag": [
+      "36-36"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "70",
+     "pubSL": "3",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2014-04-05",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2014-04-04",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "66325",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "70",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "38292",
+ "IniLeg": "XII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d4451344d6a55774d7a49744e546b344d6930304d47557a4c5749324d544574595751795a5751315954497a595455304c6d527659773d3d&fich=04825032-5982-40e3-b611-ad2ed5a23a54.doc&Inline=true",
+ "IniNr": "531",
+ "IniObs": null,
+ "IniSel": "3",
+ "IniTextoSubst": "SIM",
+ "IniTextoSubstCampo": "Texto inicial substituído a pedido do autor da iniciativa em 14-03-2014.",
+ "IniTipo": "J",
+ "IniTitulo": "Altera a Lei Geral Tributária para que o Estado não inviabilize sistematicamente os Planos Especiais de Recuperação de Empresas.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

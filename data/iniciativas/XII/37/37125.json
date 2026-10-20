@@ -1,0 +1,661 @@
+{
+ "DataFimleg": "2012-09-14",
+ "DataInicioleg": "2011-06-20",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PS",
+   "idCadastro": "4064",
+   "nome": "Inês de Medeiros"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "4134",
+   "nome": "Manuel Seabra"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "438",
+   "nome": "Carlos Zorrinho"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1435",
+   "nome": "José Junqueiro"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "1554",
+   "nome": "Filipe Neto Brandão"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "2201",
+   "nome": "Jacinto Serrão"
+  },
+  {
+   "GP": "PS",
+   "idCadastro": "4453",
+   "nome": "Pedro Delgado Alves"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PS"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Deputados",
+  "sigla": "D"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2012-06-28",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "285022",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2012-06-29",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "285278",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/01/201/2012-06-29/30?pgs=30-37&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "594397",
+     "obs": null,
+     "pag": [
+      "30-37"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "201",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2012-06-29",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2012-07-04",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "285393",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2012-07-04",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "285394",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "29308",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2012-07-04",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3521",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão para a Ética, a Cidadania e a Comunicação",
+     "Numero": "3521",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2012-07-04",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "285395",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "8873",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2012-07-04",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "BE",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "37071",
+     "leg": "XII",
+     "nr": "255",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/129/2012-07-05/34?pgs=34-39&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1662",
+       "obs": null,
+       "pag": [
+        "34-39"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "129",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2012-07-05",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "J",
+     "titulo": "Obriga à divulgação de toda a cadeia de propriedade dos órgãos de comunicação social."
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2012-07-04",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "4064",
+         "nome": "Inês de Medeiros"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:03",
+       "horaTermo": "19:16",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20120704pln&url=l12/sl1/a2012/m07/&tI=02:18:47:201&drc=00:03:44:402"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20120704pln&url=l12/sl1/a2012/m07/&tI=02:39:22:886&drc=00:02:37:269"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/129/2012-07-05/34?pgs=34-35,39&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "185931",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "34-35",
+          "39-39"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "129",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-07-05",
+         "supl": null
+        }
+       ],
+       "sumario": "Regula a promoção da transparência da propriedade e da gestão das entidades que prosseguem atividades de comunicação social; Obriga à divulgação de toda a cadeia de propriedade dos órgãos de comunicação social.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "4161",
+         "nome": "Catarina Martins"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:03",
+       "horaTermo": "19:16",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20120704pln&url=l12/sl1/a2012/m07/&tI=02:22:39:476&drc=00:03:08:692"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20120704pln&url=l12/sl1/a2012/m07/&tI=02:42:04:205&drc=00:01:15:882"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/129/2012-07-05/35?pgs=35,40&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "185932",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "35-35",
+          "40-40"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "129",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-07-05",
+         "supl": null
+        }
+       ],
+       "sumario": "Regula a promoção da transparência da propriedade e da gestão das entidades que prosseguem atividades de comunicação social; Obriga à divulgação de toda a cadeia de propriedade dos órgãos de comunicação social.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "3942",
+         "nome": "Francisca Almeida"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:03",
+       "horaTermo": "19:16",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20120704pln&url=l12/sl1/a2012/m07/&tI=02:25:52:359&drc=00:04:13:503"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/129/2012-07-05/36?pgs=36&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "185933",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "36-36"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "129",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-07-05",
+         "supl": null
+        }
+       ],
+       "sumario": "Regula a promoção da transparência da propriedade e da gestão das entidades que prosseguem atividades de comunicação social; Obriga à divulgação de toda a cadeia de propriedade dos órgãos de comunicação social.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "1715",
+         "nome": "Bruno Dias"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:03",
+       "horaTermo": "19:16",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20120704pln&url=l12/sl1/a2012/m07/&tI=02:30:10:239&drc=00:04:14:484"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/129/2012-07-05/37?pgs=37&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "185934",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "37-37"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "129",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-07-05",
+         "supl": null
+        }
+       ],
+       "sumario": "Regula a promoção da transparência da propriedade e da gestão das entidades que prosseguem atividades de comunicação social; Obriga à divulgação de toda a cadeia de propriedade dos órgãos de comunicação social.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1801",
+         "nome": "Raúl de Almeida"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:03",
+       "horaTermo": "19:16",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20120704pln&url=l12/sl1/a2012/m07/&tI=02:34:29:492&drc=00:04:49:048"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/129/2012-07-05/37?pgs=37-39&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "185935",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "37-39"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "129",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2012-07-05",
+         "supl": null
+        }
+       ],
+       "sumario": "Regula a promoção da transparência da propriedade e da gestão das entidades que prosseguem atividades de comunicação social; Obriga à divulgação de toda a cadeia de propriedade dos órgãos de comunicação social.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "285125",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/129/2012-07-05/34?pgs=34-40&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "595926",
+     "obs": null,
+     "pag": [
+      "34-40"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "129",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2012-07-05",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2012-07-06",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "285345",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/01/131/2012-07-07/34?pgs=34&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "598883",
+     "obs": null,
+     "pag": [
+      "34-34"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "131",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2012-07-07",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2012-07-06",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "61228",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "131",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "37125",
+ "IniLeg": "XII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d474d784e446335595451744e474e6b4e6930304e575a694c574a6a4d4451744f57526c596a646c59575a6c4d5756694c6d527659773d3d&fich=0c1479a4-4cd6-45fb-bc04-9deb7eafe1eb.doc&Inline=true",
+ "IniNr": "263",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Regula a promoção da transparência da propriedade e da gestão das entidades que prosseguem atividades de comunicação social.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

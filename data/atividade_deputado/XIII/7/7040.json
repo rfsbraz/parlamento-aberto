@@ -1,0 +1,110 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": [
+    {
+     "AccDtaud": null,
+     "ActAs": null,
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": null,
+     "ActLg": null,
+     "ActLoc": null,
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": null,
+     "ActTpdesc": null,
+     "CmsAb": null,
+     "CmsNo": null,
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    }
+   ],
+   "Audiencias": null,
+   "Cms": null,
+   "DadosLegisDeputado": null,
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": [
+    {
+     "IntId": null,
+     "IntSu": null,
+     "IntTe": null,
+     "PubDar": null,
+     "PubDtreu": null,
+     "PubLg": null,
+     "PubNr": null,
+     "PubSl": null,
+     "PubTp": null,
+     "TinDs": null
+    }
+   ],
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": null,
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": null,
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Lisboa",
+  "DepCPId": 11.0,
+  "DepCadId": 7040.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-10-03",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7268.0,
+    "GpSigla": "BE"
+   }
+  ],
+  "DepId": 16195.0,
+  "DepNomeCompleto": "Fabian Filipe Figueiredo",
+  "DepNomeParlamentar": "Fabian Figueiredo",
+  "DepSituacao": [
+   {
+    "SioDes": "Efetivo Definitivo",
+    "SioDtFim": null,
+    "SioDtInicio": "2026-10-01"
+   },
+   {
+    "SioDes": "Suspenso(Efet Def)",
+    "SioDtFim": "2026-09-30",
+    "SioDtInicio": "2026-09-01"
+   },
+   {
+    "SioDes": "Suplente",
+    "SioDtFim": "2025-12-31",
+    "SioDtInicio": "2026-01-01"
+   },
+   {
+    "SioDes": "Efetivo Definitivo",
+    "SioDtFim": "2026-08-31",
+    "SioDtInicio": "2026-01-01"
+   },
+   {
+    "SioDes": "Impedido",
+    "SioDtFim": "2025-12-31",
+    "SioDtInicio": "2025-09-22"
+   },
+   {
+    "SioDes": "Suplente",
+    "SioDtFim": "2025-09-21",
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

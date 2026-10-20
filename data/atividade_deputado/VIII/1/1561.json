@@ -1,0 +1,85 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": null,
+   "Audiencias": null,
+   "Cms": null,
+   "DadosLegisDeputado": null,
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": [
+    {
+     "IntId": null,
+     "IntSu": null,
+     "IntTe": null,
+     "PubDar": null,
+     "PubDtreu": null,
+     "PubLg": null,
+     "PubNr": null,
+     "PubSl": null,
+     "PubTp": null,
+     "TinDs": null
+    }
+   ],
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": null,
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": [
+     {
+      "AccDtrel": "2002-05-22",
+      "IniId": "18698",
+      "IniNr": "99",
+      "IniSelLg": "VIII",
+      "IniTi": "Altera o Decreto-Lei n.º 468/71, de 5 de Novembro, relativo ao Regime Jurídico dos terrenos do domínio público hídrico.",
+      "IniTp": "Proposta de Lei",
+      "RelFase": "Baixa comissão distribuição inicial generalidade"
+     },
+     {
+      "AccDtrel": null,
+      "IniId": "18698",
+      "IniNr": "99",
+      "IniSelLg": "VIII",
+      "IniTi": "Altera o Decreto-Lei n.º 468/71, de 5 de Novembro, relativo ao Regime Jurídico dos terrenos do domínio público hídrico.",
+      "IniTp": "Proposta de Lei",
+      "RelFase": "Nova apreciação comissão generalidade"
+     }
+    ],
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Aveiro",
+  "DepCPId": 1.0,
+  "DepCadId": 1561.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-10-03",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7261.0,
+    "GpSigla": "PSD"
+   }
+  ],
+  "DepId": 15851.0,
+  "DepNomeCompleto": "Luís Filipe Montenegro Cardoso de Morais Esteves",
+  "DepNomeParlamentar": "Luís Montenegro",
+  "DepSituacao": [
+   {
+    "SioDes": "Suspenso(Eleito)",
+    "SioDtFim": null,
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

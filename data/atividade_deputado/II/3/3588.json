@@ -1,0 +1,75 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "LUÍS ANÍBAL COUTINHO"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "PORTO",
+  "depCPId": "13",
+  "depCadId": "3588",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "3313",
+  "depNomeCompleto": "LUÍS ANÍBAL DE SÁ DE AZEVEDO COUTINHO",
+  "depNomeParlamentar": "LUÍS ANÍBAL COUTINHO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-03-02",
+     "sioDtInicio": "1981-12-10"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-03-23",
+     "sioDtInicio": "1982-03-09"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-06-22",
+     "sioDtInicio": "1982-05-11"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-05-04",
+     "sioDtInicio": "1982-05-01"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-04-29",
+     "sioDtInicio": "1982-04-03"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-08-12",
+     "sioDtInicio": "1982-06-26"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-22",
+     "sioDtInicio": "1982-08-14"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-11-23"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

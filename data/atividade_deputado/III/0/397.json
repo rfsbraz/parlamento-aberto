@@ -1,0 +1,87 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "CORREIA DE JESUS"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "29669",
+     "iniNr": "225",
+     "iniSelLg": "III",
+     "iniSelNr": "1",
+     "iniTi": "Criação da freguesia da Portela, no concelho de Loures.",
+     "iniTp": "J",
+     "iniTpdesc": "Projeto de Lei"
+    }
+   },
+   "intev": {
+    "pt_gov_ar_wsar_objectos_IntervencoesOut": [
+     {
+      "intId": "223796",
+      "intSu": "Concede ao Governo autorização para legislar em matéria das atribuições das autarquias locais e competencias dos respectivos orgãos",
+      "intTe": "Responde aos Pedidos de Esclarecimento dos Deputados Carlos Lage (PS) e António Vitorino (UEDS)",
+      "pubDar": "798-799; 800-800",
+      "pubDtreu": "1983-07-12",
+      "pubLg": "III",
+      "pubNr": "20",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "222575",
+      "intSu": "Medidas de emergência para defesa da ANOP/EP",
+      "pubDar": "356-357",
+      "pubDtreu": "1983-06-28",
+      "pubLg": "III",
+      "pubNr": "11",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Protesto"
+     },
+     {
+      "intId": "222004",
+      "intSu": "Programa do IX Governo Constitucional",
+      "pubDar": "154-156",
+      "pubDtreu": "1983-06-22",
+      "pubLg": "III",
+      "pubNr": "7",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "MADEIRA",
+  "depCPId": "20",
+  "depCadId": "397",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3651",
+  "depNomeCompleto": "MANUEL FILIPE CORREIA DE JESUS",
+  "depNomeParlamentar": "CORREIA DE JESUS",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1985-11-04",
+    "sioDtInicio": "1983-05-31"
+   }
+  },
+  "legDes": "III"
+ }
+}

@@ -1,0 +1,1947 @@
+{
+ "DataFimleg": "2024-03-25",
+ "DataInicioleg": "2023-09-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PCP",
+   "idCadastro": "4197",
+   "nome": "Paula Santos"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "817",
+   "nome": "Alfredo Maia"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "5706",
+   "nome": "Alma Rivera"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "1715",
+   "nome": "Bruno Dias"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "5710",
+   "nome": "Duarte Alves"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "5524",
+   "nome": "João Dias"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PCP"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2023-09-22",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1450971",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2023-09-22",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1482243",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/15/02/006/2023-09-22/90?pgs=90-91&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "996940",
+     "obs": null,
+     "pag": [
+      "90-91"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "6",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2023-09-22",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2023-09-26",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1451050",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2023-09-27",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1451051",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "19539",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2023-10-12",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": [
+    {
+     "autor": "CH",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "243295",
+     "leg": "XV",
+     "nr": "913",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "J",
+     "titulo": "Por uma remoção eficiente e segura do amianto em infraestruturas públicas"
+    },
+    {
+     "autor": "IL",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "243277",
+     "leg": "XV",
+     "nr": "888",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "R",
+     "titulo": "Cumprimento do programa de recuperação/reabilitação de escolas"
+    },
+    {
+     "autor": "BE",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "243302",
+     "leg": "XV",
+     "nr": "902",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "R",
+     "titulo": "Recomenda ao Governo a atualização do programa de remoção de amianto das escolas"
+    },
+    {
+     "autor": "PS",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "243330",
+     "leg": "XV",
+     "nr": "916",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "R",
+     "titulo": "Recomenda ao Governo que prossiga os esforços para a remoção do amianto presente nos estabelecimentos de ensino"
+    },
+    {
+     "autor": "L",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "172909",
+     "leg": "XV",
+     "nr": "688",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "R",
+     "titulo": "Recomenda ao Governo a adoção de uma estratégia de remoção de todo o amianto nas escolas e a reavaliação das escolas já intervencionadas"
+    },
+    {
+     "autor": "PAN",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "172951",
+     "leg": "XV",
+     "nr": "702",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "R",
+     "titulo": "Pelo levantamento e remoção de todo o amianto presente nos estabelecimentos de ensino"
+    },
+    {
+     "autor": "PSD",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "233219",
+     "leg": "XV",
+     "nr": "863",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "36480",
+       "obs": null,
+       "pag": [
+        "20-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "12",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-10-13",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "R",
+     "titulo": "Avaliação do programa de remoção do amianto em escolas públicas e planeamento de uma nova fase de intervenção"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2023-10-12",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CH",
+         "idCadastro": "7340",
+         "nome": "Gabriel Mithá Ribeiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "17:33",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_12_15_00_00_clean_14_plenario.xml&idsegmento=20"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "366374",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "20-20"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "12",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-13",
+         "supl": null
+        }
+       ],
+       "sumario": "Pela remoção total do amianto das escolas públicas (ZERO — Associação Sistema Terrestre Sustentável); Por uma remoção eficiente e segura do amianto em infraestruturas públicas; Recomenda ao Governo a adoção de uma estratégia de remoção de todo o amianto nas escolas e a reavaliação das escolas já intervencionadas; Pelo levantamento e remoção de todo o amianto presente nos estabelecimentos de ensino; Avaliação do programa de remoção do amianto em escolas públicas e planeamento de uma nova fase de intervenção; Cumprimento do programa de recuperação/reabilitação de escolas; Recomenda ao Governo a atualização do programa de remoção de amianto das escolas; Pela remoção do amianto dos equipamentos escolares; Recomenda ao Governo que prossiga os esforços para a remoção do amianto presente nos estabelecimentos de ensino.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "6529",
+         "nome": "Cláudia André"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "17:33",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_12_15_00_00_clean_14_plenario.xml&idsegmento=21"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/21?pgs=21-22&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "366375",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "21-22"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "12",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-13",
+         "supl": null
+        }
+       ],
+       "sumario": "Pela remoção total do amianto das escolas públicas (ZERO — Associação Sistema Terrestre Sustentável); Por uma remoção eficiente e segura do amianto em infraestruturas públicas; Recomenda ao Governo a adoção de uma estratégia de remoção de todo o amianto nas escolas e a reavaliação das escolas já intervencionadas; Pelo levantamento e remoção de todo o amianto presente nos estabelecimentos de ensino; Avaliação do programa de remoção do amianto em escolas públicas e planeamento de uma nova fase de intervenção; Cumprimento do programa de recuperação/reabilitação de escolas; Recomenda ao Governo a atualização do programa de remoção de amianto das escolas; Pela remoção do amianto dos equipamentos escolares; Recomenda ao Governo que prossiga os esforços para a remoção do amianto presente nos estabelecimentos de ensino.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "L",
+         "idCadastro": "7337",
+         "nome": "Rui Tavares"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "17:33",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_12_15_00_00_clean_14_plenario.xml&idsegmento=22"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/22?pgs=22&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "366376",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "22-22"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "12",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-13",
+         "supl": null
+        }
+       ],
+       "sumario": "Pela remoção total do amianto das escolas públicas (ZERO — Associação Sistema Terrestre Sustentável); Por uma remoção eficiente e segura do amianto em infraestruturas públicas; Recomenda ao Governo a adoção de uma estratégia de remoção de todo o amianto nas escolas e a reavaliação das escolas já intervencionadas; Pelo levantamento e remoção de todo o amianto presente nos estabelecimentos de ensino; Avaliação do programa de remoção do amianto em escolas públicas e planeamento de uma nova fase de intervenção; Cumprimento do programa de recuperação/reabilitação de escolas; Recomenda ao Governo a atualização do programa de remoção de amianto das escolas; Pela remoção do amianto dos equipamentos escolares; Recomenda ao Governo que prossiga os esforços para a remoção do amianto presente nos estabelecimentos de ensino.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "IL",
+         "idCadastro": "6875",
+         "nome": "Carla Castro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "17:33",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_12_15_00_00_clean_14_plenario.xml&idsegmento=23"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/23?pgs=23&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "366377",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "23-23"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "12",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-13",
+         "supl": null
+        }
+       ],
+       "sumario": "Pela remoção total do amianto das escolas públicas (ZERO — Associação Sistema Terrestre Sustentável); Por uma remoção eficiente e segura do amianto em infraestruturas públicas; Recomenda ao Governo a adoção de uma estratégia de remoção de todo o amianto nas escolas e a reavaliação das escolas já intervencionadas; Pelo levantamento e remoção de todo o amianto presente nos estabelecimentos de ensino; Avaliação do programa de remoção do amianto em escolas públicas e planeamento de uma nova fase de intervenção; Cumprimento do programa de recuperação/reabilitação de escolas; Recomenda ao Governo a atualização do programa de remoção de amianto das escolas; Pela remoção do amianto dos equipamentos escolares; Recomenda ao Governo que prossiga os esforços para a remoção do amianto presente nos estabelecimentos de ensino.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "6063",
+         "nome": "Joana Mortágua"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "17:33",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_12_15_00_00_clean_14_plenario.xml&idsegmento=24"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/24?pgs=24&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "366378",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "24-24"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "12",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-13",
+         "supl": null
+        }
+       ],
+       "sumario": "Pela remoção total do amianto das escolas públicas (ZERO — Associação Sistema Terrestre Sustentável); Por uma remoção eficiente e segura do amianto em infraestruturas públicas; Recomenda ao Governo a adoção de uma estratégia de remoção de todo o amianto nas escolas e a reavaliação das escolas já intervencionadas; Pelo levantamento e remoção de todo o amianto presente nos estabelecimentos de ensino; Avaliação do programa de remoção do amianto em escolas públicas e planeamento de uma nova fase de intervenção; Cumprimento do programa de recuperação/reabilitação de escolas; Recomenda ao Governo a atualização do programa de remoção de amianto das escolas; Pela remoção do amianto dos equipamentos escolares; Recomenda ao Governo que prossiga os esforços para a remoção do amianto presente nos estabelecimentos de ensino.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "817",
+         "nome": "Alfredo Maia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "17:33",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_12_15_00_00_clean_14_plenario.xml&idsegmento=25"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/24?pgs=24-25&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "366379",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "24-25"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "12",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-13",
+         "supl": null
+        }
+       ],
+       "sumario": "Pela remoção total do amianto das escolas públicas (ZERO — Associação Sistema Terrestre Sustentável); Por uma remoção eficiente e segura do amianto em infraestruturas públicas; Recomenda ao Governo a adoção de uma estratégia de remoção de todo o amianto nas escolas e a reavaliação das escolas já intervencionadas; Pelo levantamento e remoção de todo o amianto presente nos estabelecimentos de ensino; Avaliação do programa de remoção do amianto em escolas públicas e planeamento de uma nova fase de intervenção; Cumprimento do programa de recuperação/reabilitação de escolas; Recomenda ao Governo a atualização do programa de remoção de amianto das escolas; Pela remoção do amianto dos equipamentos escolares; Recomenda ao Governo que prossiga os esforços para a remoção do amianto presente nos estabelecimentos de ensino.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "7034",
+         "nome": "Raquel Ferreira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "17:33",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_12_15_00_00_clean_14_plenario.xml&idsegmento=26"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/25?pgs=25-26&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "366380",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "25-26"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "12",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-13",
+         "supl": null
+        }
+       ],
+       "sumario": "Pela remoção total do amianto das escolas públicas (ZERO — Associação Sistema Terrestre Sustentável); Por uma remoção eficiente e segura do amianto em infraestruturas públicas; Recomenda ao Governo a adoção de uma estratégia de remoção de todo o amianto nas escolas e a reavaliação das escolas já intervencionadas; Pelo levantamento e remoção de todo o amianto presente nos estabelecimentos de ensino; Avaliação do programa de remoção do amianto em escolas públicas e planeamento de uma nova fase de intervenção; Cumprimento do programa de recuperação/reabilitação de escolas; Recomenda ao Governo a atualização do programa de remoção de amianto das escolas; Pela remoção do amianto dos equipamentos escolares; Recomenda ao Governo que prossiga os esforços para a remoção do amianto presente nos estabelecimentos de ensino.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "3936",
+         "nome": "Palmira Maciel"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:07",
+       "horaTermo": "17:33",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_10_12_15_00_00_clean_14_plenario.xml&idsegmento=27"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/26?pgs=26-27&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "366381",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "26-27"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "12",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-10-13",
+         "supl": null
+        }
+       ],
+       "sumario": "Pela remoção total do amianto das escolas públicas (ZERO — Associação Sistema Terrestre Sustentável); Por uma remoção eficiente e segura do amianto em infraestruturas públicas; Recomenda ao Governo a adoção de uma estratégia de remoção de todo o amianto nas escolas e a reavaliação das escolas já intervencionadas; Pelo levantamento e remoção de todo o amianto presente nos estabelecimentos de ensino; Avaliação do programa de remoção do amianto em escolas públicas e planeamento de uma nova fase de intervenção; Cumprimento do programa de recuperação/reabilitação de escolas; Recomenda ao Governo a atualização do programa de remoção de amianto das escolas; Pela remoção do amianto dos equipamentos escolares; Recomenda ao Governo que prossiga os esforços para a remoção do amianto presente nos estabelecimentos de ensino.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1461455",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": [
+    {
+     "autor": null,
+     "dataEntrada": null,
+     "descTipo": null,
+     "id": "11",
+     "leg": "XIV",
+     "nr": "29",
+     "publicacao": null,
+     "sel": "1",
+     "tipo": null,
+     "titulo": "Pela remoção total do amianto das escolas públicas"
+    }
+   ],
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/012/2023-10-13/20?pgs=20-27&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "997385",
+     "obs": null,
+     "pag": [
+      "20-27"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "12",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2023-10-13",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2023-10-13",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1471639",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/02/013/2023-10-14/51?pgs=51&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "996849",
+     "obs": null,
+     "pag": [
+      "51-51"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "13",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2023-10-14",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2023-10-13",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> IL</I>, <I> PCP</I>, <I> BE</I>, <I> L</I><BR>Contra:<I>PS</I>",
+     "id": "115810",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "13",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "243318",
+ "IniLeg": "XV",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a79394562324e31625756756447397a5357357059326c6864476c325953396b4f47593159544e694d43307a5a5441354c545130593259744f54566d4e6930334d44497a4d32466d59574e694d546b755a47396a65413d3d&fich=d8f5a3b0-3e09-44cf-95f6-70233afacb19.docx&Inline=true",
+ "IniNr": "909",
+ "IniObs": null,
+ "IniSel": "2",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "R",
+ "IniTitulo": "Pela remoção do amianto dos equipamentos escolares",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": [
+  {
+   "assunto": "Pela remoção total do amianto das escolas públicas",
+   "dcl": null,
+   "descTipo": null,
+   "id": "13396",
+   "legislatura": "XIV",
+   "numero": "29",
+   "sessao": "1",
+   "tipo": null
+  }
+ ],
+ "PropostasAlteracao": null
+}

@@ -1,0 +1,75 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "JOÃO CANTINHO DE ANDRADE"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "FARO",
+  "depCPId": "8",
+  "depCadId": "3565",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "4791",
+  "depNomeCompleto": "JOÃO MACHADO CANTINHO FIGUEIRAS DE ANDRADE",
+  "depNomeParlamentar": "JOÃO CANTINHO DE ANDRADE",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-01-09",
+     "sioDtInicio": "1980-11-03"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-09-04",
+     "sioDtInicio": "1981-01-12"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-12-03",
+     "sioDtInicio": "1981-11-19"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-03-06",
+     "sioDtInicio": "1982-03-02"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-06-22",
+     "sioDtInicio": "1982-06-14"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-08-14",
+     "sioDtInicio": "1982-08-12"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-06",
+     "sioDtInicio": "1982-10-19"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-12-01",
+     "sioDtInicio": "1982-11-26"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

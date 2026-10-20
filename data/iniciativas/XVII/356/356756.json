@@ -1,0 +1,614 @@
+{
+ "DataFimleg": "2026-09-15",
+ "DataInicioleg": "2025-06-03",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PSD",
+   "idCadastro": "4300",
+   "nome": "Hugo Soares"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "1738",
+   "nome": "Pedro Alves"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "7928",
+   "nome": "Célia Freire"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "7388",
+   "nome": "Inês Barroso"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8179",
+   "nome": "Ana Gabriela Cabilhas"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "9506",
+   "nome": "Ana Isabel Ferreira"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "9629",
+   "nome": "Ana Silveira"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "9650",
+   "nome": "Bruno Faria"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8788",
+   "nome": "Carolina Marques"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "2114",
+   "nome": "Emídio Guerreiro"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "5984",
+   "nome": "Germana Rocha"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "7408",
+   "nome": "João Pedro Louro"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "8425",
+   "nome": "Joaquim Barbosa"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "7039",
+   "nome": "Liliana Sousa"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "9617",
+   "nome": "Manuela Carvalho"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "9020",
+   "nome": "Nuna Menezes"
+  },
+  {
+   "GP": "PSD",
+   "idCadastro": "6081",
+   "nome": "Sonia dos Reis"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PSD"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2026-05-14",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1729009",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2026-05-15",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1729310",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2026-05-15",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1729311",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "181",
+   "Comissao": [
+    {
+     "AccId": "109108",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2026-05-21",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-05-26",
+       "TipoDocumento": "Link",
+       "TituloDocumento": "Gravação da discussão (a partir do minuto 12)",
+       "URL": "https://media.parlamento.pt/site/XVIILEG/SL1/COM/08_CEC/CEC_20260526_3.mp3"
+      },
+      {
+       "DataDocumento": "2026-05-28",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação da discussão em Comissão",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a6c6d4f474e6a4d6d49744d4464684f5330304f5756684c546b7a5a4759745a4459775a545a6c4d4467304f5445344c6e426b5a673d3d&fich=29f8cc2b-07a9-49ea-93df-d60e6e084918.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8454",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Educação e Ciência",
+     "Numero": "8454",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2026-05-26",
+       "dataRemessa": "2026-05-28",
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Informação"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2026-05-15",
+   "EvtId": "126",
+   "Fase": "Baixa comissão para discussão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1729312",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2026-05-29",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1729801",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2026-05-29",
+     "descricao": null,
+     "detalhe": null,
+     "id": "171969",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "96",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "270",
+   "Comissao": [
+    {
+     "AccId": "109203",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2026-05-29",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-06-24",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d324933595467325a5751744e32526c4f4330305a6d59354c546b794f4441745a4467335a446777596d4a6a4e474d334c6e426b5a673d3d&fich=3b7a86ed-7de8-4ff9-9280-d87d80bbc4c7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-24",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório de discussão e votação na especialidade",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e5745334e6a56685a6a55744f44426d4e7930305a4467324c5749314f4449744e6a4d785a54557a5a5755325a6a67784c6e426b5a673d3d&fich=5a765af5-80f7-4d86-b582-631e53ee6f81.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-24",
+       "TipoDocumento": "Link",
+       "TituloDocumento": "Gravação áudio - discussão e votação na especialidade",
+       "URL": "https://media.parlamento.pt/site/XVIILEG/SL1/COM/08_CEC/CEC_20260624_2.mp3"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8454",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Educação e Ciência",
+     "Numero": "8454",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2026-05-29",
+   "EvtId": "14",
+   "Fase": "Baixa comissão especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1729802",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "320",
+   "Comissao": null,
+   "DataFase": "2026-06-25",
+   "EvtId": "18",
+   "Fase": "Votação final global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1730882",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/01/107/2026-06-26/71?pgs=71&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1025302",
+     "obs": null,
+     "pag": [
+      "71-71"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVII",
+     "pubNr": "107",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2026-06-26",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2026-06-25",
+     "descricao": "Texto final, apresentado pela Comissão de Educação e Ciência, relativo aos Projetos de Resolução n.os 667/XVII/1.ª (L), 966/XVII/1.ª (PSD), 971/XVII/1.ª (IL), 980/XVII/1.ª (PS) e 984/XVII/1.ª (CH)",
+     "detalhe": null,
+     "id": "172346",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "105",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249304d545a6a4e6a5a694c544d334f4451744e4459344d7931695a474d784c5755335a6d59784d545179596d4e6d4d79356b62324e34&fich=b416c66b-3784-4683-bdc1-e7ff1142bcf3.docx&Inline=true",
+     "anexoNome": "Sugestão de Redação Final"
+    }
+   ],
+   "CodigoFase": "348",
+   "Comissao": [
+    {
+     "AccId": "109464",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2026-07-03",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-08",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final - Deliberação da Comissão",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d544e694e6d52694e6d4d7459574d324e5330304e6d4a6b4c5468694d446b745a6d5133595449314e7a686c4e574e6c4c6e426b5a673d3d&fich=13b6db6c-ac65-46bd-8b09-fd7a2578e5ce.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8454",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Educação e Ciência",
+     "Numero": "8454",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2026-07-03",
+       "dataRemessa": "2026-07-08",
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Redação Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "CDS-PP"
+       ],
+       "data": "2026-07-08",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I>, <I> IL</I>, <I> L</I>, <I> PCP</I><BR>Ausência: <I>CDS-PP</I>",
+       "id": "172497",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "49",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2026-07-03",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1731307",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "360",
+   "Comissao": null,
+   "DataFase": "2026-07-16",
+   "EvtId": "57",
+   "Fase": "Resolução (Publicação DAR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1731704",
+   "OevTextId": "135783",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "135783",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2026-07-16",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1731705",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "600",
+   "Comissao": null,
+   "DataFase": "2026-07-21",
+   "EvtId": "44",
+   "Fase": "Resolução da AR (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1731886",
+   "OevTextId": "135821",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "135821",
+   "Votacao": null
+  }
+ ],
+ "IniId": "356756",
+ "IniLeg": "XVII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249775a4441325a446b324c5445784e4755744e444d314d4330355954686a4c546b334e6d5934596a59335a54466a4e79356b62324e34&fich=b0d06d96-114e-4350-9a8c-976f8b67e1c7.docx&Inline=true",
+ "IniNr": "966",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "R",
+ "IniTitulo": "Pela promoção da igualdade de condições nos exames nacionais para alunos com daltonismo",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

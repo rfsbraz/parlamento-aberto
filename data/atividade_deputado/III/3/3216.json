@@ -1,0 +1,167 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "ABÍLIO RODRIGUES"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30034",
+      "iniNr": "529",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Criação da região demarcada do Ribatejo.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30032",
+      "iniNr": "527",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Corridas de toiros de morte.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "intev": {
+    "pt_gov_ar_wsar_objectos_IntervencoesOut": [
+     {
+      "intId": "224568",
+      "intSu": "Criação de uma taxa de transportes",
+      "intTe": "À Secretária de Estado da Administração Autárquica (Helena Torres Marques)",
+      "pubDar": "955-955",
+      "pubDtreu": "1983-07-14",
+      "pubLg": "III",
+      "pubNr": "22",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Pedido de esclarecimento"
+     },
+     {
+      "intId": "224586",
+      "intSu": "Criação de uma taxa de transportes",
+      "intTe": "Ao Deputado Álvaro Oliveira (PCP)",
+      "pubDar": "969-969",
+      "pubDtreu": "1983-07-14",
+      "pubLg": "III",
+      "pubNr": "22",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Pedido de esclarecimento"
+     },
+     {
+      "intId": "224588",
+      "intSu": "Criação de uma taxa de transportes",
+      "pubDar": "971-973",
+      "pubDtreu": "1983-07-14",
+      "pubLg": "III",
+      "pubNr": "22",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "224961",
+      "intSu": "Criação de uma taxa de transportes",
+      "pubDar": "973-973; 973-974",
+      "pubDtreu": "1983-07-14",
+      "pubLg": "III",
+      "pubNr": "22",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Contraprotesto"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "SANTARÉM",
+  "depCPId": "14",
+  "depCadId": "3216",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3634",
+  "depNomeCompleto": "ABÍLIO GASPAR RODRIGUES",
+  "depNomeParlamentar": "ABÍLIO RODRIGUES",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-01-17",
+     "sioDtInicio": "1983-06-09"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-02-14",
+     "sioDtInicio": "1984-02-01"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-02-28",
+     "sioDtInicio": "1984-02-15"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-04-25",
+     "sioDtInicio": "1984-03-10"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-06-06",
+     "sioDtInicio": "1984-06-01"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-07-03",
+     "sioDtInicio": "1984-06-09"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-07-25",
+     "sioDtInicio": "1984-07-07"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-10-16",
+     "sioDtInicio": "1984-10-02"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-01-28",
+     "sioDtInicio": "1984-11-17"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-03-11",
+     "sioDtInicio": "1985-02-16"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-05-30",
+     "sioDtInicio": "1985-03-23"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-11-04",
+     "sioDtInicio": "1985-06-15"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

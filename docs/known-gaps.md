@@ -124,3 +124,25 @@ None of the six files has an entry in `sources.yaml`. The entries for the four (
 4,705 committee votes (48% of the 9,723) are not unanimous and have no detail either, across 111 committees in VIII to XVII, most of them in XII (1,504) and XIII (1,691). 2,562 have no description. 638 say "sem votos contra" (no votes against) in the description, which does not say which groups voted for or abstained, so nothing is inferred from it. They stay in `votes` with no group rows. The same test pins this count.
 
 Committee 8331 (Comissão de Agricultura e Pescas, XV) has 27 votes between 2022-04-26 and 2024-01-04. ComposicaoOrgaos XV publishes the committee and its 116 meetings, but its member history (`HistoricoComposicao`) is empty. None of the 27 votes needs inferred rows: 23 have a detail and 4 are not unanimous. `test_unanimous_committee_votes_have_a_composition` fails, naming the committee and vote, if a unanimous committee vote that needs inferred rows lands on a committee with no members.
+
+## Seat counts
+
+Per-day seat counts for Constituinte to VI are overstated. On some days `seated_on(d)` returns more deputies than the legislature has seats, because the source does not close some stand-in periods (#27). If you count deputies by date in those legislatures, expect too many.
+
+- Constituinte to IV record no suspensions, and V and VI record only some. When a deputy comes back, often nothing ends the stand-in's period, so both stay effective until the stand-in's published end date, sometimes the end of the legislature.
+- At the start of a legislature or a new government, some deputies keep an Efetivo period alongside the stand-ins seated for them on day one, with no suspension recorded.
+
+Nothing is inferred to fix this: the source does not say which stand-in replaced whom. VII to XVII never pass the seats seed once swap days are handled. `test_seated_never_exceeds_seats_on_full_data` in `tests/test_seats.py` checks every day of every legislature, strictly for VII to XVII, and pins the maximum and the days over for Constituinte to VI, from the 20 Oct 2026 data:
+
+| Legislature | Seats | Max seated | Days over |
+|---|---:|---:|---:|
+| Constituinte | no seed | 250 | |
+| I-A | 263 | 271 | 1,178 |
+| I-B | 250 | 254 | 249 |
+| II | 250 | 257 | 891 |
+| III | 250 | 258 | 887 |
+| IV | 250 | 256 | 639 |
+| V | 250 | 254 | 1,346 |
+| VI | 230 | 232 | 746 |
+
+If AR closes those periods, the test fails. Update the pin and this table together.

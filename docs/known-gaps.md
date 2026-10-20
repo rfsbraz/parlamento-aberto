@@ -2,6 +2,31 @@
 
 What the AR publishes, as of the full sync on 20 Oct 2026. These are gaps in the source, not in the pipeline, and we do not patch them by hand. `test_intervention_coverage_is_pinned` in `tests/test_interventions_questions.py` pins the first and last meeting date per legislature, so when AR fills a gap the test fails. Update the pin and this page together.
 
+## Deputies and biographies
+
+RegistoBiografico and AtividadeDeputado are listed on every legislature page, but most of those files are not that legislature's data (#23):
+
+- RegistoBiografico: the files for Constituinte, I-A, I-B and IV to XVI, JSON and XML alike, repeat the current register of 339 people (335 in `RegistoBiograficoI`). Only Constituinte, II and III have real files, all in the older shape: `RegistoBiograficoII/III_json.txt` listed on the I Legislatura page, with 432 and 454 people, and the older of the two `RegistoBiograficoConstituinte.xml` files on the Constituinte page (530,619 bytes, 313 people), the only file read as XML (`format: xml`, #28). XVII is the current register.
+- AtividadeDeputado: every file holds the 1,446 people on the XVII list, tagged XVII. II and III come from `AtividadeDeputadoII/III_json.txt` on the I Legislatura page. IV to IX carry some activity dated in their own period; Constituinte, I-A and I-B carry none.
+- The II and III files on their own pages, and `RegistoBiograficoCons_json.txt` on the Constituinte page, are fetched and hashed but not stored (`copy_of: XVII` in `sources.yaml`). If one ever holds a record that is not in XVII, the data PR gets `hold: source-changed`.
+
+The `deputies` mart takes biography fields from the latest legislature with a record for the person and names it in `biography_legislature`. People on the lists of each legislature (InformacaoBase) with a biography, from the 20 Oct 2026 data:
+
+| Legislature | People | With a biography |
+|---|---:|---:|
+| Constituinte | 313 | 313 |
+| I-A, I-B | 565 | 349 |
+| II | 440 | 438 |
+| III | 459 | 458 |
+| IV | 417 | 249 |
+| V | 417 | 172 |
+| VI to XVI | 459 to 1,513 | 56 to 263 |
+| XVII | 1,446 | 339 |
+
+The older Constituinte register has birth dates for 38 of its 313 people.
+
+Not used: `AtividadeDeputadoCons.xml` on the Constituinte page (267,833 bytes, link to `fich=AtividadeDeputadoX.xml`) is served corrupt. It comes as `text/xml` but is not XML, gzip or zip. No Constituinte activity file is read.
+
 ## Intervencoes
 
 No file is published for the Constituinte, I (I-A, I-B) or III.
@@ -91,3 +116,11 @@ Adding the four II and III files needs fetcher support that is not on main yet:
 - and a choice on whether the current-shape II and III files, which only repeat the XVII list, stay in `sources.yaml` at all.
 
 None of the six files has an entry in `sources.yaml`. The entries for the four (c) files, and a comment recording that the two OrgaoComposicao files stay out, go in #23.
+
+## Votes
+
+1,130 plenary votes are not unanimous and have no detail (`detalhe`), so the published record does not say how each group voted. 791 come from Iniciativas and 339 from Atividades, spread across every legislature from I to XVII. 445 have no description either. They stay in `votes` with their result, but have no rows in `vote_group_positions` or `vote_deputy_dissents`, and nothing is inferred for them. `test_non_unanimous_votes_without_detail_are_pinned` in `tests/test_committee_votes.py` pins this count.
+
+4,705 committee votes (48% of the 9,723) are not unanimous and have no detail either, across 111 committees in VIII to XVII, most of them in XII (1,504) and XIII (1,691). 2,562 have no description. 638 say "sem votos contra" (no votes against) in the description, which does not say which groups voted for or abstained, so nothing is inferred from it. They stay in `votes` with no group rows. The same test pins this count.
+
+Committee 8331 (Comissão de Agricultura e Pescas, XV) has 27 votes between 2022-04-26 and 2024-01-04. ComposicaoOrgaos XV publishes the committee and its 116 meetings, but its member history (`HistoricoComposicao`) is empty. None of the 27 votes needs inferred rows: 23 have a detail and 4 are not unanimous. `test_unanimous_committee_votes_have_a_composition` fails, naming the committee and vote, if a unanimous committee vote that needs inferred rows lands on a committee with no members.

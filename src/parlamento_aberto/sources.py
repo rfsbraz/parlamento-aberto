@@ -31,6 +31,10 @@ class Source:
     ids: dict
     names: dict
     bucket: int | None
+    path: str | None = None
+    listed_on: str | None = None
+    copy_of: str | None = None
+    format: str = "json"
 
     @property
     def key(self) -> str:
@@ -51,10 +55,14 @@ def load(path: Path) -> list[Source]:
                     part=str(f["part"]) if f.get("part") else None,
                     url=f["url"],
                     layout=spec["layout"],
-                    id_key=spec.get("id"),
+                    id_key=f.get("id") or spec.get("id"),
                     ids=spec.get("ids") or {},
                     names=spec.get("names") or {},
                     bucket=int(spec["bucket"]) if spec.get("bucket") else None,
+                    path=f.get("path"),
+                    listed_on=str(f["listed_on"]) if f.get("listed_on") else None,
+                    copy_of=str(f["copy_of"]) if f.get("copy_of") else None,
+                    format=str(f.get("format") or "json"),
                 )
             )
     keys = [s.key for s in out]

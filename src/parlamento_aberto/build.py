@@ -4,6 +4,7 @@ Each model is one SELECT in models/<layer>/<name>.sql and becomes a table called
 <name>. models/schema.yml lists every model in run order with a description of
 every column. Seeds are CSV files in models/seeds and load as seed_<name>.
 models/macros.sql runs last and defines query helpers such as seated_on(d).
+Models listed in PYTHON_MODELS are built by a Python function instead of a SQL file.
 """
 
 from pathlib import Path
@@ -11,8 +12,11 @@ from pathlib import Path
 import duckdb
 import yaml
 
+from parlamento_aberto.vote_details import build_detail_items
+
 MODELS = Path(__file__).parent / "models"
 LAYERS = ("staging", "marts")
+PYTHON_MODELS = {"stg_votes__detail_items": build_detail_items}
 
 
 def load_schema() -> dict:
@@ -37,6 +41,9 @@ def build(data_dir: Path | str, database: str = ":memory:") -> duckdb.DuckDBPyCo
     data_dir = Path(data_dir).resolve().as_posix()
     con = duckdb.connect(database)
     for name in load_schema():
+        if name in PYTHON_MODELS:
+            PYTHON_MODELS[name](con)
+            continue
         if name.startswith("seed_"):
             csv = (MODELS / "seeds" / f"{name.removeprefix('seed_')}.csv").as_posix()
             sql = f"select * from read_csv('{csv}', header = true)"

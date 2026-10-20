@@ -1,7 +1,8 @@
 """Turn one parsed AR file into the text layout under data/<dataset>/<legislature>/.
 
 records: one pretty-printed, key-sorted JSON file per record, bucketed by id,
-    for example 377/377352.json.
+    for example 377/377352.json. A path: in sources.yaml points at the record
+    list inside an older XML-shaped file.
 tables: every list of records in the file becomes <table>.ndjson with sorted
     keys. A table with an id in sources.yaml is sorted by it; one without is
     sorted by content. If the dataset sets a bucket, id-keyed tables are split
@@ -46,7 +47,22 @@ def get_path(record, dotted: str):
     return record
 
 
-def records_layout(data, id_key: str) -> dict[str, bytes]:
+def records_at(data, path: str | None):
+    """The record list, at a dotted path for the older XML-shaped files.
+
+    XML converted to JSON turns a one-item list into an object, so an object
+    found at the path is one record.
+    """
+    if not path:
+        return data
+    found = get_path(data, path)
+    if found is None:
+        raise LayoutError(f"no records at {path}")
+    return [found] if isinstance(found, dict) else found
+
+
+def records_layout(data, id_key: str, path: str | None = None) -> dict[str, bytes]:
+    data = records_at(data, path)
     if not isinstance(data, list):
         raise LayoutError("records layout needs a top-level list")
     files: dict[str, bytes] = {}
@@ -112,10 +128,16 @@ def tables_layout(data, ids: dict, names: dict, bucket: int | None) -> dict[str,
 
 
 def normalise(
-    data, layout: str, id_key: str | None, ids: dict, bucket: int | None, names: dict | None = None
+    data,
+    layout: str,
+    id_key: str | None,
+    ids: dict,
+    bucket: int | None,
+    names: dict | None = None,
+    path: str | None = None,
 ) -> dict[str, bytes]:
     if layout == "records":
-        files = records_layout(data, id_key)
+        files = records_layout(data, id_key, path)
     elif layout == "tables":
         files = tables_layout(data, ids, names or {}, bucket)
     else:

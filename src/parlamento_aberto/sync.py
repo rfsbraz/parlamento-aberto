@@ -7,7 +7,7 @@ from collections.abc import Callable
 from pathlib import Path
 
 from .fetch import Response, fetch, is_soft_404
-from .normalise import LayoutError, dump_line, normalise
+from .normalise import LayoutError, as_int, dump_line, get_path, normalise, records_at
 from .sources import Source
 from .validate import validate
 
@@ -71,6 +71,34 @@ def write_tree(root: Path, old: dict[str, bytes], new: dict[str, bytes]) -> None
             d.rmdir()
 
 
+def run_order(src: Source) -> bool:
+    """Copies of another legislature run last, so that one is on disk to compare."""
+    return src.copy_of is not None
+
+
+def stored_ids(root: Path) -> set[int] | None:
+    """Record ids of a records-layout folder, from the <bucket>/<id>.json names."""
+    if not root.is_dir():
+        return None
+    return {int(p.stem) for p in root.glob("*/*.json")}
+
+
+def copy_flags(src: Source, data, data_dir: Path) -> list[str]:
+    """A copy_of file is expected to hold only records of that legislature.
+
+    A record outside it means the AR now publishes real data for this
+    legislature, so the data PR is held for review.
+    """
+    theirs = stored_ids(data_dir / src.dataset / src.copy_of)
+    if not theirs:
+        return [f"copy not checked: no stored {src.copy_of} copy"]
+    ours = {as_int(get_path(r, src.id_key), src.id_key) for r in records_at(data, src.path)}
+    extra = len(ours - theirs)
+    if not extra:
+        return []
+    return [f"copy differs from {src.copy_of}: {extra} records not in {src.copy_of}"]
+
+
 def sync_source(
     src: Source,
     data_dir: Path,
@@ -96,11 +124,16 @@ def sync_source(
             lock[src.key] = {**last, "stale": False, "stale_since": None, "stale_reason": None}
         return {**report, "status": "unchanged", "records": last["records"]}
 
-    verdict = validate(resp, last)
+    verdict = validate(resp, last, src.path, src.format)
     files = None
     if verdict.ok:
         try:
-            files = normalise(verdict.data, src.layout, src.id_key, src.ids, src.bucket, src.names)
+            if src.copy_of:
+                verdict.flags += copy_flags(src, verdict.data, data_dir)
+            else:
+                files = normalise(
+                    verdict.data, src.layout, src.id_key, src.ids, src.bucket, src.names, src.path
+                )
         except LayoutError as e:
             verdict.ok, verdict.reason = False, f"layout: {e}"
 
@@ -119,10 +152,7 @@ def sync_source(
             "stale_since": entry["stale_since"],
         }
 
-    root = data_dir / src.key
-    old = read_tree(root)
-    write_tree(root, old, files)
-    lock[src.key] = {
+    entry = {
         "sha256": sha,
         "bytes": len(resp.body),
         "fetched": today,
@@ -132,9 +162,19 @@ def sync_source(
         "stale_since": None,
         "stale_reason": None,
     }
+    status = "new" if last is None else "updated"
+    if src.copy_of:
+        # Fetched and hashed only: the records are the other legislature's.
+        lock[src.key] = {**entry, "stored": False}
+        return {**report, "status": status, "records": verdict.records, "flags": verdict.flags}
+
+    root = data_dir / src.key
+    old = read_tree(root)
+    write_tree(root, old, files)
+    lock[src.key] = entry
     return {
         **report,
-        "status": "new" if last is None else "updated",
+        "status": status,
         "records": verdict.records,
         "files": len(files),
         "largest_file": max((len(b) for b in files.values()), default=0),
@@ -157,7 +197,7 @@ def run(
     today = today or dt.date.today().isoformat()
     lock = read_lock(data_dir)
     reports = []
-    for src in sources:
+    for src in sorted(sources, key=run_order):
         r = sync_source(
             src, data_dir, lock, get=get, today=today, fetch_kwargs=fetch_kwargs, raw_dir=raw_dir
         )

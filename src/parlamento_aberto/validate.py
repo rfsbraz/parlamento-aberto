@@ -4,7 +4,8 @@ import json
 from dataclasses import dataclass, field
 
 from .fetch import Response, is_soft_404
-from .normalise import count_records, top_level_keys
+from .normalise import LayoutError, count_records, records_at, top_level_keys
+from .xml_shape import XmlError, xml_to_data
 
 ROW_DROP_LIMIT = 0.05
 
@@ -19,7 +20,9 @@ class Verdict:
     flags: list[str] = field(default_factory=list)
 
 
-def validate(resp: Response | None, last: dict | None) -> Verdict:
+def validate(
+    resp: Response | None, last: dict | None, path: str | None = None, fmt: str = "json"
+) -> Verdict:
     """Reject HTML, parse failures and empty files that used to have records.
 
     Flag, but accept, a record drop over 5% and a changed key set.
@@ -31,16 +34,26 @@ def validate(resp: Response | None, last: dict | None) -> Verdict:
     if is_soft_404(resp):
         return Verdict(False, "HTML instead of JSON (soft 404)")
     try:
-        data = json.loads(resp.body.decode("utf-8-sig"))
-    except (UnicodeDecodeError, json.JSONDecodeError) as e:
+        if fmt == "xml":
+            data = xml_to_data(resp.body)
+        else:
+            data = json.loads(resp.body.decode("utf-8-sig"))
+    except (UnicodeDecodeError, json.JSONDecodeError, XmlError) as e:
         return Verdict(False, f"does not parse: {e.__class__.__name__}")
     last_records = (last or {}).get("records", 0)
     if data in (None, [], {}) and last_records > 0:
         return Verdict(False, f"empty file, last good copy had {last_records} records")
     if not isinstance(data, (list, dict)) and data is not None:
         return Verdict(False, f"unexpected top-level {type(data).__name__}")
-    records = count_records(data) if data is not None else 0
-    keys = top_level_keys(data)
+    if path:
+        try:
+            data_at_path = records_at(data, path)
+        except LayoutError as e:
+            return Verdict(False, f"layout: {e}")
+        records, keys = len(data_at_path), top_level_keys(data_at_path)
+    else:
+        records = count_records(data) if data is not None else 0
+        keys = top_level_keys(data)
     flags = []
     if last and last_records and records < last_records * (1 - ROW_DROP_LIMIT):
         flags.append(f"row drop {last_records} to {records}")

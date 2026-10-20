@@ -6,10 +6,8 @@
 -- Votes without a detail take absent groups and deputies from the ausencias field.
 -- Unanimous votes that list no favour, against or abstention position get a favour
 -- row for every other group seated on the vote date, with inferred = true. For a
--- plenary vote, seated follows the period rule of the seated_on(d) macro (latest start,
--- then the longer period), without its tie on effective periods or its swap-day step: on
--- a swap day both deputies count, which can only add a group for that one day. For a committee
--- vote, it means the groups with an active effective member of that committee on the
+-- plenary vote, seated is the seated_during macro, the same rule as seated_on(d). For a
+-- committee vote, it means the groups with an active effective member of that committee on the
 -- day (ComposicaoOrgaos: sioDes Ativo, sioTipMem Efetivo; on overlapping situation
 -- periods the latest-starting wins, then the longer one).
 with items as (
@@ -73,37 +71,27 @@ to_infer as (
           select 1 from listed l where l.vote_id = v.vote_id and l.position <> 'absent'
       )
 ),
-covering as (
-    select
-        d.legislature,
-        d.day,
-        m.cadastro_id,
-        m.is_effective,
-        row_number() over (
-            partition by d.legislature, d.day, m.cadastro_id
-            order by m.start_date desc, coalesce(m.end_date, date '9999-12-31') desc
-        ) as rn
-    from (select distinct legislature, date as day from to_infer where committee_id is null) d
-    join mandates m
-      on m.legislature = d.legislature
-     and m.start_date <= d.day
-     and (m.end_date is null or m.end_date >= d.day)
+plenary_days as (
+    select distinct legislature, date as day from to_infer where committee_id is null
 ),
+-- seated_during is the seating rule of the deputies marts (models/macros.sql).
 seated_groups as (
     select distinct
-        c.legislature,
-        c.day,
+        s.legislature,
+        s.day,
         g.group_acronym,
         coalesce(a.group_code, g.group_acronym) as group_code
-    from covering c
+    from seated_during(
+        (select min(day) from plenary_days), (select max(day) from plenary_days)
+    ) s
+    join plenary_days d on d.legislature = s.legislature and d.day = s.day
     join group_memberships g
-      on g.legislature = c.legislature
-     and g.cadastro_id = c.cadastro_id
-     and g.start_date <= c.day
-     and (g.end_date is null or g.end_date >= c.day)
+      on g.legislature = s.legislature
+     and g.cadastro_id = s.cadastro_id
+     and g.start_date <= s.day
+     and (g.end_date is null or g.end_date >= s.day)
     left join seed_group_aliases a
       on a.legislature = g.legislature and a.alias = g.group_acronym
-    where c.rn = 1 and c.is_effective
 ),
 committee_covering as (
     select

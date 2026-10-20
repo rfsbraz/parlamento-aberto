@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pytest
 
-from parlamento_aberto.build import build
+from parlamento_aberto.build import MODELS, build
 
 FIXTURES = Path(__file__).parent / "fixtures" / "data"
 DATA_DIR = Path(os.environ.get("PARLAMENTO_DATA_DIR", FIXTURES))
@@ -119,32 +119,42 @@ def test_unmatched_dissenters_stay_under_the_threshold(con):
 
 
 def test_inferred_positions_are_the_groups_seated_that_day(con):
-    # Inferred rows must be exactly the groups seated_on(date) gives, after the alias seed,
-    # minus groups the vote already lists (for example as absent).
+    # Every unanimous plenary vote that lists no position infers exactly the groups
+    # seated_on(date) gives, after the alias seed, minus groups the vote already lists (for
+    # example as absent). Covers votes that end up with no inferred rows too.
     votes = con.sql(
         """
-        select distinct p.vote_id, p.legislature, v.date
-        from vote_group_positions p join votes v using (vote_id)
-        where p.inferred and v.body = 'plenary'
+        select v.vote_id, v.legislature, v.date
+        from votes v
+        where v.body = 'plenary'
+          and v.unanimous
+          and not exists (
+              select 1 from vote_group_positions p
+              where p.vote_id = v.vote_id and not p.inferred and p.position <> 'absent'
+          )
+        order by v.date, v.vote_id
         """
     ).fetchall()
     assert votes
+    seated_by_day = {}
     for vote_id, legislature, day in votes:
-        seated = con.execute(
-            """
-            select distinct coalesce(a.group_code, g.group_acronym)
-            from seated_on(?::date) s
-            join group_memberships g
-              on g.legislature = s.legislature
-             and g.cadastro_id = s.cadastro_id
-             and g.start_date <= ?::date
-             and (g.end_date is null or g.end_date >= ?::date)
-            left join seed_group_aliases a
-              on a.legislature = g.legislature and a.alias = g.group_acronym
-            where s.legislature = ?
-            """,
-            [day, day, day, legislature],
-        ).fetchall()
+        if (legislature, day) not in seated_by_day:
+            seated_by_day[legislature, day] = con.execute(
+                """
+                select distinct coalesce(a.group_code, g.group_acronym)
+                from seated_on(?::date) s
+                join group_memberships g
+                  on g.legislature = s.legislature
+                 and g.cadastro_id = s.cadastro_id
+                 and g.start_date <= ?::date
+                 and (g.end_date is null or g.end_date >= ?::date)
+                left join seed_group_aliases a
+                  on a.legislature = g.legislature and a.alias = g.group_acronym
+                where s.legislature = ?
+                """,
+                [day, day, day, legislature],
+            ).fetchall()
+        seated = seated_by_day[legislature, day]
         listed = con.execute(
             "select group_code from vote_group_positions where vote_id = ? and not inferred",
             [vote_id],
@@ -154,6 +164,13 @@ def test_inferred_positions_are_the_groups_seated_that_day(con):
             [vote_id],
         ).fetchall()
         assert set(inferred) == set(seated) - set(listed), vote_id
+
+
+def test_vote_marts_have_no_seating_rule_of_their_own():
+    # Who is seated on a day is decided in one place, the seated_on macros (#31).
+    sql = (MODELS / "marts" / "vote_group_positions.sql").read_text(encoding="utf-8")
+    assert "seated_during(" in sql
+    assert "join mandates" not in sql
 
 
 def test_inferred_rows_are_favour_on_unanimous_votes(con):

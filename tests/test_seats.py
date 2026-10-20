@@ -124,6 +124,26 @@ def test_one_day_stand_ins_without_a_handover_count():
     assert _seated(rows, "2000-03-10") == [2]
 
 
+def test_seated_during_matches_seated_on_each_day():
+    rows = [
+        ("L", 1, 11, 7, "Efetivo", True, "2000-01-01", "2000-03-10"),
+        ("L", 1, 11, 7, "Suspenso(Eleito)", False, "2000-03-11", None),
+        ("L", 2, 12, 7, "Efetivo Temporário", True, "2000-03-10", None),
+        ("L", 3, 13, 8, "Efetivo", True, "2000-03-09", "2000-03-11"),
+    ]
+    con = duckdb.connect()
+    con.execute(f"create table mandates ({MANDATE_COLUMNS})")
+    for r in rows:
+        con.execute("insert into mandates values (?, ?, ?, ?, ?, ?, ?, ?)", r)
+    con.execute((MODELS / "macros.sql").read_text(encoding="utf-8"))
+    during = con.sql(
+        "select day::varchar, cadastro_id from seated_during('2000-03-08', '2000-03-12')"
+    ).fetchall()
+    for day in ("2000-03-08", "2000-03-09", "2000-03-10", "2000-03-11", "2000-03-12"):
+        expected = set(_seated(rows, day))
+        assert {c for d, c in during if d == day} == expected, day
+
+
 @pytest.fixture(scope="module")
 def full():
     return build(DATA_DIR)

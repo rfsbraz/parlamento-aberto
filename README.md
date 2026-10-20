@@ -49,6 +49,26 @@ uv run python -m parlamento_aberto fetch --dataset iniciativas --legislature XVI
 
 `sources.yaml` lists every file. The newest legislature in it is the current one. Requests go one at a time, with gzip, and retry the AR's temporary "Recurso Não Encontrado" pages with backoff. Run it after 06:00 Lisbon time; the AR server is slow between 04:00 and 06:00. Files whose download hash matches `data/_meta/sources.lock.json` are skipped. A download that is HTML, does not parse, or is empty where the last copy had records keeps the last good copy and is marked stale in the lock. `--raw-dir DIR` keeps the downloads outside the repo, and `--offline` replays them.
 
+## Fetching the EpT register of interests
+
+AR open data has the register of interests only up to XV. XVI and XVII declarations are at the Entidade para a Transparência (EpT), which has a public JSON API (#42). This is a private build: nothing from it is published yet.
+
+```sh
+uv run python -m parlamento_aberto.ept dry-run            # counts only, writes nothing
+uv run python -m parlamento_aberto.ept fetch              # into data/ept_registo_interesses
+uv run python -m parlamento_aberto.ept fetch --limit 5    # first 5 holders, for a quick check
+```
+
+It reads EpT entities 510 (Assembleia da República) and 4508 (Assembleia da República - XVII Legislatura): the titularidades, then each holder's declarations in every state, then each new or changed declaration. Requests go one at a time, at most one per second. On 20 Oct 2026 that was 881 titularidades, 695 holder searches and 1,424 declarations, so a full first run takes about an hour. A declaration is fetched again only when its state changes, and replaced or modified versions are kept under their own ids.
+
+Each declaration is stripped in memory before anything is written. Only the metadata (ids, entity, role, holder, nature, state, related declaration, dates) and tab 4 (activities, associations, supports, services, societies, other situations) are kept. The holder's NIF, personal data, income and assets, and attachments are dropped, and any 9-digit number left in a value becomes `[removido]`.
+
+The entity NIF/NIPC column of tab 4 keeps only a valid company NIPC: 9 digits (after dropping spaces, dots, dashes and a `PT` prefix), a valid mod-11 check digit, and a first digit of 5, 6, 8 or 9 or a prefix of 71, 72, 77 or 79. Anything else in that column is dropped: first digit 1 to 4 (people), any other 7x prefix, a failed check digit, or text.
+
+A file with a `nif` key, a value in the personal range, or a 9-digit value outside the NIPC column is never written: the run stops instead. Two gitleaks rules in `.gitleaks.toml` check the same on `data/ept_registo_interesses/` and `tests/fixtures/ept/` (the check digit is left to the tests). Logs and the run report carry counts and ids only.
+
+Layout: `data/ept_registo_interesses/titularidades.ndjson`, `declarations.ndjson` (the search results, by id) and `<entity id>/<id // 1000>/<id>.json` (one stripped declaration, tab 4 keyed by section GUID and column).
+
 ## Data dictionary
 
 `docs/dictionary` has one page per mart, generated from `src/parlamento_aberto/models/schema.yml`. `docs/querying.md` shows how to query a release with DuckDB, pandas and R. After changing a model or its column descriptions, regenerate the pages; CI fails when they are out of date:

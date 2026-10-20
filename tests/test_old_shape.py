@@ -252,6 +252,7 @@ def test_seat_rows_match_the_ar_folder_names(real):
     seed = ROOT / "src" / "parlamento_aberto" / "models" / "seeds" / "seats.csv"
     rows = {r["legislature"]: r for r in csv.DictReader(seed.open(encoding="utf-8"))}
     folders = {s.key.split("/")[1] for s in real.values() if s.dataset == "informacao_base"}
-    assert set(rows) == folders - {"Constituinte"}
+    assert set(rows) == folders
+    assert rows["Constituinte"]["seats"] == "250"
     assert (rows["I-A"]["seats"], rows["I-B"]["seats"]) == ("263", "250")
     assert rows["I-A"]["source"] == rows["I-B"]["source"]

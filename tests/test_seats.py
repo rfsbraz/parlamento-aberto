@@ -22,9 +22,9 @@ STRICT = ("VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XV
 
 # Constituinte to VI: the source never closes some stand-in periods, so per-day counts are
 # overstated (docs/known-gaps.md, Seat counts). Pinned exactly so any change fails loudly.
-# legislature: (max seated on one day, days over the seed or None without a seed row)
+# legislature: (max seated on one day, days over the seed)
 PINNED_OVER = {
-    "Constituinte": (250, None),
+    "Constituinte": (250, 0),
     "I-A": (271, 1178),
     "I-B": (254, 249),
     "II": (257, 891),
@@ -167,10 +167,8 @@ def test_seated_never_exceeds_seats_on_full_data(full):
             "select count(*) from seated_on(?::date) where legislature = ?", [day, legislature]
         ).fetchone()
         peak[legislature] = max(peak.get(legislature, 0), n)
-        if seats is None:
-            days_over[legislature] = None
-        else:
-            days_over[legislature] = days_over.get(legislature, 0) + (n > seats)
+        assert seats is not None, f"no seats seed row for {legislature}"
+        days_over[legislature] = days_over.get(legislature, 0) + (n > seats)
     strict = {leg: days_over[leg] for leg in STRICT}
     assert strict == dict.fromkeys(STRICT, 0)
     pinned = {leg: (peak[leg], days_over[leg]) for leg in PINNED_OVER}

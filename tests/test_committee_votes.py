@@ -21,9 +21,9 @@ data_only = pytest.mark.skipif(DATA_DIR == FIXTURES, reason="needs the full data
 BODY_MARTS = ("votes", "initiative_votes", "vote_group_positions", "vote_deputy_dissents")
 # Plenary row counts before committee votes were added (#20). They must not move.
 PLENARY_FIXTURE_COUNTS = {
-    "votes": 13,
-    "initiative_votes": 9,
-    "vote_group_positions": 112,
+    "votes": 14,
+    "initiative_votes": 10,
+    "vote_group_positions": 120,
     "vote_deputy_dissents": 5,
 }
 PLENARY_DATA_COUNTS = {

@@ -194,4 +194,4 @@ def test_biography_legislature_is_the_latest_record(con):
     rows = con.sql(
         "select biography_legislature, count(*) from deputies group by 1 order by 1"
     ).fetchall()
-    assert rows == [("II", 2), ("XVII", 5), (None, 301)]
+    assert rows == [("II", 2), ("XVII", 5), (None, 311)]

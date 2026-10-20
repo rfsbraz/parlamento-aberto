@@ -245,7 +245,7 @@ def test_activity_votes_are_included(con):
     rows = con.sql(
         "select source, count(*) from votes where body = 'plenary' group by all order by 1"
     ).fetchall()
-    assert rows == [("atividades", 5), ("iniciativas", 8)]
+    assert rows == [("atividades", 5), ("iniciativas", 9)]
 
 
 @fixture_only

@@ -5,7 +5,9 @@
 # names: file name for a table. Natural keys and sizes: see PR #2 notes.
 # Per file: listed_on = the legislature page the file is listed on, when not its own;
 # path = dotted path to the record list in the older XML-shaped files; id = per-file id;
-# copy_of = the file only repeats that legislature: fetched and hashed, not stored,
+# format = xml for a file read as XML (default json);
+# copy_of = the file is an older snapshot of that legislature's register (same ids,
+# older content): fetched and hashed, not stored,
 # and a record outside it holds the data PR (hold: source-changed).
 datasets:
   agenda_parlamentar:
@@ -23,15 +25,25 @@ datasets:
     layout: records
     id: Deputado.DepCadId
     files:
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: Constituinte
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=gfElbOG4P112hyyjbfP1YF5szHGXVlo35r2i2y6Z6amaD1OqPHpBRgfnvFcOEQhZKhJzpHON1rRjYJPfQKn7XzBaseu0xOGsQDmFa7sAX%2bL07KQGWlIHeVS3HotbHDkItItuhDSHGYa39Wk6BrZG%2ftYA8OiCk%2f%2f4meqv9wNfrM2KLOGHLSpJaDw9YXCEQ6dKSzR9Wo27cvvJLaV99zLVj8vz9%2fRKO6WqIURrJ%2faUQ75L95T7tOl6CJ6BATMJw1WDvRhz3q0eQajAIeKu9NNsHjky1zCVAMn3FN1391JIga17%2f7dTcCNRxIKfPhN4MDzPtooZzMs7jA%2fzOPqRzxV%2bSqj6encunid1DQcE4XK3jtKe6agbrEujurx3eDSZ%2bRybO6AItPssOS2jCnhIVzZ6nw%3d%3d&fich=AtividadeDeputadoCons_json.txt&Inline=true"
       - legislature: I
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=8pyW6iPUhXVPw%2fNK56kHRWGDokg7AISZLIRhn9VT7aoZs7K66fi%2fiU1crdvg7XP80kZ8%2fLefJwkkMvZVRCy%2fm0kJtq%2fcbPotUPXgtaI7UPH6VR%2f14IH5GynchGaUgkHtI33YyyRF1C4FBcllwlyS5g4Vf5G%2bhsNR3qTD8ZbOXKdtoWw%2bgEVJt7KOn7J2YhSdCUYeXF5ioKXL6kYq1A5YXK4YmvfAWadJ4mCMhExESERCdNQiykgpxtB9v9hOiG7uSOR96lQUJal8545Wgk0VsBfO%2bWkM8kaVTioIN%2b3ptj%2fJL9ANiNGtN3%2fNnf7pSavs80m3EIPa1yhrKJpNUzorpv2vtNQE6bd8YtPLN2jk1baaY%2fdtQcmMDWQZm5Y0wLzB7uS7Ngt3pF5uWO2hY5TxCA%3d%3d&fich=AtividadeDeputadoI_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: I
-        part: A
+        part: A-xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=eNiKRPM%2bgEYK85i3A6qE8g3zzucWaml4mIiLOmm31FpoLdDr0sHW2ZObhfutZS4F0Q1PmLTg49X0nHzPVFZcaiC6q4s%2fzyGyqTvRX0kt2Ng01DH25tAZom2bdz5gT0ga9daw56bHxxzul2PxoV2D7r4kOU8UQQac602xLJEefEINqm9tc%2b6L8izQXLz4Rdqoea6xNtDWrMu5STq1HJ%2bHEvASicM0oMzXkgjVwKt1G5a%2b7Ki8nJ7w0Lj5sIE7Ijqpw1BS2pr0KkPbjfDCxjLYSG31WzLHLKAxAkv6hWDqDDzzE9rJhVJg7Ow%2f2T75jMxmaCdQUWQb7iqTqo7QmqYcOrZCy0kUYxCsg9HSULzQ1oXONGNF%2fzkAVWUjp3pHI6hs&fich=AtividadeDeputadoIA_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: I
-        part: B
+        part: B-xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=fsHLKJMtAWoHSfxkeP4JGYfHlATMeXJRjb%2fFMXtCkgIWp7zyfvUAoXKuRr1%2fIMWqSv35aGWUjxeBsUkaedirddrnzdtq%2bXazOzOCTk8ZbFuIGZ7E1r6eEFWeJEFQUltD4H2%2bIDlq%2fvm6RRmXBsCNsNkdUr%2fqv0vYTmmQgkF0wNOlgjKrHJYVSlxV6o2PCZdXLxPOn%2bHrROwgcOAQOC%2bpG9%2fqlyGltoW32mWRY244wkVX1EBvtMH6K8Mc7jZViSp0TdJQ4N9ZV%2baODncpjVzyIbg3q63%2bN%2fQK9DAUwdmaFSmPUTX5Tf%2fsVVfoPzP5JhX%2bJDvQZcrrf6zQGO%2bA%2bEIiNzR%2brOhPKo1e8BL4XR7vkjOkoCTstu%2fawAyxNnJRLk%2f7BSRLux2WR8frMLExxkwUaA%3d%3d&fich=AtividadeDeputadoIB_json.txt&Inline=true"
       # AtividadeDeputadoII_json.txt as listed on the I Legislatura page: the real II data,
       # in the older XML shape (#18, #23).
@@ -40,7 +52,8 @@ datasets:
         path: ArrayOfAtividadeDeputado.AtividadeDeputado
         id: deputado.depCadId
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=5ZFgQ350zgpYpfjOulWwor%2faWXnWgRAPrFXBn5s76OAeqkNosrKPr61l9DtFhB8%2bP0Q6S3Rh8WwXcQJHL4UHb8E7CltijiJrS2NwiGee2qLvkQ%2blrwWkZiEbLr07ovb%2ba5y%2fySikAP%2bIv1moGTgaB%2fMZVeFCzYkVGjR46tWB8adPyxlXGx99yfJGrXH52IRDu1xGmsfYtRGWwYaAAWXwahvc%2b%2bdo%2fOODj6YmIgEYFOreFsrHWyCyec%2faStIEesamrYH4Pap%2funsPejwqWfV6LJsgQcLGM3UfBrk9WUR0wR2VhYG3WZLiTrkVRzjbBUblqsXEwja2sDdtA7W5ji7kG4v6xlJBCHDWOhKinzwP%2bH6i4hBVi7hcv9rx8JA9MMGYHVSr6N3pCqeYTVu3QTKckg%3d%3d&fich=AtividadeDeputadoII_json.txt&Inline=true"
-      # The AtividadeDeputadoII_json.txt listed on the II Legislatura page only repeats XVII.
+      # The AtividadeDeputadoII_json.txt listed on the II Legislatura page is an older snapshot
+      # of the XVII register (same ids).
       # Fetched and hashed, not stored; a record outside XVII holds the data PR.
       - legislature: II
         part: xvii-copy
@@ -53,7 +66,8 @@ datasets:
         path: ArrayOfAtividadeDeputado.AtividadeDeputado
         id: deputado.depCadId
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=vh7C5UFuWmo%2b9QflMSOymAQxLeHoxot5kaSBZiclxMIx7aywj9jc%2bdgbymu6NgF1usZ7YS7Z88HolMTI6aI%2buk45ZHAM9e4muvS9GsHMsuGQS7ITM%2f5UmXR4YEpbw3rPGezQsycwjMHetgO%2f%2beci7%2fzmlDC%2fkQY3%2fUpVixPpSOOAnkyMOz3k0w5AfE62vGXSDZ%2buc5Zzvg9JpaIf2TC1p1rHsvYyovUdc2%2fNNGPvbDuy9%2fwvFBowKkFSWgEUXmsB9BBRQ7ERrZ5Hm5GQnYkFOwDe1NP2M753nrfn4V0zJALn0hM9WwummoeJh5q76Sd1HcJ2ZGbRnt4OgYnKh6g5is74%2ffOlaRqptlJFXI5nw7Q%2bePMOk452Y%2fe75BKtqBUvvsB2meKmBtbRVurHK%2b6mfZQg7%2bwrheNB1%2fJwyFuPDMI%3d&fich=AtividadeDeputadoIII_json.txt&Inline=true"
-      # The AtividadeDeputadoIII_json.txt listed on the III Legislatura page only repeats XVII.
+      # The AtividadeDeputadoIII_json.txt listed on the III Legislatura page is an older snapshot
+      # of the XVII register (same ids).
       # Fetched and hashed, not stored; a record outside XVII holds the data PR.
       - legislature: III
         part: xvii-copy
@@ -583,15 +597,33 @@ datasets:
     layout: records
     id: CadId
     files:
+      # The older RegistoBiograficoConstituinte.xml on the Constituinte page: the real
+      # Constituinte register, 313 people (#28). The only file read as XML; the other
+      # RegistoBiograficoConstituinte.xml on that page is an older snapshot of the XVII register.
       - legislature: Constituinte
+        format: xml
+        path: RegistoBiografico.RegistoBiograficoList.pt_ar_wsgode_objectos_DadosRegistoBiograficoWeb
+        id: cadId
+        url: "https://app.parlamento.pt/webutils/docs/doc.xml?path=m07VtbDPgpyA1pm4HsEa9DbDRoxtDWzBUeVCvLCQuBRIA1eWeyh5rFb%2fz9G4UWqX7bZVHc9NQnRE5oJw7J3ULzOpUaOr7LQb%2fKlhx08b04syLU6R5nhgTfI%2bt9YrK6vDijcc9QY7eA%2fSQiVcYbMI20uODg0Ql9oedgmDvmx2bY%2fBYpwuiUPIaZlUPodnHR78Cf6DgfguPXgSJCkTPcT8Z5OGVLKzqPBrfZmqXz%2fUcqNnfK%2fSgnCeoik%2fW6KqCmUfRD1fon0OpYlskPmIgGfkzTQ08baswaz33IrdHZKBm2Pkpl4APCu6VgsCN5GEQr6idqYcYlJPRCYfuHuzbnHzpcO%2f2edPNcIkzd12xKxX2ja3slbRQo9Jird5mLT5SlhGWBwoq29kC%2f9bd%2bCFld0%2bSw%3d%3d&fich=RegistoBiograficoConstituinte.xml&Inline=true"
+      # RegistoBiograficoCons_json.txt on the Constituinte page is an older snapshot of the
+      # XVII register. Fetched and hashed, not stored; a record outside XVII holds the data PR.
+      - legislature: Constituinte
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=paW5jv%2bWSJUpWFDDW%2fDOZMeKPjAxn5jq%2bwknvhZEYVARtQcuwbEQZb7CL3s8JrZjWHe88PdQ2Hr1SbqGcysPqRZXAHv5HwHNkOzgzW0TCMQELit31HqL16BSLw%2bVTM%2ffxpGVzjIf6QiqdzSoWvM%2fEVsXWd75O67yN9%2f7JOHjahnYBfHJ7n57qUda4s%2bffUUzFPmlzSrPi60iC7C0jMWG4drBEI%2bcjuvXWpZF%2bR37SrmKkS%2bd5HSp5OOv1q%2fKbOqoIfUDELDGRdEtimEKVt%2frniom9x5%2brq%2baGlKR9ld3ws7JFDxiYbwLRoc1sJ2BHJHQKUxTa2cQyAMTD0dcM1ZFRVVbPeeUWTd4HeN28Lz7OYeIwUFpRk2Ox1gij38jC01HntO05LG51C7vCVfGQjxJGA%3d%3d&fich=RegistoBiograficoCons_json.txt&Inline=true"
       - legislature: I
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=3iFCP%2fgwvJrlnQbu2l97Q1jiU2zxWIdLy%2ftO6I61sD%2b41zlMaCXmxVMQZJvA419C0jttnH%2f02x5%2fQBkhZ%2fgEgfUtaAFKgI9k9zyU68Keg9Bjowtdld7geuEF5m2A37PWX8p9hUP5tRGaS8XmlqYpnUae%2bOl263M9FVot8G78Y6mnfNFn5TRxf4VYUJ7mvSXKq2Bb5%2fN28Uju%2fYEBp5XyAIextyPkKU5JfVg39ixB5FI7y9Bvhn0WnG8u3mVGQ8x4uMTs%2bCDEvLZpi6vMUCZS6RoszfOs97SsestwReGZyo3hQSDEJ6DgxEXdkCJiuiKWISsap0RhRrxyIwiu7cq%2blFDIrk3vQQKvTN%2fRLz5FOAkDrGVrftm6lJ8%2f9hPeYGGPh37Z0S3%2fLGcjWbW5q4ND3g%3d%3d&fich=RegistoBiograficoI_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: I
-        part: A
+        part: A-xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=kt77Ud%2b%2bU4DGy6cCZGX%2fezvUYCuqmDv01MmdOgKv39KoBRCvkXelM8xzRyo5ZdmkyLeOngyPZK8qb%2fnEXtxNmCSO0xm%2bDnP%2fqKudeWLR4weNiN3Xjx7M6%2fnMkEAD6Z9KOs0XIWOXqFrzUnLM09y0dcM2S%2fLmOwelaxJL%2fEeO%2b4WaOa4GyleqMPXGqKvjnSJ7bRLODGlaYNkXuD8AVy9Cq50qg%2fi%2bVt%2fwjl2%2bmICYGHfZO%2bVkqjqx7p6ZcQqqKWrCNSTnWv%2fR%2bcQiZaxRVa2xEnJKZ6KPpTvtOqv3yDGkl49eGK4zmdbLeP%2b7M7gdztxltIffq5eg%2bnHx0zgan3aFXGxa1K442Esc9iaOgJm%2bY54GZRhpHyPEW%2fYFYEkm%2fdAJcSodKA2C4z2M9kMkFZxh9w%3d%3d&fich=RegistoBiograficoIA_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: I
-        part: B
+        part: B-xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=g65geUP1tInCy5zJU5zP%2fVn18PpuavggNxduR3TGH7k4QJToSfISQmgeEYbUr7xHghMLoKkm0QBL3r4Pvm%2fkyqUSzTu1fEPdhU1FL6HCrM9crJwcUMcJCGhybxsr0qcoJJBEWF7QN7B1oD085qhko2iYNppi%2bS%2fF1CF1bTOgoD7MBBeFdiwNzrNpNdVYlTuW5SIQjfrDbIj0u63EZ7Obb71UsLI2260Pew%2fLpzrQaDIc%2fs1i3YedsXxy8elzbfJaxPB2Ti2OtAxvtiAH7EBFvG1%2fEbwqYENLaiKQIqW3QVOf09Wgwb%2feo3nh9tIY6aD8Jz3KA2HAh91LGAMUdGxHLwEBSV3A38AUY8dSwg%2fECSM8Ap8IaPi5lcWuoiE2rU5MLEm44kK1ieO2UnE6Xrj9Xw%3d%3d&fich=RegistoBiograficoIB_json.txt&Inline=true"
       # RegistoBiograficoII_json.txt as listed on the I Legislatura page: the real II data,
       # in the older XML shape (#18, #23).
@@ -600,7 +632,8 @@ datasets:
         path: RegistoBiografico.RegistoBiograficoList.pt_ar_wsgode_objectos_DadosRegistoBiograficoWeb
         id: cadId
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=gmgkyAetoy3FihNNlcZr0yvRLOnPAyuc8a%2f37RnSye0D0AYn1CA7vhoPEzWiPrNpVV8FvCwMQMvGD1Tqs9oPqV2C36EYNBuIZnaFOCH5PHaNdhJiCqdYnIYivV0xLK49jjiyFoO10UjlYZUwKmOEb5Siod11QZ5uysJfJaOgY5W5VYdsk9uiRL54bvN1anGGmE8EK77dGgGphsc%2bpMe6SGU9QYwsi%2flW3j30tdlt2BauEtRZIc4fZYJ5F6w2XjrOUj8%2fn6gdRfNnX0C6VI51JmImSgfia169Y3yIWOLfQPDukx%2fztwrFCXQP8lI4HJ6gk4fRxw4qyPw6y5zrKP0YCsIdXaOzrtIt3sC4B%2b7%2fenXx1BAGmE0oUKDOt%2bKK5uPxRpIRY4%2bStxBJPLAXAzrCLQ%3d%3d&fich=RegistoBiograficoII_json.txt&Inline=true"
-      # The RegistoBiograficoII_json.txt listed on the II Legislatura page only repeats XVII.
+      # The RegistoBiograficoII_json.txt listed on the II Legislatura page is an older snapshot
+      # of the XVII register (same ids).
       # Fetched and hashed, not stored; a record outside XVII holds the data PR.
       - legislature: II
         part: xvii-copy
@@ -613,37 +646,90 @@ datasets:
         path: RegistoBiografico.RegistoBiograficoList.pt_ar_wsgode_objectos_DadosRegistoBiograficoWeb
         id: cadId
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=U58x1QAhHtlY4ZrrysfUqfdxhEL3AeN9lkf7yg6ge98wdfPTcjaPMF5nYXjKVIBPX3Pn9khKgP3r6LtjasxYvody1U%2fdtHnA%2bltp6kattZQR44sjhHOREIRKGkQd2frp6nlCVBvkHqBL3a4by%2fb7FY0ugFf1w6gqFRzVJik6KW0jY0336kLzMzWh0z7rb2GftMuEBsB5Xxp7opZWxSgXmDxdlMMOe%2fKioYemLitSS%2b864HVeyZGdj5YaQSVQhUoKWNllGp%2fVrT9gAWncarVBBvGKfYgIMBv6F32nZaVJ1b6E%2bmJbfcxPyzY%2fYCB93G9qxjcGj1Q3mvP3kFaNhIeR7Nn66dcw4BuAn9D6ipR5Jxat1mb2taBaf4E38fk21ZIeekbjtm9O3Qq6QyowmEBjug%3d%3d&fich=RegistoBiograficoIII_json.txt&Inline=true"
-      # The RegistoBiograficoIII_json.txt listed on the III Legislatura page only repeats XVII.
+      # The RegistoBiograficoIII_json.txt listed on the III Legislatura page is an older snapshot
+      # of the XVII register (same ids).
       # Fetched and hashed, not stored; a record outside XVII holds the data PR.
       - legislature: III
         part: xvii-copy
         copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=8Frrae7qn7bqqQjCnBHP0L%2fiujZ2%2bNBmA2KZSHzE70cHUGGugPNon2DaOfDmWI1gdJgpY0x3epcG9E2EhK5Atp6uYsElw2tocN%2bOStUjvMFyPaW5LxQNmFCF4r5XAs3p5LZWUrQ5gdV1CVJa3GVzjqt%2f7gUZuGFxPbs7nnF2kwCMcclTuSmJcseLklLWsuFYY9WMsUwb7ifQt7gqyavYzmSuCjW6ZWbJ10Pav4heYPiXXIYweNsKq16Fdwi2xy%2bC6Jg83b4sPIGOt%2fYgfh1yPeMpuISmhdvPy7tRFHd4NawwRZRCffOa57vnWXfKGSXoqPFqN8f%2f1MLH8xY1pSaQk52k9pCJS1DvfcezbXLGnJkpqFpUq86XOC5PWoJdwLjqZHcOYrg999hCzrX4q0eSRA%3d%3d&fich=RegistoBiograficoIII_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: IV
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=KDBH%2f8FUshH3bd6TnkWcIgCH%2fucqIzNI6la22XlpUqldlbyd2FQR9NLgvmmyOK0FTYBFq7hztcQkU8rnpKJtGF9zjBsBFmX3CmGB4KT2TDH4Qc%2bIolcf9BmIWhhavyhwFg%2bsQZHKFY5SjX0ZBD2rjYgeZm781voCF9bVOTGm1Ts3cNC4R49vXQmzKe5hx%2f93nB26Pvcbh8nHwTcLqj5r3ZDIkkDxJGK2kuE35aroslmxJnTq1o%2fd9Fm6BxzjILVmCP6XFdZnIi6rZQ93MCkmTjc8aNSnSvlYCx%2bY%2fbQJ%2bY%2bEUMoJmHHWDs97GFQotQ528EK%2fM%2fvr7rDHjkqTM20ewC1RQGZ0%2fWHQ%2b%2fGUqF%2b1gnNbSW7mmDkh7A6kBNn1LKkPrF%2frAmCC0cEY5jkckimePA%3d%3d&fich=RegistoBiograficoIV_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: V
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=vtSN1YdG%2fjzGXJOR%2b1eiTzmvUB0W%2fr0iIQ0NI0R7sC%2fArTAvv8j0xroUqbkHLgSIwhbl4MGTLKs6OlOtXaMPKCNka2ankYLi%2fCk77TPugfKYZ1Vft75FEje4eabn5ADMkI1yfbCxFcOoUTYgka3GXHZcMEa5GTyxBv67px%2fmIl24XXJNI0rZ6cZ94QrJB2z8oNqDwrIZqmpnyxCyeInxzZtbCH8vQS7Cfqmt%2fEst7R0v8ucP14%2bXv7ihDHMu7SgcIobyCRz40ArBzXJTaNrzaiVpY0YmmDGXiAzaA4rzqcDcX9WroU2EIVyZWsZIlRArMkr1sEBNOpXEkRezRGS3%2btVHQJ3kYtjmVz2KmJR2d3sL9um65pWSOybuNHjSA%2fmuJxjQ1N1nezF6%2fszmI2p0Jg%3d%3d&fich=RegistoBiograficoV_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: VI
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=reCjCLRK%2fXxASXvO5JYPaDtKsXXyjXV2P%2b9kYzagiY3fSrMGlJQM3zUSyJ0tu3JFNHRG6N%2fFEm6IyRt3yj%2fjtauiS2SNpE5EQ7Hgm5ENfYeCwX9YEDotiJRVKdKv00W7wMjDk9ayrXoKPW2%2fWEQgsrR758ykjJ2TsOpJLlHNRnkXWNGRUbkWnTbxAFLrsCapMURfx9efR%2f8FYu27uVobVmpOoDmZzy7qdKGHtCVm1OjxPZ4NegeGp%2fqyETSFVbL4fk6xB148cAg7bNZHN9xFc9Da3iIFI0YwO0sQa5LsE%2fq4hVDXKyXnK45AIFM0hK6TEMg6m2%2b2505o5%2f%2b4wJjiRI1A%2b4n3CpHf%2fvAhCtAxE0onUEJQ%2f5u0yQO1MtfAlsFiT7DrLMDFPsTNl3yYK9XmbNJwuDMMHxBeYO%2bqiGLI8xI%3d&fich=RegistoBiograficoVI_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: VII
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=0Ol%2flRBY%2f8UWvd%2b33cSEMJux4AvQf7Fo4cDCISkED32zg1mUqZCLh8xVR3wTX1GacQoiW5qX4xUxEzWbDh0Xm5E4BbUR2wUogY2Ox4Ej0H6%2fEybd7o6UDh%2f%2birzfiVTL%2fb%2beXwAto5gUvfWtKoAlS2dhRJdBO%2bmiTTofu58U%2brHPFDCuHfpHDENJRy4jdP%2bbc0XC3H1u06UL4xBQE6743gSo0QnDNdk5G2YJZBFh%2fCXva03os%2b9TEL0K510Vs%2fuoI4kMErmR2bTrhSQAojdrC9fnG9RyEgDMYqwHekXlIdWoMmpytyrdylkwBjO5sJZDDTfwU8ihHr5jEhET8OKaFvSrD7fatWDoPqnGp%2fAiaPkIERZcOEgRTQ7n0n%2fQTZzeDjR9i97ZvFjml5aAJcoyYg%3d%3d&fich=RegistoBiograficoVII_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: VIII
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=DntdUqoKmhWnyrjG3RoWc1EeNCplxr8qWZOuMhlNv5ARxRk5D%2fCPbkCbe1mXqD%2fw8X%2f0M63XQZjujx4EdMQsmceH%2bZXscfjl%2b0h5ksuU12ub0%2bRvECsg5ijT06Z7M8KObbQrxUSsqrQGtHJG9GrLN5sNW0QYVYhldDDuQa4tXwBpuOyTg4n988RhYRHxvarEwucEL15K5aCB7imrGh6ffJ3VGUCwHqn3RrcmXwD5zwLCOeKkEX30fMZz5Q0rKE2tmY%2b%2fJO6e7%2fE8eYlZEL9Cc3L8CercN4iOKbdmR4c5oEg5Cc2biPrVwvvJIAk4XfE8DKRwHWhEPilvQbOioq2Yvj0adK6Lee8qhwf0LX3%2bQv%2fI8ct6MHtdBz7EyVJkCE%2b6E%2fdwoDnltXruWLfxLtgMe3lLm54jqWEkYvRgQGr02NA%3d&fich=RegistoBiograficoVIII_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: IX
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=SFbyCQzOxe2Fa6rHQpgASemGO3u6nxDlEAfkZ3z3eRAs09Yo8%2fqMJcTIGr4sSFdK9HhM9fjCqKcwGXK8%2f8xeux0P1UcfyrtU3n18gsh%2fYuyi4Ke5TULrvqfdF0LSk4f7NSirsu%2bAtKPNggELrCBM7BlXY1yBwhV0NgzZKLaOleKbK0WQjc0ZtPFCocBFKMN5VA16zCGT3RDxqoAQNtcG%2bcfxP4RPbeCEgM8OLK7d2DhFHMA95%2b1Cq9WLXo6TWLFk2FlcKuplFln5869oXoRu%2f8I7nSMjlvELlhZ%2bgIKcLbZAYY%2fyC%2flmE1ZpezAVgahvwxqc1Ow1BuXDvqkhrDklxt4yonM%2bVwU4TbWZf25l3G9Q14Cf%2bWjDVIJAma%2bPFg2OC2mZykKfvCtMGHhspQtZ42niULqYK7gQfLqeqNCqdoQ%3d&fich=RegistoBiograficoIX_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: X
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=rZ3LyK%2fHBOwWbHSyN8lTzAPyConUEGJMQ72DEE800iE%2fhRbdvh3skCP83XCFlu0pgIVFkBpPaGdtoHiKLuyVlnkGBHIfhevd%2fKRyMR%2fGWwy9Ks63XY8vS18W96RuoWfrZcrUNDGsV9bueZKDZILi%2f723dr9rCTTlmPoaXZpqTgN6IhHZ%2bWWZte43kXk9mNvPl2qvWh2FWk9TpZEPZjo3Jj3FitAG%2ffsSsmt9SYRjUVIiRVEYdkBE4MPOOr5eeaKu%2fAKTa3Omkd2FnApzBrUZP5nGQ3aV5XmcSApCG0lbdlS2mdRM0CdVw6jOafDXQVmT%2f%2fhoHlbKPDLCvMj2EwCpI3sgKLsTmtnb8130lEueVvi7OmcGyWfdNbVRqoUCVn2bJw1pKBqlxYswNOKKa1QKEkaUD3%2b33U8wzhS%2b9%2fgsHPQ%3d&fich=RegistoBiograficoX_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: XI
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=BcqnvETPSGcHctaG9HOQkrOUBmyMgEl8qTExvis0kon7xWKzMHpRUi8TeM8MqC7btEiGA6TX81Q3c8b2etlVjAZfF1AOiAE63vTcbnKxJA0VCV3c4sFg4S7CUDnUlbr2TLMBtO0Oc5NINXKRtt4tSYGRwLclTQsqFo4%2bmQe8sKRCgiS%2b%2bNZB9oaucAhhtBdF4qWHtd2Jx2kb2eMJ5s%2bX5kje6gLGvPizzP%2b8DG7kXgQMcPwAS9Weu0dpEDbW6PJ5Kq9fsS9MOquNli7S5U7GEbXbbqZvbAzhc5YhgFpbCqOCx3Sem5mny6zqpaZz6dW5apAsxXDv0bGWLHyncAN%2fE9ulFy4nrl0HPEQ9Lfm6DTuLZ3%2btYagS3rLkg5cS4KE8WoueasDEeq%2bkpNv1GPpRzQ%3d%3d&fich=RegistoBiograficoXI_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: XII
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=%2fuPdpIXFKB%2fVac3YNwNY3DHxxTwQ%2f63KZsbuIOrPMxX8Q2D49cJh%2b5YYpu0WwIqDOtQEjlYeUNeH0AqNKcS1geIvRh8yNd91nC1gLnVGPVzR8Da8LdHf3okfO1eIijTBzCgpZ%2fioGoCQdbo1S2Nc6eB6yzNGboal7eJ4y6hcerbacUGJ3HXrqSfx%2bcq6qFVngL37AH%2bTrvd5qeiv%2b4IV%2b44BgUdGyntLB2hNyh2sdVZ8Lt3ov3psovxZn5IJZkXJ3DqtyPlYB88sfplv%2fprM%2fB5YWPVStIvqZSgJ5NR2kNZn4olo6wvJuUQohsiCHvX6wXZn2uqoTxEw0xvThofU7CW3PN21KQePCX0TAGgOSPK%2bV20kiOD48SdvJhH6kPVDOFzB7mdR6w%2f1306p%2fpLCNw%3d%3d&fich=RegistoBiograficoXII_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: XIII
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=JcNj%2f9oD4YAYvJW79lP3ofyqUatR%2bKcTVRH1zR4PPfXok3gACYkkcO1QJj2qXuhNu1V3DeUoBl7jErOwPYKJyREN%2bw07n1022w2cSI6fPOMV3BXU5i4W7SS9kpcTUfwJ57cfPXF3wAXCDeSmEh4m2VCBjb6VoIwFMpdFHjB1HVUodoQCIZ6FBQ9f9iuGe99QJis99H92Gnyc3CGTdh6%2b2qU3G57tNFErExEMq%2bfq6YkEXxBm2RmuFe2c9U%2fmcS0koFKs8Hv4AFKboQJs6B0USY6HWOJ6k4Drn4rYKWuxNZxRzeMPV7UHOjuWfkT8SkNUx3c4xBvL9gHSM8Rcc7o8QXpoORUgu5NeNW4xsRKRs%2fbaYZAZQOXPZaESFuMtsl97lP0m%2fky52Sbs1DjiARsffw%3d%3d&fich=RegistoBiograficoXIII_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: XIV
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=es3WWIMxcHa%2bMkrIH5PQDghJh8Qtz6BQ1JNEvbbO1KbEmUqSHhe89HE3fgoI9qQI0FsWraEkQ%2bP%2bPYE1lbNjw3JovB5bLZ2D5E8Z%2bQO4%2bP9K53tVnU3it78GlgpWR%2beUKpDx6netlcR%2by%2b0qxdbB4IevaGDOdKx1vBZHGj4%2fl3a7z29dgZ%2fvC%2fbJ3GEcuNv8O3Mo9jHlb0L%2bfqp4MgOER2qcdZN2Hx2VxS7mPiiUyvRwuLj65uudlyMYjCcNfDuNoOnMtpggXYLyTon6Zbdyz8zcJ3KTZ7QlQeM8P5dKBEtdWsDrtJ7pOXWsjr2fJ5S22%2bnVkMbtxvKy2nKF39zOO2sxx0APDWWIQKPC5GZTlhzdHCcU5KOuctv4d9jLJpBVHYd%2bqvSqwg9RLVWFOBAaVg%3d%3d&fich=RegistoBiograficoXIV_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: XV
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=DkwVVxIeCNpjsofzlrasU3ZxrJm4FlE5FxIllCXP62hw9OviLUcnT%2floVh915YS7t3Nyhes6%2fD2on1AEIkWy2QSqjixqc3mD5Acj6DCNFfFeGAvCLDP2MRPKZZ4apOTSslhyERsIcQgBEaPZ2GOnm4Rho05I8r0ze8vVbfEk6NhxRlT%2fVwwVXIN0rIbZ0CeCiD%2bJHQe%2f%2f0PDIwUixRi2xvw559sQKE10RtonUYNKH8fEvovrIZdL2c8zhj9zv7j9FD%2fNei6sVnoZdgeWKCZ9nEVEVOLmtOCA51LNvV5jXqtbQdRiIHtsnJ5wTV6%2f9oIv5YDAyg3UZp0EZkjeP%2ffGEDra%2for0oLaSsu12VUTv28Ph1DySSPSDQ8ZSFyfkEXT%2f%2fEjnPBne6GJnirXtHuYNJA%3d%3d&fich=RegistoBiograficoXV_json.txt&Inline=true"
+      # Older snapshot of the XVII register (same ids). Fetched and hashed, not stored;
+      # a record outside XVII holds the data PR.
       - legislature: XVI
+        part: xvii-copy
+        copy_of: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=yvkjpcPmeIH2c%2boEifdrvsP46omrawAkbou6E%2bKO1vHrIxpdhutrUDTPVt5q%2fazmxZt5wt7Xj0j%2f1kbFSgI%2bfAyGTNLs5IBufUq6B9SYWd8RY3AMGmdBEl%2bKx23fBWHypjmOnv0BxsSPSSfJnsCbdUzGKxE3Co84jTft89HrmKKeedaVCm2M3%2fTA7ijTdtDouVRMoQHcwhm%2bU1yQpTgZF67RMufVfkX5rz%2fIu%2fEBbuLEP5hir%2b%2fR1z29hwVR4w%2brMt1cYgV12RxAvLX9Wo6kTqj5kOPnlbTImMb8wR4%2bMW%2fuQlntwYt5BdxROvx7t6m76raUkeMjfD%2b4aeLLzR5Z1l6jCqBC%2f2j2yMSpZKGAi5KJlD91iiMQP8wT0ji%2bPxOqBv1JFDmgi5QPYB0MjsJnfROg4DkJIvdJcgTdwvpIcQY%3d&fich=RegistoBiograficoXVI_json.txt&Inline=true"
       - legislature: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=5RKEsHayDOzK7IbLqgJElBveOvL7wd1gtbEKTX%2fhm6gQBkQ8Q%2b9sjvgBwyZVIkP1TOg8%2b0UIdWXlUy2iQpmBLhYQ9z4%2btw%2fETN%2fvMByB4vPhYU%2bUAojBY2892sCOcyX6jI8dwTplseTZovlVPYV%2buuQcHYyMbyIzCF0pr%2b8SUojdEEjEutZpq58GE0AR%2fTrPUmP0BCfeGMi1xjJbVOXI5nSlEsLI%2fwT%2b%2fNgbTtnXjs%2buYELO9GJ4brUbRVt1b01TnBMqnZmyfaFRqVmL2amg7q%2bUFaZcgc9dBLk%2b3cIMH%2fa6%2fIeRHIUhc4rUb7vd%2fdhp54TfMNZIL6hnmIMXZaOfHUpy5%2f9POoKVi1EG7K8GTzZim77R6aJ0JZhxK8wi9PLS&fich=RegistoBiograficoXVII_json.txt&Inline=true"

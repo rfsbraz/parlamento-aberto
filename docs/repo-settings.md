@@ -7,9 +7,13 @@ Definições de `rfsbraz/parlamento-aberto`, aplicadas por mim na interface do G
 | Allow auto-merge | Ligado |
 | Automatically delete head branches | Ligado |
 | Merge methods | Só squash merge |
-| Proteção do branch `main` | Require a pull request before merging |
-| Verificações obrigatórias em `main` | `ruff`, `pytest`, `gitleaks`, `file size` |
+| Verificações obrigatórias em `main` | `ruff`, `pytest`, `data dictionary`, `gitleaks`, `file size`, `actionlint` |
+| Force-push em `main` | Não permitido |
+| Eliminação de `main` | Não permitida |
 | Aprovações obrigatórias | Nenhuma, porque os PR de dados são integrados quando as verificações passam |
+| Regras aplicadas aos administradores | Não |
+
+Confirmei a proteção de `main` com `gh api repos/rfsbraz/parlamento-aberto/branches/main/protection` a 20 de outubro de 2026.
 
 ## Estado (20 de outubro de 2026)
 

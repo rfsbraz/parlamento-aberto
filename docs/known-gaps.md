@@ -4,7 +4,7 @@ Findings about the parlamento.pt open data files that affect what goes into `sou
 
 ## The six extra files listed under legislature I (#18)
 
-The "I Legislatura" pages of three sections list six JSON files whose names say II or III. The links and sizes differ from the files of the same name on the II and III pages. On each page they come after a second "Definição da estrutura dos ficheiros" and `.xsd` entry, together with the matching `II.xml` and `III.xml` files.
+The "I Legislatura" pages of three sections list six JSON files whose names say II or III. The links and sizes differ from the files of the same name on the II and III pages. On each "I Legislatura" page they sit next to `II.xml` and `III.xml` files of the same names, with no heading or note explaining them.
 
 Downloaded on 20 Oct 2026 (one request each, sequential, gzip):
 

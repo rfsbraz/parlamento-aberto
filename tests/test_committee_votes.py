@@ -5,11 +5,13 @@ Like test_votes_marts, PARLAMENTO_DATA_DIR points the data checks at a full data
 
 import json
 import os
+import shutil
 from pathlib import Path
 
 import pytest
 
 from parlamento_aberto.build import build
+from parlamento_aberto.checks import committee_votes_without_composition
 
 FIXTURES = Path(__file__).parent / "fixtures" / "data"
 DATA_DIR = Path(os.environ.get("PARLAMENTO_DATA_DIR", FIXTURES))
@@ -171,3 +173,96 @@ def test_inferred_committee_rows_match_the_published_composition(con):
 def test_committee_vote_count(con):
     (n,) = con.sql("select count(*) from votes where body <> 'plenary'").fetchone()
     assert n == 9_723
+
+
+# Known gaps in the source, decided to stay as published (#24). If a pin moves, check the
+# new rows, then update the pin here and the note in docs/known-gaps.md.
+NO_DETAIL_NON_UNANIMOUS = {"plenary": 1_130, "committee": 4_705}
+
+
+@data_only
+@pytest.mark.parametrize("body", sorted(NO_DETAIL_NON_UNANIMOUS))
+def test_non_unanimous_votes_without_detail_are_pinned(con, body):
+    (votes,) = con.sql(
+        f"""
+        select count(*) from votes
+        where not unanimous and detail is null
+          and {"body = 'plenary'" if body == "plenary" else "body <> 'plenary'"}
+        """
+    ).fetchone()
+    assert votes == NO_DETAIL_NON_UNANIMOUS[body], (
+        f"{body} votes that are not unanimous and have no detail: {votes:,}, pinned at "
+        f"{NO_DETAIL_NON_UNANIMOUS[body]:,}. Check the new rows, then update the pin in "
+        "tests/test_committee_votes.py and the note in docs/known-gaps.md."
+    )
+
+
+@data_only
+def test_non_unanimous_committee_votes_without_detail_have_no_group_rows(con):
+    # Decided: no inference from wording such as "sem votos contra".
+    (rows,) = con.sql(
+        """
+        select count(*) from vote_group_positions p join votes v using (vote_id)
+        where v.body <> 'plenary' and not v.unanimous and v.detail is null
+          and p.position <> 'absent'
+        """
+    ).fetchone()
+    assert rows == 0
+
+
+def test_unanimous_committee_votes_have_a_composition(con):
+    missing = committee_votes_without_composition(con)
+    assert missing == [], "; ".join(
+        f"unanimous committee vote {vote_id} needs inferred rows but committee "
+        f"{committee_id} has no ComposicaoOrgaos record"
+        for committee_id, vote_id in missing
+    )
+
+
+SYNTHETIC_COMMITTEE_VOTE = {
+    "IniAutorOutros": {"iniAutorComissao": None, "nome": "Governo", "sigla": "V"},
+    "IniDescTipo": "Proposta de Lei",
+    "IniEventos": [
+        {
+            "Comissao": [
+                {
+                    "IdComissao": "999999",
+                    "Nome": "Comissão sintética sem composição",
+                    "Votacao": [
+                        {
+                            "ausencias": None,
+                            "data": "2026-10-13",
+                            "descricao": None,
+                            "detalhe": None,
+                            "id": "999999001",
+                            "resultado": "Aprovado",
+                            "reuniao": "1",
+                            "unanime": "unanime",
+                        }
+                    ],
+                }
+            ],
+            "DataFase": "2026-10-13",
+            "EvtId": "1",
+            "Fase": "Votação na especialidade",
+        }
+    ],
+    "IniId": "999999",
+    "IniLinkTexto": "https://example.invalid/synthetic",
+    "IniNr": "1",
+    "IniSel": "1",
+    "IniTipo": "P",
+    "IniTitulo": "Iniciativa sintética",
+}
+
+
+def test_missing_composition_check_fires(tmp_path):
+    # A synthetic unanimous committee vote, with no detail, in a committee that has no
+    # composition record.
+    data = tmp_path / "data"
+    shutil.copytree(FIXTURES, data)
+    path = data / "iniciativas" / "XVII" / "999" / "999999.json"
+    path.parent.mkdir(parents=True)
+    path.write_text(json.dumps(SYNTHETIC_COMMITTEE_VOTE, ensure_ascii=False), encoding="utf-8")
+    con = build(data)
+    assert committee_votes_without_composition(con) == [(999999, 999999001)]

@@ -2,6 +2,29 @@
 
 What the AR publishes, as of the full sync on 20 Oct 2026. These are gaps in the source, not in the pipeline, and we do not patch them by hand. `test_intervention_coverage_is_pinned` in `tests/test_interventions_questions.py` pins the first and last meeting date per legislature, so when AR fills a gap the test fails. Update the pin and this page together.
 
+## Deputies and biographies
+
+RegistoBiografico and AtividadeDeputado are listed on every legislature page, but most of those files are not that legislature's data (#23):
+
+- RegistoBiografico: the files for Constituinte, I-A, I-B and IV to XVI, JSON and XML alike, repeat the current register of 339 people (335 in `RegistoBiograficoI`). Only II and III have real files, the older XML-shaped `RegistoBiograficoII/III_json.txt` listed on the I Legislatura page, with 432 and 454 people. XVII is the current register.
+- AtividadeDeputado: every file holds the 1,446 people on the XVII list, tagged XVII. II and III come from `AtividadeDeputadoII/III_json.txt` on the I Legislatura page. IV to IX carry some activity dated in their own period; Constituinte, I-A and I-B carry none.
+- The II and III files on their own pages are fetched and hashed but not stored (`copy_of: XVII` in `sources.yaml`). If one ever holds a record that is not in XVII, the data PR gets `hold: source-changed`.
+
+The `deputies` mart takes biography fields from the latest legislature with a record for the person and names it in `biography_legislature`. People on the lists of each legislature (InformacaoBase) with a biography, from the 20 Oct 2026 data:
+
+| Legislature | People | With a biography |
+|---|---:|---:|
+| Constituinte | 313 | 94 |
+| I-A, I-B | 565 | 278 |
+| II | 440 | 435 |
+| III | 459 | 457 |
+| IV | 417 | 243 |
+| V | 417 | 165 |
+| VI to XVI | 459 to 1,513 | 55 to 263 |
+| XVII | 1,446 | 339 |
+
+Not used yet: the Constituinte page lists a second `RegistoBiograficoConstituinte.xml` (530,619 bytes) in the older shape, with 313 people, 312 of them on the Constituinte lists. It is the only Constituinte biography source found. `AtividadeDeputadoCons.xml` on the same page is not readable XML.
+
 ## Intervencoes
 
 No file is published for the Constituinte, I (I-A, I-B) or III.

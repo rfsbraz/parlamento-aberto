@@ -161,5 +161,37 @@ def test_fixture_biographies_are_synthetic():
     assert paths
     for path in paths:
         record = json.loads(path.read_text(encoding="utf-8"))
-        assert record["CadNomeCompleto"].startswith("Pessoa Sintética"), path.name
-        assert record["CadDtNascimento"].startswith("1900-"), path.name
+        # II and III use the older shape with camelCase keys.
+        name = record.get("CadNomeCompleto") or record.get("cadNomeCompleto")
+        born = record.get("CadDtNascimento", record.get("cadDtNascimento"))
+        assert name.startswith("Pessoa Sintética"), path
+        assert born is None or born.startswith("1900-"), path
+
+
+def test_old_shape_biographies_are_read(con):
+    rows = con.sql(
+        """
+        select legislature, count(*), count(sex), count(birth_date)
+        from stg_registo_biografico__biographies group by 1 order by 1
+        """
+    ).fetchall()
+    assert rows == [("II", 2, 2, 1), ("XVII", 5, 5, 5)]
+
+
+def test_ii_deputies_get_their_ii_biographies(con):
+    rows = con.sql(
+        """
+        select d.cadastro_id, x.biography_legislature, x.full_name like 'Pessoa Sintética%'
+        from stg_informacao_base__deputies d join deputies x using (cadastro_id)
+        where d.legislature = 'II' order by 1
+        """
+    ).fetchall()
+    # 312 is one of the 8 II deputies the AR file has no biography for.
+    assert rows == [(4, "II", True), (5, "II", True), (312, None, False)]
+
+
+def test_biography_legislature_is_the_latest_record(con):
+    rows = con.sql(
+        "select biography_legislature, count(*) from deputies group by 1 order by 1"
+    ).fetchall()
+    assert rows == [("II", 2), ("XVII", 5), (None, 294)]

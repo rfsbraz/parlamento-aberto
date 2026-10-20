@@ -220,10 +220,12 @@ def test_orgao_composicao_extras_stay_out(real):
 
 
 def test_only_ii_and_iii_have_copies(real):
+    # Plus the Constituinte biography JSON, replaced by the older XML (#28).
     copies = sorted(k for k, s in real.items() if s.copy_of)
     assert copies == [
         "atividade_deputado/II-xvii-copy",
         "atividade_deputado/III-xvii-copy",
+        "registo_biografico/Constituinte-xvii-copy",
         "registo_biografico/II-xvii-copy",
         "registo_biografico/III-xvii-copy",
     ]

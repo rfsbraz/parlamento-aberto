@@ -1,4 +1,4 @@
--- II and III come from the older XML-shaped files (camelCase keys, string ids);
+-- Constituinte, II and III come from the older XML-shaped files (camelCase keys, string ids);
 -- every other legislature uses the current shape (PascalCase keys).
 select
     cast(cast(coalesce(json ->> 'CadId', json ->> 'cadId') as double) as bigint) as cadastro_id,

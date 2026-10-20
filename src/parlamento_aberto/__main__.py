@@ -30,6 +30,7 @@ def main(argv: list[str] | None = None) -> int:
     f.add_argument("--raw-dir", type=Path, help="keep each download here (not committed)")
     f.add_argument("--offline", action="store_true", help="read inputs from --raw-dir")
     f.add_argument("--report", type=Path, help="write the run report as JSON")
+    f.add_argument("--stale-only", action="store_true", help="only files marked stale in the lock")
     a = p.parse_args(argv)
 
     srcs = sources.select(
@@ -38,6 +39,10 @@ def main(argv: list[str] | None = None) -> int:
         dataset=a.dataset,
         legislature=a.legislature,
     )
+    if a.stale_only:
+        from .datapr import stale_only
+
+        srcs = stale_only(srcs, sync.read_lock(a.data))
     get, kwargs = fetch.http_get, {}
     if a.offline:
         if not a.raw_dir:

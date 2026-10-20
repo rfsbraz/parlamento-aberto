@@ -15,7 +15,7 @@ A AR permite a reutilização livre dos seus dados abertos, desde que a fonte se
 
 Biografias, datas de nascimento e registos de interesses são dados pessoais. Este repositório republica apenas o que a AR publica.
 
-Para reportar dados errados, abra uma issue com o formulário [Correção de dados](../../issues/new?template=correcao-de-dados.yml). Os pedidos de remoção de dados pessoais podem usar o mesmo formulário, ou o reporte privado de vulnerabilidades do GitHub quando o repositório for público. Não cole os próprios dados pessoais numa issue pública.
+Para reportar dados errados, abra uma issue com o formulário [Correção de dados](../../issues/new?template=correcao-de-dados.yml). Os pedidos de remoção de dados pessoais podem usar o mesmo formulário, ou o reporte privado de vulnerabilidades do GitHub. Não cole os próprios dados pessoais numa issue pública.
 
 ## Desenvolvimento
 
@@ -51,7 +51,7 @@ O `sources.yaml` lista todos os ficheiros. A legislatura mais recente que lá co
 
 ## Descarregar o registo de interesses da EpT
 
-Os dados abertos da AR só têm o registo de interesses até à XV. As declarações da XVI e da XVII estão na Entidade para a Transparência (EpT), que tem uma API JSON pública (#42). Esta construção é privada: ainda não se publica nada dela.
+Os dados abertos da AR só têm o registo de interesses até à XV. As declarações da XVI e da XVII estão na Entidade para a Transparência (EpT), que tem uma API JSON pública (#42). O código é público, mas os dados da EpT só são republicados depois de a EpT responder ao meu pedido de reutilização (ver `docs/sources/ept.md`).
 
 ```sh
 uv run python -m parlamento_aberto.ept dry-run            # só contagens, não escreve nada

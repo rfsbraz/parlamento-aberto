@@ -1,16 +1,16 @@
 # Entidade para a Transparência (EpT): registo de interesses da XVI e da XVII
 
-Os dados abertos da AR só têm ficheiros `RegistoInteresses` até à XV. A partir da XVI, os deputados entregam as declarações à Entidade para a Transparência, ao abrigo da Lei n.º 52/2019, e a AR não publica nenhuma. Esta página regista o que decidimos, o que a API da EpT devolve e o que nunca guardamos. Plano e ordem de construção: #42 (issues #43 a #49).
+Os dados abertos da AR só têm ficheiros `RegistoInteresses` até à XV. A partir da XVI, os deputados entregam as declarações à Entidade para a Transparência, ao abrigo da Lei n.º 52/2019, e a AR não publica nenhuma. Esta página regista o que decidi, o que a API da EpT devolve e o que nunca guardo. Plano e ordem de construção: #42 (issues #43 a #49).
 
-## Decisão (Rodrigo, 20 de outubro de 2026)
+## Decisão (20 de outubro de 2026)
 
-- Construir em privado. As declarações da XVI e da XVII são normalizadas nos mesmos marts `interest_declarations` e `interests` da XI à XV, com `source = 'ept'`.
-- Sem publicação. As linhas da EpT não entram numa publicação de dados, no site nem em nenhuma cópia pública do repositório até o Rodrigo decidir.
-- Sem contacto com a EpT para além de um email a perguntar se os NIF pessoais podem ser reutilizados. Não se envia mais nada até o Rodrigo decidir.
+- O código é público, como o resto do repositório. As declarações da XVI e da XVII são normalizadas nos mesmos marts `interest_declarations` e `interests` da XI à XV, com `source = 'ept'`.
+- Sem republicação por agora. As linhas da EpT não entram numa publicação de dados, no site nem no repositório até a EpT responder ao meu pedido e eu decidir com base na resposta.
+- Sem contacto com a EpT para além de um email a perguntar se os dados podem ser reutilizados, incluindo os NIF pessoais. Não envio mais nada enquanto não houver resposta.
 - Os NIPC de empresas são guardados (alterado mais tarde, a 20 de outubro de 2026). Da coluna NIF/NIPC da entidade no separador 4 só se mantém um valor quando é um NIPC de empresa: ver [NIPC de empresas](#nipc-de-empresas). Todos os outros valores dessa coluna são descartados.
 - Os NIF pessoais ficam de fora: o `nif` de topo do titular nunca é guardado, e um NIF pessoal na coluna da entidade também não. Isto aguarda a resposta da EpT sobre a reutilização. Se a EpT confirmar que a reutilização é permitida, a decisão é revista.
-- O PR de dados `ept_registo_interesses` fica em espera para o Rodrigo (novo conjunto de dados, etiqueta `hold:`) e nunca é integrado automaticamente.
-- **Âmbito da publicação: pendente de decisão do Rodrigo.** A questão legal abaixo tem de ser resolvida antes de o repositório ou quaisquer dados derivados da EpT passarem a públicos.
+- O PR de dados `ept_registo_interesses` fica em espera (novo conjunto de dados, etiqueta `hold:`), nunca é integrado automaticamente e sou eu que decido quando o integrar.
+- **Republicação: pendente da resposta da EpT.** A questão legal abaixo tem de estar resolvida antes de quaisquer dados derivados da EpT serem publicados.
 
 ## Limites legais: Lei n.º 52/2019, art. 17.º
 
@@ -22,7 +22,7 @@ Texto consolidado após a Lei n.º 58/2021 e a Lei n.º 4/2022 ([pgdlisboa.pt](h
 - n.º 4: os campos do registo de interesses são publicados no site da EpT e no site do órgão a que o titular pertence.
 - n.º 14: fora do n.º 4, a declaração não pode ser divulgada, nomeadamente num site ou numa rede social.
 
-Questão em aberto: se republicar os campos do registo de interesses, que o n.º 4 torna públicos, está coberto pelo n.º 4 ou proibido pelo n.º 14. Até haver resposta, tudo aqui fica privado.
+Questão em aberto: se republicar os campos do registo de interesses, que o n.º 4 torna públicos, está coberto pelo n.º 4 ou proibido pelo n.º 14. Até haver resposta, não republico nenhum dado da EpT: só o código e as fixtures sintéticas estão no repositório.
 
 ## O que nunca guardamos
 
@@ -102,7 +102,7 @@ A EpT não tem id da AR. O `seed_ept_holders` (#47) faz corresponder cada id de 
 1. #43: esta página.
 2. #44: fetcher para as entidades 510 e 4508, só metadados e separador 4, limpos em memória.
 3. #46: parser de staging.
-4. #45: o conjunto de dados `ept_registo_interesses` no data-sync, em espera para o Rodrigo.
+4. #45: o conjunto de dados `ept_registo_interesses` no data-sync, em espera até à resposta da EpT.
 5. #47: seed de correspondência entre titulares e `cadastro_id`.
 6. #48: os marts unificados.
 7. #49: dicionário, lacunas conhecidas e notas de publicação.

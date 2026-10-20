@@ -4,7 +4,7 @@ import json
 from dataclasses import dataclass, field
 
 from .fetch import Response, is_soft_404
-from .normalise import count_records, top_level_keys
+from .normalise import LayoutError, count_records, records_at, top_level_keys
 
 ROW_DROP_LIMIT = 0.05
 
@@ -19,7 +19,7 @@ class Verdict:
     flags: list[str] = field(default_factory=list)
 
 
-def validate(resp: Response | None, last: dict | None) -> Verdict:
+def validate(resp: Response | None, last: dict | None, path: str | None = None) -> Verdict:
     """Reject HTML, parse failures and empty files that used to have records.
 
     Flag, but accept, a record drop over 5% and a changed key set.
@@ -39,8 +39,15 @@ def validate(resp: Response | None, last: dict | None) -> Verdict:
         return Verdict(False, f"empty file, last good copy had {last_records} records")
     if not isinstance(data, (list, dict)) and data is not None:
         return Verdict(False, f"unexpected top-level {type(data).__name__}")
-    records = count_records(data) if data is not None else 0
-    keys = top_level_keys(data)
+    if path:
+        try:
+            data_at_path = records_at(data, path)
+        except LayoutError as e:
+            return Verdict(False, f"layout: {e}")
+        records, keys = len(data_at_path), top_level_keys(data_at_path)
+    else:
+        records = count_records(data) if data is not None else 0
+        keys = top_level_keys(data)
     flags = []
     if last and last_records and records < last_records * (1 - ROW_DROP_LIMIT):
         flags.append(f"row drop {last_records} to {records}")

@@ -28,6 +28,16 @@ jobs:
       - run: uv sync --locked
       - run: uv run pytest
 
+  dictionary:
+    name: data dictionary
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      - name: Check docs/dictionary is up to date with schema.yml
+        run: uv run python -m parlamento_aberto.dictionary --check
+
   gitleaks:
     name: gitleaks
     runs-on: ubuntu-latest

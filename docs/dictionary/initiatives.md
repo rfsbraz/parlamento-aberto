@@ -1,50 +1,50 @@
 # initiatives
 
-One row per initiative.
+Uma linha por iniciativa.
 
-Generated from `src/parlamento_aberto/models/schema.yml` by `uv run python -m parlamento_aberto.dictionary`. Do not edit by hand.
+Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
-Release files: `initiatives.parquet` and `initiatives.csv.gz`.
+Ficheiros da publicação: `initiatives.parquet` e `initiatives.csv.gz`.
 
-## Columns
+## Colunas
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `legislature` | VARCHAR | Legislature of the initiative, from the file path. Legislature I is published in two files, I-A and I-B. |
-| `initiative_id` | BIGINT | AR id of the initiative. |
-| `number` | INTEGER | Initiative number within its type and legislature. |
-| `type_code` | VARCHAR | Initiative type code, for example J. |
-| `type` | VARCHAR | Initiative type, for example Projeto de Lei. |
-| `session_number` | INTEGER | Legislative session the initiative was submitted in. |
-| `title` | VARCHAR | Title. |
-| `author_kind` | VARCHAR | Kind of author as published, for example Deputados, Grupos Parlamentares or Governo. |
-| `first_event_date` | DATE | Date of the earliest event on the initiative. |
-| `text_url` | VARCHAR | Link to the initiative text. |
+| `legislature` | VARCHAR | Legislatura da iniciativa, a partir do caminho do ficheiro. A legislatura I é publicada em dois ficheiros, I-A e I-B. |
+| `initiative_id` | BIGINT | Id da iniciativa na AR. |
+| `number` | INTEGER | Número da iniciativa dentro do seu tipo e legislatura. |
+| `type_code` | VARCHAR | Código do tipo de iniciativa, por exemplo J. |
+| `type` | VARCHAR | Tipo de iniciativa, por exemplo Projeto de Lei. |
+| `session_number` | INTEGER | Sessão legislativa em que a iniciativa deu entrada. |
+| `title` | VARCHAR | Título. |
+| `author_kind` | VARCHAR | Tipo de autor tal como publicado, por exemplo Deputados, Grupos Parlamentares ou Governo. |
+| `first_event_date` | DATE | Data do primeiro evento da iniciativa. |
+| `text_url` | VARCHAR | Ligação para o texto da iniciativa. |
 
-## Known quirks
+## Particularidades conhecidas
 
-- Gaps in the AR source itself are listed in [known gaps](../known-gaps.md).
+- As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
-## Built from
+## Construído a partir de
 
 ### stg_iniciativas__initiatives
 
-Iniciativas, one row per initiative record.
+Iniciativas, uma linha por registo de iniciativa.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `initiative_id` | BIGINT | AR id of the initiative (IniId). |
-| `number` | INTEGER | Initiative number within its type and legislature (IniNr). |
-| `type_code` | VARCHAR | Initiative type code (IniTipo), for example J. |
-| `type` | VARCHAR | Initiative type (IniDescTipo), for example Projeto de Lei. |
-| `session_number` | INTEGER | Legislative session the initiative was submitted in (IniSel). |
-| `title` | VARCHAR | Title (IniTitulo). |
-| `text_url` | VARCHAR | Link to the initiative text (IniLinkTexto). |
-| `author_kind_code` | VARCHAR | Code of the kind of author (IniAutorOutros.sigla), for example D, G or V. |
-| `author_kind` | VARCHAR | Kind of author (IniAutorOutros.nome), for example Deputados, Grupos Parlamentares or Governo. |
-| `author_committee` | VARCHAR | Committee that authored the initiative, when the author is a committee (IniAutorOutros.iniAutorComissao). |
-| `author_deputies` | STRUCT(cadastro_id BIGINT, "name" VARCHAR, group_acronym VARCHAR)[] | Deputy authors (IniAutorDeputados) as cadastro_id, name, group_acronym. |
-| `author_groups` | VARCHAR[] | Group authors (IniAutorGruposParlamentares) as group acronyms. |
-| `events` | STRUCT(event_id BIGINT, phase VARCHAR, phase_date DATE, votes STRUCT(id VARCHAR, "data" VARCHAR, resultado VARCHAR, reuniao VARCHAR, tipoReuniao VARCHAR, unanime VARCHAR, descricao VARCHAR, detalhe VARCHAR, ausencias VARCHAR[])[], committees STRUCT(committee_id BIGINT, committee_name VARCHAR, votes STRUCT(id VARCHAR, "data" VARCHAR, resultado VARCHAR, reuniao VARCHAR, unanime VARCHAR, descricao VARCHAR, detalhe VARCHAR, ausencias VARCHAR[])[])[])[] | Events (IniEventos) as event_id, phase, phase_date, the raw plenary votes (Votacao) and the committees (Comissao) as committee_id, committee_name and their raw votes. |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `initiative_id` | BIGINT | Id da iniciativa na AR (IniId). |
+| `number` | INTEGER | Número da iniciativa dentro do seu tipo e legislatura (IniNr). |
+| `type_code` | VARCHAR | Código do tipo de iniciativa (IniTipo), por exemplo J. |
+| `type` | VARCHAR | Tipo de iniciativa (IniDescTipo), por exemplo Projeto de Lei. |
+| `session_number` | INTEGER | Sessão legislativa em que a iniciativa deu entrada (IniSel). |
+| `title` | VARCHAR | Título (IniTitulo). |
+| `text_url` | VARCHAR | Ligação para o texto da iniciativa (IniLinkTexto). |
+| `author_kind_code` | VARCHAR | Código do tipo de autor (IniAutorOutros.sigla), por exemplo D, G ou V. |
+| `author_kind` | VARCHAR | Tipo de autor (IniAutorOutros.nome), por exemplo Deputados, Grupos Parlamentares ou Governo. |
+| `author_committee` | VARCHAR | Comissão autora da iniciativa, quando o autor é uma comissão (IniAutorOutros.iniAutorComissao). |
+| `author_deputies` | STRUCT(cadastro_id BIGINT, "name" VARCHAR, group_acronym VARCHAR)[] | Deputados autores (IniAutorDeputados) como cadastro_id, name, group_acronym. |
+| `author_groups` | VARCHAR[] | Grupos autores (IniAutorGruposParlamentares) como siglas de grupos. |
+| `events` | STRUCT(event_id BIGINT, phase VARCHAR, phase_date DATE, votes STRUCT(id VARCHAR, "data" VARCHAR, resultado VARCHAR, reuniao VARCHAR, tipoReuniao VARCHAR, unanime VARCHAR, descricao VARCHAR, detalhe VARCHAR, ausencias VARCHAR[])[], committees STRUCT(committee_id BIGINT, committee_name VARCHAR, votes STRUCT(id VARCHAR, "data" VARCHAR, resultado VARCHAR, reuniao VARCHAR, unanime VARCHAR, descricao VARCHAR, detalhe VARCHAR, ausencias VARCHAR[])[])[])[] | Eventos (IniEventos) como event_id, phase, phase_date, as votações em plenário em bruto (Votacao) e as comissões (Comissao) como committee_id, committee_name e as suas votações em bruto. |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |

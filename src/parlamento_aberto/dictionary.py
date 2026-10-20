@@ -25,8 +25,8 @@ OUT = ROOT / "docs" / "dictionary"
 # Macros that read a mart, so a mart calling them is built from it too.
 MACROS = {"seated_on": "mandates", "seated_during": "mandates"}
 GENERATED = (
-    "Generated from `src/parlamento_aberto/models/schema.yml` by "
-    "`uv run python -m parlamento_aberto.dictionary`. Do not edit by hand."
+    "Gerado a partir de `src/parlamento_aberto/models/schema.yml` por "
+    "`uv run python -m parlamento_aberto.dictionary`. Não editar à mão."
 )
 ATTRIBUTION = "Fonte: Assembleia da República, dados abertos."
 
@@ -46,7 +46,7 @@ def _types(con: duckdb.DuckDBPyConnection, model: str) -> dict[str, str]:
 
 def _columns(con, model: str, columns: dict) -> list[str]:
     types = _types(con, model)
-    lines = ["| Column | Type | Description |", "|---|---|---|"]
+    lines = ["| Coluna | Tipo | Descrição |", "|---|---|---|"]
     for name, description in columns.items():
         lines.append(f"| `{name}` | {types[name]} | {_text(description)} |")
     return lines
@@ -64,12 +64,13 @@ def upstream(model: str, schema: dict) -> list[str]:
 def _page(con, model: str, schema: dict) -> str:
     spec = schema[model]
     lines = [f"# {model}", "", _text(spec["description"]), "", GENERATED, ""]
-    lines += [f"Release files: `{model}.parquet` and `{model}.csv.gz`.", ""]
-    lines += ["## Columns", ""] + _columns(con, model, spec["columns"]) + [""]
-    lines += ["## Known quirks", ""]
+    lines += [f"Ficheiros da publicação: `{model}.parquet` e `{model}.csv.gz`.", ""]
+    lines += ["## Colunas", ""] + _columns(con, model, spec["columns"]) + [""]
+    lines += ["## Particularidades conhecidas", ""]
     lines += [f"- {_text(q)}" for q in spec.get("quirks", [])]
-    lines += ["- Gaps in the AR source itself are listed in [known gaps](../known-gaps.md).", ""]
-    lines += ["## Built from", ""]
+    gaps = "[lacunas conhecidas](../known-gaps.md)"
+    lines += [f"- As lacunas da própria fonte da AR estão em {gaps}.", ""]
+    lines += ["## Construído a partir de", ""]
     sources = upstream(model, schema)
     linked = [m for m in sources if m in marts()]
     if linked:
@@ -90,37 +91,39 @@ def _first_sentence(text: str) -> str:
 
 def _index(schema: dict) -> str:
     lines = [
-        "# Data dictionary",
+        "# Dicionário de dados",
         "",
-        "One page per mart in the data release, with column types and descriptions, known",
-        "quirks, and the staging models each mart is built from. Staging column descriptions",
-        "name the AR source field in parentheses, for example `(dtini)`.",
+        "Uma página por mart da publicação de dados, com os tipos e as descrições das colunas,",
+        "as particularidades conhecidas e os modelos de staging a partir dos quais cada mart é",
+        "construído. As descrições das colunas de staging indicam entre parênteses o campo da",
+        "fonte da AR, por exemplo `(dtini)`.",
         "",
         GENERATED,
         "",
-        "How to query a release: [querying.md](../querying.md).",
+        "Como consultar uma publicação: [querying.md](../querying.md).",
         "",
         "## Marts",
         "",
-        "| Mart | Description |",
+        "| Mart | Descrição |",
         "|---|---|",
     ]
     lines += [f"| [{m}]({m}.md) | {_first_sentence(schema[m]['description'])} |" for m in marts()]
     lines += [
         "",
-        "## Licence and attribution",
+        "## Licença e atribuição",
         "",
-        "The data is published under CC BY 4.0 (`LICENSE-DATA`). The AR allows free reuse of",
-        "its open data as long as the source is credited. Credit it as:",
+        "Os dados são publicados sob CC BY 4.0 (`LICENSE-DATA`). A AR permite a reutilização",
+        "livre dos seus dados abertos, desde que a fonte seja mencionada. Indique-a assim:",
         "",
         f"> {ATTRIBUTION}",
         "",
-        "Terms: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx",
+        "Termos: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx",
         "",
-        "Every CSV in a release starts with that line, and `manifest.json` carries it too.",
+        "Todos os CSV de uma publicação começam com essa linha, que também consta do",
+        "`manifest.json`.",
         "",
-        "Biographies, birth dates and interest registers are personal data. The marts carry",
-        "only what the AR publishes. See the main README to report wrong data.",
+        "Biografias, datas de nascimento e registos de interesses são dados pessoais. Os marts",
+        "contêm apenas o que a AR publica. Para reportar dados errados, veja o README principal.",
     ]
     return "\n".join(lines) + "\n"
 

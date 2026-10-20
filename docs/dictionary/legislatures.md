@@ -1,52 +1,52 @@
 # legislatures
 
-One row per legislature.
+Uma linha por legislatura.
 
-Generated from `src/parlamento_aberto/models/schema.yml` by `uv run python -m parlamento_aberto.dictionary`. Do not edit by hand.
+Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
-Release files: `legislatures.parquet` and `legislatures.csv.gz`.
+Ficheiros da publicação: `legislatures.parquet` e `legislatures.csv.gz`.
 
-## Columns
+## Colunas
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `legislature` | VARCHAR | Legislature in Roman numerals, for example XVII. |
-| `legislature_id` | INTEGER | AR internal id of the legislature. |
-| `start_date` | DATE | First day of the legislature. |
-| `end_date` | DATE | Last day of the legislature, null while it is running. |
-| `extract_date` | DATE | Date of the AR extract, taken from the end date AR writes on open group memberships. |
+| `legislature` | VARCHAR | Legislatura em numeração romana, por exemplo XVII. |
+| `legislature_id` | INTEGER | Id interno da legislatura na AR. |
+| `start_date` | DATE | Primeiro dia da legislatura. |
+| `end_date` | DATE | Último dia da legislatura, nulo enquanto está em curso. |
+| `extract_date` | DATE | Data da extração da AR, tirada da data de fim que a AR escreve nas filiações em grupos ainda abertas. |
 
-## Known quirks
+## Particularidades conhecidas
 
-- Gaps in the AR source itself are listed in [known gaps](../known-gaps.md).
+- As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
-## Built from
+## Construído a partir de
 
 ### stg_informacao_base__legislatures
 
-InformacaoBase DetalheLegislatura, one row per legislature file.
+InformacaoBase DetalheLegislatura, uma linha por ficheiro de legislatura.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `legislature_id` | INTEGER | AR internal id of the legislature (id). |
-| `start_date` | DATE | First day of the legislature (dtini). |
-| `end_date` | DATE | Last day of the legislature (dtfim), null while it is running. |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `legislature_id` | INTEGER | Id interno da legislatura na AR (id). |
+| `start_date` | DATE | Primeiro dia da legislatura (dtini). |
+| `end_date` | DATE | Último dia da legislatura (dtfim), nulo enquanto está em curso. |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |
 
 ### stg_informacao_base__deputies
 
-InformacaoBase Deputados, one row per person on the lists of a legislature, elected or not.
+InformacaoBase Deputados, uma linha por pessoa nas listas de uma legislatura, eleita ou não.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `cadastro_id` | BIGINT | Person id shared across legislatures and datasets (DepCadId). |
-| `deputy_id` | BIGINT | Id of this person in this legislature (DepId). |
-| `full_name` | VARCHAR | Full name (DepNomeCompleto). |
-| `parliamentary_name` | VARCHAR | Name used in parliament (DepNomeParlamentar). |
-| `circle_id` | INTEGER | Electoral circle the person ran in (DepCPId). |
-| `circle_name` | VARCHAR | Name of that electoral circle (DepCPDes). |
-| `situations` | STRUCT(situation VARCHAR, start_date DATE, end_date DATE)[] | Situation periods (DepSituacao) as situation, start_date, end_date. |
-| `groups` | STRUCT(group_id BIGINT, group_acronym VARCHAR, start_date DATE, end_date DATE)[] | Group memberships (DepGP) as group_id, group_acronym, start_date, end_date. |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `cadastro_id` | BIGINT | Id da pessoa, comum a todas as legislaturas e conjuntos de dados (DepCadId). |
+| `deputy_id` | BIGINT | Id desta pessoa nesta legislatura (DepId). |
+| `full_name` | VARCHAR | Nome completo (DepNomeCompleto). |
+| `parliamentary_name` | VARCHAR | Nome usado no parlamento (DepNomeParlamentar). |
+| `circle_id` | INTEGER | Círculo eleitoral por onde a pessoa concorreu (DepCPId). |
+| `circle_name` | VARCHAR | Nome desse círculo eleitoral (DepCPDes). |
+| `situations` | STRUCT(situation VARCHAR, start_date DATE, end_date DATE)[] | Períodos de situação (DepSituacao) como situation, start_date, end_date. |
+| `groups` | STRUCT(group_id BIGINT, group_acronym VARCHAR, start_date DATE, end_date DATE)[] | Filiações em grupos (DepGP) como group_id, group_acronym, start_date, end_date. |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |

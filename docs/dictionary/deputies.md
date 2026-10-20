@@ -1,68 +1,68 @@
 # deputies
 
-One row per person (cadastro_id) who appears on any list, elected or not. Use mandates to find who sat when.
+Uma linha por pessoa (cadastro_id) que aparece em qualquer lista, eleita ou não. Use mandates para saber quem teve lugar e quando.
 
-Generated from `src/parlamento_aberto/models/schema.yml` by `uv run python -m parlamento_aberto.dictionary`. Do not edit by hand.
+Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
-Release files: `deputies.parquet` and `deputies.csv.gz`.
+Ficheiros da publicação: `deputies.parquet` e `deputies.csv.gz`.
 
-## Columns
+## Colunas
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `cadastro_id` | BIGINT | Person id shared across legislatures and datasets. |
-| `full_name` | VARCHAR | Full name, from RegistoBiografico when present, otherwise from the latest InformacaoBase. |
-| `parliamentary_name` | VARCHAR | Name used in parliament, from the latest legislature the person appears in. |
-| `sex` | VARCHAR | Sex as published by the AR, M or F. Null without a RegistoBiografico record. |
-| `birth_date` | DATE | Date of birth. Null without a RegistoBiografico record. |
-| `profession` | VARCHAR | Profession. Null without a RegistoBiografico record. |
-| `biography_legislature` | VARCHAR | Legislature of the RegistoBiografico record the biography fields come from, the latest one for the person. Real per-legislature biographies exist only for Constituinte, II and III; XVII is the current register. Null without a RegistoBiografico record. |
+| `cadastro_id` | BIGINT | Id da pessoa, comum a todas as legislaturas e conjuntos de dados. |
+| `full_name` | VARCHAR | Nome completo, do RegistoBiografico quando existe, senão da InformacaoBase mais recente. |
+| `parliamentary_name` | VARCHAR | Nome usado no parlamento, da legislatura mais recente em que a pessoa aparece. |
+| `sex` | VARCHAR | Sexo tal como publicado pela AR, M ou F. Nulo sem registo no RegistoBiografico. |
+| `birth_date` | DATE | Data de nascimento. Nulo sem registo no RegistoBiografico. |
+| `profession` | VARCHAR | Profissão. Nulo sem registo no RegistoBiografico. |
+| `biography_legislature` | VARCHAR | Legislatura do registo do RegistoBiografico de onde vêm os campos biográficos, a mais recente para a pessoa. Só há biografias reais por legislatura para a Constituinte, a II e a III; a XVII é o registo atual. Nulo sem registo no RegistoBiografico. |
 
-## Known quirks
+## Particularidades conhecidas
 
-- Gaps in the AR source itself are listed in [known gaps](../known-gaps.md).
+- As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
-## Built from
+## Construído a partir de
 
 ### stg_informacao_base__legislatures
 
-InformacaoBase DetalheLegislatura, one row per legislature file.
+InformacaoBase DetalheLegislatura, uma linha por ficheiro de legislatura.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `legislature_id` | INTEGER | AR internal id of the legislature (id). |
-| `start_date` | DATE | First day of the legislature (dtini). |
-| `end_date` | DATE | Last day of the legislature (dtfim), null while it is running. |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `legislature_id` | INTEGER | Id interno da legislatura na AR (id). |
+| `start_date` | DATE | Primeiro dia da legislatura (dtini). |
+| `end_date` | DATE | Último dia da legislatura (dtfim), nulo enquanto está em curso. |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |
 
 ### stg_informacao_base__deputies
 
-InformacaoBase Deputados, one row per person on the lists of a legislature, elected or not.
+InformacaoBase Deputados, uma linha por pessoa nas listas de uma legislatura, eleita ou não.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `cadastro_id` | BIGINT | Person id shared across legislatures and datasets (DepCadId). |
-| `deputy_id` | BIGINT | Id of this person in this legislature (DepId). |
-| `full_name` | VARCHAR | Full name (DepNomeCompleto). |
-| `parliamentary_name` | VARCHAR | Name used in parliament (DepNomeParlamentar). |
-| `circle_id` | INTEGER | Electoral circle the person ran in (DepCPId). |
-| `circle_name` | VARCHAR | Name of that electoral circle (DepCPDes). |
-| `situations` | STRUCT(situation VARCHAR, start_date DATE, end_date DATE)[] | Situation periods (DepSituacao) as situation, start_date, end_date. |
-| `groups` | STRUCT(group_id BIGINT, group_acronym VARCHAR, start_date DATE, end_date DATE)[] | Group memberships (DepGP) as group_id, group_acronym, start_date, end_date. |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `cadastro_id` | BIGINT | Id da pessoa, comum a todas as legislaturas e conjuntos de dados (DepCadId). |
+| `deputy_id` | BIGINT | Id desta pessoa nesta legislatura (DepId). |
+| `full_name` | VARCHAR | Nome completo (DepNomeCompleto). |
+| `parliamentary_name` | VARCHAR | Nome usado no parlamento (DepNomeParlamentar). |
+| `circle_id` | INTEGER | Círculo eleitoral por onde a pessoa concorreu (DepCPId). |
+| `circle_name` | VARCHAR | Nome desse círculo eleitoral (DepCPDes). |
+| `situations` | STRUCT(situation VARCHAR, start_date DATE, end_date DATE)[] | Períodos de situação (DepSituacao) como situation, start_date, end_date. |
+| `groups` | STRUCT(group_id BIGINT, group_acronym VARCHAR, start_date DATE, end_date DATE)[] | Filiações em grupos (DepGP) como group_id, group_acronym, start_date, end_date. |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |
 
 ### stg_registo_biografico__biographies
 
-RegistoBiografico, one row per person record, scalar fields only. II and III come from the older XML-shaped files listed on the AR I Legislatura page (camelCase keys), and Constituinte from the older RegistoBiograficoConstituinte.xml in the same shape. The other pages are older snapshots of the XVII register and are not stored, except I (335 people), so I rows are not that legislature's deputies (docs/known-gaps.md).
+RegistoBiografico, uma linha por registo de pessoa, só campos escalares. II e III vêm dos ficheiros mais antigos em formato XML listados na página I Legislatura da AR (chaves em camelCase), e Constituinte do RegistoBiograficoConstituinte.xml mais antigo, no mesmo formato. As outras páginas são cópias mais antigas do registo da XVII e não são guardadas, exceto a I (335 pessoas), pelo que as linhas da I não são os deputados dessa legislatura (docs/known-gaps.md).
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `cadastro_id` | BIGINT | Person id shared across legislatures and datasets (CadId). |
-| `full_name` | VARCHAR | Full name (CadNomeCompleto). |
-| `birth_date` | DATE | Date of birth (CadDtNascimento). |
-| `sex` | VARCHAR | Sex as published by the AR, M or F (CadSexo). |
-| `profession` | VARCHAR | Profession (CadProfissao). |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `cadastro_id` | BIGINT | Id da pessoa, comum a todas as legislaturas e conjuntos de dados (CadId). |
+| `full_name` | VARCHAR | Nome completo (CadNomeCompleto). |
+| `birth_date` | DATE | Data de nascimento (CadDtNascimento). |
+| `sex` | VARCHAR | Sexo tal como publicado pela AR, M ou F (CadSexo). |
+| `profession` | VARCHAR | Profissão (CadProfissao). |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |

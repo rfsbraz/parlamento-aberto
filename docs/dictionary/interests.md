@@ -1,84 +1,84 @@
 # interests
 
-One row per declared interest: activities and offices, social positions, societies, supports, services and other situations. Text is as published, so free-text items can read "Nada a declarar". The JSON wins over the old mapper: V1 publishes activities as one free-text field, and V5 is read too (XIV, XV), since the dump has it.
+Uma linha por interesse declarado: atividades e cargos, cargos sociais, sociedades, apoios, serviços e outras situações. O texto está tal como publicado, por isso os itens de texto livre podem dizer "Nada a declarar". O JSON prevalece sobre o mapeador antigo: a V1 publica as atividades como um único campo de texto livre, e a V5 também é lida (XIV, XV), porque o dump a contém.
 
-Generated from `src/parlamento_aberto/models/schema.yml` by `uv run python -m parlamento_aberto.dictionary`. Do not edit by hand.
+Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
-Release files: `interests.parquet` and `interests.csv.gz`.
+Ficheiros da publicação: `interests.parquet` e `interests.csv.gz`.
 
-## Columns
+## Colunas
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `legislature` | VARCHAR | Legislature in Roman numerals. |
-| `declaration_key` | VARCHAR | Declaration, joins to interest_declarations. |
-| `item_number` | INTEGER | Position of the item within the declaration. |
-| `cadastro_id` | BIGINT | Person id, joins to deputies. |
-| `category` | VARCHAR | activity, social_position, society, support, service or other_situation. |
-| `source_list` | VARCHAR | Published list or field the item comes from, for example GenCargosMaisTresAnos. |
-| `item_id` | BIGINT | AR id of the item, when published. |
-| `type_code` | INTEGER | V3 Type code as published (0, 1 or 2), undocumented by the AR. |
-| `description` | VARCHAR | Activity, office, support, service or situation as written. |
-| `entity` | VARCHAR | Entity, company or body named. |
-| `nature` | VARCHAR | Nature of the entity or benefit, V5 only. |
-| `activity_area` | VARCHAR | Area of activity. |
-| `location` | VARCHAR | Head office or place. |
-| `share` | VARCHAR | Shareholding as written, for societies. |
-| `is_paid` | BOOLEAN | True for S, false for N. Null otherwise, including the 0 V5 publishes. |
-| `start_date` | DATE | Start date, when published as a full date. |
-| `end_date` | DATE | End date, when published as a full date. |
-| `start_date_raw` | VARCHAR | Start date as published, a year, a month or a day. |
-| `end_date_raw` | VARCHAR | End date as published. |
-| `date_raw` | VARCHAR | Single date or period as published for V5 supports and services. |
+| `legislature` | VARCHAR | Legislatura em numeração romana. |
+| `declaration_key` | VARCHAR | Declaração, liga a interest_declarations. |
+| `item_number` | INTEGER | Posição do item dentro da declaração. |
+| `cadastro_id` | BIGINT | Id da pessoa, liga a deputies. |
+| `category` | VARCHAR | activity, social_position, society, support, service ou other_situation (atividade, cargo social, sociedade, apoio, serviço ou outra situação). |
+| `source_list` | VARCHAR | Lista ou campo publicado de onde vem o item, por exemplo GenCargosMaisTresAnos. |
+| `item_id` | BIGINT | Id do item na AR, quando publicado. |
+| `type_code` | INTEGER | Código Type da V3 tal como publicado (0, 1 ou 2), não documentado pela AR. |
+| `description` | VARCHAR | Atividade, cargo, apoio, serviço ou situação tal como escrito. |
+| `entity` | VARCHAR | Entidade, empresa ou organismo indicado. |
+| `nature` | VARCHAR | Natureza da entidade ou do benefício, só V5. |
+| `activity_area` | VARCHAR | Área de atividade. |
+| `location` | VARCHAR | Sede ou local. |
+| `share` | VARCHAR | Participação social tal como escrita, para sociedades. |
+| `is_paid` | BOOLEAN | Verdadeiro para S, falso para N. Nulo nos outros casos, incluindo o 0 que a V5 publica. |
+| `start_date` | DATE | Data de início, quando publicada como data completa. |
+| `end_date` | DATE | Data de fim, quando publicada como data completa. |
+| `start_date_raw` | VARCHAR | Data de início tal como publicada, um ano, um mês ou um dia. |
+| `end_date_raw` | VARCHAR | Data de fim tal como publicada. |
+| `date_raw` | VARCHAR | Data única ou período tal como publicado nos apoios e serviços da V5. |
 
-## Known quirks
+## Particularidades conhecidas
 
-- Gaps in the AR source itself are listed in [known gaps](../known-gaps.md).
+- As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
-## Built from
+## Construído a partir de
 
 ### stg_registo_interesses__declarations
 
-RegistoInteresses declarations, one row each, from cadRgi (V1, V2), RecordInterests (V3) or the V5 form. Dates are as published.
+Declarações do RegistoInteresses, uma linha cada, a partir de cadRgi (V1, V2), RecordInterests (V3) ou do formulário V5. As datas estão tal como publicadas.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `declaration_key` | VARCHAR | Key built as legislature-cadastro_id-n, n counting the person's declarations in the file. |
-| `cadastro_id` | BIGINT | Person id (cadId, RecordId or IdCadastroGODE). |
-| `format_version` | VARCHAR | Format of the record, V1, V2, V3 or V5. |
-| `declaration_id` | BIGINT | AR id of the declaration (rgiId or FactoDeclaracao.Id). V3 publishes none. |
-| `declared_legislature` | VARCHAR | Legislature the declaration names (rgiLegDes or Legislatura). V3 names none, so it is the file's. |
-| `position` | VARCHAR | Office declared (rgiCargoDes, PositionDesignation or CargoFuncao). |
-| `position_start_raw` | VARCHAR | Start of the office as published (rgiCargoData, a year, PositionBeginDate or DataInicioFuncao). |
-| `position_changed_raw` | VARCHAR | Date the office changed as published (PositionChangedDate or DataAlteracaoFuncao). |
-| `position_end_raw` | VARCHAR | End of the office as published (PositionEndDate or DataCessacaoFuncao). |
-| `version_date_raw` | VARCHAR | Date of this version of the declaration (rgiDataVersao), V1 and V2 only. |
-| `is_exclusive` | BOOLEAN | Office held in exclusivity (V3 Exclusivity, V5 Exclusividade). Null for V1 and V2. |
-| `items` | INTEGER | Number of declared items, one row each in stg_registo_interesses__items. |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `declaration_key` | VARCHAR | Chave construída como legislature-cadastro_id-n, em que n conta as declarações da pessoa no ficheiro. |
+| `cadastro_id` | BIGINT | Id da pessoa (cadId, RecordId ou IdCadastroGODE). |
+| `format_version` | VARCHAR | Formato do registo, V1, V2, V3 ou V5. |
+| `declaration_id` | BIGINT | Id da declaração na AR (rgiId ou FactoDeclaracao.Id). A V3 não publica nenhum. |
+| `declared_legislature` | VARCHAR | Legislatura indicada na declaração (rgiLegDes ou Legislatura). A V3 não indica nenhuma, por isso é a do ficheiro. |
+| `position` | VARCHAR | Cargo declarado (rgiCargoDes, PositionDesignation ou CargoFuncao). |
+| `position_start_raw` | VARCHAR | Início do cargo tal como publicado (rgiCargoData, um ano, PositionBeginDate ou DataInicioFuncao). |
+| `position_changed_raw` | VARCHAR | Data de alteração do cargo tal como publicada (PositionChangedDate ou DataAlteracaoFuncao). |
+| `position_end_raw` | VARCHAR | Fim do cargo tal como publicado (PositionEndDate ou DataCessacaoFuncao). |
+| `version_date_raw` | VARCHAR | Data desta versão da declaração (rgiDataVersao), só V1 e V2. |
+| `is_exclusive` | BOOLEAN | Cargo exercido em exclusividade (V3 Exclusivity, V5 Exclusividade). Nulo para V1 e V2. |
+| `items` | INTEGER | Número de itens declarados, uma linha cada em stg_registo_interesses__items. |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |
 
 ### stg_registo_interesses__items
 
-One row per declared item, as published. Free-text fields of V1 and V2 (and V1 activities) become one item each.
+Uma linha por item declarado, tal como publicado. Os campos de texto livre da V1 e da V2 (e as atividades da V1) dão um item cada.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `declaration_key` | VARCHAR | Declaration the item belongs to. |
-| `item_number` | INTEGER | Position of the item within the declaration. |
-| `category` | VARCHAR | activity, social_position, society, support, service or other_situation. |
-| `source_list` | VARCHAR | Published list or field the item comes from, for example rgiCargosSociais or GenCargosMenosTresAnos. |
-| `item_id` | BIGINT | AR id of the item, when published. |
-| `type_code` | INTEGER | V3 Type code as published (0, 1 or 2), undocumented by the AR. |
-| `description` | VARCHAR | Activity, office, support, service or situation as written. |
-| `entity` | VARCHAR | Entity, company or body named. |
-| `nature` | VARCHAR | Nature of the entity or benefit (V5 Natureza, NaturezaBeneficio). |
-| `activity_area` | VARCHAR | Area of activity. |
-| `location` | VARCHAR | Head office or place. |
-| `share` | VARCHAR | Shareholding as written, for societies. |
-| `paid_raw` | VARCHAR | Paid flag as published (S, N, or 0 in V5). |
-| `start_date_raw` | VARCHAR | Start date as published, a year, a month or a day. |
-| `end_date_raw` | VARCHAR | End date as published. |
-| `date_raw` | VARCHAR | Single date or period as published for V5 supports and services. |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `declaration_key` | VARCHAR | Declaração a que o item pertence. |
+| `item_number` | INTEGER | Posição do item dentro da declaração. |
+| `category` | VARCHAR | activity, social_position, society, support, service ou other_situation (atividade, cargo social, sociedade, apoio, serviço ou outra situação). |
+| `source_list` | VARCHAR | Lista ou campo publicado de onde vem o item, por exemplo rgiCargosSociais ou GenCargosMenosTresAnos. |
+| `item_id` | BIGINT | Id do item na AR, quando publicado. |
+| `type_code` | INTEGER | Código Type da V3 tal como publicado (0, 1 ou 2), não documentado pela AR. |
+| `description` | VARCHAR | Atividade, cargo, apoio, serviço ou situação tal como escrito. |
+| `entity` | VARCHAR | Entidade, empresa ou organismo indicado. |
+| `nature` | VARCHAR | Natureza da entidade ou do benefício (V5 Natureza, NaturezaBeneficio). |
+| `activity_area` | VARCHAR | Área de atividade. |
+| `location` | VARCHAR | Sede ou local. |
+| `share` | VARCHAR | Participação social tal como escrita, para sociedades. |
+| `paid_raw` | VARCHAR | Indicação de remuneração tal como publicada (S, N, ou 0 na V5). |
+| `start_date_raw` | VARCHAR | Data de início tal como publicada, um ano, um mês ou um dia. |
+| `end_date_raw` | VARCHAR | Data de fim tal como publicada. |
+| `date_raw` | VARCHAR | Data única ou período tal como publicado nos apoios e serviços da V5. |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |

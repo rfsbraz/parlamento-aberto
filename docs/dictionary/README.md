@@ -1,48 +1,50 @@
-# Data dictionary
+# Dicionário de dados
 
-One page per mart in the data release, with column types and descriptions, known
-quirks, and the staging models each mart is built from. Staging column descriptions
-name the AR source field in parentheses, for example `(dtini)`.
+Uma página por mart da publicação de dados, com os tipos e as descrições das colunas,
+as particularidades conhecidas e os modelos de staging a partir dos quais cada mart é
+construído. As descrições das colunas de staging indicam entre parênteses o campo da
+fonte da AR, por exemplo `(dtini)`.
 
-Generated from `src/parlamento_aberto/models/schema.yml` by `uv run python -m parlamento_aberto.dictionary`. Do not edit by hand.
+Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
-How to query a release: [querying.md](../querying.md).
+Como consultar uma publicação: [querying.md](../querying.md).
 
 ## Marts
 
-| Mart | Description |
+| Mart | Descrição |
 |---|---|
-| [legislatures](legislatures.md) | One row per legislature. |
-| [sessions](sessions.md) | One row per legislative session. |
-| [electoral_circles](electoral_circles.md) | One row per electoral circle per legislature. |
-| [parliamentary_groups](parliamentary_groups.md) | One row per parliamentary group per legislature. |
-| [coalitions](coalitions.md) | One row per legislature, coalition list and parliamentary group, from seed_coalitions. |
-| [deputies](deputies.md) | One row per person (cadastro_id) who appears on any list, elected or not. |
-| [mandates](mandates.md) | One row per deputy, legislature and situation period (DepSituacao), as published. |
-| [group_memberships](group_memberships.md) | One row per deputy, legislature and parliamentary group period (DepGP). |
-| [initiatives](initiatives.md) | One row per initiative. |
-| [initiative_authors](initiative_authors.md) | One row per author of an initiative. |
-| [votes](votes.md) | One row per vote id, from the Votacao arrays of Iniciativas events (plenary), of their Comissao entries (committee) and the VotacaoDebate arrays of Atividades (plenary). |
-| [initiative_votes](initiative_votes.md) | Links plenary and committee votes to the initiatives and events they are published on. |
-| [vote_group_positions](vote_group_positions.md) | One row per vote, group and position, from the parsed detail. |
-| [vote_deputy_dissents](vote_deputy_dissents.md) | One row per deputy named in a vote detail, usually for voting apart from their group, or named as absent in the ausencias field of a vote without a detail. |
-| [interventions](interventions.md) | One row per intervention in plenary, with debate, speaker and diary reference. |
-| [questions](questions.md) | One row per pergunta or requerimento a deputy sent to government or another public body. |
-| [question_authors](question_authors.md) | One row per question and author. |
-| [question_recipients](question_recipients.md) | One row per question and recipient body. |
-| [interest_declarations](interest_declarations.md) | One row per declaration in the register of interests, XI to XV. |
-| [interests](interests.md) | One row per declared interest: activities and offices, social positions, societies, supports, services and other situations. |
+| [legislatures](legislatures.md) | Uma linha por legislatura. |
+| [sessions](sessions.md) | Uma linha por sessão legislativa. |
+| [electoral_circles](electoral_circles.md) | Uma linha por círculo eleitoral e por legislatura. |
+| [parliamentary_groups](parliamentary_groups.md) | Uma linha por grupo parlamentar e por legislatura. |
+| [coalitions](coalitions.md) | Uma linha por legislatura, lista da coligação e grupo parlamentar, a partir de seed_coalitions. |
+| [deputies](deputies.md) | Uma linha por pessoa (cadastro_id) que aparece em qualquer lista, eleita ou não. |
+| [mandates](mandates.md) | Uma linha por deputado, legislatura e período de situação (DepSituacao), tal como publicado. |
+| [group_memberships](group_memberships.md) | Uma linha por deputado, legislatura e período num grupo parlamentar (DepGP). |
+| [initiatives](initiatives.md) | Uma linha por iniciativa. |
+| [initiative_authors](initiative_authors.md) | Uma linha por autor de uma iniciativa. |
+| [votes](votes.md) | Uma linha por id de votação, a partir dos arrays Votacao dos eventos das Iniciativas (plenário), das suas entradas Comissao (comissão) e dos arrays VotacaoDebate das Atividades (plenário). |
+| [initiative_votes](initiative_votes.md) | Liga as votações em plenário e em comissão às iniciativas e eventos em que são publicadas. |
+| [vote_group_positions](vote_group_positions.md) | Uma linha por votação, grupo e sentido de voto, a partir do detalhe lido. |
+| [vote_deputy_dissents](vote_deputy_dissents.md) | Uma linha por deputado nomeado no detalhe de uma votação, normalmente por votar de forma diferente do seu grupo, ou nomeado como ausente no campo ausencias de uma votação sem detalhe. |
+| [interventions](interventions.md) | Uma linha por intervenção em plenário, com debate, orador e referência no Diário. |
+| [questions](questions.md) | Uma linha por pergunta ou requerimento que um deputado enviou ao Governo ou a outro organismo público. |
+| [question_authors](question_authors.md) | Uma linha por pergunta e autor. |
+| [question_recipients](question_recipients.md) | Uma linha por pergunta e organismo destinatário. |
+| [interest_declarations](interest_declarations.md) | Uma linha por declaração no registo de interesses, XI a XV. |
+| [interests](interests.md) | Uma linha por interesse declarado: atividades e cargos, cargos sociais, sociedades, apoios, serviços e outras situações. |
 
-## Licence and attribution
+## Licença e atribuição
 
-The data is published under CC BY 4.0 (`LICENSE-DATA`). The AR allows free reuse of
-its open data as long as the source is credited. Credit it as:
+Os dados são publicados sob CC BY 4.0 (`LICENSE-DATA`). A AR permite a reutilização
+livre dos seus dados abertos, desde que a fonte seja mencionada. Indique-a assim:
 
 > Fonte: Assembleia da República, dados abertos.
 
-Terms: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx
+Termos: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx
 
-Every CSV in a release starts with that line, and `manifest.json` carries it too.
+Todos os CSV de uma publicação começam com essa linha, que também consta do
+`manifest.json`.
 
-Biographies, birth dates and interest registers are personal data. The marts carry
-only what the AR publishes. See the main README to report wrong data.
+Biografias, datas de nascimento e registos de interesses são dados pessoais. Os marts
+contêm apenas o que a AR publica. Para reportar dados errados, veja o README principal.

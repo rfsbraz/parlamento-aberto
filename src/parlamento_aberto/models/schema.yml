@@ -6,663 +6,670 @@ schema_version: "1.0.0"
 # The data dictionary in docs/dictionary is generated from this file
 # (uv run python -m parlamento_aberto.dictionary). An optional quirks list on a model
 # goes on its page, for example where the JSON disagrees with the old mappers.
+# Descriptions are in pt-PT (#59); keys, model and column names stay in English.
 models:
   seed_seats:
     description: >-
-      Seats in the Assembleia da República per legislature, hand-kept, each row citing its
-      source. Constituinte is the 1975-1976 Constituent Assembly, with 250 seats. Legislature I is split like the AR folders: I-A (from 1976, 263 seats) and
-      I-B (from the December 1979 interim election, 250 seats), with the same citation.
+      Lugares na Assembleia da República por legislatura, mantidos à mão, cada linha com a sua
+      fonte. Constituinte é a Assembleia Constituinte de 1975-1976, com 250 lugares. A legislatura I está dividida como nas pastas da AR: I-A (desde 1976, 263 lugares) e
+      I-B (desde as eleições intercalares de dezembro de 1979, 250 lugares), com a mesma fonte.
     columns:
-      legislature: Legislature in Roman numerals as in the AR folder names, for example XVII or I-A.
-      seats: Total number of seats in that legislature.
-      source: Where the seat count comes from.
+      legislature: Legislatura em numeração romana, como nos nomes das pastas da AR, por exemplo XVII ou I-A.
+      seats: Número total de lugares nessa legislatura.
+      source: Origem do número de lugares.
 
   stg_informacao_base__legislatures:
-    description: InformacaoBase DetalheLegislatura, one row per legislature file.
+    description: InformacaoBase DetalheLegislatura, uma linha por ficheiro de legislatura.
     columns:
-      legislature_id: AR internal id of the legislature (id).
-      start_date: First day of the legislature (dtini).
-      end_date: Last day of the legislature (dtfim), null while it is running.
-      legislature: Legislature in Roman numerals, from the file path.
-      source_file: Normalised file the row was read from, relative to data/.
+      legislature_id: Id interno da legislatura na AR (id).
+      start_date: Primeiro dia da legislatura (dtini).
+      end_date: Último dia da legislatura (dtfim), nulo enquanto está em curso.
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
   stg_informacao_base__sessions:
-    description: InformacaoBase SessoesLegislativas, one row per legislative session.
+    description: InformacaoBase SessoesLegislativas, uma linha por sessão legislativa.
     columns:
-      session_number: Session number within the legislature (numSessao).
-      start_date: First day of the session (dataInicio).
-      end_date: Last day of the session (dataFim).
-      legislature: Legislature in Roman numerals, from the file path.
-      source_file: Normalised file the row was read from, relative to data/.
+      session_number: Número da sessão dentro da legislatura (numSessao).
+      start_date: Primeiro dia da sessão (dataInicio).
+      end_date: Último dia da sessão (dataFim).
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
   stg_informacao_base__electoral_circles:
-    description: InformacaoBase CirculosEleitorais, one row per electoral circle.
+    description: InformacaoBase CirculosEleitorais, uma linha por círculo eleitoral.
     columns:
-      circle_id: AR id of the electoral circle (cpId).
-      name: Name of the electoral circle (cpDes).
-      legislature: Legislature in Roman numerals, from the file path.
-      source_file: Normalised file the row was read from, relative to data/.
+      circle_id: Id do círculo eleitoral na AR (cpId).
+      name: Nome do círculo eleitoral (cpDes).
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
   stg_informacao_base__parliamentary_groups:
-    description: InformacaoBase GruposParlamentares, one row per parliamentary group.
+    description: InformacaoBase GruposParlamentares, uma linha por grupo parlamentar.
     columns:
-      group_acronym: Group acronym (sigla), for example PS.
-      name: Full name of the party or group (nome).
-      legislature: Legislature in Roman numerals, from the file path.
-      source_file: Normalised file the row was read from, relative to data/.
+      group_acronym: Sigla do grupo (sigla), por exemplo PS.
+      name: Nome completo do partido ou grupo (nome).
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
   stg_informacao_base__deputies:
-    description: InformacaoBase Deputados, one row per person on the lists of a legislature, elected or not.
+    description: InformacaoBase Deputados, uma linha por pessoa nas listas de uma legislatura, eleita ou não.
     columns:
-      cadastro_id: Person id shared across legislatures and datasets (DepCadId).
-      deputy_id: Id of this person in this legislature (DepId).
-      full_name: Full name (DepNomeCompleto).
-      parliamentary_name: Name used in parliament (DepNomeParlamentar).
-      circle_id: Electoral circle the person ran in (DepCPId).
-      circle_name: Name of that electoral circle (DepCPDes).
-      situations: Situation periods (DepSituacao) as situation, start_date, end_date.
-      groups: Group memberships (DepGP) as group_id, group_acronym, start_date, end_date.
-      legislature: Legislature in Roman numerals, from the file path.
-      source_file: Normalised file the row was read from, relative to data/.
+      cadastro_id: Id da pessoa, comum a todas as legislaturas e conjuntos de dados (DepCadId).
+      deputy_id: Id desta pessoa nesta legislatura (DepId).
+      full_name: Nome completo (DepNomeCompleto).
+      parliamentary_name: Nome usado no parlamento (DepNomeParlamentar).
+      circle_id: Círculo eleitoral por onde a pessoa concorreu (DepCPId).
+      circle_name: Nome desse círculo eleitoral (DepCPDes).
+      situations: Períodos de situação (DepSituacao) como situation, start_date, end_date.
+      groups: Filiações em grupos (DepGP) como group_id, group_acronym, start_date, end_date.
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
   stg_registo_biografico__biographies:
     description: >-
-      RegistoBiografico, one row per person record, scalar fields only. II and III come from
-      the older XML-shaped files listed on the AR I Legislatura page (camelCase keys), and
-      Constituinte from the older RegistoBiograficoConstituinte.xml in the same shape. The
-      other pages are older snapshots of the XVII register and are not stored, except I (335
-      people), so I rows are not that legislature's deputies (docs/known-gaps.md).
+      RegistoBiografico, uma linha por registo de pessoa, só campos escalares. II e III vêm
+      dos ficheiros mais antigos em formato XML listados na página I Legislatura da AR (chaves
+      em camelCase), e Constituinte do RegistoBiograficoConstituinte.xml mais antigo, no mesmo
+      formato. As outras páginas são cópias mais antigas do registo da XVII e não são guardadas,
+      exceto a I (335 pessoas), pelo que as linhas da I não são os deputados dessa legislatura
+      (docs/known-gaps.md).
     columns:
-      cadastro_id: Person id shared across legislatures and datasets (CadId).
-      full_name: Full name (CadNomeCompleto).
-      birth_date: Date of birth (CadDtNascimento).
-      sex: Sex as published by the AR, M or F (CadSexo).
-      profession: Profession (CadProfissao).
-      legislature: Legislature in Roman numerals, from the file path.
-      source_file: Normalised file the row was read from, relative to data/.
+      cadastro_id: Id da pessoa, comum a todas as legislaturas e conjuntos de dados (CadId).
+      full_name: Nome completo (CadNomeCompleto).
+      birth_date: Data de nascimento (CadDtNascimento).
+      sex: Sexo tal como publicado pela AR, M ou F (CadSexo).
+      profession: Profissão (CadProfissao).
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
   legislatures:
-    description: One row per legislature.
+    description: Uma linha por legislatura.
     columns:
-      legislature: Legislature in Roman numerals, for example XVII.
-      legislature_id: AR internal id of the legislature.
-      start_date: First day of the legislature.
-      end_date: Last day of the legislature, null while it is running.
-      extract_date: Date of the AR extract, taken from the end date AR writes on open group memberships.
+      legislature: Legislatura em numeração romana, por exemplo XVII.
+      legislature_id: Id interno da legislatura na AR.
+      start_date: Primeiro dia da legislatura.
+      end_date: Último dia da legislatura, nulo enquanto está em curso.
+      extract_date: Data da extração da AR, tirada da data de fim que a AR escreve nas filiações em grupos ainda abertas.
 
   sessions:
-    description: One row per legislative session.
+    description: Uma linha por sessão legislativa.
     columns:
-      legislature: Legislature in Roman numerals.
-      session_number: Session number within the legislature.
-      start_date: First day of the session.
-      end_date: Last day of the session.
+      legislature: Legislatura em numeração romana.
+      session_number: Número da sessão dentro da legislatura.
+      start_date: Primeiro dia da sessão.
+      end_date: Último dia da sessão.
 
   electoral_circles:
-    description: One row per electoral circle per legislature.
+    description: Uma linha por círculo eleitoral e por legislatura.
     columns:
-      legislature: Legislature in Roman numerals.
-      circle_id: AR id of the electoral circle.
-      name: Name of the electoral circle.
+      legislature: Legislatura em numeração romana.
+      circle_id: Id do círculo eleitoral na AR.
+      name: Nome do círculo eleitoral.
 
   parliamentary_groups:
-    description: One row per parliamentary group per legislature.
+    description: Uma linha por grupo parlamentar e por legislatura.
     columns:
-      legislature: Legislature in Roman numerals.
-      group_acronym: Group acronym, for example PS.
-      name: Full name of the party or group.
+      legislature: Legislatura em numeração romana.
+      group_acronym: Sigla do grupo, por exemplo PS.
+      name: Nome completo do partido ou grupo.
 
   seed_coalitions:
     description: >-
-      Hand-kept list of the electoral coalitions that won seats, one row per legislature,
-      coalition list and parliamentary group it maps to, each row citing its source. Started
-      from the old coalition_detector.py, keeping only coalitions that elected deputies and
-      groups that exist in parliamentary_groups.
+      Lista mantida à mão das coligações eleitorais que elegeram deputados, uma linha por
+      legislatura, lista da coligação e grupo parlamentar correspondente, cada linha com a sua
+      fonte. Partiu do antigo coalition_detector.py, mantendo só as coligações que elegeram
+      deputados e os grupos que existem em parliamentary_groups.
     columns:
-      legislature: Legislature in Roman numerals (the data folder name) the election filled.
-      coalition: Short name the coalition is known by, for example AD or CDU.
-      ballot_acronym: Acronym of the list on the ballot, for example PCP-PEV or PPD/PSD.CDS-PP.
-      coalition_name: Name of the coalition list.
-      group_code: Parliamentary group its deputies sat in, as listed in that legislature's parliamentary_groups.
-      source_url: Reference for the composition of the coalition.
-      election_url: CNE page of the election, with the official results map.
-      note: Exceptions, for example circles where the parties ran separately.
+      legislature: Legislatura em numeração romana (o nome da pasta de dados) preenchida pela eleição.
+      coalition: Nome curto pelo qual a coligação é conhecida, por exemplo AD ou CDU.
+      ballot_acronym: Sigla da lista no boletim de voto, por exemplo PCP-PEV ou PPD/PSD.CDS-PP.
+      coalition_name: Nome da lista da coligação.
+      group_code: Grupo parlamentar onde os seus deputados se sentaram, como listado em parliamentary_groups nessa legislatura.
+      source_url: Referência para a composição da coligação.
+      election_url: Página da CNE sobre a eleição, com o mapa oficial de resultados.
+      note: Exceções, por exemplo círculos onde os partidos concorreram separados.
 
   coalitions:
     description: >-
-      One row per legislature, coalition list and parliamentary group, from seed_coalitions.
-      Use it to read results by group: for example AD in XVII sits as PSD and CDS-PP, and CDU
-      as PCP (and PEV until XIV). Parties that ran alone are not listed.
+      Uma linha por legislatura, lista da coligação e grupo parlamentar, a partir de seed_coalitions.
+      Serve para ler resultados por grupo: por exemplo, a AD na XVII senta-se como PSD e CDS-PP, e a CDU
+      como PCP (e PEV até à XIV). Os partidos que concorreram sozinhos não constam.
     columns:
-      legislature: Legislature in Roman numerals.
-      coalition: Short name the coalition is known by, for example AD or CDU.
-      ballot_acronym: Acronym of the list on the ballot.
-      coalition_name: Name of the coalition list.
-      group_code: Parliamentary group, joins to parliamentary_groups on legislature and group_acronym.
-      group_name: Name of that group in parliamentary_groups.
-      source_url: Reference for the composition of the coalition.
-      election_url: CNE page of the election, with the official results map.
-      note: Exceptions, for example circles where the parties ran separately.
+      legislature: Legislatura em numeração romana.
+      coalition: Nome curto pelo qual a coligação é conhecida, por exemplo AD ou CDU.
+      ballot_acronym: Sigla da lista no boletim de voto.
+      coalition_name: Nome da lista da coligação.
+      group_code: Grupo parlamentar, liga a parliamentary_groups por legislature e group_acronym.
+      group_name: Nome desse grupo em parliamentary_groups.
+      source_url: Referência para a composição da coligação.
+      election_url: Página da CNE sobre a eleição, com o mapa oficial de resultados.
+      note: Exceções, por exemplo círculos onde os partidos concorreram separados.
 
   deputies:
-    description: One row per person (cadastro_id) who appears on any list, elected or not. Use mandates to find who sat when.
+    description: Uma linha por pessoa (cadastro_id) que aparece em qualquer lista, eleita ou não. Use mandates para saber quem teve lugar e quando.
     columns:
-      cadastro_id: Person id shared across legislatures and datasets.
-      full_name: Full name, from RegistoBiografico when present, otherwise from the latest InformacaoBase.
-      parliamentary_name: Name used in parliament, from the latest legislature the person appears in.
-      sex: Sex as published by the AR, M or F. Null without a RegistoBiografico record.
-      birth_date: Date of birth. Null without a RegistoBiografico record.
-      profession: Profession. Null without a RegistoBiografico record.
+      cadastro_id: Id da pessoa, comum a todas as legislaturas e conjuntos de dados.
+      full_name: Nome completo, do RegistoBiografico quando existe, senão da InformacaoBase mais recente.
+      parliamentary_name: Nome usado no parlamento, da legislatura mais recente em que a pessoa aparece.
+      sex: Sexo tal como publicado pela AR, M ou F. Nulo sem registo no RegistoBiografico.
+      birth_date: Data de nascimento. Nulo sem registo no RegistoBiografico.
+      profession: Profissão. Nulo sem registo no RegistoBiografico.
       biography_legislature: >-
-        Legislature of the RegistoBiografico record the biography fields come from, the latest
-        one for the person. Real per-legislature biographies exist only for Constituinte, II and
-        III; XVII is the current register. Null without a RegistoBiografico record.
+        Legislatura do registo do RegistoBiografico de onde vêm os campos biográficos, a mais
+        recente para a pessoa. Só há biografias reais por legislatura para a Constituinte, a II e
+        a III; a XVII é o registo atual. Nulo sem registo no RegistoBiografico.
 
   mandates:
     description: >-
-      One row per deputy, legislature and situation period (DepSituacao), as published.
-      Who held a seat on day D is the seated_on(D) query, not a column; seated_during(D0, D1)
-      gives the same for every day in a range, and the vote marts use it. AR periods for one
-      person can overlap on a handover day, for example an Efetivo and a Suspenso period that
-      both cover the same day. The rule: among a person's periods covering D, the one that
-      starts latest wins, on a tie the longer one (an open end counts as longest) wins, and on
-      a tie in both dates the effective one wins. The person is seated if that period is
-      Efetivo, Efetivo Temporário or Efetivo Definitivo. On a swap day, when a circle has more
-      deputies on D than on both D - 1 and D + 1, effective periods that end on D (with no
-      effective period for the same person starting on D + 1) do not count, up to that excess
-      and the number of people starting a seat on D. Counts for Constituinte to VI are still
-      overstated on many days, see docs/known-gaps.md.
+      Uma linha por deputado, legislatura e período de situação (DepSituacao), tal como publicado.
+      Quem tinha lugar no dia D é a consulta seated_on(D), não uma coluna; seated_during(D0, D1)
+      dá o mesmo para cada dia de um intervalo, e os marts de votações usam-na. Os períodos da AR
+      de uma pessoa podem sobrepor-se num dia de passagem, por exemplo um período Efetivo e um
+      Suspenso que cobrem o mesmo dia. A regra: entre os períodos de uma pessoa que cobrem D,
+      ganha o que começa mais tarde; em caso de empate, ganha o mais longo (um fim em aberto conta
+      como o mais longo); e, com as duas datas empatadas, ganha o efetivo. A pessoa tem lugar se
+      esse período for Efetivo, Efetivo Temporário ou Efetivo Definitivo. Num dia de troca, quando
+      um círculo tem mais deputados em D do que em D - 1 e em D + 1, os períodos efetivos que
+      terminam em D (sem período efetivo da mesma pessoa a começar em D + 1) não contam, até esse
+      excesso e ao número de pessoas que começam um lugar em D. As contagens da Constituinte à VI
+      continuam sobrestimadas em muitos dias, ver docs/known-gaps.md.
     quirks:
       - >-
-        InformacaoBase lists everyone on the lists of a legislature, elected or not: 1,446 people for XVII at the 20 Oct 2026 sync, against 230 seats. Count seats from the is_effective periods that cover a date, not from rows of the lists. The old site counted every record as a deputy.
+        A InformacaoBase lista todas as pessoas nas listas de uma legislatura, eleitas ou não: 1446 pessoas na XVII na sincronização de 20 de outubro de 2026, para 230 lugares. Conte os lugares a partir dos períodos is_effective que cobrem uma data, não a partir das linhas das listas. O site antigo contava cada registo como um deputado.
     columns:
-      legislature: Legislature in Roman numerals.
-      cadastro_id: Person id, joins to deputies.
-      deputy_id: Id of this person in this legislature.
-      circle_id: Electoral circle the person ran in, joins to electoral_circles.
-      situation: Situation as published, for example Efetivo, Suplente, Suspenso(Eleito).
-      is_effective: True for Efetivo, Efetivo Temporário and Efetivo Definitivo, the situations that hold a seat.
-      start_date: First day of the situation.
-      end_date: Last day of the situation, null while it is open.
+      legislature: Legislatura em numeração romana.
+      cadastro_id: Id da pessoa, liga a deputies.
+      deputy_id: Id desta pessoa nesta legislatura.
+      circle_id: Círculo eleitoral por onde a pessoa concorreu, liga a electoral_circles.
+      situation: Situação tal como publicada, por exemplo Efetivo, Suplente, Suspenso(Eleito).
+      is_effective: Verdadeiro para Efetivo, Efetivo Temporário e Efetivo Definitivo, as situações que ocupam um lugar.
+      start_date: Primeiro dia da situação.
+      end_date: Último dia da situação, nulo enquanto está aberta.
 
   group_memberships:
-    description: One row per deputy, legislature and parliamentary group period (DepGP).
+    description: Uma linha por deputado, legislatura e período num grupo parlamentar (DepGP).
     quirks:
       - >-
-        AR writes the extract date as the end date of an open membership. The old mapper stored that date as published, so open memberships looked closed. Here an open membership has a null end_date and is_open = true.
+        A AR escreve a data da extração como data de fim de uma filiação aberta. O mapeador antigo guardava essa data tal como publicada, pelo que as filiações abertas pareciam fechadas. Aqui uma filiação aberta tem end_date nulo e is_open = true.
     columns:
-      legislature: Legislature in Roman numerals.
-      cadastro_id: Person id, joins to deputies.
-      group_id: AR id of the group in this legislature (gpId).
-      group_acronym: Group acronym, joins to parliamentary_groups.
-      start_date: First day in the group.
-      end_date: Last day in the group, null while the membership is open.
-      is_open: True when the legislature is running and AR's end date is on or after the extract date.
+      legislature: Legislatura em numeração romana.
+      cadastro_id: Id da pessoa, liga a deputies.
+      group_id: Id do grupo na AR nesta legislatura (gpId).
+      group_acronym: Sigla do grupo, liga a parliamentary_groups.
+      start_date: Primeiro dia no grupo.
+      end_date: Último dia no grupo, nulo enquanto a filiação está aberta.
+      is_open: Verdadeiro quando a legislatura está em curso e a data de fim da AR é igual ou posterior à data da extração.
 
   stg_iniciativas__initiatives:
-    description: Iniciativas, one row per initiative record.
+    description: Iniciativas, uma linha por registo de iniciativa.
     columns:
-      initiative_id: AR id of the initiative (IniId).
-      number: Initiative number within its type and legislature (IniNr).
-      type_code: Initiative type code (IniTipo), for example J.
-      type: Initiative type (IniDescTipo), for example Projeto de Lei.
-      session_number: Legislative session the initiative was submitted in (IniSel).
-      title: Title (IniTitulo).
-      text_url: Link to the initiative text (IniLinkTexto).
-      author_kind_code: Code of the kind of author (IniAutorOutros.sigla), for example D, G or V.
-      author_kind: Kind of author (IniAutorOutros.nome), for example Deputados, Grupos Parlamentares or Governo.
-      author_committee: Committee that authored the initiative, when the author is a committee (IniAutorOutros.iniAutorComissao).
-      author_deputies: Deputy authors (IniAutorDeputados) as cadastro_id, name, group_acronym.
-      author_groups: Group authors (IniAutorGruposParlamentares) as group acronyms.
-      events: Events (IniEventos) as event_id, phase, phase_date, the raw plenary votes (Votacao) and the committees (Comissao) as committee_id, committee_name and their raw votes.
-      legislature: Legislature in Roman numerals, from the file path.
-      source_file: Normalised file the row was read from, relative to data/.
+      initiative_id: Id da iniciativa na AR (IniId).
+      number: Número da iniciativa dentro do seu tipo e legislatura (IniNr).
+      type_code: Código do tipo de iniciativa (IniTipo), por exemplo J.
+      type: Tipo de iniciativa (IniDescTipo), por exemplo Projeto de Lei.
+      session_number: Sessão legislativa em que a iniciativa deu entrada (IniSel).
+      title: Título (IniTitulo).
+      text_url: Ligação para o texto da iniciativa (IniLinkTexto).
+      author_kind_code: Código do tipo de autor (IniAutorOutros.sigla), por exemplo D, G ou V.
+      author_kind: Tipo de autor (IniAutorOutros.nome), por exemplo Deputados, Grupos Parlamentares ou Governo.
+      author_committee: Comissão autora da iniciativa, quando o autor é uma comissão (IniAutorOutros.iniAutorComissao).
+      author_deputies: Deputados autores (IniAutorDeputados) como cadastro_id, name, group_acronym.
+      author_groups: Grupos autores (IniAutorGruposParlamentares) como siglas de grupos.
+      events: Eventos (IniEventos) como event_id, phase, phase_date, as votações em plenário em bruto (Votacao) e as comissões (Comissao) como committee_id, committee_name e as suas votações em bruto.
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
   stg_iniciativas__votes:
-    description: One row per vote record (Votacao) in an initiative event. A vote on several initiatives appears once per initiative.
+    description: Uma linha por registo de votação (Votacao) num evento de uma iniciativa. Uma votação sobre várias iniciativas aparece uma vez por iniciativa.
     columns:
-      vote_id: AR id of the vote (id).
-      initiative_id: Initiative the record is published on.
-      event_id: Event the vote belongs to (EvtId).
-      phase: Phase of that event (Fase), for example Votação na generalidade.
-      phase_date: Date of that event (DataFase).
-      date: Date of the vote (data).
-      result: Result as published (resultado), for example Aprovado or Rejeitado.
-      meeting: Meeting number (reuniao).
-      meeting_type: Meeting type code (tipoReuniao), RP for a plenary meeting.
-      unanimous: True when the AR marks the vote unanimous (unanime), otherwise false.
-      description: Description of what was voted (descricao).
-      detail: Who voted which way (detalhe), null when absent or empty.
-      absent_groups: Groups listed as absent (ausencias).
-      legislature: Legislature of the initiative, from the file path.
-      source_file: Normalised file the row was read from, relative to data/.
+      vote_id: Id da votação na AR (id).
+      initiative_id: Iniciativa em que o registo é publicado.
+      event_id: Evento a que a votação pertence (EvtId).
+      phase: Fase desse evento (Fase), por exemplo Votação na generalidade.
+      phase_date: Data desse evento (DataFase).
+      date: Data da votação (data).
+      result: Resultado tal como publicado (resultado), por exemplo Aprovado ou Rejeitado.
+      meeting: Número da reunião (reuniao).
+      meeting_type: Código do tipo de reunião (tipoReuniao), RP para uma reunião plenária.
+      unanimous: Verdadeiro quando a AR marca a votação como unânime (unanime), senão falso.
+      description: Descrição do que foi votado (descricao).
+      detail: Quem votou em que sentido (detalhe), nulo quando ausente ou vazio.
+      absent_groups: Grupos indicados como ausentes (ausencias).
+      legislature: Legislatura da iniciativa, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
   stg_atividades__votes:
-    description: One row per vote record (VotacaoDebate) on an activity in Atividades AtividadesGerais, such as a vote of condolence or a motion.
+    description: Uma linha por registo de votação (VotacaoDebate) numa atividade em Atividades AtividadesGerais, como um voto de pesar ou uma moção.
     columns:
-      vote_id: AR id of the vote (id).
-      activity_type: Activity type code (Tipo), for example VOT or MOC.
-      activity_type_description: Activity type (DescTipo).
-      activity_number: Activity number (Numero).
-      activity_subject: Activity subject (Assunto).
-      date: Date of the vote (data).
-      result: Result as published (resultado).
-      meeting: Meeting number (reuniao).
-      meeting_type: Meeting type code (tipoReuniao).
-      unanimous: True when the AR marks the vote unanimous (unanime), otherwise false.
-      description: Description of what was voted (descricao).
-      detail: Who voted which way (detalhe), null when absent or empty.
-      absent_groups: Groups listed as absent (ausencias).
-      legislature: Legislature in Roman numerals, from the file path.
-      source_file: Normalised file the row was read from, relative to data/.
+      vote_id: Id da votação na AR (id).
+      activity_type: Código do tipo de atividade (Tipo), por exemplo VOT ou MOC.
+      activity_type_description: Tipo de atividade (DescTipo).
+      activity_number: Número da atividade (Numero).
+      activity_subject: Assunto da atividade (Assunto).
+      date: Data da votação (data).
+      result: Resultado tal como publicado (resultado).
+      meeting: Número da reunião (reuniao).
+      meeting_type: Código do tipo de reunião (tipoReuniao).
+      unanimous: Verdadeiro quando a AR marca a votação como unânime (unanime), senão falso.
+      description: Descrição do que foi votado (descricao).
+      detail: Quem votou em que sentido (detalhe), nulo quando ausente ou vazio.
+      absent_groups: Grupos indicados como ausentes (ausencias).
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
   stg_iniciativas__committee_votes:
-    description: One row per committee vote record (Votacao inside IniEventos[].Comissao[]).
+    description: Uma linha por registo de votação em comissão (Votacao dentro de IniEventos[].Comissao[]).
     columns:
-      vote_id: AR id of the vote (id). Committee vote ids do not overlap plenary ones.
-      initiative_id: Initiative the record is published on.
-      event_id: Event the committee entry belongs to (EvtId).
-      phase: Phase of that event (Fase).
-      phase_date: Date of that event (DataFase).
-      committee_id: AR id of the committee (IdComissao), the same id as idOrgao in ComposicaoOrgaos.
-      committee_name: Committee name (Nome), trimmed.
-      date: Date of the vote (data).
-      result: Result as published (resultado).
-      meeting: Committee meeting number (reuniao).
-      unanimous: True when the AR marks the vote unanimous (unanime), otherwise false.
-      description: Description of what was voted (descricao), for example MAIORIA or ARTIGO A ARTIGO.
-      detail: Who voted which way (detalhe), null when absent or empty.
-      absent_groups: Groups listed as absent (ausencias).
-      legislature: Legislature of the initiative, from the file path.
-      source_file: Normalised file the row was read from, relative to data/.
+      vote_id: Id da votação na AR (id). Os ids das votações em comissão não se sobrepõem aos do plenário.
+      initiative_id: Iniciativa em que o registo é publicado.
+      event_id: Evento a que pertence a entrada da comissão (EvtId).
+      phase: Fase desse evento (Fase).
+      phase_date: Data desse evento (DataFase).
+      committee_id: Id da comissão na AR (IdComissao), o mesmo id que idOrgao em ComposicaoOrgaos.
+      committee_name: Nome da comissão (Nome), sem espaços nas pontas.
+      date: Data da votação (data).
+      result: Resultado tal como publicado (resultado).
+      meeting: Número da reunião da comissão (reuniao).
+      unanimous: Verdadeiro quando a AR marca a votação como unânime (unanime), senão falso.
+      description: Descrição do que foi votado (descricao), por exemplo MAIORIA ou ARTIGO A ARTIGO.
+      detail: Quem votou em que sentido (detalhe), nulo quando ausente ou vazio.
+      absent_groups: Grupos indicados como ausentes (ausencias).
+      legislature: Legislatura da iniciativa, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
   stg_composicao_orgaos__committee_members:
-    description: ComposicaoOrgaos Comissoes, one row per committee member record (HistoricoComposicao).
+    description: ComposicaoOrgaos Comissoes, uma linha por registo de membro de uma comissão (HistoricoComposicao).
     columns:
-      committee_id: AR id of the committee (DetalheOrgao.idOrgao).
-      committee_name: Committee name (DetalheOrgao.nomeSigla), trimmed.
-      cadastro_id: Person id (depCadId), joins to deputies.
-      situations: Membership periods (depSituacao) as status (sioDes, Ativo or Inativo), membership (sioTipMem, Efetivo or Suplente), start_date, end_date.
-      groups: Group periods (depGP) as group_acronym, start_date, end_date. An open period has a null end date.
-      legislature: Legislature in Roman numerals, from the file path.
-      source_file: Normalised file the row was read from, relative to data/.
+      committee_id: Id da comissão na AR (DetalheOrgao.idOrgao).
+      committee_name: Nome da comissão (DetalheOrgao.nomeSigla), sem espaços nas pontas.
+      cadastro_id: Id da pessoa (depCadId), liga a deputies.
+      situations: Períodos como membro (depSituacao) como status (sioDes, Ativo ou Inativo), membership (sioTipMem, Efetivo ou Suplente), start_date, end_date.
+      groups: Períodos em grupos (depGP) como group_acronym, start_date, end_date. Um período aberto tem data de fim nula.
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
   stg_votes__detail_items:
     description: >-
-      Built in Python by the vote parser. One row per item in each distinct vote detail
-      string, or one row with an error when the parser rejects the string.
+      Construído em Python pelo parser das votações. Uma linha por item em cada texto de detalhe
+      distinto, ou uma linha com um erro quando o parser rejeita o texto.
     columns:
-      detail: The detail string, joins to the detail column of the vote models.
-      item_number: Position of the item in the string, from 1. 0 on an error row.
-      kind: group (a whole group), count (a number of a group's deputies, as in 2-PS) or deputy (a named deputy).
-      group_acronym: Group code as written in the string.
-      position: favour, against, abstention or absent.
-      deputies: For a count item, the number of deputies.
-      name: For a deputy item, the name as written in the string.
-      error: Why the parser rejected the string, null when it was parsed.
+      detail: O texto do detalhe, liga à coluna detail dos modelos de votações.
+      item_number: Posição do item no texto, a partir de 1. 0 numa linha de erro.
+      kind: group (um grupo inteiro), count (um número de deputados de um grupo, como em 2-PS) ou deputy (um deputado nomeado).
+      group_acronym: Código do grupo tal como escrito no texto.
+      position: favour, against, abstention ou absent (a favor, contra, abstenção ou ausente).
+      deputies: Num item count, o número de deputados.
+      name: Num item deputy, o nome tal como escrito no texto.
+      error: Porque é que o parser rejeitou o texto, nulo quando foi lido.
 
   seed_group_aliases:
     description: >-
-      Hand-kept aliases for group codes the AR writes differently within a legislature, each
-      row citing its source. Marts keep the published code in group_code_raw and put the
-      aliased code, or the published one when no alias applies, in group_code.
+      Aliases mantidos à mão para códigos de grupo que a AR escreve de forma diferente dentro
+      de uma legislatura, cada linha com a sua fonte. Os marts guardam o código publicado em
+      group_code_raw e põem em group_code o código do alias, ou o publicado quando não se aplica
+      nenhum alias.
     columns:
-      legislature: Legislature in Roman numerals (the data folder name, for example I-B) the alias applies to.
-      alias: Code as published, for example PPD.
-      group_code: Code it maps to, as listed in that legislature's parliamentary_groups.
-      source_url: Reference for the mapping.
-      note: Why the alias exists.
+      legislature: Legislatura em numeração romana (o nome da pasta de dados, por exemplo I-B) a que o alias se aplica.
+      alias: Código tal como publicado, por exemplo PPD.
+      group_code: Código correspondente, como listado em parliamentary_groups nessa legislatura.
+      source_url: Referência para a correspondência.
+      note: Porque existe o alias.
 
   seed_ept_holders:
     description: >-
-      EpT holder to AR cadastro_id crosswalk (#47), one row per Entidade para a Transparência
-      holder who is a Deputado or Deputada at entity 4508 (XVII) or 510 (before XVII). Written by
-      python -m parlamento_aberto.ept_crosswalk from the EpT titularidade lists and InformacaoBase
-      XIV to XVII, matching the normalised full name within the legislatures the body covers, and
-      taking every other holder from seed_ept_holder_overrides. Ids only. Two holder ids can share a
-      cadastro_id when EpT filed one person under a new holder id at the other body.
+      Correspondência entre titulares da EpT e o cadastro_id da AR (#47), uma linha por titular
+      da Entidade para a Transparência que é Deputado ou Deputada na entidade 4508 (XVII) ou 510
+      (antes da XVII). Escrito por python -m parlamento_aberto.ept_crosswalk a partir das listas de
+      titularidades da EpT e da InformacaoBase XIV a XVII, comparando o nome completo normalizado
+      dentro das legislaturas que o órgão cobre, e tirando todos os outros titulares de
+      seed_ept_holder_overrides. Só ids. Dois ids de titular podem partilhar um cadastro_id quando
+      a EpT registou a mesma pessoa com um novo id de titular no outro órgão.
     columns:
-      ept_holder_id: EpT holder id (holderId), unique.
-      cadastro_id: AR cadastro id of the deputy, null when unmatched.
-      match: name (normalised full name, one candidate), override (from seed_ept_holder_overrides) or unmatched (no AR deputy found).
+      ept_holder_id: Id do titular na EpT (holderId), único.
+      cadastro_id: Id de cadastro do deputado na AR, nulo quando não há correspondência.
+      match: name (nome completo normalizado, um candidato), override (de seed_ept_holder_overrides) ou unmatched (nenhum deputado da AR encontrado).
 
   seed_ept_holder_overrides:
     description: >-
-      Hand-kept EpT holders the name match leaves with no candidate or more than one, each with a
-      note on how it was resolved (#47). An empty cadastro_id marks a holder with no AR deputy.
+      Titulares da EpT, mantidos à mão, para os quais a comparação de nomes não dá nenhum
+      candidato ou dá mais do que um, cada um com uma nota sobre como foi resolvido (#47). Um
+      cadastro_id vazio marca um titular sem deputado na AR.
     columns:
-      ept_holder_id: EpT holder id (holderId).
-      cadastro_id: AR cadastro id picked by hand, null when no AR deputy was found.
-      note: Why this cadastro_id, or why none.
+      ept_holder_id: Id do titular na EpT (holderId).
+      cadastro_id: Id de cadastro na AR escolhido à mão, nulo quando não foi encontrado nenhum deputado da AR.
+      note: Porquê este cadastro_id, ou porquê nenhum.
 
   initiatives:
-    description: One row per initiative.
+    description: Uma linha por iniciativa.
     columns:
-      legislature: Legislature of the initiative, from the file path. Legislature I is published in two files, I-A and I-B.
-      initiative_id: AR id of the initiative.
-      number: Initiative number within its type and legislature.
-      type_code: Initiative type code, for example J.
-      type: Initiative type, for example Projeto de Lei.
-      session_number: Legislative session the initiative was submitted in.
-      title: Title.
-      author_kind: Kind of author as published, for example Deputados, Grupos Parlamentares or Governo.
-      first_event_date: Date of the earliest event on the initiative.
-      text_url: Link to the initiative text.
+      legislature: Legislatura da iniciativa, a partir do caminho do ficheiro. A legislatura I é publicada em dois ficheiros, I-A e I-B.
+      initiative_id: Id da iniciativa na AR.
+      number: Número da iniciativa dentro do seu tipo e legislatura.
+      type_code: Código do tipo de iniciativa, por exemplo J.
+      type: Tipo de iniciativa, por exemplo Projeto de Lei.
+      session_number: Sessão legislativa em que a iniciativa deu entrada.
+      title: Título.
+      author_kind: Tipo de autor tal como publicado, por exemplo Deputados, Grupos Parlamentares ou Governo.
+      first_event_date: Data do primeiro evento da iniciativa.
+      text_url: Ligação para o texto da iniciativa.
 
   initiative_authors:
-    description: One row per author of an initiative.
+    description: Uma linha por autor de uma iniciativa.
     columns:
-      legislature: Legislature of the initiative.
-      initiative_id: Initiative, joins to initiatives.
-      author_type: deputy, group, or other for any author that is not a deputy or a group (Governo, a regional assembly, a committee, citizens).
-      cadastro_id: For a deputy, the person id, joins to deputies.
-      group_code: For a deputy, the group listed with them; for a group, its code. After seed_group_aliases.
-      group_code_raw: The same code as published.
-      name: For a deputy, the name as published; for other, the author (the committee name, or the kind of author such as Governo).
+      legislature: Legislatura da iniciativa.
+      initiative_id: Iniciativa, liga a initiatives.
+      author_type: deputy (deputado), group (grupo) ou other para qualquer autor que não seja deputado nem grupo (Governo, uma assembleia regional, uma comissão, cidadãos).
+      cadastro_id: Num deputado, o id da pessoa, liga a deputies.
+      group_code: Num deputado, o grupo indicado com ele; num grupo, o seu código. Depois de seed_group_aliases.
+      group_code_raw: O mesmo código tal como publicado.
+      name: Num deputado, o nome tal como publicado; em other, o autor (o nome da comissão, ou o tipo de autor, como Governo).
 
   votes:
     description: >-
-      One row per vote id, from the Votacao arrays of Iniciativas events (plenary), of
-      their Comissao entries (committee) and the VotacaoDebate arrays of Atividades (plenary). A vote on several initiatives voted together is
-      published on each of them with the same content, so it is kept once.
+      Uma linha por id de votação, a partir dos arrays Votacao dos eventos das Iniciativas (plenário), das
+      suas entradas Comissao (comissão) e dos arrays VotacaoDebate das Atividades (plenário). Uma votação sobre várias iniciativas votadas em conjunto é
+      publicada em cada uma delas com o mesmo conteúdo, pelo que é guardada uma só vez.
     quirks:
       - >-
-        A vote on several initiatives is published on each of them with the same content, so vote ids repeat in the source. The old mapper stored one row per event the vote was published on. Here it is one row per vote id, and initiative_votes links it to every initiative and event.
+        Uma votação sobre várias iniciativas é publicada em cada uma delas com o mesmo conteúdo, pelo que os ids de votação se repetem na fonte. O mapeador antigo guardava uma linha por cada evento em que a votação era publicada. Aqui há uma linha por id de votação, e initiative_votes liga-a a todas as iniciativas e eventos.
     columns:
-      vote_id: AR id of the vote.
-      legislature: Legislature the vote date falls in. Can differ from the initiative's legislature.
-      date: Date of the vote.
-      body: Where the vote was held, plenary or the committee name. Filter on plenary for plenary votes only.
-      committee_id: For a committee vote, the AR id of the committee; null for plenary votes.
-      source: iniciativas or atividades.
-      result: Result as published, for example Aprovado or Rejeitado.
-      unanimous: True when the AR marks the vote unanimous.
-      meeting: Meeting number (of the plenary or of the committee).
-      meeting_type: Meeting type code, RP for a plenary meeting. Null for committee votes.
-      description: Description of what was voted.
-      detail: Who voted which way, as published. Null when the AR gives no detail.
-      absent_groups: Groups listed as absent, as published.
-      source_records: Number of source records with this vote id.
+      vote_id: Id da votação na AR.
+      legislature: Legislatura em que cai a data da votação. Pode ser diferente da legislatura da iniciativa.
+      date: Data da votação.
+      body: Onde decorreu a votação, plenary (plenário) ou o nome da comissão. Filtre por plenary para ter só votações em plenário.
+      committee_id: Numa votação em comissão, o id da comissão na AR; nulo nas votações em plenário.
+      source: iniciativas ou atividades.
+      result: Resultado tal como publicado, por exemplo Aprovado ou Rejeitado.
+      unanimous: Verdadeiro quando a AR marca a votação como unânime.
+      meeting: Número da reunião (do plenário ou da comissão).
+      meeting_type: Código do tipo de reunião, RP para uma reunião plenária. Nulo nas votações em comissão.
+      description: Descrição do que foi votado.
+      detail: Quem votou em que sentido, tal como publicado. Nulo quando a AR não dá detalhe.
+      absent_groups: Grupos indicados como ausentes, tal como publicado.
+      source_records: Número de registos da fonte com este id de votação.
 
   initiative_votes:
-    description: Links plenary and committee votes to the initiatives and events they are published on.
+    description: Liga as votações em plenário e em comissão às iniciativas e eventos em que são publicadas.
     columns:
-      vote_id: Vote, joins to votes.
-      initiative_id: Initiative, joins to initiatives.
-      initiative_legislature: Legislature of the initiative.
-      body: Where the vote was held, plenary or the committee name.
-      event_id: Event on the initiative that carries the vote.
-      phase: Phase of that event, for example Votação na generalidade.
-      phase_date: Date of that event.
+      vote_id: Votação, liga a votes.
+      initiative_id: Iniciativa, liga a initiatives.
+      initiative_legislature: Legislatura da iniciativa.
+      body: Onde decorreu a votação, plenary (plenário) ou o nome da comissão.
+      event_id: Evento da iniciativa que contém a votação.
+      phase: Fase desse evento, por exemplo Votação na generalidade.
+      phase_date: Data desse evento.
 
   vote_group_positions:
     description: >-
-      One row per vote, group and position, from the parsed detail. Votes without a detail
-      take absent groups and deputies from the ausencias field. A unanimous vote that lists no favour,
-      against or abstention position gets a favour row, with inferred = true, for every
-      other group present: for a plenary vote, groups with a deputy seated on the vote date
-      (the seated_on rule); for a committee vote, groups with an active effective member of
-      the committee on the vote date, from ComposicaoOrgaos.
+      Uma linha por votação, grupo e sentido de voto, a partir do detalhe lido. As votações sem
+      detalhe tiram os grupos e deputados ausentes do campo ausencias. Uma votação unânime que não indica
+      nenhum sentido a favor, contra ou abstenção recebe uma linha a favor, com inferred = true, para
+      cada outro grupo presente: numa votação em plenário, os grupos com um deputado com lugar na data
+      da votação (a regra seated_on); numa votação em comissão, os grupos com um membro efetivo ativo
+      da comissão na data da votação, segundo a ComposicaoOrgaos.
     columns:
-      vote_id: Vote, joins to votes.
-      legislature: Legislature of the vote.
-      body: Where the vote was held, plenary or the committee name.
-      group_code: Group code after seed_group_aliases, joins to parliamentary_groups.group_acronym. Indep and Ninsc mark deputies outside any group.
-      group_code_raw: Group code as published (or, for inferred rows, as in the deputy's InformacaoBase membership).
-      position: favour, against, abstention or absent.
-      deputies: Null when the group as a whole took the position (apart from any of its deputies listed under another position). Otherwise the number of its deputies who did.
-      inferred: True when the row comes from the unanimous rule rather than the published detail.
+      vote_id: Votação, liga a votes.
+      legislature: Legislatura da votação.
+      body: Onde decorreu a votação, plenary (plenário) ou o nome da comissão.
+      group_code: Código do grupo depois de seed_group_aliases, liga a parliamentary_groups.group_acronym. Indep e Ninsc marcam deputados fora de qualquer grupo.
+      group_code_raw: Código do grupo tal como publicado (ou, nas linhas inferidas, como na filiação do deputado na InformacaoBase).
+      position: favour, against, abstention ou absent (a favor, contra, abstenção ou ausente).
+      deputies: Nulo quando o grupo como um todo tomou esse sentido de voto (exceto deputados seus indicados noutro sentido). Caso contrário, o número dos seus deputados que o tomaram.
+      inferred: Verdadeiro quando a linha vem da regra da unanimidade e não do detalhe publicado.
 
   vote_deputy_dissents:
     description: >-
-      One row per deputy named in a vote detail, usually for voting apart from their group,
-      or named as absent in the ausencias field of a vote without a detail. Matched to cadastro_id by parliamentary name (ignoring case and spacing) and group
-      within the vote's legislature, or by name alone for Indep and Ninsc.
+      Uma linha por deputado nomeado no detalhe de uma votação, normalmente por votar de forma diferente do seu grupo,
+      ou nomeado como ausente no campo ausencias de uma votação sem detalhe. Associado ao cadastro_id pelo nome parlamentar (ignorando maiúsculas e espaços) e pelo grupo
+      dentro da legislatura da votação, ou só pelo nome para Indep e Ninsc.
     columns:
-      vote_id: Vote, joins to votes.
-      legislature: Legislature of the vote.
-      body: Where the vote was held, plenary or the committee name.
-      position: favour, against, abstention or absent.
-      name: Name as written in the detail.
-      group_code: Group code after seed_group_aliases.
-      group_code_raw: Group code as written in the detail.
-      cadastro_id: Person id, joins to deputies. Null when no deputy or more than one matches.
-      candidates: Number of deputies matching the name and group. 0 is unmatched, more than 1 is ambiguous.
+      vote_id: Votação, liga a votes.
+      legislature: Legislatura da votação.
+      body: Onde decorreu a votação, plenary (plenário) ou o nome da comissão.
+      position: favour, against, abstention ou absent (a favor, contra, abstenção ou ausente).
+      name: Nome tal como escrito no detalhe.
+      group_code: Código do grupo depois de seed_group_aliases.
+      group_code_raw: Código do grupo tal como escrito no detalhe.
+      cadastro_id: Id da pessoa, liga a deputies. Nulo quando nenhum deputado corresponde ou corresponde mais do que um.
+      candidates: Número de deputados que correspondem ao nome e ao grupo. 0 é sem correspondência, mais de 1 é ambíguo.
 
   # Interventions and questions (#7).
   stg_intervencoes__interventions:
     description: >-
-      Intervencoes, one row per source record, including the records AR publishes with every
-      key null. Row counts per legislature match sources.lock.json.
+      Intervencoes, uma linha por registo da fonte, incluindo os registos que a AR publica com
+      todas as chaves a nulo. As contagens de linhas por legislatura batem com sources.lock.json.
     columns:
-      intervention_id: AR id of the intervention (Id). Null on the empty records.
-      session_number: Legislative session number (Sessao).
-      meeting_date: Date of the plenary meeting (DataReuniaoPlenaria).
-      intervention_type: Type of intervention as published (TipoIntervencao), for example Intervenção or Pedido de esclarecimento.
-      session_phase: Part of the sitting as published (FaseSessao), POD (ordem do dia), PAOD (antes da ordem do dia) or Outras.
-      debate_id: AR id of the debate (IdDebate).
-      debate: Debate title (Debate), often null.
-      debate_phase: Phase of the debate as published (FaseDebate), for example GENERALIDADE, often null.
-      activity_id: AR id of the parliamentary activity the intervention belongs to (ActividadeId).
-      summary: Summary of the intervention (Sumario).
-      abstract: Longer abstract (Resumo), often null.
-      cadastro_id: Person id of the deputy who spoke (Deputados.idCadastro), null when the speaker is not a deputy.
-      speaker_name: Parliamentary name of the deputy (Deputados.nome).
-      group_acronym: Group of the deputy when speaking (Deputados.GP).
-      speaker_role: Capacity the person spoke in as published (Qualidade), for example Deputado, P.A.R. or Sec. Mesa.
-      government_member_name: Name of the government member who spoke (MembrosGoverno.nome).
-      government_member_role: Office of the government member (MembrosGoverno.cargo).
-      government: Government the member belonged to (MembrosGoverno.governo).
-      guest_name: Name of an invited speaker (Convidados.nome).
-      guest_role: Office of the invited speaker (Convidados.cargo).
-      publication_count: Number of publication references (Publicacao); 1 on every record so far.
-      publication_type: Diary series of the publication (Publicacao.pubTipo), for example DAR I série.
-      publication_number: Diary issue number (Publicacao.pubNr).
-      publication_date: Diary issue date (Publicacao.pubdt).
-      pages: Diary pages as published (Publicacao.pag), zero-padded strings.
-      diary_url: Link to the diary issue (Publicacao.URLDiario).
-      legislature: Legislature in Roman numerals, from the file path.
-      source_file: Normalised file the row was read from, relative to data/.
+      intervention_id: Id da intervenção na AR (Id). Nulo nos registos vazios.
+      session_number: Número da sessão legislativa (Sessao).
+      meeting_date: Data da reunião plenária (DataReuniaoPlenaria).
+      intervention_type: Tipo de intervenção tal como publicado (TipoIntervencao), por exemplo Intervenção ou Pedido de esclarecimento.
+      session_phase: Parte da sessão tal como publicada (FaseSessao), POD (ordem do dia), PAOD (antes da ordem do dia) ou Outras.
+      debate_id: Id do debate na AR (IdDebate).
+      debate: Título do debate (Debate), muitas vezes nulo.
+      debate_phase: Fase do debate tal como publicada (FaseDebate), por exemplo GENERALIDADE, muitas vezes nula.
+      activity_id: Id na AR da atividade parlamentar a que a intervenção pertence (ActividadeId).
+      summary: Sumário da intervenção (Sumario).
+      abstract: Resumo mais longo (Resumo), muitas vezes nulo.
+      cadastro_id: Id da pessoa do deputado que falou (Deputados.idCadastro), nulo quando quem falou não é deputado.
+      speaker_name: Nome parlamentar do deputado (Deputados.nome).
+      group_acronym: Grupo do deputado quando falou (Deputados.GP).
+      speaker_role: Qualidade em que a pessoa falou, tal como publicada (Qualidade), por exemplo Deputado, P.A.R. ou Sec. Mesa.
+      government_member_name: Nome do membro do Governo que falou (MembrosGoverno.nome).
+      government_member_role: Cargo do membro do Governo (MembrosGoverno.cargo).
+      government: Governo a que o membro pertencia (MembrosGoverno.governo).
+      guest_name: Nome de um orador convidado (Convidados.nome).
+      guest_role: Cargo do orador convidado (Convidados.cargo).
+      publication_count: Número de referências de publicação (Publicacao); 1 em todos os registos até agora.
+      publication_type: Série do Diário da publicação (Publicacao.pubTipo), por exemplo DAR I série.
+      publication_number: Número do Diário (Publicacao.pubNr).
+      publication_date: Data do Diário (Publicacao.pubdt).
+      pages: Páginas do Diário tal como publicadas (Publicacao.pag), texto com zeros à esquerda.
+      diary_url: Ligação para o número do Diário (Publicacao.URLDiario).
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
   stg_perguntas_requerimentos__questions:
-    description: PerguntasRequerimentos, one row per source record. Row counts per legislature match sources.lock.json.
+    description: PerguntasRequerimentos, uma linha por registo da fonte. As contagens de linhas por legislatura batem com sources.lock.json.
     columns:
-      question_id: AR id of the question or request (Id).
-      question_type: Pergunta or Requerimento (Tipo).
-      recipient_category: Recipient category code as published (ReqTipo). From the recipients under each code, AC is central government, AL local government, EI independent and other public bodies, RA the autonomous regions and AR the Assembleia itself.
-      number: Number of the question or request within its type and session (Nr), as published.
-      session_number: Legislative session number (Sessao).
-      subject: Subject (Assunto).
-      entry_date: Date it was registered (DtEntrada).
-      sent_date_raw: Date it was sent (DataEnvio), as published. A few are implausible, for example year 0024 or 2909; the questions mart flags them.
-      document_url: Link to the question or request document (Ficheiro).
-      authors: Authors (Autores) as cadastro_id, name, group_acronym.
-      recipients: Recipients (Destinatarios) as recipient, sent_date, is_extended, is_returned, is_withdrawn, answer_dates.
-      question_level_answers: Number of answers published on the question rather than per recipient (RespostasSPerguntas), used in older legislatures.
-      legislature: Legislature in Roman numerals, from the file path.
-      source_file: Normalised file the row was read from, relative to data/.
+      question_id: Id da pergunta ou requerimento na AR (Id).
+      question_type: Pergunta ou Requerimento (Tipo).
+      recipient_category: Código da categoria do destinatário tal como publicado (ReqTipo). Pelos destinatários de cada código, AC é a administração central, AL a administração local, EI entidades independentes e outros organismos públicos, RA as regiões autónomas e AR a própria Assembleia.
+      number: Número da pergunta ou requerimento dentro do seu tipo e sessão (Nr), tal como publicado.
+      session_number: Número da sessão legislativa (Sessao).
+      subject: Assunto (Assunto).
+      entry_date: Data de registo (DtEntrada).
+      sent_date_raw: Data de envio (DataEnvio), tal como publicada. Algumas são implausíveis, por exemplo o ano 0024 ou 2909; o mart questions assinala-as.
+      document_url: Ligação para o documento da pergunta ou requerimento (Ficheiro).
+      authors: Autores (Autores) como cadastro_id, name, group_acronym.
+      recipients: Destinatários (Destinatarios) como recipient, sent_date, is_extended, is_returned, is_withdrawn, answer_dates.
+      question_level_answers: Número de respostas publicadas na pergunta e não por destinatário (RespostasSPerguntas), usado em legislaturas mais antigas.
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
   interventions:
     description: >-
-      One row per intervention in plenary, with debate, speaker and diary reference. The speaker
-      is a deputy (cadastro_id), a government member or an invited guest. Records AR publishes
-      with every key null are dropped.
+      Uma linha por intervenção em plenário, com debate, orador e referência no Diário. O orador
+      é um deputado (cadastro_id), um membro do Governo ou um convidado. Os registos que a AR publica
+      com todas as chaves a nulo são excluídos.
     quirks:
       - >-
-        AR publishes some Intervencoes records with every key null. They are dropped here, so row counts are below the record counts in sources.lock.json, which the staging model matches.
+        A AR publica alguns registos de Intervencoes com todas as chaves a nulo. São excluídos aqui, pelo que as contagens de linhas ficam abaixo das contagens de registos em sources.lock.json, com as quais o modelo de staging bate.
     columns:
-      legislature: Legislature in Roman numerals.
-      intervention_id: AR id of the intervention.
-      session_number: Legislative session number.
-      meeting_date: Date of the plenary meeting.
-      intervention_type: Type of intervention as published, for example Intervenção or Pedido de esclarecimento.
-      session_phase: Part of the sitting as published, POD (ordem do dia), PAOD (antes da ordem do dia) or Outras.
-      debate_id: AR id of the debate.
-      debate: Debate title, often null.
-      debate_phase: Phase of the debate as published, for example GENERALIDADE, often null.
-      activity_id: AR id of the parliamentary activity the intervention belongs to.
-      summary: Summary of the intervention.
-      abstract: Longer abstract, often null.
-      speaker_kind: deputy when cadastro_id is set, otherwise government when a government member is named, otherwise guest when a guest is named, otherwise null.
-      cadastro_id: Person id of the deputy who spoke, joins to deputies. Null when the speaker is not a deputy.
-      speaker_name: Parliamentary name of the deputy as published on the intervention.
-      group_acronym: Group of the deputy when speaking, joins to parliamentary_groups.
-      speaker_role: Capacity the person spoke in as published, for example Deputado, P.A.R. or Sec. Mesa.
-      government_member_name: Name of the government member who spoke.
-      government_member_role: Office of the government member.
-      government: Government the member belonged to.
-      guest_name: Name of an invited speaker.
-      guest_role: Office of the invited speaker.
-      publication_type: Diary series, for example DAR I série.
-      publication_number: Diary issue number.
-      publication_date: Diary issue date.
-      pages: Diary pages as published, zero-padded strings.
-      diary_url: Link to the diary issue.
+      legislature: Legislatura em numeração romana.
+      intervention_id: Id da intervenção na AR.
+      session_number: Número da sessão legislativa.
+      meeting_date: Data da reunião plenária.
+      intervention_type: Tipo de intervenção tal como publicado, por exemplo Intervenção ou Pedido de esclarecimento.
+      session_phase: Parte da sessão tal como publicada, POD (ordem do dia), PAOD (antes da ordem do dia) ou Outras.
+      debate_id: Id do debate na AR.
+      debate: Título do debate, muitas vezes nulo.
+      debate_phase: Fase do debate tal como publicada, por exemplo GENERALIDADE, muitas vezes nula.
+      activity_id: Id na AR da atividade parlamentar a que a intervenção pertence.
+      summary: Sumário da intervenção.
+      abstract: Resumo mais longo, muitas vezes nulo.
+      speaker_kind: deputy (deputado) quando cadastro_id está preenchido, senão government (Governo) quando é indicado um membro do Governo, senão guest (convidado) quando é indicado um convidado, senão nulo.
+      cadastro_id: Id da pessoa do deputado que falou, liga a deputies. Nulo quando quem falou não é deputado.
+      speaker_name: Nome parlamentar do deputado tal como publicado na intervenção.
+      group_acronym: Grupo do deputado quando falou, liga a parliamentary_groups.
+      speaker_role: Qualidade em que a pessoa falou, tal como publicada, por exemplo Deputado, P.A.R. ou Sec. Mesa.
+      government_member_name: Nome do membro do Governo que falou.
+      government_member_role: Cargo do membro do Governo.
+      government: Governo a que o membro pertencia.
+      guest_name: Nome de um orador convidado.
+      guest_role: Cargo do orador convidado.
+      publication_type: Série do Diário, por exemplo DAR I série.
+      publication_number: Número do Diário.
+      publication_date: Data do Diário.
+      pages: Páginas do Diário tal como publicadas, texto com zeros à esquerda.
+      diary_url: Ligação para o número do Diário.
 
   questions:
-    description: One row per pergunta or requerimento a deputy sent to government or another public body.
+    description: Uma linha por pergunta ou requerimento que um deputado enviou ao Governo ou a outro organismo público.
     quirks:
       - >-
-        Some published send dates are impossible, for example 2909-07-30 in X. The old mapper kept ISO dates as published. Here sent_date is null and sent_date_invalid is true, and sent_date_raw keeps the published text.
+        Algumas datas de envio publicadas são impossíveis, por exemplo 2909-07-30 na X. O mapeador antigo guardava as datas ISO tal como publicadas. Aqui sent_date é nulo, sent_date_invalid é verdadeiro e sent_date_raw guarda o texto publicado.
     columns:
-      legislature: Legislature in Roman numerals.
-      question_id: AR id of the question or request.
-      question_type: Pergunta or Requerimento.
-      recipient_category: Recipient category code, AC (central government), AL (local government), EI (independent and other public bodies), RA (autonomous regions) or AR (the Assembleia).
-      number: Number within its type and session, as published.
-      session_number: Legislative session number.
-      subject: Subject.
-      entry_date: Date it was registered.
-      sent_date: Date it was sent. Null when sent_date_invalid is true.
-      sent_date_raw: Date it was sent (DataEnvio) exactly as published.
-      sent_date_invalid: True when the published date does not parse or its year is outside the years of the legislature (an open legislature runs to today), for example 2909 in X.
-      document_url: Link to the question or request document.
-      author_count: Number of authors, one row each in question_authors.
-      recipient_count: Number of recipients, one row each in question_recipients.
-      answer_count: Answers received, per recipient plus those published on the question itself.
+      legislature: Legislatura em numeração romana.
+      question_id: Id da pergunta ou requerimento na AR.
+      question_type: Pergunta ou Requerimento.
+      recipient_category: Código da categoria do destinatário, AC (administração central), AL (administração local), EI (entidades independentes e outros organismos públicos), RA (regiões autónomas) ou AR (a Assembleia).
+      number: Número dentro do seu tipo e sessão, tal como publicado.
+      session_number: Número da sessão legislativa.
+      subject: Assunto.
+      entry_date: Data de registo.
+      sent_date: Data de envio. Nulo quando sent_date_invalid é verdadeiro.
+      sent_date_raw: Data de envio (DataEnvio) exatamente como publicada.
+      sent_date_invalid: Verdadeiro quando a data publicada não se lê ou o seu ano fica fora dos anos da legislatura (uma legislatura em curso vai até hoje), por exemplo 2909 na X.
+      document_url: Ligação para o documento da pergunta ou requerimento.
+      author_count: Número de autores, uma linha cada em question_authors.
+      recipient_count: Número de destinatários, uma linha cada em question_recipients.
+      answer_count: Respostas recebidas, por destinatário, mais as publicadas na própria pergunta.
 
   question_authors:
-    description: One row per question and author.
+    description: Uma linha por pergunta e autor.
     columns:
-      legislature: Legislature in Roman numerals.
-      question_id: AR id of the question, joins to questions.
-      cadastro_id: Person id of the author, joins to deputies.
-      author_name: Parliamentary name of the author as published on the question.
-      group_acronym: Group of the author on the question, joins to parliamentary_groups.
+      legislature: Legislatura em numeração romana.
+      question_id: Id da pergunta na AR, liga a questions.
+      cadastro_id: Id da pessoa do autor, liga a deputies.
+      author_name: Nome parlamentar do autor tal como publicado na pergunta.
+      group_acronym: Grupo do autor na pergunta, liga a parliamentary_groups.
 
   question_recipients:
-    description: One row per question and recipient body.
+    description: Uma linha por pergunta e organismo destinatário.
     columns:
-      legislature: Legislature in Roman numerals.
-      question_id: AR id of the question, joins to questions.
-      recipient: Name of the recipient body as published, for example a ministry or a câmara municipal.
-      sent_date: Date it was sent to this recipient.
-      is_extended: True when the answer deadline was extended (prorrogado).
-      is_returned: True when the recipient returned it (devolvido).
-      is_withdrawn: True when it was withdrawn (retirado).
-      answer_count: Answers received from this recipient.
-      first_answer_date: Date of the first answer, null without one.
+      legislature: Legislatura em numeração romana.
+      question_id: Id da pergunta na AR, liga a questions.
+      recipient: Nome do organismo destinatário tal como publicado, por exemplo um ministério ou uma câmara municipal.
+      sent_date: Data de envio a este destinatário.
+      is_extended: Verdadeiro quando o prazo de resposta foi prorrogado.
+      is_returned: Verdadeiro quando o destinatário a devolveu.
+      is_withdrawn: Verdadeiro quando foi retirada.
+      answer_count: Respostas recebidas deste destinatário.
+      first_answer_date: Data da primeira resposta, nula se não houver nenhuma.
 
   stg_registo_interesses__files:
     description: >-
-      RegistoInteresses, one row per file. Every file lists the same people (the XVII
-      lists), and only XI to XV hold declarations. Built by a Python model
-      (interests.py), which fails on a format or list it does not know.
+      RegistoInteresses, uma linha por ficheiro. Todos os ficheiros listam as mesmas pessoas (as
+      listas da XVII), e só a XI a XV têm declarações. Construído por um modelo em Python
+      (interests.py), que falha perante um formato ou lista que não conhece.
     columns:
-      legislature: Legislature in Roman numerals, from the file path.
-      source_file: Normalised file, relative to data/.
-      people: Records in the file, one per person.
-      declarations: Declarations found in it.
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado, relativo a data/.
+      people: Registos no ficheiro, um por pessoa.
+      declarations: Declarações encontradas no ficheiro.
 
   stg_registo_interesses__declarations:
     description: >-
-      RegistoInteresses declarations, one row each, from cadRgi (V1, V2), RecordInterests
-      (V3) or the V5 form. Dates are as published.
+      Declarações do RegistoInteresses, uma linha cada, a partir de cadRgi (V1, V2), RecordInterests
+      (V3) ou do formulário V5. As datas estão tal como publicadas.
     columns:
-      declaration_key: Key built as legislature-cadastro_id-n, n counting the person's declarations in the file.
-      cadastro_id: Person id (cadId, RecordId or IdCadastroGODE).
-      format_version: Format of the record, V1, V2, V3 or V5.
-      declaration_id: AR id of the declaration (rgiId or FactoDeclaracao.Id). V3 publishes none.
-      declared_legislature: Legislature the declaration names (rgiLegDes or Legislatura). V3 names none, so it is the file's.
-      position: Office declared (rgiCargoDes, PositionDesignation or CargoFuncao).
-      position_start_raw: Start of the office as published (rgiCargoData, a year, PositionBeginDate or DataInicioFuncao).
-      position_changed_raw: Date the office changed as published (PositionChangedDate or DataAlteracaoFuncao).
-      position_end_raw: End of the office as published (PositionEndDate or DataCessacaoFuncao).
-      version_date_raw: Date of this version of the declaration (rgiDataVersao), V1 and V2 only.
-      is_exclusive: Office held in exclusivity (V3 Exclusivity, V5 Exclusividade). Null for V1 and V2.
-      items: Number of declared items, one row each in stg_registo_interesses__items.
-      legislature: Legislature in Roman numerals, from the file path.
-      source_file: Normalised file the row was read from, relative to data/.
+      declaration_key: Chave construída como legislature-cadastro_id-n, em que n conta as declarações da pessoa no ficheiro.
+      cadastro_id: Id da pessoa (cadId, RecordId ou IdCadastroGODE).
+      format_version: Formato do registo, V1, V2, V3 ou V5.
+      declaration_id: Id da declaração na AR (rgiId ou FactoDeclaracao.Id). A V3 não publica nenhum.
+      declared_legislature: Legislatura indicada na declaração (rgiLegDes ou Legislatura). A V3 não indica nenhuma, por isso é a do ficheiro.
+      position: Cargo declarado (rgiCargoDes, PositionDesignation ou CargoFuncao).
+      position_start_raw: Início do cargo tal como publicado (rgiCargoData, um ano, PositionBeginDate ou DataInicioFuncao).
+      position_changed_raw: Data de alteração do cargo tal como publicada (PositionChangedDate ou DataAlteracaoFuncao).
+      position_end_raw: Fim do cargo tal como publicado (PositionEndDate ou DataCessacaoFuncao).
+      version_date_raw: Data desta versão da declaração (rgiDataVersao), só V1 e V2.
+      is_exclusive: Cargo exercido em exclusividade (V3 Exclusivity, V5 Exclusividade). Nulo para V1 e V2.
+      items: Número de itens declarados, uma linha cada em stg_registo_interesses__items.
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
   stg_registo_interesses__items:
     description: >-
-      One row per declared item, as published. Free-text fields of V1 and V2 (and V1
-      activities) become one item each.
+      Uma linha por item declarado, tal como publicado. Os campos de texto livre da V1 e da V2 (e as
+      atividades da V1) dão um item cada.
     columns:
-      declaration_key: Declaration the item belongs to.
-      item_number: Position of the item within the declaration.
-      category: activity, social_position, society, support, service or other_situation.
-      source_list: Published list or field the item comes from, for example rgiCargosSociais or GenCargosMenosTresAnos.
-      item_id: AR id of the item, when published.
-      type_code: V3 Type code as published (0, 1 or 2), undocumented by the AR.
-      description: Activity, office, support, service or situation as written.
-      entity: Entity, company or body named.
-      nature: Nature of the entity or benefit (V5 Natureza, NaturezaBeneficio).
-      activity_area: Area of activity.
-      location: Head office or place.
-      share: Shareholding as written, for societies.
-      paid_raw: Paid flag as published (S, N, or 0 in V5).
-      start_date_raw: Start date as published, a year, a month or a day.
-      end_date_raw: End date as published.
-      date_raw: Single date or period as published for V5 supports and services.
-      legislature: Legislature in Roman numerals, from the file path.
-      source_file: Normalised file the row was read from, relative to data/.
+      declaration_key: Declaração a que o item pertence.
+      item_number: Posição do item dentro da declaração.
+      category: activity, social_position, society, support, service ou other_situation (atividade, cargo social, sociedade, apoio, serviço ou outra situação).
+      source_list: Lista ou campo publicado de onde vem o item, por exemplo rgiCargosSociais ou GenCargosMenosTresAnos.
+      item_id: Id do item na AR, quando publicado.
+      type_code: Código Type da V3 tal como publicado (0, 1 ou 2), não documentado pela AR.
+      description: Atividade, cargo, apoio, serviço ou situação tal como escrito.
+      entity: Entidade, empresa ou organismo indicado.
+      nature: Natureza da entidade ou do benefício (V5 Natureza, NaturezaBeneficio).
+      activity_area: Área de atividade.
+      location: Sede ou local.
+      share: Participação social tal como escrita, para sociedades.
+      paid_raw: Indicação de remuneração tal como publicada (S, N, ou 0 na V5).
+      start_date_raw: Data de início tal como publicada, um ano, um mês ou um dia.
+      end_date_raw: Data de fim tal como publicada.
+      date_raw: Data única ou período tal como publicado nos apoios e serviços da V5.
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
   interest_declarations:
     description: >-
-      One row per declaration in the register of interests, XI to XV. XVI and XVII are not in
-      the AR open data (declarations moved to the Entidade para a Transparência). Only people on
-      the XVII lists are covered, since every file lists those people. Names, spouse, marital
-      status, property regime, tax and contact fields are left out; join deputies for names.
+      Uma linha por declaração no registo de interesses, XI a XV. A XVI e a XVII não estão nos
+      dados abertos da AR (as declarações passaram para a Entidade para a Transparência). Só estão
+      cobertas as pessoas das listas da XVII, porque todos os ficheiros listam essas pessoas. Ficam
+      de fora nomes, cônjuge, estado civil, regime de bens e campos fiscais e de contacto; para os
+      nomes, faça join com deputies.
     columns:
-      legislature: Legislature in Roman numerals, from the file.
-      declaration_key: Key of the declaration, joins to interests.
-      cadastro_id: Person id, joins to deputies.
-      format_version: Published format, V1 (XI), V2 (XII, XIII), V3 (XIV) or V5 (XIV, XV).
-      declaration_id: AR id of the declaration. Null for V3, which publishes none.
-      position: Office declared, for example Deputado.
-      position_start_date: Start of the office, when published as a full date.
-      position_changed_date: Date the office changed, when published as a full date.
-      position_end_date: End of the office, when published as a full date.
-      position_start_raw: Start of the office as published. V1 and V2 publish a year.
-      version_date: Date of this version of the declaration, V1 and V2 only.
-      is_exclusive: Office held in exclusivity. Null for V1 and V2.
-      items: Number of rows in interests for this declaration.
+      legislature: Legislatura em numeração romana, a partir do ficheiro.
+      declaration_key: Chave da declaração, liga a interests.
+      cadastro_id: Id da pessoa, liga a deputies.
+      format_version: Formato publicado, V1 (XI), V2 (XII, XIII), V3 (XIV) ou V5 (XIV, XV).
+      declaration_id: Id da declaração na AR. Nulo para a V3, que não publica nenhum.
+      position: Cargo declarado, por exemplo Deputado.
+      position_start_date: Início do cargo, quando publicado como data completa.
+      position_changed_date: Data de alteração do cargo, quando publicada como data completa.
+      position_end_date: Fim do cargo, quando publicado como data completa.
+      position_start_raw: Início do cargo tal como publicado. A V1 e a V2 publicam um ano.
+      version_date: Data desta versão da declaração, só V1 e V2.
+      is_exclusive: Cargo exercido em exclusividade. Nulo para V1 e V2.
+      items: Número de linhas em interests para esta declaração.
 
   interests:
     description: >-
-      One row per declared interest: activities and offices, social positions, societies,
-      supports, services and other situations. Text is as published, so free-text items can
-      read "Nada a declarar". The JSON wins over the old mapper: V1 publishes activities as
-      one free-text field, and V5 is read too (XIV, XV), since the dump has it.
+      Uma linha por interesse declarado: atividades e cargos, cargos sociais, sociedades, apoios,
+      serviços e outras situações. O texto está tal como publicado, por isso os itens de texto livre
+      podem dizer "Nada a declarar". O JSON prevalece sobre o mapeador antigo: a V1 publica as
+      atividades como um único campo de texto livre, e a V5 também é lida (XIV, XV), porque o dump a
+      contém.
     columns:
-      legislature: Legislature in Roman numerals.
-      declaration_key: Declaration, joins to interest_declarations.
-      item_number: Position of the item within the declaration.
-      cadastro_id: Person id, joins to deputies.
-      category: activity, social_position, society, support, service or other_situation.
-      source_list: Published list or field the item comes from, for example GenCargosMaisTresAnos.
-      item_id: AR id of the item, when published.
-      type_code: V3 Type code as published (0, 1 or 2), undocumented by the AR.
-      description: Activity, office, support, service or situation as written.
-      entity: Entity, company or body named.
-      nature: Nature of the entity or benefit, V5 only.
-      activity_area: Area of activity.
-      location: Head office or place.
-      share: Shareholding as written, for societies.
-      is_paid: True for S, false for N. Null otherwise, including the 0 V5 publishes.
-      start_date: Start date, when published as a full date.
-      end_date: End date, when published as a full date.
-      start_date_raw: Start date as published, a year, a month or a day.
-      end_date_raw: End date as published.
-      date_raw: Single date or period as published for V5 supports and services.
+      legislature: Legislatura em numeração romana.
+      declaration_key: Declaração, liga a interest_declarations.
+      item_number: Posição do item dentro da declaração.
+      cadastro_id: Id da pessoa, liga a deputies.
+      category: activity, social_position, society, support, service ou other_situation (atividade, cargo social, sociedade, apoio, serviço ou outra situação).
+      source_list: Lista ou campo publicado de onde vem o item, por exemplo GenCargosMaisTresAnos.
+      item_id: Id do item na AR, quando publicado.
+      type_code: Código Type da V3 tal como publicado (0, 1 ou 2), não documentado pela AR.
+      description: Atividade, cargo, apoio, serviço ou situação tal como escrito.
+      entity: Entidade, empresa ou organismo indicado.
+      nature: Natureza da entidade ou do benefício, só V5.
+      activity_area: Área de atividade.
+      location: Sede ou local.
+      share: Participação social tal como escrita, para sociedades.
+      is_paid: Verdadeiro para S, falso para N. Nulo nos outros casos, incluindo o 0 que a V5 publica.
+      start_date: Data de início, quando publicada como data completa.
+      end_date: Data de fim, quando publicada como data completa.
+      start_date_raw: Data de início tal como publicada, um ano, um mês ou um dia.
+      end_date_raw: Data de fim tal como publicada.
+      date_raw: Data única ou período tal como publicado nos apoios e serviços da V5.

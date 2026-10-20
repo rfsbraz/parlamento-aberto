@@ -1,52 +1,52 @@
 # interest_declarations
 
-One row per declaration in the register of interests, XI to XV. XVI and XVII are not in the AR open data (declarations moved to the Entidade para a Transparência). Only people on the XVII lists are covered, since every file lists those people. Names, spouse, marital status, property regime, tax and contact fields are left out; join deputies for names.
+Uma linha por declaração no registo de interesses, XI a XV. A XVI e a XVII não estão nos dados abertos da AR (as declarações passaram para a Entidade para a Transparência). Só estão cobertas as pessoas das listas da XVII, porque todos os ficheiros listam essas pessoas. Ficam de fora nomes, cônjuge, estado civil, regime de bens e campos fiscais e de contacto; para os nomes, faça join com deputies.
 
-Generated from `src/parlamento_aberto/models/schema.yml` by `uv run python -m parlamento_aberto.dictionary`. Do not edit by hand.
+Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
-Release files: `interest_declarations.parquet` and `interest_declarations.csv.gz`.
+Ficheiros da publicação: `interest_declarations.parquet` e `interest_declarations.csv.gz`.
 
-## Columns
+## Colunas
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file. |
-| `declaration_key` | VARCHAR | Key of the declaration, joins to interests. |
-| `cadastro_id` | BIGINT | Person id, joins to deputies. |
-| `format_version` | VARCHAR | Published format, V1 (XI), V2 (XII, XIII), V3 (XIV) or V5 (XIV, XV). |
-| `declaration_id` | BIGINT | AR id of the declaration. Null for V3, which publishes none. |
-| `position` | VARCHAR | Office declared, for example Deputado. |
-| `position_start_date` | DATE | Start of the office, when published as a full date. |
-| `position_changed_date` | DATE | Date the office changed, when published as a full date. |
-| `position_end_date` | DATE | End of the office, when published as a full date. |
-| `position_start_raw` | VARCHAR | Start of the office as published. V1 and V2 publish a year. |
-| `version_date` | DATE | Date of this version of the declaration, V1 and V2 only. |
-| `is_exclusive` | BOOLEAN | Office held in exclusivity. Null for V1 and V2. |
-| `items` | INTEGER | Number of rows in interests for this declaration. |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do ficheiro. |
+| `declaration_key` | VARCHAR | Chave da declaração, liga a interests. |
+| `cadastro_id` | BIGINT | Id da pessoa, liga a deputies. |
+| `format_version` | VARCHAR | Formato publicado, V1 (XI), V2 (XII, XIII), V3 (XIV) ou V5 (XIV, XV). |
+| `declaration_id` | BIGINT | Id da declaração na AR. Nulo para a V3, que não publica nenhum. |
+| `position` | VARCHAR | Cargo declarado, por exemplo Deputado. |
+| `position_start_date` | DATE | Início do cargo, quando publicado como data completa. |
+| `position_changed_date` | DATE | Data de alteração do cargo, quando publicada como data completa. |
+| `position_end_date` | DATE | Fim do cargo, quando publicado como data completa. |
+| `position_start_raw` | VARCHAR | Início do cargo tal como publicado. A V1 e a V2 publicam um ano. |
+| `version_date` | DATE | Data desta versão da declaração, só V1 e V2. |
+| `is_exclusive` | BOOLEAN | Cargo exercido em exclusividade. Nulo para V1 e V2. |
+| `items` | INTEGER | Número de linhas em interests para esta declaração. |
 
-## Known quirks
+## Particularidades conhecidas
 
-- Gaps in the AR source itself are listed in [known gaps](../known-gaps.md).
+- As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
-## Built from
+## Construído a partir de
 
 ### stg_registo_interesses__declarations
 
-RegistoInteresses declarations, one row each, from cadRgi (V1, V2), RecordInterests (V3) or the V5 form. Dates are as published.
+Declarações do RegistoInteresses, uma linha cada, a partir de cadRgi (V1, V2), RecordInterests (V3) ou do formulário V5. As datas estão tal como publicadas.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `declaration_key` | VARCHAR | Key built as legislature-cadastro_id-n, n counting the person's declarations in the file. |
-| `cadastro_id` | BIGINT | Person id (cadId, RecordId or IdCadastroGODE). |
-| `format_version` | VARCHAR | Format of the record, V1, V2, V3 or V5. |
-| `declaration_id` | BIGINT | AR id of the declaration (rgiId or FactoDeclaracao.Id). V3 publishes none. |
-| `declared_legislature` | VARCHAR | Legislature the declaration names (rgiLegDes or Legislatura). V3 names none, so it is the file's. |
-| `position` | VARCHAR | Office declared (rgiCargoDes, PositionDesignation or CargoFuncao). |
-| `position_start_raw` | VARCHAR | Start of the office as published (rgiCargoData, a year, PositionBeginDate or DataInicioFuncao). |
-| `position_changed_raw` | VARCHAR | Date the office changed as published (PositionChangedDate or DataAlteracaoFuncao). |
-| `position_end_raw` | VARCHAR | End of the office as published (PositionEndDate or DataCessacaoFuncao). |
-| `version_date_raw` | VARCHAR | Date of this version of the declaration (rgiDataVersao), V1 and V2 only. |
-| `is_exclusive` | BOOLEAN | Office held in exclusivity (V3 Exclusivity, V5 Exclusividade). Null for V1 and V2. |
-| `items` | INTEGER | Number of declared items, one row each in stg_registo_interesses__items. |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `declaration_key` | VARCHAR | Chave construída como legislature-cadastro_id-n, em que n conta as declarações da pessoa no ficheiro. |
+| `cadastro_id` | BIGINT | Id da pessoa (cadId, RecordId ou IdCadastroGODE). |
+| `format_version` | VARCHAR | Formato do registo, V1, V2, V3 ou V5. |
+| `declaration_id` | BIGINT | Id da declaração na AR (rgiId ou FactoDeclaracao.Id). A V3 não publica nenhum. |
+| `declared_legislature` | VARCHAR | Legislatura indicada na declaração (rgiLegDes ou Legislatura). A V3 não indica nenhuma, por isso é a do ficheiro. |
+| `position` | VARCHAR | Cargo declarado (rgiCargoDes, PositionDesignation ou CargoFuncao). |
+| `position_start_raw` | VARCHAR | Início do cargo tal como publicado (rgiCargoData, um ano, PositionBeginDate ou DataInicioFuncao). |
+| `position_changed_raw` | VARCHAR | Data de alteração do cargo tal como publicada (PositionChangedDate ou DataAlteracaoFuncao). |
+| `position_end_raw` | VARCHAR | Fim do cargo tal como publicado (PositionEndDate ou DataCessacaoFuncao). |
+| `version_date_raw` | VARCHAR | Data desta versão da declaração (rgiDataVersao), só V1 e V2. |
+| `is_exclusive` | BOOLEAN | Cargo exercido em exclusividade (V3 Exclusivity, V5 Exclusividade). Nulo para V1 e V2. |
+| `items` | INTEGER | Número de itens declarados, uma linha cada em stg_registo_interesses__items. |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |

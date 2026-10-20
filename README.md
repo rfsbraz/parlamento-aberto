@@ -13,7 +13,9 @@ The AR allows free reuse of its open data as long as the source is credited. Ter
 
 ## Personal data
 
-Biographies, birth dates and interest registers are personal data. This repo republishes only what the AR publishes. To ask for a correction or removal of personal data, contact the maintainer, Rodrigo Braz, through his GitHub profile (https://github.com/rfsbraz). Please do not put the personal data itself in a public issue.
+Biographies, birth dates and interest registers are personal data. This repo republishes only what the AR publishes.
+
+To report wrong data, open an issue with the [Correção de dados](../../issues/new?template=correcao-de-dados.yml) form. Personal-data removal requests can use the same form, or GitHub private vulnerability reporting once the repo is public. Please do not paste the personal data itself into a public issue.
 
 ## Development
 

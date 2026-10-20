@@ -69,6 +69,8 @@ A file with a `nif` key, a value in the personal range, or a 9-digit value outsi
 
 Layout: `data/ept_registo_interesses/titularidades.ndjson`, `declarations.ndjson` (the search results, by id) and `<entity id>/<id // 1000>/<id>.json` (one stripped declaration, tab 4 keyed by section GUID and column).
 
+The build reads the stored declarations into `stg_ept_registo_interesses__declarations` and `stg_ept_registo_interesses__items` (#46), with the same leading columns as the XI to XV staging tables. Only Deputado and Deputada declarations are read. The legislature comes from the Lisbon day of the office start (or of the submission when there is none), not from the EpT body, so entity 510 rows fall in XIV, XV or XVI. UTC dates become Lisbon days and the published values stay in the `_raw` columns. Replaced and modified versions stay as rows, linked by `supersedes_declaration_id`, `superseded_by_declaration_id` and `chain_root_declaration_id`, and `is_current` marks the newest published one with no successor. The NIPC column carries through as `entity_nipc`, valid company NIPCs only.
+
 ## Data dictionary
 
 `docs/dictionary` has one page per mart, generated from `src/parlamento_aberto/models/schema.yml`. `docs/querying.md` shows how to query a release with DuckDB, pandas and R. After changing a model or its column descriptions, regenerate the pages; CI fails when they are out of date:

@@ -180,3 +180,84 @@ def test_fixture_free_text_is_synthetic(con):
         assert all("sintétic" in v for v in values), (table, col)
     urls = [v for (v,) in con.sql("select document_url from questions").fetchall()]
     assert all(u.startswith("https://app.parlamento.pt/fixture/") for u in urls)
+
+
+# First and last plenary meeting date with interventions, per legislature, as AR
+# publishes them. docs/known-gaps.md explains the gaps these pin. The running
+# legislature's last date is a floor, since every new sitting moves it.
+COVERAGE_FULL = {
+    "II": ("1980-12-10", "1982-04-25"),
+    "IV": ("1985-11-04", "1986-10-31"),
+    "V": ("1987-08-13", "1991-10-24"),
+    "VI": ("1991-11-07", "1995-10-11"),
+    "VII": ("1996-10-16", "1999-10-01"),
+    "VIII": ("1999-10-25", "2002-02-20"),
+    "IX": ("2002-04-05", "2005-01-26"),
+    "X": ("2005-03-10", "2009-09-10"),
+    "XI": ("2009-10-15", "2011-05-19"),
+    "XII": ("2013-09-16", "2015-10-21"),
+    "XIII": ("2015-10-23", "2019-10-09"),
+    "XIV": ("2019-10-25", "2022-03-22"),
+    "XV": ("2022-03-29", "2024-03-13"),
+    "XVI": ("2024-03-26", "2025-04-30"),
+    "XVII": ("2026-09-16", "2026-09-18"),
+}
+COVERAGE_FIXTURES = {"XVII": ("2026-09-16", "2026-09-16")}
+
+
+def test_intervention_coverage_is_pinned(con):
+    expected = COVERAGE_FIXTURES if ON_FIXTURES else COVERAGE_FULL
+    rows = con.sql(
+        """
+        select
+            i.legislature,
+            strftime(min(i.meeting_date), '%Y-%m-%d'),
+            strftime(max(i.meeting_date), '%Y-%m-%d'),
+            any_value(l.end_date) is null
+        from interventions i join legislatures l using (legislature)
+        group by all
+        """
+    ).fetchall()
+    hint = (
+        "Intervencoes coverage changed. If AR filled a gap, update the pin in "
+        "tests/test_interventions_questions.py and docs/known-gaps.md."
+    )
+    assert sorted(r[0] for r in rows) == sorted(expected), hint
+    for legislature, first, last, is_open in rows:
+        pinned_first, pinned_last = expected[legislature]
+        assert first == pinned_first, f"{legislature} first date {first}. {hint}"
+        if is_open:
+            assert last >= pinned_last, f"{legislature} last date {last}. {hint}"
+        else:
+            assert last == pinned_last, f"{legislature} last date {last}. {hint}"
+
+
+def test_sent_dates_outside_the_legislature_are_flagged(con):
+    rows = con.sql(
+        """
+        select q.sent_date, q.sent_date_raw, q.sent_date_invalid,
+            year(try_cast(q.sent_date_raw as date)) not between year(l.start_date)
+                and year(coalesce(l.end_date, current_date)) as outside
+        from questions q join legislatures l using (legislature)
+        where q.sent_date_raw is not null
+        """
+    ).fetchall()
+    assert rows
+    for sent_date, raw, invalid, outside in rows:
+        assert invalid == bool(outside or outside is None), raw
+        if invalid:
+            assert sent_date is None, raw
+        else:
+            assert str(sent_date) == raw, raw
+    (missing,) = con.sql(
+        "select count(*) from questions where sent_date_raw is null and sent_date_invalid"
+    ).fetchone()
+    assert missing == 0
+
+
+@pytest.mark.skipif(not ON_FIXTURES, reason="fixture content only")
+def test_fixture_has_an_invalid_sent_date(con):
+    rows = con.sql(
+        "select question_id, sent_date_raw from questions where sent_date_invalid"
+    ).fetchall()
+    assert rows == [(187751, "2125-06-12")]

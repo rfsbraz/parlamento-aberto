@@ -1,0 +1,30 @@
+name: gitleaks full history
+
+# The PR job in ci.yml scans only each PR's own commits. This scans every commit on main
+# once a week, Monday 07:00 UTC, as a backstop for anything that reached main another way
+# or that a newer gitleaks rule now catches. Schedules run on the default branch, main.
+on:
+  schedule:
+    - cron: "0 7 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  gitleaks:
+    name: gitleaks (full history)
+    runs-on: ubuntu-latest
+    env:
+      GITLEAKS_VERSION: 8.30.1
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Install gitleaks
+        run: |
+          curl -sSfL "https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz" \
+            | tar -xz -C /usr/local/bin gitleaks
+      # HEAD, not the gitleaks default --all, so other branches' commits stay out.
+      - name: Scan the full history of main
+        run: gitleaks git --redact --verbose --exit-code 1 --log-opts="--full-history HEAD" .

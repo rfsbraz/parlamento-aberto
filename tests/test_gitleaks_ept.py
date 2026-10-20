@@ -39,7 +39,7 @@ def findings(path: str, text: str) -> list[str]:
         allow = [
             re.compile(rx)
             for a in CONFIG["allowlists"]
-            if rule["id"] in a.get("targetRules", [rule["id"]]) and a["regexTarget"] == "line"
+            if rule["id"] in a.get("targetRules", [rule["id"]]) and a.get("regexTarget") == "line"
             for rx in a["regexes"]
         ]
         for line in text.splitlines():

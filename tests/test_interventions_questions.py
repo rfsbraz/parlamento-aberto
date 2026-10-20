@@ -17,7 +17,8 @@ DATA = Path(os.environ.get("PA_DATA_DIR", FIXTURES))
 ON_FIXTURES = DATA.resolve() == FIXTURES.resolve()
 
 # Share of rows with a person id that may fail to resolve to a deputy, per legislature.
-# The 20 Oct 2026 sync has none for speakers and none for authors.
+# The 20 Oct 2026 sync has none for speakers and none for authors. The same share
+# bounds questions published without any author.
 MAX_UNMATCHED_SHARE = 0.005
 
 
@@ -102,11 +103,17 @@ def test_people_resolve_to_deputies(con, table):
         assert all(r[2] == 0 for r in rows)
 
 
-def test_every_question_has_authors(con):
-    (n,) = con.sql(
-        "select count(*) from questions q where author_count = 0 or author_count is null"
-    ).fetchone()
-    assert n == 0
+def test_questions_have_authors(con):
+    # AR publishes one requerimento with no authors (VII, id 16560), so this is a share too.
+    rows = con.sql(
+        """
+        select legislature, count(*), count(*) filter (where author_count = 0)
+        from questions group by all
+        """
+    ).fetchall()
+    assert [r for r in rows if r[2] > MAX_UNMATCHED_SHARE * r[1]] == []
+    if ON_FIXTURES:
+        assert all(r[2] == 0 for r in rows)
     authors, summed = con.sql(
         "select (select count(*) from question_authors), (select sum(author_count) from questions)"
     ).fetchone()

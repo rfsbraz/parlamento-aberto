@@ -139,3 +139,129 @@ models:
       start_date: First day in the group.
       end_date: Last day in the group, null while the membership is open.
       is_open: True when the legislature is running and AR's end date is on or after the extract date.
+
+  # Interventions and questions (#7).
+  stg_intervencoes__interventions:
+    description: >-
+      Intervencoes, one row per source record, including the records AR publishes with every
+      key null. Row counts per legislature match sources.lock.json.
+    columns:
+      intervention_id: AR id of the intervention (Id). Null on the empty records.
+      session_number: Legislative session number (Sessao).
+      meeting_date: Date of the plenary meeting (DataReuniaoPlenaria).
+      intervention_type: Type of intervention as published (TipoIntervencao), for example Intervenção or Pedido de esclarecimento.
+      session_phase: Part of the sitting as published (FaseSessao), POD (ordem do dia), PAOD (antes da ordem do dia) or Outras.
+      debate_id: AR id of the debate (IdDebate).
+      debate: Debate title (Debate), often null.
+      debate_phase: Phase of the debate as published (FaseDebate), for example GENERALIDADE, often null.
+      activity_id: AR id of the parliamentary activity the intervention belongs to (ActividadeId).
+      summary: Summary of the intervention (Sumario).
+      abstract: Longer abstract (Resumo), often null.
+      cadastro_id: Person id of the deputy who spoke (Deputados.idCadastro), null when the speaker is not a deputy.
+      speaker_name: Parliamentary name of the deputy (Deputados.nome).
+      group_acronym: Group of the deputy when speaking (Deputados.GP).
+      speaker_role: Capacity the person spoke in as published (Qualidade), for example Deputado, P.A.R. or Sec. Mesa.
+      government_member_name: Name of the government member who spoke (MembrosGoverno.nome).
+      government_member_role: Office of the government member (MembrosGoverno.cargo).
+      government: Government the member belonged to (MembrosGoverno.governo).
+      guest_name: Name of an invited speaker (Convidados.nome).
+      guest_role: Office of the invited speaker (Convidados.cargo).
+      publication_count: Number of publication references (Publicacao); 1 on every record so far.
+      publication_type: Diary series of the publication (Publicacao.pubTipo), for example DAR I série.
+      publication_number: Diary issue number (Publicacao.pubNr).
+      publication_date: Diary issue date (Publicacao.pubdt).
+      pages: Diary pages as published (Publicacao.pag), zero-padded strings.
+      diary_url: Link to the diary issue (Publicacao.URLDiario).
+      legislature: Legislature in Roman numerals, from the file path.
+      source_file: Normalised file the row was read from, relative to data/.
+
+  stg_perguntas_requerimentos__questions:
+    description: PerguntasRequerimentos, one row per source record. Row counts per legislature match sources.lock.json.
+    columns:
+      question_id: AR id of the question or request (Id).
+      question_type: Pergunta or Requerimento (Tipo).
+      recipient_category: Recipient category code as published (ReqTipo). From the recipients under each code, AC is central government, AL local government, EI independent and other public bodies, RA the autonomous regions and AR the Assembleia itself.
+      number: Number of the question or request within its type and session (Nr), as published.
+      session_number: Legislative session number (Sessao).
+      subject: Subject (Assunto).
+      entry_date: Date it was registered (DtEntrada).
+      sent_date: Date it was sent (DataEnvio), as published. A few dates in old legislatures are implausible, for example year 0024 or 2909.
+      document_url: Link to the question or request document (Ficheiro).
+      authors: Authors (Autores) as cadastro_id, name, group_acronym.
+      recipients: Recipients (Destinatarios) as recipient, sent_date, is_extended, is_returned, is_withdrawn, answer_dates.
+      question_level_answers: Number of answers published on the question rather than per recipient (RespostasSPerguntas), used in older legislatures.
+      legislature: Legislature in Roman numerals, from the file path.
+      source_file: Normalised file the row was read from, relative to data/.
+
+  interventions:
+    description: >-
+      One row per intervention in plenary, with debate, speaker and diary reference. The speaker
+      is a deputy (cadastro_id), a government member or an invited guest. Records AR publishes
+      with every key null are dropped.
+    columns:
+      legislature: Legislature in Roman numerals.
+      intervention_id: AR id of the intervention.
+      session_number: Legislative session number.
+      meeting_date: Date of the plenary meeting.
+      intervention_type: Type of intervention as published, for example Intervenção or Pedido de esclarecimento.
+      session_phase: Part of the sitting as published, POD (ordem do dia), PAOD (antes da ordem do dia) or Outras.
+      debate_id: AR id of the debate.
+      debate: Debate title, often null.
+      debate_phase: Phase of the debate as published, for example GENERALIDADE, often null.
+      activity_id: AR id of the parliamentary activity the intervention belongs to.
+      summary: Summary of the intervention.
+      abstract: Longer abstract, often null.
+      speaker_kind: deputy when cadastro_id is set, otherwise government when a government member is named, otherwise guest when a guest is named, otherwise null.
+      cadastro_id: Person id of the deputy who spoke, joins to deputies. Null when the speaker is not a deputy.
+      speaker_name: Parliamentary name of the deputy as published on the intervention.
+      group_acronym: Group of the deputy when speaking, joins to parliamentary_groups.
+      speaker_role: Capacity the person spoke in as published, for example Deputado, P.A.R. or Sec. Mesa.
+      government_member_name: Name of the government member who spoke.
+      government_member_role: Office of the government member.
+      government: Government the member belonged to.
+      guest_name: Name of an invited speaker.
+      guest_role: Office of the invited speaker.
+      publication_type: Diary series, for example DAR I série.
+      publication_number: Diary issue number.
+      publication_date: Diary issue date.
+      pages: Diary pages as published, zero-padded strings.
+      diary_url: Link to the diary issue.
+
+  questions:
+    description: One row per pergunta or requerimento a deputy sent to government or another public body.
+    columns:
+      legislature: Legislature in Roman numerals.
+      question_id: AR id of the question or request.
+      question_type: Pergunta or Requerimento.
+      recipient_category: Recipient category code, AC (central government), AL (local government), EI (independent and other public bodies), RA (autonomous regions) or AR (the Assembleia).
+      number: Number within its type and session, as published.
+      session_number: Legislative session number.
+      subject: Subject.
+      entry_date: Date it was registered.
+      sent_date: Date it was sent, as published.
+      document_url: Link to the question or request document.
+      author_count: Number of authors, one row each in question_authors.
+      recipient_count: Number of recipients, one row each in question_recipients.
+      answer_count: Answers received, per recipient plus those published on the question itself.
+
+  question_authors:
+    description: One row per question and author.
+    columns:
+      legislature: Legislature in Roman numerals.
+      question_id: AR id of the question, joins to questions.
+      cadastro_id: Person id of the author, joins to deputies.
+      author_name: Parliamentary name of the author as published on the question.
+      group_acronym: Group of the author on the question, joins to parliamentary_groups.
+
+  question_recipients:
+    description: One row per question and recipient body.
+    columns:
+      legislature: Legislature in Roman numerals.
+      question_id: AR id of the question, joins to questions.
+      recipient: Name of the recipient body as published, for example a ministry or a câmara municipal.
+      sent_date: Date it was sent to this recipient.
+      is_extended: True when the answer deadline was extended (prorrogado).
+      is_returned: True when the recipient returned it (devolvido).
+      is_withdrawn: True when it was withdrawn (retirado).
+      answer_count: Answers received from this recipient.
+      first_answer_date: Date of the first answer, null without one.

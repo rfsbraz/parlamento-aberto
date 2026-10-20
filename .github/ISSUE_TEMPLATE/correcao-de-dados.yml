@@ -1,0 +1,41 @@
+name: Correção de dados
+description: Reportar dados errados, ou pedir a correção ou remoção de dados pessoais.
+title: "Correção de dados: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por ajudar a manter os dados corretos. Este repositório republica apenas o que a Assembleia da República publica nos dados abertos.
+
+        Não escreva aqui dados pessoais (moradas, contactos, datas de nascimento ou outros). Este pedido é público. Indique só onde está o problema.
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de pedido
+      options:
+        - Dado errado ou em falta
+        - Correção de dados pessoais
+        - Remoção de dados pessoais
+    validations:
+      required: true
+  - type: input
+    id: onde
+    attributes:
+      label: Onde está o dado
+      description: Ficheiro, tabela ou página, e o identificador do registo (por exemplo, data/iniciativas/XVII/377/377352.json).
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: O que está errado
+      description: Descreva o problema sem repetir dados pessoais.
+    validations:
+      required: true
+  - type: input
+    id: fonte
+    attributes:
+      label: Fonte
+      description: Ligação para a fonte oficial que mostra o valor correto, se existir.
+    validations:
+      required: false

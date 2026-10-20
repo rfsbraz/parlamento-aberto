@@ -1,0 +1,10 @@
+# The default rules, plus one allowlist: the EpT tab 4 section, row and column keys
+# (for example "2c6d9562-dea5-488b-9afe-42519c636daf-col1") are public form GUIDs that
+# the generic-api-key rule reads as secrets (#44).
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "EpT tab 4 form GUIDs"
+regexTarget = "secret"
+regexes = ['''^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}(_\d+|-col\d+)?$''']

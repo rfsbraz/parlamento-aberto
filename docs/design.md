@@ -1,6 +1,6 @@
 # Fiscaliza restart: open data pipeline and site
 
-Status: approved by Rodrigo 20 Oct 2026 (layout and merge policy). Author: Meireles. First draft 17 Oct 2026.
+Status: approved 20 Oct 2026 (layout and merge policy).
 
 ## Why we are restarting
 
@@ -23,15 +23,15 @@ The data itself is small. All JSON is 1.7 GB, and DuckDB reads it in seconds. Co
 
 ## Repo split
 
-**Open data repo: `rfsbraz/parlamento-aberto`.** Created 20 Oct 2026 as a private repo. It goes public with the first data release, and that step needs Rodrigo's OK. It holds the pipeline code, the SQL models, the tests, the docs, the data dictionary and the normalised raw AR data. It starts with fresh history: nothing is copied from `rfsbraz/parliament`, because that history contains a database password. CI runs gitleaks on every PR.
+**Open data repo: `rfsbraz/parlamento-aberto`.** Created 20 Oct 2026 as a private repo. It goes public with the first data release, and that step needs Rodrigo's OK. It holds the pipeline code, the SQL models, the tests, the docs, the data dictionary and the normalised raw AR data. It starts with fresh history. CI runs gitleaks on every PR.
 
-**Site repo.** `rfsbraz/parliament` stays private and becomes the site only. The Flask API, the importers, `lambda-functions/`, `terraform/` and the Docker files go. The React pages in `frontend/` stay as the design reference. The old mappers and the two analysis docs stay readable on an archive tag as the field spec for the new models.
+**Site repo.** The Fiscaliza site lives in a separate repo and only consumes the data releases.
 
 **How the site consumes data.** The site never talks to parlamento.pt. Its build step downloads the latest data release, checks that the manifest's schema major version is one it supports, and generates static pages and per-legislature JSON shards from the Parquet files. A scheduled site workflow rebuilds once a day after the data run. If the schema check fails, the build fails and the previous deploy stays live. No cross-repo token is needed.
 
 ## Raw data in git
 
-Raw AR files are stored in git as extracted, normalised text, never as ZIPs, so a data PR shows the records that changed. The sizing study ([REPORT.md](../../parliament-sizing/REPORT.md), 20 Oct 2026) settled the layout:
+Raw AR files are stored in git as extracted, normalised text, never as ZIPs, so a data PR shows the records that changed. A sizing study (20 Oct 2026) settled the layout:
 
 - Iniciativas XIII and IX are over GitHub's 100 MiB limit, and XVII is 94 MiB one year in, so one file per legislature fails.
 - AR record order is unstable, and one NDJSON line per initiative can be 1.1 MB, which GitHub will not render.
@@ -130,37 +130,3 @@ Unit tests run on committed fixtures in the layout above, so code PRs never depe
 ## DAR later
 
 The Diário (from XI on, as ZIPs) is the richest source and the most work, so it comes after v1: a monthly workflow extracting text per sitting into `dar_sittings` and `dar_pages`, after a spike on size and format.
-
-## Retiring the AWS stack (Rodrigo's call)
-
-RDS, ECS Fargate, two load balancers, Lambdas, S3, ECR, Elastic IPs and alarms, an estimated $30 to 60 a month, with no data worth keeping. Rodrigo: rotate the RDS password and Flask secret key before deleting `claude/oss-fixes`, then `terraform destroy` and check for leftover Elastic IPs and snapshots.
-
-## Open questions for Rodrigo
-
-1. ~~Name of the open data repo.~~ Answered 20 Oct: `parlamento-aberto`.
-2. ~~Creating the repo.~~ Done 20 Oct, private. Making it public with the first data release still needs your OK.
-3. ~~Holding page for fiscaliza.pt.~~ Done.
-4. ~~Email the AR about Iniciativas XVII.~~ Sent. The files have since recovered.
-5. Interest registers for XVI and XVII are not in the dump. Since 2019, declarations go to the Entidade para a Transparência, which the AR file may no longer mirror. Is that mart worth chasing beyond the historical files?
-6. Prior art: `fsmunoz/parlamentodb` (AGPL) already turns the same JSON into Parquet and serves an API. Worth a hello once ours is public.
-7. New: the bot identity for data PRs (see Pipeline). A GitHub App is the cleaner option; a fine-grained token scoped to this repo also works.
-
-## Build plan for Fonseca (parlamento-aberto)
-
-One issue per item, and each PR closes its issue. Acceptance criteria live in the issues. Independent items branch from main; dependent ones use gh stack, every stack targeting main.
-
-1. **Scaffold.** uv, DuckDB, ruff, pytest, CI, gitleaks, a 50 MB file check, licences, README with attribution, PR template, empty `sources.yaml`. Goes first.
-2. **Fetch, validate and normalise** into the layout, with `sources.lock.json`. Needs 1.
-3. **Data-PR workflows**: nightly current-legislature run, monthly and manual full sync, change report, auto-merge, hold and `historical-change` labels, catch-up run. Stacks on 2.
-4. **Base staging and marts**, the SQL runner and column YAML. Needs 1 only; fixtures follow the documented layout.
-5. **Vote string parser**, a pure function. Needs 1 only.
-6. **Initiatives and votes marts.** Stacks on 4 and 5.
-7. **Interventions and questions marts.** Stacks on 4.
-8. **Interests and coalitions.** Stacks on 4.
-9. **Release on merge.** Stacks on 4; real releases need 2 and 3. The first public release waits for Rodrigo's OK.
-10. **Data dictionary and docs.** Stacks on 4.
-11. **Discover job.** Stacks on 3.
-
-After the scaffold, 2, 4 and 5 run in parallel. Then 3 after 2; 7, 8, 9 and 10 after 4; 6 after 4 and 5; 11 after 3.
-
-Site repo: (12) strip the backend after tagging `archive/v1`, safe now; (13) data loader and core pages, after the first release; (14) initiatives and votes pages, stacks on 13; (15) Cloudflare Pages deploy and daily rebuild, with the DNS switch Rodrigo's call. DAR comes after all of this, starting with a spike.

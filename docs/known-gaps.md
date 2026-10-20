@@ -136,7 +136,7 @@ Nothing is inferred to fix this: the source does not say which stand-in replaced
 
 | Legislature | Seats | Max seated | Days over |
 |---|---:|---:|---:|
-| Constituinte | no seed | 250 | |
+| Constituinte | 250 | 250 | 0 |
 | I-A | 263 | 271 | 1,178 |
 | I-B | 250 | 254 | 249 |
 | II | 250 | 257 | 891 |

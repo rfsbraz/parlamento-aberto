@@ -4,7 +4,7 @@ models:
   seed_seats:
     description: >-
       Seats in the Assembleia da República per legislature, hand-kept, each row citing its
-      source. Legislature I is split like the AR folders: I-A (from 1976, 263 seats) and
+      source. Constituinte is the 1975-1976 Constituent Assembly, with 250 seats. Legislature I is split like the AR folders: I-A (from 1976, 263 seats) and
       I-B (from the December 1979 interim election, 250 seats), with the same citation.
     columns:
       legislature: Legislature in Roman numerals as in the AR folder names, for example XVII or I-A.

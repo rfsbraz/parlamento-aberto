@@ -260,7 +260,7 @@ def test_fixtures_are_clean_and_synthetic():
     for f in files:
         text = f.read_text()
         ept.assert_clean(json.loads(text))
-        # titularidades.json is scrubbed of names; any fixture with a holder name uses a made-up one.
+        # titularidades.json has no names. A fixture with a holder name uses a made-up one.
         if '"holder"' in text:
             assert "Pessoa Sintética" in text, f.name
 

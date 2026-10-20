@@ -1,0 +1,119 @@
+name: discover
+
+# Weekly, Monday 08:00 Lisbon: read the AR open data pages one at a time and compare
+# their links with sources.yaml (src/parlamento_aberto/discover.py).
+# - New links for a known dataset: commit them to data/discover and open or update a PR
+#   labelled "hold: new-dataset", pushed as the data bot so CI runs. Never merged here.
+# - Anything that needs a decision (removed links, a new dataset type, a page the scan
+#   cannot read): open or update one issue labelled "discover", with GITHUB_TOKEN.
+# - Nothing changed: no PR and no issue.
+# Without DATA_BOT_TOKEN no branch is pushed; the new links go into the issue instead.
+on:
+  schedule:
+    - cron: "0 7 * * 1" # 08:00 Lisbon in summer time
+    - cron: "0 8 * * 1" # 08:00 Lisbon in winter time
+  workflow_dispatch:
+
+concurrency:
+  group: discover
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  BRANCH: data/discover
+  ISSUE_TITLE: "discover: the AR open data pages changed"
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: read
+      issues: write
+    env:
+      HAS_BOT_TOKEN: ${{ secrets.DATA_BOT_TOKEN != '' }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - uses: astral-sh/setup-uv@v6
+
+      - run: uv sync --locked
+
+      - name: Plan
+        id: plan
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: uv run python -m parlamento_aberto.discover plan --event "$EVENT" --schedule "$SCHEDULE" | tee -a "$GITHUB_OUTPUT"
+
+      - name: Scan the open data pages
+        id: diff
+        if: steps.plan.outputs.run == 'true'
+        run: |
+          uv run python -m parlamento_aberto.discover scan --scan "$RUNNER_TEMP/scan.json"
+          uv run python -m parlamento_aberto.discover diff --scan "$RUNNER_TEMP/scan.json" \
+            --report "$RUNNER_TEMP/report.json" | tee -a "$GITHUB_OUTPUT"
+
+      - name: Write the PR and issue text
+        id: bodies
+        if: steps.plan.outputs.run == 'true'
+        run: |
+          uv run python -m parlamento_aberto.discover bodies --report "$RUNNER_TEMP/report.json" \
+            --token "$HAS_BOT_TOKEN" --pr "$RUNNER_TEMP/pr.md" --issue "$RUNNER_TEMP/issue.md" | tee -a "$GITHUB_OUTPUT"
+
+      - name: Open or update the held PR
+        if: steps.bodies.outputs.pr == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.DATA_BOT_TOKEN }}
+        run: |
+          # Push as the bot so the PR triggers CI (GITHUB_TOKEN pushes do not).
+          gh auth setup-git
+          git config user.name "parlamento-aberto data bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null; then
+            git switch "$BRANCH"
+            # Keep the open PR current with main. No rebase, no force-push.
+            git merge --no-edit origin/main
+          else
+            git switch -c "$BRANCH"
+          fi
+          uv run python -m parlamento_aberto.discover apply --report "$RUNNER_TEMP/report.json"
+          git add sources.yaml
+          if ! git diff --cached --quiet; then
+            git commit -m "feat(sources): new AR open data links found by discover"
+          fi
+          if [ "$(git rev-list --count origin/main..HEAD)" != "0" ]; then
+            git push origin "$BRANCH"
+          fi
+          gh label create "hold: new-dataset" --color B60205 --description "New dataset or legislature" 2>/dev/null || true
+          number=$(gh pr list --head "$BRANCH" --base main --state open --json number --jq '.[0].number // empty')
+          if [ -z "$number" ]; then
+            gh pr create --head "$BRANCH" --base main --title "feat(sources): new AR open data links" \
+              --body-file "$RUNNER_TEMP/pr.md" --label "hold: new-dataset"
+          else
+            gh pr edit "$number" --body-file "$RUNNER_TEMP/pr.md" --add-label "hold: new-dataset"
+          fi
+
+      - name: Open or update the issue
+        if: steps.bodies.outputs.issue == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create "discover" --color FBCA04 --description "Found by the weekly discover job" 2>/dev/null || true
+          number=$(gh issue list --label discover --state open --json number,title \
+            --jq "map(select(.title == \"$ISSUE_TITLE\")) | .[0].number // empty")
+          if [ -z "$number" ]; then
+            gh issue create --title "$ISSUE_TITLE" --body-file "$RUNNER_TEMP/issue.md" --label discover
+          else
+            gh issue view "$number" --json body --jq .body > "$RUNNER_TEMP/old.md"
+            # Compare without trailing newlines, which GitHub may not keep.
+            if [ "$(cat "$RUNNER_TEMP/old.md")" != "$(cat "$RUNNER_TEMP/issue.md")" ]; then
+              gh issue edit "$number" --body-file "$RUNNER_TEMP/issue.md"
+              gh issue comment "$number" --body "Updated by the discover run of $(TZ=Europe/Lisbon date +%F)."
+            fi
+          fi

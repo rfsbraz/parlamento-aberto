@@ -1,0 +1,36 @@
+# Synthetic sources.yaml for the discover tests, matching site.yaml.
+datasets:
+  iniciativas:
+    layout: records
+    id: IniId
+    files:
+      - legislature: XVI
+        url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=fxIni16json&fich=IniciativasXVI_json.txt&Inline=true"
+      - legislature: XVII
+        url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=fxIni17json&fich=IniciativasXVII_json.txt&Inline=true"
+  composicao_orgaos:
+    layout: tables
+    ids:
+      Plenario: depCadId
+    files:
+      - legislature: I
+        url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=fxOrg1json&fich=OrgaoComposicaoI_json.txt&Inline=true"
+      - legislature: II
+        url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=fxOrg2json&fich=OrgaoComposicaoII_json.txt&Inline=true"
+  orcamento_estado:
+    layout: tables
+    ids:
+      Item: ID
+    files:
+      - legislature: XVII
+        part: 2026Or
+        url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=fxOE2026json&fich=OE2026Or_json.txt&Inline=true"
+
+discover:
+  ignore_pages:
+    DAdar: The Diário comes after v1.
+  ignore_links:
+    - page: DAComposicaoOrgaos
+      folder: I Legislatura
+      file: OrgaoComposicaoII_json.txt
+      reason: Older copy of the II composition, kept out.

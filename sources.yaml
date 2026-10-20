@@ -818,3 +818,18 @@ datasets:
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=h5h%2b89c5y8tw2uzjd9Oqx4gVWj8sa6TYR1e6Z2rTodvzSi1UJt3btnbKxqoz0%2b6bXUS4g6XRqrsVEUOOKm1pfYOeZfu%2bI49h9iPLDUrwagg3GHQ3pwF0xrb1%2brOFQKYLgDOAm7yJpUei9%2bJU%2f414x4vImhcM7T%2bswfgZbN2BdzlfuH5PcVgaXAKXwhfxzqmdyPigaGRmpB0Bx%2fYGmaKPaFAOR%2b0BOZDes%2bAFbFg7IiX4uVxv0cpd45h9zunTz8lWP0vBria59gXs4pTDMI%2bK9heH9EZrNSHhz0itPz2Fn9T340Ex1JcKG0LoyigMl2YQ1sLSKKPpLsrBZIHFEdCgJVh%2f6UFOt%2fCY9M%2fCNHD79iH17iDF233ax2XjCw90SkFcvsaduj4UZx4EctxlBSuUxhlXvRxynHMRtK2TDIY73WE%3d&fich=ReunioesVisitasXVI_json.txt&Inline=true"
       - legislature: XVII
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=jECLcnsoho6uktOE0wUz9df5npl9gyCT70ZBnMo6y3JT0YrcStK2NGY7oNhpi%2fCO0FcRXaPzzLYSw8PVlTd08XXFZNCOdioKZIcCskamU15ifgtnibBcnMBd0QczMnV1QLed0D68Wk4cB19tiKSdr0msOS%2fmnsUpZx%2blDq5D3Mpa8H3qijqE%2bi1OOKMlVnwxYJ4seql6O090%2fVU6%2blK1sprbaZbShileMHb8iY4p9I2OHKjyU%2f6dbViET2Ta4WQ4Qm8ikdN8kx5WSyNvxWluegRy46Zxjeyyg0YEoP6srbMPgc1pTuOwrmzLvNig1t3v091aYkH4I646bRasE5zandCr7Q8ewWkkf1mvubF2P9LMJFApxy5ZXtqpDY1gOiJzalA7asuUKrzgXqTkIoVatA%3d%3d&fich=ReunioesVisitasXVII_json.txt&Inline=true"
+
+# Weekly discover job (src/parlamento_aberto/discover.py): pages and links on the AR open
+# data pages that are left out on purpose, so they are not reported.
+discover:
+  ignore_pages:
+    DAdar: The Diário da Assembleia da República comes after v1 (docs/design.md).
+  ignore_links:
+    - page: DAComposicaoOrgaos
+      folder: I Legislatura
+      file: OrgaoComposicaoII_json.txt
+      reason: Older export of the II composition, kept out (docs/known-gaps.md, #18).
+    - page: DAComposicaoOrgaos
+      folder: I Legislatura
+      file: OrgaoComposicaoIII_json.txt
+      reason: Older export of the III composition, kept out (docs/known-gaps.md, #18).

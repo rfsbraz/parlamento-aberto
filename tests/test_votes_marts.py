@@ -17,11 +17,12 @@ fixture_only = pytest.mark.skipif(DATA_DIR != FIXTURES, reason="pinned to the fi
 
 # Codes the AR uses in vote details for deputies outside any group. They are not groups.
 NON_GROUP_CODES = {"Indep", "Ninsc"}
-# Codes found in a legislature's vote details but missing from its InformacaoBase groups,
-# left as published until someone decides how to map them.
-KNOWN_UNLISTED_CODES = {("I-B", "PPD")}
+# Codes found in a legislature's votes but missing from its InformacaoBase groups, left as
+# published until someone decides what to do with them. PPD: I-B lists the party as PSD.
+# PSN: 6 votes dated in VII on VI initiatives list PSN, which had no seat in VII.
+KNOWN_UNLISTED_CODES = {("I-B", "PPD"), ("VII", "PSN")}
 # Share of named dissenters per legislature allowed to stay without a cadastro_id.
-MAX_UNMATCHED_DISSENTER_SHARE = 0.10
+MAX_UNMATCHED_DISSENTER_SHARE = 0.01
 
 
 @pytest.fixture(scope="module")
@@ -251,3 +252,17 @@ def test_initiative_authors(con):
     assert rows == [("other", 1)]
     kinds = con.sql("select distinct author_type from initiative_authors order by 1").fetchall()
     assert kinds == [("deputy",), ("group",), ("other",)]
+
+
+@fixture_only
+def test_non_inscribed_dissenters_match_on_name(con):
+    rows = con.sql(
+        """
+        select name, group_acronym, cadastro_id is not null from vote_deputy_dissents
+        where vote_id = 90081 order by name
+        """
+    ).fetchall()
+    assert rows == [
+        ("Cristina Rodrigues", "Ninsc", True),
+        ("Joacine Katar Moreira", "Ninsc", True),
+    ]

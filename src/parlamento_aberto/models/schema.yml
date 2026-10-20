@@ -63,9 +63,9 @@ models:
     description: >-
       RegistoBiografico, one row per person record, scalar fields only. II and III come from
       the older XML-shaped files listed on the AR I Legislatura page (camelCase keys), and
-      Constituinte from the older RegistoBiograficoConstituinte.xml in the same shape. For
-      every other legislature except XVII, the AR file repeats the current register of about
-      339 people, so those rows are not that legislature's deputies (docs/known-gaps.md).
+      Constituinte from the older RegistoBiograficoConstituinte.xml in the same shape. The
+      other pages are older snapshots of the XVII register and are not stored, except I (335
+      people), so I rows are not that legislature's deputies (docs/known-gaps.md).
     columns:
       cadastro_id: Person id shared across legislatures and datasets (CadId).
       full_name: Full name (CadNomeCompleto).

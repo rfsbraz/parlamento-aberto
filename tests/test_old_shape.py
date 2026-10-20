@@ -219,16 +219,28 @@ def test_orgao_composicao_extras_stay_out(real):
     assert not [k for k, s in real.items() if s.dataset == "composicao_orgaos" and s.listed_on]
 
 
-def test_only_ii_and_iii_have_copies(real):
-    # Plus the Constituinte biography JSON, replaced by the older XML (#28).
-    copies = sorted(k for k, s in real.items() if s.copy_of)
-    assert copies == [
-        "atividade_deputado/II-xvii-copy",
-        "atividade_deputado/III-xvii-copy",
-        "registo_biografico/Constituinte-xvii-copy",
-        "registo_biografico/II-xvii-copy",
-        "registo_biografico/III-xvii-copy",
-    ]
+BIO_SNAPSHOTS = ["Constituinte", "I-A", "I-B", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
+BIO_SNAPSHOTS += ["XI", "XII", "XIII", "XIV", "XV", "XVI", "II", "III"]
+ATV_SNAPSHOTS = ["Constituinte", "I-A", "I-B", "II", "III"]
+
+
+def test_older_snapshots_of_xvii_are_hashed_not_stored(real):
+    # Pages whose file has only XVII ids: an older snapshot of the XVII register.
+    snapshots = sorted(k for k, s in real.items() if s.copy_of)
+    expected = [f"atividade_deputado/{leg}-xvii-copy" for leg in ATV_SNAPSHOTS]
+    expected += [f"registo_biografico/{leg}-xvii-copy" for leg in BIO_SNAPSHOTS]
+    assert snapshots == sorted(expected)
+    assert {real[k].copy_of for k in snapshots} == {"XVII"}
+    assert all(real[k].path is None and real[k].format == "json" for k in snapshots)
+
+
+@pytest.mark.parametrize(
+    "key",
+    [f"atividade_deputado/{leg}" for leg in ["Constituinte", "I-A", "I-B"]]
+    + [f"registo_biografico/{leg}" for leg in ["I-A", "I-B"] + BIO_SNAPSHOTS[3:16]],
+)
+def test_snapshot_pages_are_no_longer_stored(real, key):
+    assert key not in real
 
 
 # Seats seed

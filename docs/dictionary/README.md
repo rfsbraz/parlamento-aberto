@@ -31,8 +31,8 @@ Como consultar uma publicação: [querying.md](../querying.md).
 | [questions](questions.md) | Uma linha por pergunta ou requerimento que um deputado enviou ao Governo ou a outro organismo público. |
 | [question_authors](question_authors.md) | Uma linha por pergunta e autor. |
 | [question_recipients](question_recipients.md) | Uma linha por pergunta e organismo destinatário. |
-| [interest_declarations](interest_declarations.md) | Uma linha por declaração no registo de interesses, XI a XV. |
-| [interests](interests.md) | Uma linha por interesse declarado: atividades e cargos, cargos sociais, sociedades, apoios, serviços e outras situações. |
+| [interest_declarations](interest_declarations.md) | Uma linha por declaração no registo de interesses, de duas fontes: os dados abertos da AR (source = ar_open_data, XI a XV) e a Entidade para a Transparência (source = ept, XVI e XVII). |
+| [interests](interests.md) | Uma linha por interesse declarado, das mesmas duas fontes de interest_declarations (ar_open_data, XI a XV, e ept, XVI e XVII): atividades e cargos, cargos sociais, associações, sociedades, apoios, serviços e outras situações. |
 
 ## Licença e atribuição
 

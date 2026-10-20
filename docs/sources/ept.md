@@ -97,6 +97,12 @@ Um GUID de secção desconhecido é um erro, não algo que se salta, para que um
 
 A EpT não tem id da AR. O `seed_ept_holders` (#47) faz corresponder cada id de titular da EpT a um `cadastro_id` pelo nome completo normalizado, comparado com a InformacaoBase (XVII para a entidade 4508, XIV a XVI para a 510), com uma correção mantida à mão para cada titular que a comparação de nomes deixa sem correspondência ou ambíguo. O RegistoBiografico da XVI é uma cópia do registo da XVII (ver [lacunas conhecidas](../known-gaps.md)), por isso não é usado para a 510.
 
+## Nos marts
+
+As declarações da XVI e da XVII entram em `interest_declarations` e `interests` com `source = 'ept'` e `format_version = 'EPT'` (#48). As colunas da AR vêm primeiro e pela mesma ordem; as colunas próprias da EpT vêm depois e são nulas nas linhas da AR. As declarações da entidade 510 anteriores à XVI ficam só em `stg_ept_registo_interesses__declarations`, porque a AR já as publica. O que muda face à AR está nas [lacunas conhecidas](../known-gaps.md#registo-de-interesses-da-ept-xvi-e-xvii) e no [dicionário de dados](../dictionary/interests.md).
+
+A publicação de dados deixa de fora as linhas com `source = 'ept'`, que não estão cobertas pela CC BY 4.0, e conta-as em `excluded_sources` no `manifest.json`. Os marts continuam a tê-las no build local.
+
 ## Ordem de construção
 
 1. #43: esta página.
@@ -105,4 +111,4 @@ A EpT não tem id da AR. O `seed_ept_holders` (#47) faz corresponder cada id de 
 4. #45: o conjunto de dados `ept_registo_interesses` no data-sync, em espera até à resposta da EpT.
 5. #47: seed de correspondência entre titulares e `cadastro_id`.
 6. #48: os marts unificados.
-7. #49: dicionário, lacunas conhecidas e notas de publicação.
+7. #49: dicionário, lacunas conhecidas e notas de publicação (esta atualização).

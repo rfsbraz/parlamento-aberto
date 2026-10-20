@@ -23,12 +23,33 @@ from pathlib import Path
 import duckdb
 import yaml
 
-from parlamento_aberto.build import MODELS, build, load_schema
+from parlamento_aberto.build import LAYERS, MODELS, build, load_schema
 
 ATTRIBUTION = "Fonte: Assembleia da República, dados abertos"
-LICENCE = "CC BY 4.0"
+AR_TERMS_URL = "https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx"
+# Licence split (LICENSE-DATA): CC BY 4.0 covers only our marts and the dictionary.
+MARTS_LICENCE = "CC BY 4.0"
+RAW_TERMS = (
+    "Dados abertos da Assembleia da República reutilizados nos termos da AR, com a fonte e a "
+    "data de atualização (Lei n.º 26/2016, art. 19.º, n.º 5)"
+)
+EPT_TERMS = (
+    "Dados da Entidade para a Transparência, fora da licença dos marts: regidos pela "
+    "Lei n.º 52/2019, art. 17.º, e pelos termos da EpT; republicação pendente da resposta da EpT"
+)
+EPT_MODEL = re.compile(r"(?:^|_)ept_")
 REPO = "https://github.com/rfsbraz/parlamento-aberto"
 MAX_DROP = 0.05
+# Sources whose rows stay in the marts but out of the published files, with the reason. The
+# EpT register has no reuse authorisation yet (Lei n.º 52/2019, art. 17.º), so it is not
+# covered by CC BY 4.0.
+EXCLUDED_SOURCES = {
+    "ept": {
+        "licence": "não publicado",
+        "terms": "Entidade para a Transparência, Lei n.º 52/2019, art. 17.º: sem autorização "
+        "de reutilização, fora da CC BY 4.0",
+    },
+}
 ACK = re.compile(r"^\s*[-*]\s*drift:\s*(\S+)\s+([^\s:]+)", re.MULTILINE)
 
 
@@ -42,6 +63,33 @@ def marts() -> list[str]:
     return [name for name in load_schema() if (MODELS / "marts" / f"{name}.sql").exists()]
 
 
+def _reads(model: str) -> set[str]:
+    """Models a staging or mart SQL file names. Python models and seeds read none here."""
+    for layer in LAYERS:
+        path = MODELS / layer / f"{model}.sql"
+        if path.exists():
+            words = set(re.findall(r"\b\w+\b", path.read_text(encoding="utf-8")))
+            return {m for m in load_schema() if m in words and m != model}
+    return set()
+
+
+def ept_derived(model: str, reads=_reads) -> bool:
+    """True if the model is, or is built from, an EpT model or seed (name with ept_)."""
+    seen, todo = set(), [model]
+    while todo:
+        name = todo.pop()
+        if EPT_MODEL.search(name):
+            return True
+        if name not in seen:
+            seen.add(name)
+            todo += reads(name)
+    return False
+
+
+def mart_licence(mart: str) -> str:
+    return EPT_TERMS if ept_derived(mart) else MARTS_LICENCE
+
+
 def next_tag(date: str, existing: list[str]) -> str:
     base = f"data-{date}"
     if base not in existing:
@@ -50,6 +98,35 @@ def next_tag(date: str, existing: list[str]) -> str:
     while f"{base}-{n}" in existing:
         n += 1
     return f"{base}-{n}"
+
+
+def published(con: duckdb.DuckDBPyConnection, mart: str) -> str:
+    """A temp view of the mart without the rows of EXCLUDED_SOURCES, and its name."""
+    cols = [c[0] for c in con.execute(f"describe {mart}").fetchall()]
+    view = f"_release_{mart}"
+    where = ""
+    if "source" in cols:
+        excluded = ", ".join(f"'{k}'" for k in EXCLUDED_SOURCES)
+        where = f" where source not in ({excluded})"
+    con.execute(f"create or replace temp view {view} as select * from {mart}{where}")
+    return view
+
+
+def excluded_rows(con: duckdb.DuckDBPyConnection) -> dict:
+    """Rows left out of each mart, per excluded source, for the manifest."""
+    out = {}
+    for source, terms in EXCLUDED_SOURCES.items():
+        rows = {}
+        for mart in marts():
+            cols = [c[0] for c in con.execute(f"describe {mart}").fetchall()]
+            if "source" in cols:
+                (n,) = con.execute(
+                    f"select count(*) from {mart} where source = ?", [source]
+                ).fetchone()
+                if n:
+                    rows[mart] = n
+        out[source] = {**terms, "rows": rows}
+    return out
 
 
 def row_counts(con: duckdb.DuckDBPyConnection, mart: str) -> tuple[int, dict | None]:
@@ -102,25 +179,31 @@ def _sha256(path: Path) -> str:
 
 def write_csv_gz(con: duckdb.DuckDBPyConnection, mart: str, path: Path, header: str) -> None:
     with tempfile.TemporaryDirectory() as tmp:
-        plain = Path(tmp) / f"{mart}.csv"
+        plain = Path(tmp) / "mart.csv"
         con.execute(f"copy {mart} to '{plain.as_posix()}' (format csv, header true)")
         with plain.open("rb") as src, gzip.GzipFile(path, "wb", mtime=0) as dst:
             dst.write(f"# {header}\n".encode())
             shutil.copyfileobj(src, dst)
 
 
-def export(con, out: Path, tag: str, sha: str) -> dict:
+def export(con, out: Path, tag: str, sha: str, updated: str) -> dict:
     entries = {}
     for mart in marts():
+        view = published(con, mart)
         parquet = out / f"{mart}.parquet"
-        con.execute(f"copy {mart} to '{parquet.as_posix()}' (format parquet, compression zstd)")
+        con.execute(f"copy {view} to '{parquet.as_posix()}' (format parquet, compression zstd)")
         csv_gz = out / f"{mart}.csv.gz"
-        header = f"{ATTRIBUTION}. {LICENCE}. {REPO} {tag}, data commit {sha}, mart {mart}."
-        write_csv_gz(con, mart, csv_gz, header)
-        total, by = row_counts(con, mart)
+        licence = mart_licence(mart)
+        header = (
+            f"{ATTRIBUTION}, atualizados a {updated}. {licence}. "
+            f"{REPO} {tag}, data commit {sha}, mart {mart}."
+        )
+        write_csv_gz(con, view, csv_gz, header)
+        total, by = row_counts(con, view)
         entries[mart] = {
             "rows": total,
             "rows_by_legislature": by,
+            "licence": licence,
             "files": {
                 "parquet": {"name": parquet.name, "sha256": _sha256(parquet)},
                 "csv": {"name": csv_gz.name, "sha256": _sha256(csv_gz)},
@@ -134,6 +217,13 @@ def sources(data: Path) -> dict:
     return {
         k: {"sha256": v.get("sha256"), "fetched": v.get("fetched")} for k, v in sorted(lock.items())
     }
+
+
+def source_updated(data: Path) -> str:
+    """Latest fetch date of the AR sources, the update date the AR terms ask us to cite."""
+    lock = json.loads((data / "_meta" / "sources.lock.json").read_text(encoding="utf-8"))
+    dates = [v["fetched"] for k, v in lock.items() if v.get("fetched") and not EPT_MODEL.match(k)]
+    return max(dates)
 
 
 def _read(path: Path) -> str | None:
@@ -152,6 +242,7 @@ def cmd_build(a) -> int:
     prev_excerpt = _read(Path(a.previous) / "CHANGELOG.md") if a.previous else None
 
     con = build(data)
+    updated = source_updated(data)
     with tempfile.TemporaryDirectory() as tmp:
         staging = Path(tmp)
         manifest = {
@@ -160,9 +251,16 @@ def cmd_build(a) -> int:
             "built_at": dt.datetime.now(dt.UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "data_commit": a.sha,
             "attribution": ATTRIBUTION,
-            "licence": LICENCE,
-            "marts": export(con, staging, tag, a.sha),
+            "source_updated": updated,
+            "licence": {
+                "marts": MARTS_LICENCE,
+                "raw_data": RAW_TERMS,
+                "ept": EPT_TERMS,
+                "ar_terms": AR_TERMS_URL,
+            },
+            "marts": export(con, staging, tag, a.sha, updated),
             "sources": sources(data),
+            "excluded_sources": excluded_rows(con),
         }
         if previous:
             drops = drift(previous, manifest, acknowledgements(excerpt, prev_excerpt))

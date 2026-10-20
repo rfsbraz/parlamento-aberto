@@ -9,11 +9,13 @@ A AR permite a reutilização livre dos seus dados abertos, desde que a fonte se
 ## Licenças
 
 - Código: MIT (`LICENSE`).
-- Dados: CC BY 4.0 (`LICENSE-DATA`), para tudo o que está em `data/` e para os marts publicados.
+- Dados: ver `LICENSE-DATA`. Os dados brutos da AR em `data/` são reutilizados nos termos da AR; os marts e o dicionário estão sob CC BY 4.0; os dados da EpT ficam fora da CC BY.
 
 ## Dados pessoais
 
 Biografias, datas de nascimento e registos de interesses são dados pessoais. Este repositório republica apenas o que a AR publica.
+
+A AR publica por vezes, em campos de texto livre, números de contribuinte (NIF) e números de beneficiário de cidadãos. O sync substitui-os por `[removido]` (#69), incluindo um NIF escrito em três grupos de três dígitos separados pelo mesmo espaço ou ponto. Os dados dos deputados e das empresas, como um NIPC, ficam como estão. Se algum destes números escapar à máscara, um guard faz falhar o sync antes de escrever. Os commits anteriores mantêm os dados abertos da AR tal como foram publicados: a máscara aplica-se daqui em diante e não reescrevo o histórico.
 
 Para reportar dados errados, abra uma issue com o formulário [Correção de dados](../../issues/new?template=correcao-de-dados.yml). Os pedidos de remoção de dados pessoais podem usar o mesmo formulário, ou o reporte privado de vulnerabilidades do GitHub. Não cole os próprios dados pessoais numa issue pública.
 

@@ -12,3 +12,6 @@ Os títulos `## Unreleased` e os prefixos `schema:` e `drift:` ficam em inglês,
 ## Unreleased
 
 - schema: primeira publicação, schema 1.0.0.
+- schema: interest_declarations ganha source, source_format, source_declaration_id, ept_holder_id, declaration_nature, declaration_state, supersedes_declaration_id, superseded_by_declaration_id, chain_root_declaration_id, submitted_at, submitted_date e is_current, no fim (schema 1.1.0).
+- schema: interests ganha source, paid_raw, entity_nipc, beneficiary, beneficiary_company, share_value_eur, share_pct, share_holder, is_professional_secrecy e observation, no fim.
+- schema: manifest.json ganha excluded_sources. As linhas com source = ept ficam fora dos ficheiros publicados, por não estarem cobertas pela CC BY 4.0.

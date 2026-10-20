@@ -119,7 +119,7 @@ Nenhum dos seis ficheiros tem entrada no `sources.yaml`. As entradas dos quatro 
 
 ## RegistoInteresses
 
-Todos os ficheiros RegistoInteresses, da Constituinte à XV, listam as mesmas 1446 pessoas: as listas da XVII, o mesmo conjunto da AtividadeDeputado. As pessoas que não estão nas listas da XVII não têm declarações aqui. A XVI e a XVII não têm ficheiro: as declarações passaram para a Entidade para a Transparência. A construção da EpT para a XVI e a XVII, cujos dados aguardam a resposta da EpT antes de serem republicados, está descrita em [sources/ept.md](sources/ept.md).
+Todos os ficheiros RegistoInteresses, da Constituinte à XV, listam as mesmas 1446 pessoas: as listas da XVII, o mesmo conjunto da AtividadeDeputado. As pessoas que não estão nas listas da XVII não têm declarações aqui. A XVI e a XVII não têm ficheiro: as declarações passaram para a Entidade para a Transparência. A XVI e a XVII vêm da EpT, com `source = 'ept'`, e só são republicadas depois de a EpT responder: ver a secção seguinte e [sources/ept.md](sources/ept.md).
 
 - A Constituinte a X não trazem nenhuma declaração, só a lista de pessoas (V3 sem `RecordInterests`). A Constituinte, I-A, I-B e II a X são idênticas byte a byte; a I difere em 17 registos.
 - As declarações estão na XI (V1, 24), XII e XIII (V2, 43 e 61), XIV (V3, 111 declarações de 56 pessoas, e V5, 15) e XV (V5, 98). Cada uma indica a legislatura do seu próprio ficheiro.
@@ -128,6 +128,21 @@ Todos os ficheiros RegistoInteresses, da Constituinte à XV, listam as mesmas 14
 - A V5 publica `Remunerada` como `N` ou `0`, nunca `S`, por isso `is_paid` é nulo para `0`. A V3 publica um código `Type` (0, 1 ou 2) que a AR não documenta; fica como `type_code`.
 
 `test_full_data_declarations_are_pinned` em `tests/test_interests_coalitions.py` fixa o número de declarações por legislatura e formato.
+
+## Registo de interesses da EpT (XVI e XVII)
+
+As declarações da XVI e da XVII vêm da API pública da Entidade para a Transparência e entram em `interest_declarations` e `interests` com `source = 'ept'`. Diferenças face aos dados abertos da AR:
+
+- Não há dedup entre fontes. A entidade 510 também tem declarações da XIV e da XV, que a AR já publica; nos marts só entram as da XVI e da XVII, e as outras ficam só em staging.
+- Só entra o separador 4 (registo de interesses). O separador 2 (dados pessoais) e o separador 3 (rendimentos e património) nunca são guardados, nem os anexos.
+- O NIF do titular nunca é guardado. Da coluna NIF/NIPC da entidade só fica um NIPC de empresa válido, em `entity_nipc`; o resto é descartado.
+- A EpT não tem id da AR. O `cadastro_id` vem de `seed_ept_holders`, pela correspondência de nomes com a InformacaoBase e correções à mão. Um titular sem correspondência fica com `cadastro_id` nulo.
+- A EpT guarda as versões: uma declaração substituída ou modificada fica como linha própria, com `declaration_state` replaced ou modified e `is_current` falso. Para contar uma declaração por titular e cargo, filtre `is_current`.
+- A EpT publica a Remuneração como `1` ou `0` sem dizer o que significam, por isso `is_paid` fica nulo e o valor publicado fica em `paid_raw`.
+- A EpT não publica exclusividade, data de alteração do cargo nem data de versão: `is_exclusive`, `position_changed_date` e `version_date` ficam nulos. A participação social vem em `share_value_eur` e `share_pct`, não em `share`.
+- O detalhe dos serviços prestados ao abrigo de segredo profissional não é público (Lei n.º 52/2019, art. 17.º, n.º 2); só fica `is_professional_secrecy`.
+- As datas da EpT vêm em UTC e são convertidas para o dia em Europe/Lisbon; o valor publicado fica nas colunas `_raw`.
+- Licença: as linhas da EpT não estão cobertas pela CC BY 4.0 e ficam fora dos ficheiros publicados até haver autorização de reutilização. O `manifest.json` conta-as em `excluded_sources`.
 
 ## Votações
 

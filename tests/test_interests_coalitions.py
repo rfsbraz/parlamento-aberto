@@ -42,7 +42,7 @@ def test_fixture_declarations_per_version(con):
         con,
         """
         select legislature, format_version, count(*), sum(items)
-        from interest_declarations group by all order by 1, 2
+        from interest_declarations where source = 'ar_open_data' group by all order by 1, 2
         """,
     ) == [
         ("XI", "V1", 1, 4),
@@ -60,6 +60,7 @@ def test_fixture_items_per_category(con):
         """
         select format_version, category, count(*)
         from interests join interest_declarations using (declaration_key)
+        where interests.source = 'ar_open_data'
         group by all order by 1, 2
         """,
     ) == [
@@ -172,6 +173,8 @@ def test_every_declarant_is_a_deputy(con):
             """
         select d.legislature, d.cadastro_id from interest_declarations d
         anti join deputies using (cadastro_id)
+        -- An EpT holder without a seed_ept_holders match has no cadastro_id (#47).
+        where d.source = 'ar_open_data' or d.cadastro_id is not null
         """,
         )
         == []

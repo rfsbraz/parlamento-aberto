@@ -135,7 +135,8 @@ def test_stale_file_alone_does_not_hold():
     assert datapr.labels([r], current="XVII") == ["data"]
 
 
-# Merge decision (native auto-merge is off while the repo is private)
+# Decisão de merge (mantenho o auto-merge nativo desligado nas definições do repositório;
+# quem faz o merge é o data-merge.yml)
 
 
 def test_merge_only_clean_green_pr_at_the_tested_head():

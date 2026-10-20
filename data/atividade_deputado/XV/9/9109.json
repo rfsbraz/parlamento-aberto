@@ -1,0 +1,87 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": [
+    {
+     "AccDtaud": null,
+     "ActAs": null,
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": null,
+     "ActLg": null,
+     "ActLoc": null,
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": null,
+     "ActTpdesc": null,
+     "CmsAb": null,
+     "CmsNo": null,
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    }
+   ],
+   "Audiencias": null,
+   "Cms": null,
+   "DadosLegisDeputado": null,
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": null,
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": null,
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": null,
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Braga",
+  "DepCPId": 3.0,
+  "DepCadId": 9109.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-10-03",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7261.0,
+    "GpSigla": "PSD"
+   }
+  ],
+  "DepId": 15968.0,
+  "DepNomeCompleto": "Sónia Margarida da Silva Fernandes",
+  "DepNomeParlamentar": "Sónia Margarida Fernandes",
+  "DepSituacao": [
+   {
+    "SioDes": "Efetivo Definitivo",
+    "SioDtFim": null,
+    "SioDtInicio": "2025-10-25"
+   },
+   {
+    "SioDes": "Efetivo Temporário",
+    "SioDtFim": "2025-10-24",
+    "SioDtInicio": "2025-06-06"
+   },
+   {
+    "SioDes": "Suplente",
+    "SioDtFim": "2025-06-05",
+    "SioDtInicio": "2025-06-05"
+   },
+   {
+    "SioDes": "Efetivo Temporário",
+    "SioDtFim": "2025-06-04",
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

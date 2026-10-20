@@ -1,0 +1,155 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "ANTÓNIO CAPUCHO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "33111",
+      "iniNr": "15",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Apreciação dos actos do Conselho de Gerência da RTP",
+      "iniTp": "I",
+      "iniTpdesc": "Inquérito Parlamentar"
+     },
+     {
+      "iniId": "29978",
+      "iniNr": "470",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Alterações à situação jurídica do pessoal em serviço na Assembleia da República.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29953",
+      "iniNr": "460",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Condiciona a afixação de publicidade ou de propaganda bem como a realização de inscrições ou de pinturas murais",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29923",
+      "iniNr": "444",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Lei de bases do ambiente e qualidade de vida",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29941",
+      "iniNr": "392",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Estatuto dos Deputados",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "32998",
+      "iniNr": "47",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Criação de uma comissão eventual para a defesa e salvaguarda do património artístico e cultural da Assembleia da República",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     },
+     {
+      "iniId": "32996",
+      "iniNr": "45",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Comissão parlamentar que promova contacto com o Congresso dos Deputados das Cortes Espanholas",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     },
+     {
+      "iniId": "32995",
+      "iniNr": "44",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Comissão especial com vista a dar parecer sobre se Sua Excelência, o Ministro da Qualidade de Vida, Dr. Francisco José de Sousa Tavares, deverá ou não ser suspenso do cargo que ocupa",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     },
+     {
+      "iniId": "32991",
+      "iniNr": "40",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Constituição de uma Comissão de Inquérito, para averiguar por forma cabal as causas e circunstâncias em que ocorreu a tragédia de Camarate",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     },
+     {
+      "iniId": "29853",
+      "iniNr": "380",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Lei quadro do desporto.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": {
+    "relatoresIniciativas": {
+     "pt_gov_ar_wsar_objectos_RelatoresIniciativasOut": [
+      {
+       "accDtrel": "1985-01-08",
+       "iniId": "29837",
+       "iniNr": "331",
+       "iniSelLg": "III",
+       "iniTi": "Estatuto dos Deputados",
+       "iniTp": "Projeto de Lei",
+       "relFase": "Baixa comissão especialidade"
+      },
+      {
+       "accDtrel": "1984-11-14",
+       "iniId": "29970",
+       "iniNr": "400",
+       "iniSelLg": "III",
+       "iniTi": "Remunerações dos titulares dos cargos políticos",
+       "iniTp": "Projeto de Lei",
+       "relFase": "Baixa comissão especialidade"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "314",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3609",
+  "depNomeCompleto": "ANTÓNIO D'OREY CAPUCHO",
+  "depNomeParlamentar": "ANTÓNIO CAPUCHO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1985-11-04",
+    "sioDtInicio": "1984-06-13"
+   }
+  },
+  "legDes": "III"
+ }
+}

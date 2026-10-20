@@ -1,0 +1,577 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "actP": {
+    "pt_gov_ar_wsar_objectos_ActividadesParlamentaresOut": [
+     {
+      "actAs": "Voto de pesar pelo falecimento do Cardeal D. Humberto Medeiros",
+      "actDtent": "23-09-1983",
+      "actId": "109406",
+      "actNr": null,
+      "actSelLg": "III",
+      "actSelNr": "1",
+      "actTp": "VOT",
+      "actTpdesc": "Voto"
+     },
+     {
+      "actAs": "Voto de protesto sobre o caso do avião sul-coreano abatiado pela aviação soviética",
+      "actDtdeb": "1983-09-14 00:00:00.0",
+      "actDtent": "14-09-1983",
+      "actId": "109371",
+      "actNr": null,
+      "actSelLg": "III",
+      "actSelNr": "1",
+      "actTp": "VOT",
+      "actTpdesc": "Voto"
+     }
+    ]
+   },
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "FERNANDO CONDESSO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30034",
+      "iniNr": "529",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Criação da região demarcada do Ribatejo.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30032",
+      "iniNr": "527",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Corridas de toiros de morte.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29867",
+      "iniNr": "402",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Atribuição da categoria de cidade à vila de Torres Novas.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29861",
+      "iniNr": "401",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Criação da freguesia de Concavada, no concelho de Abrantes.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "33005",
+      "iniNr": "54",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Alterações ao Regimento da Assembleia da República",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     },
+     {
+      "iniId": "29853",
+      "iniNr": "380",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Lei quadro do desporto.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29812",
+      "iniNr": "363",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Lei da caça.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29810",
+      "iniNr": "362",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Estatuto dos membros do Conselho de Estado.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29826",
+      "iniNr": "325",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Legalização das associações de estudantes",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29903",
+      "iniNr": "320",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Estatuto patrimonial do Presidente da República.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29898",
+      "iniNr": "319",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Lei-quadro de criação de regiões vitivinícolas demarcadas.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29896",
+      "iniNr": "318",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Protecção de animais.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29767",
+      "iniNr": "304",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Carvalhal, no concelho de Abrantes.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29766",
+      "iniNr": "303",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Fontes, no concelho de Abrantes.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29721",
+      "iniNr": "281",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Sobre baldios",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29770",
+      "iniNr": "272",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Protecção da maternidade e da paternidade.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29686",
+      "iniNr": "233",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Parreira no concelho da Chamusca.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29682",
+      "iniNr": "232",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação das freguesias de Matas e Cercal, no concelho de Vila Nova de Ourém.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "32951",
+      "iniNr": "2",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Comemoração do 1º Centenário do Nascimento de António Sérgio",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     }
+    ]
+   },
+   "intev": {
+    "pt_gov_ar_wsar_objectos_IntervencoesOut": [
+     {
+      "intId": "226072",
+      "intSu": "Impugnação da deliberação da Comissão Permanente, tomada na reunião de 8 de Setembro, relativamente à apreciação de questões de política fiscalVotação do recurso",
+      "pubDar": "1202-1203",
+      "pubDtreu": "1983-09-14",
+      "pubLg": "III",
+      "pubNr": "26",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Declaração de voto"
+     },
+     {
+      "intId": "226023",
+      "intSu": "Eleição dos representantes da Assembleia da República para a Comissão Nacional de Eleições, Conselho de Imprensa, Conselho de Liberdade de Ensino, Conselho Superior da Magistratura, Conselho Nacional do Plano, Conselho Nacional de Alfabetização e Educação de Base de Adultos, Conselho Nacional de Defesa e delegação para a Assembleia Parlamentar do Conselho da EuropaProposta de resolução para convocação de uma sessão suplementar da Assembleia da República nos dias 14, 15 e 16 de Setembro, e respetiva ordem de trabalhos - Propostas de aditamento e de substituição",
+      "intTe": "Responde ao Pedido de Esclarecimento do Deputado Lopes Cardoso (UEDS)",
+      "pubDar": "1162-1163; 1163-1164",
+      "pubDtreu": "1983-09-08",
+      "pubLg": "III",
+      "pubNr": "25",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "226043",
+      "intSu": "Eleição dos representantes da Assembleia da República para a Comissão Nacional de Eleições, Conselho de Imprensa, Conselho de Liberdade de Ensino, Conselho Superior da Magistratura, Conselho Nacional do Plano, Conselho Nacional de Alfabetização e Educação de Base de Adultos, Conselho Nacional de Defesa e delegação para a Assembleia Parlamentar do Conselho da EuropaProposta de resolução para convocação de uma sessão suplementar da Assembleia da República nos dias 14, 15 e 16 de Setembro, e respetiva ordem de trabalhos - Propostas de aditamento e de substituição",
+      "intTe": "Ao Deputado Magalhães Mota (ASDI)",
+      "pubDar": "1170-1171; 1171-1171",
+      "pubDtreu": "1983-09-08",
+      "pubLg": "III",
+      "pubNr": "25",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Pedido de esclarecimento"
+     },
+     {
+      "intId": "225901",
+      "intSu": "Posição do Grupo Parlamentar do PSD em relação à questão das autorizações legislativas",
+      "pubDar": "1124-1124",
+      "pubDtreu": "1983-07-27",
+      "pubLg": "III",
+      "pubNr": "24",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "225989",
+      "intSu": "Eleição dos representantes da Assembleia da República para a Comissão Nacional de Eleições, Conselho de Imprensa, Conselho de Liberdade de Ensino, Conselho Superior da Magistratura, Conselho Nacional do Plano, Conselho Nacional de Alfabetização e Educação de Base de Adultos, Conselho Nacional de Defesa e delegação para a Assembleia Parlamentar do Conselho da Europa, e criação de uma comissão eventual para acompanhar a situação em Timor-LesteProposta de resolução, proposta de substituição da alínea c)",
+      "pubDar": "1143-1143",
+      "pubDtreu": "1983-07-27",
+      "pubLg": "III",
+      "pubNr": "24",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Declaração de voto"
+     },
+     {
+      "intId": "226006",
+      "intSu": "Eleição dos representantes da Assembleia da República para a Comissão Nacional de Eleições, Conselho de Imprensa, Conselho de Liberdade de Ensino, Conselho Superior da Magistratura, Conselho Nacional do Plano, Conselho Nacional de Alfabetização e Educação de Base de Adultos, Conselho Nacional de Defesa e delegação para a Assembleia Parlamentar do Conselho da Europa, e criação de uma comissão eventual para acompanhar a situação em Timor-LesteProposta de resolução, alíneas a) e b)",
+      "pubDar": "1148-1149",
+      "pubDtreu": "1983-07-27",
+      "pubLg": "III",
+      "pubNr": "24",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "225891",
+      "intSu": "Prolongamento da sessãoVotação de requerimento para encerramento da sessão",
+      "pubDar": "1113-1113",
+      "pubDtreu": "1983-07-15",
+      "pubLg": "III",
+      "pubNr": "23",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Declaração de voto"
+     },
+     {
+      "intId": "224500",
+      "intSu": "Transferência de verbas com dispensa do disposto do artigo 20º da Lei nº 64/77, de 26 de Agosto, até ao montante global de 5.000.000 de contos.",
+      "pubDar": "936-937",
+      "pubDtreu": "1983-07-14",
+      "pubLg": "III",
+      "pubNr": "22",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "224507",
+      "intSu": "Transferência de verbas com dispensa do disposto do artigo 20º da Lei nº 64/77, de 26 de Agosto, até ao montante global de 5.000.000 de contos.",
+      "pubDar": "938-938",
+      "pubDtreu": "1983-07-14",
+      "pubLg": "III",
+      "pubNr": "22",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Contraprotesto"
+     },
+     {
+      "intId": "224512",
+      "intSu": "Transferência de verbas com dispensa do disposto do artigo 20º da Lei nº 64/77, de 26 de Agosto, até ao montante global de 5.000.000 de contos.",
+      "pubDar": "939-939",
+      "pubDtreu": "1983-07-14",
+      "pubLg": "III",
+      "pubNr": "22",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Contraprotesto"
+     },
+     {
+      "intId": "224518",
+      "intSu": "Transferência de verbas com dispensa do disposto do artigo 20º da Lei nº 64/77, de 26 de Agosto, até ao montante global de 5.000.000 de contos.",
+      "pubDar": "940-940",
+      "pubDtreu": "1983-07-14",
+      "pubLg": "III",
+      "pubNr": "22",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Contraprotesto"
+     },
+     {
+      "intId": "223949",
+      "intSu": "Concede ao Governo autorização para alterar parcialmente a Lei de Bases do Serviço Nacional de Saúde.",
+      "intTe": "Responde ao Pedido de Esclarecimento do Deputado Álvaro Oliveira (PCP)",
+      "pubDar": "841-841; 842-843",
+      "pubDtreu": "1983-07-13",
+      "pubLg": "III",
+      "pubNr": "21",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "223955",
+      "intSu": "Concede ao Governo autorização para alterar parcialmente a Lei de Bases do Serviço Nacional de Saúde.",
+      "pubDar": "843-843",
+      "pubDtreu": "1983-07-13",
+      "pubLg": "III",
+      "pubNr": "21",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Contraprotesto"
+     },
+     {
+      "intId": "223777",
+      "intSu": "Concede ao Governo autorização para legislar em matéria das atribuições das autarquias locais e competencias dos respectivos orgãos",
+      "pubDar": "785-785",
+      "pubDtreu": "1983-07-12",
+      "pubLg": "III",
+      "pubNr": "20",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Protesto"
+     },
+     {
+      "intId": "223778",
+      "intSu": "Concede ao Governo autorização para legislar em matéria das atribuições das autarquias locais e competencias dos respectivos orgãos",
+      "intTe": "Ao Deputado António Graça (PCP)",
+      "pubDar": "785-785",
+      "pubDtreu": "1983-07-12",
+      "pubLg": "III",
+      "pubNr": "20",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Pedido de esclarecimento"
+     },
+     {
+      "intId": "223266",
+      "intSu": "Concede ao Governo autorização para legislar em matéria de crimes de tráfico ilícito de diamantes em bruto ou não lapidados, apreensão e venda dos mesmos e regime de legalização de actos que os tenham por objecto.",
+      "pubDar": "614-615",
+      "pubDtreu": "1983-07-06",
+      "pubLg": "III",
+      "pubNr": "16",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "223366",
+      "intSu": "Concede ao Governo autorização para, no quadro de revisão do Código de Propriedade Industrial, alargar o âmbito da aplicação das infracções e penas correspondentes, previstas no Código em vigor, às pessoas singulares que, não sendo agentes oficiais, tenham habitualmente promovido actos e termos de processo junto do Instituto Nacional da Propriedade Industrial.",
+      "pubDar": "630-630",
+      "pubDtreu": "1983-07-06",
+      "pubLg": "III",
+      "pubNr": "16",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Interpelação à mesa"
+     },
+     {
+      "intId": "223370",
+      "intSu": "Concede ao Governo autorização para, no quadro de revisão do Código de Propriedade Industrial, alargar o âmbito da aplicação das infracções e penas correspondentes, previstas no Código em vigor, às pessoas singulares que, não sendo agentes oficiais, tenham habitualmente promovido actos e termos de processo junto do Instituto Nacional da Propriedade Industrial.",
+      "pubDar": "632-632",
+      "pubDtreu": "1983-07-06",
+      "pubLg": "III",
+      "pubNr": "16",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Protesto"
+     },
+     {
+      "intId": "223382",
+      "intSu": "Concede ao Governo autorização para, no quadro de revisão do Código de Propriedade Industrial, alargar o âmbito da aplicação das infracções e penas correspondentes, previstas no Código em vigor, às pessoas singulares que, não sendo agentes oficiais, tenham habitualmente promovido actos e termos de processo junto do Instituto Nacional da Propriedade Industrial.",
+      "pubDar": "636-636",
+      "pubDtreu": "1983-07-06",
+      "pubLg": "III",
+      "pubNr": "16",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Recurso da decisão da mesa"
+     },
+     {
+      "intId": "223394",
+      "intSu": "Concede ao Governo autorização para, no quadro de revisão do Código de Propriedade Industrial, alargar o âmbito da aplicação das infracções e penas correspondentes, previstas no Código em vigor, às pessoas singulares que, não sendo agentes oficiais, tenham habitualmente promovido actos e termos de processo junto do Instituto Nacional da Propriedade Industrial.",
+      "pubDar": "638-638",
+      "pubDtreu": "1983-07-06",
+      "pubLg": "III",
+      "pubNr": "16",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Interpelação à mesa"
+     },
+     {
+      "intId": "223403",
+      "intSu": "Concede ao Governo autorização para, no quadro de revisão do Código de Propriedade Industrial, alargar o âmbito da aplicação das infracções e penas correspondentes, previstas no Código em vigor, às pessoas singulares que, não sendo agentes oficiais, tenham habitualmente promovido actos e termos de processo junto do Instituto Nacional da Propriedade Industrial.",
+      "pubDar": "641-641",
+      "pubDtreu": "1983-07-06",
+      "pubLg": "III",
+      "pubNr": "16",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "223437",
+      "intSu": "Concede ao Governo autorização para rever o regime jurídico da duração do trabalho, no sentido de limitar o recurso ao trabalho extraordinário e à realização de tarefas de carácter excepcional.",
+      "pubDar": "658-658; 658-658",
+      "pubDtreu": "1983-07-06",
+      "pubLg": "III",
+      "pubNr": "16",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "222533",
+      "intSu": "Medidas de emergência para defesa da ANOP/EP",
+      "intTe": "Responde aos Pedidos de Esclarecimento dos Deputados Jorge Lemos (PCP), Álvaro Oliveira (PCP) e João Corregedor da Fonseca (MDP/CDE)",
+      "pubDar": "340-342; 343-344",
+      "pubDtreu": "1983-06-28",
+      "pubLg": "III",
+      "pubNr": "11",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "222547",
+      "intSu": "Medidas de emergência para defesa da ANOP/EP",
+      "pubDar": "345-345",
+      "pubDtreu": "1983-06-28",
+      "pubLg": "III",
+      "pubNr": "11",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Contraprotesto"
+     },
+     {
+      "intId": "222573",
+      "intSu": "Medidas de emergência para defesa da ANOP/EP",
+      "pubDar": "356-356",
+      "pubDtreu": "1983-06-28",
+      "pubLg": "III",
+      "pubNr": "11",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Protesto"
+     },
+     {
+      "intId": "221812",
+      "intSu": "Condições em que o PSD decidiu formar um governo de coligação com o PS",
+      "intTe": "Responde ao Pedido de Esclarecimento do Deputado Basílio Horta (CDS)",
+      "pubDar": "48-50; 48-48",
+      "pubDtreu": "1983-06-15",
+      "pubLg": "III",
+      "pubNr": "4",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Declaração politica"
+     },
+     {
+      "intId": "221830",
+      "intSu": "Proposta de prorrogação dos trabalhos parlamentares até 30 de Junho",
+      "pubDar": "53-53",
+      "pubDtreu": "1983-06-15",
+      "pubLg": "III",
+      "pubNr": "4",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     }
+    ]
+   },
+   "rel": {
+    "relatoresIniciativas": {
+     "pt_gov_ar_wsar_objectos_RelatoresIniciativasOut": [
+      {
+       "accDtrel": "1985-03-25",
+       "iniId": "29821",
+       "iniNr": "313",
+       "iniSelLg": "III",
+       "iniTi": "Regime jurídico do contrato de trabalho a bordo das embarcações de pesca.",
+       "iniTp": "Projeto de Lei",
+       "relFase": "Baixa comissão distribuição inicial generalidade"
+      },
+      {
+       "accDtrel": "1983-11-03",
+       "iniId": "29464",
+       "iniNr": "14",
+       "iniSelLg": "III",
+       "iniTi": "Institui um sistema de garantia pública do pagamento dos salários em atraso.",
+       "iniTp": "Projeto de Lei",
+       "relFase": "Baixa comissão distribuição inicial generalidade"
+      },
+      {
+       "accDtrel": "1985-03-20",
+       "iniId": "29503",
+       "iniNr": "105",
+       "iniSelLg": "III",
+       "iniTi": "Balanço social",
+       "iniTp": "Projeto de Lei",
+       "relFase": "Baixa comissão distribuição inicial generalidade"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "deputado": {
+  "depCPDes": "SANTARÉM",
+  "depCPId": "14",
+  "depCadId": "50",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3633",
+  "depNomeCompleto": "FERNANDO DOS REIS CONDESSO",
+  "depNomeParlamentar": "FERNANDO CONDESSO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1985-11-04",
+    "sioDtInicio": "1983-05-31"
+   }
+  },
+  "legDes": "III"
+ }
+}

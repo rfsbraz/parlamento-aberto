@@ -1,0 +1,87 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "MÁRIO SANTOS"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "29861",
+      "iniNr": "401",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Criação da freguesia de Concavada, no concelho de Abrantes.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29969",
+      "iniNr": "398",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Elevação à categoria de cidade da vila de Rio Maior",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "SANTARÉM",
+  "depCPId": "14",
+  "depCadId": "120",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "4647",
+  "depNomeCompleto": "MÁRIO OLIVEIRA MENDES DOS SANTOS",
+  "depNomeParlamentar": "MÁRIO SANTOS",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-06-09",
+     "sioDtInicio": "1983-05-31"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-02-01",
+     "sioDtInicio": "1984-01-17"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-02-15",
+     "sioDtInicio": "1984-02-14"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-03-10",
+     "sioDtInicio": "1984-02-28"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-01-25",
+     "sioDtInicio": "1984-06-01"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-11-04",
+     "sioDtInicio": "1985-01-26"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

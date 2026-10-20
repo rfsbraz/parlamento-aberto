@@ -1,0 +1,108 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "CARLOS COELHO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "29899",
+      "iniNr": "422",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Dia do professor.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "32992",
+      "iniNr": "41",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Ano Internacional da Juventude",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     },
+     {
+      "iniId": "29758",
+      "iniNr": "298",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Legalização das associações de estudantes",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "intev": {
+    "pt_gov_ar_wsar_objectos_IntervencoesOut": [
+     {
+      "intId": "222767",
+      "intSu": "Lei que regula o funcionamento do Conselho de Comunicação Social",
+      "intTe": "Ao Deputado Vilhena de Carvalho (ASDI)",
+      "pubDar": "482-482",
+      "pubDtreu": "1983-07-04",
+      "pubLg": "III",
+      "pubNr": "14",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Pedido de esclarecimento"
+     },
+     {
+      "intId": "222768",
+      "intSu": "Lei que regula o funcionamento do Conselho de Comunicação Social",
+      "pubDar": "482-483",
+      "pubDtreu": "1983-07-04",
+      "pubLg": "III",
+      "pubNr": "14",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Protesto"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "35",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "4628",
+  "depNomeCompleto": "CARLOS MIGUEL MAXIMIANO DE ALMEIDA COELHO",
+  "depNomeParlamentar": "CARLOS COELHO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-06-15",
+     "sioDtInicio": "1983-05-31"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-06-07",
+     "sioDtInicio": "1983-06-16"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-11-04",
+     "sioDtInicio": "1984-06-08"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

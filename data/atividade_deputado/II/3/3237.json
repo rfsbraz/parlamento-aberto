@@ -1,0 +1,108 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "ABREU LIMA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30660",
+      "iniNr": "337",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Empresas públicas municipais e intermunicipais.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30639",
+      "iniNr": "321",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Criação do município de Canas de Senhorim.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30627",
+      "iniNr": "293",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Quadros privativos do pessoal dos municípios.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "31072",
+      "iniNr": "104",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 272-A/81, de 30 de Setembro (Aprova o Código do Processo de Trabalho)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30509",
+      "iniNr": "208",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Associações nacionais e regionais de munícipios",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30356",
+      "iniNr": "64",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Chafé, no concelho de Viana do Castelo",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "VIANA DO CASTELO",
+  "depCPId": "16",
+  "depCadId": "3237",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "3336",
+  "depNomeCompleto": "JOÃO GOMES ABREU LIMA",
+  "depNomeParlamentar": "ABREU LIMA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-06",
+     "sioDtInicio": "1980-11-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-01-07",
+     "sioDtInicio": "1982-07-10"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1983-03-01"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

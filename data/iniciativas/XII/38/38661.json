@@ -1,0 +1,979 @@
+{
+ "DataFimleg": "2015-10-22",
+ "DataInicioleg": "2014-09-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PCP",
+   "idCadastro": "4197",
+   "nome": "Paula Santos"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4297",
+   "nome": "Carla Cruz"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2234",
+   "nome": "João Oliveira"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "1715",
+   "nome": "Bruno Dias"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4447",
+   "nome": "David Costa"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2184",
+   "nome": "Miguel Tiago"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4471",
+   "nome": "Paulo Sá"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PCP"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2014-09-16",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "299782",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2014-09-17",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "299928",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/04/003/2014-09-17/8?pgs=8-9&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "692820",
+     "obs": null,
+     "pag": [
+      "8-9"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "3",
+     "pubSL": "4",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2014-09-17",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2014-09-19",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "299848",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2014-09-19",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "299849",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "34122",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2014-09-19",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2015-02-25",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer e Nota Técnica Comissão Saúde",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a6c445579394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a63304d5759784e44686b4c57466a4f4451744e4455344d7930355a5445344c5464695a4759795a4759305a5464694e5335515245593d&fich=741f148d-ac84-4583-9e18-7bdf2df4e7b5.PDF&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3518",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Saúde",
+     "Numero": "3518",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/04/084/2015-02-25/38?pgs=38-57&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "38-57"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "84",
+       "pubSL": "4",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2015-02-25",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/04/084/2015-02-25/38?pgs=38-57&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "38-57"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "84",
+       "pubSL": "4",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2015-02-25",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "2259",
+       "motivoCessacao": null,
+       "nome": "Nuno André Figueiredo"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": null,
+       "dataRemessa": "2015-02-25",
+       "numeroOficio": "E-mail",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2015-02-25",
+       "descricao": "Aprovado com os votos a favor do PSD, PS e PCP, e os votos contra do CDS-PP, verificando-se a ausência do BE e do PEV",
+       "detalhe": null,
+       "id": "68609",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "170",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
+    }
+   ],
+   "DataFase": "2014-09-19",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "299850",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "10653",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2015-05-07",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "BE",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "39404",
+     "leg": "XII",
+     "nr": "891",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/36?pgs=36-43&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2051",
+       "obs": null,
+       "pag": [
+        "36-43"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "83",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-05-08",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/36?pgs=36-43&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2051",
+       "obs": null,
+       "pag": [
+        "36-43"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "83",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-05-08",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/36?pgs=36-43&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2051",
+       "obs": null,
+       "pag": [
+        "36-43"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "83",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-05-08",
+       "supl": null
+      }
+     ],
+     "sel": "4",
+     "tipo": "J",
+     "titulo": "Estabelece a isenção de encargos com transporte não urgente de doentes (sexta alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro)"
+    },
+    {
+     "autor": "BE",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "39405",
+     "leg": "XII",
+     "nr": "892",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/36?pgs=36-43&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2051",
+       "obs": null,
+       "pag": [
+        "36-43"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "83",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-05-08",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/36?pgs=36-43&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2051",
+       "obs": null,
+       "pag": [
+        "36-43"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "83",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-05-08",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/36?pgs=36-43&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2051",
+       "obs": null,
+       "pag": [
+        "36-43"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "83",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-05-08",
+       "supl": null
+      }
+     ],
+     "sel": "4",
+     "tipo": "J",
+     "titulo": "Elimina o pagamento de taxas moderadoras no acesso a cuidados de saúde do Serviço Nacional de Saúde (sexta alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro)"
+    },
+    {
+     "autor": "PS",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "39406",
+     "leg": "XII",
+     "nr": "893",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/36?pgs=36-43&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2051",
+       "obs": null,
+       "pag": [
+        "36-43"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "83",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-05-08",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/36?pgs=36-43&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2051",
+       "obs": null,
+       "pag": [
+        "36-43"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "83",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-05-08",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/36?pgs=36-43&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2051",
+       "obs": null,
+       "pag": [
+        "36-43"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "83",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-05-08",
+       "supl": null
+      }
+     ],
+     "sel": "4",
+     "tipo": "J",
+     "titulo": "Altera o modelo de cobrança regular e coerciva de taxas moderadoras, procedendo à 5.ª alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2015-05-07",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "4297",
+         "nome": "Carla Cruz"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:15",
+       "horaTermo": "18:22",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150507pln&url=l12/sl4/a2015/m05/&tI=02:21:07:749&drc=00:03:30:584"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150507pln&url=l12/sl4/a2015/m05/&tI=02:46:24:684&drc=00:01:29:082"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/36?pgs=36-37,43&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "198723",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "36-37",
+          "43-43"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "83",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-05-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Revogação das Taxas Moderadoras e definição de Critérios de Atribuição do Transporte de Doentes não Urgentes; Estabelece a isenção de encargos com transporte não urgente de doentes (sexta alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Elimina o pagamento de taxas moderadoras no acesso a cuidados de saúde do Serviço Nacional de Saúde (sexta alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Altera o modelo de cobrança regular e coerciva de taxas moderadoras, procedendo à 5.ª alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2191",
+         "nome": "Helena Pinto"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:15",
+       "horaTermo": "18:22",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150507pln&url=l12/sl4/a2015/m05/&tI=02:24:42:744&drc=00:03:56:895"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150507pln&url=l12/sl4/a2015/m05/&tI=02:45:22:030&drc=00:00:59:592"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/37?pgs=37-38,43&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "198724",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "37-38",
+          "43-43"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "83",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-05-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Revogação das Taxas Moderadoras e definição de Critérios de Atribuição do Transporte de Doentes não Urgentes; Estabelece a isenção de encargos com transporte não urgente de doentes (sexta alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Elimina o pagamento de taxas moderadoras no acesso a cuidados de saúde do Serviço Nacional de Saúde (sexta alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Altera o modelo de cobrança regular e coerciva de taxas moderadoras, procedendo à 5.ª alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2259",
+         "nome": "Nuno André Figueiredo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:15",
+       "horaTermo": "18:22",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150507pln&url=l12/sl4/a2015/m05/&tI=02:28:42:738&drc=00:04:43:574"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/38?pgs=38-39&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "198725",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "38-39"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "83",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-05-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Revogação das Taxas Moderadoras e definição de Critérios de Atribuição do Transporte de Doentes não Urgentes; Estabelece a isenção de encargos com transporte não urgente de doentes (sexta alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Elimina o pagamento de taxas moderadoras no acesso a cuidados de saúde do Serviço Nacional de Saúde (sexta alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Altera o modelo de cobrança regular e coerciva de taxas moderadoras, procedendo à 5.ª alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "303",
+         "nome": "João Prata"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:15",
+       "horaTermo": "18:22",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150507pln&url=l12/sl4/a2015/m05/&tI=02:33:28:284&drc=00:04:28:558"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/39?pgs=39-41&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "198726",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "39-41"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "83",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-05-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Revogação das Taxas Moderadoras e definição de Critérios de Atribuição do Transporte de Doentes não Urgentes; Estabelece a isenção de encargos com transporte não urgente de doentes (sexta alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Elimina o pagamento de taxas moderadoras no acesso a cuidados de saúde do Serviço Nacional de Saúde (sexta alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Altera o modelo de cobrança regular e coerciva de taxas moderadoras, procedendo à 5.ª alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "780",
+         "nome": "José Luís Ferreira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:15",
+       "horaTermo": "18:22",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150507pln&url=l12/sl4/a2015/m05/&tI=02:38:03:014&drc=00:03:06:136"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/41?pgs=41-42&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "198727",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "41-42"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "83",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-05-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Revogação das Taxas Moderadoras e definição de Critérios de Atribuição do Transporte de Doentes não Urgentes; Estabelece a isenção de encargos com transporte não urgente de doentes (sexta alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Elimina o pagamento de taxas moderadoras no acesso a cuidados de saúde do Serviço Nacional de Saúde (sexta alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Altera o modelo de cobrança regular e coerciva de taxas moderadoras, procedendo à 5.ª alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "4317",
+         "nome": "Paulo Almeida"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:15",
+       "horaTermo": "18:22",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150507pln&url=l12/sl4/a2015/m05/&tI=02:41:12:180&drc=00:04:03:824"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/42?pgs=42-43&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "198728",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "42-43"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "83",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-05-08",
+         "supl": null
+        }
+       ],
+       "sumario": "Revogação das Taxas Moderadoras e definição de Critérios de Atribuição do Transporte de Doentes não Urgentes; Estabelece a isenção de encargos com transporte não urgente de doentes (sexta alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Elimina o pagamento de taxas moderadoras no acesso a cuidados de saúde do Serviço Nacional de Saúde (sexta alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro); Altera o modelo de cobrança regular e coerciva de taxas moderadoras, procedendo à 5.ª alteração ao Decreto-Lei n.º 113/2011, de 29 de novembro.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "305741",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/083/2015-05-08/36?pgs=36-44&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "746694",
+     "obs": null,
+     "pag": [
+      "36-44"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "83",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2015-05-08",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2015-05-08",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "305843",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/084/2015-05-09/35?pgs=35&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "746696",
+     "obs": null,
+     "pag": [
+      "35-35"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "84",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2015-05-09",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2015-05-08",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>",
+     "id": "69424",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "84",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "38661",
+ "IniLeg": "XII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d47566b597a5269596a4974597a457a4e6930304d4445324c546b33593245744e5463344d4751315a474d78597a4e694c6d527659773d3d&fich=0edc4bb2-c136-4016-97ca-5780d5dc1c3b.doc&Inline=true",
+ "IniNr": "650",
+ "IniObs": null,
+ "IniSel": "4",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Revogação das Taxas Moderadoras e definição de Critérios de Atribuição do Transporte de Doentes não Urgentes",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

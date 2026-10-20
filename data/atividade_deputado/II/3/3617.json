@@ -1,0 +1,87 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PCP",
+     "dpl_lg": "II",
+     "nome": "JOSÉ CABRAL PINTO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30529",
+      "iniNr": "226",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Sistema educativo",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30474",
+      "iniNr": "169",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Radiodifusão.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "33126",
+      "iniNr": "3",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "De revogação das taxas moderadoras do acesso aos cuidados de saúde, criadas pelos Despachos nº 57/80 e 58/80, de 29 de Dezembro",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     },
+     {
+      "iniId": "31031",
+      "iniNr": "90",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-lei nº 162/81, de 12 de Junho, que estabelece disposições relativas à admissão a cotação nas Bolsas de Valores de Lisboa e do Porto das acções das empresas em que o Estado seja detentor maioritário.",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "31025",
+      "iniNr": "84",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-lei nº 140/81, de 30 de Maio de 1981, que limita a apresentação de novas leis orgânicas e estabelece limites para a revisão das já publicadas e estabelece várias medidas relativas à admissão de pessoal na função pública.",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "COIMBRA",
+  "depCPId": "6",
+  "depCadId": "3617",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "982",
+    "gpSigla": "PCP"
+   }
+  },
+  "depId": "4914",
+  "depNomeCompleto": "JOSÉ FERNANDO VASCONCELOS CABRAL PINTO",
+  "depNomeParlamentar": "JOSÉ CABRAL PINTO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1981-08-10",
+    "sioDtInicio": "1981-02-10"
+   }
+  },
+  "legDes": "II"
+ }
+}

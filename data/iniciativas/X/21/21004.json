@@ -1,0 +1,6473 @@
+{
+ "DataFimleg": "2006-09-14",
+ "DataInicioleg": "2005-03-10",
+ "IniAnexos": null,
+ "IniAutorDeputados": null,
+ "IniAutorGruposParlamentares": null,
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Governo",
+  "sigla": "V"
+ },
+ "IniDescTipo": "Proposta de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2005-09-06",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "171649",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2005-09-08",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "171688",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "8225",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2005-09-20",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2005-09-16",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "244",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas (pré RAR)",
+     "Numero": "244",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/10/01/069/2005-12-15/26?pgs=26-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "26-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "69",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2005-12-15",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/10/01/069/2005-12-15/26?pgs=26-27&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "26-27"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "69",
+       "pubSL": "1",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2005-12-15",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "1616",
+       "motivoCessacao": null,
+       "nome": "Isabel Vigia"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2005-11-29",
+       "dataRemessa": "2005-12-07",
+       "numeroOficio": "1595/COM",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "PCP"
+       ],
+       "data": "2005-12-06",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> BE</I>, <I> CDS-PP</I><BR>Ausência: <I>PCP</I>",
+       "id": "33560",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "31",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2005-09-08",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "171867",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2005-09-14",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "171795",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2005-09-15",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "172090",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/10/01/048S1/2005-09-15/2?pgs=2-76&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "308567",
+     "obs": null,
+     "pag": [
+      "2-76"
+     ],
+     "pagFinalDiarioSupl": "1º Supl.",
+     "pubLeg": "X",
+     "pubNr": "48",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2005-09-15",
+     "supl": "1º Supl."
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "3646",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2006-01-20",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": [
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20987",
+     "leg": "X",
+     "nr": "13",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica das Ilhas Virgens Britânicas, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 11 de Abril de 2005, Relativo à tributação dos Rendimentos da Poupança."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20988",
+     "leg": "X",
+     "nr": "14",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica de Montserrat, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 7 de Abril de 2005, Relativo à tributação dos Rendimentos da Poupança."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20989",
+     "leg": "X",
+     "nr": "15",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica das Ilhas Caimão,por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 1 de Abril de 2005, Relativo à tributação dos Rendimentos da Poupança."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20990",
+     "leg": "X",
+     "nr": "16",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica da Ilha de Man, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, Relativo à tributação dos Rendimentos da Poupança."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20991",
+     "leg": "X",
+     "nr": "17",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica das Ilhas Turcas e Caicos,  por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 17 de Abril de 2005, Relativo à Tributação dos Rendimentos da Poupança."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20992",
+     "leg": "X",
+     "nr": "18",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica de Jersey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, Relativo à tributação dos Rendimentos da Poupança e à Respectiva Aplicação Provisória."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20993",
+     "leg": "X",
+     "nr": "19",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Associado dos Países Baixos de Aruba, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 11 de Setembro de 2004, Relativo à Tributação dos Rendimentos da Poupança."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20994",
+     "leg": "X",
+     "nr": "20",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Associadodos Países Baixos das Antilhas Neerlandesas, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 27 de Agosto de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva aplicação provisória."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20995",
+     "leg": "X",
+     "nr": "21",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica de Anguilla, por Troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 21 de Janeiro de 2005, Relativo à Tributação dos Rendimentos da Poupança que Aprova a Convenção entre a República Portuguesa e Anguilla Relativa à Troca Automática de Informação em Matéria de Rendimentos da Poupança sob a Forma de Pagamentos de Juros."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20996",
+     "leg": "X",
+     "nr": "22",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica de Guernsey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva Aplicação Provisória."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "21006",
+     "leg": "X",
+     "nr": "25",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3773&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "873",
+       "obs": null,
+       "pag": [
+        "3769-3773"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "80",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-21",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Reino da Noruega sobre Renúncia ao Reembolso de Despesas Relativas a Prestações em Espécie Concedidas nos termos dos Capítulos I e IV do Título III do Regulamento (CEE) N.º 1408/71, de 14 de Junho de 1971, assinado em Oslo, em 24 de Novembro de 2000,"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2006-01-20",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:15",
+       "horaTermo": "12:15",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": "S.E. DOS ASSUNTOS EUROPEUS",
+        "governo": "XVII GOVERNO CONSTITUCIONAL",
+        "nome": "Fernando de Oliveira Neves"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "154042",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3769-3769"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "80",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica das Ilhas Virgens Britânicas, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 11 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem de Montserrat, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 7 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem das Ilhas Caimão, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 1 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança;  Idem da Ilha de Man, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança  ;  Idem das Ilhas Turcas e Caicos,  por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 17 de Abril de 2005, relativo à Tributação dos Rendimentos da Poupança;  Idem de Jersey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança e à Respectiva Aplicação Provisória;  Idem o Território Associado dos Países Baixos de Aruba, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 11 de Setembro de 2004, relativo à Tributação dos Rendimentos da Poupança; Idem o Território Dependente da Coroa Britânica de Anguilla, por Troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 21 de Janeiro de 2005, relativo à Tributação dos Rendimentos da Poupança que Aprova a Convenção entre a República Portuguesa e Anguilla Relativa à Troca Automática de Informação em Matéria de Rendimentos da Poupança sob a Forma de Pagamentos de Juros;  Idem de Guernsey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva Aplicação Provisória;  Idem e o Território Associadodos Países Baixos das Antilhas Neerlandesas, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 27 de Agosto de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva aplicação provisória;  Idem e a República do Chile para Evitar a Dupla Tributação e Prevenir a Evasão Fiscal em Matéria de Impostos sobre o Rendimento, assinada em Santiago, a 7 de Julho de 2005;  Idem e o Reino da Noruega sobre Renúncia ao Reembolso de Despesas Relativas a Prestações em Espécie Concedidas nos termos dos Capítulos I e IV do Título III do Regulamento (CEE) N.º 1408/71, de 14 de Junho de 1971, assinado em Oslo, em 24 de Novembro de 2000",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1856",
+         "nome": "José Manuel Ribeiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:15",
+       "horaTermo": "12:15",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3769?pgs=3769-3770&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "154043",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3769-3770"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "80",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica das Ilhas Virgens Britânicas, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 11 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem de Montserrat, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 7 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem das Ilhas Caimão, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 1 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança;  Idem da Ilha de Man, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança  ;  Idem das Ilhas Turcas e Caicos,  por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 17 de Abril de 2005, relativo à Tributação dos Rendimentos da Poupança;  Idem de Jersey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança e à Respectiva Aplicação Provisória;  Idem o Território Associado dos Países Baixos de Aruba, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 11 de Setembro de 2004, relativo à Tributação dos Rendimentos da Poupança; Idem o Território Dependente da Coroa Britânica de Anguilla, por Troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 21 de Janeiro de 2005, relativo à Tributação dos Rendimentos da Poupança que Aprova a Convenção entre a República Portuguesa e Anguilla Relativa à Troca Automática de Informação em Matéria de Rendimentos da Poupança sob a Forma de Pagamentos de Juros;  Idem de Guernsey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva Aplicação Provisória;  Idem e o Território Associadodos Países Baixos das Antilhas Neerlandesas, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 27 de Agosto de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva aplicação provisória;  Idem e a República do Chile para Evitar a Dupla Tributação e Prevenir a Evasão Fiscal em Matéria de Impostos sobre o Rendimento, assinada em Santiago, a 7 de Julho de 2005;  Idem e o Reino da Noruega sobre Renúncia ao Reembolso de Despesas Relativas a Prestações em Espécie Concedidas nos termos dos Capítulos I e IV do Título III do Regulamento (CEE) N.º 1408/71, de 14 de Junho de 1971, assinado em Oslo, em 24 de Novembro de 2000",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1616",
+         "nome": "Isabel Vigia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:15",
+       "horaTermo": "12:15",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3770?pgs=3770-3771&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "154044",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3770-3771"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "80",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica das Ilhas Virgens Britânicas, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 11 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem de Montserrat, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 7 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem das Ilhas Caimão, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 1 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança;  Idem da Ilha de Man, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança  ;  Idem das Ilhas Turcas e Caicos,  por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 17 de Abril de 2005, relativo à Tributação dos Rendimentos da Poupança;  Idem de Jersey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança e à Respectiva Aplicação Provisória;  Idem o Território Associado dos Países Baixos de Aruba, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 11 de Setembro de 2004, relativo à Tributação dos Rendimentos da Poupança; Idem o Território Dependente da Coroa Britânica de Anguilla, por Troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 21 de Janeiro de 2005, relativo à Tributação dos Rendimentos da Poupança que Aprova a Convenção entre a República Portuguesa e Anguilla Relativa à Troca Automática de Informação em Matéria de Rendimentos da Poupança sob a Forma de Pagamentos de Juros;  Idem de Guernsey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva Aplicação Provisória;  Idem e o Território Associadodos Países Baixos das Antilhas Neerlandesas, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 27 de Agosto de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva aplicação provisória;  Idem e a República do Chile para Evitar a Dupla Tributação e Prevenir a Evasão Fiscal em Matéria de Impostos sobre o Rendimento, assinada em Santiago, a 7 de Julho de 2005;  Idem e o Reino da Noruega sobre Renúncia ao Reembolso de Despesas Relativas a Prestações em Espécie Concedidas nos termos dos Capítulos I e IV do Título III do Regulamento (CEE) N.º 1408/71, de 14 de Junho de 1971, assinado em Oslo, em 24 de Novembro de 2000",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1698",
+         "nome": "Miguel Anacoreta Correia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:15",
+       "horaTermo": "12:15",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3771?pgs=3771&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "154045",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3771-3771"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "80",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica das Ilhas Virgens Britânicas, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 11 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem de Montserrat, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 7 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem das Ilhas Caimão, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 1 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança;  Idem da Ilha de Man, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança  ;  Idem das Ilhas Turcas e Caicos,  por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 17 de Abril de 2005, relativo à Tributação dos Rendimentos da Poupança;  Idem de Jersey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança e à Respectiva Aplicação Provisória;  Idem o Território Associado dos Países Baixos de Aruba, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 11 de Setembro de 2004, relativo à Tributação dos Rendimentos da Poupança; Idem o Território Dependente da Coroa Britânica de Anguilla, por Troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 21 de Janeiro de 2005, relativo à Tributação dos Rendimentos da Poupança que Aprova a Convenção entre a República Portuguesa e Anguilla Relativa à Troca Automática de Informação em Matéria de Rendimentos da Poupança sob a Forma de Pagamentos de Juros;  Idem de Guernsey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva Aplicação Provisória;  Idem e o Território Associadodos Países Baixos das Antilhas Neerlandesas, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 27 de Agosto de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva aplicação provisória;  Idem e a República do Chile para Evitar a Dupla Tributação e Prevenir a Evasão Fiscal em Matéria de Impostos sobre o Rendimento, assinada em Santiago, a 7 de Julho de 2005;  Idem e o Reino da Noruega sobre Renúncia ao Reembolso de Despesas Relativas a Prestações em Espécie Concedidas nos termos dos Capítulos I e IV do Título III do Regulamento (CEE) N.º 1408/71, de 14 de Junho de 1971, assinado em Oslo, em 24 de Novembro de 2000",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "482",
+         "nome": "Paula Cristina Duarte"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:15",
+       "horaTermo": "12:15",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3771?pgs=3771-3772&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "154046",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3771-3772"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "80",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica das Ilhas Virgens Britânicas, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 11 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem de Montserrat, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 7 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem das Ilhas Caimão, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 1 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança;  Idem da Ilha de Man, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança  ;  Idem das Ilhas Turcas e Caicos,  por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 17 de Abril de 2005, relativo à Tributação dos Rendimentos da Poupança;  Idem de Jersey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança e à Respectiva Aplicação Provisória;  Idem o Território Associado dos Países Baixos de Aruba, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 11 de Setembro de 2004, relativo à Tributação dos Rendimentos da Poupança; Idem o Território Dependente da Coroa Britânica de Anguilla, por Troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 21 de Janeiro de 2005, relativo à Tributação dos Rendimentos da Poupança que Aprova a Convenção entre a República Portuguesa e Anguilla Relativa à Troca Automática de Informação em Matéria de Rendimentos da Poupança sob a Forma de Pagamentos de Juros;  Idem de Guernsey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva Aplicação Provisória;  Idem e o Território Associadodos Países Baixos das Antilhas Neerlandesas, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 27 de Agosto de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva aplicação provisória;  Idem e a República do Chile para Evitar a Dupla Tributação e Prevenir a Evasão Fiscal em Matéria de Impostos sobre o Rendimento, assinada em Santiago, a 7 de Julho de 2005;  Idem e o Reino da Noruega sobre Renúncia ao Reembolso de Despesas Relativas a Prestações em Espécie Concedidas nos termos dos Capítulos I e IV do Título III do Regulamento (CEE) N.º 1408/71, de 14 de Junho de 1971, assinado em Oslo, em 24 de Novembro de 2000",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "1696",
+         "nome": "Honório Novo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:15",
+       "horaTermo": "12:15",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3772?pgs=3772-3773&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "154047",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3772-3773"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "80",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica das Ilhas Virgens Britânicas, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 11 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem de Montserrat, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 7 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem das Ilhas Caimão, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 1 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança;  Idem da Ilha de Man, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança  ;  Idem das Ilhas Turcas e Caicos,  por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 17 de Abril de 2005, relativo à Tributação dos Rendimentos da Poupança;  Idem de Jersey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança e à Respectiva Aplicação Provisória;  Idem o Território Associado dos Países Baixos de Aruba, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 11 de Setembro de 2004, relativo à Tributação dos Rendimentos da Poupança; Idem o Território Dependente da Coroa Britânica de Anguilla, por Troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 21 de Janeiro de 2005, relativo à Tributação dos Rendimentos da Poupança que Aprova a Convenção entre a República Portuguesa e Anguilla Relativa à Troca Automática de Informação em Matéria de Rendimentos da Poupança sob a Forma de Pagamentos de Juros;  Idem de Guernsey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva Aplicação Provisória;  Idem e o Território Associadodos Países Baixos das Antilhas Neerlandesas, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 27 de Agosto de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva aplicação provisória;  Idem e a República do Chile para Evitar a Dupla Tributação e Prevenir a Evasão Fiscal em Matéria de Impostos sobre o Rendimento, assinada em Santiago, a 7 de Julho de 2005;  Idem e o Reino da Noruega sobre Renúncia ao Reembolso de Despesas Relativas a Prestações em Espécie Concedidas nos termos dos Capítulos I e IV do Título III do Regulamento (CEE) N.º 1408/71, de 14 de Junho de 1971, assinado em Oslo, em 24 de Novembro de 2000",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "263",
+         "nome": "Luís Fazenda"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:15",
+       "horaTermo": "12:15",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3773?pgs=3773&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "154048",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3773-3773"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "80",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-21",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica das Ilhas Virgens Britânicas, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 11 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem de Montserrat, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 7 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem das Ilhas Caimão, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 1 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança;  Idem da Ilha de Man, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança  ;  Idem das Ilhas Turcas e Caicos,  por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 17 de Abril de 2005, relativo à Tributação dos Rendimentos da Poupança;  Idem de Jersey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança e à Respectiva Aplicação Provisória;  Idem o Território Associado dos Países Baixos de Aruba, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 11 de Setembro de 2004, relativo à Tributação dos Rendimentos da Poupança; Idem o Território Dependente da Coroa Britânica de Anguilla, por Troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 21 de Janeiro de 2005, relativo à Tributação dos Rendimentos da Poupança que Aprova a Convenção entre a República Portuguesa e Anguilla Relativa à Troca Automática de Informação em Matéria de Rendimentos da Poupança sob a Forma de Pagamentos de Juros;  Idem de Guernsey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva Aplicação Provisória;  Idem e o Território Associadodos Países Baixos das Antilhas Neerlandesas, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 27 de Agosto de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva aplicação provisória;  Idem e a República do Chile para Evitar a Dupla Tributação e Prevenir a Evasão Fiscal em Matéria de Impostos sobre o Rendimento, assinada em Santiago, a 7 de Julho de 2005;  Idem e o Reino da Noruega sobre Renúncia ao Reembolso de Despesas Relativas a Prestações em Espécie Concedidas nos termos dos Capítulos I e IV do Título III do Regulamento (CEE) N.º 1408/71, de 14 de Junho de 1971, assinado em Oslo, em 24 de Novembro de 2000",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "172966",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/080/2006-01-21/3768?pgs=3768-3773&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "325466",
+     "obs": null,
+     "pag": [
+      "3768-3773"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "X",
+     "pubNr": "80",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2006-01-21",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "3674",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "330",
+   "Comissao": null,
+   "DataFase": "2006-01-26",
+   "EvtId": "56",
+   "Fase": "Votação global",
+   "IniciativasConjuntas": [
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20987",
+     "leg": "X",
+     "nr": "13",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica das Ilhas Virgens Britânicas, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 11 de Abril de 2005, Relativo à tributação dos Rendimentos da Poupança."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20988",
+     "leg": "X",
+     "nr": "14",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica de Montserrat, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 7 de Abril de 2005, Relativo à tributação dos Rendimentos da Poupança."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20989",
+     "leg": "X",
+     "nr": "15",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica das Ilhas Caimão,por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 1 de Abril de 2005, Relativo à tributação dos Rendimentos da Poupança."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20990",
+     "leg": "X",
+     "nr": "16",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica da Ilha de Man, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, Relativo à tributação dos Rendimentos da Poupança."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20991",
+     "leg": "X",
+     "nr": "17",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica das Ilhas Turcas e Caicos,  por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 17 de Abril de 2005, Relativo à Tributação dos Rendimentos da Poupança."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20992",
+     "leg": "X",
+     "nr": "18",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica de Jersey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, Relativo à tributação dos Rendimentos da Poupança e à Respectiva Aplicação Provisória."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20993",
+     "leg": "X",
+     "nr": "19",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Associado dos Países Baixos de Aruba, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 11 de Setembro de 2004, Relativo à Tributação dos Rendimentos da Poupança."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20994",
+     "leg": "X",
+     "nr": "20",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Associadodos Países Baixos das Antilhas Neerlandesas, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 27 de Agosto de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva aplicação provisória."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20995",
+     "leg": "X",
+     "nr": "21",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica de Anguilla, por Troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 21 de Janeiro de 2005, Relativo à Tributação dos Rendimentos da Poupança que Aprova a Convenção entre a República Portuguesa e Anguilla Relativa à Troca Automática de Informação em Matéria de Rendimentos da Poupança sob a Forma de Pagamentos de Juros."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20996",
+     "leg": "X",
+     "nr": "22",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica de Guernsey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva Aplicação Provisória."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "20997",
+     "leg": "X",
+     "nr": "23",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova, para ratificação, a Convenção n.º 175 sobre o Trabalho a Tempo Parcial, da Organização Internacional do Trabalho, adoptada em Genebra, em 24 de Junho de 1994."
+    },
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "21006",
+     "leg": "X",
+     "nr": "25",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "877",
+       "obs": null,
+       "pag": [
+        "3879-3880"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "X",
+       "pubNr": "82",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2006-01-27",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "S",
+     "titulo": "Aprova o Acordo entre a República Portuguesa e o Reino da Noruega sobre Renúncia ao Reembolso de Despesas Relativas a Prestações em Espécie Concedidas nos termos dos Capítulos I e IV do Título III do Regulamento (CEE) N.º 1408/71, de 14 de Junho de 1971, assinado em Oslo, em 24 de Novembro de 2000,"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2006-01-26",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "1058",
+         "nome": "Bernardino Soares"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "19:15",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3879?pgs=3879-3880&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "154228",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "3879-3880"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "X",
+         "pubNr": "82",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2006-01-27",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova o Acordo entre a República Portuguesa e o Território Dependente da Coroa Britânica das Ilhas Virgens Britânicas, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 11 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem de Montserrat, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 7 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança; Idem das Ilhas Caimão, por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 1 de Abril de 2005, relativo à tributação dos Rendimentos da Poupança;  Idem da Ilha de Man, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança  ;  Idem das Ilhas Turcas e Caicos,  por troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 17 de Abril de 2005, relativo à Tributação dos Rendimentos da Poupança;  Idem de Jersey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, relativo à tributação dos Rendimentos da Poupança e à Respectiva Aplicação Provisória;  Idem o Território Associado dos Países Baixos de Aruba, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 11 de Setembro de 2004, relativo à Tributação dos Rendimentos da Poupança; Idem o Território Dependente da Coroa Britânica de Anguilla, por Troca de Cartas, respectivamente de 29 de Dezembro de 2004 e de 21 de Janeiro de 2005, relativo à Tributação dos Rendimentos da Poupança que Aprova a Convenção entre a República Portuguesa e Anguilla Relativa à Troca Automática de Informação em Matéria de Rendimentos da Poupança sob a Forma de Pagamentos de Juros;  Idem de Guernsey, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 19 de Novembro de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva Aplicação Provisória;  Idem e o Território Associadodos Países Baixos das Antilhas Neerlandesas, por troca de Cartas, respectivamente de 22 de Junho de 2004 e de 27 de Agosto de 2004, Relativo à Tributação dos Rendimentos da Poupança e à respectiva aplicação provisória;  Idem e a República do Chile para Evitar a Dupla Tributação e Prevenir a Evasão Fiscal em Matéria de Impostos sobre o Rendimento, assinada em Santiago, a 7 de Julho de 2005;  Idem e o Reino da Noruega sobre Renúncia ao Reembolso de Despesas Relativas a Prestações em Espécie Concedidas nos termos dos Capítulos I e IV do Título III do Regulamento (CEE) N.º 1408/71, de 14 de Junho de 1971, assinado em Oslo, em 24 de Novembro de 2000",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "173050",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/10/01/082/2006-01-27/3880?pgs=3880&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "325626",
+     "obs": null,
+     "pag": [
+      "3880-3880"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "X",
+     "pubNr": "82",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2006-01-27",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2006-01-26",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> BE</I>, <I> PEV</I>, <I> PCP</I>, <I> CDS-PP</I>",
+     "id": "33709",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "80",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "360",
+   "Comissao": null,
+   "DataFase": "2006-01-26",
+   "EvtId": "57",
+   "Fase": "Resolução (Publicação DAR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "242657",
+   "OevTextId": "14168",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "14168",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "371",
+   "Comissao": null,
+   "DataFase": "2006-03-16",
+   "EvtId": "121",
+   "Fase": "Envio para Ratificação / Assinatura",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "173764",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2006-03-16",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "173765",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "600",
+   "Comissao": null,
+   "DataFase": "2006-04-06",
+   "EvtId": "44",
+   "Fase": "Resolução da AR (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "242576",
+   "OevTextId": "14143",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "14143",
+   "Votacao": null
+  }
+ ],
+ "IniId": "21004",
+ "IniLeg": "X",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c637939595447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d774e445a69595463314c5456685a4751744e44417859533168596a417a4c54466b4e4749355a6d55304f545a684f53356b62324d3d&fich=3046ba75-5add-401a-ab03-1d4b9fe496a9.doc&Inline=true",
+ "IniNr": "24",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "S",
+ "IniTitulo": "Aprova a Convenção entre a República Portuguesa e a República do Chile para Evitar a Dupla Tributação e Prevenir a Evasão Fiscal em Matéria de Impostos sobre o Rendimento, assinada em Santiago, a 7 de Julho de 2005.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

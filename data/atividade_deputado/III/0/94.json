@@ -1,0 +1,132 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "LEONARDO RIBEIRO DE ALMEIDA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "29688",
+     "iniNr": "234",
+     "iniSelLg": "III",
+     "iniSelNr": "1",
+     "iniTi": "Elevação de Trofa à categoria de vila.",
+     "iniTp": "J",
+     "iniTpdesc": "Projeto de Lei"
+    }
+   },
+   "intev": {
+    "pt_gov_ar_wsar_objectos_IntervencoesOut": [
+     {
+      "intId": "221791",
+      "intSu": "Eleição da Mesa da Assembleia da República",
+      "pubDar": "12-13; 13-13",
+      "pubDtreu": "1983-06-08",
+      "pubLg": "III",
+      "pubNr": "2",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "221792",
+      "intSu": "Eleição da Mesa da Assembleia da República",
+      "intTe": "Dos resultados",
+      "pubDar": "13-14",
+      "pubDtreu": "1983-06-08",
+      "pubLg": "III",
+      "pubNr": "2",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Leitura"
+     },
+     {
+      "intId": "221804",
+      "intSu": "Eleição da Mesa da Assembleia da República",
+      "pubDar": "18-18",
+      "pubDtreu": "1983-06-08",
+      "pubLg": "III",
+      "pubNr": "2",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "221787",
+      "intSu": "Primeira reunião após eleições legislativas",
+      "pubDar": "1-2",
+      "pubDtreu": "1983-05-31",
+      "pubLg": "III",
+      "pubNr": "1",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "221788",
+      "intSu": "Primeira reunião após eleições legislativas",
+      "intTe": "Dos Deputados que vão constituir a Comissão Eventual de Regimento e Mandatos",
+      "pubDtreu": "1983-05-31",
+      "pubLg": "III",
+      "pubNr": "1",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Leitura"
+     },
+     {
+      "intId": "221789",
+      "intSu": "Primeira reunião após eleições legislativas",
+      "pubDar": "2-2",
+      "pubDtreu": "1983-05-31",
+      "pubLg": "III",
+      "pubNr": "1",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "SANTARÉM",
+  "depCPId": "14",
+  "depCadId": "94",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3632",
+  "depNomeCompleto": "LEONARDO EUGENIO RIBEIRO DE ALMEIDA",
+  "depNomeParlamentar": "LEONARDO RIBEIRO DE ALMEIDA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-09-14",
+     "sioDtInicio": "1983-05-31"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-05-23",
+     "sioDtInicio": "1983-09-17"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-06-01",
+     "sioDtInicio": "1984-05-26"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

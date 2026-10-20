@@ -1,0 +1,50 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "ASDI",
+     "dpl_lg": "III",
+     "nome": "António Fontes"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "4727",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "993",
+    "gpSigla": "ASDI"
+   }
+  },
+  "depId": "9951",
+  "depNomeCompleto": "ANTÓNIO MANUEL ATTAOUGUIA ROCHA FONTES",
+  "depNomeParlamentar": "António Fontes",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-06-12",
+     "sioDtInicio": "1984-06-11"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-06-16",
+     "sioDtInicio": "1984-06-14"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-10-13",
+     "sioDtInicio": "1984-10-10"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

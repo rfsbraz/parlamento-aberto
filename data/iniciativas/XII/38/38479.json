@@ -1,0 +1,782 @@
+{
+ "DataFimleg": "2014-09-14",
+ "DataInicioleg": "2013-09-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PCP",
+   "idCadastro": "4104",
+   "nome": "Rita Rato"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2069",
+   "nome": "Jorge Machado"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4447",
+   "nome": "David Costa"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "3934",
+   "nome": "João Ramos"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2077",
+   "nome": "Francisco Lopes"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4297",
+   "nome": "Carla Cruz"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2184",
+   "nome": "Miguel Tiago"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4430",
+   "nome": "Paula Baptista"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PCP"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2014-05-13",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "297683",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2014-05-15",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "298166",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/03/113/2014-05-15/272?pgs=272-274&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "681862",
+     "obs": null,
+     "pag": [
+      "272-274"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "113",
+     "pubSL": "3",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2014-05-15",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2014-05-28",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "298042",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2014-05-28",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "298043",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "181",
+   "Comissao": [
+    {
+     "AccId": "33609",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2014-05-28",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3519",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Segurança Social e Trabalho",
+     "Numero": "3519",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2014-05-28",
+   "EvtId": "126",
+   "Fase": "Baixa comissão para discussão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "298044",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "10256",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2015-01-09",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": [
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Resolução",
+     "id": "38705",
+     "leg": "XII",
+     "nr": "94",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/036/2015-01-10/36?pgs=36-40&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1956",
+       "obs": null,
+       "pag": [
+        "36-40"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "36",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-01-10",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/036/2015-01-10/36?pgs=36-40&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1956",
+       "obs": null,
+       "pag": [
+        "36-40"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "36",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-01-10",
+       "supl": null
+      }
+     ],
+     "sel": "4",
+     "tipo": "S",
+     "titulo": "Aprova a Convenção n.º 189, relativa ao Trabalho Digno para as Trabalhadoras e Trabalhadores do Serviço Doméstico, adotada pela Conferência Geral da Organização Internacional do Trabalho, na sua 100.ª sessão, realizada em Genebra, em 16 de junho de 2011."
+    },
+    {
+     "autor": "BE",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "37563",
+     "leg": "XII",
+     "nr": "634",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/036/2015-01-10/36?pgs=36-40&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1956",
+       "obs": null,
+       "pag": [
+        "36-40"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "36",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-01-10",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/036/2015-01-10/36?pgs=36-40&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1956",
+       "obs": null,
+       "pag": [
+        "36-40"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "36",
+       "pubSL": "4",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2015-01-10",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "R",
+     "titulo": "Recomenda ao Governo que ratifique a Convenção 189 da Organização Internacional do Trabalho sobre trabalho doméstico."
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2015-01-09",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:07",
+       "horaTermo": "13:07",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150109pln&url=l12/sl4/a2015/m01/&tI=01:58:05:476&drc=00:01:44:537"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150109pln&url=l12/sl4/a2015/m01/&tI=02:15:15:433&drc=00:00:56:722"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": "S.E. DOS ASSUNTOS PARLAMENTARES E DA IGUALDADE",
+        "governo": "XIX GOVERNO CONSTITUCIONAL",
+        "nome": "Teresa Morais"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/036/2015-01-10/36?pgs=36-37,40&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "196918",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "36-37",
+          "40-40"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "36",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-01-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Convenção n.º 189, relativa ao Trabalho Digno para as Trabalhadoras e Trabalhadores do Serviço Doméstico, adotada pela Conferência Geral da Organização Internacional do Trabalho, na sua 100.ª sessão, realizada em Genebra, em 16 de junho de 2011; Recomenda ao Governo que ratifique a Convenção sobre Trabalho Digno para os Trabalhadores Domésticos e que tome as medidas adequadas à sua execução; Recomenda ao Governo que ratifique a Convenção 189 da Organização Internacional do Trabalho sobre trabalho doméstico.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2156",
+         "nome": "Mariana Aiveca"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:07",
+       "horaTermo": "13:07",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150109pln&url=l12/sl4/a2015/m01/&tI=02:00:06:009&drc=00:02:32:032"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/036/2015-01-10/37?pgs=37&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "196919",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "37-37"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "36",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-01-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Convenção n.º 189, relativa ao Trabalho Digno para as Trabalhadoras e Trabalhadores do Serviço Doméstico, adotada pela Conferência Geral da Organização Internacional do Trabalho, na sua 100.ª sessão, realizada em Genebra, em 16 de junho de 2011; Recomenda ao Governo que ratifique a Convenção sobre Trabalho Digno para os Trabalhadores Domésticos e que tome as medidas adequadas à sua execução; Recomenda ao Governo que ratifique a Convenção 189 da Organização Internacional do Trabalho sobre trabalho doméstico.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "4104",
+         "nome": "Rita Rato"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:07",
+       "horaTermo": "13:07",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150109pln&url=l12/sl4/a2015/m01/&tI=02:02:45:393&drc=00:02:48:043"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/036/2015-01-10/37?pgs=37-38&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "196920",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "37-38"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "36",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-01-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Convenção n.º 189, relativa ao Trabalho Digno para as Trabalhadoras e Trabalhadores do Serviço Doméstico, adotada pela Conferência Geral da Organização Internacional do Trabalho, na sua 100.ª sessão, realizada em Genebra, em 16 de junho de 2011; Recomenda ao Governo que ratifique a Convenção sobre Trabalho Digno para os Trabalhadores Domésticos e que tome as medidas adequadas à sua execução; Recomenda ao Governo que ratifique a Convenção 189 da Organização Internacional do Trabalho sobre trabalho doméstico.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "4018",
+         "nome": "Artur Rêgo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:07",
+       "horaTermo": "13:07",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150109pln&url=l12/sl4/a2015/m01/&tI=02:05:43:859&drc=00:03:09:777"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/036/2015-01-10/38?pgs=38&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "196921",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "38-38"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "36",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-01-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Convenção n.º 189, relativa ao Trabalho Digno para as Trabalhadoras e Trabalhadores do Serviço Doméstico, adotada pela Conferência Geral da Organização Internacional do Trabalho, na sua 100.ª sessão, realizada em Genebra, em 16 de junho de 2011; Recomenda ao Governo que ratifique a Convenção sobre Trabalho Digno para os Trabalhadores Domésticos e que tome as medidas adequadas à sua execução; Recomenda ao Governo que ratifique a Convenção 189 da Organização Internacional do Trabalho sobre trabalho doméstico.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2215",
+         "nome": "Nuno Sá"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:07",
+       "horaTermo": "13:07",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150109pln&url=l12/sl4/a2015/m01/&tI=02:09:00:667&drc=00:03:07:866"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/036/2015-01-10/39?pgs=39&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "196922",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "39-39"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "36",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-01-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Convenção n.º 189, relativa ao Trabalho Digno para as Trabalhadoras e Trabalhadores do Serviço Doméstico, adotada pela Conferência Geral da Organização Internacional do Trabalho, na sua 100.ª sessão, realizada em Genebra, em 16 de junho de 2011; Recomenda ao Governo que ratifique a Convenção sobre Trabalho Digno para os Trabalhadores Domésticos e que tome as medidas adequadas à sua execução; Recomenda ao Governo que ratifique a Convenção 189 da Organização Internacional do Trabalho sobre trabalho doméstico.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4031",
+         "nome": "Ângela Guerra"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:07",
+       "horaTermo": "13:07",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20150109pln&url=l12/sl4/a2015/m01/&tI=02:12:19:508&drc=00:02:41:463"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/036/2015-01-10/39?pgs=39-40&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "196923",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "39-40"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "36",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2015-01-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova a Convenção n.º 189, relativa ao Trabalho Digno para as Trabalhadoras e Trabalhadores do Serviço Doméstico, adotada pela Conferência Geral da Organização Internacional do Trabalho, na sua 100.ª sessão, realizada em Genebra, em 16 de junho de 2011; Recomenda ao Governo que ratifique a Convenção sobre Trabalho Digno para os Trabalhadores Domésticos e que tome as medidas adequadas à sua execução; Recomenda ao Governo que ratifique a Convenção 189 da Organização Internacional do Trabalho sobre trabalho doméstico.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "301908",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/036/2015-01-10/36?pgs=36-40&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "727086",
+     "obs": null,
+     "pag": [
+      "36-40"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "36",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2015-01-10",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "335",
+   "Comissao": null,
+   "DataFase": "2015-01-09",
+   "EvtId": "73",
+   "Fase": "Votação Deliberação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "301982",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/04/036/2015-01-10/47?pgs=47&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "727087",
+     "obs": null,
+     "pag": [
+      "47-47"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "36",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2015-01-10",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2015-01-09",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+     "id": "68194",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "36",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "38479",
+ "IniLeg": "XII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e324d794d6a686c4f4451744d446c6a596930305a575a694c574a6c4d6d55745a6d59354f44466a4e6a4d77595745304c6d527659773d3d&fich=7c228e84-09cb-4efb-be2e-ff981c630aa4.doc&Inline=true",
+ "IniNr": "1048",
+ "IniObs": null,
+ "IniSel": "3",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "R",
+ "IniTitulo": "Recomenda ao Governo que ratifique a Convenção sobre Trabalho Digno para os Trabalhadores Domésticos e que tome as medidas adequadas à sua execução.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

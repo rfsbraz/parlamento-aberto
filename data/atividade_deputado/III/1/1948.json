@@ -1,0 +1,70 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "VIRGILIO PEREIRA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "30032",
+     "iniNr": "527",
+     "iniSelLg": "III",
+     "iniSelNr": "2",
+     "iniTi": "Corridas de toiros de morte.",
+     "iniTp": "J",
+     "iniTpdesc": "Projeto de Lei"
+    }
+   },
+   "intev": {
+    "pt_gov_ar_wsar_objectos_IntervencoesOut": {
+     "intId": "223816",
+     "intSu": "Concede ao Governo autorização para legislar em matéria das atribuições das autarquias locais e competencias dos respectivos orgãos",
+     "intTe": "Ao Ministro da Administração Interna (Eduardo Pereira)",
+     "pubDar": "823-823",
+     "pubDtreu": "1983-07-12",
+     "pubLg": "III",
+     "pubNr": "20",
+     "pubSl": "1",
+     "pubTp": "D",
+     "tinDs": "Pedido de esclarecimento"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "MADEIRA",
+  "depCPId": "20",
+  "depCadId": "1948",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3652",
+  "depNomeCompleto": "VIRGÍLIO HIGINO GONÇALVES PEREIRA",
+  "depNomeParlamentar": "VIRGILIO PEREIRA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-08-01",
+     "sioDtInicio": "1983-05-31"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-11-04",
+     "sioDtInicio": "1983-11-02"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

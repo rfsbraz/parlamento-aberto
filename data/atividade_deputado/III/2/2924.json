@@ -1,0 +1,99 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PS",
+     "dpl_lg": "III",
+     "nome": "ANTÓNIO AZEVEDO GOMES"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "29889",
+      "iniNr": "417",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Lei de bases do sistema de promoção e apoio ao desenvolvimento florestal.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29888",
+      "iniNr": "416",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Lei da caça.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29887",
+      "iniNr": "415",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Lei das transacções fundiárias de terrenos de vocação florestal.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29886",
+      "iniNr": "414",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Lei do arrendamento florestal.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29885",
+      "iniNr": "413",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Lei de bases do desenvolvimento florestal.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "2924",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "988",
+    "gpSigla": "PS"
+   }
+  },
+  "depId": "3532",
+  "depNomeCompleto": "ANTÓNIO MANUEL CHAMBICA DE AZEVEDO GOMES",
+  "depNomeParlamentar": "ANTÓNIO AZEVEDO GOMES",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-06-19",
+     "sioDtInicio": "1983-05-31"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-01-04",
+     "sioDtInicio": "1984-10-18"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-11-04",
+     "sioDtInicio": "1985-02-01"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

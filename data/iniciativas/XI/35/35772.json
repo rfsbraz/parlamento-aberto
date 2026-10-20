@@ -1,0 +1,961 @@
+{
+ "DataFimleg": "2011-06-19",
+ "DataInicioleg": "2010-09-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PCP",
+   "idCadastro": "2184",
+   "nome": "Miguel Tiago"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4104",
+   "nome": "Rita Rato"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "209",
+   "nome": "António Filipe"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "1058",
+   "nome": "Bernardino Soares"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4197",
+   "nome": "Paula Santos"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "3934",
+   "nome": "João Ramos"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2069",
+   "nome": "Jorge Machado"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2234",
+   "nome": "João Oliveira"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2077",
+   "nome": "Francisco Lopes"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PCP"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Deputados",
+  "sigla": "D"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2010-11-23",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "271738",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2010-11-24",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "271774",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "25404",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2010-11-30",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2010-11-24",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "2871",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Educação e Ciência",
+     "Numero": "2871",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "CDS-PP",
+       "id": "4157",
+       "motivoCessacao": null,
+       "nome": "Michael Seufert"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2010-12-07",
+       "dataRemessa": "2010-12-07",
+       "numeroOficio": "563/8ª-CEC",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "PEV"
+       ],
+       "data": "2010-12-07",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> CDS-PP</I>, <I> BE</I>, <I> PCP</I><BR>Ausência: <I>PEV</I>",
+       "id": "57155",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "125",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2010-11-24",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "271776",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2010-11-25",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "271775",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2010-11-26",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "272038",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/11/02/041/2010-11-26/7?pgs=7-22&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "533925",
+     "obs": null,
+     "pag": [
+      "7-22"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XI",
+     "pubNr": "41",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2010-11-26",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "7797",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2010-12-09",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "BE",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "35726",
+     "leg": "XI",
+     "nr": "442",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/028/2010-12-10/70?pgs=70-80&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1481",
+       "obs": null,
+       "pag": [
+        "70-80"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XI",
+       "pubNr": "28",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2010-12-10",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/028/2010-12-10/70?pgs=70-80&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1481",
+       "obs": null,
+       "pag": [
+        "70-80"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XI",
+       "pubNr": "28",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2010-12-10",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/028/2010-12-10/70?pgs=70-80&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1481",
+       "obs": null,
+       "pag": [
+        "70-80"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XI",
+       "pubNr": "28",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2010-12-10",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "J",
+     "titulo": "Estabelece um novo regime de atribuição de bolsas de estudo a estudantes do ensino superior."
+    },
+    {
+     "autor": "CDS-PP",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "35792",
+     "leg": "XI",
+     "nr": "461",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/028/2010-12-10/70?pgs=70-80&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1481",
+       "obs": null,
+       "pag": [
+        "70-80"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XI",
+       "pubNr": "28",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2010-12-10",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/028/2010-12-10/70?pgs=70-80&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1481",
+       "obs": null,
+       "pag": [
+        "70-80"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XI",
+       "pubNr": "28",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2010-12-10",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/028/2010-12-10/70?pgs=70-80&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "1481",
+       "obs": null,
+       "pag": [
+        "70-80"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XI",
+       "pubNr": "28",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2010-12-10",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "J",
+     "titulo": "Primeira alteração ao Decreto-Lei n.º 70/2010, de 16 de Junho, de forma a retirar as Bolsas de Estudo e de Formação para efeitos de verificação da condição de recursos."
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2010-12-09",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2433",
+         "nome": "José Moura Soeiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "19:54",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/028/2010-12-10/70?pgs=70-71&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "178269",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "70-71"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XI",
+         "pubNr": "28",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2010-12-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece um novo regime de atribuição de bolsas de estudo a estudantes do ensino superior; Financiamento do Ensino Superior Público; Primeira alteração ao Decreto-Lei n.º 70/2010, de 16 de Junho, de forma a retirar as Bolsas de Estudo e de Formação para efeitos de verificação da condição de recursos; Solicitam a alteração do regime de atribuição de bolsas de acção social no ensino superior, o término do sigilo bancário, pondo fim às injustiças na atribuição de bolsas e a extinção das propinas.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "4104",
+         "nome": "Rita Rato"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "19:54",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/028/2010-12-10/71?pgs=71-72,77&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "178274",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "71-72",
+          "77-77"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XI",
+         "pubNr": "28",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2010-12-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece um novo regime de atribuição de bolsas de estudo a estudantes do ensino superior; Financiamento do Ensino Superior Público; Primeira alteração ao Decreto-Lei n.º 70/2010, de 16 de Junho, de forma a retirar as Bolsas de Estudo e de Formação para efeitos de verificação da condição de recursos; Solicitam a alteração do regime de atribuição de bolsas de acção social no ensino superior, o término do sigilo bancário, pondo fim às injustiças na atribuição de bolsas e a extinção das propinas.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "4157",
+         "nome": "Michael Seufert"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "19:54",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/028/2010-12-10/72?pgs=72,78-79&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "178275",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "72-72",
+          "78-79"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XI",
+         "pubNr": "28",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2010-12-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece um novo regime de atribuição de bolsas de estudo a estudantes do ensino superior; Financiamento do Ensino Superior Público; Primeira alteração ao Decreto-Lei n.º 70/2010, de 16 de Junho, de forma a retirar as Bolsas de Estudo e de Formação para efeitos de verificação da condição de recursos; Solicitam a alteração do regime de atribuição de bolsas de acção social no ensino superior, o término do sigilo bancário, pondo fim às injustiças na atribuição de bolsas e a extinção das propinas.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4221",
+         "nome": "Vânia Jesus"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "19:54",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/028/2010-12-10/72?pgs=72-74&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "178276",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "72-74"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XI",
+         "pubNr": "28",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2010-12-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece um novo regime de atribuição de bolsas de estudo a estudantes do ensino superior; Financiamento do Ensino Superior Público; Primeira alteração ao Decreto-Lei n.º 70/2010, de 16 de Junho, de forma a retirar as Bolsas de Estudo e de Formação para efeitos de verificação da condição de recursos; Solicitam a alteração do regime de atribuição de bolsas de acção social no ensino superior, o término do sigilo bancário, pondo fim às injustiças na atribuição de bolsas e a extinção das propinas.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2214",
+         "nome": "Manuel Mota"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "19:54",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/028/2010-12-10/74?pgs=74-76&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "178277",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "74-76"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XI",
+         "pubNr": "28",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2010-12-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece um novo regime de atribuição de bolsas de estudo a estudantes do ensino superior; Financiamento do Ensino Superior Público; Primeira alteração ao Decreto-Lei n.º 70/2010, de 16 de Junho, de forma a retirar as Bolsas de Estudo e de Formação para efeitos de verificação da condição de recursos; Solicitam a alteração do regime de atribuição de bolsas de acção social no ensino superior, o término do sigilo bancário, pondo fim às injustiças na atribuição de bolsas e a extinção das propinas.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "780",
+         "nome": "José Luís Ferreira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "19:54",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/028/2010-12-10/76?pgs=76&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "178278",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "76-76"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XI",
+         "pubNr": "28",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2010-12-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece um novo regime de atribuição de bolsas de estudo a estudantes do ensino superior; Financiamento do Ensino Superior Público; Primeira alteração ao Decreto-Lei n.º 70/2010, de 16 de Junho, de forma a retirar as Bolsas de Estudo e de Formação para efeitos de verificação da condição de recursos; Solicitam a alteração do regime de atribuição de bolsas de acção social no ensino superior, o término do sigilo bancário, pondo fim às injustiças na atribuição de bolsas e a extinção das propinas.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2433",
+         "nome": "José Moura Soeiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "19:54",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/028/2010-12-10/79?pgs=79&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "178279",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "79-79"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XI",
+         "pubNr": "28",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2010-12-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece um novo regime de atribuição de bolsas de estudo a estudantes do ensino superior; Financiamento do Ensino Superior Público; Primeira alteração ao Decreto-Lei n.º 70/2010, de 16 de Junho, de forma a retirar as Bolsas de Estudo e de Formação para efeitos de verificação da condição de recursos; Solicitam a alteração do regime de atribuição de bolsas de acção social no ensino superior, o término do sigilo bancário, pondo fim às injustiças na atribuição de bolsas e a extinção das propinas.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "4157",
+         "nome": "Michael Seufert"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:08",
+       "horaTermo": "19:54",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/028/2010-12-10/79?pgs=79-80&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "178280",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "79-80"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XI",
+         "pubNr": "28",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2010-12-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Estabelece um novo regime de atribuição de bolsas de estudo a estudantes do ensino superior; Financiamento do Ensino Superior Público; Primeira alteração ao Decreto-Lei n.º 70/2010, de 16 de Junho, de forma a retirar as Bolsas de Estudo e de Formação para efeitos de verificação da condição de recursos; Solicitam a alteração do regime de atribuição de bolsas de acção social no ensino superior, o término do sigilo bancário, pondo fim às injustiças na atribuição de bolsas e a extinção das propinas.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": "Petição n.º 85/XI/1.ª",
+   "OevId": "271987",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": [
+    {
+     "autor": null,
+     "dataEntrada": null,
+     "descTipo": null,
+     "id": "11",
+     "leg": "XI",
+     "nr": "85",
+     "publicacao": null,
+     "sel": "1",
+     "tipo": null,
+     "titulo": "Solicitam a alteração do regime de atribuição de bolsas de acção social no ensino superior, o término do sigilo bancário, pondo fim às injustiças na atribuição de bolsas e a extinção das propinas."
+    }
+   ],
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/028/2010-12-10/70?pgs=70-80&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "535493",
+     "obs": null,
+     "pag": [
+      "70-80"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XI",
+     "pubNr": "28",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2010-12-10",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2010-12-15",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "272260",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/11/02/031/2010-12-16/61?pgs=61&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "539302",
+     "obs": null,
+     "pag": [
+      "61-61"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XI",
+     "pubNr": "31",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2010-12-16",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2010-12-15",
+     "descricao": null,
+     "detalhe": "A Favor: <I>BE</I>, <I> PCP</I>, <I> PEV</I><BR>Contra:<I>PS</I>, <I> PSD</I>, <I> CDS-PP</I>",
+     "id": "57229",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "31",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "35772",
+ "IniLeg": "XI",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c637939595355786c5a79394562324e31625756756447397a5357357059326c6864476c32595338774f5449314d6d49304e6930784f4745354c5451784e7a45744f5455344d69307a5a6a686a5a47566c4e57497a4d6d45755a47396a&fich=09252b46-18a9-4171-9582-3f8cdee5b32a.doc&Inline=true",
+ "IniNr": "451",
+ "IniObs": null,
+ "IniSel": "2",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Financiamento do Ensino Superior Público.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": [
+  {
+   "assunto": "Solicitam a alteração do regime de atribuição de bolsas de acção social no ensino superior, o término do sigilo bancário, pondo fim às injustiças na atribuição de bolsas e a extinção das propinas.",
+   "dcl": null,
+   "descTipo": null,
+   "id": "12015",
+   "legislatura": "XI",
+   "numero": "85",
+   "sessao": "1",
+   "tipo": null
+  }
+ ],
+ "PropostasAlteracao": null
+}

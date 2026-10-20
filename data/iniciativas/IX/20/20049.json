@@ -1,0 +1,903 @@
+{
+ "DataFimleg": "2004-09-14",
+ "DataInicioleg": "2003-09-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": null,
+ "IniAutorGruposParlamentares": null,
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Governo",
+  "sigla": "V"
+ },
+ "IniDescTipo": "Proposta de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2003-12-11",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "160258",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2003-12-12",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "160415",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "7066",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2004-01-06",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2003-12-12",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "103",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSÃO DE ASSUNTOS EUROPEUS E POLÍTICA EXTERNA",
+     "Numero": "103",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/02/031/2004-01-24/1765?pgs=1765-1766&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "1765-1766"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "31",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2004-01-24",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/02/031/2004-01-24/1765?pgs=1765-1766&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "1765-1766"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "31",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2004-01-24",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "197",
+       "motivoCessacao": null,
+       "nome": "Capoulas Santos"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2004-01-21",
+       "dataRemessa": "2004-01-21",
+       "numeroOficio": "3967/COM",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "PCP",
+        "BE",
+        "PEV"
+       ],
+       "data": "2004-01-21",
+       "descricao": "Unanimidade dos Presentes",
+       "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I><BR>Ausência: <I>PCP</I>, <I> BE</I>, <I> PEV</I>",
+       "id": "31288",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "100",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2003-12-12",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "160542",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2003-12-18",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "160416",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2003-12-20",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "160983",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/02/023S1/2003-12-20/1450-(2)?pgs=1450-(2)-1450-(35)&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "284633",
+     "obs": "-(2) a 1450-(35)",
+     "pag": [
+      "1450-(2)-1450-(35)"
+     ],
+     "pagFinalDiarioSupl": "1º Supl.",
+     "pubLeg": "IX",
+     "pubNr": "23",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2003-12-20",
+     "supl": "1º Supl."
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "2939",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2004-01-21",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": [
+    {
+     "autor": "Governo",
+     "dataEntrada": null,
+     "descTipo": "Proposta de Lei",
+     "id": "19897",
+     "leg": "IX",
+     "nr": "99",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/041/2004-01-22/2315?pgs=2315-2325&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "760",
+       "obs": null,
+       "pag": [
+        "2315-2325"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "41",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2004-01-22",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "P",
+     "titulo": "Autoriza o Governo a legislar sobre as infracções ao regime jurídico aplicável à vinha, à produção, ao comércio, à transformação e ao trânsito dos vinhos e dos produtos de origem vitivinícola e às actividades desenvolvidas neste sector."
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2004-01-21",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "19:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": "S.E. DO DESENVOLVIMENTO RURAL",
+        "governo": "XV GOVERNO CONSTITUCIONAL",
+        "nome": "Bianchi de Aguiar"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/041/2004-01-22/2315?pgs=2315-2317,2319-2320&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "151636",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2315-2317",
+          "2319-2320"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "41",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2004-01-22",
+         "supl": null
+        }
+       ],
+       "sumario": "Autoriza o Governo a legislar sobre as infracções ao regime jurídico aplicável à vinha, à produção, ao comércio, à transformação e ao trânsito dos vinhos e dos produtos de origem vitivinícola e às actividades desenvolvidas neste sector; Aprova, para ratificação, a Acta Final da Conferência dos Estados-Membros da Repartição Internacional da Vinha e do Vinho, realizada em Paris, a 14, 15 e 22 de Junho de 2000 e a 3 de Abril de 2001, assim como o Acordo que institui a Organização Internacional da Vinha e do Vinho, a ela anexo, feitos em Paris, a 3 de Abril  de 2001.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "197",
+         "nome": "Capoulas Santos"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "19:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/041/2004-01-22/2318?pgs=2318&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "151637",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2318-2318"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "41",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2004-01-22",
+         "supl": null
+        }
+       ],
+       "sumario": "Autoriza o Governo a legislar sobre as infracções ao regime jurídico aplicável à vinha, à produção, ao comércio, à transformação e ao trânsito dos vinhos e dos produtos de origem vitivinícola e às actividades desenvolvidas neste sector; Aprova, para ratificação, a Acta Final da Conferência dos Estados-Membros da Repartição Internacional da Vinha e do Vinho, realizada em Paris, a 14, 15 e 22 de Junho de 2000 e a 3 de Abril de 2001, assim como o Acordo que institui a Organização Internacional da Vinha e do Vinho, a ela anexo, feitos em Paris, a 3 de Abril  de 2001.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1902",
+         "nome": "Miguel Raimundo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "19:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/041/2004-01-22/2318?pgs=2318-2319&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "151638",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2318-2319"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "41",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2004-01-22",
+         "supl": null
+        }
+       ],
+       "sumario": "Autoriza o Governo a legislar sobre as infracções ao regime jurídico aplicável à vinha, à produção, ao comércio, à transformação e ao trânsito dos vinhos e dos produtos de origem vitivinícola e às actividades desenvolvidas neste sector; Aprova, para ratificação, a Acta Final da Conferência dos Estados-Membros da Repartição Internacional da Vinha e do Vinho, realizada em Paris, a 14, 15 e 22 de Junho de 2000 e a 3 de Abril de 2001, assim como o Acordo que institui a Organização Internacional da Vinha e do Vinho, a ela anexo, feitos em Paris, a 3 de Abril  de 2001.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1856",
+         "nome": "José Manuel Ribeiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "19:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/041/2004-01-22/2319?pgs=2319&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "151639",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2319-2319"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "41",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2004-01-22",
+         "supl": null
+        }
+       ],
+       "sumario": "Autoriza o Governo a legislar sobre as infracções ao regime jurídico aplicável à vinha, à produção, ao comércio, à transformação e ao trânsito dos vinhos e dos produtos de origem vitivinícola e às actividades desenvolvidas neste sector; Aprova, para ratificação, a Acta Final da Conferência dos Estados-Membros da Repartição Internacional da Vinha e do Vinho, realizada em Paris, a 14, 15 e 22 de Junho de 2000 e a 3 de Abril de 2001, assim como o Acordo que institui a Organização Internacional da Vinha e do Vinho, a ela anexo, feitos em Paris, a 3 de Abril  de 2001.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "294",
+         "nome": "Costa e Oliveira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "19:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/041/2004-01-22/2320?pgs=2320-2321&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "151640",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2320-2321"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "41",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2004-01-22",
+         "supl": null
+        }
+       ],
+       "sumario": "Autoriza o Governo a legislar sobre as infracções ao regime jurídico aplicável à vinha, à produção, ao comércio, à transformação e ao trânsito dos vinhos e dos produtos de origem vitivinícola e às actividades desenvolvidas neste sector; Aprova, para ratificação, a Acta Final da Conferência dos Estados-Membros da Repartição Internacional da Vinha e do Vinho, realizada em Paris, a 14, 15 e 22 de Junho de 2000 e a 3 de Abril de 2001, assim como o Acordo que institui a Organização Internacional da Vinha e do Vinho, a ela anexo, feitos em Paris, a 3 de Abril  de 2001.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "1485",
+         "nome": "Rodeia Machado"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "19:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/041/2004-01-22/2321?pgs=2321-2322&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "151641",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2321-2322"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "41",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2004-01-22",
+         "supl": null
+        }
+       ],
+       "sumario": "Autoriza o Governo a legislar sobre as infracções ao regime jurídico aplicável à vinha, à produção, ao comércio, à transformação e ao trânsito dos vinhos e dos produtos de origem vitivinícola e às actividades desenvolvidas neste sector; Aprova, para ratificação, a Acta Final da Conferência dos Estados-Membros da Repartição Internacional da Vinha e do Vinho, realizada em Paris, a 14, 15 e 22 de Junho de 2000 e a 3 de Abril de 2001, assim como o Acordo que institui a Organização Internacional da Vinha e do Vinho, a ela anexo, feitos em Paris, a 3 de Abril  de 2001.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "733",
+         "nome": "Miguel Ginestal"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "19:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/041/2004-01-22/2322?pgs=2322-2324&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "151642",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2322-2324"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "41",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2004-01-22",
+         "supl": null
+        }
+       ],
+       "sumario": "Autoriza o Governo a legislar sobre as infracções ao regime jurídico aplicável à vinha, à produção, ao comércio, à transformação e ao trânsito dos vinhos e dos produtos de origem vitivinícola e às actividades desenvolvidas neste sector; Aprova, para ratificação, a Acta Final da Conferência dos Estados-Membros da Repartição Internacional da Vinha e do Vinho, realizada em Paris, a 14, 15 e 22 de Junho de 2000 e a 3 de Abril de 2001, assim como o Acordo que institui a Organização Internacional da Vinha e do Vinho, a ela anexo, feitos em Paris, a 3 de Abril  de 2001.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1710",
+         "nome": "Herculano Gonçalves"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:00",
+       "horaTermo": "19:20",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/041/2004-01-22/2324?pgs=2324-2325&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "151643",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "2324-2325"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "41",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2004-01-22",
+         "supl": null
+        }
+       ],
+       "sumario": "Autoriza o Governo a legislar sobre as infracções ao regime jurídico aplicável à vinha, à produção, ao comércio, à transformação e ao trânsito dos vinhos e dos produtos de origem vitivinícola e às actividades desenvolvidas neste sector; Aprova, para ratificação, a Acta Final da Conferência dos Estados-Membros da Repartição Internacional da Vinha e do Vinho, realizada em Paris, a 14, 15 e 22 de Junho de 2000 e a 3 de Abril de 2001, assim como o Acordo que institui a Organização Internacional da Vinha e do Vinho, a ela anexo, feitos em Paris, a 3 de Abril  de 2001.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "160873",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/041/2004-01-22/2315?pgs=2315-2325&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "284665",
+     "obs": null,
+     "pag": [
+      "2315-2325"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "41",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2004-01-22",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "330",
+   "Comissao": null,
+   "DataFase": "2004-01-22",
+   "EvtId": "56",
+   "Fase": "Votação global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "160961",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/042/2004-01-23/2405?pgs=2405&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "284884",
+     "obs": null,
+     "pag": [
+      "2405-2405"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "42",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2004-01-23",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2004-01-22",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "31279",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "42",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "360",
+   "Comissao": null,
+   "DataFase": "2004-01-22",
+   "EvtId": "57",
+   "Fase": "Resolução (Publicação DAR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "161101",
+   "OevTextId": "5116",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "5116",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "371",
+   "Comissao": null,
+   "DataFase": "2004-02-09",
+   "EvtId": "121",
+   "Fase": "Envio para Ratificação / Assinatura",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "161232",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2004-02-09",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "161233",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "600",
+   "Comissao": null,
+   "DataFase": "2004-02-24",
+   "EvtId": "44",
+   "Fase": "Resolução da AR (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "161752",
+   "OevTextId": "5179",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "5179",
+   "Votacao": null
+  }
+ ],
+ "IniId": "20049",
+ "IniLeg": "IX",
+ "IniLinkTexto": "",
+ "IniNr": "54",
+ "IniObs": null,
+ "IniSel": "2",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "S",
+ "IniTitulo": "Aprova, para ratificação, a Acta Final da Conferência dos Estados-Membros da Repartição Internacional da Vinha e do Vinho, realizada em Paris, a 14, 15 e 22 de Junho de 2000 e a 3 de Abril de 2001, assim como o Acordo que institui a Organização Internacional da Vinha e do Vinho, a ela anexo, feitos em Paris, a 3 de Abril  de 2001.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

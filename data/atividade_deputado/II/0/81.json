@@ -1,0 +1,99 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "SILVA MARQUES"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30716",
+      "iniNr": "393",
+      "iniSelLg": "II",
+      "iniSelNr": "3",
+      "iniTi": "Criação da freguesia das Bairradas no concelho de Figueiró dos Vinhos",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30625",
+      "iniNr": "291",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Baldios.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30581",
+      "iniNr": "248",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação do Centro de Promoção Náutica e Piscatória de Peniche.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30509",
+      "iniNr": "208",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Associações nacionais e regionais de munícipios",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30504",
+      "iniNr": "203",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Remunerações e abonos dos eleitos locais",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LEIRIA",
+  "depCPId": "10",
+  "depCadId": "81",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3278",
+  "depNomeCompleto": "JOSÉ AUGUSTO SANTOS DA SILVA MARQUES",
+  "depNomeParlamentar": "SILVA MARQUES",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-03-25",
+     "sioDtInicio": "1980-11-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-20",
+     "sioDtInicio": "1982-04-03"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-09-03"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

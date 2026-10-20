@@ -1,0 +1,72 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": null,
+   "Audiencias": [
+    {
+     "AccDtaud": null,
+     "ActAs": null,
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": null,
+     "ActLg": null,
+     "ActLoc": null,
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": null,
+     "ActTpdesc": null,
+     "CmsAb": null,
+     "CmsNo": null,
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    }
+   ],
+   "Cms": null,
+   "DadosLegisDeputado": null,
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": null,
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": null,
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": null,
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Santarém",
+  "DepCPId": 14.0,
+  "DepCadId": 9541.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-01-31",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7267.0,
+    "GpSigla": "CDS-PP"
+   }
+  ],
+  "DepId": 16967.0,
+  "DepNomeCompleto": "Sandra Isabel Nunes da Silva Borges de Freitas",
+  "DepNomeParlamentar": "Sandra Freitas",
+  "DepSituacao": [
+   {
+    "SioDes": "Suplente",
+    "SioDtFim": null,
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

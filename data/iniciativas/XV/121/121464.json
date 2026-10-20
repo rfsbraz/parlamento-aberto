@@ -1,0 +1,906 @@
+{
+ "DataFimleg": "2023-09-14",
+ "DataInicioleg": "2022-03-29",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PCP",
+   "idCadastro": "4623",
+   "nome": "Diana Ferreira"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4197",
+   "nome": "Paula Santos"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "5524",
+   "nome": "João Dias"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "5706",
+   "nome": "Alma Rivera"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "1715",
+   "nome": "Bruno Dias"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "210",
+   "nome": "Jerónimo de Sousa"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PCP"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2022-05-17",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1285553",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/15/01/027/2022-05-17/23?pgs=23-25&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "960968",
+     "obs": null,
+     "pag": [
+      "23-25"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "27",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2022-05-17",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2022-05-17",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1285390",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2022-05-19",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1285427",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "181",
+   "Comissao": [
+    {
+     "AccId": "62464",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2022-05-19",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2022-05-30",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Ofício PAR - Pedido de Discussão Plenário de PJR",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764f454e465179394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c324d324d544d774e4749784c54646d595463744e444d314f4331694f544d774c5759784d3251335a4755314d4459774d4335775a47593d&fich=c61304b1-7fa7-4358-b930-f13d7de50600.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8332",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Educação e Ciência",
+     "Numero": "8332",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2022-05-19",
+   "EvtId": "126",
+   "Fase": "Baixa comissão para discussão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1285428",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2022-05-23",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1285505",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "18122",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2022-06-23",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": [
+    {
+     "autor": "PAN",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "121479",
+     "leg": "XV",
+     "nr": "80",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/027/2022-06-24/28?pgs=28-35&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16207",
+       "obs": null,
+       "pag": [
+        "28-35"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "27",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2022-06-24",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/027/2022-06-24/28?pgs=28-35&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16207",
+       "obs": null,
+       "pag": [
+        "28-35"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "27",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2022-06-24",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/027/2022-06-24/28?pgs=28-35&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16207",
+       "obs": null,
+       "pag": [
+        "28-35"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "27",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2022-06-24",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "J",
+     "titulo": "Procede à revogação do atual sistema de acesso aos 5.º e 7.º escalões da carreira docente, procedendo à alteração do Estatuto da Carreira dos Educadores de Infância e dos Professores dos Ensinos Básico e Secundário"
+    },
+    {
+     "autor": "BE",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "121468",
+     "leg": "XV",
+     "nr": "56",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/027/2022-06-24/28?pgs=28-35&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16207",
+       "obs": null,
+       "pag": [
+        "28-35"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "27",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2022-06-24",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/027/2022-06-24/28?pgs=28-35&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16207",
+       "obs": null,
+       "pag": [
+        "28-35"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "27",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2022-06-24",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/027/2022-06-24/28?pgs=28-35&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16207",
+       "obs": null,
+       "pag": [
+        "28-35"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "27",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2022-06-24",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "R",
+     "titulo": "Pela remoção dos obstáculos à progressão de docentes para 5º e 7º escalões"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2022-06-23",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "4623",
+         "nome": "Diana Ferreira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:58",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2022_06_23_15_00_00_clean_14_plenario.xml&idsegmento=33"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/027/2022-06-24/28?pgs=28&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "268875",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "28-28"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "27",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2022-06-24",
+         "supl": null
+        }
+       ],
+       "sumario": "Pelo fim das vagas no acesso ao 5.º e 7.º escalão da carreira docente; Recomenda ao Governo a eliminação da imposição administrativa de vagas para a progressão aos 5.º e 7.º escalões da carreira docente; Pela remoção dos obstáculos à progressão de docentes para 5.º e 7.º escalões; Procede à revogação do atual sistema de acesso aos 5.º e 7.º escalões da carreira docente, procedendo à alteração do Estatuto da Carreira dos Educadores de Infância e dos Professores dos Ensinos Básico e Secundário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "6063",
+         "nome": "Joana Mortágua"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:58",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2022_06_23_15_00_00_clean_14_plenario.xml&idsegmento=34"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/027/2022-06-24/29?pgs=29&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "268876",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "29-29"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "27",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2022-06-24",
+         "supl": null
+        }
+       ],
+       "sumario": "Pelo fim das vagas no acesso ao 5.º e 7.º escalão da carreira docente; Recomenda ao Governo a eliminação da imposição administrativa de vagas para a progressão aos 5.º e 7.º escalões da carreira docente; Pela remoção dos obstáculos à progressão de docentes para 5.º e 7.º escalões; Procede à revogação do atual sistema de acesso aos 5.º e 7.º escalões da carreira docente, procedendo à alteração do Estatuto da Carreira dos Educadores de Infância e dos Professores dos Ensinos Básico e Secundário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PAN",
+         "idCadastro": "6864",
+         "nome": "Inês de Sousa Real"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:58",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2022_06_23_15_00_00_clean_14_plenario.xml&idsegmento=35"
+        },
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2022_06_23_15_00_00_clean_14_plenario.xml&idsegmento=40"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/027/2022-06-24/29?pgs=29-30,34-35&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "268877",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "29-30",
+          "34-35"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "27",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2022-06-24",
+         "supl": null
+        }
+       ],
+       "sumario": "Pelo fim das vagas no acesso ao 5.º e 7.º escalão da carreira docente; Recomenda ao Governo a eliminação da imposição administrativa de vagas para a progressão aos 5.º e 7.º escalões da carreira docente; Pela remoção dos obstáculos à progressão de docentes para 5.º e 7.º escalões; Procede à revogação do atual sistema de acesso aos 5.º e 7.º escalões da carreira docente, procedendo à alteração do Estatuto da Carreira dos Educadores de Infância e dos Professores dos Ensinos Básico e Secundário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CH",
+         "idCadastro": "7340",
+         "nome": "Gabriel Mithá Ribeiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:58",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2022_06_23_15_00_00_clean_14_plenario.xml&idsegmento=36"
+        },
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2022_06_23_15_00_00_clean_14_plenario.xml&idsegmento=41"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/027/2022-06-24/30?pgs=30-31,35&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "268878",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "30-31",
+          "35-35"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "27",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2022-06-24",
+         "supl": null
+        }
+       ],
+       "sumario": "Pelo fim das vagas no acesso ao 5.º e 7.º escalão da carreira docente; Recomenda ao Governo a eliminação da imposição administrativa de vagas para a progressão aos 5.º e 7.º escalões da carreira docente; Pela remoção dos obstáculos à progressão de docentes para 5.º e 7.º escalões; Procede à revogação do atual sistema de acesso aos 5.º e 7.º escalões da carreira docente, procedendo à alteração do Estatuto da Carreira dos Educadores de Infância e dos Professores dos Ensinos Básico e Secundário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "L",
+         "idCadastro": "7337",
+         "nome": "Rui Tavares"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:58",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2022_06_23_15_00_00_clean_14_plenario.xml&idsegmento=37"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/027/2022-06-24/31?pgs=31&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "268879",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "31-31"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "27",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2022-06-24",
+         "supl": null
+        }
+       ],
+       "sumario": "Pelo fim das vagas no acesso ao 5.º e 7.º escalão da carreira docente; Recomenda ao Governo a eliminação da imposição administrativa de vagas para a progressão aos 5.º e 7.º escalões da carreira docente; Pela remoção dos obstáculos à progressão de docentes para 5.º e 7.º escalões; Procede à revogação do atual sistema de acesso aos 5.º e 7.º escalões da carreira docente, procedendo à alteração do Estatuto da Carreira dos Educadores de Infância e dos Professores dos Ensinos Básico e Secundário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "4363",
+         "nome": "Agostinho Santa"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:58",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2022_06_23_15_00_00_clean_14_plenario.xml&idsegmento=38"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/027/2022-06-24/32?pgs=32-33&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "268880",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "32-33"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "27",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2022-06-24",
+         "supl": null
+        }
+       ],
+       "sumario": "Pelo fim das vagas no acesso ao 5.º e 7.º escalão da carreira docente; Recomenda ao Governo a eliminação da imposição administrativa de vagas para a progressão aos 5.º e 7.º escalões da carreira docente; Pela remoção dos obstáculos à progressão de docentes para 5.º e 7.º escalões; Procede à revogação do atual sistema de acesso aos 5.º e 7.º escalões da carreira docente, procedendo à alteração do Estatuto da Carreira dos Educadores de Infância e dos Professores dos Ensinos Básico e Secundário.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "5984",
+         "nome": "Germana Rocha"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:09",
+       "horaTermo": "17:58",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2022_06_23_15_00_00_clean_14_plenario.xml&idsegmento=39"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/027/2022-06-24/33?pgs=33-34&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "268881",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "33-34"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "27",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2022-06-24",
+         "supl": null
+        }
+       ],
+       "sumario": "Pelo fim das vagas no acesso ao 5.º e 7.º escalão da carreira docente; Recomenda ao Governo a eliminação da imposição administrativa de vagas para a progressão aos 5.º e 7.º escalões da carreira docente; Pela remoção dos obstáculos à progressão de docentes para 5.º e 7.º escalões; Procede à revogação do atual sistema de acesso aos 5.º e 7.º escalões da carreira docente, procedendo à alteração do Estatuto da Carreira dos Educadores de Infância e dos Professores dos Ensinos Básico e Secundário.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1297151",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": [
+    {
+     "autor": null,
+     "dataEntrada": null,
+     "descTipo": null,
+     "id": "11",
+     "leg": "XIV",
+     "nr": "216",
+     "publicacao": null,
+     "sel": "2",
+     "tipo": null,
+     "titulo": "Pelo fim das vagas no acesso ao 5.º e 7.º escalão da carreira docente"
+    }
+   ],
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/027/2022-06-24/27?pgs=27-35&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "972549",
+     "obs": null,
+     "pag": [
+      "27-35"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "27",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2022-06-24",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2022-06-24",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1297482",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/028/2022-06-25/43?pgs=43&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "961301",
+     "obs": null,
+     "pag": [
+      "43-43"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "28",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2022-06-25",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2022-06-24",
+     "descricao": null,
+     "detalhe": "A Favor: <I>CH</I>, <I> PCP</I>, <I> BE</I>, <I> PAN</I>, <I> L</I><BR>Contra:<I>PS</I>, <I> IL</I><BR>Abstenção:<I>PSD</I>",
+     "id": "93104",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "28",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "121464",
+ "IniLeg": "XV",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a79394562324e31625756756447397a5357357059326c6864476c32595338304f4451304d6d4d785969316a5a4449324c5451344e4759744f544d314e5330304e4745794e5459305957566d4d4455755a47396a65413d3d&fich=48442c1b-cd26-484f-9355-44a2564aef05.docx&Inline=true",
+ "IniNr": "54",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "R",
+ "IniTitulo": "Recomenda ao Governo a eliminação da imposição administrativa de vagas para a progressão aos 5.º e 7.º escalões da carreira docente",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": [
+  {
+   "assunto": "Pelo fim das vagas no acesso ao 5.º e 7.º escalão da carreira docente",
+   "dcl": null,
+   "descTipo": null,
+   "id": "13585",
+   "legislatura": "XIV",
+   "numero": "216",
+   "sessao": "2",
+   "tipo": null
+  }
+ ],
+ "PropostasAlteracao": null
+}

@@ -1,0 +1,134 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "III",
+     "nome": "MANUEL CAVALEIRO BRANDÃO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "33000",
+     "iniNr": "49",
+     "iniSelLg": "III",
+     "iniSelNr": "2",
+     "iniTi": "Suspensão da vigência do Decreto-Lei nº 63/85, de 14 de Março, que aprova o Código dos Direitos de Autor e dos Direitos Conexos",
+     "iniTp": "R",
+     "iniTpdesc": "Projeto de Resolução"
+    }
+   },
+   "intev": {
+    "pt_gov_ar_wsar_objectos_IntervencoesOut": [
+     {
+      "intId": "225583",
+      "intSu": "Autoriza o Governo a legislar sobre o regime de suspensão temporária do contrato de trabalho, com o sentido de permitir a aplicação de medidas económico-financeiras que viabilizem as empresas.",
+      "intTe": "Ao Ministro do Trabalho e Segurança Social (Amândio de Azevedo)",
+      "pubDar": "1097-1097",
+      "pubDtreu": "1983-07-15",
+      "pubLg": "III",
+      "pubNr": "23",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Pedido de esclarecimento"
+     },
+     {
+      "intId": "225590",
+      "intSu": "Autoriza o Governo a legislar sobre o regime de suspensão temporária do contrato de trabalho, com o sentido de permitir a aplicação de medidas económico-financeiras que viabilizem as empresas.",
+      "pubDar": "1101-1101",
+      "pubDtreu": "1983-07-15",
+      "pubLg": "III",
+      "pubNr": "23",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Protesto"
+     },
+     {
+      "intId": "225598",
+      "intSu": "Autoriza o Governo a legislar sobre o regime de suspensão temporária do contrato de trabalho, com o sentido de permitir a aplicação de medidas económico-financeiras que viabilizem as empresas.",
+      "pubDar": "1107-1108",
+      "pubDtreu": "1983-07-15",
+      "pubLg": "III",
+      "pubNr": "23",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "PORTO",
+  "depCPId": "13",
+  "depCadId": "1285",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "991",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "4737",
+  "depNomeCompleto": "MANUEL EUGÉNIO PIMENTEL CAVALEIRO BRANDÃO",
+  "depNomeParlamentar": "MANUEL CAVALEIRO BRANDÃO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-06-25",
+     "sioDtInicio": "1983-06-22"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-07-13",
+     "sioDtInicio": "1983-07-11"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-07-16",
+     "sioDtInicio": "1983-07-15"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-11-05",
+     "sioDtInicio": "1983-11-03"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-02-18",
+     "sioDtInicio": "1984-02-14"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-05-19",
+     "sioDtInicio": "1984-05-17"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-06-13",
+     "sioDtInicio": "1984-06-11"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-01-26",
+     "sioDtInicio": "1985-01-24"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-03-14",
+     "sioDtInicio": "1985-03-12"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-06-07",
+     "sioDtInicio": "1985-05-23"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

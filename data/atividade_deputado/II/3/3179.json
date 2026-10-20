@@ -1,0 +1,96 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PS",
+     "dpl_lg": "II",
+     "nome": "RUI MATEUS"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "31162",
+      "iniNr": "213",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 355/82, de 6 de Setembro (Orgânica do Secretariado Nacional de Reabilitação).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30908",
+      "iniNr": "9",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-lei nº 313/80, de 19 de Agosto, que introduz alterações ao artº 5º do Decreto-Lei nº 794/76 de 5 de Novembro (Lei dos Solos).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30905",
+      "iniNr": "8",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-lei nº 454/80, de 9 de Outubro, que aprova o Código Cooperativo.",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "3179",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "980",
+    "gpSigla": "PS"
+   }
+  },
+  "depId": "3399",
+  "depNomeCompleto": "RUI FERNANDO PEREIRA MATEUS",
+  "depNomeParlamentar": "RUI MATEUS",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-10-22",
+     "sioDtInicio": "1980-11-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-06-29",
+     "sioDtInicio": "1981-10-24"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-12",
+     "sioDtInicio": "1982-07-03"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-01",
+     "sioDtInicio": "1982-07-18"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-10",
+     "sioDtInicio": "1982-11-06"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-11-13"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

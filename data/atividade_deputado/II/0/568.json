@@ -1,0 +1,55 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "MDP/CDE",
+     "dpl_lg": "II",
+     "nome": "RAUL CASTRO"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "PORTO",
+  "depCPId": "13",
+  "depCadId": "568",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "986",
+    "gpSigla": "MDP/CDE"
+   }
+  },
+  "depId": "3466",
+  "depNomeCompleto": "RAÚL FERNANDES DE MORAIS E CASTRO",
+  "depNomeParlamentar": "RAUL CASTRO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-03-27",
+     "sioDtInicio": "1981-03-20"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-11-03",
+     "sioDtInicio": "1981-10-01"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-01-07",
+     "sioDtInicio": "1981-12-20"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-02-12",
+     "sioDtInicio": "1982-01-08"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

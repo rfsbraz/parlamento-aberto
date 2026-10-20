@@ -1,0 +1,128 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "LEONEL SANTA RITA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30032",
+      "iniNr": "527",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Corridas de toiros de morte.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "32996",
+      "iniNr": "45",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Comissão parlamentar que promova contacto com o Congresso dos Deputados das Cortes Espanholas",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     },
+     {
+      "iniId": "29706",
+      "iniNr": "256",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de São Miguel de Alcainça no concelho de Mafra",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "intev": {
+    "pt_gov_ar_wsar_objectos_IntervencoesOut": [
+     {
+      "intId": "221981",
+      "intSu": "Programa do IX Governo Constitucional",
+      "intTe": "Ao Deputado Jerónimo de Sousa (PCP)",
+      "pubDar": "132-132",
+      "pubDtreu": "1983-06-22",
+      "pubLg": "III",
+      "pubNr": "7",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Pedido de esclarecimento"
+     },
+     {
+      "intId": "221982",
+      "intSu": "Programa do IX Governo Constitucional",
+      "pubDar": "133-134",
+      "pubDtreu": "1983-06-22",
+      "pubLg": "III",
+      "pubNr": "7",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Protesto"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "3280",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3619",
+  "depNomeCompleto": "LEONEL SANTA RITA PIRES",
+  "depNomeParlamentar": "LEONEL SANTA RITA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-06-24",
+     "sioDtInicio": "1983-05-31"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-01-23",
+     "sioDtInicio": "1983-06-25"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-02-09",
+     "sioDtInicio": "1984-01-28"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-06-06",
+     "sioDtInicio": "1984-02-20"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-07-17",
+     "sioDtInicio": "1984-06-09"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-01-22",
+     "sioDtInicio": "1984-07-19"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-11-04",
+     "sioDtInicio": "1985-01-26"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "III",
+     "nome": "CRUZ VILAÇA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30251",
+      "iniNr": "133",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 394-B/84, de 26 de Dezembro (Aprova o Código do Imposto sobre  o Valor Acrescentado (IVA))",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30259",
+      "iniNr": "132",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 400/84, de 31 de Dezembro (Estabelece o novo regime jurídico das operações de loteamento urbano e revoga o Decreto-lei nº289/83, de 6 de Junho (no uso da autorização legislativa conferida ao Governo pela Lei nº 25/84, de 13 de Julho))",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30258",
+      "iniNr": "131",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 394-A/84, de 26 de Dezembro (Regula  o registo dos sujeitos passivos em imposto sobre o valor acrescentado (IVA))",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "COIMBRA",
+  "depCPId": "6",
+  "depCadId": "3113",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "991",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "3707",
+  "depNomeCompleto": "JOSÉ LUÍS DA CRUZ VILAÇA",
+  "depNomeParlamentar": "CRUZ VILAÇA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-06-15",
+     "sioDtInicio": "1983-05-31"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-06-30",
+     "sioDtInicio": "1983-06-16"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-09-14",
+     "sioDtInicio": "1983-07-16"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-01-16",
+     "sioDtInicio": "1983-12-16"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-05-02",
+     "sioDtInicio": "1984-04-09"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-10-02",
+     "sioDtInicio": "1984-07-28"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-12-18",
+     "sioDtInicio": "1984-12-15"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-01-15",
+     "sioDtInicio": "1984-12-21"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-01-23",
+     "sioDtInicio": "1985-01-16"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-02-13",
+     "sioDtInicio": "1985-01-26"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-03-18",
+     "sioDtInicio": "1985-02-15"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

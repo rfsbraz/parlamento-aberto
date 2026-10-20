@@ -1,0 +1,895 @@
+{
+ "DataFimleg": "2018-09-14",
+ "DataInicioleg": "2017-09-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "PCP",
+   "idCadastro": "4297",
+   "nome": "Carla Cruz"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "3934",
+   "nome": "João Ramos"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4197",
+   "nome": "Paula Santos"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "4471",
+   "nome": "Paulo Sá"
+  },
+  {
+   "GP": "PCP",
+   "idCadastro": "2234",
+   "nome": "João Oliveira"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PCP"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2018-01-05",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "333285",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2018-01-05",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "333619",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/13/03/050/2018-01-05/18?pgs=18-21&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "806504",
+     "obs": null,
+     "pag": [
+      "18-21"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XIII",
+     "pubNr": "50",
+     "pubSL": "3",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2018-01-05",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2018-01-09",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "333341",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2018-01-09",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "333342",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "12632",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2018-01-11",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": [
+    {
+     "autor": "BE",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "42008",
+     "leg": "XIII",
+     "nr": "726",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/03/035/2018-01-12/3?pgs=3-10&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2435",
+       "obs": null,
+       "pag": [
+        "3-10"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIII",
+       "pubNr": "35",
+       "pubSL": "3",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2018-01-12",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/03/035/2018-01-12/3?pgs=3-10&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2435",
+       "obs": null,
+       "pag": [
+        "3-10"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIII",
+       "pubNr": "35",
+       "pubSL": "3",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2018-01-12",
+       "supl": null
+      }
+     ],
+     "sel": "3",
+     "tipo": "J",
+     "titulo": "Regula a utilização da planta, substâncias e preparações de canábis para fins medicinais"
+    },
+    {
+     "autor": "PAN",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Lei",
+     "id": "42009",
+     "leg": "XIII",
+     "nr": "727",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/03/035/2018-01-12/3?pgs=3-10&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2435",
+       "obs": null,
+       "pag": [
+        "3-10"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIII",
+       "pubNr": "35",
+       "pubSL": "3",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2018-01-12",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/03/035/2018-01-12/3?pgs=3-10&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "2435",
+       "obs": null,
+       "pag": [
+        "3-10"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIII",
+       "pubNr": "35",
+       "pubSL": "3",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2018-01-12",
+       "supl": null
+      }
+     ],
+     "sel": "3",
+     "tipo": "J",
+     "titulo": "Pela admissibilidade de utilização de canábis para fins medicinais"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2018-01-11",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "4162",
+         "nome": "Moisés Ferreira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "17:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=2018_01_11_15_00_00_clean_14_plenario&url=l13/sl3/a2018/m01/&tI=00:01:34:897&drc=00:03:54:525"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=2018_01_11_15_00_00_clean_14_plenario&url=l13/sl3/a2018/m01/&tI=00:28:08:843&drc=00:01:30:832"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/03/035/2018-01-12/3?pgs=3-4,10&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "223478",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "10-10",
+          "3-4"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIII",
+         "pubNr": "35",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2018-01-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Regula a utilização da planta, substâncias e preparações de canábis para fins medicinais; Pela admissibilidade de utilização de canábis para fins medicinais; Recomenda ao Governo que analise a evolução dos impactos na saúde do consumo de cannabis e da sua utilização adequada para fins terapêuticos e tome as medidas necessárias à prevenção do consumo desta substância psicoativa.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PAN",
+         "idCadastro": "5777",
+         "nome": "André Silva"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "17:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=2018_01_11_15_00_00_clean_14_plenario&url=l13/sl3/a2018/m01/&tI=00:05:29:422&drc=00:02:02:980"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/03/035/2018-01-12/4?pgs=4&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "223479",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4-4"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIII",
+         "pubNr": "35",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2018-01-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Regula a utilização da planta, substâncias e preparações de canábis para fins medicinais; Pela admissibilidade de utilização de canábis para fins medicinais; Recomenda ao Governo que analise a evolução dos impactos na saúde do consumo de cannabis e da sua utilização adequada para fins terapêuticos e tome as medidas necessárias à prevenção do consumo desta substância psicoativa.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "4297",
+         "nome": "Carla Cruz"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "17:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=2018_01_11_15_00_00_clean_14_plenario&url=l13/sl3/a2018/m01/&tI=00:07:32:403&drc=00:04:48:644"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/03/035/2018-01-12/4?pgs=4-5&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "223480",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "4-5"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIII",
+         "pubNr": "35",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2018-01-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Regula a utilização da planta, substâncias e preparações de canábis para fins medicinais; Pela admissibilidade de utilização de canábis para fins medicinais; Recomenda ao Governo que analise a evolução dos impactos na saúde do consumo de cannabis e da sua utilização adequada para fins terapêuticos e tome as medidas necessárias à prevenção do consumo desta substância psicoativa.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4393",
+         "nome": "Cristóvão Simão Ribeiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "17:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=2018_01_11_15_00_00_clean_14_plenario&url=l13/sl3/a2018/m01/&tI=00:12:21:047&drc=00:04:14:552"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/03/035/2018-01-12/6?pgs=6-7&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "223481",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "6-7"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIII",
+         "pubNr": "35",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2018-01-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Regula a utilização da planta, substâncias e preparações de canábis para fins medicinais; Pela admissibilidade de utilização de canábis para fins medicinais; Recomenda ao Governo que analise a evolução dos impactos na saúde do consumo de cannabis e da sua utilização adequada para fins terapêuticos e tome as medidas necessárias à prevenção do consumo desta substância psicoativa.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "4096",
+         "nome": "Isabel Galriça Neto"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "17:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=2018_01_11_15_00_00_clean_14_plenario&url=l13/sl3/a2018/m01/&tI=00:16:35:086&drc=00:03:52:151"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/03/035/2018-01-12/7?pgs=7-8&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "223482",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "7-8"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIII",
+         "pubNr": "35",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2018-01-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Regula a utilização da planta, substâncias e preparações de canábis para fins medicinais; Pela admissibilidade de utilização de canábis para fins medicinais; Recomenda ao Governo que analise a evolução dos impactos na saúde do consumo de cannabis e da sua utilização adequada para fins terapêuticos e tome as medidas necessárias à prevenção do consumo desta substância psicoativa.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "1594",
+         "nome": "Maria Antónia de Almeida Santos"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "17:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=2018_01_11_15_00_00_clean_14_plenario&url=l13/sl3/a2018/m01/&tI=00:20:27:237&drc=00:04:17:703"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/03/035/2018-01-12/8?pgs=8-9&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "223483",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "8-9"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIII",
+         "pubNr": "35",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2018-01-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Regula a utilização da planta, substâncias e preparações de canábis para fins medicinais; Pela admissibilidade de utilização de canábis para fins medicinais; Recomenda ao Governo que analise a evolução dos impactos na saúde do consumo de cannabis e da sua utilização adequada para fins terapêuticos e tome as medidas necessárias à prevenção do consumo desta substância psicoativa.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "834",
+         "nome": "Heloísa Apolónia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:05",
+       "horaTermo": "17:24",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=2018_01_11_15_00_00_clean_14_plenario&url=l13/sl3/a2018/m01/&tI=00:24:40:063&drc=00:03:28:779"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/03/035/2018-01-12/9?pgs=9-10&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "223484",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "9-10"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIII",
+         "pubNr": "35",
+         "pubSL": "3",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2018-01-12",
+         "supl": null
+        }
+       ],
+       "sumario": "Regula a utilização da planta, substâncias e preparações de canábis para fins medicinais; Pela admissibilidade de utilização de canábis para fins medicinais; Recomenda ao Governo que analise a evolução dos impactos na saúde do consumo de cannabis e da sua utilização adequada para fins terapêuticos e tome as medidas necessárias à prevenção do consumo desta substância psicoativa.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "333364",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/03/035/2018-01-12/3?pgs=3-10&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "808623",
+     "obs": null,
+     "pag": [
+      "3-10"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XIII",
+     "pubNr": "35",
+     "pubSL": "3",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2018-01-12",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "335",
+   "Comissao": null,
+   "DataFase": "2018-01-11",
+   "EvtId": "73",
+   "Fase": "Votação Deliberação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "333519",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/13/03/035/2018-01-12/33?pgs=33&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "808624",
+     "obs": null,
+     "pag": [
+      "33-33"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XIII",
+     "pubNr": "35",
+     "pubSL": "3",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2018-01-12",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2018-01-11",
+     "descricao": null,
+     "detalhe": "A Favor: <I>CDS-PP</I>, <I> PCP</I>, <I> PEV</I><BR>Contra:<I>BE</I>, <I> PAN</I><BR>Abstenção:<I>PSD</I>, <I> PS</I>",
+     "id": "77924",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "35",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "348",
+   "Comissao": [
+    {
+     "AccId": "41966",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2018-01-23",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "4532",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Saúde",
+     "Numero": "4532",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2018-01-23",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "333852",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "360",
+   "Comissao": null,
+   "DataFase": "2018-01-26",
+   "EvtId": "57",
+   "Fase": "Resolução (Publicação DAR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "334041",
+   "OevTextId": "20548",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "20548",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2018-01-26",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "334049",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "600",
+   "Comissao": null,
+   "DataFase": "2018-02-02",
+   "EvtId": "44",
+   "Fase": "Resolução da AR (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "334312",
+   "OevTextId": "20577",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "20577",
+   "Votacao": null
+  }
+ ],
+ "IniId": "42006",
+ "IniLeg": "XIII",
+ "IniLinkTexto": "",
+ "IniNr": "1221",
+ "IniObs": null,
+ "IniSel": "3",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "R",
+ "IniTitulo": "Recomenda ao Governo que analise a evolução dos impactos na saúde do consumo de cannabis e da sua utilização adequada para fins terapêuticos e tome as medidas necessárias à prevenção do consumo desta substância psicoativa",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

@@ -1,0 +1,1767 @@
+{
+ "DataFimleg": "2013-09-14",
+ "DataInicioleg": "2012-09-15",
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d6a466b5a544d785a6d4d744e7a4e6a5a6930304d6a6b794c5749334e4463745a444d334e57497a595446684e545a6d4c6e426b5a673d3d&fich=21de31fc-73cf-4292-b747-d375b3a1a56f.pdf&Inline=true",
+   "anexoNome": "Parecer ALRAM"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d6a466b4e5751335a446b744f446b354d7930304d4755784c5745345a5467744d54686b4d4759344e44686a4e4445314c6e426b5a673d3d&fich=21d5d7d9-8993-40e1-a8e8-18d0f848c415.pdf&Inline=true",
+   "anexoNome": "Oficio do Parecer"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e6a4930597a4d324e6a49744f44566d4e4330304d6a4d334c574669596d51744e5467324d7a59344e7a526b5a574d324c6e426b5a673d3d&fich=624c3662-85f4-4237-abbd-58636874dec6.pdf&Inline=true",
+   "anexoNome": "Parecer da Proposta de lei organica"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a4449795a5746684d5755745a54426a4d693030596a67334c574979596a59744e6d55344e5456684f44497959574a6b4c6e426b5a673d3d&fich=d22eaa1e-e0c2-4b87-b2b6-6e855a822abd.pdf&Inline=true",
+   "anexoNome": "Comentários da Proposta de lei organica"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d6a59324e3245335a6a6b744e6a686d4e6930305a6a4e684c54686a4f5455744d6a466b596a59774e574a6d4d57517a4c6e426b5a673d3d&fich=2667a7f9-68f6-4f3a-8c95-21db605bf1d3.pdf&Inline=true",
+   "anexoNome": "Parecer da ALRAA"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d4576597a686a5a6d566a4d4459744d325a684e5330304d7a6b794c5745334e4467744d6a4e6b4f47566d4d6d526d596d4d774c6e426b5a673d3d&fich=c8cfec06-3fa5-4392-a748-23d8ef2dfbc0.pdf&Inline=true",
+   "anexoNome": "Parecer (ERSAR.LP)"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764f44466a4d6a55784e5755744d6a5a6b595330305a445a684c57466b4e5755744f5751785a4467304e6a6b77593251304c6e426b5a673d3d&fich=81c2515e-26da-4d6a-ad5e-9d1d84690cd4.pdf&Inline=true",
+   "anexoNome": "ERSAR"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d4576595463304d574d775a6d45744d6a566b4d4330304d7a6b334c546b354d544d74595449774d44686d4e4751304d6a4d354c6e426b5a673d3d&fich=a741c0fa-25d0-4397-9913-a2008f4d4239.pdf&Inline=true",
+   "anexoNome": "Ofício RAAPG"
+  }
+ ],
+ "IniAutorDeputados": null,
+ "IniAutorGruposParlamentares": null,
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Governo",
+  "sigla": "V"
+ },
+ "IniDescTipo": "Proposta de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2013-01-10",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "288336",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2013-01-10",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "288839",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/061/2013-01-10/51?pgs=51-72&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "614357",
+     "obs": null,
+     "pag": [
+      "51-72"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "61",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2013-01-10",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2013-01-11",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "288371",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "30317",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2013-01-22",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2013-01-11",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": "2013-02-25",
+     "DatainicioApreciacaoPublica": "2013-01-26",
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2013-04-24",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Comentários da CNADS",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d3245314e7a557a4d4759744d325a68595330304e6a59784c5745354e6a6b74597a41354e5749784e545268593245794c6c424552673d3d&fich=3a57530f-3faa-4661-a969-c095b154aca2.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-02-26",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer AEPSA",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a4130596d51784d4451744e5467344e4330304e6d4d304c574a6c4e3249744e474a6d59325a6b597a6c6b4f44646b4c6e426b5a673d3d&fich=b04bd104-5884-46c4-be7b-4bfcfdc9d87d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-02-26",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer da 11ª CAOTPL e Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e54686b593251324d3249744e32566d4f5330305a5751784c574a6c4f5441745932526c597a417a5a474534593245334c6e426b5a673d3d&fich=58dcd63b-7ef9-4ed1-be90-cdec03da8ca7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-02-11",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer da ANAFRE",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a55345a4745324d5445744e7a5a6d4e4330304e6a55774c546b34596a55744d474e6b595749305a5451305a5749774c6e426b5a673d3d&fich=f58da611-76f4-4650-98b5-0cdab4e44eb0.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-01-21",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer da ANMP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d474d325a6a63304e7a59744d7a41794e7930304d6d597a4c546b334e6a67744d7a4a6d4d5449775a6d4e6b5a54457a4c6e426b5a673d3d&fich=0c6f7476-3027-42f3-9768-32f120fcde13.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-02-26",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da CGTP-IN",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6d5130596d4531595449744e444d314f4330304e7a41324c5467314e4751744d5452685a6d4d784e7a4d794d7a45344c6c524a52673d3d&fich=fd4ba5a2-4358-4706-854d-14afc1732318.TIF&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-02-28",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da DECO",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6d49334d7a46684d6a6b745a6a5a6c595330304d6a51784c5467344e7a4d744e6a67344d4449784e54466a4f4442684c6e426b5a673d3d&fich=6b731a29-f6ea-4241-8873-68802151c80a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-02-26",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer da UGT",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6d51334f44417a5a475574596a6c6a4f43303059544d314c5749774f574d74595467784e6d55324d4749315a574a6b4c6e426b5a673d3d&fich=fd7803de-b9c8-4a35-b09c-a816e60b5ebd.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-02-26",
+       "TipoDocumento": "Pareceres AP",
+       "TituloDocumento": "Parecer do STAL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876593245344e446379597a49744d446b784d7930304e6a68694c574a684d7a51744d7a59344e7a63304d324d324d44566c4c6e426b5a673d3d&fich=ca8472c2-0913-468b-ba34-3687743c605e.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3520",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão do Ambiente, Ordenamento do Território e Poder Local",
+     "Numero": "3520",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/088/2013-02-26/14?pgs=14-25&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "14-25"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "88",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2013-02-26",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/12/02/088/2013-02-26/14?pgs=14-25&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "14-25"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XII",
+       "pubNr": "88",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2013-02-26",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "2264",
+       "motivoCessacao": null,
+       "nome": "Pedro Farmhouse"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2013-02-25",
+       "dataRemessa": "2013-02-26",
+       "numeroOficio": "28/11ª-CAOTPL",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "PEV"
+       ],
+       "data": "2013-02-26",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> BE</I><BR>Ausência: <I>PEV</I>",
+       "id": "63051",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "99",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2013-01-11",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "288372",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2013-01-16",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "288476",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "55",
+   "Comissao": null,
+   "DataFase": "2013-01-26",
+   "EvtId": "49",
+   "Fase": "Publicação em Separata",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "288872",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/sep/12/02/031/2013-01-26?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "614443",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "31",
+     "pubSL": "2",
+     "pubTipo": "Separata",
+     "pubTp": "S",
+     "pubdt": "2013-01-26",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "9262",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2013-02-28",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2013-02-28",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:13",
+       "horaTermo": "18:45",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=01:35:08:701&drc=00:06:16:527"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=01:46:42:518&drc=00:03:16:310"
+        },
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=01:57:19:806&drc=00:03:44:532"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": "MIN.  DA  AGRICULTURA, DO MAR, DO AMBIENTE E DO ORDENAMENTO DO TERRITÓRIO",
+        "governo": "XIX GOVERNO CONSTITUCIONAL",
+        "nome": "Assunção Cristas"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/060/2013-03-01/26?pgs=26-29,31-32&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "188501",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "26-29",
+          "31-32"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "60",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-03-01",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova os Estatutos da Entidade Reguladora dos Serviços de Águas e Resíduos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2264",
+         "nome": "Pedro Farmhouse"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:13",
+       "horaTermo": "18:45",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=01:41:39:899&drc=00:02:01:080"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/060/2013-03-01/27?pgs=27&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "188502",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "27-27"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "60",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-03-01",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova os Estatutos da Entidade Reguladora dos Serviços de Águas e Resíduos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4050",
+         "nome": "Fernando Marques"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:13",
+       "horaTermo": "18:45",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=01:43:50:675&drc=00:02:51:027"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/060/2013-03-01/28?pgs=28&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "188503",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "28-28"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "60",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-03-01",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova os Estatutos da Entidade Reguladora dos Serviços de Águas e Resíduos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "4471",
+         "nome": "Paulo Sá"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:13",
+       "horaTermo": "18:45",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=01:50:01:452&drc=00:02:54:646"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/060/2013-03-01/29?pgs=29-30&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "188504",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "29-30"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "60",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-03-01",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova os Estatutos da Entidade Reguladora dos Serviços de Águas e Resíduos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2191",
+         "nome": "Helena Pinto"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:13",
+       "horaTermo": "18:45",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=01:52:59:345&drc=00:01:38:885"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/060/2013-03-01/30?pgs=30&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "188505",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "30-30"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "60",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-03-01",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova os Estatutos da Entidade Reguladora dos Serviços de Águas e Resíduos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4328",
+         "nome": "Maurício Marques"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:13",
+       "horaTermo": "18:45",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=01:54:53:183&drc=00:02:22:247"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/060/2013-03-01/30?pgs=30-31&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "188506",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "30-31"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "60",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-03-01",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova os Estatutos da Entidade Reguladora dos Serviços de Águas e Resíduos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "2264",
+         "nome": "Pedro Farmhouse"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:13",
+       "horaTermo": "18:45",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=02:01:10:214&drc=00:07:36:927"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/060/2013-03-01/32?pgs=32-34&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "188507",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "32-34"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "60",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-03-01",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova os Estatutos da Entidade Reguladora dos Serviços de Águas e Resíduos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4395",
+         "nome": "Mário Magalhães"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:13",
+       "horaTermo": "18:45",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=02:08:52:704&drc=00:03:30:204"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/060/2013-03-01/34?pgs=34-35&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "188508",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "34-35"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "60",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-03-01",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova os Estatutos da Entidade Reguladora dos Serviços de Águas e Resíduos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "4471",
+         "nome": "Paulo Sá"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:13",
+       "horaTermo": "18:45",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=02:12:30:748&drc=00:04:01:007"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/060/2013-03-01/35?pgs=35-36&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "188509",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "35-36"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "60",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-03-01",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova os Estatutos da Entidade Reguladora dos Serviços de Águas e Resíduos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "4173",
+         "nome": "Margarida Neto"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:13",
+       "horaTermo": "18:45",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=02:16:36:627&drc=00:04:41:871"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/060/2013-03-01/36?pgs=36-37&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "188510",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "36-37"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "60",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-03-01",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova os Estatutos da Entidade Reguladora dos Serviços de Águas e Resíduos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "2191",
+         "nome": "Helena Pinto"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:13",
+       "horaTermo": "18:45",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=02:21:23:436&drc=00:03:28:326"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/060/2013-03-01/37?pgs=37&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "188511",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "37-37"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "60",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-03-01",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova os Estatutos da Entidade Reguladora dos Serviços de Águas e Resíduos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "834",
+         "nome": "Heloísa Apolónia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:13",
+       "horaTermo": "18:45",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=02:24:57:888&drc=00:04:18:174"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/060/2013-03-01/37?pgs=37-38&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "188512",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "37-38"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "60",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-03-01",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova os Estatutos da Entidade Reguladora dos Serviços de Águas e Resíduos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4086",
+         "nome": "António Leitão Amaro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:13",
+       "horaTermo": "18:45",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=02:29:19:437&drc=00:03:22:701"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/060/2013-03-01/38?pgs=38-39&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "188513",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "38-39"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "60",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-03-01",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova os Estatutos da Entidade Reguladora dos Serviços de Águas e Resíduos.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1048",
+         "nome": "Altino Bessa"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:13",
+       "horaTermo": "18:45",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/asx.aspx?id=20130228pln&url=l12/sl2/a2013/m02/&tI=02:32:44:294&drc=00:03:29:447"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/060/2013-03-01/39?pgs=39-40&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "188514",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "39-40"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XII",
+         "pubNr": "60",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2013-03-01",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova os Estatutos da Entidade Reguladora dos Serviços de Águas e Resíduos.",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "289334",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/060/2013-03-01?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "9262",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "60",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2013-03-01",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "237",
+   "Comissao": null,
+   "DataFase": "2013-03-01",
+   "EvtId": "122",
+   "Fase": "Requerimento Baixa Comissão sem Votação (Generalidade)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "289459",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/02/061/2013-03-02/42?pgs=42&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "630085",
+     "obs": null,
+     "pag": [
+      "42-42"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "61",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2013-03-02",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2013-03-01",
+     "descricao": "Requerimento apresentado pelo PPD/PSD e CDS-PP, solicitando a baixa à Comissão do Ambiente, Ordenamento do Território e Poder Local, sem votação, por um prazo de 30 dias da Proposta de lei n.º 125/XII/2.ª (GOV)",
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "63102",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "61",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "240",
+   "Comissao": [
+    {
+     "AccId": "30751",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": [
+      {
+       "data": "2013-03-13",
+       "id": "95501",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-03-13",
+       "id": "95499",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-03-19",
+       "id": "95504",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-03-19",
+       "id": "95503",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-03-20",
+       "id": "95505",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-03-26",
+       "id": "95507",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-03-26",
+       "id": "95506",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-03-27",
+       "id": "95509",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2013-03-27",
+       "id": "95508",
+       "tipo": "AUP"
+      }
+     ],
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2013-03-05",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2013-03-01",
+     "DataMotivoNaoParecer": "2014-01-14",
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2013-06-26",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "ANMP - Parecer Prof Gomes Canotilho",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a6b34597a566c4f5467745a544579596930304f54677a4c57466b4e4459744e6d51345a6d55314e4745314e44566a4c6e426b5a673d3d&fich=c98c5e98-e12b-4983-ad46-6d8fe54a545c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-01-14",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação - Votação na Generalidade em Plenário",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d7a4d324d446779596d55744d6a63794f4330305a6a637a4c574a6b4e7a51744d6a49355a6a63784e4455354d7a45324c6e426b5a673d3d&fich=336082be-2728-4f73-bd74-229f71459316.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2013-07-18",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Prorrogação do prazo",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f5464694e6a6c6a59325974596a55304e5330304e6a646c4c5467784f4745745932466b4e324a6a4e6d5933595755354c6e52705a673d3d&fich=97b69ccf-b545-467e-818a-cad7bc6f7ae9.tif&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3520",
+     "Legislatura": null,
+     "MotivoNaoParecer": "Votação na Generalidade em Plenário",
+     "Nome": "Comissão do Ambiente, Ordenamento do Território e Poder Local",
+     "Numero": "3520",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": null,
+       "dataRemessa": "2014-01-14",
+       "numeroOficio": "01/11ª-CAOTPL",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2013-03-01",
+   "EvtId": "12",
+   "Fase": "Nova apreciação comissão generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "289460",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2014-01-17",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "295213",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/038/2014-01-18/33?pgs=33&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "672080",
+     "obs": null,
+     "pag": [
+      "33-33"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "38",
+     "pubSL": "3",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2014-01-18",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2014-01-17",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PCP</I>, <I> BE</I>, <I> PEV</I><BR>Abstenção:<I>PS</I>",
+     "id": "65707",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "38",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "270",
+   "Comissao": [
+    {
+     "AccId": "32748",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2014-01-21",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2014-01-17",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2014-01-23",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Guião da votação",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d7a51354e6a566c4f5751744f47466d4d6930304d444d314c546731596d59745a446c6b4d3259334f575a684d4442694c6d527659773d3d&fich=34965e9d-8af2-4035-85bf-d9d3f79fa00b.doc&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-01-23",
+       "TipoDocumento": "Quadro comparativo",
+       "TituloDocumento": "Mapa comparativo",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6d51354d7a6c69595451745a444668595330305a5459304c54686a59575574597a6c6b4e44526b4f444d784f4752684c6d52765933673d&fich=6d939ba4-d1aa-4e64-8cae-c9d44d8318da.docx&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-01-23",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Ofício/Relatório ds 11ª CAOTPL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a6c6d4d4459794d6d4d744e4452695a533030597a41344c54677a4e6a45745a6a42684d6a566d5a6a597a5a5455774c6e52705a673d3d&fich=79f0622c-44be-4c08-8361-f0a25ff63e50.tif&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-01-23",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Propostas de alteração",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a646a4d325a6b4d6d59745a6d4d774e5330304f544a6d4c546c6b5a6d55744e6a4e68595441774f546c6b4d7a46684c6c424552673d3d&fich=27c3fd2f-fc05-492f-9dfe-63aa0099d31a.PDF&Inline=true"
+      },
+      {
+       "DataDocumento": "2014-01-23",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765130394e4c7a4578513046505646424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a474e6c4e5445774f5449744d5451795a433030596a41354c546b30595445745a4751315a4459304e6a466d4d4467344c6d52765933673d&fich=dce51092-142d-4b09-94a1-dd5d6461f088.docx&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "3520",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão do Ambiente, Ordenamento do Território e Poder Local",
+     "Numero": "3520",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2014-01-23",
+       "dataRemessa": null,
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      },
+      {
+       "dataDocumento": "2014-01-23",
+       "dataRemessa": "2014-01-23",
+       "numeroOficio": "13/11ª-CAOTPL",
+       "observacoes": null,
+       "tipoRemessa": "Texto Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2014-01-21",
+       "descricao": "Texto Final aprovado artigo a artigo",
+       "detalhe": null,
+       "id": "65732",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "161",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
+    }
+   ],
+   "DataFase": "2014-01-17",
+   "EvtId": "14",
+   "Fase": "Baixa comissão especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "295214",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "320",
+   "Comissao": null,
+   "DataFase": "2014-01-24",
+   "EvtId": "18",
+   "Fase": "Votação final global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "295350",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/12/03/041/2014-01-25/61?pgs=61&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "672145",
+     "obs": null,
+     "pag": [
+      "61-61"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XII",
+     "pubNr": "41",
+     "pubSL": "3",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2014-01-25",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2014-01-24",
+     "descricao": "Texto Final apresentado pela Comissão do Ambiente, Ordenamento do Território e Poder Local relativo à Proposta de Lei n.º 125/XII/2.ª (GOV)",
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>PS</I>, <I> PCP</I>, <I> BE</I>, <I> PEV</I>",
+     "id": "65768",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "41",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "350",
+   "Comissao": null,
+   "DataFase": "2014-02-04",
+   "EvtId": "31",
+   "Fase": "Decreto (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "295541",
+   "OevTextId": "17912",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "17912",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "370",
+   "Comissao": null,
+   "DataFase": "2014-02-10",
+   "EvtId": "23",
+   "Fase": "Envio para promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "295687",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "380",
+   "Comissao": null,
+   "DataFase": "2014-02-24",
+   "EvtId": "24",
+   "Fase": "Promulgação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "296193",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "390",
+   "Comissao": null,
+   "DataFase": "2014-02-25",
+   "EvtId": "25",
+   "Fase": "Referenda",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "296194",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2014-02-28",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "296195",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "580",
+   "Comissao": null,
+   "DataFase": "2014-03-06",
+   "EvtId": "32",
+   "Fase": "Lei (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "296248",
+   "OevTextId": "17961",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "17961",
+   "Votacao": null
+  }
+ ],
+ "IniId": "37438",
+ "IniLeg": "XII",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953556c4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a6a6b784d6a417a5a5751744e6d466c4d6930304e7a4d7a4c5467794e4441745a6a51794e7a63314d6d45344f546b324c6d527659773d3d&fich=f91203ed-6ae2-4733-8240-f427752a8996.doc&Inline=true",
+ "IniNr": "125",
+ "IniObs": "Texto inicial substituído a pedido do autor da iniciativa em 18-01-2013.",
+ "IniSel": "2",
+ "IniTextoSubst": "SIM",
+ "IniTextoSubstCampo": "Texto inicial substituído a pedido do autor da iniciativa em 18-01-2013.",
+ "IniTipo": "P",
+ "IniTitulo": "Aprova os Estatutos da Entidade Reguladora dos Serviços de Águas e Resíduos.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

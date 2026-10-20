@@ -1,0 +1,55 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "ANTÓNIO SALDIDA"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "3475",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "4800",
+  "depNomeCompleto": "ANTÓNIO MANUEL DA COSTA SALDIDA",
+  "depNomeParlamentar": "ANTÓNIO SALDIDA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-08-15",
+     "sioDtInicio": "1982-08-12"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-12",
+     "sioDtInicio": "1982-11-11"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-01-14",
+     "sioDtInicio": "1983-01-06"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-01-19",
+     "sioDtInicio": "1983-01-18"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

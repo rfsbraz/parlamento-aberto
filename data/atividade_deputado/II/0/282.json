@@ -1,0 +1,95 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "CIPRIANO MARTINS"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30579",
+      "iniNr": "246",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Suspende a entrada em vigor do Código de Processo de Trabalho.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30537",
+      "iniNr": "229",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Restrição ao consumo de hidrocarbonetos clorafluorados (HCF)",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30528",
+      "iniNr": "225",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Criação da reserva natural da Mata da Margaça",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30479",
+      "iniNr": "173",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Estatuto do trabalhador-estudante.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "COIMBRA",
+  "depCPId": "6",
+  "depCadId": "282",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "4783",
+  "depNomeCompleto": "CIPRIANO RODRIGUES MARTINS",
+  "depNomeParlamentar": "CIPRIANO MARTINS",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-09-08",
+     "sioDtInicio": "1980-11-03"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-10-15",
+     "sioDtInicio": "1981-10-06"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-16",
+     "sioDtInicio": "1982-07-05"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-11-03"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

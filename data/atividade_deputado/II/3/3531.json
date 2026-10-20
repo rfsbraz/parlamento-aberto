@@ -1,0 +1,66 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PS",
+     "dpl_lg": "II",
+     "nome": "ANTÓNIO FERNANDES FONSECA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": {
+     "iniId": "30496",
+     "iniNr": "95",
+     "iniSelLg": "II",
+     "iniSelNr": "1",
+     "iniTi": "Elevação da vila de Amarante a categoria de cidade",
+     "iniTp": "J",
+     "iniTpdesc": "Projeto de Lei"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "PORTO",
+  "depCPId": "13",
+  "depCadId": "3531",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "980",
+    "gpSigla": "PS"
+   }
+  },
+  "depId": "3418",
+  "depNomeCompleto": "ANTÓNIO FERNANDES DA FONSECA",
+  "depNomeParlamentar": "ANTÓNIO FERNANDES FONSECA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-02-26",
+     "sioDtInicio": "1980-11-13"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-02-11",
+     "sioDtInicio": "1981-05-26"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-05",
+     "sioDtInicio": "1982-03-02"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-07-17"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

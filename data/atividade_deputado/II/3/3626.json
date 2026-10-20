@@ -1,0 +1,76 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PCP",
+     "dpl_lg": "II",
+     "nome": "MARIA AIRES ALELUIA"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "31145",
+      "iniNr": "188",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 293/82, de 27de Julho, que aprova a Lei Orgânica do Ministério da Agricultura, Comércio e Pescas.",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "31142",
+      "iniNr": "185",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 283/82, de 22 de Agosto, que aprova a orgânica dos centros regionais da Rádio Difusão Portuguesa, E.P., e da Radiotelevisão Portuguesa, E.P.",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "31127",
+      "iniNr": "170",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 232/82, de 17 de Junho, que estabelece medidas tendentes a melhorar o funcionamento dos Serviços de Notariado.",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "3626",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "982",
+    "gpSigla": "PCP"
+   }
+  },
+  "depId": "4923",
+  "depNomeCompleto": "MARIA DE AIRES MENDES DE ALELUIA",
+  "depNomeParlamentar": "MARIA AIRES ALELUIA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-10-01",
+     "sioDtInicio": "1982-06-01"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-30",
+     "sioDtInicio": "1982-11-26"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

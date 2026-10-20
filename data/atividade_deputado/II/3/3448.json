@@ -1,0 +1,60 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "UEDS",
+     "dpl_lg": "II",
+     "nome": "OCTÁVIO CUNHA"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "PORTO",
+  "depCPId": "13",
+  "depCadId": "3448",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "985",
+    "gpSigla": "UEDS"
+   }
+  },
+  "depId": "4903",
+  "depNomeCompleto": "OCTÁVIO LUÍS PAIS RIBEIRO DA CUNHA",
+  "depNomeParlamentar": "OCTÁVIO CUNHA",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-05-07",
+     "sioDtInicio": "1981-05-04"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-09-18",
+     "sioDtInicio": "1981-09-14"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-03-12",
+     "sioDtInicio": "1982-03-10"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-04-17",
+     "sioDtInicio": "1982-04-15"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-13",
+     "sioDtInicio": "1982-11-09"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

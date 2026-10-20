@@ -1,0 +1,116 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "JOSÉ ALBERTO XEREZ"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30639",
+      "iniNr": "321",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Criação do município de Canas de Senhorim.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30633",
+      "iniNr": "298",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Universidade Internacional Luis de Camões.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "31072",
+      "iniNr": "104",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 272-A/81, de 30 de Setembro (Aprova o Código do Processo de Trabalho)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "LISBOA",
+  "depCPId": "11",
+  "depCadId": "3576",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "4817",
+  "depNomeCompleto": "JOSÉ ALBERTO DE FARIA XEREZ",
+  "depNomeParlamentar": "JOSÉ ALBERTO XEREZ",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-01-09",
+     "sioDtInicio": "1980-11-03"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-03-04",
+     "sioDtInicio": "1981-02-17"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-04-17",
+     "sioDtInicio": "1981-03-19"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-06-27",
+     "sioDtInicio": "1981-04-21"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-06-30",
+     "sioDtInicio": "1981-06-29"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-07-09",
+     "sioDtInicio": "1981-07-08"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-10-22",
+     "sioDtInicio": "1981-09-08"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1981-11-26",
+     "sioDtInicio": "1981-10-24"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-03",
+     "sioDtInicio": "1981-11-28"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-05-31",
+     "sioDtInicio": "1982-11-06"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

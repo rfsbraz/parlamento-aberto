@@ -1,0 +1,593 @@
+{
+ "DataFimleg": "1994-10-14",
+ "DataInicioleg": "1993-10-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": null,
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "PSD"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Inquérito Parlamentar",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "1994-10-14",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "162531",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "1994-10-14",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "162532",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2b/06/03/039/1994-10-14?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "287839",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VI",
+     "pubNr": "39",
+     "pubSL": "3",
+     "pubTipo": "DAR II série B",
+     "pubTp": "B",
+     "pubdt": "1994-10-14",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "3091",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "1995-03-02",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "1995-03-02",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "Indep",
+         "idCadastro": "220",
+         "nome": "Mário Tomé"
+        }
+       ],
+       "faseDebate": "APRECIACAO",
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "19:15",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/04/047/1995-03-03/1642?pgs=1642&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "40702",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1642-1642"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VI",
+         "pubNr": "47",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1995-03-03",
+         "supl": null
+        }
+       ],
+       "sumario": "DOCUMENTOS: EVENTUAL DESVIO DOS ARQUIVOS DA PIDE/DGS PARA OKGB",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "228",
+         "nome": "Manuel Queiró"
+        }
+       ],
+       "faseDebate": "APRECIACAO",
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "19:15",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/04/047/1995-03-03/1641?pgs=1641&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "40703",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1641-1641"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VI",
+         "pubNr": "47",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1995-03-03",
+         "supl": null
+        }
+       ],
+       "sumario": "DOCUMENTOS: EVENTUAL DESVIO DOS ARQUIVOS DA PIDE/DGS PARA OKGB",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "215",
+         "nome": "Lino de Carvalho"
+        }
+       ],
+       "faseDebate": "APRECIACAO",
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "19:15",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/04/047/1995-03-03/1641?pgs=1641&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "40704",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1641-1641"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VI",
+         "pubNr": "47",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1995-03-03",
+         "supl": null
+        }
+       ],
+       "sumario": "DOCUMENTOS: EVENTUAL DESVIO DOS ARQUIVOS DA PIDE/DGS PARA OKGB",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "282",
+         "nome": "Cipriano Martins"
+        }
+       ],
+       "faseDebate": "APRECIACAO",
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "19:15",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/04/047/1995-03-03/1640?pgs=1640&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "40705",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1640-1640"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VI",
+         "pubNr": "47",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1995-03-03",
+         "supl": null
+        }
+       ],
+       "sumario": "DOCUMENTOS: EVENTUAL DESVIO DOS ARQUIVOS DA PIDE/DGS PARA OKGB",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "215",
+         "nome": "Lino de Carvalho"
+        }
+       ],
+       "faseDebate": "APRECIACAO",
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "19:15",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/04/047/1995-03-03/1639?pgs=1639-1640&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "40706",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1639-1640"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VI",
+         "pubNr": "47",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1995-03-03",
+         "supl": null
+        }
+       ],
+       "sumario": "DOCUMENTOS: EVENTUAL DESVIO DOS ARQUIVOS DA PIDE/DGS PARA OKGB",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "167",
+         "nome": "Fernando Pereira Marques"
+        }
+       ],
+       "faseDebate": "APRECIACAO",
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "19:15",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/04/047/1995-03-03/1638?pgs=1638-1639&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "40707",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1638-1639"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VI",
+         "pubNr": "47",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1995-03-03",
+         "supl": null
+        }
+       ],
+       "sumario": "DOCUMENTOS: EVENTUAL DESVIO DOS ARQUIVOS DA PIDE/DGS PARA OKGB",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "282",
+         "nome": "Cipriano Martins"
+        }
+       ],
+       "faseDebate": "APRECIACAO",
+       "faseSessao": "P",
+       "horaInicio": "15:25",
+       "horaTermo": "19:15",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/04/047/1995-03-03/1637?pgs=1637-1638&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "40708",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "1637-1638"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "VI",
+         "pubNr": "47",
+         "pubSL": "4",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "1995-03-03",
+         "supl": null
+        }
+       ],
+       "sumario": "DOCUMENTOS: EVENTUAL DESVIO DOS ARQUIVOS DA PIDE/DGS PARA OKGB",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "162533",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/04/047/1995-03-03?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "3091",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VI",
+     "pubNr": "47",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "1995-03-03",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "335",
+   "Comissao": null,
+   "DataFase": "1995-03-02",
+   "EvtId": "73",
+   "Fase": "Votação Deliberação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "162534",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/06/04/047/1995-03-03?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "287841",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "VI",
+     "pubNr": "47",
+     "pubSL": "4",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "1995-03-03",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "1995-03-02",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I><BR>Contra:<I>PCP</I>, <I> Mário Tomé (Indep)</I>",
+     "id": "31937",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "47",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "360",
+   "Comissao": null,
+   "DataFase": "1995-03-30",
+   "EvtId": "57",
+   "Fase": "Resolução (Publicação DAR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "162535",
+   "OevTextId": "5290",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "5290",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "600",
+   "Comissao": null,
+   "DataFase": "1995-04-19",
+   "EvtId": "44",
+   "Fase": "Resolução da AR (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "162536",
+   "OevTextId": "5291",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "5291",
+   "Votacao": null
+  }
+ ],
+ "IniId": "20358",
+ "IniLeg": "VI",
+ "IniLinkTexto": "",
+ "IniNr": "25",
+ "IniObs": null,
+ "IniSel": "3",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "I",
+ "IniTitulo": "Ao eventual desvio de informações e documentos dos arquivos da PIDE/DGS para o KGB.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

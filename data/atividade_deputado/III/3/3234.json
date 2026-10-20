@@ -1,0 +1,119 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "JOSÉ DOMINGOS"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30032",
+      "iniNr": "527",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Corridas de toiros de morte.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29922",
+      "iniNr": "434",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Elevação de Darque, no concelho de Viana do Castelo a categoria de vila.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29918",
+      "iniNr": "433",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Elevação de Anha, no concelho de Viana do castelo, à categoria de vila.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "intev": {
+    "pt_gov_ar_wsar_objectos_IntervencoesOut": [
+     {
+      "intId": "225487",
+      "intSu": "Alteração do Estatuto das Empresas Públicas",
+      "intTe": "Responde ao Pedido de Esclarecimento da Deputada Ilda Figueiredo (PCP)",
+      "pubDar": "1054-1055; 1055-1056",
+      "pubDtreu": "1983-07-15",
+      "pubLg": "III",
+      "pubNr": "23",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Intervenção"
+     },
+     {
+      "intId": "225491",
+      "intSu": "Alteração do Estatuto das Empresas Públicas",
+      "pubDar": "1056-1056",
+      "pubDtreu": "1983-07-15",
+      "pubLg": "III",
+      "pubNr": "23",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Contraprotesto"
+     },
+     {
+      "intId": "221750",
+      "intSu": "Política dos governos da Aliança Democrática no setor dos transportes marítimos",
+      "pubDar": "33-33",
+      "pubDtreu": "1983-06-14",
+      "pubLg": "III",
+      "pubNr": "3",
+      "pubSl": "1",
+      "pubTp": "D",
+      "tinDs": "Protesto"
+     }
+    ]
+   },
+   "rel": {
+    "relatoresIniciativas": {
+     "pt_gov_ar_wsar_objectos_RelatoresIniciativasOut": {
+      "accDtrel": "1984-03-01",
+      "iniId": "29428",
+      "iniNr": "32",
+      "iniSelLg": "III",
+      "iniTi": "Enquadramento do plano nacional de habitação.",
+      "iniTp": "Projeto de Lei",
+      "relFase": "Baixa comissão distribuição inicial generalidade"
+     }
+    }
+   }
+  }
+ },
+ "deputado": {
+  "depCPDes": "VIANA DO CASTELO",
+  "depCPId": "16",
+  "depCadId": "3234",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3637",
+  "depNomeCompleto": "JOSÉ DA SILVA DOMINGOS",
+  "depNomeParlamentar": "JOSÉ DOMINGOS",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1985-11-04",
+    "sioDtInicio": "1983-06-09"
+   }
+  },
+  "legDes": "III"
+ }
+}

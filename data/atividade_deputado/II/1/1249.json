@@ -1,0 +1,60 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "MANUEL ARAÚJO DOS SANTOS"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "30597",
+      "iniNr": "263",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Criação da freguesia de Gens no concelho de Gondomar.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30439",
+      "iniNr": "142",
+      "iniSelLg": "II",
+      "iniSelNr": "1",
+      "iniTi": "Elevação à categoria de vila da freguesia de Rio Tinto.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "PORTO",
+  "depCPId": "13",
+  "depCadId": "1249",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "3320",
+  "depNomeCompleto": "MANUEL ANTÓNIO ARAÚJO DOS SANTOS",
+  "depNomeParlamentar": "MANUEL ARAÚJO DOS SANTOS",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1983-05-31",
+    "sioDtInicio": "1980-11-13"
+   }
+  },
+  "legDes": "II"
+ }
+}

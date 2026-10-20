@@ -1,0 +1,45 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "II",
+     "nome": "ASSUNÇÃO MARQUES"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "GUARDA",
+  "depCPId": "9",
+  "depCadId": "2943",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "979",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "4793",
+  "depNomeCompleto": "JOSÉ ASSUNÇÃO MARQUES",
+  "depNomeParlamentar": "ASSUNÇÃO MARQUES",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-04-26",
+     "sioDtInicio": "1982-03-25"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-30",
+     "sioDtInicio": "1982-07-20"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

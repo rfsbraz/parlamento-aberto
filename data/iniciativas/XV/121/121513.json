@@ -1,0 +1,2206 @@
+{
+ "DataFimleg": "2023-09-14",
+ "DataInicioleg": "2022-03-29",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "CH",
+   "idCadastro": "6535",
+   "nome": "André Ventura"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7338",
+   "nome": "Bruno Nunes"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "6858",
+   "nome": "Diogo Pacheco de Amorim"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7332",
+   "nome": "Filipe Melo"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7340",
+   "nome": "Gabriel Mithá Ribeiro"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7330",
+   "nome": "Jorge Galveias"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7345",
+   "nome": "Pedro dos Santos Frazão"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7391",
+   "nome": "Pedro Pessanha"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7336",
+   "nome": "Pedro Pinto"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7390",
+   "nome": "Rita Matias"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7344",
+   "nome": "Rui Afonso"
+  },
+  {
+   "GP": "CH",
+   "idCadastro": "7342",
+   "nome": "Rui Paulo Sousa"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "CH"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Regimento",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2022-05-30",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1285631",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2022-05-31",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1297049",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/15/01/033/2022-05-31/2?pgs=2-5&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "961040",
+     "obs": null,
+     "pag": [
+      "2-5"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "33",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2022-05-31",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2022-06-01",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1285678",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "181",
+   "Comissao": [
+    {
+     "AccId": "62509",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": [
+      {
+       "data": "2022-10-07",
+       "id": "127682",
+       "tipo": "AUP"
+      }
+     ],
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2022-06-01",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": [
+      {
+       "leg": "XV",
+       "nome": "Grupo de Trabalho - Alteração do Regimento da Assembleia da República",
+       "num": "5",
+       "orgId": "8343",
+       "publicacao": null,
+       "sigla": "GT-ARAR"
+      }
+     ],
+     "Documentos": [
+      {
+       "DataDocumento": "2022-07-07",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "1 - PA PAN - 7.7.2022",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3249354e6a49325a4459354c544579595755744e444d335a4331684f5441304c544e694e5442695a4455334e7a5a694e6935775a47593d&fich=b9626d69-12ae-437d-a904-3b50bd5776b6.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2022-07-18",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "2 - PA PSD_PReg 9XV_ 18.7.2022",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c324a6a4f475579597a41784c5449334e474d744e47466b4f433169596d45324c5756694e6d4d77595455345a4456685a5335775a47593d&fich=bc8e2c01-274c-4ad8-bba6-eb6c0a58d5ae.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2022-10-06",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "3 - PA PS - proposta de substituição integral -até art. 90.º - 6.10.2022",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3245354f446b345a5441314c57497a595749744e474a6a5a5330344e7a49324c5445355a6d4e6b4d474e684f54686b5a5335775a47593d&fich=a9898e05-b3ab-4bce-8726-19fcd0ca98de.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2022-10-13",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "4 - PA PSD- prop subst - artigo 124.º - 13.10.2022",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3251324e4441774e4441334c5755785a6d49744e446b7a5a4331684f4441774c5751354d5745784f4464684e6d5a6b4f5335775a47593d&fich=d6400407-e1fb-493d-a800-d91a187a6fd9.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2022-11-30",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "5- PA PSD_prop subst (substituida) - 30.11.2022",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c325a695a6a63324d6a637a4c545134597a63744e4449335a4330354d3246684c5745314d544577596a4d794d574a6b5a4335775a47593d&fich=fbf76273-48c7-427d-93aa-a5110b321bdd.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2022-12-15",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "6 - PA PSD_prop subst_15-12-2022",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3249314d575579595445794c574a6a4d574d744e4745354e6930345a4455344c545a6b5a446730596a41305a6a68684e7935775a47593d&fich=b51e2a12-bc1c-4a96-8d58-6dd84b04f8a7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2022-12-15",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "7 - PA L - 15-12-2022",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a59344d6a64694d6a68694c57466b4d4745744e446b314d6930345a6a646d4c575a6c5a54597a5a4463305a4455795a5335775a47593d&fich=6827b28b-ad0a-4952-8f7f-fee63d74d52e.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2022-12-15",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "8 - PA PAN  - 15-12-2022",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3255774e7a41344d44566a4c54466c597a49744e444e694d4331684d4467304c5449304d3255344e446c6a5a545a6a4e4335775a47593d&fich=e070805c-1ec2-43b0-a084-243e849ce6c4.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2022-12-16",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "9 - PA PS - props adicionais - 16-12-2022",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3255315a6d5668597a45304c54426b5a4759744e474d324e4330344e4468694c5759304e6a55795a6d51335a6d466a596935775a47593d&fich=e5feac14-0ddf-4c64-848b-f4652fd7facb.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-01-24",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "10 - PA PSD_prop subst_24-01-2023",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c32497a593245314e7a5a694c544930595451744e446330596930354f47557a4c5751334e6a41304f5441314e4445334e5335775a47593d&fich=b3ca576b-24a4-474b-98e3-d76049054175.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-03-17",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "11- PA PSD_prop subst- 17-03-2023",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c32457a59546730593249304c5468684d6a55744e446c6b4e6931684d6a6b314c574d304e445131596d4e6c4e325179597935775a47593d&fich=a3a84cb4-8a25-49d6-a295-c4445bce7d2c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-03-17",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "12 - PA IL - ContaGeralEstado - 17.3.2023 (substituída)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3251314d324e6a4f4442694c5452684e5459744e4749305a6931685a4745774c574d324f5751775954513459324d344e4335775a47593d&fich=d53cc80b-4a56-4b4f-ada0-c69d0a48cc84.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-03-23",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "13 - PA IL - ContaGeralEstado - 23.3.2023",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c324535597a56684e5459354c54526b4e6d49744e44526c4d6930354f445a6a4c5755784e575a6b597a677a4f57466b4f4335775a47593d&fich=a9c5a569-4d6b-44e2-986c-e15fdc839ad8.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-07-10",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "14 - PA PS prop subst integral até artigo 64.º - v. final 10.7.2023",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a646a4f47526d4d7a6c6c4c544a6b596d51744e4441784e7931694d6d5a6b4c574e6d4e6d5a684d474d784e7a67775a4335775a47593d&fich=7c8df39e-2dbd-4017-b2fd-cf6fa0c1780d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-07-06",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "15 - PA PSD - Texto de substituição até artigo 64.º (reunião 6 de julho)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3245784e3245795a6d4a6c4c544a6c597a41744e445a6d4d6931684e6d4d774c574a6c4f446b344d446c6d4d7a59784f5335775a47593d&fich=a17a2fbe-2ec0-46f2-a6c0-be89809f3619.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-07-04",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "16 - PA PS e PSD - Debates com o Governo - 4.7.2023",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a49305a6d4a6c4d6d4a6a4c57466b4f5755744e44646c597930355a4467784c544d774d544579595759334e3255315a6935775a47593d&fich=24fbe2bc-ad9e-47ec-9d81-30112af77e5f.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-07-04",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "17 - PA PAN - 4.7.2023",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a466b4e574d7a59544a684c5449334f5451744e4751324f5331695a6a497a4c5759304e324d7a5a6a4a6c4e6a517a4d7935775a47593d&fich=1d5c3a2a-2794-4d69-bf23-f47c3f2e6433.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-07-12",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "18 - PA PSD - sobre prop subst integral até artigo 64.º - 12.7.2023",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c325a684e4441324e7a566c4c5745344d4755744e444d7a4e5331685a4445334c5451315a5449334d4755785a57557a4f5335775a47593d&fich=fa40675e-a80e-4335-ad17-45e270e1ee39.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-07-12",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "19 - PA PS prop subst integral - artigo 65.º até ao final (12.7.2023)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c324e694e5759304d7a526a4c5759785a4455744e474e694e5330354e324d7a4c5467354d7a59334f4755774e3249304e4335775a47593d&fich=cb5f434c-f1d5-4cb5-97c3-893678e07b44.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-06-29",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "20 - PA PSD (correção) 29.6.2023",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a49335a546c6c4f445a6c4c575a6c4d7a67744e446469597931684d5446694c5751324d32526b4d4467314d57566b5a6935775a47593d&fich=27e9e86e-fe38-47bc-a11b-d63dd0851edf.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-07-14",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "21 - PA PSD prop subst- artigos 58.º e 100.º-A_14-07-2023",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a466c597a63784e6d4d304c574668596a51744e474d355a4330344f5451324c5755324e7a55774d544930597a4e6c4e5335775a47593d&fich=1ec716c4-aab4-4c9d-8946-e6750124c3e5.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-07-14",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "22 - PA PS - Texto de substituição integral (para reunião 14 de julho)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c324e685a474d344f446b794c5745314e3249744e4745315a6930344f4441304c54686c5954646c4f5755304e6a677a4d5335775a47593d&fich=cadc8892-a57b-4a5f-8804-8ea7e9e46831.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-07-14",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "23 - PA PS Adicionais - 14.7.2023",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3252684e6a41305a44466c4c5455344d6a55744e4755784d5330344d47526d4c5759335a5468684e44457a596d49344d5335775a47593d&fich=da604d1e-5825-4e11-80df-f7e8a413bb81.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-07-18",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "24 - sugestões adicionais 18.7.2023",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c325a6c596a4e6d4d324a6d4c546b77595449744e4755314d4330344d6a49354c574535597a67354f545a6d5a6a63324d7935775a47593d&fich=feb3f3bf-90a2-4e50-8229-a9c8996ff763.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-07-18",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório do GT",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a6b304e445134596a4d784c5464694d7a6b744e4449304d6931684e544d794c5751794d574a694d6a55344d474a6a4e6935775a47593d&fich=94448b31-7b39-4242-a532-d21bb2580bc6.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-07-14",
+       "TipoDocumento": "Quadro comparativo",
+       "TituloDocumento": "Quadro comparativo",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a51354d4468684d6a55774c57497a4e3249744e47517a4d4330344f546b314c545a6b4f4751324d6d5a684e475579597935775a47593d&fich=4908a250-b37b-4d30-8995-6d8d62fa4e2c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2023-07-18",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final e relatório da discussão e votação na especialidade CACDLG",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3259794d7a56694f57517a4c545a6d4f5749744e4755324e69303559544d304c544d344e6a49354e474d304f4459335a5335775a47593d&fich=f235b9d3-6f9b-4e66-9a34-386294c4867e.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8325",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
+     "Numero": "5",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2023-07-18",
+       "dataRemessa": "2023-07-18",
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Texto Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2022-06-01",
+   "EvtId": "126",
+   "Fase": "Baixa comissão para discussão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1285679",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/15/01/261/2023-07-18/3?pgs=3-140&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "996434",
+     "obs": null,
+     "pag": [
+      "3-140"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "261",
+     "pubSL": "1",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2023-07-18",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2022-06-01",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1285680",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a79394562324e31625756756447397a5357357059326c6864476c325953396c5a57466d4f4446685a5330354d3255334c54526b597a63744f5451345a5330794d3251324e544a695a6a56684e574d756347526d&fich=eeaf81ae-93e7-4dc7-948e-23d652bf5a5c.pdf&Inline=true",
+     "anexoNome": "Requerimento do CH"
+    }
+   ],
+   "CodigoFase": "280",
+   "Comissao": null,
+   "DataFase": "2023-07-18",
+   "EvtId": "15",
+   "Fase": "Requerimento avocação plenário",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1349937",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "996129",
+     "obs": null,
+     "pag": [
+      "120-120"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "153",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2023-07-20",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2023-07-19",
+     "descricao": "Requerimento, apresentado pelo CH, de avocação pelo Plenário da votação na especialidade do artigo 126.º do Texto Final apresentado pela Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias, relativo ao Projeto de Regimento n.º 1/XV/1.ª (BE); Projeto de Regimento n.º 3/XV/1.ª (PAN); Projeto de Regimento n.º 4/XV/1 (CH); Projeto de Regimento n.º 5/XV/1 (IL); Projeto de Regimento n.º 6/XV/1 (CH); Projeto de Regimento n.º 7/XV/1 (PCP); Projeto de Regimento n.º 8/XV/1 (L); Projeto de Regimento n.º 9 /XV/1 (PSD); e Projeto de Regimento n.º 10/XV/1 (PS).",
+     "detalhe": null,
+     "id": "115566",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "152",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": "19684",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "310",
+   "Comissao": null,
+   "DataFase": "2023-07-19",
+   "EvtId": "34",
+   "Fase": "Votação na especialidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "PAN",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Regimento",
+     "id": "121336",
+     "leg": "XV",
+     "nr": "3",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "G",
+     "titulo": "Repõe os debates quinzenais, assegura mais transparência no funcionamento da Assembleia República e garante mais direitos Deputados Únicos Representantes de um Partido, procedendo à primeira alteração ao Regimento da Assembleia da República n.º 1/2020, de 31 de agosto"
+    },
+    {
+     "autor": "CH",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Regimento",
+     "id": "121357",
+     "leg": "XV",
+     "nr": "4",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "G",
+     "titulo": "Altera o Regimento da Assembleia da República no sentido de repor os debates quinzenais com o Primeiro-Ministro"
+    },
+    {
+     "autor": "IL",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Regimento",
+     "id": "121510",
+     "leg": "XV",
+     "nr": "5",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "G",
+     "titulo": "Audições do Primeiro-Ministro nas comissões parlamentares e regresso dos debates quinzenais com o Primeiro-Ministro na Assembleia da República (Primeira alteração ao Regimento da Assembleia da República n.º 1/2020, de 31 de agosto)"
+    },
+    {
+     "autor": "PCP",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Regimento",
+     "id": "131719",
+     "leg": "XV",
+     "nr": "7",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "G",
+     "titulo": "Primeira alteração ao Regimento da Assembleia da República, n.º 1/2020 de 31 de agosto"
+    },
+    {
+     "autor": "L",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Regimento",
+     "id": "131724",
+     "leg": "XV",
+     "nr": "8",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "G",
+     "titulo": "Altera o Regimento da Assembleia da República, admitindo o agendamento por arrastamento de projetos e propostas de resolução em termos análogos ao arrastamento de projetos e propostas de lei, repondo os debates quinzenais com o Primeiro-Ministro, instituindo um debate anual sobre o estado do ambiente e debates regulares em matérias de Direitos Humanos e sobre matérias europeias, e garantindo o envolvimento da Assembleia da República no processo de transposição de diretivas europeias"
+    },
+    {
+     "autor": "PSD",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Regimento",
+     "id": "131725",
+     "leg": "XV",
+     "nr": "9",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "G",
+     "titulo": "Primeira alteração ao Regimento da Assembleia da República n.º 1/2020, de 31 de agosto"
+    },
+    {
+     "autor": "PS",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Regimento",
+     "id": "131726",
+     "leg": "XV",
+     "nr": "10",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-125&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "16459",
+       "obs": null,
+       "pag": [
+        "120-125"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XV",
+       "pubNr": "153",
+       "pubSL": "1",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2023-07-20",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "G",
+     "titulo": "Procede à 1.ª alteração ao Regimento da Assembleia da República, aprovado pelo Regimento da Assembleia da República n.º 1/2020, de 31 de agosto"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2023-07-19",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CH",
+         "idCadastro": "7338",
+         "nome": "Bruno Nunes"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:04",
+       "horaTermo": "21:06",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_07_19_15_00_00_clean_14_plenario.xml&idsegmento=96"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/120?pgs=120-122&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "335675",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "120-122"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "153",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-07-20",
+         "supl": null
+        }
+       ],
+       "sumario": "Avocação pelo Plenário da votação na especialidade do artigo 126.º do texto final, apresentado pela Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias, relativo aos Projetos de Regimento n.os 1/XV/1.ª (BE), 3/XV/1.ª (PAN), 4/XV/1.ª (CH), 5/XV/1.ª (IL), 6/XV/1.ª (CH), 7/XV/1.ª (PCP), 8/XV/1.ª (L), 9 /XV/1.ª (PSD) e 10/XV/1.ª (PS).",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "7274",
+         "nome": "Hugo Carneiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:04",
+       "horaTermo": "21:06",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_07_19_15_00_00_clean_14_plenario.xml&idsegmento=97"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/122?pgs=122&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "335676",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "122-122"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "153",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-07-20",
+         "supl": null
+        }
+       ],
+       "sumario": "Avocação pelo Plenário da votação na especialidade do artigo 126.º do texto final, apresentado pela Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias, relativo aos Projetos de Regimento n.os 1/XV/1.ª (BE), 3/XV/1.ª (PAN), 4/XV/1.ª (CH), 5/XV/1.ª (IL), 6/XV/1.ª (CH), 7/XV/1.ª (PCP), 8/XV/1.ª (L), 9 /XV/1.ª (PSD) e 10/XV/1.ª (PS).",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PAN",
+         "idCadastro": "6864",
+         "nome": "Inês de Sousa Real"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:04",
+       "horaTermo": "21:06",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_07_19_15_00_00_clean_14_plenario.xml&idsegmento=98"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/123?pgs=123&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "335677",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "123-123"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "153",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-07-20",
+         "supl": null
+        }
+       ],
+       "sumario": "Avocação pelo Plenário da votação na especialidade do artigo 126.º do texto final, apresentado pela Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias, relativo aos Projetos de Regimento n.os 1/XV/1.ª (BE), 3/XV/1.ª (PAN), 4/XV/1.ª (CH), 5/XV/1.ª (IL), 6/XV/1.ª (CH), 7/XV/1.ª (PCP), 8/XV/1.ª (L), 9 /XV/1.ª (PSD) e 10/XV/1.ª (PS).",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "L",
+         "idCadastro": "7337",
+         "nome": "Rui Tavares"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:04",
+       "horaTermo": "21:06",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_07_19_15_00_00_clean_14_plenario.xml&idsegmento=99"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/123?pgs=123&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "335678",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "123-123"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "153",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-07-20",
+         "supl": null
+        }
+       ],
+       "sumario": "Avocação pelo Plenário da votação na especialidade do artigo 126.º do texto final, apresentado pela Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias, relativo aos Projetos de Regimento n.os 1/XV/1.ª (BE), 3/XV/1.ª (PAN), 4/XV/1.ª (CH), 5/XV/1.ª (IL), 6/XV/1.ª (CH), 7/XV/1.ª (PCP), 8/XV/1.ª (L), 9 /XV/1.ª (PSD) e 10/XV/1.ª (PS).",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "5706",
+         "nome": "Alma Rivera"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:04",
+       "horaTermo": "21:06",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_07_19_15_00_00_clean_14_plenario.xml&idsegmento=100"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/123?pgs=123-124&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "335679",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "123-124"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "153",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-07-20",
+         "supl": null
+        }
+       ],
+       "sumario": "Avocação pelo Plenário da votação na especialidade do artigo 126.º do texto final, apresentado pela Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias, relativo aos Projetos de Regimento n.os 1/XV/1.ª (BE), 3/XV/1.ª (PAN), 4/XV/1.ª (CH), 5/XV/1.ª (IL), 6/XV/1.ª (CH), 7/XV/1.ª (PCP), 8/XV/1.ª (L), 9 /XV/1.ª (PSD) e 10/XV/1.ª (PS).",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "4453",
+         "nome": "Pedro Delgado Alves"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "15:04",
+       "horaTermo": "21:06",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2023_07_19_15_00_00_clean_14_plenario.xml&idsegmento=101"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/124?pgs=124-125&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "335680",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "124-125"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XV",
+         "pubNr": "153",
+         "pubSL": "1",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2023-07-20",
+         "supl": null
+        }
+       ],
+       "sumario": "Avocação pelo Plenário da votação na especialidade do artigo 126.º do texto final, apresentado pela Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias, relativo aos Projetos de Regimento n.os 1/XV/1.ª (BE), 3/XV/1.ª (PAN), 4/XV/1.ª (CH), 5/XV/1.ª (IL), 6/XV/1.ª (CH), 7/XV/1.ª (PCP), 8/XV/1.ª (L), 9 /XV/1.ª (PSD) e 10/XV/1.ª (PS).",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1349938",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/125?pgs=125&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "996130",
+     "obs": null,
+     "pag": [
+      "125-125"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "153",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2023-07-20",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2023-07-19",
+     "descricao": "Artigo 126.º do Texto Final apresentado pela Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias, relativo ao Projeto de Regimento n.º 1/XV/1.ª (BE); Projeto de Regimento n.º 3/XV/1.ª (PAN); Projeto de Regimento n.º 4/XV/1 (CH); Projeto de Regimento n.º 5/XV/1 (IL); Projeto de Regimento n.º 6/XV/1 (CH); Projeto de Regimento n.º 7/XV/1 (PCP); Projeto de Regimento n.º 8/XV/1 (L); Projeto de Regimento n.º 9 /XV/1 (PSD); e Projeto de Regimento n.º 10/XV/1 (PS).",
+     "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> IL</I>, <I> PCP</I>, <I> PAN</I>, <I> L</I><BR>Abstenção:<I>CH</I>, <I> BE</I>",
+     "id": "115567",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "152",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "320",
+   "Comissao": null,
+   "DataFase": "2023-07-19",
+   "EvtId": "18",
+   "Fase": "Votação final global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1349939",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/15/01/153/2023-07-20/125?pgs=125&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "996131",
+     "obs": null,
+     "pag": [
+      "125-125"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XV",
+     "pubNr": "153",
+     "pubSL": "1",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2023-07-20",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2023-07-19",
+     "descricao": "Texto Final apresentado pela Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias, relativo ao Projeto de Regimento n.º 1/XV/1.ª (BE); Projeto de Regimento n.º 3/XV/1.ª (PAN); Projeto de Regimento n.º 4/XV/1 (CH); Projeto de Regimento n.º 5/XV/1 (IL); Projeto de Regimento n.º 6/XV/1 (CH); Projeto de Regimento n.º 7/XV/1 (PCP); Projeto de Regimento n.º 8/XV/1 (L); Projeto de Regimento n.º 9 /XV/1 (PSD); e Projeto de Regimento n.º 10/XV/1 (PS).",
+     "detalhe": "A Favor: <I>PS</I>, <I> PSD</I>, <I> IL</I>, <I> PCP</I>, <I> BE</I>, <I> PAN</I>, <I> L</I><BR>Abstenção:<I>CH</I>",
+     "id": "115568",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "152",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a79394562324e31625756756447397a5357357059326c6864476c325953383259324d784d6d59314d4330335a4463784c54526c4e474574595752684d4330794e474a6a4e474a6c4e544d354f5467755a47396a65413d3d&fich=6cc12f50-7d71-4e4a-ada0-24bc4be53998.docx&Inline=true",
+     "anexoNome": "Informação de Redação Final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a79394562324e31625756756447397a5357357059326c6864476c32595338794e6d526b4d446b324e5330304e4456684c5451774e44597459544a6b4e69316c4d444a6d4d6a45774e4751344f4745755a47396a65413d3d&fich=26dd0965-445a-4046-a2d6-e02f2104d88a.docx&Inline=true",
+     "anexoNome": "Projeto de Regimento"
+    }
+   ],
+   "CodigoFase": "348",
+   "Comissao": [
+    {
+     "AccId": "64725",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2023-07-26",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2023-07-27",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a793944543030764d554e425130524d5279394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a526a4e544e6a4d7a49794c575a695a6d55744e446c69595331695a575a694c5449784f4459305a6a46685a4749304e7935775a47593d&fich=4c53c322-fbfe-49ba-befb-21864f1adb47.pdf&Inline=true"
+      }
+     ],
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8325",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
+     "Numero": "8325",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2023-07-27",
+       "dataRemessa": "2023-07-27",
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Redação Final"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2023-07-26",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1360087",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "368",
+   "Comissao": null,
+   "DataFase": "2023-08-01",
+   "EvtId": "124",
+   "Fase": "Regimento (Publicação DAR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1380204",
+   "OevTextId": "54081",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "54081",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2023-08-01",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1380205",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "601",
+   "Comissao": null,
+   "DataFase": "2023-08-09",
+   "EvtId": "125",
+   "Fase": "Regimento da AR (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1380311",
+   "OevTextId": "54106",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "54106",
+   "Votacao": null
+  }
+ ],
+ "IniId": "121513",
+ "IniLeg": "XV",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b786c5a79394562324e31625756756447397a5357357059326c6864476c325953387959324e6a4e7a59794e43316c4f5759304c54526d4d6d51744f546c6b5a693035596a426a5a6d4e685a546b77595449755a47396a65413d3d&fich=2ccc7624-e9f4-4f2d-99df-9b0cfcae90a2.docx&Inline=true",
+ "IniNr": "6",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "G",
+ "IniTitulo": "Altera o Regimento da Assembleia da República tornando-o mais democrático e assegurando a liberdade de expressão e discussão de propostas apresentadas por parte dos Deputados",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

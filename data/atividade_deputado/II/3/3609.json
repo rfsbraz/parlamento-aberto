@@ -1,0 +1,45 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "JOSÉ MONTEIRO"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "AVEIRO",
+  "depCPId": "1",
+  "depCadId": "3609",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "4863",
+  "depNomeCompleto": "JOSÉ AMÂNDIO CARVALHO MONTEIRO",
+  "depNomeParlamentar": "JOSÉ MONTEIRO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-09",
+     "sioDtInicio": "1982-07-06"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-27",
+     "sioDtInicio": "1982-11-26"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PS",
+     "dpl_lg": "III",
+     "nome": "MOTA TORRES"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "29801",
+      "iniNr": "359",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Exercício do direito de antena na Radiodifusão na Região Autónoma da Madeira.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29800",
+      "iniNr": "358",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Exercício do direito de antena, na Televisão, na Região Autónoma da Madeira",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "MADEIRA",
+  "depCPId": "20",
+  "depCadId": "1660",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "988",
+    "gpSigla": "PS"
+   }
+  },
+  "depId": "4610",
+  "depNomeCompleto": "JOSÉ CARLOS PINTO BASTO MOTA TORRES",
+  "depNomeParlamentar": "MOTA TORRES",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1985-11-04",
+    "sioDtInicio": "1983-10-24"
+   }
+  },
+  "legDes": "III"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PSD",
+     "dpl_lg": "III",
+     "nome": "MANUEL PINHEIRO"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "PORTO",
+  "depCPId": "13",
+  "depCadId": "3292",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "989",
+    "gpSigla": "PSD"
+   }
+  },
+  "depId": "4644",
+  "depNomeCompleto": "MANUEL TEIXEIRA PINHEIRO",
+  "depNomeParlamentar": "MANUEL PINHEIRO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1983-11-15",
+     "sioDtInicio": "1983-11-14"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-11-01",
+     "sioDtInicio": "1984-10-31"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-11-10",
+     "sioDtInicio": "1984-11-03"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1984-12-22",
+     "sioDtInicio": "1984-12-18"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1985-01-18",
+     "sioDtInicio": "1985-01-17"
+    }
+   ]
+  },
+  "legDes": "III"
+ }
+}

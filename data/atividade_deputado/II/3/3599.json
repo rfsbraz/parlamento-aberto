@@ -1,0 +1,70 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "CDS",
+     "dpl_lg": "II",
+     "nome": "JORGE FERNANDES"
+    }
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "SANTARÉM",
+  "depCPId": "14",
+  "depCadId": "3599",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "981",
+    "gpSigla": "CDS"
+   }
+  },
+  "depId": "4833",
+  "depNomeCompleto": "JORGE MANUEL DE MOURA NEVES FERNANDES",
+  "depNomeParlamentar": "JORGE FERNANDES",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-17",
+     "sioDtInicio": "1982-07-01"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-07-30",
+     "sioDtInicio": "1982-07-29"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-10-18",
+     "sioDtInicio": "1982-10-12"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-10-23",
+     "sioDtInicio": "1982-10-21"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-10-27",
+     "sioDtInicio": "1982-10-26"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-12",
+     "sioDtInicio": "1982-11-11"
+    },
+    {
+     "sioDes": "Efetivo",
+     "sioDtFim": "1982-11-27",
+     "sioDtInicio": "1982-11-26"
+    }
+   ]
+  },
+  "legDes": "II"
+ }
+}

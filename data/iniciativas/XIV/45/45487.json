@@ -1,0 +1,928 @@
+{
+ "DataFimleg": "2021-09-14",
+ "DataInicioleg": "2020-09-15",
+ "IniAnexos": null,
+ "IniAutorDeputados": [
+  {
+   "GP": "IL",
+   "idCadastro": "6550",
+   "nome": "João Cotrim de Figueiredo"
+  }
+ ],
+ "IniAutorGruposParlamentares": [
+  {
+   "GP": "IL"
+  }
+ ],
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Grupos Parlamentares",
+  "sigla": "G"
+ },
+ "IniDescTipo": "Projeto de Lei",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2020-12-02",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "367630",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2020-12-03",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "367683",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2020-12-03",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "367661",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "49560",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2020-12-03",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2020-12-03",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "7364",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Economia, Inovação, Obras Públicas e Habitação",
+     "Numero": "7364",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2020-12-03",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": "Conexão com a 4.ª Comissão",
+   "OevId": "367684",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "16673",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "190",
+   "Comissao": null,
+   "DataFase": "2020-12-04",
+   "EvtId": "10",
+   "Fase": "Discussão generalidade",
+   "IniciativasConjuntas": [
+    {
+     "autor": "PSD",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "45393",
+     "leg": "XIV",
+     "nr": "714",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/32?pgs=32-41&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "5959",
+       "obs": null,
+       "pag": [
+        "32-41"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIV",
+       "pubNr": "27",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2020-12-05",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/32?pgs=32-41&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "5959",
+       "obs": null,
+       "pag": [
+        "32-41"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIV",
+       "pubNr": "27",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2020-12-05",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/32?pgs=32-41&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "5959",
+       "obs": null,
+       "pag": [
+        "32-41"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIV",
+       "pubNr": "27",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2020-12-05",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "R",
+     "titulo": "Recomenda ao Governo que apresente à Assembleia da República relatórios trimestrais sobre a negociação e execução dos fundos europeus atribuídos a Portugal ao abrigo do programa next generation e do quadro financeiro plurianual 2021-2027 e a respectiva implementação do plano de recuperação economica Portugal 2020-2030"
+    },
+    {
+     "autor": "PS",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "45411",
+     "leg": "XIV",
+     "nr": "729",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/32?pgs=32-41&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "5959",
+       "obs": null,
+       "pag": [
+        "32-41"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIV",
+       "pubNr": "27",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2020-12-05",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/32?pgs=32-41&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "5959",
+       "obs": null,
+       "pag": [
+        "32-41"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIV",
+       "pubNr": "27",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2020-12-05",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/32?pgs=32-41&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "5959",
+       "obs": null,
+       "pag": [
+        "32-41"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIV",
+       "pubNr": "27",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2020-12-05",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "R",
+     "titulo": "Recomenda ao Governo um conjunto de medidas para utilização mais eficaz e eficiente dos fundos da União Europeia, nomeadamente no âmbito da Política de Coesão, do Plano Estratégico da Política Agrícola Comum e do Plano de Recuperação da União Europeia"
+    },
+    {
+     "autor": "BE",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "45444",
+     "leg": "XIV",
+     "nr": "748",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/32?pgs=32-41&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "5959",
+       "obs": null,
+       "pag": [
+        "32-41"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIV",
+       "pubNr": "27",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2020-12-05",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/32?pgs=32-41&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "5959",
+       "obs": null,
+       "pag": [
+        "32-41"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIV",
+       "pubNr": "27",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2020-12-05",
+       "supl": null
+      },
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/32?pgs=32-41&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "5959",
+       "obs": null,
+       "pag": [
+        "32-41"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XIV",
+       "pubNr": "27",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2020-12-05",
+       "supl": null
+      }
+     ],
+     "sel": "2",
+     "tipo": "R",
+     "titulo": "Recomenda ao Governo que proceda à criação de uma plataforma pública demonstrando, de forma transparente, acessível e territorializada, a alocação dos fundos europeus atribuídos a Portugal através do Quadro Financeiro Plurianual 2021-2027 e do Fundo de Recuperação próxima geração UE"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2020-12-04",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "6878",
+         "nome": "Nuno Fazenda"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:02",
+       "horaTermo": "18:11",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2020_12_04_10_00_00_clean_14_plenario.xml&idsegmento=34"
+        },
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2020_12_04_10_00_00_clean_14_plenario.xml&idsegmento=42"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/32?pgs=32-33,39-41&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "241544",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "32-33",
+          "39-41"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIV",
+         "pubNr": "27",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2020-12-05",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo um conjunto de medidas para utilização mais eficaz e eficiente dos fundos da União Europeia, nomeadamente no âmbito da Política de Coesão, do Plano Estratégico da Política Agrícola Comum e do Plano de Recuperação da União Europeia; Criação e manutenção do Portal da Transparência por uma entidade independente; Recomenda ao Governo que apresente à Assembleia da República relatórios trimestrais sobre a negociação e a execução dos fundos europeus atribuídos a Portugal ao abrigo do Programa Next Generation e do Quadro Financeiro Plurianual 2021-2027 e a respetiva implementação do plano de recuperação económica Portugal 2020-2030; Recomenda ao Governo que proceda à criação de uma plataforma pública demonstrando, de forma transparente, acessível e territorializada, a alocação dos fundos europeus atribuídos a Portugal através do Quadro Financeiro Plurianual 2021-2027 e do fundo de recuperação Próxima Geração UE",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "IL",
+         "idCadastro": "6550",
+         "nome": "João Cotrim de Figueiredo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:02",
+       "horaTermo": "18:11",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2020_12_04_10_00_00_clean_14_plenario.xml&idsegmento=35"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/33?pgs=33&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "241545",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "33-33"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIV",
+         "pubNr": "27",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2020-12-05",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo um conjunto de medidas para utilização mais eficaz e eficiente dos fundos da União Europeia, nomeadamente no âmbito da Política de Coesão, do Plano Estratégico da Política Agrícola Comum e do Plano de Recuperação da União Europeia; Criação e manutenção do Portal da Transparência por uma entidade independente; Recomenda ao Governo que apresente à Assembleia da República relatórios trimestrais sobre a negociação e a execução dos fundos europeus atribuídos a Portugal ao abrigo do Programa Next Generation e do Quadro Financeiro Plurianual 2021-2027 e a respetiva implementação do plano de recuperação económica Portugal 2020-2030; Recomenda ao Governo que proceda à criação de uma plataforma pública demonstrando, de forma transparente, acessível e territorializada, a alocação dos fundos europeus atribuídos a Portugal através do Quadro Financeiro Plurianual 2021-2027 e do fundo de recuperação Próxima Geração UE",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "4170",
+         "nome": "Duarte Marques"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:02",
+       "horaTermo": "18:11",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2020_12_04_10_00_00_clean_14_plenario.xml&idsegmento=36"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/33?pgs=33-34&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "241546",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "33-34"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIV",
+         "pubNr": "27",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2020-12-05",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo um conjunto de medidas para utilização mais eficaz e eficiente dos fundos da União Europeia, nomeadamente no âmbito da Política de Coesão, do Plano Estratégico da Política Agrícola Comum e do Plano de Recuperação da União Europeia; Criação e manutenção do Portal da Transparência por uma entidade independente; Recomenda ao Governo que apresente à Assembleia da República relatórios trimestrais sobre a negociação e a execução dos fundos europeus atribuídos a Portugal ao abrigo do Programa Next Generation e do Quadro Financeiro Plurianual 2021-2027 e a respetiva implementação do plano de recuperação económica Portugal 2020-2030; Recomenda ao Governo que proceda à criação de uma plataforma pública demonstrando, de forma transparente, acessível e territorializada, a alocação dos fundos europeus atribuídos a Portugal através do Quadro Financeiro Plurianual 2021-2027 e do fundo de recuperação Próxima Geração UE",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "6024",
+         "nome": "Fabíola Cardoso"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:02",
+       "horaTermo": "18:11",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2020_12_04_10_00_00_clean_14_plenario.xml&idsegmento=37"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/34?pgs=34-35&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "241547",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "34-35"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIV",
+         "pubNr": "27",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2020-12-05",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo um conjunto de medidas para utilização mais eficaz e eficiente dos fundos da União Europeia, nomeadamente no âmbito da Política de Coesão, do Plano Estratégico da Política Agrícola Comum e do Plano de Recuperação da União Europeia; Criação e manutenção do Portal da Transparência por uma entidade independente; Recomenda ao Governo que apresente à Assembleia da República relatórios trimestrais sobre a negociação e a execução dos fundos europeus atribuídos a Portugal ao abrigo do Programa Next Generation e do Quadro Financeiro Plurianual 2021-2027 e a respetiva implementação do plano de recuperação económica Portugal 2020-2030; Recomenda ao Governo que proceda à criação de uma plataforma pública demonstrando, de forma transparente, acessível e territorializada, a alocação dos fundos europeus atribuídos a Portugal através do Quadro Financeiro Plurianual 2021-2027 e do fundo de recuperação Próxima Geração UE",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PAN",
+         "idCadastro": "6864",
+         "nome": "Inês de Sousa Real"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:02",
+       "horaTermo": "18:11",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2020_12_04_10_00_00_clean_14_plenario.xml&idsegmento=38"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/35?pgs=35-36&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "241548",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "35-36"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIV",
+         "pubNr": "27",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2020-12-05",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo um conjunto de medidas para utilização mais eficaz e eficiente dos fundos da União Europeia, nomeadamente no âmbito da Política de Coesão, do Plano Estratégico da Política Agrícola Comum e do Plano de Recuperação da União Europeia; Criação e manutenção do Portal da Transparência por uma entidade independente; Recomenda ao Governo que apresente à Assembleia da República relatórios trimestrais sobre a negociação e a execução dos fundos europeus atribuídos a Portugal ao abrigo do Programa Next Generation e do Quadro Financeiro Plurianual 2021-2027 e a respetiva implementação do plano de recuperação económica Portugal 2020-2030; Recomenda ao Governo que proceda à criação de uma plataforma pública demonstrando, de forma transparente, acessível e territorializada, a alocação dos fundos europeus atribuídos a Portugal através do Quadro Financeiro Plurianual 2021-2027 e do fundo de recuperação Próxima Geração UE",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "1715",
+         "nome": "Bruno Dias"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:02",
+       "horaTermo": "18:11",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2020_12_04_10_00_00_clean_14_plenario.xml&idsegmento=39"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/36?pgs=36-37&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "241549",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "36-37"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIV",
+         "pubNr": "27",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2020-12-05",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo um conjunto de medidas para utilização mais eficaz e eficiente dos fundos da União Europeia, nomeadamente no âmbito da Política de Coesão, do Plano Estratégico da Política Agrícola Comum e do Plano de Recuperação da União Europeia; Criação e manutenção do Portal da Transparência por uma entidade independente; Recomenda ao Governo que apresente à Assembleia da República relatórios trimestrais sobre a negociação e a execução dos fundos europeus atribuídos a Portugal ao abrigo do Programa Next Generation e do Quadro Financeiro Plurianual 2021-2027 e a respetiva implementação do plano de recuperação económica Portugal 2020-2030; Recomenda ao Governo que proceda à criação de uma plataforma pública demonstrando, de forma transparente, acessível e territorializada, a alocação dos fundos europeus atribuídos a Portugal através do Quadro Financeiro Plurianual 2021-2027 e do fundo de recuperação Próxima Geração UE",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "2867",
+         "nome": "João Gonçalves Pereira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:02",
+       "horaTermo": "18:11",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2020_12_04_10_00_00_clean_14_plenario.xml&idsegmento=40"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/37?pgs=37-38&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "241550",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "37-38"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIV",
+         "pubNr": "27",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2020-12-05",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo um conjunto de medidas para utilização mais eficaz e eficiente dos fundos da União Europeia, nomeadamente no âmbito da Política de Coesão, do Plano Estratégico da Política Agrícola Comum e do Plano de Recuperação da União Europeia; Criação e manutenção do Portal da Transparência por uma entidade independente; Recomenda ao Governo que apresente à Assembleia da República relatórios trimestrais sobre a negociação e a execução dos fundos europeus atribuídos a Portugal ao abrigo do Programa Next Generation e do Quadro Financeiro Plurianual 2021-2027 e a respetiva implementação do plano de recuperação económica Portugal 2020-2030; Recomenda ao Governo que proceda à criação de uma plataforma pública demonstrando, de forma transparente, acessível e territorializada, a alocação dos fundos europeus atribuídos a Portugal através do Quadro Financeiro Plurianual 2021-2027 e do fundo de recuperação Próxima Geração UE",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "2114",
+         "nome": "Emídio Guerreiro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:02",
+       "horaTermo": "18:11",
+       "linkVideo": [
+        {
+         "link": "http://av.parlamento.pt/DefaultVideo.aspx?id=2020_12_04_10_00_00_clean_14_plenario.xml&idsegmento=41"
+        }
+       ],
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/38?pgs=38-39&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "241551",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "38-39"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XIV",
+         "pubNr": "27",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2020-12-05",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo um conjunto de medidas para utilização mais eficaz e eficiente dos fundos da União Europeia, nomeadamente no âmbito da Política de Coesão, do Plano Estratégico da Política Agrícola Comum e do Plano de Recuperação da União Europeia; Criação e manutenção do Portal da Transparência por uma entidade independente; Recomenda ao Governo que apresente à Assembleia da República relatórios trimestrais sobre a negociação e a execução dos fundos europeus atribuídos a Portugal ao abrigo do Programa Next Generation e do Quadro Financeiro Plurianual 2021-2027 e a respetiva implementação do plano de recuperação económica Portugal 2020-2030; Recomenda ao Governo que proceda à criação de uma plataforma pública demonstrando, de forma transparente, acessível e territorializada, a alocação dos fundos europeus atribuídos a Portugal através do Quadro Financeiro Plurianual 2021-2027 e do fundo de recuperação Próxima Geração UE",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "367730",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/32?pgs=32-41&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "916756",
+     "obs": null,
+     "pag": [
+      "32-41"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XIV",
+     "pubNr": "27",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2020-12-05",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2020-12-04",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "367805",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/14/02/027/2020-12-05/79?pgs=79&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "915851",
+     "obs": null,
+     "pag": [
+      "79-79"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XIV",
+     "pubNr": "27",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2020-12-05",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2020-12-04",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I>, <I> PAN</I>, <I> CH</I>, <I> IL</I>, <I> Cristina Rodrigues (Ninsc)</I>, <I> Joacine Katar Moreira (Ninsc)</I><BR>Contra:<I>PS</I>, <I> BE</I><BR>Abstenção:<I>PCP</I>, <I> PEV</I>",
+     "id": "89308",
+     "publicacao": null,
+     "resultado": "Rejeitado",
+     "reuniao": "27",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  }
+ ],
+ "IniId": "45487",
+ "IniLeg": "XIV",
+ "IniLinkTexto": "",
+ "IniNr": "589",
+ "IniObs": null,
+ "IniSel": "2",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "J",
+ "IniTitulo": "Criação e manutenção do Portal da Transparência por uma entidade independente",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

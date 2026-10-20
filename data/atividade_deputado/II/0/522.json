@@ -1,0 +1,60 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PS",
+     "dpl_lg": "II",
+     "nome": "CHAVES MEDEIROS"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "31130",
+      "iniNr": "173",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 255/82, de 29 de Junho, que estabelece os níveis minímos de aproveitamento de solos.",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "31083",
+      "iniNr": "148",
+      "iniSelLg": "II",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 158/82, de 6 de Maio, que integra na Quimigal - Quimica de Portugal, E.P., a universalidade dos bens, direitos e obrigações da Empresa Mineira e Metalúrgica do Alentejo, E.P., - EMMA, e promove a sua reestruturação com a denominação de Empresa de Desenvolvimento Mineiro do Alentejo, E.P., - EDMA.",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     }
+    ]
+   },
+   "rel": null
+  }
+ },
+ "deputado": {
+  "depCPDes": "VIANA DO CASTELO",
+  "depCPId": "16",
+  "depCadId": "522",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1983-05-30",
+    "gpDtInicio": "1980-11-13",
+    "gpId": "980",
+    "gpSigla": "PS"
+   }
+  },
+  "depId": "4907",
+  "depNomeCompleto": "ANTONIO CHAVES MEDEIROS",
+  "depNomeParlamentar": "CHAVES MEDEIROS",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1982-07-28",
+    "sioDtInicio": "1981-10-22"
+   }
+  },
+  "legDes": "II"
+ }
+}

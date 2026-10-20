@@ -1,0 +1,63 @@
+{
+ "AtividadeDeputadoList": [
+  {
+   "ActP": null,
+   "Audicoes": null,
+   "Audiencias": null,
+   "Cms": null,
+   "DadosLegisDeputado": null,
+   "Deslocacoes": null,
+   "DlE": null,
+   "DlP": null,
+   "Eventos": null,
+   "Gpa": null,
+   "Ini": null,
+   "Intev": null,
+   "ParlamentoJovens": null,
+   "Rel": {
+    "AutoresPareceresIncImu": null,
+    "RelatoresContasPublicas": null,
+    "RelatoresIniEuropeias": null,
+    "RelatoresIniciativas": null,
+    "RelatoresPeticoes": null
+   },
+   "Req": null,
+   "Scgt": null
+  }
+ ],
+ "Deputado": {
+  "DepCPDes": "Porto",
+  "DepCPId": 13.0,
+  "DepCadId": 7343.0,
+  "DepCargo": null,
+  "DepGP": [
+   {
+    "GpDtFim": "2026-10-03",
+    "GpDtInicio": "2025-06-03",
+    "GpId": 7264.0,
+    "GpSigla": "IL"
+   }
+  ],
+  "DepId": 16713.0,
+  "DepNomeCompleto": "Carlos Manuel Guimarães Oliveira Pinto",
+  "DepNomeParlamentar": "Carlos Guimarães Pinto",
+  "DepSituacao": [
+   {
+    "SioDes": "Efetivo",
+    "SioDtFim": null,
+    "SioDtInicio": "2026-02-20"
+   },
+   {
+    "SioDes": "Suspenso(Eleito)",
+    "SioDtFim": "2026-02-19",
+    "SioDtInicio": "2026-01-21"
+   },
+   {
+    "SioDes": "Efetivo",
+    "SioDtFim": "2026-01-20",
+    "SioDtInicio": "2025-06-03"
+   }
+  ],
+  "LegDes": "XVII"
+ }
+}

@@ -1,0 +1,705 @@
+{
+ "AtividadeDeputadoList": {
+  "pt_gov_ar_wsar_objectos_ActividadeOut": {
+   "actP": {
+    "pt_gov_ar_wsar_objectos_ActividadesParlamentaresOut": [
+     {
+      "actAs": "Com vista à abertura de um debate sobre política geral centrado predominantemente sobre a política educativa",
+      "actDtdeb": "1984-12-04 00:00:00.0",
+      "actDtent": "30-10-1984",
+      "actId": "80290",
+      "actNr": null,
+      "actSelLg": "III",
+      "actSelNr": "2",
+      "actTp": "ITG",
+      "actTpdesc": "Interpelação ao Governo"
+     },
+     {
+      "actAs": "Voto de protesto contra factos ocorridos na conferência de imprensa pelo vice-Presidente dos E.U.A. George Bush, nas Lages - Açores",
+      "actDtdeb": "1983-09-20 00:00:00.0",
+      "actDtent": "20-09-1983",
+      "actId": "109403",
+      "actNr": null,
+      "actSelLg": "III",
+      "actSelNr": "1",
+      "actTp": "VOT",
+      "actTpdesc": "Voto"
+     }
+    ]
+   },
+   "dadosLegisDeputado": {
+    "pt_gov_ar_wsar_objectos_DadosLegisDeputado": {
+     "dpl_grpar": "PCP",
+     "dpl_lg": "III",
+     "nome": "VIDIGAL AMARO"
+    }
+   },
+   "ini": {
+    "pt_gov_ar_wsar_objectos_IniciativasOut": [
+     {
+      "iniId": "33110",
+      "iniNr": "14",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Sobre as acções e omissões ilegais do Ministério do Trabalho e da Inspecção-Geral do Trabalho em detrimento das suas atribuições próprias e dos direitos dos trabalhadores",
+      "iniTp": "I",
+      "iniTpdesc": "Inquérito Parlamentar"
+     },
+     {
+      "iniId": "30069",
+      "iniNr": "496",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Criação da freguesia de Rio de Moinhos no concelho de Aljustrel",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29988",
+      "iniNr": "477",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Criação da freguesia de Aguiar, no concelho de Viana do Alentejo.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29873",
+      "iniNr": "406",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Aprova medidas tendentes à supressão da desigualdade de tratamento entre a carreira docente e as demais carreiras médicas, e à reposição de condições de equidade entre os docentes das universidades.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29426",
+      "iniNr": "31",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Garantia dos alimentos devidos a menores.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "30213",
+      "iniNr": "165",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 185/85, de 29 de Maio (Extingue a Junta Central das Casas do Povo e revoga o Decreto-Lei nº 392/80, de 24 de Setembro).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30212",
+      "iniNr": "164",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 164/85 de 15 de Maio (Estabelece os princípios fundamentais e as normas que regem as relações entre o Estado e os agentes desportivos, tendo como objectivo fundamental o desenvolvimento do desporto).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30211",
+      "iniNr": "163",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 163/85, de 15 de Maio (Define os princípios e estabelece as regras que condicionam o acesso e o exercício da actividade dos treinadores desportivos, qualquer que seja a modalidade desportiva, no âmbito do desporto federado).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30204",
+      "iniNr": "156",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 150-A/85 de 8 de Maio, D.R. I.S. nº 105 Supl. (altera o processo de profissionalização dos professores).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30203",
+      "iniNr": "155",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 135/85 - D.R. nº 101 de 3/5/85 (regulamenta, no âmbito da administração pública a Lei nº 4/84 de 5/4 que estabeleceu o regime jurídico da protecção da maternidade e paternidade. Revoga o Decreto-Lei nº 165/80, de 29/5, e a alínea a) do artigo 2º do Decreto-Lei nº 167/80 de 29/5, e derroga o corpo do artº 2º e o nº 1 do artº 8º do Decreto-Lei nº 167/80 de 29/5)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30202",
+      "iniNr": "154",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 136/85 - D.R. I.S. nº 101 de 3/5/85 (regulamenta a Lei nº 4/84, de 5/4 (protecção da maternidade e da paternidade).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30201",
+      "iniNr": "153",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 114/85, de 18 de Abril, D.R. I.S. nº 90 (estabelece normas sobre o pagamento das quotizações em dívida pelos contribuintes do fundo de desemprego).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30199",
+      "iniNr": "151",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 137/85, de 3 de Maio, D.R. I.S. nº 101 (extingue a CTM - Companhia portuguesa de transportes maritímos E.P., a qual manterá a sua personalidade jurídica, para efeitos de liquidação até à aprovação final das contas a apresentar pela comissão liquidatária).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30196",
+      "iniNr": "148",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 81/85, de 28 de Março (define o regime especial de Segurança Social dos trabalhadores das actividades agrícolas, silvícola e pecuária. Revoga a Lei nº 2144, de 29 de Maio de 1961, o Decreto Regulamentar nº 46/80, de 12 de Setembro, e vários Decretos-Leis e Decretos).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30189",
+      "iniNr": "144",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei nº 63/85 de 14 de Março (Aprova o Código do Direito de Autor e dos Direitos Conexos).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30265",
+      "iniNr": "139",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 48/85 de 27 de Fevereiro ( Cria junto da Direcção-Geral do Ensino Superior um Quadro de Efectivos Interdepartamental \"QEI\")",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30264",
+      "iniNr": "138",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 399-D, de 28 de Dezembro (Reestrutura o quadro do pessoal de vigilância dos serviços prisionais)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30257",
+      "iniNr": "130",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 394-A/84, de 26 de Dezembro (Regula  o registo dos sujeitos passivos em imposto sobre o valor acrescentado (IVA))",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30247",
+      "iniNr": "129",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 394-B/84, de 26 de Dezembro (Aprova o Código do Imposto sobre  o Valor Acrescentado (IVA))",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30245",
+      "iniNr": "128",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-lei nº 367/84, de 26 de Novembro, que altera a redacção do artigo 6º e a alínea a) do artigo 11º do Decreto-lei nº 373/80, de 12 de Setembro (cria o Conselho das Comunidades Portuguesas)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30185",
+      "iniNr": "120",
+      "iniSelLg": "III",
+      "iniSelNr": "2",
+      "iniTi": "Decreto-Lei n.º 304/84, de 18 de Setembro (define as condições a que deverão obedecer a instalação, funcionamento e licenciamento dos estabelecimentos destinados ao abate dos animais das espécies bovina, ovina, caprina, suína e equina)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "29833",
+      "iniNr": "371",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Maçussa no concelho de Azambuja.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29795",
+      "iniNr": "353",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Organiza e garante o exercício do direito à participação no sistema de segurança social.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29760",
+      "iniNr": "299",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Medidas de garantia do direito dos deficientes à habitação",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29781",
+      "iniNr": "279",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Garante à mulher grávida o direito ao acompanhamento, pelo futuro pai, durante o trabalho de parto.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29780",
+      "iniNr": "278",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Aprova medidas tendentes a efectivação dos direitos das mães a que se refere o artigo 1884º do Código Civil.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29702",
+      "iniNr": "253",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Subsídio de desemprego aos jovens candidatos ao primeiro emprego",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29629",
+      "iniNr": "156",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia do Ciborro no concelho de Montemor-o-Novo",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29628",
+      "iniNr": "155",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Pereiras-Gare no concelho de Odemira",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29624",
+      "iniNr": "154",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Guadalupe no concelho de Évora",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29621",
+      "iniNr": "153",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de São Brás dos Matos, Mina do Bugalho, no concelho de Alandroal",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29618",
+      "iniNr": "152",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Criação da freguesia de Landeira no concelho de Vendas Novas",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29494",
+      "iniNr": "82",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Garante protecção jurídica às pessoas em união de facto nas condições previstas no artigo nº 2020º do Código Civil.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29432",
+      "iniNr": "34",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Lei do sistema educativo",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29419",
+      "iniNr": "27",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Sobre a idade de reforma dos pescadores e anos de actividade.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29417",
+      "iniNr": "26",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Garantia dos deficientes ao transporte.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29415",
+      "iniNr": "25",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Revoga o Decreto-lei nº 2/83, de 8 de Janeiro de 1983 ( estabelece o regime jurídico das especialidades farmacêuticas de venda livre).",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29414",
+      "iniNr": "24",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Gratuitidade dos cuidados de saúde prestados nos serviços públicos.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29465",
+      "iniNr": "15",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Medidas de garantia dos direitos dos trabalhadores da função pública com revogação do Decreto-lei do \"Quadro de Excedentes\".",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29443",
+      "iniNr": "7",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Interrupção voluntária da gravidez.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29442",
+      "iniNr": "6",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Garantia do direito ao planeamento familiar e à educação sexual.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "29441",
+      "iniNr": "5",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Protecção e defesa da maternidade.",
+      "iniTp": "J",
+      "iniTpdesc": "Projeto de Lei"
+     },
+     {
+      "iniId": "32978",
+      "iniNr": "27",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Garante o eficaz acompanhamento das medidas financeiras técnicas e administrativas necessárias ao prosseguimento e conclusão do empreendimento do Alqueva",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     },
+     {
+      "iniId": "32976",
+      "iniNr": "25",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Adopção das providências necessárias ao pleno cumprimento dos regimes de remunerações dos médicos dos ex-S.M.S.",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     },
+     {
+      "iniId": "32975",
+      "iniNr": "24",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Adopção de medidas financeiras técnicas e administrativas necessárias ao prosseguimento e conclusão do empreendimento do Alqueva",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     },
+     {
+      "iniId": "32970",
+      "iniNr": "19",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Propostas de alteração do Regimento da Assembleia da República",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     },
+     {
+      "iniId": "32962",
+      "iniNr": "13",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Censo Nacional de Deficientes",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     },
+     {
+      "iniId": "32960",
+      "iniNr": "11",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Censo Nacional de Deficientes",
+      "iniTp": "R",
+      "iniTpdesc": "Projeto de Resolução"
+     },
+     {
+      "iniId": "30182",
+      "iniNr": "117",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei n.º 282-C/84 de 20 de Agosto (define a natureza, âmbito atribuições e competências do Instituto do Trabalho Portuário (ITP), preve a criação e define as atribuições dos centros coordenadores do trabalho portuário (CCTP), dotados de personalidade jurídica, automonia administrativa e financeira)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30181",
+      "iniNr": "116",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei n.º 282-B784 de 20 de Agosto (define o que são operações portuárias, estabelece o regime jurídico dos operadores portuários e revoga o Decreto-Lei n.º 46/83, de 27 de Janeiro (Estatuto do Operador Portuário)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30180",
+      "iniNr": "115",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei n.º 282-A784, de 20 de Agosto (define o âmbito e organização administrativa do trabalho portuário, estabelece a forma de recrutamento de trabalhadores portuários e respectivos contigentes, bem como o regime jurídico dos trabalhadores portuários, e revoga o Decreto-Lei n.º 145-A/78, de 17 de Junho (bases gerais do trabalho portuário)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30173",
+      "iniNr": "111",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei n.º 227/84, de 9 de Julho (estabelece os limites e as directivas do uso dos solos, os níveis mínimos do seu aproveitamento e os factores determinantes da situação do prédio rústico subaproveitado. Revoga o Decreto-Lei n.º 255/82, de 29 de Junho)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30164",
+      "iniNr": "108",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei n.º 203/84, de 15 de Junho (altera a redacção do artigo 3º do Decreto-Lei n.º 443/74, de 12 de Setembro (desafectação de bens pertencentes aos antigos organismos corporativos obrigatórios dependentes do extinto Ministério da Economia)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30177",
+      "iniNr": "100",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei nº 151/84, de 10 de Maio (Regulamenta os requisitos mínimos de escolaridade e capacidade fisíca para ingresso nas profissões marítimas).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30175",
+      "iniNr": "99",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei nº 155/84, de 16 de Maio (Autoriza o Ministro das Finanças e do Plano a celebrar com a Sociedade Portuguesa de Investimentos um contrato de risco de câmbio associado ao empréstimo no montante equivalente a 10 milhões de ECU a conceder ao Banco Europeu de Investimentos aquela Sociedade).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30142",
+      "iniNr": "78",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-lei nº 57-C/84, de 20 de Fevereiro (Estabelece a nova tabela de vencimentos dos funcionários e agentes da Administração Central, e Local, e dos organismos de coordenação económica e demais institutos públicos que revistam a natureza de serviços personalizados ou de fundos públicos )",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30141",
+      "iniNr": "77",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-lei nº 57-B/84, de 20 de Fevereiro (Estabelece o novo quantitativo e regime de subsídio de refeição a atribuir aos funcionários e agentes da Administração Central e Local, bem como dos organismos de coordenação económica e demais institutos públicos que revistam a natureza de serviços personalizados ou de fundos públicos )",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30129",
+      "iniNr": "68",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-lei nº 436/83 de 19 de Dezembro (Estabelece  disposições relativas a actualização dos contratos de arrendamento para o comércio indústrial e exercício de profissões liberais e ainda em todos os contratos de arrendamento para fins não habitacionais)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30099",
+      "iniNr": "53",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei n.º 574/80, de 31 de Dezembro (introduz alterações ao Decreto-Lei n.º 346/77, de 20 de Agosto (Secretariado Nacional de Reabilitação) e extingue a Comissão Militar de Reabilitação e Assistência CMRA)",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30097",
+      "iniNr": "51",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei n.º 280/81, de 6 de Outubro (dá nova redacção a vários artigos do Decreto-Lei n.º 342/80, de 2 de Setembro (sociedade de investimentos))",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30115",
+      "iniNr": "39",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei nº 211/81, de 13 de Julho (reestrutura as direcções de distrito escolar e as delegações).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30071",
+      "iniNr": "19",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei nº 486/82, de 28 de Dezembro ( Transforma a extinta Casa do Douro numa pessoa colectiva de direito público com a mesma designação).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30070",
+      "iniNr": "18",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei nº 293/82 de 27 de Julho (aprova a Lei Orgânica do Ministério da Agricultura, Comércio e Pescas).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30067",
+      "iniNr": "16",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei nº 255/82, de 29 de Junho (Estabelece os níveis mínimos de aproveitamento de solos).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30060",
+      "iniNr": "11",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei nº 355/82, de 6 de Setembro (Orgânica do Secretariado Nacional de Reabilitação).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30057",
+      "iniNr": "8",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei nº 508/80 de 21 de Outubro (Regulamenta o contrato de serviço doméstico).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30055",
+      "iniNr": "7",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei nº 219/83, de 26 de Maio (Estabelece diversos mecanismos respeitantes à justificação e ao controle da doença dos funcionários e agentes da Administração Pública).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     },
+     {
+      "iniId": "30054",
+      "iniNr": "6",
+      "iniSelLg": "III",
+      "iniSelNr": "1",
+      "iniTi": "Decreto-Lei nº 254/82, de 29 de Junho (Cria as administrações regionais de cuidados de saúde abreviadamente designados por Administrações Regionais de Saúde (ARS).",
+      "iniTp": "F",
+      "iniTpdesc": "Ratificação"
+     }
+    ]
+   },
+   "intev": {
+    "pt_gov_ar_wsar_objectos_IntervencoesOut": {
+     "intId": "223939",
+     "intSu": "Concede ao Governo autorização para alterar parcialmente a Lei de Bases do Serviço Nacional de Saúde.",
+     "pubDar": "837-838",
+     "pubDtreu": "1983-07-13",
+     "pubLg": "III",
+     "pubNr": "21",
+     "pubSl": "1",
+     "pubTp": "D",
+     "tinDs": "Intervenção"
+    }
+   },
+   "rel": {
+    "relatoresIniciativas": {
+     "pt_gov_ar_wsar_objectos_RelatoresIniciativasOut": {
+      "accDtrel": "1985-04-19",
+      "iniId": "29781",
+      "iniNr": "279",
+      "iniSelLg": "III",
+      "iniTi": "Garante à mulher grávida o direito ao acompanhamento, pelo futuro pai, durante o trabalho de parto.",
+      "iniTp": "Projeto de Lei",
+      "relFase": "Baixa comissão especialidade"
+     }
+    }
+   }
+  }
+ },
+ "deputado": {
+  "depCPDes": "ÉVORA",
+  "depCPId": "7",
+  "depCadId": "3082",
+  "depGP": {
+   "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+    "gpDtFim": "1985-11-03",
+    "gpDtInicio": "1983-05-31",
+    "gpId": "990",
+    "gpSigla": "PCP"
+   }
+  },
+  "depId": "3664",
+  "depNomeCompleto": "ANTÓNIO JOSÉ MONTEIRO VIDIGAL AMARO",
+  "depNomeParlamentar": "VIDIGAL AMARO",
+  "depSituacao": {
+   "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
+    "sioDes": "Efetivo",
+    "sioDtFim": "1985-11-04",
+    "sioDtInicio": "1983-05-31"
+   }
+  },
+  "legDes": "III"
+ }
+}

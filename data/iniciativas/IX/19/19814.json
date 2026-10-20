@@ -1,0 +1,923 @@
+{
+ "DataFimleg": "2003-09-14",
+ "DataInicioleg": "2002-04-05",
+ "IniAnexos": null,
+ "IniAutorDeputados": null,
+ "IniAutorGruposParlamentares": null,
+ "IniAutorOutros": {
+  "iniAutorComissao": null,
+  "nome": "Governo",
+  "sigla": "V"
+ },
+ "IniDescTipo": "Proposta de Resolução",
+ "IniEpigrafe": null,
+ "IniEventos": [
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "10",
+   "Comissao": null,
+   "DataFase": "2003-09-01",
+   "EvtId": "1",
+   "Fase": "Entrada",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "158741",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "20",
+   "Comissao": null,
+   "DataFase": "2003-09-12",
+   "EvtId": "2",
+   "Fase": "Admissão",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "158812",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "180",
+   "Comissao": [
+    {
+     "AccId": "6816",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2003-09-23",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": "2003-09-12",
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "103",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "COMISSÃO DE ASSUNTOS EUROPEUS E POLÍTICA EXTERNA",
+     "Numero": "103",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/02/005/2003-10-04/179?pgs=179-187&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "179-187"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "5",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2003-10-04",
+       "supl": null
+      }
+     ],
+     "PublicacaoRelatorio": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/09/02/005/2003-10-04/179?pgs=179-187&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "0",
+       "obs": null,
+       "pag": [
+        "179-187"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "IX",
+       "pubNr": "5",
+       "pubSL": "2",
+       "pubTipo": "DAR II série A",
+       "pubTp": "A",
+       "pubdt": "2003-10-04",
+       "supl": null
+      }
+     ],
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "2015",
+       "motivoCessacao": null,
+       "nome": "Almeida Henriques"
+      }
+     ],
+     "RemessaRedaccaoFinal": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2003-09-30",
+       "dataRemessa": "2003-10-02",
+       "numeroOficio": "3159/COM",
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": [
+      {
+       "ausencias": [
+        "PCP",
+        "BE",
+        "PEV"
+       ],
+       "data": "2003-09-30",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I><BR>Ausência: <I>PCP</I>, <I> BE</I>, <I> PEV</I>",
+       "id": "30927",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "83",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
+    }
+   ],
+   "DataFase": "2003-09-12",
+   "EvtId": "9",
+   "Fase": "Baixa comissão distribuição inicial generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "159029",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "21",
+   "Comissao": null,
+   "DataFase": "2003-09-17",
+   "EvtId": "3",
+   "Fase": "Anúncio",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "158970",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": "2816",
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "243",
+   "Comissao": null,
+   "DataFase": "2003-10-03",
+   "EvtId": "64",
+   "Fase": "Apreciação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2003-10-03",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": null,
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:00",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": "MIN. DOS NEGÓCIOS ESTRANGEIROS E COMUNIDADES PORTUGUESAS",
+        "governo": "XV GOVERNO CONSTITUCIONAL",
+        "nome": "Antonio Martins Da Cruz"
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/008/2003-10-04/409?pgs=409-411,423-424&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146915",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "409-411",
+          "423-424"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "8",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, o Tratado entre os Estados Membros da União Europeia e a República Checa, a República da Estónia, a República do Chipre, a República da Letónia, a República da Lituânia, a República da Hungria, a República de Malta, a República da Polónia, a República da Eslovénia e a República Eslovaca, relativo à adesão à União Europeia da República Checa, da República da Estónia, da República do Chipre, da República da Letónia, da República da Lituânia, da República da Hungria, da República de Malta, da República da Polónia, da República da Eslovénia e da República Eslovaca, incluindo o Acto relativo às condições de adesão e as adaptações dos Tratados em que se funda a União Europeia,  Anexos, Protocolos e Acta Final com as suas Declarações, assinado em Atenas em 16 de Abril de 2003",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1731",
+         "nome": "António Nazaré Pereira"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:00",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/008/2003-10-04/411?pgs=411,425-426&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146916",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "411-411",
+          "425-426"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "8",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, o Tratado entre os Estados Membros da União Europeia e a República Checa, a República da Estónia, a República do Chipre, a República da Letónia, a República da Lituânia, a República da Hungria, a República de Malta, a República da Polónia, a República da Eslovénia e a República Eslovaca, relativo à adesão à União Europeia da República Checa, da República da Estónia, da República do Chipre, da República da Letónia, da República da Lituânia, da República da Hungria, da República de Malta, da República da Polónia, da República da Eslovénia e da República Eslovaca, incluindo o Acto relativo às condições de adesão e as adaptações dos Tratados em que se funda a União Europeia,  Anexos, Protocolos e Acta Final com as suas Declarações, assinado em Atenas em 16 de Abril de 2003",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "155",
+         "nome": "António José Seguro"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:00",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/008/2003-10-04/411?pgs=411-413,424-425&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146917",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "411-413",
+          "424-425"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "8",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, o Tratado entre os Estados Membros da União Europeia e a República Checa, a República da Estónia, a República do Chipre, a República da Letónia, a República da Lituânia, a República da Hungria, a República de Malta, a República da Polónia, a República da Eslovénia e a República Eslovaca, relativo à adesão à União Europeia da República Checa, da República da Estónia, da República do Chipre, da República da Letónia, da República da Lituânia, da República da Hungria, da República de Malta, da República da Polónia, da República da Eslovénia e da República Eslovaca, incluindo o Acto relativo às condições de adesão e as adaptações dos Tratados em que se funda a União Europeia,  Anexos, Protocolos e Acta Final com as suas Declarações, assinado em Atenas em 16 de Abril de 2003",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "BE",
+         "idCadastro": "1651",
+         "nome": "Francisco Louçã"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:00",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/008/2003-10-04/413?pgs=413-414&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146918",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "413-414"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "8",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, o Tratado entre os Estados Membros da União Europeia e a República Checa, a República da Estónia, a República do Chipre, a República da Letónia, a República da Lituânia, a República da Hungria, a República de Malta, a República da Polónia, a República da Eslovénia e a República Eslovaca, relativo à adesão à União Europeia da República Checa, da República da Estónia, da República do Chipre, da República da Letónia, da República da Lituânia, da República da Hungria, da República de Malta, da República da Polónia, da República da Eslovénia e da República Eslovaca, incluindo o Acto relativo às condições de adesão e as adaptações dos Tratados em que se funda a União Europeia,  Anexos, Protocolos e Acta Final com as suas Declarações, assinado em Atenas em 16 de Abril de 2003",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "CDS-PP",
+         "idCadastro": "1698",
+         "nome": "Miguel Anacoreta Correia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:00",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/008/2003-10-04/414?pgs=414&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146919",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "414-414"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "8",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, o Tratado entre os Estados Membros da União Europeia e a República Checa, a República da Estónia, a República do Chipre, a República da Letónia, a República da Lituânia, a República da Hungria, a República de Malta, a República da Polónia, a República da Eslovénia e a República Eslovaca, relativo à adesão à União Europeia da República Checa, da República da Estónia, da República do Chipre, da República da Letónia, da República da Lituânia, da República da Hungria, da República de Malta, da República da Polónia, da República da Eslovénia e da República Eslovaca, incluindo o Acto relativo às condições de adesão e as adaptações dos Tratados em que se funda a União Europeia,  Anexos, Protocolos e Acta Final com as suas Declarações, assinado em Atenas em 16 de Abril de 2003",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "1696",
+         "nome": "Honório Novo"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:00",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/008/2003-10-04/416?pgs=416-417&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146920",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "416-417"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "8",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, o Tratado entre os Estados Membros da União Europeia e a República Checa, a República da Estónia, a República do Chipre, a República da Letónia, a República da Lituânia, a República da Hungria, a República de Malta, a República da Polónia, a República da Eslovénia e a República Eslovaca, relativo à adesão à União Europeia da República Checa, da República da Estónia, da República do Chipre, da República da Letónia, da República da Lituânia, da República da Hungria, da República de Malta, da República da Polónia, da República da Eslovénia e da República Eslovaca, incluindo o Acto relativo às condições de adesão e as adaptações dos Tratados em que se funda a União Europeia,  Anexos, Protocolos e Acta Final com as suas Declarações, assinado em Atenas em 16 de Abril de 2003",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "2015",
+         "nome": "Almeida Henriques"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:00",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/008/2003-10-04/417?pgs=417-420&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146921",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "417-420"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "8",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, o Tratado entre os Estados Membros da União Europeia e a República Checa, a República da Estónia, a República do Chipre, a República da Letónia, a República da Lituânia, a República da Hungria, a República de Malta, a República da Polónia, a República da Eslovénia e a República Eslovaca, relativo à adesão à União Europeia da República Checa, da República da Estónia, da República do Chipre, da República da Letónia, da República da Lituânia, da República da Hungria, da República de Malta, da República da Polónia, da República da Eslovénia e da República Eslovaca, incluindo o Acto relativo às condições de adesão e as adaptações dos Tratados em que se funda a União Europeia,  Anexos, Protocolos e Acta Final com as suas Declarações, assinado em Atenas em 16 de Abril de 2003",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PEV",
+         "idCadastro": "834",
+         "nome": "Heloísa Apolónia"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:00",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/008/2003-10-04/420?pgs=420-421&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146922",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "420-421"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "8",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, o Tratado entre os Estados Membros da União Europeia e a República Checa, a República da Estónia, a República do Chipre, a República da Letónia, a República da Lituânia, a República da Hungria, a República de Malta, a República da Polónia, a República da Eslovénia e a República Eslovaca, relativo à adesão à União Europeia da República Checa, da República da Estónia, da República do Chipre, da República da Letónia, da República da Lituânia, da República da Hungria, da República de Malta, da República da Polónia, da República da Eslovénia e da República Eslovaca, incluindo o Acto relativo às condições de adesão e as adaptações dos Tratados em que se funda a União Europeia,  Anexos, Protocolos e Acta Final com as suas Declarações, assinado em Atenas em 16 de Abril de 2003",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "1706",
+         "nome": "João Moura"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:00",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/008/2003-10-04/421?pgs=421&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146923",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "421-421"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "8",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, o Tratado entre os Estados Membros da União Europeia e a República Checa, a República da Estónia, a República do Chipre, a República da Letónia, a República da Lituânia, a República da Hungria, a República de Malta, a República da Polónia, a República da Eslovénia e a República Eslovaca, relativo à adesão à União Europeia da República Checa, da República da Estónia, da República do Chipre, da República da Letónia, da República da Lituânia, da República da Hungria, da República de Malta, da República da Polónia, da República da Eslovénia e da República Eslovaca, incluindo o Acto relativo às condições de adesão e as adaptações dos Tratados em que se funda a União Europeia,  Anexos, Protocolos e Acta Final com as suas Declarações, assinado em Atenas em 16 de Abril de 2003",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "170",
+         "nome": "Guilherme D'oliveira Martins"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:00",
+       "horaTermo": "12:55",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/008/2003-10-04/421?pgs=421-422&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "146924",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "421-422"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "IX",
+         "pubNr": "8",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2003-10-04",
+         "supl": null
+        }
+       ],
+       "sumario": "Aprova, para ratificação, o Tratado entre os Estados Membros da União Europeia e a República Checa, a República da Estónia, a República do Chipre, a República da Letónia, a República da Lituânia, a República da Hungria, a República de Malta, a República da Polónia, a República da Eslovénia e a República Eslovaca, relativo à adesão à União Europeia da República Checa, da República da Estónia, da República do Chipre, da República da Letónia, da República da Lituânia, da República da Hungria, da República de Malta, da República da Polónia, da República da Eslovénia e da República Eslovaca, incluindo o Acto relativo às condições de adesão e as adaptações dos Tratados em que se funda a União Europeia,  Anexos, Protocolos e Acta Final com as suas Declarações, assinado em Atenas em 16 de Abril de 2003",
+       "teor": null
+      }
+     ]
+    }
+   ],
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "159157",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/008/2003-10-04?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "2816",
+     "idPag": null,
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "8",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2003-10-04",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "330",
+   "Comissao": null,
+   "DataFase": "2003-10-03",
+   "EvtId": "56",
+   "Fase": "Votação global",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "159255",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/09/02/008/2003-10-04/426?pgs=426&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "281802",
+     "obs": null,
+     "pag": [
+      "426-426"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "IX",
+     "pubNr": "8",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2003-10-04",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2003-10-03",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> PS</I>, <I> CDS-PP</I>, <I> BE</I>, <I> PEV</I><BR>Abstenção:<I>PCP</I>",
+     "id": "30957",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "8",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "360",
+   "Comissao": null,
+   "DataFase": "2003-10-03",
+   "EvtId": "57",
+   "Fase": "Resolução (Publicação DAR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "160102",
+   "OevTextId": "4960",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "4960",
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "371",
+   "Comissao": null,
+   "DataFase": "2003-12-04",
+   "EvtId": "121",
+   "Fase": "Envio para Ratificação / Assinatura",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "160532",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "400",
+   "Comissao": null,
+   "DataFase": "2003-12-05",
+   "EvtId": "26",
+   "Fase": "Envio INCM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "160533",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "600",
+   "Comissao": null,
+   "DataFase": "2004-01-15",
+   "EvtId": "44",
+   "Fase": "Resolução da AR (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "160975",
+   "OevTextId": "5082",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "5082",
+   "Votacao": null
+  }
+ ],
+ "IniId": "19814",
+ "IniLeg": "IX",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379394a5745786c5a79394562324e31625756756447397a5357357059326c6864476c32595338354e54646a4d6a6777596930344e54457a4c5451774e4751745957466d4e53316c595451314d7a45344d47597a4d5759755a47396a&fich=957c280b-8513-404d-aaf5-ea453180f31f.doc&Inline=true",
+ "IniNr": "53",
+ "IniObs": null,
+ "IniSel": "1",
+ "IniTextoSubst": "NAO",
+ "IniTextoSubstCampo": null,
+ "IniTipo": "S",
+ "IniTitulo": "Aprova, para ratificação, o Tratado entre os Estados Membros da União Europeia e a República Checa, a República da Estónia, a República de Chipre, a República da Letónia, a República da Lituânia, a República da Hungria, a República de Malta, a República da Polónia, a República da Eslovénia e a República Eslovaca, Relativo à Adesão à União Europeia da República Checa, da República da Estónia, da República de Chipre, da República da Letónia, da República da Lituânia, da República da Hungria, da República de Malta, da República da Polónia, da República da Eslovénia e da República Eslovaca, incluindo o Acto relativo às condições de adesão da República Checa, da República da Estónia, da República de Chipre, da República da Letónia, da República da Lituânia, da República da Hungria, da República de Malta, da República da Polónia, da República da Eslovénia e da República Eslovaca e às adaptações dos Tratados em que se funda a União Europeia, os Anexos, os Protocolos e Acta Final, com as suas Declarações, assinado em Atenas, em 16 de Abril de 2003.",
+ "IniciativasEuropeias": null,
+ "IniciativasOrigem": null,
+ "IniciativasOriginadas": null,
+ "Links": null,
+ "Peticoes": null,
+ "PropostasAlteracao": null
+}

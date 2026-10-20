@@ -3,7 +3,8 @@
 Each model is one SELECT in models/<layer>/<name>.sql and becomes a table called
 <name>. models/schema.yml lists every model in run order with a description of
 every column. Seeds are CSV files in models/seeds and load as seed_<name>.
-models/macros.sql runs last and defines query helpers such as seated_on(d).
+models/macros.sql holds the seating rule (seated_on, seated_during). It runs right after the
+mandates table is built, so later marts can use it.
 Models listed in PYTHON_MODELS are built by a Python function instead of a SQL file.
 """
 
@@ -17,6 +18,8 @@ from parlamento_aberto.vote_details import build_detail_items
 MODELS = Path(__file__).parent / "models"
 LAYERS = ("staging", "marts")
 PYTHON_MODELS = {"stg_votes__detail_items": build_detail_items}
+# The seating macros read mandates and are created as soon as it exists.
+MACROS_AFTER = "mandates"
 
 
 def load_schema() -> dict:
@@ -50,5 +53,6 @@ def build(data_dir: Path | str, database: str = ":memory:") -> duckdb.DuckDBPyCo
         else:
             sql = _model_sql(name, data_dir)
         con.execute(f"create or replace table {name} as {sql}")
-    con.execute((MODELS / "macros.sql").read_text(encoding="utf-8"))
+        if name == MACROS_AFTER:
+            con.execute((MODELS / "macros.sql").read_text(encoding="utf-8"))
     return con

@@ -123,7 +123,8 @@ models:
   mandates:
     description: >-
       One row per deputy, legislature and situation period (DepSituacao), as published.
-      Who held a seat on day D is the seated_on(D) query, not a column. AR periods for one
+      Who held a seat on day D is the seated_on(D) query, not a column; seated_during(D0, D1)
+      gives the same for every day in a range, and the vote marts use it. AR periods for one
       person can overlap on a handover day, for example an Efetivo and a Suspenso period that
       both cover the same day. The rule: among a person's periods covering D, the one that
       starts latest wins, on a tie the longer one (an open end counts as longest) wins, and on

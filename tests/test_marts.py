@@ -25,48 +25,40 @@ def test_every_seeded_legislature_has_a_source(con):
 
 def test_effective_deputies_never_exceed_seats(con):
     # Every day of every legislature, up to its end or the extract date.
-    over = con.sql(
+    days = con.sql(
         """
-        with days as (
-            select l.legislature, unnest(generate_series(
-                l.start_date, coalesce(l.end_date, l.extract_date), interval 1 day
-            ))::date as day
-            from legislatures l
-        ),
-        seated as (
-            select d.legislature, d.day, count(distinct m.cadastro_id) as n
-            from days d
-            left join mandates m
-              on m.legislature = d.legislature
-             and m.is_effective
-             and m.start_date <= d.day
-             and (m.end_date is null or m.end_date >= d.day)
-            group by all
-        )
-        select s.legislature, s.day, s.n, x.seats
-        from seated s join seed_seats x using (legislature)
-        where s.n > x.seats
+        select l.legislature, x.seats, unnest(generate_series(
+            l.start_date, coalesce(l.end_date, l.extract_date), interval 1 day
+        ))::date as day
+        from legislatures l join seed_seats x using (legislature)
         """
     ).fetchall()
+    assert days
+    over = []
+    for legislature, seats, day in days:
+        (n,) = con.execute(
+            "select count(*) from seated_on(?::date) where legislature = ?", [day, legislature]
+        ).fetchone()
+        if n > seats:
+            over.append((legislature, day, n))
     assert over == []
 
 
 def test_current_legislature_is_full_at_extract_date(con):
     rows = con.sql(
         """
-        select l.legislature, x.seats, count(distinct m.cadastro_id)
-        from legislatures l
-        join seed_seats x using (legislature)
-        join mandates m
-          on m.legislature = l.legislature
-         and m.is_effective
-         and m.start_date <= l.extract_date
-         and (m.end_date is null or m.end_date >= l.extract_date)
+        select l.legislature, x.seats, l.extract_date
+        from legislatures l join seed_seats x using (legislature)
         where l.end_date is null
-        group by all
         """
     ).fetchall()
-    assert rows == [("XVII", 230, 230)]
+    assert [r[0] for r in rows] == ["XVII"]
+    for legislature, seats, extract_date in rows:
+        (n,) = con.execute(
+            "select count(*) from seated_on(?::date) where legislature = ?",
+            [extract_date, legislature],
+        ).fetchone()
+        assert n == seats
 
 
 EXPECTED_XVII = {
@@ -85,26 +77,22 @@ EXPECTED_XVII = {
 
 @pytest.mark.parametrize("day", ["2026-10-16", "extract"])
 def test_xvii_seated_split(con, day):
-    rows = con.sql(
-        f"""
-        with d as (
-            select {"extract_date" if day == "extract" else f"date '{day}'"} as day
-            from legislatures where legislature = 'XVII'
-        )
-        select g.group_acronym, count(distinct m.cadastro_id)
-        from d
-        join mandates m
-          on m.legislature = 'XVII'
-         and m.is_effective
-         and m.start_date <= d.day
-         and (m.end_date is null or m.end_date >= d.day)
-        join group_memberships g
-          on g.legislature = m.legislature
-         and g.cadastro_id = m.cadastro_id
-         and g.start_date <= d.day
-         and (g.end_date is null or g.end_date >= d.day)
-        group by all
+    if day == "extract":
+        sql = "select extract_date from legislatures where legislature = 'XVII'"
+        (day,) = con.sql(sql).fetchone()
+    rows = con.execute(
         """
+        select g.group_acronym, count(*)
+        from seated_on(?::date) s
+        join group_memberships g
+          on g.legislature = s.legislature
+         and g.cadastro_id = s.cadastro_id
+         and g.start_date <= ?::date
+         and (g.end_date is null or g.end_date >= ?::date)
+        where s.legislature = 'XVII'
+        group by all
+        """,
+        [day, day, day],
     ).fetchall()
     assert dict(rows) == EXPECTED_XVII
 
@@ -112,7 +100,9 @@ def test_xvii_seated_split(con, day):
 def test_open_group_memberships_have_no_end_date(con):
     n_open, n_end = con.sql(
         """
-        select count(*) filter (where is_open), count(*) filter (where is_open and end_date is not null)
+        select
+            count(*) filter (where is_open),
+            count(*) filter (where is_open and end_date is not null)
         from group_memberships where legislature = 'XVII'
         """
     ).fetchone()

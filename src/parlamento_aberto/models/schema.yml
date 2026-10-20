@@ -1,0 +1,132 @@
+# Every model, in run order, with a description of every column.
+# The data dictionary (#10) is generated from this file.
+models:
+  seed_seats:
+    description: Seats in the Assembleia da República per legislature, hand-kept, each row citing its source.
+    columns:
+      legislature: Legislature in Roman numerals, for example XVII.
+      seats: Total number of seats in that legislature.
+      source: Where the seat count comes from.
+
+  stg_informacao_base__legislatures:
+    description: InformacaoBase DetalheLegislatura, one row per legislature file.
+    columns:
+      legislature_id: AR internal id of the legislature (id).
+      start_date: First day of the legislature (dtini).
+      end_date: Last day of the legislature (dtfim), null while it is running.
+      legislature: Legislature in Roman numerals, from the file path.
+      source_file: Normalised file the row was read from, relative to data/.
+
+  stg_informacao_base__sessions:
+    description: InformacaoBase SessoesLegislativas, one row per legislative session.
+    columns:
+      session_number: Session number within the legislature (numSessao).
+      start_date: First day of the session (dataInicio).
+      end_date: Last day of the session (dataFim).
+      legislature: Legislature in Roman numerals, from the file path.
+      source_file: Normalised file the row was read from, relative to data/.
+
+  stg_informacao_base__electoral_circles:
+    description: InformacaoBase CirculosEleitorais, one row per electoral circle.
+    columns:
+      circle_id: AR id of the electoral circle (cpId).
+      name: Name of the electoral circle (cpDes).
+      legislature: Legislature in Roman numerals, from the file path.
+      source_file: Normalised file the row was read from, relative to data/.
+
+  stg_informacao_base__parliamentary_groups:
+    description: InformacaoBase GruposParlamentares, one row per parliamentary group.
+    columns:
+      group_acronym: Group acronym (sigla), for example PS.
+      name: Full name of the party or group (nome).
+      legislature: Legislature in Roman numerals, from the file path.
+      source_file: Normalised file the row was read from, relative to data/.
+
+  stg_informacao_base__deputies:
+    description: InformacaoBase Deputados, one row per person on the lists of a legislature, elected or not.
+    columns:
+      cadastro_id: Person id shared across legislatures and datasets (DepCadId).
+      deputy_id: Id of this person in this legislature (DepId).
+      full_name: Full name (DepNomeCompleto).
+      parliamentary_name: Name used in parliament (DepNomeParlamentar).
+      circle_id: Electoral circle the person ran in (DepCPId).
+      circle_name: Name of that electoral circle (DepCPDes).
+      situations: Situation periods (DepSituacao) as situation, start_date, end_date.
+      groups: Group memberships (DepGP) as group_id, group_acronym, start_date, end_date.
+      legislature: Legislature in Roman numerals, from the file path.
+      source_file: Normalised file the row was read from, relative to data/.
+
+  stg_registo_biografico__biographies:
+    description: RegistoBiografico, one row per person record, scalar fields only.
+    columns:
+      cadastro_id: Person id shared across legislatures and datasets (CadId).
+      full_name: Full name (CadNomeCompleto).
+      birth_date: Date of birth (CadDtNascimento).
+      sex: Sex as published by the AR, M or F (CadSexo).
+      profession: Profession (CadProfissao).
+      legislature: Legislature in Roman numerals, from the file path.
+      source_file: Normalised file the row was read from, relative to data/.
+
+  legislatures:
+    description: One row per legislature.
+    columns:
+      legislature: Legislature in Roman numerals, for example XVII.
+      legislature_id: AR internal id of the legislature.
+      start_date: First day of the legislature.
+      end_date: Last day of the legislature, null while it is running.
+      extract_date: Date of the AR extract, taken from the end date AR writes on open group memberships.
+
+  sessions:
+    description: One row per legislative session.
+    columns:
+      legislature: Legislature in Roman numerals.
+      session_number: Session number within the legislature.
+      start_date: First day of the session.
+      end_date: Last day of the session.
+
+  electoral_circles:
+    description: One row per electoral circle per legislature.
+    columns:
+      legislature: Legislature in Roman numerals.
+      circle_id: AR id of the electoral circle.
+      name: Name of the electoral circle.
+
+  parliamentary_groups:
+    description: One row per parliamentary group per legislature.
+    columns:
+      legislature: Legislature in Roman numerals.
+      group_acronym: Group acronym, for example PS.
+      name: Full name of the party or group.
+
+  deputies:
+    description: One row per person (cadastro_id) who appears on any list, elected or not. Use mandates to find who sat when.
+    columns:
+      cadastro_id: Person id shared across legislatures and datasets.
+      full_name: Full name, from RegistoBiografico when present, otherwise from the latest InformacaoBase.
+      parliamentary_name: Name used in parliament, from the latest legislature the person appears in.
+      sex: Sex as published by the AR, M or F. Null without a RegistoBiografico record.
+      birth_date: Date of birth. Null without a RegistoBiografico record.
+      profession: Profession. Null without a RegistoBiografico record.
+
+  mandates:
+    description: One row per deputy, legislature and situation period (DepSituacao). Seated on date D means is_effective and the period covers D.
+    columns:
+      legislature: Legislature in Roman numerals.
+      cadastro_id: Person id, joins to deputies.
+      deputy_id: Id of this person in this legislature.
+      circle_id: Electoral circle the person ran in, joins to electoral_circles.
+      situation: Situation as published, for example Efetivo, Suplente, Suspenso(Eleito).
+      is_effective: True for Efetivo, Efetivo Temporário and Efetivo Definitivo, the situations that hold a seat.
+      start_date: First day of the situation.
+      end_date: Last day of the situation, null while it is open.
+
+  group_memberships:
+    description: One row per deputy, legislature and parliamentary group period (DepGP).
+    columns:
+      legislature: Legislature in Roman numerals.
+      cadastro_id: Person id, joins to deputies.
+      group_id: AR id of the group in this legislature (gpId).
+      group_acronym: Group acronym, joins to parliamentary_groups.
+      start_date: First day in the group.
+      end_date: Last day in the group, null while the membership is open.
+      is_open: True when the legislature is running and AR's end date is on or after the extract date.

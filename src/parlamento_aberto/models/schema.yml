@@ -618,6 +618,83 @@ models:
       legislature: Legislature in Roman numerals, from the file path.
       source_file: Normalised file the row was read from, relative to data/.
 
+  stg_ept_registo_interesses__declarations:
+    description: >-
+      EpT register of interests (XVI, XVII and the earlier entity 510 declarations), one row
+      per stored declaration of a Deputado or Deputada, from data/ept_registo_interesses.
+      The first columns match stg_registo_interesses__declarations. Replaced and modified
+      versions are kept as their own rows. Private build (#42), not published.
+    columns:
+      declaration_key: Key built as ept:<EpT declaration id>.
+      cadastro_id: Null here; the marts fill it from seed_ept_holders (#47).
+      format_version: Always EPT.
+      declaration_id: EpT declaration id, the same as source_declaration_id.
+      declared_legislature: Null. EpT declarations name a body, not a legislature.
+      position: Role as EpT names it, Deputado or Deputada.
+      position_start_raw: Office start as published (startDate).
+      position_changed_raw: Null. EpT publishes no office change date.
+      position_end_raw: Office end as published (endDate).
+      version_date_raw: Null. EpT has no version date; see submitted_at.
+      is_exclusive: Null. Tab 4 has no exclusivity field.
+      items: Number of rows in stg_ept_registo_interesses__items for this declaration.
+      legislature: Legislature whose dates hold the office start day in Lisbon, or the submitted day when there is no start. Not taken from the EpT body.
+      source_file: Stored file the row was read from, relative to data/.
+      source: Always ept.
+      source_format: Always EPT.
+      source_declaration_id: EpT declaration id.
+      ept_holder_id: EpT holder id, joins to seed_ept_holders.
+      ept_entity_id: EpT body, 510 (Assembleia da República, XIV to XVI) or 4508 (XVII Legislatura).
+      ept_role_id: EpT role, 8 (Deputado) or 232 (Deputada).
+      position_start_date: Office start as the Europe/Lisbon day.
+      position_changed_date: Null, as position_changed_raw.
+      position_end_date: Office end as the Europe/Lisbon day.
+      version_date: Null, as version_date_raw.
+      declaration_nature: initial, modification, cessation, final, replace or reElection.
+      declaration_state: published, replaced or modified (also draft, pendingVerification, notPublished or canceled if EpT lists one).
+      supersedes_declaration_id: Declaration this one replaces or modifies (relatedDeclarationId).
+      superseded_by_declaration_id: Stored declaration that replaces or modifies this one, if any.
+      chain_root_declaration_id: First stored declaration of this one's replace or modify chain.
+      submitted_at: Submission time as published (submitedDate).
+      submitted_date: Submission as the Europe/Lisbon day.
+      is_current: True for the newest published declaration with no successor, per holder, body and role.
+
+  stg_ept_registo_interesses__items:
+    description: >-
+      One row per tab 4 row of an EpT declaration in stg_ept_registo_interesses__declarations.
+      The first columns match stg_registo_interesses__items. Text is trimmed, dates are kept as
+      published in the _raw columns and converted to the Europe/Lisbon day.
+    columns:
+      declaration_key: Declaration the item belongs to.
+      item_number: Position of the item within the declaration, sections in tab 4 order.
+      category: activity, association, support, service, society or other_situation.
+      source_list: Tab 4 section label as EpT shows it.
+      item_id: Null. EpT rows have no id.
+      type_code: Null. EpT has no type code.
+      description: Office, activity, support, service or situation as written.
+      entity: Entity, company or body named.
+      nature: Nature of a society or of a support or benefit.
+      activity_area: Nature and area of activity of the entity.
+      location: Head office.
+      share: Null. EpT publishes the share as share_value_eur and share_pct.
+      paid_raw: Remuneração as published, 1 or 0, undocumented by EpT.
+      start_date_raw: Start date as published, UTC.
+      end_date_raw: End date as published, UTC.
+      date_raw: Date of an other situation as published.
+      legislature: Legislature of the declaration.
+      source_file: Stored file the row was read from, relative to data/.
+      source: Always ept.
+      is_paid: Null. EpT does not say what 1 and 0 mean.
+      start_date: Start date as the Europe/Lisbon day.
+      end_date: End date as the Europe/Lisbon day.
+      entity_nipc: Entity NIPC, only when it is a valid company NIPC (9 digits, mod-11 check digit, first digit 5, 6, 8 or 9, or prefix 71, 72, 77 or 79). Null otherwise.
+      beneficiary: Beneficiary of a support or benefit as written.
+      beneficiary_company: Company of the beneficiary, for supports.
+      share_value_eur: Value of the shareholding in euros, as written.
+      share_pct: Percentage of the shareholding, as written.
+      share_holder: Holder of the shareholding as written.
+      is_professional_secrecy: Professional secrecy claimed, for services and other situations.
+      observation: Observation of an other situation.
+
   interest_declarations:
     description: >-
       One row per declaration in the register of interests, XI to XV. XVI and XVII are not in

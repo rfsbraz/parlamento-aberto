@@ -14,6 +14,7 @@ from pathlib import Path
 import duckdb
 import yaml
 
+from parlamento_aberto.ept_interests import build_ept_tables
 from parlamento_aberto.interests import build_interest_tables
 from parlamento_aberto.vote_details import build_detail_items
 
@@ -22,9 +23,14 @@ LAYERS = ("staging", "marts")
 PYTHON_MODELS = {
     "stg_votes__detail_items": build_detail_items,
     "stg_registo_interesses__files": build_interest_tables,
+    "stg_ept_registo_interesses__declarations": build_ept_tables,
 }
 # Tables a Python model above writes alongside its own.
-BUILT_ALONGSIDE = {"stg_registo_interesses__declarations", "stg_registo_interesses__items"}
+BUILT_ALONGSIDE = {
+    "stg_registo_interesses__declarations",
+    "stg_registo_interesses__items",
+    "stg_ept_registo_interesses__items",
+}
 # The seating macros read mandates and are created as soon as it exists.
 MACROS_AFTER = "mandates"
 

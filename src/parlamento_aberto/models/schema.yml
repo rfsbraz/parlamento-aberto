@@ -1,5 +1,7 @@
 # Every model, in run order, with a description of every column.
-# The data dictionary (#10) is generated from this file.
+# The data dictionary in docs/dictionary is generated from this file
+# (uv run python -m parlamento_aberto.dictionary). An optional quirks list on a model
+# goes on its page, for example where the JSON disagrees with the old mappers.
 models:
   seed_seats:
     description: >-
@@ -134,6 +136,9 @@ models:
       effective period for the same person starting on D + 1) do not count, up to that excess
       and the number of people starting a seat on D. Counts for Constituinte to VI are still
       overstated on many days, see docs/known-gaps.md.
+    quirks:
+      - >-
+        InformacaoBase lists everyone on the lists of a legislature, elected or not: 1,446 people for XVII at the 20 Oct 2026 sync, against 230 seats. Count seats from the is_effective periods that cover a date, not from rows of the lists. The old site counted every record as a deputy.
     columns:
       legislature: Legislature in Roman numerals.
       cadastro_id: Person id, joins to deputies.
@@ -146,6 +151,9 @@ models:
 
   group_memberships:
     description: One row per deputy, legislature and parliamentary group period (DepGP).
+    quirks:
+      - >-
+        AR writes the extract date as the end date of an open membership. The old mapper stored that date as published, so open memberships looked closed. Here an open membership has a null end_date and is_open = true.
     columns:
       legislature: Legislature in Roman numerals.
       cadastro_id: Person id, joins to deputies.
@@ -299,6 +307,9 @@ models:
       One row per vote id, from the Votacao arrays of Iniciativas events (plenary), of
       their Comissao entries (committee) and the VotacaoDebate arrays of Atividades (plenary). A vote on several initiatives voted together is
       published on each of them with the same content, so it is kept once.
+    quirks:
+      - >-
+        A vote on several initiatives is published on each of them with the same content, so vote ids repeat in the source. The old mapper stored one row per event the vote was published on. Here it is one row per vote id, and initiative_votes links it to every initiative and event.
     columns:
       vote_id: AR id of the vote.
       legislature: Legislature the vote date falls in. Can differ from the initiative's legislature.
@@ -418,6 +429,9 @@ models:
       One row per intervention in plenary, with debate, speaker and diary reference. The speaker
       is a deputy (cadastro_id), a government member or an invited guest. Records AR publishes
       with every key null are dropped.
+    quirks:
+      - >-
+        AR publishes some Intervencoes records with every key null. They are dropped here, so row counts are below the record counts in sources.lock.json, which the staging model matches.
     columns:
       legislature: Legislature in Roman numerals.
       intervention_id: AR id of the intervention.
@@ -449,6 +463,9 @@ models:
 
   questions:
     description: One row per pergunta or requerimento a deputy sent to government or another public body.
+    quirks:
+      - >-
+        Some published send dates are impossible, for example 2909-07-30 in X. The old mapper kept ISO dates as published. Here sent_date is null and sent_date_invalid is true, and sent_date_raw keeps the published text.
     columns:
       legislature: Legislature in Roman numerals.
       question_id: AR id of the question or request.

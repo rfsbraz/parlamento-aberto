@@ -623,6 +623,83 @@ models:
       legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
       source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
+  stg_ept_registo_interesses__declarations:
+    description: >-
+      Registo de interesses da EpT (XVI, XVII e as declarações anteriores da entidade 510), uma
+      linha por declaração guardada de um Deputado ou Deputada, a partir de data/ept_registo_interesses.
+      As primeiras colunas são as de stg_registo_interesses__declarations. As versões substituídas e
+      modificadas ficam como linhas próprias. Construção privada (#42), não publicada.
+    columns:
+      declaration_key: Chave construída como ept:<id da declaração na EpT>.
+      cadastro_id: Nulo aqui; os marts preenchem-no a partir de seed_ept_holders (#47).
+      format_version: Sempre EPT.
+      declaration_id: Id da declaração na EpT, o mesmo que source_declaration_id.
+      declared_legislature: Nulo. As declarações da EpT indicam um órgão, não uma legislatura.
+      position: Cargo como a EpT o designa, Deputado ou Deputada.
+      position_start_raw: Início do cargo tal como publicado (startDate).
+      position_changed_raw: Nulo. A EpT não publica data de alteração do cargo.
+      position_end_raw: Fim do cargo tal como publicado (endDate).
+      version_date_raw: Nulo. A EpT não tem data de versão; ver submitted_at.
+      is_exclusive: Nulo. O separador 4 não tem campo de exclusividade.
+      items: Número de linhas em stg_ept_registo_interesses__items para esta declaração.
+      legislature: Legislatura cujas datas contêm o dia de início do cargo em Lisboa, ou o dia de entrega quando não há início. Não é tirada do órgão da EpT.
+      source_file: Ficheiro guardado de onde a linha foi lida, relativo a data/.
+      source: Sempre ept.
+      source_format: Sempre EPT.
+      source_declaration_id: Id da declaração na EpT.
+      ept_holder_id: Id do titular na EpT, liga a seed_ept_holders.
+      ept_entity_id: Órgão na EpT, 510 (Assembleia da República, XIV a XVI) ou 4508 (XVII Legislatura).
+      ept_role_id: Cargo na EpT, 8 (Deputado) ou 232 (Deputada).
+      position_start_date: Início do cargo como dia em Europe/Lisbon.
+      position_changed_date: Nulo, como position_changed_raw.
+      position_end_date: Fim do cargo como dia em Europe/Lisbon.
+      version_date: Nulo, como version_date_raw.
+      declaration_nature: initial, modification, cessation, final, replace ou reElection.
+      declaration_state: published, replaced ou modified (e também draft, pendingVerification, notPublished ou canceled se a EpT listar alguma).
+      supersedes_declaration_id: Declaração que esta substitui ou modifica (relatedDeclarationId).
+      superseded_by_declaration_id: Declaração guardada que substitui ou modifica esta, se existir.
+      chain_root_declaration_id: Primeira declaração guardada da cadeia de substituições ou modificações desta.
+      submitted_at: Hora de entrega tal como publicada (submitedDate).
+      submitted_date: Entrega como dia em Europe/Lisbon.
+      is_current: Verdadeiro para a declaração publicada mais recente sem sucessora, por titular, órgão e cargo.
+
+  stg_ept_registo_interesses__items:
+    description: >-
+      Uma linha por linha do separador 4 de uma declaração da EpT em stg_ept_registo_interesses__declarations.
+      As primeiras colunas são as de stg_registo_interesses__items. O texto fica sem espaços nas pontas, e as
+      datas ficam tal como publicadas nas colunas _raw e convertidas para o dia em Europe/Lisbon.
+    columns:
+      declaration_key: Declaração a que o item pertence.
+      item_number: Posição do item dentro da declaração, com as secções pela ordem do separador 4.
+      category: activity, association, support, service, society ou other_situation (atividade, associação, apoio, serviço, sociedade ou outra situação).
+      source_list: Designação da secção do separador 4 como a EpT a mostra.
+      item_id: Nulo. As linhas da EpT não têm id.
+      type_code: Nulo. A EpT não tem código de tipo.
+      description: Cargo, atividade, apoio, serviço ou situação tal como escrito.
+      entity: Entidade, empresa ou organismo indicado.
+      nature: Natureza de uma sociedade ou de um apoio ou benefício.
+      activity_area: Natureza e área de atividade da entidade.
+      location: Sede.
+      share: Nulo. A EpT publica a participação como share_value_eur e share_pct.
+      paid_raw: Remuneração tal como publicada, 1 ou 0, não documentada pela EpT.
+      start_date_raw: Data de início tal como publicada, em UTC.
+      end_date_raw: Data de fim tal como publicada, em UTC.
+      date_raw: Data de uma outra situação tal como publicada.
+      legislature: Legislatura da declaração.
+      source_file: Ficheiro guardado de onde a linha foi lida, relativo a data/.
+      source: Sempre ept.
+      is_paid: Nulo. A EpT não diz o que significam 1 e 0.
+      start_date: Data de início como dia em Europe/Lisbon.
+      end_date: Data de fim como dia em Europe/Lisbon.
+      entity_nipc: NIPC da entidade, só quando é um NIPC de empresa válido (9 dígitos, dígito de controlo mod 11, primeiro dígito 5, 6, 8 ou 9, ou prefixo 71, 72, 77 ou 79). Nulo nos outros casos.
+      beneficiary: Beneficiário de um apoio ou benefício tal como escrito.
+      beneficiary_company: Empresa do beneficiário, nos apoios.
+      share_value_eur: Valor da participação social em euros, tal como escrito.
+      share_pct: Percentagem da participação social, tal como escrita.
+      share_holder: Titular da participação social tal como escrito.
+      is_professional_secrecy: Segredo profissional invocado, nos serviços e outras situações.
+      observation: Observação de uma outra situação.
+
   interest_declarations:
     description: >-
       Uma linha por declaração no registo de interesses, XI a XV. A XVI e a XVII não estão nos

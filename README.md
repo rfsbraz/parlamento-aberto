@@ -69,6 +69,8 @@ Um ficheiro com uma chave `nif`, um valor na gama das pessoas singulares, ou um 
 
 Estrutura: `data/ept_registo_interesses/titularidades.ndjson`, `declarations.ndjson` (os resultados da pesquisa, por id) e `<id da entidade>/<id // 1000>/<id>.json` (uma declaração limpa, com o separador 4 indexado por GUID da secção e coluna).
 
+O build lê as declarações guardadas para `stg_ept_registo_interesses__declarations` e `stg_ept_registo_interesses__items` (#46), com as mesmas primeiras colunas das tabelas de staging da XI à XV. Só são lidas as declarações de Deputado e Deputada. A legislatura vem do dia, em Lisboa, do início do cargo (ou da entrega, quando não há início), não do órgão da EpT, por isso as linhas da entidade 510 caem na XIV, XV ou XVI. As datas em UTC passam a dias de Lisboa e os valores publicados ficam nas colunas `_raw`. As versões substituídas e modificadas ficam como linhas, ligadas por `supersedes_declaration_id`, `superseded_by_declaration_id` e `chain_root_declaration_id`, e `is_current` marca a mais recente publicada sem sucessora. A coluna NIPC passa para `entity_nipc`, só com NIPC de empresas válidos.
+
 ## Dicionário de dados
 
 `docs/dictionary` tem uma página por mart, gerada a partir de `src/parlamento_aberto/models/schema.yml`. `docs/querying.md` mostra como consultar uma publicação com DuckDB, pandas e R. Depois de alterar um modelo ou as descrições das suas colunas, volte a gerar as páginas; o CI falha quando estão desatualizadas:

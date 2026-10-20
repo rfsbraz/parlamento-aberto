@@ -107,7 +107,7 @@ Uma linha por item declarado, tal como publicado. Os campos de texto livre da V1
 
 ### stg_ept_registo_interesses__declarations
 
-Registo de interesses da EpT (XVI, XVII e as declarações anteriores da entidade 510), uma linha por declaração guardada de um Deputado ou Deputada, a partir de data/ept_registo_interesses. As primeiras colunas são as de stg_registo_interesses__declarations. As versões substituídas e modificadas ficam como linhas próprias. Construção privada (#42), não publicada.
+Registo de interesses da EpT (XVI, XVII e as declarações anteriores da entidade 510), uma linha por declaração guardada de um Deputado ou Deputada, a partir de data/ept_registo_interesses. As primeiras colunas são as de stg_registo_interesses__declarations. As versões substituídas e modificadas ficam como linhas próprias. Não publicado até a EpT responder (#42).
 
 | Coluna | Tipo | Descrição |
 |---|---|---|

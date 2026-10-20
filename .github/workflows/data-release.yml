@@ -5,9 +5,9 @@ name: data release
 # manifest.json, CHANGELOG.md). A failing test or an unacknowledged row drop stops the run
 # before anything is published, so the previous release stays latest.
 #
-# Publishing is off until Rodrigo sets the repository variable DATA_RELEASES to "on"
-# (the first public release needs his OK). Until then each run uploads the assets as a
-# workflow artifact instead. Only GITHUB_TOKEN is used; no secret is needed.
+# A publicação fica desligada até eu pôr a variável do repositório DATA_RELEASES a "on".
+# Até lá, cada execução carrega os ficheiros como artefacto do workflow. Só usa o
+# GITHUB_TOKEN; não é preciso nenhum secret.
 on:
   push:
     branches: [main]

@@ -23,7 +23,7 @@ Os dados em si são pequenos. Todo o JSON ocupa 1,7 GB, e o DuckDB lê-o em segu
 
 ## Divisão dos repositórios
 
-**Repositório de dados abertos: `rfsbraz/parlamento-aberto`.** Criado a 20 de outubro de 2026 como repositório privado. Passa a público com a primeira publicação de dados, e esse passo precisa do OK do Rodrigo. Contém o código do pipeline, os modelos SQL, os testes, a documentação, o dicionário de dados e os dados em bruto da AR normalizados. Começa com um histórico novo. O CI corre o gitleaks em cada PR.
+**Repositório de dados abertos: `rfsbraz/parlamento-aberto`.** Criado a 20 de outubro de 2026 como repositório privado, já é público. A primeira publicação de dados sai quando eu a ligar. Contém o código do pipeline, os modelos SQL, os testes, a documentação, o dicionário de dados e os dados em bruto da AR normalizados. Começa com um histórico novo. O CI corre o gitleaks em cada PR.
 
 **Repositório do site.** O site do Fiscaliza vive num repositório à parte e só consome as publicações de dados.
 
@@ -51,7 +51,7 @@ Descarregar ficheiros que não mudaram produz um resultado idêntico byte a byte
 
 Decisão: **GitHub Releases no repositório de dados abertos**, uma publicação por cada integração que altera dados, com a tag `data-AAAA-MM-DD` (com um sufixo se houver duas no mesmo dia).
 
-Razões: gratuito e sem custos de saída de tráfego, junto do código e dos dados que os produziram, imutável e citável, e a "latest release" é um ponto de entrada estável. Estima-se que todos os marts em Parquet fiquem abaixo dos 200 MB. Enquanto o repositório for privado, a execução noturna cabe nos 2000 minutos gratuitos de Actions por mês.
+Razões: gratuito e sem custos de saída de tráfego, junto do código e dos dados que os produziram, imutável e citável, e a "latest release" é um ponto de entrada estável. Estima-se que todos os marts em Parquet fiquem abaixo dos 200 MB. Com o repositório público, os runners alojados pelo GitHub não gastam minutos de Actions.
 
 Cada publicação contém:
 - um ficheiro Parquet por mart, mais um CSV comprimido com gzip de cada mart para quem usa folhas de cálculo;
@@ -84,13 +84,13 @@ Um único pacote Python, corrido com `uv`, a usar DuckDB. Os modelos são fichei
 2. **Validação.** Não há ETag nem Last-Modified, por isso calcula-se o hash de cada ficheiro descarregado. Um ficheiro é rejeitado, mantendo a última cópia boa e ficando marcado como desatualizado, se for HTML, não se conseguir ler, ou for `[]` ou `null` quando a última cópia boa tinha registos. Os ficheiros aceites são comparados com o lock: uma queda de mais de 5% no número de registos ou uma alteração no conjunto de chaves de topo deixa-os passar, mas põe o PR em espera.
 3. **Normalização.** Os ficheiros aceites são escritos na estrutura acima. Os registos que desaparecem da fonte são apagados e contados como removidos.
 4. **PR de dados.** Se algo em `data/` mudou, o workflow faz commit no branch `data/nightly` e abre ou atualiza um PR. A descrição traz o relatório de alterações: por conjunto de dados e legislatura, os registos acrescentados, removidos e alterados, mais os ficheiros desatualizados e há quanto tempo o estão.
-5. **Política de integração.** Os PR de dados são integrados automaticamente quando todas as verificações passam. Um PR com uma queda de linhas acima de 5%, uma alteração de schema ou do conjunto de chaves, um novo conjunto de dados ou legislatura, ou um snapshot mais antigo do registo da XVII que agora contém um id fora da XVII (`hold: source-changed`, #23) recebe uma etiqueta `hold:`, a integração automática não é ativada e é o Rodrigo que o integra. Enquanto um PR em espera estiver aberto, as execuções seguintes acrescentam commits ao mesmo branch e atualizam o relatório, por isso nunca se faz force-push.
+5. **Política de integração.** Os PR de dados são integrados automaticamente quando todas as verificações passam. Um PR com uma queda de linhas acima de 5%, uma alteração de schema ou do conjunto de chaves, um novo conjunto de dados ou legislatura, ou um snapshot mais antigo do registo da XVII que agora contém um id fora da XVII (`hold: source-changed`, #23) recebe uma etiqueta `hold:`, a integração automática não é ativada e sou eu que o integro. Enquanto um PR em espera estiver aberto, as execuções seguintes acrescentam commits ao mesmo branch e atualizam o relatório, por isso nunca se faz force-push.
 6. **Staging e marts na integração.** A integração em main dispara o build: um modelo de staging por conjunto de dados, que lê os ficheiros normalizados com uma lista explícita de colunas, para que diferenças de tipo entre legislaturas não possam alterar o schema; depois os marts; depois todos os testes de dados.
 7. **Publicação.** Se os testes passarem, escrevem-se o Parquet e o CSV, constrói-se o manifest e cria-se a publicação. Se um teste falhar, não há publicação e a anterior continua a ser a mais recente.
 
-A execução falha, o que envia um email ao Rodrigo, se um ficheiro principal da legislatura atual (InformacaoBase, Iniciativas, Atividades, Intervencoes) estiver desatualizado há mais de 7 dias.
+A execução falha, o que me envia um email, se um ficheiro principal da legislatura atual (InformacaoBase, Iniciativas, Atividades, Intervencoes) estiver desatualizado há mais de 7 dias.
 
-**Identidade do bot.** Os PR abertos com o `GITHUB_TOKEN` por omissão não disparam o CI, e as integrações feitas com ele não disparam o workflow de publicação. Os workflows precisam de uma GitHub App instalada no repositório (ou de um token fine-grained) guardada como secret do repositório. O Rodrigo cria-a e guarda-a; o valor nunca vai para o git nem para conversas.
+**Identidade do bot.** Os PR abertos com o `GITHUB_TOKEN` por omissão não disparam o CI, e as integrações feitas com ele não disparam o workflow de publicação. Os workflows precisam de uma GitHub App instalada no repositório (ou de um token fine-grained) guardada como secret do repositório. Sou eu que a crio e guardo; o valor nunca vai para o git nem para conversas.
 
 **Horários (Europe/Lisbon, todos depois da janela lenta da AR, das 04:00 às 06:00).**
 - Execução noturna: todos os dias depois das 06:00. Só a legislatura atual, que é sempre a mais recente no `sources.yaml` (hoje a XVII), por isso uma nova passa a atual sem alterar código.

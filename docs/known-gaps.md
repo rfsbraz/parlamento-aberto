@@ -119,7 +119,7 @@ Nenhum dos seis ficheiros tem entrada no `sources.yaml`. As entradas dos quatro 
 
 ## RegistoInteresses
 
-Todos os ficheiros RegistoInteresses, da Constituinte à XV, listam as mesmas 1446 pessoas: as listas da XVII, o mesmo conjunto da AtividadeDeputado. As pessoas que não estão nas listas da XVII não têm declarações aqui. A XVI e a XVII não têm ficheiro: as declarações passaram para a Entidade para a Transparência. A XVI e a XVII vêm da EpT, com `source = 'ept'`: ver a secção seguinte e [sources/ept.md](sources/ept.md).
+Todos os ficheiros RegistoInteresses, da Constituinte à XV, listam as mesmas 1446 pessoas: as listas da XVII, o mesmo conjunto da AtividadeDeputado. As pessoas que não estão nas listas da XVII não têm declarações aqui. A XVI e a XVII não têm ficheiro: as declarações passaram para a Entidade para a Transparência. A XVI e a XVII vêm da EpT, com `source = 'ept'`, e só são republicadas depois de a EpT responder: ver a secção seguinte e [sources/ept.md](sources/ept.md).
 
 - A Constituinte a X não trazem nenhuma declaração, só a lista de pessoas (V3 sem `RecordInterests`). A Constituinte, I-A, I-B e II a X são idênticas byte a byte; a I difere em 17 registos.
 - As declarações estão na XI (V1, 24), XII e XIII (V2, 43 e 61), XIV (V3, 111 declarações de 56 pessoas, e V5, 15) e XV (V5, 98). Cada uma indica a legislatura do seu próprio ficheiro.

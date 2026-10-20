@@ -216,7 +216,8 @@ def test_body_reports_changes_stale_files_and_flags():
     assert "| intervencoes/XVII | +4 / -2 lines |" in body
     assert "atividades/XVII: stale for 2 days since 2026-10-18 (soft 404)" in body
     assert "iniciativas/XVII: row drop 100 to 90" in body
-    assert "Held for review: hold: row-drop" in body
+    assert "Em espera para revisão: hold: row-drop. Sou eu que integro este PR." in body
+    assert "Rodrigo" not in body
     assert "Fonte: Assembleia da República" in body
 
 

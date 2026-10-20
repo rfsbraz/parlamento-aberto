@@ -181,7 +181,8 @@ def render_body(summary, reports, lock, label_names, *, mode, today: dt.date) ->
     ]
     held = [x for x in label_names if x.startswith("hold:")]
     if held:
-        lines += [f"Held for review: {', '.join(held)}. Rodrigo merges this one.", ""]
+        held_text = ", ".join(held)
+        lines += [f"Em espera para revisão: {held_text}. Sou eu que integro este PR.", ""]
     else:
         lines += ["Clean: merges itself once CI passes.", ""]
     lines += ["## Changes against main", ""]

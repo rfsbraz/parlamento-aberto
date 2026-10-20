@@ -133,7 +133,7 @@ jobs:
           else
             gh pr edit "$number" --body-file "$RUNNER_TEMP/body.md"
           fi
-          # Labels only get added, so a held PR stays held until Rodrigo merges it.
+          # As etiquetas só são acrescentadas, por isso um PR em espera fica assim até eu o integrar.
           while read -r label; do
             [ -n "$label" ] && gh pr edit "$number" --add-label "$label"
           done < "$RUNNER_TEMP/labels.txt"

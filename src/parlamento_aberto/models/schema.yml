@@ -185,7 +185,7 @@ models:
       session_number: Legislative session number (Sessao).
       subject: Subject (Assunto).
       entry_date: Date it was registered (DtEntrada).
-      sent_date: Date it was sent (DataEnvio), as published. A few dates in old legislatures are implausible, for example year 0024 or 2909.
+      sent_date_raw: Date it was sent (DataEnvio), as published. A few are implausible, for example year 0024 or 2909; the questions mart flags them.
       document_url: Link to the question or request document (Ficheiro).
       authors: Authors (Autores) as cadastro_id, name, group_acronym.
       recipients: Recipients (Destinatarios) as recipient, sent_date, is_extended, is_returned, is_withdrawn, answer_dates.
@@ -238,7 +238,9 @@ models:
       session_number: Legislative session number.
       subject: Subject.
       entry_date: Date it was registered.
-      sent_date: Date it was sent, as published.
+      sent_date: Date it was sent. Null when sent_date_invalid is true.
+      sent_date_raw: Date it was sent (DataEnvio) exactly as published.
+      sent_date_invalid: True when the published date does not parse or its year is outside the years of the legislature (an open legislature runs to today), for example 2909 in X.
       document_url: Link to the question or request document.
       author_count: Number of authors, one row each in question_authors.
       recipient_count: Number of recipients, one row each in question_recipients.

@@ -6,7 +6,7 @@ select
     cast(Sessao as integer) as session_number,
     Assunto as subject,
     cast(DtEntrada as date) as entry_date,
-    cast(DataEnvio as date) as sent_date,
+    DataEnvio as sent_date_raw,
     Ficheiro as document_url,
     list_transform(
         Autores,

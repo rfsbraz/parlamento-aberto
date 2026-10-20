@@ -47,7 +47,8 @@ def test_every_mart_has_a_page(pages):
 def test_page_has_types_descriptions_and_source_fields(pages):
     page = pages["legislatures.md"]
     assert page.startswith("# legislatures\n")
-    assert "| `start_date` | DATE | First day of the legislature. |" in page
+    assert "| Coluna | Tipo | Descrição |" in page
+    assert "| `start_date` | DATE | Primeiro dia da legislatura. |" in page
     # Built from the staging model, whose descriptions name the AR field.
     assert "stg_informacao_base__legislatures" in page
     assert "(dtini)" in page
@@ -61,14 +62,15 @@ def test_upstream_marts_and_seeds_are_listed(pages):
 
 def test_quirks_are_rendered(pages):
     page = pages["votes.md"]
-    assert "## Known quirks" in page
-    assert "old mapper" in page
+    assert "## Particularidades conhecidas" in page
+    assert "mapeador antigo" in page
 
 
 def test_index_lists_every_mart_and_the_licence(pages):
     index = pages["README.md"]
     for mart in dictionary.marts():
         assert f"[{mart}]({mart}.md)" in index
+    assert index.startswith("# Dicionário de dados\n")
     assert "CC BY 4.0" in index
     assert "Fonte: Assembleia da República, dados abertos" in index
 

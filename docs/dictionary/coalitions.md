@@ -1,44 +1,44 @@
 # coalitions
 
-One row per legislature, coalition list and parliamentary group, from seed_coalitions. Use it to read results by group: for example AD in XVII sits as PSD and CDS-PP, and CDU as PCP (and PEV until XIV). Parties that ran alone are not listed.
+Uma linha por legislatura, lista da coligação e grupo parlamentar, a partir de seed_coalitions. Serve para ler resultados por grupo: por exemplo, a AD na XVII senta-se como PSD e CDS-PP, e a CDU como PCP (e PEV até à XIV). Os partidos que concorreram sozinhos não constam.
 
-Generated from `src/parlamento_aberto/models/schema.yml` by `uv run python -m parlamento_aberto.dictionary`. Do not edit by hand.
+Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
-Release files: `coalitions.parquet` and `coalitions.csv.gz`.
+Ficheiros da publicação: `coalitions.parquet` e `coalitions.csv.gz`.
 
-## Columns
+## Colunas
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `legislature` | VARCHAR | Legislature in Roman numerals. |
-| `coalition` | VARCHAR | Short name the coalition is known by, for example AD or CDU. |
-| `ballot_acronym` | VARCHAR | Acronym of the list on the ballot. |
-| `coalition_name` | VARCHAR | Name of the coalition list. |
-| `group_code` | VARCHAR | Parliamentary group, joins to parliamentary_groups on legislature and group_acronym. |
-| `group_name` | VARCHAR | Name of that group in parliamentary_groups. |
-| `source_url` | VARCHAR | Reference for the composition of the coalition. |
-| `election_url` | VARCHAR | CNE page of the election, with the official results map. |
-| `note` | VARCHAR | Exceptions, for example circles where the parties ran separately. |
+| `legislature` | VARCHAR | Legislatura em numeração romana. |
+| `coalition` | VARCHAR | Nome curto pelo qual a coligação é conhecida, por exemplo AD ou CDU. |
+| `ballot_acronym` | VARCHAR | Sigla da lista no boletim de voto. |
+| `coalition_name` | VARCHAR | Nome da lista da coligação. |
+| `group_code` | VARCHAR | Grupo parlamentar, liga a parliamentary_groups por legislature e group_acronym. |
+| `group_name` | VARCHAR | Nome desse grupo em parliamentary_groups. |
+| `source_url` | VARCHAR | Referência para a composição da coligação. |
+| `election_url` | VARCHAR | Página da CNE sobre a eleição, com o mapa oficial de resultados. |
+| `note` | VARCHAR | Exceções, por exemplo círculos onde os partidos concorreram separados. |
 
-## Known quirks
+## Particularidades conhecidas
 
-- Gaps in the AR source itself are listed in [known gaps](../known-gaps.md).
+- As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
-## Built from
+## Construído a partir de
 
 Marts: [parliamentary_groups](parliamentary_groups.md).
 
 ### seed_coalitions
 
-Hand-kept list of the electoral coalitions that won seats, one row per legislature, coalition list and parliamentary group it maps to, each row citing its source. Started from the old coalition_detector.py, keeping only coalitions that elected deputies and groups that exist in parliamentary_groups.
+Lista mantida à mão das coligações eleitorais que elegeram deputados, uma linha por legislatura, lista da coligação e grupo parlamentar correspondente, cada linha com a sua fonte. Partiu do antigo coalition_detector.py, mantendo só as coligações que elegeram deputados e os grupos que existem em parliamentary_groups.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `legislature` | VARCHAR | Legislature in Roman numerals (the data folder name) the election filled. |
-| `coalition` | VARCHAR | Short name the coalition is known by, for example AD or CDU. |
-| `ballot_acronym` | VARCHAR | Acronym of the list on the ballot, for example PCP-PEV or PPD/PSD.CDS-PP. |
-| `coalition_name` | VARCHAR | Name of the coalition list. |
-| `group_code` | VARCHAR | Parliamentary group its deputies sat in, as listed in that legislature's parliamentary_groups. |
-| `source_url` | VARCHAR | Reference for the composition of the coalition. |
-| `election_url` | VARCHAR | CNE page of the election, with the official results map. |
-| `note` | VARCHAR | Exceptions, for example circles where the parties ran separately. |
+| `legislature` | VARCHAR | Legislatura em numeração romana (o nome da pasta de dados) preenchida pela eleição. |
+| `coalition` | VARCHAR | Nome curto pelo qual a coligação é conhecida, por exemplo AD ou CDU. |
+| `ballot_acronym` | VARCHAR | Sigla da lista no boletim de voto, por exemplo PCP-PEV ou PPD/PSD.CDS-PP. |
+| `coalition_name` | VARCHAR | Nome da lista da coligação. |
+| `group_code` | VARCHAR | Grupo parlamentar onde os seus deputados se sentaram, como listado em parliamentary_groups nessa legislatura. |
+| `source_url` | VARCHAR | Referência para a composição da coligação. |
+| `election_url` | VARCHAR | Página da CNE sobre a eleição, com o mapa oficial de resultados. |
+| `note` | VARCHAR | Exceções, por exemplo círculos onde os partidos concorreram separados. |

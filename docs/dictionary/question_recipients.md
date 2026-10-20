@@ -1,48 +1,48 @@
 # question_recipients
 
-One row per question and recipient body.
+Uma linha por pergunta e organismo destinatário.
 
-Generated from `src/parlamento_aberto/models/schema.yml` by `uv run python -m parlamento_aberto.dictionary`. Do not edit by hand.
+Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
-Release files: `question_recipients.parquet` and `question_recipients.csv.gz`.
+Ficheiros da publicação: `question_recipients.parquet` e `question_recipients.csv.gz`.
 
-## Columns
+## Colunas
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `legislature` | VARCHAR | Legislature in Roman numerals. |
-| `question_id` | BIGINT | AR id of the question, joins to questions. |
-| `recipient` | VARCHAR | Name of the recipient body as published, for example a ministry or a câmara municipal. |
-| `sent_date` | DATE | Date it was sent to this recipient. |
-| `is_extended` | BOOLEAN | True when the answer deadline was extended (prorrogado). |
-| `is_returned` | BOOLEAN | True when the recipient returned it (devolvido). |
-| `is_withdrawn` | BOOLEAN | True when it was withdrawn (retirado). |
-| `answer_count` | BIGINT | Answers received from this recipient. |
-| `first_answer_date` | DATE | Date of the first answer, null without one. |
+| `legislature` | VARCHAR | Legislatura em numeração romana. |
+| `question_id` | BIGINT | Id da pergunta na AR, liga a questions. |
+| `recipient` | VARCHAR | Nome do organismo destinatário tal como publicado, por exemplo um ministério ou uma câmara municipal. |
+| `sent_date` | DATE | Data de envio a este destinatário. |
+| `is_extended` | BOOLEAN | Verdadeiro quando o prazo de resposta foi prorrogado. |
+| `is_returned` | BOOLEAN | Verdadeiro quando o destinatário a devolveu. |
+| `is_withdrawn` | BOOLEAN | Verdadeiro quando foi retirada. |
+| `answer_count` | BIGINT | Respostas recebidas deste destinatário. |
+| `first_answer_date` | DATE | Data da primeira resposta, nula se não houver nenhuma. |
 
-## Known quirks
+## Particularidades conhecidas
 
-- Gaps in the AR source itself are listed in [known gaps](../known-gaps.md).
+- As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
-## Built from
+## Construído a partir de
 
 ### stg_perguntas_requerimentos__questions
 
-PerguntasRequerimentos, one row per source record. Row counts per legislature match sources.lock.json.
+PerguntasRequerimentos, uma linha por registo da fonte. As contagens de linhas por legislatura batem com sources.lock.json.
 
-| Column | Type | Description |
+| Coluna | Tipo | Descrição |
 |---|---|---|
-| `question_id` | BIGINT | AR id of the question or request (Id). |
-| `question_type` | VARCHAR | Pergunta or Requerimento (Tipo). |
-| `recipient_category` | VARCHAR | Recipient category code as published (ReqTipo). From the recipients under each code, AC is central government, AL local government, EI independent and other public bodies, RA the autonomous regions and AR the Assembleia itself. |
-| `number` | VARCHAR | Number of the question or request within its type and session (Nr), as published. |
-| `session_number` | INTEGER | Legislative session number (Sessao). |
-| `subject` | VARCHAR | Subject (Assunto). |
-| `entry_date` | DATE | Date it was registered (DtEntrada). |
-| `sent_date_raw` | VARCHAR | Date it was sent (DataEnvio), as published. A few are implausible, for example year 0024 or 2909; the questions mart flags them. |
-| `document_url` | VARCHAR | Link to the question or request document (Ficheiro). |
-| `authors` | STRUCT(cadastro_id BIGINT, "name" VARCHAR, group_acronym VARCHAR)[] | Authors (Autores) as cadastro_id, name, group_acronym. |
-| `recipients` | STRUCT(recipient VARCHAR, sent_date DATE, is_extended BOOLEAN, is_returned BOOLEAN, is_withdrawn BOOLEAN, answer_dates DATE[])[] | Recipients (Destinatarios) as recipient, sent_date, is_extended, is_returned, is_withdrawn, answer_dates. |
-| `question_level_answers` | BIGINT | Number of answers published on the question rather than per recipient (RespostasSPerguntas), used in older legislatures. |
-| `legislature` | VARCHAR | Legislature in Roman numerals, from the file path. |
-| `source_file` | VARCHAR | Normalised file the row was read from, relative to data/. |
+| `question_id` | BIGINT | Id da pergunta ou requerimento na AR (Id). |
+| `question_type` | VARCHAR | Pergunta ou Requerimento (Tipo). |
+| `recipient_category` | VARCHAR | Código da categoria do destinatário tal como publicado (ReqTipo). Pelos destinatários de cada código, AC é a administração central, AL a administração local, EI entidades independentes e outros organismos públicos, RA as regiões autónomas e AR a própria Assembleia. |
+| `number` | VARCHAR | Número da pergunta ou requerimento dentro do seu tipo e sessão (Nr), tal como publicado. |
+| `session_number` | INTEGER | Número da sessão legislativa (Sessao). |
+| `subject` | VARCHAR | Assunto (Assunto). |
+| `entry_date` | DATE | Data de registo (DtEntrada). |
+| `sent_date_raw` | VARCHAR | Data de envio (DataEnvio), tal como publicada. Algumas são implausíveis, por exemplo o ano 0024 ou 2909; o mart questions assinala-as. |
+| `document_url` | VARCHAR | Ligação para o documento da pergunta ou requerimento (Ficheiro). |
+| `authors` | STRUCT(cadastro_id BIGINT, "name" VARCHAR, group_acronym VARCHAR)[] | Autores (Autores) como cadastro_id, name, group_acronym. |
+| `recipients` | STRUCT(recipient VARCHAR, sent_date DATE, is_extended BOOLEAN, is_returned BOOLEAN, is_withdrawn BOOLEAN, answer_dates DATE[])[] | Destinatários (Destinatarios) como recipient, sent_date, is_extended, is_returned, is_withdrawn, answer_dates. |
+| `question_level_answers` | BIGINT | Número de respostas publicadas na pergunta e não por destinatário (RespostasSPerguntas), usado em legislaturas mais antigas. |
+| `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
+| `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |

@@ -1,132 +1,132 @@
-# Fiscaliza restart: open data pipeline and site
+# Recomeço do Fiscaliza: pipeline de dados abertos e site
 
-Status: approved 20 Oct 2026 (layout and merge policy).
+Estado: aprovado a 20 de outubro de 2026 (estrutura e política de integração).
 
-## Why we are restarting
+## Porque recomeçamos
 
-The old ingestion is the root problem. It parses the XML copy of the parlamento.pt dumps, runs 23 hand-written mappers, writes row by row through the ORM into 230 tables, and is driven by three different orchestrators on a heavy AWS stack. Every change in the source format breaks it, and the live site showed wrong numbers: 1,446 deputies for the XVII legislature, which has 230 seats.
+O problema de fundo é a ingestão antiga. Lê a cópia XML dos dumps do parlamento.pt, corre 23 mapeadores escritos à mão, escreve linha a linha através do ORM em 230 tabelas e é comandada por três orquestradores diferentes, numa infraestrutura AWS pesada. Cada alteração no formato da fonte parte-a, e o site publicado mostrava números errados: 1446 deputados na XVII legislatura, que tem 230 lugares.
 
-The data itself is small. All JSON is 1.7 GB, and DuckDB reads it in seconds. Converting all initiatives and interventions (about 1 GB of JSON) to Parquet took 5 seconds and produced 33 MB. This is a batch problem, and we will treat it as one.
+Os dados em si são pequenos. Todo o JSON ocupa 1,7 GB, e o DuckDB lê-o em segundos. Converter todas as iniciativas e intervenções (cerca de 1 GB de JSON) para Parquet demorou 5 segundos e deu 33 MB. É um problema de processamento em lote, e vamos tratá-lo como tal.
 
-## Goals
+## Objetivos
 
-- A public, versioned, documented set of clean datasets about the Assembleia da República, rebuilt daily from the official dumps, with the raw source in git so every AR change is a reviewable diff.
-- Numbers you can defend. Every published table has tests that tie it back to the source and to known facts, such as 230 seats.
-- Everything driven by CI/CD, with no server or database. Fiscaliza is one consumer. Running cost of zero, or close to it.
+- Um conjunto público, versionado e documentado de dados limpos sobre a Assembleia da República, reconstruído todos os dias a partir dos dumps oficiais, com a fonte em bruto no git para que cada alteração da AR seja um diff que se pode rever.
+- Números que se podem defender. Cada tabela publicada tem testes que a ligam à fonte e a factos conhecidos, como os 230 lugares.
+- Tudo comandado por CI/CD, sem servidor nem base de dados. O Fiscaliza é um dos consumidores. Custo de funcionamento nulo, ou perto disso.
 
-## Non-goals
+## Fora dos objetivos
 
-- No live API in v1. People who want to query can point DuckDB, pandas or R at the Parquet files.
-- No XML. The JSON and XML dumps carry the same content, and JSON is simpler to load.
-- No historical correctness beyond what the source provides. Where the source is incomplete we flag it rather than patch it by hand, except for small seed tables that cite their source.
-- DAR (the Diário) is out of v1. See the DAR section.
+- Sem API em direto na v1. Quem quiser consultar pode apontar o DuckDB, o pandas ou o R aos ficheiros Parquet.
+- Sem XML. Os dumps JSON e XML têm o mesmo conteúdo, e o JSON é mais simples de carregar.
+- Sem correção histórica para além do que a fonte dá. Onde a fonte está incompleta, assinalamos em vez de corrigir à mão, exceto em pequenas tabelas seed que citam a sua fonte.
+- O DAR (o Diário) fica fora da v1. Ver a secção sobre o DAR.
 
-## Repo split
+## Divisão dos repositórios
 
-**Open data repo: `rfsbraz/parlamento-aberto`.** Created 20 Oct 2026 as a private repo. It goes public with the first data release, and that step needs Rodrigo's OK. It holds the pipeline code, the SQL models, the tests, the docs, the data dictionary and the normalised raw AR data. It starts with fresh history. CI runs gitleaks on every PR.
+**Repositório de dados abertos: `rfsbraz/parlamento-aberto`.** Criado a 20 de outubro de 2026 como repositório privado. Passa a público com a primeira publicação de dados, e esse passo precisa do OK do Rodrigo. Contém o código do pipeline, os modelos SQL, os testes, a documentação, o dicionário de dados e os dados em bruto da AR normalizados. Começa com um histórico novo. O CI corre o gitleaks em cada PR.
 
-**Site repo.** The Fiscaliza site lives in a separate repo and only consumes the data releases.
+**Repositório do site.** O site do Fiscaliza vive num repositório à parte e só consome as publicações de dados.
 
-**How the site consumes data.** The site never talks to parlamento.pt. Its build step downloads the latest data release, checks that the manifest's schema major version is one it supports, and generates static pages and per-legislature JSON shards from the Parquet files. A scheduled site workflow rebuilds once a day after the data run. If the schema check fails, the build fails and the previous deploy stays live. No cross-repo token is needed.
+**Como o site consome os dados.** O site nunca fala com o parlamento.pt. O seu passo de build descarrega a publicação de dados mais recente, verifica que a versão major do schema no manifest é uma que suporta e gera páginas estáticas e fragmentos JSON por legislatura a partir dos ficheiros Parquet. Um workflow agendado do site reconstrói-o uma vez por dia, depois da execução dos dados. Se a verificação do schema falhar, o build falha e o deploy anterior mantém-se. Não é preciso nenhum token entre repositórios.
 
-## Raw data in git
+## Dados em bruto no git
 
-Raw AR files are stored in git as extracted, normalised text, never as ZIPs, so a data PR shows the records that changed. A sizing study (20 Oct 2026) settled the layout:
+Os ficheiros em bruto da AR ficam no git como texto extraído e normalizado, nunca como ZIP, para que um PR de dados mostre os registos que mudaram. Um estudo de dimensionamento (20 de outubro de 2026) definiu a estrutura:
 
-- Iniciativas XIII and IX are over GitHub's 100 MiB limit, and XVII is 94 MiB one year in, so one file per legislature fails.
-- AR record order is unstable, and one NDJSON line per initiative can be 1.1 MB, which GitHub will not render.
-- The per-record layout grew 22 to 43 KB per day over 25 replayed days. Estimate: 100 to 210 MB packed after a year, far below GitHub's 5 GB guidance. Git LFS is not needed and would hide diffs.
-- Soft 404s are temporary (all 8 seen recovered within an hour). The server throttles between about 04:00 and 06:00 Lisbon time and serves gzip at about 10% of the size.
+- As Iniciativas da XIII e da IX passam o limite de 100 MiB do GitHub, e a XVII tem 94 MiB ao fim de um ano, por isso um ficheiro por legislatura não serve.
+- A ordem dos registos da AR é instável, e uma linha NDJSON por iniciativa pode ter 1,1 MB, que o GitHub não mostra.
+- A estrutura por registo cresceu entre 22 e 43 KB por dia ao longo de 25 dias reproduzidos. Estimativa: 100 a 210 MB comprimidos ao fim de um ano, muito abaixo da recomendação de 5 GB do GitHub. O Git LFS não é necessário e esconderia os diffs.
+- Os soft 404 são temporários (os 8 observados recuperaram todos em menos de uma hora). O servidor limita o tráfego entre cerca das 04:00 e as 06:00, hora de Lisboa, e serve gzip com cerca de 10% do tamanho.
 
-**Layout.** Everything lives under `data/`, keyed by dataset and legislature, with keys sorted and UTF-8 kept as is.
+**Estrutura.** Tudo fica em `data/`, organizado por conjunto de dados e legislatura, com as chaves ordenadas e o UTF-8 mantido tal como está.
 
-- **Nested, record-heavy datasets** (Iniciativas, and likely AtividadeDeputado and Peticoes): one pretty-printed, key-sorted JSON file per record, in folders bucketed by id, for example `data/iniciativas/XVII/377/377352.json`. A new vote on an initiative shows up in the PR as the vote fields.
-- **Flat datasets** (Intervencoes, PerguntasRequerimentos, Agenda, InformacaoBase tables and similar): NDJSON with sorted keys, records in natural-id order, split into fixed id or year ranges so a record never moves between files. Each file stays under 50 MB.
-- No file may get near 100 MB. CI fails any PR that adds a file over 50 MB.
-- `data/_meta/sources.lock.json` records, per source file: the SHA-256 of the last good download, its fetch date, record count, top-level key fingerprint and stale status. It is what the change report and the validation rules compare against.
+- **Conjuntos de dados aninhados e com muitos registos** (Iniciativas e, provavelmente, AtividadeDeputado e Peticoes): um ficheiro JSON por registo, formatado e com as chaves ordenadas, em pastas agrupadas por id, por exemplo `data/iniciativas/XVII/377/377352.json`. Uma nova votação numa iniciativa aparece no PR como os campos da votação.
+- **Conjuntos de dados planos** (Intervencoes, PerguntasRequerimentos, Agenda, tabelas da InformacaoBase e semelhantes): NDJSON com as chaves ordenadas, registos pela ordem do id natural, divididos em intervalos fixos de id ou de ano para que um registo nunca mude de ficheiro. Cada ficheiro fica abaixo dos 50 MB.
+- Nenhum ficheiro se pode aproximar dos 100 MB. O CI faz falhar qualquer PR que acrescente um ficheiro com mais de 50 MB.
+- `data/_meta/sources.lock.json` regista, por ficheiro da fonte: o SHA-256 do último ficheiro descarregado bom, a data em que foi descarregado, o número de registos, a impressão digital das chaves de topo e o estado de desatualização. É com ele que o relatório de alterações e as regras de validação comparam.
 
-Fetches of unchanged files produce byte-identical output, so they add nothing to history. The DAR ZIPs and 67 smaller files still need sizing; the fetch PR measures them first.
+Descarregar ficheiros que não mudaram produz um resultado idêntico byte a byte, por isso não acrescenta nada ao histórico. Os ZIP do DAR e 67 ficheiros mais pequenos ainda têm de ser dimensionados; o PR de fetch mede-os primeiro.
 
-## Where the published data lives
+## Onde ficam os dados publicados
 
-Decision: **GitHub Releases on the open data repo**, one release per merge that changes data, tagged `data-YYYY-MM-DD` (with a suffix if there are two in a day).
+Decisão: **GitHub Releases no repositório de dados abertos**, uma publicação por cada integração que altera dados, com a tag `data-AAAA-MM-DD` (com um sufixo se houver duas no mesmo dia).
 
-Reasoning: free with no egress charge, next to the code and data that produced it, immutable and citable, and "latest release" is a stable entry point. All marts in Parquet are estimated under 200 MB. While private, the nightly run fits in the 2,000 free Actions minutes a month.
+Razões: gratuito e sem custos de saída de tráfego, junto do código e dos dados que os produziram, imutável e citável, e a "latest release" é um ponto de entrada estável. Estima-se que todos os marts em Parquet fiquem abaixo dos 200 MB. Enquanto o repositório for privado, a execução noturna cabe nos 2000 minutos gratuitos de Actions por mês.
 
-Each release contains:
-- one Parquet file per mart, plus a gzipped CSV of each mart for spreadsheet users;
-- `manifest.json` with schema version, build time, the data commit SHA it was built from, row counts per mart and per legislature, and the SHA-256 and fetch date of every source file used;
-- a `CHANGELOG.md` excerpt for schema changes.
+Cada publicação contém:
+- um ficheiro Parquet por mart, mais um CSV comprimido com gzip de cada mart para quem usa folhas de cálculo;
+- `manifest.json` com a versão do schema, a hora do build, o SHA do commit de dados de onde foi construída, o número de linhas por mart e por legislatura, e o SHA-256 e a data de descarga de cada ficheiro da fonte usado;
+- um excerto `CHANGELOG.md` com as alterações ao schema.
 
-Raw snapshots are no longer archived as release assets. Git history is the archive, and the commit SHA in the manifest is enough to rebuild any release. R2 and Hugging Face are not used in v1; Hugging Face can be added later as a mirror in one small PR.
+Os snapshots em bruto deixam de ser arquivados como ficheiros das publicações. O histórico do git é o arquivo, e o SHA do commit no manifest chega para reconstruir qualquer publicação. O R2 e o Hugging Face não são usados na v1; o Hugging Face pode ser acrescentado mais tarde como espelho, num PR pequeno.
 
-The site goes on Cloudflare Pages (free tier, 20,000 files per deploy), pre-rendering deputies, parties and legislatures and loading initiatives and votes client-side from shards.
+O site vai para o Cloudflare Pages (escalão gratuito, 20 000 ficheiros por deploy), com deputados, partidos e legislaturas pré-renderizados e as iniciativas e votações carregadas no browser a partir dos fragmentos.
 
-## Licences
+## Licenças
 
-**Source terms.** The parlamento.pt open data page says the data "podem ser livremente reutilizados por qualquer instituição ou pessoa para a criação de novos conteúdos, devendo apenas ser mencionada a fonte (Assembleia da República)". Source: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx (checked 17 Oct 2026). The only condition is attribution.
+**Termos da fonte.** A página de dados abertos do parlamento.pt diz que os dados "podem ser livremente reutilizados por qualquer instituição ou pessoa para a criação de novos conteúdos, devendo apenas ser mencionada a fonte (Assembleia da República)". Fonte: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx (verificado a 17 de outubro de 2026). A única condição é a atribuição.
 
-**Data: CC BY 4.0**, for both the normalised raw files in `data/` and the published marts, with the attribution passed through ("Fonte: Assembleia da República, dados abertos") in the README, the manifest and every CSV header comment.
+**Dados: CC BY 4.0**, tanto para os ficheiros em bruto normalizados em `data/` como para os marts publicados, com a atribuição passada adiante ("Fonte: Assembleia da República, dados abertos") no README, no manifest e no comentário de cabeçalho de cada CSV.
 
-**Code: MIT**, since AGPL discourages reuse of a small pipeline. The site repo keeps AGPL-3.0.
+**Código: MIT**, porque a AGPL desencoraja a reutilização de um pipeline pequeno. O repositório do site mantém a AGPL-3.0.
 
-**Personal data.** Biographies, birth dates and interest registers are personal data. We republish only what the AR publishes and give a correction contact in the README. A cost of raw data in git: once public, removing a record from history needs a rewrite. If the AR drops a record we delete it going forward, and rewrite history only if a request requires it.
+**Dados pessoais.** Biografias, datas de nascimento e registos de interesses são dados pessoais. Republicamos apenas o que a AR publica e indicamos um contacto para correções no README. Um custo de ter os dados em bruto no git: depois de o repositório ser público, remover um registo do histórico obriga a reescrevê-lo. Se a AR retirar um registo, apagamo-lo daí em diante, e só reescrevemos o histórico se um pedido o exigir.
 
 ## Pipeline
 
-One Python package, run with `uv`, using DuckDB. Models are plain SQL files run in order by a small runner, with column descriptions in YAML that also generate the data dictionary. No dbt: about 20 models do not need it.
+Um único pacote Python, corrido com `uv`, a usar DuckDB. Os modelos são ficheiros SQL simples corridos por ordem por um pequeno executor, com as descrições das colunas em YAML, que também geram o dicionário de dados. Sem dbt: cerca de 20 modelos não precisam dele.
 
-1. **Fetch.** `sources.yaml` lists every dataset URL per legislature. Requests are sequential, ask for gzip, send a clear User-Agent and retry with backoff. A soft 404 is retried within the run; if it persists, the last good copy stays and the file is marked stale.
-2. **Validate.** There is no ETag or Last-Modified, so every download is hashed. A file is rejected, keeping its last good copy and marked stale, if it is HTML, fails to parse, or is `[]` or `null` where the last good copy had records. Accepted files are checked against the lock: a record-count drop over 5% or a changed top-level key set is allowed through but puts the PR on hold.
-3. **Normalise.** Accepted files are written into the layout above. Records that disappear from the source are deleted and counted as removed.
-4. **Data PR.** If anything under `data/` changed, the workflow commits to the `data/nightly` branch and opens or updates one PR. The body carries the change report: per dataset and legislature, records added, removed and changed, plus stale files and how long they have been stale.
-5. **Merge policy.** Data PRs auto-merge when all checks pass. A PR with a row drop over 5%, a schema or key-set change, a new dataset or legislature, or an older snapshot of the XVII register that now holds an id outside XVII (`hold: source-changed`, #23) gets a `hold:` label, auto-merge is not enabled, and Rodrigo merges it. While a held PR is open, later runs add commits to the same branch and refresh the report, so nothing is force-pushed.
-6. **Stage and marts on merge.** Merging to main triggers the build: one staging model per dataset reading the normalised files with an explicit column list, so type drift between legislatures cannot change the schema; then the marts; then all data tests.
-7. **Publish.** If the tests pass, write Parquet and CSV, build the manifest and create the release. If a test fails, no release is made and the previous one stays latest.
+1. **Descarga.** O `sources.yaml` lista o URL de cada conjunto de dados por legislatura. Os pedidos são sequenciais, pedem gzip, enviam um User-Agent claro e repetem com espera crescente. Um soft 404 é repetido dentro da mesma execução; se persistir, fica a última cópia boa e o ficheiro é marcado como desatualizado.
+2. **Validação.** Não há ETag nem Last-Modified, por isso calcula-se o hash de cada ficheiro descarregado. Um ficheiro é rejeitado, mantendo a última cópia boa e ficando marcado como desatualizado, se for HTML, não se conseguir ler, ou for `[]` ou `null` quando a última cópia boa tinha registos. Os ficheiros aceites são comparados com o lock: uma queda de mais de 5% no número de registos ou uma alteração no conjunto de chaves de topo deixa-os passar, mas põe o PR em espera.
+3. **Normalização.** Os ficheiros aceites são escritos na estrutura acima. Os registos que desaparecem da fonte são apagados e contados como removidos.
+4. **PR de dados.** Se algo em `data/` mudou, o workflow faz commit no branch `data/nightly` e abre ou atualiza um PR. A descrição traz o relatório de alterações: por conjunto de dados e legislatura, os registos acrescentados, removidos e alterados, mais os ficheiros desatualizados e há quanto tempo o estão.
+5. **Política de integração.** Os PR de dados são integrados automaticamente quando todas as verificações passam. Um PR com uma queda de linhas acima de 5%, uma alteração de schema ou do conjunto de chaves, um novo conjunto de dados ou legislatura, ou um snapshot mais antigo do registo da XVII que agora contém um id fora da XVII (`hold: source-changed`, #23) recebe uma etiqueta `hold:`, a integração automática não é ativada e é o Rodrigo que o integra. Enquanto um PR em espera estiver aberto, as execuções seguintes acrescentam commits ao mesmo branch e atualizam o relatório, por isso nunca se faz force-push.
+6. **Staging e marts na integração.** A integração em main dispara o build: um modelo de staging por conjunto de dados, que lê os ficheiros normalizados com uma lista explícita de colunas, para que diferenças de tipo entre legislaturas não possam alterar o schema; depois os marts; depois todos os testes de dados.
+7. **Publicação.** Se os testes passarem, escrevem-se o Parquet e o CSV, constrói-se o manifest e cria-se a publicação. Se um teste falhar, não há publicação e a anterior continua a ser a mais recente.
 
-The run fails, which emails Rodrigo, if a current-legislature core file (InformacaoBase, Iniciativas, Atividades, Intervencoes) has been stale for more than 7 days.
+A execução falha, o que envia um email ao Rodrigo, se um ficheiro principal da legislatura atual (InformacaoBase, Iniciativas, Atividades, Intervencoes) estiver desatualizado há mais de 7 dias.
 
-**Bot identity.** PRs opened with the default `GITHUB_TOKEN` do not trigger CI, and merges made with it do not trigger the publish workflow. The workflows need a GitHub App installed on the repo (or a fine-grained token) stored as a repository secret. Rodrigo creates and stores it; the value never goes into git or chat.
+**Identidade do bot.** Os PR abertos com o `GITHUB_TOKEN` por omissão não disparam o CI, e as integrações feitas com ele não disparam o workflow de publicação. Os workflows precisam de uma GitHub App instalada no repositório (ou de um token fine-grained) guardada como secret do repositório. O Rodrigo cria-a e guarda-a; o valor nunca vai para o git nem para conversas.
 
-**Schedules (Europe/Lisbon, all after the AR's 04:00 to 06:00 slow window).**
-- Nightly run: daily after 06:00. Only the current legislature, which is always the newest in `sources.yaml` (XVII today), so a new one becomes current with no code change.
-- Full sync: monthly on the 3rd at 06:30 Lisbon, every legislature, with hashing skipping unchanged files. The nightly run skips the 3rd.
-- Manual: a `workflow_dispatch` input runs the full sync by hand, optionally limited to one dataset or one legislature.
-- Catch-up run: about 09:30, re-fetching only files marked stale.
-- Discover: weekly, Monday 08:00. New links become a held PR to `sources.yaml`, or an issue if they need a decision.
-- Site rebuild: daily at 11:00.
+**Horários (Europe/Lisbon, todos depois da janela lenta da AR, das 04:00 às 06:00).**
+- Execução noturna: todos os dias depois das 06:00. Só a legislatura atual, que é sempre a mais recente no `sources.yaml` (hoje a XVII), por isso uma nova passa a atual sem alterar código.
+- Sincronização completa: mensal, no dia 3 às 06:30, hora de Lisboa, todas as legislaturas, com o hash a saltar os ficheiros que não mudaram. A execução noturna não corre no dia 3.
+- Manual: um input de `workflow_dispatch` corre a sincronização completa à mão, opcionalmente limitada a um conjunto de dados ou a uma legislatura.
+- Execução de recuperação: por volta das 09:30, volta a descarregar só os ficheiros marcados como desatualizados.
+- Descoberta: semanal, à segunda-feira às 08:00. As ligações novas dão origem a um PR em espera ao `sources.yaml`, ou a uma issue se precisarem de uma decisão.
+- Reconstrução do site: todos os dias às 11:00.
 
-The nightly run and the full sync share the same branch, PR, change report and merge rules. A full-sync PR that changes past legislatures also gets an informational `historical-change` label, which does not hold it on its own.
+A execução noturna e a sincronização completa partilham o mesmo branch, PR, relatório de alterações e regras de integração. Um PR de sincronização completa que altera legislaturas passadas recebe também uma etiqueta informativa `historical-change`, que por si só não o põe em espera.
 
-## First marts
+## Primeiros marts
 
-The old mappers in `scripts/data_processing/mappers/` and the two analysis docs are the field spec. Where they disagree with the JSON, the JSON wins and we note it in the dictionary.
+Os mapeadores antigos em `scripts/data_processing/mappers/` e os dois documentos de análise são a especificação dos campos. Onde discordam do JSON, prevalece o JSON e registamos isso no dicionário.
 
-- **legislatures**, **sessions**, **electoral_circles**: from InformacaoBase.
-- **deputies**: one row per person (`cadastro_id`), names and biography from RegistoBiografico.
-- **mandates**: one row per deputy per legislature per situation period (Efetivo, Suplente, Suspenso and so on), from `DepSituacao`. "Seated on date D" is a query on this table, not a column.
-- **parliamentary_groups** and **group_memberships**: from `GruposParlamentares` and `DepGP`. Open memberships carry the extract date as their end date rather than null, so staging treats an end date on or after the extract date as open.
-- **coalitions**: a hand-kept seed CSV (AD, CDU, PàF and so on) mapping electoral coalitions to the groups that sit in parliament, each row citing a source. The old `coalition_detector.py` is the starting list.
-- **initiatives** and **initiative_authors**: from Iniciativas.
-- **votes**: one row per vote id, from the `Votacao` arrays in Iniciativas events and in Atividades, with result, date, meeting and a `unanimous` flag. Vote ids repeat across events (30,708 records, 30,700 distinct ids), so we deduplicate by id.
-- **vote_group_positions**: parsed from the `detalhe` string, one row per vote, group and position (favour, against, abstention, absent). The strings look like `A Favor: <I>PS</I>, <I> PSD</I><BR>Contra:<I>PCP</I>`, and newer ones add dissenters as `2-PS, Carlos Silva (PS), Fátima Correia Pinto (PS)`. The parser strips the markup, splits on `<BR>`, and emits group rows plus a dissent count. Where a vote is unanimous and has no detail, we emit favour rows for every group seated that day and mark them `inferred = true`.
-- **vote_deputy_dissents**: the named individuals from the same strings, matched to `cadastro_id` by parliamentary name and group within the legislature. Unmatched names stay with a null id and are counted in tests.
-- **interventions**: from Intervencoes, with debate, speaker and publication reference.
-- **questions**: perguntas and requerimentos, from PerguntasRequerimentos.
-- **interests**: from RegistoInteresses, in the versions the old mapper handles (v1 to v3).
+- **legislatures**, **sessions**, **electoral_circles**: a partir da InformacaoBase.
+- **deputies**: uma linha por pessoa (`cadastro_id`), nomes e biografia a partir do RegistoBiografico.
+- **mandates**: uma linha por deputado, por legislatura e por período de situação (Efetivo, Suplente, Suspenso e outras), a partir de `DepSituacao`. "Com lugar na data D" é uma consulta a esta tabela, não uma coluna.
+- **parliamentary_groups** e **group_memberships**: a partir de `GruposParlamentares` e `DepGP`. As filiações abertas trazem a data da extração como data de fim em vez de nulo, por isso o staging trata uma data de fim igual ou posterior à data da extração como aberta.
+- **coalitions**: um CSV seed mantido à mão (AD, CDU, PàF e outras) que faz corresponder as coligações eleitorais aos grupos que se sentam no parlamento, com cada linha a citar uma fonte. O antigo `coalition_detector.py` é a lista de partida.
+- **initiatives** e **initiative_authors**: a partir das Iniciativas.
+- **votes**: uma linha por id de votação, a partir dos arrays `Votacao` nos eventos das Iniciativas e nas Atividades, com resultado, data, reunião e uma indicação `unanimous`. Os ids de votação repetem-se entre eventos (30 708 registos, 30 700 ids distintos), por isso eliminamos os duplicados por id.
+- **vote_group_positions**: lido do texto `detalhe`, uma linha por votação, grupo e sentido de voto (a favor, contra, abstenção, ausente). Os textos têm o aspeto `A Favor: <I>PS</I>, <I> PSD</I><BR>Contra:<I>PCP</I>`, e os mais recentes acrescentam os deputados que votaram de forma diferente como `2-PS, Carlos Silva (PS), Fátima Correia Pinto (PS)`. O parser retira as marcas, divide em `<BR>` e produz linhas por grupo mais uma contagem dos votos diferentes. Quando uma votação é unânime e não tem detalhe, produzimos linhas a favor para cada grupo com lugar nesse dia e marcamo-las com `inferred = true`.
+- **vote_deputy_dissents**: as pessoas nomeadas nos mesmos textos, associadas ao `cadastro_id` pelo nome parlamentar e pelo grupo dentro da legislatura. Os nomes sem correspondência ficam com id nulo e são contados nos testes.
+- **interventions**: a partir das Intervencoes, com o debate, o orador e a referência da publicação.
+- **questions**: perguntas e requerimentos, a partir das PerguntasRequerimentos.
+- **interests**: a partir do RegistoInteresses, nas versões que o mapeador antigo trata (v1 a v3).
 
-## Testing and proving the counts
+## Testes e prova das contagens
 
-Unit tests run on committed fixtures in the layout above, so code PRs never depend on live downloads. Data tests run on every build and block the release if they fail.
+Os testes unitários correm sobre fixtures guardadas no repositório, na estrutura acima, para que os PR de código nunca dependam de descargas em direto. Os testes de dados correm em cada build e bloqueiam a publicação se falharem.
 
-- **Seats.** A seed table holds the seat count of each legislature with its source. For every legislature and sampled date, deputies with an open Efetivo situation must be at or below the seat count, and at the extract date of the current legislature it must equal it.
-- **Known results.** For XVII at the 2026-10-16 extract, the seated split must be PSD 89, CH 60, PS 58, IL 9, L 6, PCP 3, CDS-PP 2, BE 1, PAN 1, JPP 1. This matches the 2025 election.
-- **Parser coverage.** Every `detalhe` string is fully consumed by the vote parser, and every group code it finds exists in that legislature's groups.
-- **Joins.** Every author, speaker and dissenter id resolves to a deputy, and unmatched names stay under a small threshold per legislature.
-- **Drift.** Row counts per mart per legislature are compared with the previous release, and a drop over 5% blocks publishing unless it is acknowledged in the changelog.
+- **Lugares.** Uma tabela seed tem o número de lugares de cada legislatura com a sua fonte. Para cada legislatura e cada data da amostra, os deputados com uma situação Efetivo aberta têm de ser no máximo o número de lugares, e na data da extração da legislatura atual têm de ser exatamente esse número.
+- **Resultados conhecidos.** Para a XVII, na extração de 2026-10-16, a distribuição de lugares tem de ser PSD 89, CH 60, PS 58, IL 9, L 6, PCP 3, CDS-PP 2, BE 1, PAN 1, JPP 1. Corresponde às eleições de 2025.
+- **Cobertura do parser.** Cada texto `detalhe` é lido por inteiro pelo parser das votações, e cada código de grupo que encontra existe nos grupos dessa legislatura.
+- **Ligações.** Cada id de autor, orador e deputado com voto diferente corresponde a um deputado, e os nomes sem correspondência ficam abaixo de um limite pequeno por legislatura.
+- **Desvio.** O número de linhas por mart e por legislatura é comparado com a publicação anterior, e uma queda acima de 5% bloqueia a publicação, a menos que esteja registada no changelog.
 
-**Verified** (17 Oct download, 20 Oct sizing study): InformacaoBase XVII has 1,446 deputy records, of which 230 have an open Efetivo situation with the split above, so the old site counted every candidate. 28,941 of 30,708 vote records have a `detalhe` string, using only A Favor, Contra, Abstenção and Ausência. Iniciativas XVII (soft 404) and Intervencoes XVII (`[]`) on 17 Oct had both recovered by 20 Oct. There is no RegistoInteresses file for XVI or XVII.
+**Verificado** (descarga de 17 de outubro, estudo de dimensionamento de 20 de outubro): a InformacaoBase da XVII tem 1446 registos de deputados, dos quais 230 têm uma situação Efetivo aberta com a distribuição acima, por isso o site antigo contava todos os candidatos. 28 941 dos 30 708 registos de votações têm um texto `detalhe`, usando só A Favor, Contra, Abstenção e Ausência. As Iniciativas da XVII (soft 404) e as Intervencoes da XVII (`[]`) a 17 de outubro tinham recuperado ambas a 20 de outubro. Não há ficheiro RegistoInteresses para a XVI nem para a XVII.
 
-## DAR later
+## O DAR fica para depois
 
-The Diário (from XI on, as ZIPs) is the richest source and the most work, so it comes after v1: a monthly workflow extracting text per sitting into `dar_sittings` and `dar_pages`, after a spike on size and format.
+O Diário (a partir da XI, em ZIP) é a fonte mais rica e a que dá mais trabalho, por isso vem depois da v1: um workflow mensal que extrai o texto de cada reunião para `dar_sittings` e `dar_pages`, depois de um estudo prévio sobre tamanho e formato.

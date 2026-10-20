@@ -1,41 +1,41 @@
-# Repo settings
+# Definições do repositório
 
-Settings for `rfsbraz/parlamento-aberto`, applied by Rodrigo in the GitHub UI. PRs never change settings; this file lists them so they are easy to verify.
+Definições de `rfsbraz/parlamento-aberto`, aplicadas pelo Rodrigo na interface do GitHub. Os PR nunca alteram definições; este ficheiro lista-as para serem fáceis de verificar.
 
-| Setting | Value |
+| Definição | Valor |
 | --- | --- |
-| Allow auto-merge | On |
-| Automatically delete head branches | On |
-| Merge methods | Squash merge only |
-| Branch protection on `main` | Require a pull request before merging |
-| Required status checks on `main` | `ruff`, `pytest`, `gitleaks`, `file size` |
-| Required approving reviews | None, because data PRs merge once checks pass |
+| Allow auto-merge | Ligado |
+| Automatically delete head branches | Ligado |
+| Merge methods | Só squash merge |
+| Proteção do branch `main` | Require a pull request before merging |
+| Verificações obrigatórias em `main` | `ruff`, `pytest`, `gitleaks`, `file size` |
+| Aprovações obrigatórias | Nenhuma, porque os PR de dados são integrados quando as verificações passam |
 
-## Status (20 Oct 2026)
+## Estado (20 de outubro de 2026)
 
-- Squash merge only: on.
-- Automatically delete head branches: on.
-- Allow auto-merge and branch protection: not available while the repo is private on the current plan. Until the repo is public, the data-PR workflow (#3) must merge clean data PRs itself once all checks pass, instead of relying on GitHub native auto-merge.
+- Só squash merge: ligado.
+- Automatically delete head branches: ligado.
+- Allow auto-merge e proteção de branch: não disponíveis enquanto o repositório for privado no plano atual. Até o repositório ser público, o workflow dos PR de dados (#3) tem de integrar ele próprio os PR de dados limpos quando todas as verificações passam, em vez de depender da integração automática nativa do GitHub.
 
-## Data bot token
+## Token do bot de dados
 
-The data workflows (`.github/workflows/data-sync.yml`, `data-merge.yml` and `discover.yml`) need a repository secret named `DATA_BOT_TOKEN`. Rodrigo creates it and stores it under Settings, Secrets and variables, Actions. The value never goes into git or chat.
+Os workflows de dados (`.github/workflows/data-sync.yml`, `data-merge.yml` e `discover.yml`) precisam de um secret do repositório chamado `DATA_BOT_TOKEN`. O Rodrigo cria-o e guarda-o em Settings, Secrets and variables, Actions. O valor nunca vai para o git nem para conversas.
 
-It must be a GitHub App installation token or a fine-grained personal access token scoped to `rfsbraz/parlamento-aberto` only, with:
+Tem de ser um token de instalação de uma GitHub App ou um personal access token fine-grained limitado apenas a `rfsbraz/parlamento-aberto`, com:
 
-| Permission | Access | Used for |
+| Permissão | Acesso | Usado para |
 | --- | --- | --- |
-| Contents | Read and write | Push `data/nightly` and `data/discover`, and squash-merge data PRs |
-| Pull requests | Read and write | Open, update and merge the data PR, and open the held discover PR |
-| Issues | Read and write | Create and add the `data`, `hold:` and `historical-change` labels |
-| Metadata | Read | Required by GitHub for any token |
+| Contents | Read and write | Fazer push de `data/nightly` e `data/discover`, e fazer squash merge dos PR de dados |
+| Pull requests | Read and write | Abrir, atualizar e integrar o PR de dados, e abrir o PR de descoberta em espera |
+| Issues | Read and write | Criar e aplicar as etiquetas `data`, `hold:` e `historical-change` |
+| Metadata | Read | Exigido pelo GitHub para qualquer token |
 
-`GITHUB_TOKEN` cannot replace it: PRs it opens do not trigger CI, and merges it makes do not trigger later workflows. If the secret is missing, data-sync and data-merge stop at their first step with an error naming `DATA_BOT_TOKEN`. The discover job still runs without it: it pushes nothing and lists any new links in its issue, which it opens with `GITHUB_TOKEN`.
+O `GITHUB_TOKEN` não o pode substituir: os PR que abre não disparam o CI, e as integrações que faz não disparam os workflows seguintes. Se o secret faltar, o data-sync e o data-merge param no primeiro passo com um erro que indica `DATA_BOT_TOKEN`. O job de descoberta corre na mesma sem ele: não faz push de nada e lista as ligações novas na sua issue, que abre com o `GITHUB_TOKEN`.
 
-Merge policy while native auto-merge is unavailable: `data-merge.yml` runs when CI finishes on the `data/nightly` PR and squash-merges it if CI passed on the PR's current head and it has no `hold:` label. Held PRs wait for Rodrigo.
+Política de integração enquanto a integração automática nativa não está disponível: o `data-merge.yml` corre quando o CI termina no PR `data/nightly` e faz squash merge se o CI passou no head atual do PR e este não tem etiqueta `hold:`. Os PR em espera aguardam pelo Rodrigo.
 
-## Data releases
+## Publicações de dados
 
-`.github/workflows/data-release.yml` runs on every push to `main` that touches `data/`, `src/` or `docs/data-changelog.md`. It skips when `main` has no `data/_meta/sources.lock.json`. Otherwise it runs all data tests on `data/`, builds the release assets and checks row counts against the latest release. It uses `GITHUB_TOKEN` only, with `contents: write` for this job.
+O `.github/workflows/data-release.yml` corre em cada push para `main` que mexa em `data/`, `src/` ou `docs/data-changelog.md`. Não faz nada quando `main` não tem `data/_meta/sources.lock.json`. Caso contrário, corre todos os testes de dados sobre `data/`, constrói os ficheiros da publicação e compara o número de linhas com a publicação mais recente. Usa apenas o `GITHUB_TOKEN`, com `contents: write` para este job.
 
-Publishing waits for Rodrigo's OK, since the first public release goes out with the repo going public. Until the repository variable `DATA_RELEASES` (Settings, Secrets and variables, Actions, Variables) is set to `on`, each run uploads the assets as a workflow artifact, kept for 7 days, and creates no release or tag.
+A publicação espera pelo OK do Rodrigo, porque a primeira publicação pública sai quando o repositório passar a público. Enquanto a variável do repositório `DATA_RELEASES` (Settings, Secrets and variables, Actions, Variables) não estiver a `on`, cada execução carrega os ficheiros como artefacto do workflow, guardado durante 7 dias, e não cria publicação nem tag.

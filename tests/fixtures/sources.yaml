@@ -1,0 +1,17 @@
+datasets:
+  iniciativas:
+    layout: records
+    id: IniId
+    files:
+      - {legislature: XVI, url: "https://ar.test/iniciativas-XVI"}
+      - {legislature: XVII, url: "https://ar.test/iniciativas-XVII"}
+  atividades:
+    layout: tables
+    bucket: 1000
+    ids:
+      Audicoes: IDAudicao
+    names:
+      Extra: extra
+    files:
+      - {legislature: XVII, url: "https://ar.test/atividades-XVII"}
+      - {legislature: I, part: A, url: "https://ar.test/atividades-IA"}

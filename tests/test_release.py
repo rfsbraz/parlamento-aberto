@@ -65,7 +65,7 @@ def test_csv_has_the_attribution_header_and_every_row(built):
             first = f.readline()
             body = f.read()
         assert first.startswith("# Fonte: Assembleia da República, dados abertos, atualizados a ")
-        assert "CC BY 4.0" in first and SHA in first
+        assert release.mart_licence(mart) in first and SHA in first
         rows = list(csv.reader(io.StringIO(body)))
         assert rows[0] == [c for c in load_schema()[mart]["columns"]], mart
         assert len(rows) - 1 == manifest["marts"][mart]["rows"], mart

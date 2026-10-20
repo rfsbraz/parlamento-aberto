@@ -1,6 +1,6 @@
 # Version of the published schema, in manifest.json. Bump the major on a breaking change
 # (a column removed or renamed, a type changed); the site refuses an unknown major.
-schema_version: "1.0.0"
+schema_version: "1.1.0"
 
 # Every model, in run order, with a description of every column.
 # The data dictionary in docs/dictionary is generated from this file
@@ -702,51 +702,81 @@ models:
 
   interest_declarations:
     description: >-
-      Uma linha por declaração no registo de interesses, XI a XV. A XVI e a XVII não estão nos
-      dados abertos da AR (as declarações passaram para a Entidade para a Transparência). Só estão
-      cobertas as pessoas das listas da XVII, porque todos os ficheiros listam essas pessoas. Ficam
-      de fora nomes, cônjuge, estado civil, regime de bens e campos fiscais e de contacto; para os
-      nomes, faça join com deputies.
+      Uma linha por declaração no registo de interesses, de duas fontes: os dados abertos da AR
+      (source = ar_open_data, XI a XV) e a Entidade para a Transparência (source = ept, XVI e XVII).
+      Não há dedup entre fontes: das declarações da EpT só entram as da XVI e da XVII, que a AR já
+      não publica; as da EpT anteriores à XVI ficam só em staging. Nos dados da AR só estão cobertas
+      as pessoas das listas da XVII, porque todos os ficheiros listam essas pessoas. As primeiras
+      colunas são as de sempre; as colunas da EpT vêm depois e são nulas nas linhas da AR. As
+      linhas da EpT ficam fora da licença CC BY 4.0 e fora dos ficheiros publicados até haver
+      autorização de reutilização (Lei n.º 52/2019, art. 17.º). Ficam de fora nomes, cônjuge,
+      estado civil, regime de bens, NIF e campos de contacto; para os nomes, faça join com deputies.
     columns:
-      legislature: Legislatura em numeração romana, a partir do ficheiro.
-      declaration_key: Chave da declaração, liga a interests.
-      cadastro_id: Id da pessoa, liga a deputies.
-      format_version: Formato publicado, V1 (XI), V2 (XII, XIII), V3 (XIV) ou V5 (XIV, XV).
-      declaration_id: Id da declaração na AR. Nulo para a V3, que não publica nenhum.
-      position: Cargo declarado, por exemplo Deputado.
-      position_start_date: Início do cargo, quando publicado como data completa.
-      position_changed_date: Data de alteração do cargo, quando publicada como data completa.
-      position_end_date: Fim do cargo, quando publicado como data completa.
+      legislature: Legislatura em numeração romana. Na AR vem do ficheiro; na EpT, das datas da declaração.
+      declaration_key: Chave da declaração, única nas duas fontes, liga a interests. Na EpT é ept:<id>.
+      cadastro_id: Id da pessoa, liga a deputies. Na EpT vem de seed_ept_holders e fica nulo quando o titular não tem correspondência.
+      format_version: Formato publicado, V1 (XI), V2 (XII, XIII), V3 (XIV), V5 (XIV, XV) ou EPT.
+      declaration_id: Id da declaração na fonte. Nulo para a V3, que não publica nenhum.
+      position: Cargo declarado, por exemplo Deputado ou Deputada.
+      position_start_date: Início do cargo, quando publicado como data completa. Na EpT, o dia em Europe/Lisbon.
+      position_changed_date: Data de alteração do cargo, quando publicada como data completa. Nulo na EpT.
+      position_end_date: Fim do cargo, quando publicado como data completa. Na EpT, o dia em Europe/Lisbon.
       position_start_raw: Início do cargo tal como publicado. A V1 e a V2 publicam um ano.
       version_date: Data desta versão da declaração, só V1 e V2.
-      is_exclusive: Cargo exercido em exclusividade. Nulo para V1 e V2.
+      is_exclusive: Cargo exercido em exclusividade. Nulo para V1, V2 e EpT.
       items: Número de linhas em interests para esta declaração.
+      source: Fonte da linha, ar_open_data ou ept.
+      source_format: Formato na fonte, igual a format_version (V1, V2, V3, V5 ou EPT).
+      source_declaration_id: Id da declaração na fonte, igual a declaration_id.
+      ept_holder_id: Id do titular na EpT, liga a seed_ept_holders. Nulo na AR.
+      declaration_nature: Natureza da declaração na EpT, initial, modification, cessation, final, replace ou reElection. Nulo na AR.
+      declaration_state: Estado da declaração na EpT, por exemplo published, replaced ou modified. Nulo na AR.
+      supersedes_declaration_id: Declaração da EpT que esta substitui ou modifica. Nulo na AR.
+      superseded_by_declaration_id: Declaração da EpT que substitui ou modifica esta, se existir. Nulo na AR.
+      chain_root_declaration_id: Primeira declaração da EpT da cadeia desta. Nulo na AR.
+      submitted_at: Hora de entrega na EpT tal como publicada. Nulo na AR.
+      submitted_date: Entrega na EpT como dia em Europe/Lisbon. Nulo na AR.
+      is_current: Verdadeiro para a declaração publicada mais recente da cadeia na EpT. Nulo na AR, que não publica versões.
 
   interests:
     description: >-
-      Uma linha por interesse declarado: atividades e cargos, cargos sociais, sociedades, apoios,
-      serviços e outras situações. O texto está tal como publicado, por isso os itens de texto livre
-      podem dizer "Nada a declarar". O JSON prevalece sobre o mapeador antigo: a V1 publica as
-      atividades como um único campo de texto livre, e a V5 também é lida (XIV, XV), porque o dump a
-      contém.
+      Uma linha por interesse declarado, das mesmas duas fontes de interest_declarations
+      (ar_open_data, XI a XV, e ept, XVI e XVII): atividades e cargos, cargos sociais, associações,
+      sociedades, apoios, serviços e outras situações. O texto está tal como publicado, por isso os
+      itens de texto livre podem dizer "Nada a declarar". Na AR o JSON prevalece sobre o mapeador
+      antigo: a V1 publica as atividades como um único campo de texto livre, e a V5 também é lida
+      (XIV, XV), porque o dump a contém. Na EpT só entra o separador 4. As primeiras colunas são as
+      de sempre; paid_raw e as colunas da EpT vêm depois. As linhas da EpT ficam fora da licença
+      CC BY 4.0 e fora dos ficheiros publicados até haver autorização de reutilização (Lei n.º
+      52/2019, art. 17.º).
     columns:
       legislature: Legislatura em numeração romana.
       declaration_key: Declaração, liga a interest_declarations.
       item_number: Posição do item dentro da declaração.
-      cadastro_id: Id da pessoa, liga a deputies.
-      category: activity, social_position, society, support, service ou other_situation (atividade, cargo social, sociedade, apoio, serviço ou outra situação).
-      source_list: Lista ou campo publicado de onde vem o item, por exemplo GenCargosMaisTresAnos.
-      item_id: Id do item na AR, quando publicado.
+      cadastro_id: Id da pessoa, liga a deputies. Na EpT vem de seed_ept_holders e pode ser nulo.
+      category: activity, social_position, association, society, support, service ou other_situation (atividade, cargo social, associação, sociedade, apoio, serviço ou outra situação). association só existe na EpT.
+      source_list: Lista, campo ou secção publicada de onde vem o item, por exemplo GenCargosMaisTresAnos.
+      item_id: Id do item na AR, quando publicado. Nulo na EpT.
       type_code: Código Type da V3 tal como publicado (0, 1 ou 2), não documentado pela AR.
       description: Atividade, cargo, apoio, serviço ou situação tal como escrito.
       entity: Entidade, empresa ou organismo indicado.
-      nature: Natureza da entidade ou do benefício, só V5.
+      nature: Natureza da entidade ou do benefício, só V5 e EpT.
       activity_area: Área de atividade.
       location: Sede ou local.
-      share: Participação social tal como escrita, para sociedades.
-      is_paid: Verdadeiro para S, falso para N. Nulo nos outros casos, incluindo o 0 que a V5 publica.
-      start_date: Data de início, quando publicada como data completa.
-      end_date: Data de fim, quando publicada como data completa.
-      start_date_raw: Data de início tal como publicada, um ano, um mês ou um dia.
+      share: Participação social tal como escrita, para sociedades. Nulo na EpT; ver share_value_eur e share_pct.
+      is_paid: Verdadeiro para S, falso para N. Nulo nos outros casos, incluindo o 0 que a V5 publica e o 1 ou 0 da EpT.
+      start_date: Data de início, quando publicada como data completa. Na EpT, o dia em Europe/Lisbon.
+      end_date: Data de fim, quando publicada como data completa. Na EpT, o dia em Europe/Lisbon.
+      start_date_raw: Data de início tal como publicada, um ano, um mês ou um dia. Na EpT, em UTC.
       end_date_raw: Data de fim tal como publicada.
       date_raw: Data única ou período tal como publicado nos apoios e serviços da V5.
+      source: Fonte da linha, ar_open_data ou ept.
+      paid_raw: Remuneração tal como publicada, S ou N na AR, 1 ou 0 na EpT (não documentado pela EpT).
+      entity_nipc: NIPC da entidade, só na EpT e só quando é um NIPC de empresa válido (dígito de controlo mod 11, começa por 5, 6, 8, 9, 71, 72, 77 ou 79). Nulo nos outros casos.
+      beneficiary: Beneficiário de um apoio ou benefício tal como escrito. Só EpT.
+      beneficiary_company: Empresa do beneficiário, nos apoios. Só EpT.
+      share_value_eur: Valor da participação social em euros, tal como escrito. Só EpT.
+      share_pct: Percentagem da participação social, tal como escrita. Só EpT.
+      share_holder: Titular da participação social tal como escrito. Só EpT.
+      is_professional_secrecy: Segredo profissional invocado, nos serviços e outras situações. Só EpT.
+      observation: Observação de uma outra situação. Só EpT.

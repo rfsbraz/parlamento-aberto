@@ -62,7 +62,7 @@ def test_csv_header_cites_source_update_date_and_mart_licence(built):
         with gzip.open(built / f"{mart}.csv.gz", "rt", encoding="utf-8") as f:
             first = f.readline()
         assert first.startswith(f"# {release.ATTRIBUTION}, atualizados a {lock_updated()}."), mart
-        assert release.MARTS_LICENCE in first, mart
+        assert release.mart_licence(mart) in first, mart
 
 
 def test_ept_lineage_is_detected():
@@ -78,10 +78,21 @@ def test_ept_lineage_is_detected():
     assert release.ept_derived("stg_ept_registo_interesses__declarations")
 
 
-def test_no_published_mart_is_ept_derived_yet():
-    # Republishing EpT data waits on the EpT's reply. When #48 adds EpT rows to a mart,
-    # this test fails on purpose so the release licence is looked at again.
-    assert [m for m in release.marts() if release.ept_derived(m)] == []
+def test_only_the_interest_marts_are_ept_derived_and_their_ept_rows_stay_out_of_cc_by(built):
+    # Republishing EpT data waits on the EpT's reply. A new EpT-derived mart fails here on
+    # purpose so its release licence is looked at again.
+    ept_marts = ["interest_declarations", "interests"]
+    assert [m for m in release.marts() if release.ept_derived(m)] == ept_marts
+    m = json.loads((built / "manifest.json").read_text())
+    excluded = m["excluded_sources"]["ept"]
+    assert sorted(excluded["rows"]) == ept_marts
+    assert "CC BY" not in excluded["licence"]
+    for mart in ept_marts:
+        assert release.mart_licence(mart) == release.EPT_TERMS
+        assert m["marts"][mart]["licence"] == release.EPT_TERMS
+        with gzip.open(built / f"{mart}.csv.gz", "rt", encoding="utf-8") as f:
+            first = f.readline()
+        assert release.EPT_TERMS in first and "CC BY" not in first, mart
 
 
 def test_dictionary_footer_matches_the_release_terms():

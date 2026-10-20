@@ -1,19 +1,44 @@
-Data licence
+Licença dos dados
 
-Everything under data/ and the published marts (the Parquet and CSV files
-attached to the data releases of this repository) are licensed under the
-Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+Este repositório tem três tipos de dados, com regras diferentes.
 
-Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+1. Dados brutos da Assembleia da República em data/
 
-Attribution: Fonte: Assembleia da República, dados abertos.
-
-The source data is published by the Assembleia da República, which allows
-free reuse on condition that the source is credited:
+Os ficheiros em data/ (exceto data/ept_*, ver o ponto 3) são os dados abertos da
+Assembleia da República, normalizados. São dados da AR, não deste repositório, e não
+estão sob nenhuma licença dada por nós. São reutilizados nos termos da AR, que permite a
+reutilização livre desde que se mencione a fonte:
 https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx
 
-When you reuse this data, credit both the Assembleia da República (as above)
-and this repository.
+Quem os reutilizar deve, como pede a Lei n.º 26/2016, art. 19.º, n.º 5, mencionar a fonte
+e a data da última atualização, e não alterar a informação nem desvirtuar o seu sentido.
+A data de atualização de cada ficheiro está em data/_meta/sources.lock.json (fetched).
 
-The code in this repository is licensed separately under the MIT licence
-(see LICENSE).
+Atribuição: Fonte: Assembleia da República, dados abertos, atualizados a AAAA-MM-DD.
+
+2. Marts e dicionário de dados: CC BY 4.0
+
+Os marts que este repositório constrói e publica (os ficheiros Parquet e CSV anexados às
+releases de dados) e o dicionário de dados em docs/dictionary estão sob a licença
+Creative Commons Atribuição 4.0 Internacional (CC BY 4.0), na parte que é trabalho deste
+repositório. Os dados da AR que contêm continuam sujeitos aos termos do ponto 1.
+
+Texto completo: https://creativecommons.org/licenses/by/4.0/legalcode.pt
+
+Ao reutilizar, cite a Assembleia da República (como no ponto 1, com a data source_updated
+do manifest.json da release) e este repositório.
+
+3. Dados da Entidade para a Transparência: fora da CC BY
+
+data/ept_* e tudo o que deriva desses dados (staging, seeds e qualquer mart que os use)
+não estão sob a CC BY 4.0 nem sob nenhuma outra licença dada por nós. As declarações são
+publicadas pela Entidade para a Transparência (EpT) nos termos da Lei n.º 52/2019,
+art. 17.º, e a EpT não publica termos de reutilização. A republicação destes dados está
+pendente da resposta da EpT. Até lá, nada derivado da EpT entra numa release de dados.
+
+Lei n.º 52/2019 (versão consolidada):
+https://pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3192&tabela=leis
+
+Código
+
+O código deste repositório tem uma licença própria, MIT (ver LICENSE).

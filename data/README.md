@@ -1,6 +1,8 @@
 # data/
 
-Normalised raw data from the Assembleia da República open data dumps, licensed CC BY 4.0 (see `LICENSE-DATA`). Fonte: Assembleia da República, dados abertos.
+Normalised raw data from the Assembleia da República open data dumps.
+
+Licença: estes ficheiros são dados abertos da Assembleia da República, reutilizados nos termos da AR e não sob CC BY. Quem os reutilizar deve mencionar a fonte e a data da última atualização (Lei n.º 26/2016, art. 19.º, n.º 5), que está em `_meta/sources.lock.json` (`fetched`). `ept_*/` são dados da Entidade para a Transparência e ficam fora de qualquer licença nossa. Ver `LICENSE-DATA`. Fonte: Assembleia da República, dados abertos.
 
 Layout (see `docs/design.md`):
 

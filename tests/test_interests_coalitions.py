@@ -284,6 +284,19 @@ def test_coalition_rows_are_unique():
     assert len(keys) == len(set(keys))
 
 
+def test_cdu_note_since_2022_is_the_pev_note():
+    # PEV has had no seats since the 2022 election. The XVI row once carried the AD note.
+    notes = {
+        r["legislature"]: r["note"]
+        for r in seed_rows()
+        if r["coalition"] == "CDU" and r["legislature"] in ("XV", "XVI", "XVII")
+    }
+    assert notes == dict.fromkeys(
+        ("XV", "XVI", "XVII"), "PEV has had no seats since 2022, so PCP is the only group."
+    )
+    assert not [r for r in seed_rows() if r["coalition"] == "CDU" and "PPM" in r["note"]]
+
+
 def test_coalition_groups_exist_in_the_groups_mart(con):
     # On the fixtures only some legislatures have a group list; on full data, all do.
     missing = rows(

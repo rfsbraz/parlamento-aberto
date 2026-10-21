@@ -19,7 +19,9 @@ fixture_only = pytest.mark.skipif(DATA_DIR != FIXTURES, reason="pinned to the fi
 data_only = pytest.mark.skipif(DATA_DIR == FIXTURES, reason="needs the full data")
 
 BODY_MARTS = ("votes", "initiative_votes", "vote_group_positions", "vote_deputy_dissents")
-# Plenary row counts before committee votes were added (#20). They must not move.
+# Plenary row counts before committee votes were added (#20). On the fixtures they must not
+# move. On the full data they are the 20 October 2026 sync, and new AR votes only add rows,
+# so the counts must not drop below them.
 PLENARY_FIXTURE_COUNTS = {
     "votes": 14,
     "initiative_votes": 10,
@@ -57,10 +59,12 @@ def test_body_is_plenary_or_the_committee(con):
 
 
 @pytest.mark.parametrize("mart", BODY_MARTS)
-def test_plenary_row_counts_do_not_change(con, mart):
-    expected = PLENARY_FIXTURE_COUNTS if DATA_DIR == FIXTURES else PLENARY_DATA_COUNTS
+def test_plenary_row_counts_are_kept(con, mart):
     (n,) = con.sql(f"select count(*) from {mart} where body = 'plenary'").fetchone()
-    assert n == expected[mart]
+    if DATA_DIR == FIXTURES:
+        assert n == PLENARY_FIXTURE_COUNTS[mart]
+    else:
+        assert n >= PLENARY_DATA_COUNTS[mart]
 
 
 def test_committee_vote_ids_do_not_collide_with_plenary_ones(con):
@@ -169,10 +173,19 @@ def test_inferred_committee_rows_match_the_published_composition(con):
         assert {g for (g,) in inferred} == groups - {g for (g,) in listed}, vote_id
 
 
+# Committee votes in the 20 October 2026 sync. New AR votes only add to it. The exact votes
+# are checked on the fixtures (test_committee_votes_carry_their_committee).
+COMMITTEE_VOTES_20_OCTOBER_2026 = 9_723
+
+
 @data_only
-def test_committee_vote_count(con):
+def test_every_staged_committee_vote_reaches_the_votes_mart(con):
     (n,) = con.sql("select count(*) from votes where body <> 'plenary'").fetchone()
-    assert n == 9_723
+    (staged,) = con.sql(
+        "select count(distinct vote_id) from stg_iniciativas__committee_votes"
+    ).fetchone()
+    assert n == staged
+    assert n >= COMMITTEE_VOTES_20_OCTOBER_2026
 
 
 # Known gaps in the source, decided to stay as published (#24). If a pin moves, check the

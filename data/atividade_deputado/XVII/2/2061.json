@@ -102,7 +102,26 @@
      "ActTpdesc": "Voto"
     }
    ],
-   "Audicoes": null,
+   "Audicoes": [
+    {
+     "AccDtaud": null,
+     "ActAs": null,
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": null,
+     "ActLg": null,
+     "ActLoc": null,
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": null,
+     "ActTpdesc": null,
+     "CmsAb": null,
+     "CmsNo": null,
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    }
+   ],
    "Audiencias": null,
    "Cms": null,
    "DadosLegisDeputado": [
@@ -443,7 +462,7 @@
      "TinDs": "Intervenção"
     },
     {
-     "IntId": "505093",
+     "IntId": "505213",
      "IntSu": "Sessão Plenária Comemorativa dos 50 Anos da Autonomia das Regiões Autónomas dos Açores e da Madeira",
      "IntTe": null,
      "PubDar": "27-28",
@@ -2845,7 +2864,7 @@
   ],
   "DepGP": [
    {
-    "GpDtFim": "2026-10-19",
+    "GpDtFim": "2026-10-20",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

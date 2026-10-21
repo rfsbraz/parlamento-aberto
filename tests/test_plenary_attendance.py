@@ -45,7 +45,9 @@ SEED = MODELS / "seeds" / "attendance_codes.csv"
 FETCHED = {"composicao_orgaos/XVI": "2024-11-17", "composicao_orgaos/XIV": "2026-10-20"}
 
 # Rows and meetings with an attendance list per legislature, as in the AR files of the
-# 20 October 2026 sync. Constituinte to IV have none.
+# 20 October 2026 sync. Constituinte to IV have none. XVII is still running, so its new
+# meetings only add to its numbers.
+OPEN_LEGISLATURE = "XVII"
 SOURCE_COUNTS = {
     "V": (234, 1),
     "VI": (86019, 374),
@@ -373,40 +375,72 @@ def test_rows_and_meetings_per_legislature_match_the_source(con):
             """,
         )
     }
-    assert got == SOURCE_COUNTS
+    assert got.keys() == SOURCE_COUNTS.keys()
+    for leg, (n, meetings) in SOURCE_COUNTS.items():
+        if leg == OPEN_LEGISLATURE:
+            assert got[leg][0] >= n and got[leg][1] >= meetings, leg
+        else:
+            assert got[leg] == (n, meetings), leg
 
 
 @data_only
-def test_xvii_fa_and_qv_counts_are_pinned(con):
+def test_xvii_fa_and_qv_are_one_per_meeting_and_person(con):
     # By the source file's legislature (composicao_orgaos/XVII): 34 FA and 42 QV on
     # 20 October 2026, each in a distinct meeting and person. Counting every row dated from
-    # 1 January 2025 gives 40 and 43, because it adds XVI's 6 FA and 1 QV of 2025.
-    assert rows(
-        con,
-        """
-        select code, count(*), count(distinct (meeting_id, cadastro_id))
-        from plenary_attendance where legislature = 'XVII' and code in ('FA', 'QV')
-        group by 1 order by 1
-        """,
-    ) == [("FA", 34, 34), ("QV", 42, 42)]
-    assert rows(
-        con,
-        """
-        select code, count(*) from plenary_attendance
-        where meeting_date >= date '2025-01-01' and code in ('FA', 'QV') group by 1 order by 1
-        """,
-    ) == [("FA", 40), ("QV", 43)]
+    # 1 January 2025 adds XVI's 6 FA and 1 QV of 2025, which no longer change.
+    xvii = {
+        code: (n, distinct)
+        for code, n, distinct in rows(
+            con,
+            """
+            select code, count(*), count(distinct (meeting_id, cadastro_id))
+            from plenary_attendance where legislature = 'XVII' and code in ('FA', 'QV')
+            group by 1
+            """,
+        )
+    }
+    assert xvii.keys() == {"FA", "QV"}
+    assert all(n == distinct for n, distinct in xvii.values())
+    assert xvii["FA"][0] >= 34 and xvii["QV"][0] >= 42
+    since_2025 = dict(
+        rows(
+            con,
+            """
+            select code, count(*) from plenary_attendance
+            where meeting_date >= date '2025-01-01' and code in ('FA', 'QV') group by 1
+            """,
+        )
+    )
+    assert since_2025 == {"FA": xvii["FA"][0] + 6, "QV": xvii["QV"][0] + 1}
 
 
 @data_only
-def test_xvii_fa_cutoff_on_the_20_october_2026_data(con):
+def test_xvii_fa_cutoff_follows_the_fetched_date(con):
+    # source_updated is the fetched date of composicao_orgaos/XVII in sources.lock.json, and
+    # no meeting is newer than it. An FA is pending while the meeting is less than
+    # pending_days old on that date, unclassified after. The exact dates are checked on the
+    # fixture (test_fa_cutoff_on_the_fixture).
+    lock = json.loads((DATA / "_meta" / "sources.lock.json").read_text(encoding="utf-8"))
+    fetched = dt.date.fromisoformat(lock["composicao_orgaos/XVII"]["fetched"])
     assert rows(
+        con, "select distinct source_updated from plenary_attendance where legislature = 'XVII'"
+    ) == [(fetched,)]
+    [(last_meeting,)] = rows(
+        con, "select max(meeting_date) from plenary_attendance where legislature = 'XVII'"
+    )
+    assert last_meeting <= fetched
+    (days,) = [int(r["pending_days"]) for r in seed() if r["code"] == "FA"]
+    cutoff = fetched - dt.timedelta(days=days)
+    fa = rows(
         con,
         """
-        select cast(source_updated as varchar), category, count(*) from plenary_attendance
-        where legislature = 'XVII' and code = 'FA' group by all order by 2
+        select meeting_date, category from plenary_attendance
+        where legislature = 'XVII' and code = 'FA'
         """,
-    ) == [("2026-10-20", "pending", 27), ("2026-10-20", "unclassified", 7)]
+    )
+    assert fa
+    assert {category for _, category in fa} <= {"pending", "unclassified"}
+    assert [(d, c) for d, c in fa if (c == "pending") != (d > cutoff)] == []
 
 
 # --- the per-deputy summary --------------------------------------------------------------------

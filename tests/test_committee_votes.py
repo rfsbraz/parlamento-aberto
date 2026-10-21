@@ -188,12 +188,14 @@ def test_every_staged_committee_vote_reaches_the_votes_mart(con):
     assert n >= COMMITTEE_VOTES_20_OCTOBER_2026
 
 
-# Known gaps in the source, decided to stay as published (#24). If a pin moves, check the
-# new rows, then update the pin here and the note in docs/known-gaps.md.
+# Known gaps in the source, decided to stay as published (#24). On the fixtures the counts
+# must not move. On the full data they are the 21 October 2026 sync, and new AR votes can
+# only add to them, so they must not drop below it. If a count drops, check the rows, then
+# update the pin here and the note in docs/known-gaps.md.
+NO_DETAIL_NON_UNANIMOUS_FIXTURES = {"plenary": 2, "committee": 1}
 NO_DETAIL_NON_UNANIMOUS = {"plenary": 1_130, "committee": 4_705}
 
 
-@data_only
 @pytest.mark.parametrize("body", sorted(NO_DETAIL_NON_UNANIMOUS))
 def test_non_unanimous_votes_without_detail_are_pinned(con, body):
     (votes,) = con.sql(
@@ -203,11 +205,14 @@ def test_non_unanimous_votes_without_detail_are_pinned(con, body):
           and {"body = 'plenary'" if body == "plenary" else "body <> 'plenary'"}
         """
     ).fetchone()
-    assert votes == NO_DETAIL_NON_UNANIMOUS[body], (
-        f"{body} votes that are not unanimous and have no detail: {votes:,}, pinned at "
-        f"{NO_DETAIL_NON_UNANIMOUS[body]:,}. Check the new rows, then update the pin in "
-        "tests/test_committee_votes.py and the note in docs/known-gaps.md."
-    )
+    if DATA_DIR == FIXTURES:
+        assert votes == NO_DETAIL_NON_UNANIMOUS_FIXTURES[body]
+    else:
+        assert votes >= NO_DETAIL_NON_UNANIMOUS[body], (
+            f"{body} votes that are not unanimous and have no detail: {votes:,}, at least "
+            f"{NO_DETAIL_NON_UNANIMOUS[body]:,} expected. Check the rows, then update the pin "
+            "in tests/test_committee_votes.py and the note in docs/known-gaps.md."
+        )
 
 
 @data_only

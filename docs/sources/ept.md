@@ -6,11 +6,8 @@ Os dados abertos da AR só têm ficheiros `RegistoInteresses` até à XV. A part
 
 - O código é público, como o resto do repositório. As declarações da XVI e da XVII são normalizadas nos mesmos marts `interest_declarations` e `interests` da XI à XV, com `source = 'ept'`.
 - Sem republicação por agora. As linhas da EpT não entram numa publicação de dados, no site nem no repositório até a EpT responder ao meu pedido e eu decidir com base na resposta.
-- Sem contacto com a EpT para além de um email a perguntar se os dados podem ser reutilizados, incluindo os NIF pessoais. Não envio mais nada enquanto não houver resposta.
-- Os NIPC de empresas são guardados (alterado mais tarde, a 20 de outubro de 2026). Da coluna NIF/NIPC da entidade no separador 4 só se mantém um valor quando é um NIPC de empresa: ver [NIPC de empresas](#nipc-de-empresas). Todos os outros valores dessa coluna são descartados.
-- Apertei a regra dos NIPC a 20 de outubro de 2026: só mantenho os prefixos 5, 6, 71, 72 e 79. O 8, os 9x e o 77 passam a ser tratados como NIF pessoais (Lei n.º 52/2019, art. 17.º, n.º 2, al. a); Regulamento da EpT n.º 258/2024, art. 15.º, n.º 2, al. a)).
+- Sem contacto com a EpT para além de um email a perguntar se os dados podem ser reutilizados. Não envio mais nada enquanto não houver resposta.
 - Não guardo a secção de filiação ou funções em entidades de natureza associativa (decidido a 20 de outubro de 2026). Fica fora do acesso público (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)), por isso descarto-a inteira, sem ler nenhuma célula.
-- Os NIF pessoais ficam de fora: o `nif` de topo do titular nunca é guardado, e um NIF pessoal na coluna da entidade também não. Isto aguarda a resposta da EpT sobre a reutilização. Se a EpT confirmar que a reutilização é permitida, a decisão é revista.
 - O PR de dados `ept_registo_interesses` fica em espera (novo conjunto de dados, etiqueta `hold:`), nunca é integrado automaticamente e sou eu que decido quando o integrar.
 - **Republicação: pendente da resposta da EpT.** A questão legal abaixo tem de estar resolvida antes de quaisquer dados derivados da EpT serem publicados.
 
@@ -30,25 +27,13 @@ Questão em aberto: se republicar os campos do registo de interesses, que o n.º
 
 O fetcher retira isto em memória, antes de escrever o que quer que seja em disco, num log ou no output do CI:
 
-- o NIF do titular, o campo `nif` de topo do `getdeclaration`;
-- qualquer valor na coluna NIF/NIPC da entidade de uma secção do separador 4 que não seja um NIPC de empresa segundo a regra abaixo (os números das colunas estão na tabela do separador 4);
-- qualquer número de 9 dígitos em qualquer outro valor mantido, substituído antes da escrita;
+- qualquer número de 9 dígitos num valor mantido, substituído antes da escrita;
 - a secção de filiação ou funções em entidades de natureza associativa do separador 4, inteira (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b));
 - o separador 2 (dados pessoais: identificação, morada, contactos, cônjuge);
 - o separador 3 (rendimentos e património);
 - os anexos.
 
-A resposta em bruto do `getdeclaration` nunca é guardada. As fixtures são sintéticas ou limpas, e os testes falham se aparecer uma chave `nif`, a secção de associações, ou um valor de 9 dígitos em qualquer sítio que não seja um NIPC de empresa válido na coluna NIF/NIPC da entidade, numa fixture, num seed ou num ficheiro normalizado.
-
-### NIPC de empresas
-
-Um valor da coluna NIF/NIPC da entidade só é mantido se cumprir todas estas condições:
-
-- tem exatamente 9 dígitos;
-- o dígito de controlo é válido (mod 11: multiplicar os primeiros 8 dígitos pelos pesos 9 a 2 e somar; se a soma mod 11 for 0 ou 1, o dígito de controlo é 0, senão é 11 menos o resto);
-- começa por 5 ou 6, ou por 71, 72 ou 79 (pessoas coletivas, organismos públicos e outras entidades que não são pessoas singulares).
-
-Tudo o resto na coluna é descartado: um primeiro dígito 1, 2, 3 ou 4 (pessoas singulares), um primeiro dígito 8 (a antiga gama dos empresários em nome individual, que identifica pessoas), um primeiro dígito 9 (como o 90 e o 91: condomínios, sociedades irregulares e heranças indivisas de empresários em nome individual), um primeiro dígito 0, qualquer outro prefixo começado por 7 (o 77 incluído, por precaução), um dígito de controlo inválido e qualquer valor que não tenha 9 dígitos. Os números de identificação fiscal não são de acesso público (Lei n.º 52/2019, art. 17.º, n.º 2, al. a); Regulamento da EpT n.º 258/2024, art. 15.º, n.º 2, al. a)), e trato estes prefixos como NIF pessoais. O mascaramento do texto livre da AR (`privacy.py`) usa os mesmos cinco prefixos.
+A resposta em bruto do `getdeclaration` nunca é guardada. As fixtures são sintéticas ou limpas, e os testes falham se aparecer a secção de associações, ou um valor de 9 dígitos fora dos sítios previstos, numa fixture, num seed ou num ficheiro normalizado.
 
 ## API
 
@@ -61,7 +46,7 @@ Base `https://api.entidadetransparencia.pt`. Todas as chamadas são `POST` sem a
 | `/publicquery/getallroles` | `{EntityId}` | Cargos num órgão como `{value, label}`. |
 | `/publicquery/getallholders` | `{EntityId, RoleId}` | Titulares como `{value, label}`; `value` é o id do titular na EpT. |
 | `/publicquery/search` | `{HolderId, EntityId: [...], RoleId: [...], pageNumber, sortBy}` | As declarações de um titular: `id`, `natureType`, `stateType`, `deliveryDate`, `relatedDeclarationId`. |
-| `/publicquery/getdeclaration` | `{Id, isDraft: false}` | Uma declaração: metadados (`id`, `natureType`, `stateType`, `relatedDeclarationId`, `entity`, `role`, `holder`, `holderId`, `entityId`, `roleId`, `startDate`, `endDate`, `submitedDate`, `unavailableSections`), o `nif` do titular e `data.value`, os separadores indexados por GUID. |
+| `/publicquery/getdeclaration` | `{Id, isDraft: false}` | Uma declaração: metadados (`id`, `natureType`, `stateType`, `relatedDeclarationId`, `entity`, `role`, `holder`, `holderId`, `entityId`, `roleId`, `startDate`, `endDate`, `submitedDate`, `unavailableSections`) e `data.value`, os separadores indexados por GUID. |
 
 Órgãos e cargos da AR:
 
@@ -85,13 +70,13 @@ Os URL de declarações do portal (`entidadetransparencia.pt/titularidades/<ids>
 
 O separador 4 é o GUID `1483a8d1-adca-4f39-8038-98cc6f728fcb`. O seu único grupo tem seis secções, cada uma uma lista de linhas cujas células são indexadas por `<GUID da secção>-colN` e têm `value` e `isVisible`. Só mantemos as células visíveis das colunas abaixo.
 
-| GUID da secção | Categoria | Designação | Colunas mantidas | Coluna NIF/NIPC (NIPC de empresas mantidos, o resto descartado) |
-|---|---|---|---|---|
-| `2c6d9562-dea5-488b-9afe-42519c636daf` | activity | Atividades profissionais, cargos públicos, privados e sociais | col1 a col7 | col9 |
-| `62fb0107-a68d-4ba2-822b-bc8adc54369b` | support | Apoios ou benefícios | col1 a col5, col7 a col9 | col6 |
-| `b1f8c095-fe0c-4bb3-b493-902dc0c31232` | service | Serviços prestados | col1 a col5, col7, col8 | col6 |
-| `9b58c917-b14c-4eed-9b3c-40c3d99d45da` | society | Sociedades | col1 a col6, col8 | col7 |
-| `fd85f91f-2803-41bc-b315-ede3a4a66d4e` | other_situation | Outras situações | col1 a col4, col6 | nenhuma |
+| GUID da secção | Categoria | Designação | Colunas mantidas |
+|---|---|---|---|
+| `2c6d9562-dea5-488b-9afe-42519c636daf` | activity | Atividades profissionais, cargos públicos, privados e sociais | col1 a col7 |
+| `62fb0107-a68d-4ba2-822b-bc8adc54369b` | support | Apoios ou benefícios | col1 a col5, col7 a col9 |
+| `b1f8c095-fe0c-4bb3-b493-902dc0c31232` | service | Serviços prestados | col1 a col5, col7, col8 |
+| `9b58c917-b14c-4eed-9b3c-40c3d99d45da` | society | Sociedades | col1 a col6, col8 |
+| `fd85f91f-2803-41bc-b315-ede3a4a66d4e` | other_situation | Outras situações | col1 a col4, col6 |
 
 A sexta secção, `cd0e811a-d9bb-49ee-b0f0-1dae0680eb22` (Filiação ou funções em entidades de natureza associativa), é descartada inteira, sem ler nenhuma célula, porque fica fora do acesso público (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)). Se aparecer num ficheiro guardado, a verificação falha. Um GUID de secção desconhecido é um erro, não algo que se salta, para que uma alteração no formulário seja detetada. A EpT publica a Remuneração como `1` ou `0` sem a documentar, por isso fica como `paid_raw` e `is_paid` fica nulo.
 

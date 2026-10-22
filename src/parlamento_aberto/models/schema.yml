@@ -735,7 +735,7 @@ models:
       is_paid: Nulo. A EpT não diz o que significam 1 e 0.
       start_date: Data de início como dia em Europe/Lisbon.
       end_date: Data de fim como dia em Europe/Lisbon.
-      entity_nipc: NIPC da entidade, só quando é um NIPC de empresa válido (9 dígitos, dígito de controlo mod 11, primeiro dígito 5 ou 6, ou prefixo 71, 72 ou 79). Nulo nos outros casos, incluindo 8, 9x e 77, que podem identificar uma pessoa.
+      entity_nipc: NIPC da entidade, só quando é um NIPC de empresa válido. Nulo nos outros casos.
       beneficiary: Beneficiário de um apoio ou benefício tal como escrito.
       beneficiary_company: Empresa do beneficiário, nos apoios.
       share_value_eur: Valor da participação social em euros, tal como escrito.
@@ -816,7 +816,7 @@ models:
       date_raw: Data única ou período tal como publicado nos apoios e serviços da V5.
       source: Fonte da linha, ar_open_data ou ept.
       paid_raw: Remuneração tal como publicada, S ou N na AR, 1 ou 0 na EpT (não documentado pela EpT).
-      entity_nipc: NIPC da entidade, só na EpT e só quando é um NIPC de empresa válido (dígito de controlo mod 11, começa por 5, 6, 71, 72 ou 79). Nulo nos outros casos, incluindo 8, 9x e 77, que podem identificar uma pessoa.
+      entity_nipc: NIPC da entidade, só na EpT e só quando é um NIPC de empresa válido. Nulo nos outros casos.
       beneficiary: Beneficiário de um apoio ou benefício tal como escrito. Só EpT.
       beneficiary_company: Empresa do beneficiário, nos apoios. Só EpT.
       share_value_eur: Valor da participação social em euros, tal como escrito. Só EpT.

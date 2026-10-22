@@ -31,6 +31,11 @@ BUILT_ALONGSIDE = {
     "stg_registo_interesses__items",
     "stg_ept_registo_interesses__items",
 }
+# Extra read_csv options per seed, for columns the type sniffer would get wrong.
+SEED_OPTIONS = {
+    # MAI circle codes keep their leading zeros, for example 010000.
+    "seed_ballot_list_seats": ", types = {'circle_code': 'VARCHAR'}",
+}
 # The seating macros read mandates and are created as soon as it exists.
 MACROS_AFTER = "mandates"
 
@@ -64,7 +69,8 @@ def build(data_dir: Path | str, database: str = ":memory:") -> duckdb.DuckDBPyCo
             continue
         if name.startswith("seed_"):
             csv = (MODELS / "seeds" / f"{name.removeprefix('seed_')}.csv").as_posix()
-            sql = f"select * from read_csv('{csv}', header = true)"
+            options = SEED_OPTIONS.get(name, "")
+            sql = f"select * from read_csv('{csv}', header = true{options})"
         else:
             sql = _model_sql(name, data_dir)
         con.execute(f"create or replace table {name} as {sql}")

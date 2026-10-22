@@ -16,3 +16,4 @@ Os títulos `## Unreleased` e os prefixos `schema:` e `drift:` ficam em inglês,
 - schema: interests ganha source, paid_raw, entity_nipc, beneficiary, beneficiary_company, share_value_eur, share_pct, share_holder, is_professional_secrecy e observation, no fim.
 - schema: manifest.json ganha excluded_sources. As linhas com source = ept ficam fora dos ficheiros publicados, por não estarem cobertas pela CC BY 4.0.
 - schema: novos marts plenary_attendance e plenary_attendance_summary, com as presenças e faltas às reuniões plenárias da V à XVII por reunião, a categoria de cada código e a marca das reuniões solenes e comemorativas, sem o motivo da falta (schema 1.2.0).
+- schema: novo mart ballot_list_seats, com os lugares por lista e círculo eleitoral de 2009 (XI) a 2025 (XVII), tal como publicados pela Secretaria-Geral do MAI. manifest.json ganha attribution por mart (schema 1.3.0).

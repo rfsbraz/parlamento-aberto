@@ -385,9 +385,12 @@ def test_rows_and_meetings_per_legislature_match_the_source(con):
 
 @data_only
 def test_xvii_fa_and_qv_are_one_per_meeting_and_person(con):
-    # By the source file's legislature (composicao_orgaos/XVII): 34 FA and 42 QV on
-    # 20 October 2026, each in a distinct meeting and person. Counting every row dated from
-    # 1 January 2025 adds XVI's 6 FA and 1 QV of 2025, which no longer change.
+    # By the source file's legislature (composicao_orgaos/XVII): every FA and QV is in a
+    # distinct meeting and person. AR justifies absences after the fact, so FA and QV shrink
+    # (FA to FJ, QV to QVJ or FJ) and only the absences as a whole have a floor: 1471 rows
+    # coded FA, FI, FJ, FIJ, FAJ, QV or QVJ on 20 October 2026 (34 FA, 42 QV). The 22 October
+    # sync has the same 1471 (23 FA, 30 QV). Counting every row dated from 1 January 2025 adds
+    # XVI's 6 FA and 1 QV of 2025, which no longer change.
     xvii = {
         code: (n, distinct)
         for code, n, distinct in rows(
@@ -401,7 +404,21 @@ def test_xvii_fa_and_qv_are_one_per_meeting_and_person(con):
     }
     assert xvii.keys() == {"FA", "QV"}
     assert all(n == distinct for n, distinct in xvii.values())
-    assert xvii["FA"][0] >= 34 and xvii["QV"][0] >= 42
+    absences = [
+        r["code"]
+        for r in seed()
+        if r["category"] in {"pending", "unjustified", "justified", "missed_quorum_vote"}
+    ]
+    assert sorted(absences) == ["FA", "FAJ", "FI", "FIJ", "FJ", "QV", "QVJ"]
+    [(total,)] = rows(
+        con,
+        """
+        select count(*) from plenary_attendance
+        where legislature = 'XVII' and list_contains(?, code)
+        """,
+        [absences],
+    )
+    assert total >= 1471
     since_2025 = dict(
         rows(
             con,

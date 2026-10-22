@@ -48,9 +48,9 @@ A publicação espera pelo meu OK. Enquanto a variável do repositório `DATA_RE
 
 ## Aviso ao Fiscaliza
 
-O `.github/workflows/fiscaliza-dispatch.yml` corre nos push para `main` que mudam o que o Fiscaliza lê no commit do pin (`data/`, `src/parlamento_aberto/`, `pyproject.toml`, `uv.lock` e `.python-version`), e só aí: nunca em `pull_request` nem `pull_request_target`, para que um PR vindo de um fork não chegue ao secret. Envia um `repository_dispatch` para `rfsbraz/parliament` com `event_type` `data-updated` e `client_payload` `{"sha": "<commit>"}`. O Fiscaliza valida o commit, abre o PR que move o seu pin e integra-o quando o CI passa. Este repositório só envia o aviso.
+O `.github/workflows/fiscaliza-dispatch.yml` corre nos push para `main` que mudam o que o Fiscaliza lê no commit do pin (`data/`, `src/parlamento_aberto/`, `pyproject.toml`, `uv.lock` e `.python-version`), e só aí: nunca em `pull_request` nem `pull_request_target`, para que um PR vindo de um fork não chegue ao secret. Também o posso correr à mão (workflow_dispatch), com o commit em `sha`. Envia um `repository_dispatch` para `rfsbraz/fiscaliza` com `event_type` `data-updated` e `client_payload` `{"sha": "<commit>"}`. O Fiscaliza valida o commit, abre o PR que move o seu pin e integra-o quando o CI passa. Este repositório só envia o aviso.
 
-Precisa de um secret do repositório chamado `FISCALIZA_DISPATCH_TOKEN`, que crio e guardo em Settings, Secrets and variables, Actions. O valor nunca vai para o git nem para conversas. É um personal access token fine-grained limitado apenas a `rfsbraz/parliament` (não a este repositório), com:
+Precisa de um secret do repositório chamado `FISCALIZA_DISPATCH_TOKEN`, que crio e guardo em Settings, Secrets and variables, Actions. O valor nunca vai para o git nem para conversas. É um personal access token fine-grained limitado apenas a `rfsbraz/fiscaliza` (não a este repositório), com:
 
 | Permissão | Acesso | Usado para |
 | --- | --- | --- |

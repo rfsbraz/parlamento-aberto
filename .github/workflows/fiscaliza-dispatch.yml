@@ -1,6 +1,6 @@
 name: fiscaliza dispatch
 
-# Avisa o Fiscaliza (rfsbraz/parliament) de que main mudou, com um repository_dispatch
+# Avisa o Fiscaliza (rfsbraz/fiscaliza) de que main mudou, com um repository_dispatch
 # data-updated que leva o commit. É o Fiscaliza que valida o commit, abre o PR que move o
 # seu pin e o integra quando o CI passa (docs/repo-settings.md, "Aviso ao Fiscaliza").
 #
@@ -9,9 +9,12 @@ name: fiscaliza dispatch
 # em release: published (#93).
 #
 # Só quando muda o que o Fiscaliza lê no commit do pin: corre `uv run --locked python -m
-# parlamento_aberto.release build --data data` (deploy/pages.py no parliament), por isso os
+# parlamento_aberto.release build --data data` (deploy/pages.py no fiscaliza), por isso os
 # dados, o pacote com os modelos, seeds e schema.yml, e o ambiente do uv. Docs, CI, testes e
 # templates não o movem. Este ficheiro também não: mudá-lo não muda os dados.
+#
+# À mão (workflow_dispatch) envia o commit em `sha`, ou o do ref escolhido se vier vazio. Serve
+# para testar o aviso com o commit que o Fiscaliza já tem no pin, o que lá não muda nada.
 on:
   push:
     branches: [main]
@@ -21,6 +24,12 @@ on:
       - 'pyproject.toml'
       - 'uv.lock'
       - '.python-version'
+  workflow_dispatch:
+    inputs:
+      sha:
+        description: 'Commit de main a enviar, os 40 caracteres (vazio: o do ref)'
+        required: false
+        type: string
 
 # Não precisa do GITHUB_TOKEN para nada.
 permissions: {}
@@ -33,7 +42,13 @@ jobs:
       - name: Avisar o Fiscaliza
         env:
           FISCALIZA_DISPATCH_TOKEN: ${{ secrets.FISCALIZA_DISPATCH_TOKEN }}
+          INPUT_SHA: ${{ inputs.sha }}
         run: |
+          SHA="${INPUT_SHA:-$GITHUB_SHA}"
+          if ! [[ "$SHA" =~ ^[0-9a-f]{40}$ ]]; then
+            echo "::error::sha tem de ter os 40 caracteres de um commit."
+            exit 1
+          fi
           if [ -z "$FISCALIZA_DISPATCH_TOKEN" ]; then
             echo "::notice::Sem o secret FISCALIZA_DISPATCH_TOKEN, o Fiscaliza não foi avisado."
             exit 0
@@ -42,6 +57,6 @@ jobs:
             -H "Authorization: Bearer $FISCALIZA_DISPATCH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
-            https://api.github.com/repos/rfsbraz/parliament/dispatches \
-            -d '{"event_type":"data-updated","client_payload":{"sha":"'"$GITHUB_SHA"'"}}'
-          echo "Fiscaliza avisado: $GITHUB_SHA"
+            https://api.github.com/repos/rfsbraz/fiscaliza/dispatches \
+            -d '{"event_type":"data-updated","client_payload":{"sha":"'"$SHA"'"}}'
+          echo "Fiscaliza avisado: $SHA"

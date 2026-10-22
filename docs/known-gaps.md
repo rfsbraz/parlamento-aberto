@@ -143,7 +143,6 @@ As declarações da XVI e da XVII vêm da API pública da Entidade para a Transp
 
 - Não há dedup entre fontes. A entidade 510 também tem declarações da XIV e da XV, que a AR já publica; nos marts só entram as da XVI e da XVII, e as outras ficam só em staging.
 - Só entra o separador 4 (registo de interesses). O separador 2 (dados pessoais) e o separador 3 (rendimentos e património) nunca são guardados, nem os anexos.
-- O NIF do titular nunca é guardado. Da coluna NIF/NIPC da entidade só fica um NIPC de empresa válido (prefixo 5, 6, 71, 72 ou 79), em `entity_nipc`; o resto é descartado, incluindo os prefixos 8, 9 e 77 (Lei n.º 52/2019, art. 17.º, n.º 2, al. a); Regulamento da EpT n.º 258/2024, art. 15.º, n.º 2, al. a)).
 - A secção de filiação ou funções em entidades de natureza associativa nunca é lida nem guardada, por isso não há `category = 'association'` (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)).
 - A EpT não tem id da AR. O `cadastro_id` vem de `seed_ept_holders`, pela correspondência de nomes com a InformacaoBase e correções à mão. Um titular sem correspondência fica com `cadastro_id` nulo.
 - A EpT guarda as versões: uma declaração substituída ou modificada fica como linha própria, com `declaration_state` replaced ou modified e `is_current` falso. Para contar uma declaração por titular e cargo, filtre `is_current`.

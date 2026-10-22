@@ -32,7 +32,7 @@ Ficheiros da publicação: `interests.parquet` e `interests.csv.gz`.
 | `date_raw` | VARCHAR | Data única ou período tal como publicado nos apoios e serviços da V5. |
 | `source` | VARCHAR | Fonte da linha, ar_open_data ou ept. |
 | `paid_raw` | VARCHAR | Remuneração tal como publicada, S ou N na AR, 1 ou 0 na EpT (não documentado pela EpT). |
-| `entity_nipc` | VARCHAR | NIPC da entidade, só na EpT e só quando é um NIPC de empresa válido (dígito de controlo mod 11, começa por 5, 6, 71, 72 ou 79). Nulo nos outros casos, incluindo 8, 9x e 77, que podem identificar uma pessoa. |
+| `entity_nipc` | VARCHAR | NIPC da entidade, só na EpT e só quando é um NIPC de empresa válido. Nulo nos outros casos. |
 | `beneficiary` | VARCHAR | Beneficiário de um apoio ou benefício tal como escrito. Só EpT. |
 | `beneficiary_company` | VARCHAR | Empresa do beneficiário, nos apoios. Só EpT. |
 | `share_value_eur` | VARCHAR | Valor da participação social em euros, tal como escrito. Só EpT. |
@@ -172,7 +172,7 @@ Uma linha por linha do separador 4 de uma declaração da EpT em stg_ept_registo
 | `is_paid` | BOOLEAN | Nulo. A EpT não diz o que significam 1 e 0. |
 | `start_date` | DATE | Data de início como dia em Europe/Lisbon. |
 | `end_date` | DATE | Data de fim como dia em Europe/Lisbon. |
-| `entity_nipc` | VARCHAR | NIPC da entidade, só quando é um NIPC de empresa válido (9 dígitos, dígito de controlo mod 11, primeiro dígito 5 ou 6, ou prefixo 71, 72 ou 79). Nulo nos outros casos, incluindo 8, 9x e 77, que podem identificar uma pessoa. |
+| `entity_nipc` | VARCHAR | NIPC da entidade, só quando é um NIPC de empresa válido. Nulo nos outros casos. |
 | `beneficiary` | VARCHAR | Beneficiário de um apoio ou benefício tal como escrito. |
 | `beneficiary_company` | VARCHAR | Empresa do beneficiário, nos apoios. |
 | `share_value_eur` | VARCHAR | Valor da participação social em euros, tal como escrito. |

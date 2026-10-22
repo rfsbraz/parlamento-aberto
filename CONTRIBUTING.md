@@ -39,14 +39,13 @@ gitleaks git --redact --verbose --exit-code 1 --log-opts="origin/main..HEAD" .
 - `pytest` corre todos os testes, incluindo os testes de dados sobre as fixtures.
 - `dictionary --check` falha se `docs/dictionary` não corresponder a `src/parlamento_aberto/models/schema.yml`. O dicionário é gerado: não edite essas páginas à mão. Altere as descrições no `schema.yml` e gere de novo com `uv run python -m parlamento_aberto.dictionary`.
 - `check_file_size.py` rejeita qualquer ficheiro acima de 50 MB.
-- O [gitleaks](https://github.com/gitleaks/gitleaks) procura segredos nos commits do seu ramo, com as regras de `.gitleaks.toml`. Essas regras incluem duas para os dados da Entidade para a Transparência, que falham com qualquer NIF ou valor de 9 dígitos fora da coluna de NIPC. Não altere nem contorne estas regras para fazer passar um commit.
+- O [gitleaks](https://github.com/gitleaks/gitleaks) procura segredos nos commits do seu ramo, com as regras de `.gitleaks.toml`. Essas regras incluem duas para os dados da Entidade para a Transparência, que falham com qualquer NIF ou valor de 9 dígitos fora dos sítios previstos. Não altere nem contorne estas regras para fazer passar um commit.
 
 ## Dados pessoais e fixtures
 
 Os dados de deputados incluem dados pessoais. As regras abaixo não têm exceções:
 
-- Nunca escreva um NIF pessoal, nem o NIF do titular de uma declaração, em código, fixtures, logs, issues ou commits. Dos dados da Entidade para a Transparência só se guardam os metadados da declaração e o separador 4 (registo de interesses). Os separadores 2 (dados pessoais) e 3 (rendimentos e património) nunca entram no repositório.
-- Na coluna NIF/NIPC do separador 4 só fica um NIPC de empresa válido. As regras estão em [docs/sources/ept.md](docs/sources/ept.md).
+- Nunca escreva um NIF pessoal em código, fixtures, logs, issues ou commits. Dos dados da Entidade para a Transparência só se guardam os metadados da declaração e o separador 4 (registo de interesses). Os separadores 2 (dados pessoais) e 3 (rendimentos e património) nunca entram no repositório.
 - As fixtures são sintéticas ou depuradas. Nomes e texto livre inventados usam `Pessoa Sintética`, `sintético` ou `sintética`, e as ligações apontam para `https://app.parlamento.pt/fixture/`. Os testes verificam isto, e falham se uma fixture da EpT tiver uma chave `nif` ou um valor de 9 dígitos.
 - Cada fixture nova é descrita em [tests/fixtures/README.md](tests/fixtures/README.md): de onde vem, a data da extração e o que foi inventado ou retirado.
 - Não edite `data/` à mão. Esses ficheiros vêm da sincronização automática com os dados abertos da AR. Um dado errado na fonte reporta-se com o formulário de correção.

@@ -27,6 +27,14 @@ O registo mais antigo da Constituinte tem datas de nascimento para 38 das suas 3
 
 Não usado: `AtividadeDeputadoCons.xml`, na página da Constituinte (267 833 bytes, ligação para `fich=AtividadeDeputadoX.xml`), é servido corrompido. Vem como `text/xml`, mas não é XML, gzip nem zip. Não se lê nenhum ficheiro de atividade da Constituinte.
 
+### Uma só lista para a I-A e a I-B (#85)
+
+A AR publica o mesmo `deputados.ndjson` nas pastas I-A e I-B da InformacaoBase, igual byte a byte, com todas as situações e grupos da legislatura I, de 1976-06-03 a 1982-03-03. As datas de cada parte vêm do DetalheLegislatura: a I-A vai de 1976-06-03 a 1980-01-02 e a I-B de 1980-01-03 a 1980-11-12.
+
+Nos marts `mandates` e `group_memberships`, cada parte fica só com os períodos que se sobrepõem às suas datas (`legislatures.start_date` e `end_date`). As datas não são cortadas: um período de 1979-06-01 a 1980-03-01 fica nas duas partes com as datas publicadas pela AR. O raw continua igual ao que a AR publica. Nos dados de 21 de outubro de 2026, `mandates` passa de 893 linhas em cada parte (564 pessoas) para 626 linhas e 486 pessoas na I-A e 382 linhas e 326 pessoas na I-B; `group_memberships` passa de 755 linhas em cada parte para 429 na I-A e 326 na I-B.
+
+A regra só se aplica à I-A e à I-B. `test_i_a_and_i_b_deputies_files_are_identical` em `tests/test_constituinte_parts.py` confirma que os dois ficheiros continuam iguais; se a AR passar a publicar uma lista por parte, o teste falha e a regra é revista.
+
 ## Intervencoes
 
 Não há ficheiro publicado para a Constituinte, a I (I-A, I-B) nem a III.

@@ -219,3 +219,13 @@ Não se infere nada para corrigir isto: a fonte não diz que substituto substitu
 | VI | 230 | 232 | 746 |
 
 Se a AR fechar esses períodos, o teste falha. Atualize o valor fixado e esta tabela em conjunto.
+
+## Deputados eleitos por lista, de 1979 a 1991 (#109)
+
+`ballot_list_elected` tem os 1480 deputados eleitos nas eleições de 1979 (I-B) a 1991 (VI), por círculo e lista, tal como saem nas relações do Diário da República digitalizadas pela CNE. Os nomes são lidos por OCR. Os erros de leitura que se encontraram estão corrigidos em `scripts/cne_elected_fixes.csv`, cada um conferido na digitalização; um nome mal lido que ainda se pareça com um nome real pode ter escapado. Os nomes ficam como o Diário da República os imprime, com as gralhas da época (por exemplo, Octácio por Octávio, em 1991).
+
+- Cada lista tem tantos nomes como lugares em `ballot_list_seats`. `test_every_list_has_the_seats_of_ballot_list_seats` verifica-o.
+- `cadastro_id` liga o nome ao registo da AR: pelo nome completo, ou por um nome parecido de um deputado da mesma legislatura, círculo e grupo da lista. Os restantes estão em `models/seeds/ballot_list_elected_overrides.csv`, com uma nota. 18 linhas têm aí o id, muitas vezes porque o registo da AR dá outro círculo, como na I-B, que partilha o registo da I-A (#85).
+- Ficam 3 linhas sem `cadastro_id`, porque o apelido impresso não é o do deputado da AR mais provável: Jaime Adalberto Simões Fernandes (1979, Coimbra, AD), Henrique Aureliano Vieira Lopes (1983, Coimbra, PS) e Fernando Ribeiro Martins (1991, Braga, PS). Sem uma segunda fonte não se escolhe.
+- Eleito não é o mesmo que ter tido lugar. Quem foi para o governo ou renunciou continua na lista; os mandatos estão em `mandates`.
+- 1976 (I-A) fica de fora. A relação de 1976 não traz siglas, as correções vêm num ficheiro à parte, os círculos de então somam 263 lugares, e `ballot_list_seats` não tem linhas da I-A para conferir as contagens. Em 1976 nenhuma coligação elegeu deputados: só PS, PPD, CDS, PCP e UDP elegeram.

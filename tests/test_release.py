@@ -64,7 +64,13 @@ def test_csv_has_the_attribution_header_and_every_row(built):
         with gzip.open(built / f"{mart}.csv.gz", "rt", encoding="utf-8") as f:
             first = f.readline()
             body = f.read()
-        assert first.startswith("# Fonte: Assembleia da República, dados abertos, atualizados a ")
+        source = (
+            "# Fonte: Secretaria-Geral do Ministério da Administração Interna"
+            if release.mai_derived(mart)
+            else "# Fonte: Assembleia da República, dados abertos, atualizados a "
+        )
+        assert first.startswith(source), mart
+        assert manifest["marts"][mart]["attribution"] in first, mart
         assert release.mart_licence(mart) in first and SHA in first
         rows = list(csv.reader(io.StringIO(body)))
         assert rows[0] == [c for c in load_schema()[mart]["columns"]], mart

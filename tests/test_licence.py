@@ -61,8 +61,20 @@ def test_csv_header_cites_source_update_date_and_mart_licence(built):
     for mart in release.marts():
         with gzip.open(built / f"{mart}.csv.gz", "rt", encoding="utf-8") as f:
             first = f.readline()
-        assert first.startswith(f"# {release.ATTRIBUTION}, atualizados a {lock_updated()}."), mart
+        attribution = release.mart_attribution(mart, lock_updated())
+        assert first.startswith(f"# {attribution}."), mart
         assert release.mart_licence(mart) in first, mart
+
+
+def test_only_ballot_list_seats_credits_the_mai(built):
+    # The SGMAI election results are credited to the MAI, not the AR (LICENSE-DATA, point 4).
+    assert [m for m in release.marts() if release.mai_derived(m)] == ["ballot_list_seats"]
+    m = json.loads((built / "manifest.json").read_text())
+    entry = m["marts"]["ballot_list_seats"]
+    assert entry["attribution"].startswith(release.MAI_ATTRIBUTION)
+    assert "Assembleia da República" not in entry["attribution"]
+    text = (ROOT / "LICENSE-DATA").read_text()
+    assert release.MAI_ATTRIBUTION in text and "ballot_list_seats" in text
 
 
 def test_ept_lineage_is_detected():

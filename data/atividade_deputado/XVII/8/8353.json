@@ -960,6 +960,60 @@
    ],
    "Audiencias": [
     {
+     "AccDtaud": "2026-10-21",
+     "ActAs": "Audiência a Maria Elisa Rodrigues, encarregada de educação, sobre a exclusão estrutural dos diplomados do Ensino Profissional no acesso ao Ensino Superior público da Área Metropolitana de Lisboa.",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "127819",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "46-CEC-XVII",
+     "ActSl": null,
+     "ActTp": "AUD",
+     "ActTpdesc": "Audiência",
+     "CmsAb": "CEC",
+     "CmsNo": "Comissão de Educação e Ciência",
+     "NomeEntidadeExterna": "Maria Elisa Rodrigues, Encarregada de Educação",
+     "TevTp": null
+    },
+    {
+     "AccDtaud": "2026-10-20",
+     "ActAs": "Audiência ao Sindicato Nacional do Ensino Superior (SNESUP), sobre o processo de transição dos diplomas de criação da Universidade Técnica do Porto e Universidade de Leiria e Oeste ",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "127818",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "45-CEC-XVII",
+     "ActSl": null,
+     "ActTp": "AUD",
+     "ActTpdesc": "Audiência",
+     "CmsAb": "CEC",
+     "CmsNo": "Comissão de Educação e Ciência",
+     "NomeEntidadeExterna": "Sindicato Nacional do Ensino Superior SNESup",
+     "TevTp": null
+    },
+    {
+     "AccDtaud": "2026-10-20",
+     "ActAs": "Audiência à Federação Nacional dos Sindicatos dos Trabalhadores em Funções Públicas e Sociais (FNSTFPS) relativamente à situação dos trabalhadores não docentes (assistentes operacionais e assistentes técnicos) da Escola Pública, transferência de competências e processo negocial ",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "127817",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "44-CEC-XVII",
+     "ActSl": null,
+     "ActTp": "AUD",
+     "ActTpdesc": "Audiência",
+     "CmsAb": "CEC",
+     "CmsNo": "Comissão de Educação e Ciência",
+     "NomeEntidadeExterna": "FNSTFPS - Federação Nacional dos Sindicatos dos Trabalhadores em Funções Públicas e Sociais",
+     "TevTp": null
+    },
+    {
      "AccDtaud": "2026-10-14",
      "ActAs": "Audiência à Associação Portuguesa de Bibliotecários, Arquivistas, Profissionais da Informação e Documentação e outros, sobre proposta de criação de um Direito e de uma Obrigação de Publicação Secundária em Portugal ",
      "ActDtdes1": null,
@@ -5700,12 +5754,20 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Porto",
+     "Data": "2026-01-12",
+     "Estabelecimento": "Agrupamento de Escolas de Valongo",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Porto",
+     "Data": "2026-01-05",
+     "Estabelecimento": "Escola Secundária da Maia",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -7852,6 +7914,16 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Exclusão dos pontos de avaliação de desempenho e salvaguarda dos direitos de progressão remuneratória dos docentes na transição do ensino politécnico para o ensino universitário",
+     "ReqDt": "2026-10-21 00:00:00.0",
+     "ReqId": "231889",
+     "ReqLg": "XVII",
+     "ReqNr": "256",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Ocupação ilegal de imóveis em Portugal",
@@ -10998,7 +11070,7 @@
   ],
   "DepGP": [
    {
-    "GpDtFim": "2026-10-20",
+    "GpDtFim": "2026-10-21",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

@@ -1,14 +1,19 @@
-## O quê e porquê?
+## Resumo
 
-
+<!-- Uma ou duas linhas: o que muda e porquê. -->
 
 Closes #
 
-## Como foi testado?
+## Antes / Depois
 
+| Antes | Depois |
+| --- | --- |
+|  |  |
 
+## Capturas de ecrã
 
-## Uso de IA
+<!-- Só para alterações visíveis. Apague esta secção nos outros casos. -->
 
-O que teve ajuda de IA, e o que verificou à mão?
+## Testado
 
+<!-- Uma linha: o que correu, por exemplo `uv run pytest`. -->

@@ -1,6 +1,6 @@
 # Entidade para a Transparência (EpT): registo de interesses da XVI e da XVII
 
-Os dados abertos da AR só têm ficheiros `RegistoInteresses` até à XV. A partir da XVI, os deputados entregam as declarações à Entidade para a Transparência, ao abrigo da Lei n.º 52/2019, e a AR não publica nenhuma. Esta página regista o que decidi, o que a API da EpT devolve e o que nunca guardo. Plano e ordem de construção: #42 (issues #43 a #49).
+Os dados abertos da AR só têm ficheiros `RegistoInteresses` até à XV. A partir da XVI, os deputados entregam as declarações à Entidade para a Transparência, ao abrigo da Lei n.º 52/2019, e a AR não publica nenhuma. Esta página regista o que decidi, o que a EpT publica e o que nunca guardo. Plano e ordem de construção: #42 (issues #43 a #49).
 
 ## Decisão (20 de outubro de 2026)
 
@@ -33,38 +33,11 @@ O fetcher retira isto em memória, antes de escrever o que quer que seja em disc
 - o separador 3 (rendimentos e património);
 - os anexos.
 
-A resposta em bruto do `getdeclaration` nunca é guardada. As fixtures são sintéticas ou limpas, e os testes falham se aparecer a secção de associações, ou um valor de 9 dígitos fora dos sítios previstos, numa fixture, num seed ou num ficheiro normalizado.
+A resposta em bruto da EpT nunca é guardada. As fixtures são sintéticas ou limpas, e os testes falham se aparecer a secção de associações, ou um valor de 9 dígitos fora dos sítios previstos, numa fixture, num seed ou num ficheiro normalizado.
 
-## API
+## Acesso aos dados
 
-Base `https://api.entidadetransparencia.pt`. Todas as chamadas são `POST` sem autenticação, com um corpo JSON e `Content-Type: application/json`; o portal também envia `Origin: https://entidadetransparencia.pt`. As respostas vêm num envelope `{code, description, messageId, externalMessageId, data}`, com `code` 0 em caso de sucesso. Fazemos no máximo 1 pedido por segundo.
-
-| Caminho | Corpo | Devolve |
-|---|---|---|
-| `/publicquery` | `{EntityId, RoleId, HolderId, pageNumber, pageSize, sortBy}` | Titularidades (um titular num cargo num órgão): `id`, `entityId`, `roleId`, `holderId`, `entity`, `role`, `holder`, `beginDate`, `endDate`, paginadas com `pageNumber`, `pageSize`, `pageCount`, `total`. |
-| `/publicquery/getallentities` | `{}` | Todos os órgãos como `{value, label}` (4461 a 20 de outubro de 2026). |
-| `/publicquery/getallroles` | `{EntityId}` | Cargos num órgão como `{value, label}`. |
-| `/publicquery/getallholders` | `{EntityId, RoleId}` | Titulares como `{value, label}`; `value` é o id do titular na EpT. |
-| `/publicquery/search` | `{HolderId, EntityId: [...], RoleId: [...], pageNumber, sortBy}` | As declarações de um titular: `id`, `natureType`, `stateType`, `deliveryDate`, `relatedDeclarationId`. |
-| `/publicquery/getdeclaration` | `{Id, isDraft: false}` | Uma declaração: metadados (`id`, `natureType`, `stateType`, `relatedDeclarationId`, `entity`, `role`, `holder`, `holderId`, `entityId`, `roleId`, `startDate`, `endDate`, `submitedDate`, `unavailableSections`) e `data.value`, os separadores indexados por GUID. |
-
-Órgãos e cargos da AR:
-
-| EntityId | Designação | Abrange | Cargos |
-|---|---|---|---|
-| 510 | Assembleia da República | Titularidades antes da XVII (desde 2021, portanto XIV a XVI) | Deputado 8, Deputada 232, Presidente da Assembleia da República 2, Vice-Presidente 13, Vogal 18 |
-| 4508 | Assembleia da República - XVII Legislatura | XVII | Deputado 8, Deputada 232, Presidente 12, Presidente da Assembleia da República 2 |
-
-A 20 de outubro de 2026, a entidade 4508 tinha 322 titularidades e a 510 tinha 559; 263 e 427 titulares distintos como Deputado ou Deputada, 506 no total. O mesmo id de titular é usado nos dois órgãos.
-
-Enumerações, tiradas do código do portal:
-
-- `natureType`: 1 initial, 2 modification, 4 cessation, 8 final, 16 replace, 32 reElection.
-- `stateType`: 1 draft, 2 pendingVerification, 4 notPublished, 8 published, 16 canceled, 32 modified, 64 replaced.
-
-As datas são texto ISO em UTC (`2025-06-01T23:00:00Z` é 2 de junho em Lisboa). Guardamos o valor em bruto e convertemos para o dia em Europe/Lisbon.
-
-Os URL de declarações do portal (`entidadetransparencia.pt/titularidades/<ids>/declaracoes/<id>`) levam ids cifrados no browser com um salt aleatório, por isso não há um URL público estável para onde apontar.
+Os pormenores de acesso aos dados da EpT ficam suspensos até a EpT responder.
 
 ### Separador 4: registo de interesses
 

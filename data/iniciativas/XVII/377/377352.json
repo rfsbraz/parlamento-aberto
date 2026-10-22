@@ -710,7 +710,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer 6.ª-CECT",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a637a4d6a45785a4451784c544a6d59544d744e44597a4d6930354d475a694c544177596d466b5a6d5a69596d49774e6935775a47593d&fich=73211d41-2fa3-4632-90fb-00badffbbb06.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8452",
      "Legislatura": null,
@@ -734,10 +741,36 @@
       }
      ],
      "RemessaRedaccaoFinal": null,
-     "Remessas": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2026-10-21",
+       "dataRemessa": "2026-10-21",
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": [
+        "L",
+        "PCP",
+        "CDS-PP",
+        "JPP"
+       ],
+       "data": "2026-10-21",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I>, <I> IL</I><BR>Ausência: <I>L</I>, <I> PCP</I>, <I> CDS-PP</I>, <I> JPP</I>",
+       "id": "193189",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "54",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
     }
    ],
    "DataFase": "2026-10-08",
@@ -781,7 +814,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório_Proposta de Lei n.º 110_XVII_2ª (GOV)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533833513046515a584d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938304f5745304d5759324e53307a4e6a6c6b4c5452684d6a41744f44426a596930304f546334595452684e5445784d5445756347526d&fich=49a41f65-369d-4a20-80cb-4978a4a51111.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8453",
      "Legislatura": null,
@@ -852,7 +892,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-20",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer Proposta de Lei n.º 110-XVII-2.ª (GOV) CEC",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876595751795a54557a4e4463744d6a55784f4330304d6a41784c5467314d6d51744e574a6d5a4445334d4464684f574a6a4c6e426b5a673d3d&fich=ad2e5347-2518-4201-852d-5bfd1707a9bc.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8454",
      "Legislatura": null,
@@ -865,12 +912,38 @@
      "Prorrogado": null,
      "Publicacao": null,
      "PublicacaoRelatorio": null,
-     "Relatores": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "9194",
+       "motivoCessacao": null,
+       "nome": "Aida Carvalho"
+      }
+     ],
      "RemessaRedaccaoFinal": null,
      "Remessas": null,
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": [
+        "IL",
+        "PCP",
+        "CDS-PP"
+       ],
+       "data": "2026-10-20",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I>, <I> L</I><BR>Ausência: <I>IL</I>, <I> PCP</I>, <I> CDS-PP</I>",
+       "id": "193177",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "57",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
     }
    ],
    "DataFase": "2026-10-08",

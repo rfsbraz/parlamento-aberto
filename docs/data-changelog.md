@@ -16,4 +16,9 @@ Os títulos `## Unreleased` e os prefixos `schema:` e `drift:` ficam em inglês,
 - schema: interests ganha source, paid_raw, entity_nipc, beneficiary, beneficiary_company, share_value_eur, share_pct, share_holder, is_professional_secrecy e observation, no fim.
 - schema: manifest.json ganha excluded_sources. As linhas com source = ept ficam fora dos ficheiros publicados, por não estarem cobertas pela CC BY 4.0.
 - schema: novos marts plenary_attendance e plenary_attendance_summary, com as presenças e faltas às reuniões plenárias da V à XVII por reunião, a categoria de cada código e a marca das reuniões solenes e comemorativas, sem o motivo da falta (schema 1.2.0).
-- schema: novo mart ballot_list_seats, com os lugares por lista e círculo eleitoral de 2009 (XI) a 2025 (XVII), tal como publicados pela SGMAI. manifest.json ganha attribution e downloaded (data de descarga) por mart, e source_files com a data de cada ficheiro da SGMAI quando o ficheiro a indica (schema 1.3.0).
+- schema: coalitions ganha has_seats, no fim, e uma linha por cada partido da lista que não elegeu ninguém, com has_seats falso: o PEV na CDU da XV à XVII e o PPM na AD da XVI e na lista da AD dos Açores na XVII (schema 1.3.0).
+- drift: mandates I-A: a AR publica a mesma lista para a I-A e a I-B; cada parte fica só com os períodos que se sobrepõem às suas datas (#85).
+- drift: mandates I-B: a AR publica a mesma lista para a I-A e a I-B; cada parte fica só com os períodos que se sobrepõem às suas datas (#85).
+- drift: group_memberships I-A: a AR publica a mesma lista para a I-A e a I-B; cada parte fica só com os períodos que se sobrepõem às suas datas (#85).
+- drift: group_memberships I-B: a AR publica a mesma lista para a I-A e a I-B; cada parte fica só com os períodos que se sobrepõem às suas datas (#85).
+- schema: novo mart ballot_list_seats, com os lugares por lista e círculo eleitoral de 2009 (XI) a 2025 (XVII), tal como publicados pela SGMAI. manifest.json ganha attribution e downloaded (data de descarga) por mart, e source_files com a data de cada ficheiro da SGMAI quando o ficheiro a indica (schema 1.4.0).

@@ -21,11 +21,12 @@ Ficheiros da publicação: `group_memberships.parquet` e `group_memberships.csv.
 ## Particularidades conhecidas
 
 - A AR escreve a data da extração como data de fim de uma filiação aberta. O mapeador antigo guardava essa data tal como publicada, pelo que as filiações abertas pareciam fechadas. Aqui uma filiação aberta tem end_date nulo e is_open = true.
+- Como em mandates, a I-A e a I-B partilham uma só lista publicada pela AR. Cada parte fica só com os períodos num grupo que se sobrepõem às suas datas em legislatures, com as datas tal como publicadas.
 - As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
 ## Construído a partir de
 
-Marts: [legislatures](legislatures.md).
+Marts: [legislatures](legislatures.md), [deputies](deputies.md), [mandates](mandates.md).
 
 ### stg_informacao_base__deputies
 

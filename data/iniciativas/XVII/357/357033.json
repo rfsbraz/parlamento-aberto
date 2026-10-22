@@ -271,6 +271,12 @@
        "TipoDocumento": "Nota técnica",
        "TituloDocumento": "Nota Técnica",
        "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a42694d7a677859325a6a4c574e6b4d6a6b744e4452685a4331684d5451304c574a6c4e44646b4d6d49784f474930595335775a47593d&fich=0b381cfc-cd29-44ad-a144-be47d2b18b4a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório 6.ª CECT",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a51324e7a41315a6d45324c5463334f4445744e474a684e4330344d57566a4c575a6b4d444131593255774e7a686d4f4335775a47593d&fich=46705fa6-7781-4ba4-81ec-fd005ce078f8.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -296,10 +302,34 @@
       }
      ],
      "RemessaRedaccaoFinal": null,
-     "Remessas": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2026-10-21",
+       "dataRemessa": "2026-10-21",
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": [
+        "PCP",
+        "CDS-PP"
+       ],
+       "data": "2026-10-21",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I>, <I> IL</I>, <I> L</I><BR>Ausência: <I>PCP</I>, <I> CDS-PP</I>",
+       "id": "193190",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "54",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
     }
    ],
    "DataFase": "2026-07-10",

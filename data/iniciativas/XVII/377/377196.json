@@ -147,6 +147,12 @@
        "TipoDocumento": "Nota técnica",
        "TituloDocumento": "Nota Técnica",
        "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3245784d6d5935595449784c574932597a63744e444934595331684e5445774c5751324f47526b4e6d55794f4445334e6935775a47593d&fich=a12f9a21-b6c7-428a-a510-d68dd6e28176.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório 6.ª CECT",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3251324f574e6b596d4d7a4c54686b5a4467744e4755774e69303559574e694c5449335a4455334d5751344f5441795a5335775a47593d&fich=d69cdbc3-8dd8-4e06-9acb-27d571d8902e.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -156,10 +162,15 @@
      "Nome": "Comissão de Economia e Coesão Territorial ",
      "Numero": "8452",
      "Observacao": null,
-     "PareceresRecebidos": null,
+     "PareceresRecebidos": [
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a4d304d6a686c4d3255784c5451344d6a55744e4441344d793169596a55354c544d794e7a55315a6d466c595451314d6935775a47593d&fich=3428e3e1-4825-4083-bb59-32755faea452.pdf&Inline=true",
+       "nome": "AdC - Autoridade da Concorrência em 2026-10-02"
+      }
+     ],
      "PedidosParecer": [
       {
-       "link": "",
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a4d304d6a686c4d3255784c5451344d6a55744e4441344d793169596a55354c544d794e7a55315a6d466c595451314d6935775a47593d&fich=3428e3e1-4825-4083-bb59-32755faea452.pdf&Inline=true",
        "nome": "AdC - Autoridade da Concorrência em 2026-09-18"
       }
      ],
@@ -177,10 +188,34 @@
       }
      ],
      "RemessaRedaccaoFinal": null,
-     "Remessas": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2026-10-21",
+       "dataRemessa": "2026-10-21",
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": [
+        "PCP",
+        "CDS-PP"
+       ],
+       "data": "2026-10-21",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I>, <I> IL</I>, <I> L</I>, <I> JPP</I><BR>Ausência: <I>PCP</I>, <I> CDS-PP</I>",
+       "id": "193191",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "54",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
     }
    ],
    "DataFase": "2026-09-17",

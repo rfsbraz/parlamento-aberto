@@ -7176,12 +7176,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Porto",
+     "Data": "2026-01-12",
+     "Estabelecimento": "Escola Básica Amadeo de Souza Cardoso, Telões, Amarante",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -9329,6 +9329,16 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Exclusão dos pontos de avaliação de desempenho e salvaguarda dos direitos de progressão remuneratória dos docentes na transição do ensino politécnico para o ensino universitário",
+     "ReqDt": "2026-10-21 00:00:00.0",
+     "ReqId": "231889",
+     "ReqLg": "XVII",
+     "ReqNr": "256",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Ocupação ilegal de imóveis em Portugal",
@@ -12210,7 +12220,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-20",
+    "GpDtFim": "2026-10-21",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

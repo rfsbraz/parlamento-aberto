@@ -22,9 +22,12 @@ Ficheiros da publicação: `mandates.parquet` e `mandates.csv.gz`.
 ## Particularidades conhecidas
 
 - A InformacaoBase lista todas as pessoas nas listas de uma legislatura, eleitas ou não: 1446 pessoas na XVII na sincronização de 20 de outubro de 2026, para 230 lugares. Conte os lugares a partir dos períodos is_effective que cobrem uma data, não a partir das linhas das listas. O site antigo contava cada registo como um deputado.
+- A AR publica a mesma lista para a I-A e a I-B, com todas as situações da legislatura I. Cada parte fica só com os períodos que se sobrepõem às suas datas em legislatures, com as datas tal como publicadas, por isso um período que atravessa a mudança de parte aparece nas duas. Ver docs/known-gaps.md.
 - As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
 ## Construído a partir de
+
+Marts: [legislatures](legislatures.md), [deputies](deputies.md).
 
 ### stg_informacao_base__deputies
 

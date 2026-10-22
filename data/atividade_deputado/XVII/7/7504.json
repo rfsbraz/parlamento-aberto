@@ -512,6 +512,24 @@
    "Audicoes": [
     {
      "AccDtaud": "2026-10-20",
+     "ActAs": "Audição, a requerimento apresentado pelo DURP do BE, sobre a compatibilização do direito à proteção de dados pessoais com a exigência de transparência no financiamento da atividade política em Portugal.",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190556",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "73-CACDLG-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CACDLG",
+     "CmsNo": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias ",
+     "NomeEntidadeExterna": "Comissão de Acesso aos Documentos Administrativos (CADA)     ; Entidade das Contas e Financiamentos Políticos",
+     "TevTp": null
+    },
+    {
+     "AccDtaud": "2026-10-20",
      "ActAs": "Audição do Senhor Presidente do Conselho Diretivo da Caixa Geral de Aposentações, I. P., Dr. António José Alves Valente e do Senhor Diretor Central da CGA, Dr. Vasco Costa,  no âmbito da redução de pensões de aposentação já fixadas em resolução final.",
      "ActDtdes1": null,
      "ActDtdes2": null,
@@ -3307,12 +3325,20 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Setúbal",
+     "Data": "2026-01-26",
+     "Estabelecimento": "Escola Profissional de Educação para o Desenvolvimento",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Setúbal",
+     "Data": "2026-03-16",
+     "Estabelecimento": "Esc. Secundária D. João II Rua Dr. Luís Teixeira de Macedo e Castro - Setúbal",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Sessão Distrital/Regional"
     }
    ],
    "Rel": {
@@ -3541,7 +3567,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-20",
+    "GpDtFim": "2026-10-21",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

@@ -245,26 +245,7 @@
      "ActTpdesc": "Voto"
     }
    ],
-   "Audicoes": [
-    {
-     "AccDtaud": null,
-     "ActAs": null,
-     "ActDtdes1": null,
-     "ActDtdes2": null,
-     "ActDtent": null,
-     "ActId": null,
-     "ActLg": null,
-     "ActLoc": null,
-     "ActNr": null,
-     "ActSl": null,
-     "ActTp": null,
-     "ActTpdesc": null,
-     "CmsAb": null,
-     "CmsNo": null,
-     "NomeEntidadeExterna": null,
-     "TevTp": null
-    }
-   ],
+   "Audicoes": null,
    "Audiencias": null,
    "Cms": null,
    "DadosLegisDeputado": [
@@ -280,6 +261,15 @@
    "Eventos": null,
    "Gpa": null,
    "Ini": [
+    {
+     "IniId": "377373",
+     "IniNr": "814",
+     "IniSelLg": "XVII",
+     "IniSelNr": "2",
+     "IniTi": "Eliminação das propinas, taxas e emolumentos no Ensino Superior Público",
+     "IniTp": "J",
+     "IniTpdesc": "Projeto de Lei"
+    },
     {
      "IniId": "377361",
      "IniNr": "809",
@@ -3431,7 +3421,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-20",
+    "GpDtFim": "2026-10-21",
     "GpDtInicio": "2025-06-03",
     "GpId": 7266.0,
     "GpSigla": "PCP"

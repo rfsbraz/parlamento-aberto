@@ -138,6 +138,12 @@
        "TipoDocumento": "Nota técnica",
        "TituloDocumento": "Nota Técnica",
        "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f474d344e6a6869595455744e7a5a6d4e6930304d4759784c546b325a6d51744e574a6c4e444930597a6c6a4e5759334c6e426b5a673d3d&fich=8c868ba5-76f6-40f1-96fd-5be424c9c5f7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório do PJL574-XVII-1",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a474d794d444e6b4d6a45744e54646b5a5330304d7a686c4c54677a595749744d544a6d4d6a55315a5455774d6a51354c6e426b5a673d3d&fich=dc203d21-57de-438e-83ab-12f255e50249.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -224,7 +230,24 @@
      "Remessas": null,
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": [
+        "L",
+        "CDS-PP",
+        "JPP"
+       ],
+       "data": "2026-10-21",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I>, <I> IL</I><BR>Ausência: <I>L</I>, <I> CDS-PP</I>, <I> JPP</I>",
+       "id": "193187",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "59",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
     }
    ],
    "DataFase": "2026-04-21",

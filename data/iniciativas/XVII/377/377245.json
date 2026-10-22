@@ -229,7 +229,20 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387a5130524f4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f5755304d32553059544d744f475a6c5a4330304e5751334c574668593255745a4467334d445a694f4464695a4452694c6e426b5a673d3d&fich=9e43e4a3-8fed-45d7-aace-d8706b87bd4b.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório da discussão e votação na especialidade",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387a5130524f4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a566b4f5749344d4749744e574530596930304e6a4a694c546c6c4e7a67745a4459334e54553359324d304e475a684c6e426b5a673d3d&fich=75d9b80b-5a4b-462b-9e78-d67557cc44fa.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8449",
      "Legislatura": null,
@@ -247,7 +260,20 @@
      "Remessas": null,
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2026-10-20",
+       "descricao": "Texto final",
+       "detalhe": "A Favor: <I>CH</I>, <I> PS</I>, <I> L</I><BR>Contra:<I>PSD</I>, <I> CDS-PP</I>",
+       "id": "193179",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "49",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
     }
    ],
    "DataFase": "2026-09-30",

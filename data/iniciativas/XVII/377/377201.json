@@ -303,6 +303,12 @@
        "TipoDocumento": "Nota técnica",
        "TituloDocumento": "Nota Técnica",
        "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f474e695a6a45304f5459744f445a684f4330304e6d566c4c57466d595459744f544e6b4d5759794e4755314d6d466b4c6e426b5a673d3d&fich=8cbf1496-86a8-46ee-afa6-93d1f24e52ad.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório do PJL747-XVII-2",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6d4a685a6d59795a474d74595749774e7930304d5752694c5467355a6a59744f4467324e6a55775a6a4e6a596a4d334c6e426b5a673d3d&fich=2baff2dc-ab07-41db-89f6-886650f3cb37.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -331,7 +337,23 @@
      "Remessas": null,
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": [
+        "L",
+        "CDS-PP"
+       ],
+       "data": "2026-10-21",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I>, <I> IL</I>, <I> JPP</I><BR>Ausência: <I>L</I>, <I> CDS-PP</I>",
+       "id": "193188",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "59",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
     }
    ],
    "DataFase": "2026-09-30",
@@ -543,6 +565,34 @@
    "Links": null,
    "ObsFase": null,
    "OevId": "1754251",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255794f546b354d575a6c4c544a6c4e5751744e444535597930345a6d49314c54646a4f5449344f4745334d4759314e4335775a47593d&fich=e29991fe-2e5d-419c-8fb5-7c9288a70f54.pdf&Inline=true",
+     "anexoNome": "Requerimento JPP"
+    }
+   ],
+   "CodigoFase": "237",
+   "Comissao": null,
+   "DataFase": "2026-10-21",
+   "EvtId": "122",
+   "Fase": "Requerimento Baixa Comissão sem Votação (Generalidade)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1754308",
    "OevTextId": null,
    "PcpublicasConjuntas": null,
    "PeticoesConjuntas": null,

@@ -171,6 +171,12 @@
        "TipoDocumento": "Nota técnica",
        "TituloDocumento": "Nota Técnica",
        "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c325a68596a63344f5441794c574a6a4e3251744e4459784f533169596a67334c54646d4e7a49324f574a684d6a46694e7935775a47593d&fich=fab78902-bc7d-4619-bb87-7f7269ba21b7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório 6.ª CECT",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a67345a475a6d4e5445334c5446695a5751744e4441354e4330355a6d457a4c574532596a45314d3259774f5746694d7935775a47593d&fich=88dff517-1bed-4094-9fa3-a6b153f09ab3.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -196,10 +202,34 @@
       }
      ],
      "RemessaRedaccaoFinal": null,
-     "Remessas": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2026-10-21",
+       "dataRemessa": "2026-10-21",
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": [
+        "PCP",
+        "CDS-PP"
+       ],
+       "data": "2026-10-21",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I>, <I> IL</I>, <I> L</I>, <I> JPP</I><BR>Ausência: <I>PCP</I>, <I> CDS-PP</I>",
+       "id": "193192",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "54",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
     }
    ],
    "DataFase": "2026-06-11",

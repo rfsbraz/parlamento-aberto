@@ -1823,12 +1823,20 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Setúbal",
+     "Data": "2026-01-29",
+     "Estabelecimento": "Escola Secundária de Palmela",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Lisboa",
+     "Data": "2026-01-09",
+     "Estabelecimento": "Escola Secundária Pedro Nunes, Lisboa",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -2015,6 +2023,16 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Acompanhamento pela República do aumento dos custos, da execução financeira e da conclusão do Hospital Central e Universitário da Madeira",
+     "ReqDt": "2026-10-21 00:00:00.0",
+     "ReqId": "231893",
+     "ReqLg": "XVII",
+     "ReqNr": "259",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Financiamento do PRR à construção de lares para idosos na Região Autónoma da Madeira e garantia de vagas sociais",
@@ -3854,7 +3872,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-20",
+    "GpDtFim": "2026-10-21",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

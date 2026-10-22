@@ -1,6 +1,6 @@
 # Version of the published schema, in manifest.json. Bump the major on a breaking change
 # (a column removed or renamed, a type changed); the site refuses an unknown major.
-schema_version: "1.2.0"
+schema_version: "1.3.0"
 
 # Every model, in run order, with a description of every column.
 # The data dictionary in docs/dictionary is generated from this file
@@ -119,32 +119,36 @@ models:
       Lista mantida à mão das coligações eleitorais que elegeram deputados, uma linha por
       legislatura, lista da coligação e grupo parlamentar correspondente, cada linha com a sua
       fonte. Partiu do antigo coalition_detector.py, mantendo só as coligações que elegeram
-      deputados e os grupos que existem em parliamentary_groups.
+      deputados. Os partidos da lista que não elegeram ninguém têm a sua própria linha, com
+      has_seats falso.
     columns:
       legislature: Legislatura em numeração romana (o nome da pasta de dados) preenchida pela eleição.
       coalition: Nome curto pelo qual a coligação é conhecida, por exemplo AD ou CDU.
       ballot_acronym: Sigla da lista no boletim de voto, por exemplo PCP-PEV ou PPD/PSD.CDS-PP.
       coalition_name: Nome da lista da coligação.
-      group_code: Grupo parlamentar onde os seus deputados se sentaram, como listado em parliamentary_groups nessa legislatura.
+      group_code: Grupo parlamentar onde os seus deputados se sentaram, como listado em parliamentary_groups nessa legislatura. Nas linhas com has_seats falso, a sigla do partido.
       source_url: Referência para a composição da coligação.
       election_url: Página da CNE sobre a eleição, com o mapa oficial de resultados.
       note: Exceções, por exemplo círculos onde os partidos concorreram separados.
+      has_seats: Verdadeiro quando o partido elegeu deputados e teve grupo nessa legislatura; falso para um partido da lista que não elegeu ninguém.
 
   coalitions:
     description: >-
       Uma linha por legislatura, lista da coligação e grupo parlamentar, a partir de seed_coalitions.
       Serve para ler resultados por grupo: por exemplo, a AD na XVII senta-se como PSD e CDS-PP, e a CDU
-      como PCP (e PEV até à XIV). Os partidos que concorreram sozinhos não constam.
+      como PCP (e PEV até à XIV). Os partidos da lista sem lugares também constam, com has_seats
+      falso, por exemplo o PEV na CDU da XV à XVII. Os partidos que concorreram sozinhos não constam.
     columns:
       legislature: Legislatura em numeração romana.
       coalition: Nome curto pelo qual a coligação é conhecida, por exemplo AD ou CDU.
       ballot_acronym: Sigla da lista no boletim de voto.
       coalition_name: Nome da lista da coligação.
-      group_code: Grupo parlamentar, liga a parliamentary_groups por legislature e group_acronym.
-      group_name: Nome desse grupo em parliamentary_groups.
+      group_code: Grupo parlamentar, liga a parliamentary_groups por legislature e group_acronym. Nas linhas com has_seats falso, a sigla do partido, sem grupo.
+      group_name: Nome desse grupo em parliamentary_groups. Nulo quando has_seats é falso.
       source_url: Referência para a composição da coligação.
       election_url: Página da CNE sobre a eleição, com o mapa oficial de resultados.
       note: Exceções, por exemplo círculos onde os partidos concorreram separados.
+      has_seats: Verdadeiro quando o partido elegeu deputados e teve grupo nessa legislatura; falso para um partido da lista que não elegeu ninguém.
 
   deputies:
     description: Uma linha por pessoa (cadastro_id) que aparece em qualquer lista, eleita ou não. Use mandates para saber quem teve lugar e quando.

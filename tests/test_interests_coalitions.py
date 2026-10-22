@@ -284,12 +284,55 @@ def test_coalition_rows_are_unique():
     assert len(keys) == len(set(keys))
 
 
+# Coalition parties that won no seat in the election (#89), as (legislature, coalition,
+# ballot_acronym, group_code). Their group_code is the party's acronym.
+WITHOUT_SEATS = [
+    ("XV", "CDU", "PCP-PEV", "PEV"),
+    ("XVI", "AD", "PPD/PSD.CDS-PP.PPM", "PPM"),
+    ("XVI", "CDU", "PCP-PEV", "PEV"),
+    ("XVII", "AD", "PPD/PSD.CDS-PP.PPM", "PPM"),
+    ("XVII", "CDU", "PCP-PEV", "PEV"),
+]
+
+
+def test_has_seats_is_a_boolean_on_every_row():
+    assert {r["has_seats"] for r in seed_rows()} == {"true", "false"}
+
+
+def test_parties_without_seats_are_pinned():
+    seatless = [
+        (r["legislature"], r["coalition"], r["ballot_acronym"], r["group_code"])
+        for r in seed_rows()
+        if r["has_seats"] == "false"
+    ]
+    assert sorted(seatless) == sorted(WITHOUT_SEATS)
+
+
+def test_parties_without_seats_have_no_group(con):
+    # On the fixtures only some legislatures have a group list; on full data, all do.
+    grouped = rows(
+        con,
+        """
+        select c.legislature, c.group_code, c.group_name from coalitions c
+        where not c.has_seats
+        and c.legislature in (select legislature from parliamentary_groups)
+        and (c.group_name is not null or exists (
+            select 1 from parliamentary_groups g
+            where g.legislature = c.legislature and g.group_acronym = c.group_code
+        ))
+        """,
+    )
+    assert grouped == []
+
+
 def test_cdu_note_since_2022_is_the_pev_note():
     # PEV has had no seats since the 2022 election. The XVI row once carried the AD note.
     notes = {
         r["legislature"]: r["note"]
         for r in seed_rows()
-        if r["coalition"] == "CDU" and r["legislature"] in ("XV", "XVI", "XVII")
+        if r["coalition"] == "CDU"
+        and r["legislature"] in ("XV", "XVI", "XVII")
+        and r["has_seats"] == "true"
     }
     assert notes == dict.fromkeys(
         ("XV", "XVI", "XVII"), "PEV has had no seats since 2022, so PCP is the only group."
@@ -303,7 +346,8 @@ def test_coalition_groups_exist_in_the_groups_mart(con):
         con,
         """
         select c.legislature, c.coalition, c.group_code from coalitions c
-        where c.legislature in (select legislature from parliamentary_groups)
+        where c.has_seats
+        and c.legislature in (select legislature from parliamentary_groups)
         and not exists (
             select 1 from parliamentary_groups g
             where g.legislature = c.legislature and g.group_acronym = c.group_code
@@ -329,16 +373,18 @@ def test_every_coalition_legislature_has_groups(con):
 
 @fixture_only
 def test_fixture_coalitions(con):
-    # XVII: AD ran as PPD/PSD.CDS-PP, and with PPM only in the Açores. CDU is PCP alone,
-    # since PEV lost its seats in 2022.
+    # XVII: AD ran as PPD/PSD.CDS-PP, and with PPM only in the Açores. CDU seats only PCP,
+    # since PEV lost its seats in 2022. PPM and PEV are on the lists but won no seat.
     assert rows(
         con,
-        "select coalition, ballot_acronym, group_code, group_name is not null from coalitions "
-        "where legislature = 'XVII' order by 1, 2, 3",
+        "select coalition, ballot_acronym, group_code, group_name is not null, has_seats "
+        "from coalitions where legislature = 'XVII' order by 1, 2, 3",
     ) == [
-        ("AD", "PPD/PSD.CDS-PP", "CDS-PP", True),
-        ("AD", "PPD/PSD.CDS-PP", "PSD", True),
-        ("AD", "PPD/PSD.CDS-PP.PPM", "CDS-PP", True),
-        ("AD", "PPD/PSD.CDS-PP.PPM", "PSD", True),
-        ("CDU", "PCP-PEV", "PCP", True),
+        ("AD", "PPD/PSD.CDS-PP", "CDS-PP", True, True),
+        ("AD", "PPD/PSD.CDS-PP", "PSD", True, True),
+        ("AD", "PPD/PSD.CDS-PP.PPM", "CDS-PP", True, True),
+        ("AD", "PPD/PSD.CDS-PP.PPM", "PPM", False, False),
+        ("AD", "PPD/PSD.CDS-PP.PPM", "PSD", True, True),
+        ("CDU", "PCP-PEV", "PCP", True, True),
+        ("CDU", "PCP-PEV", "PEV", False, False),
     ]

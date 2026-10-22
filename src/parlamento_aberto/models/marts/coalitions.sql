@@ -7,7 +7,8 @@ select
     g.name as group_name,
     c.source_url,
     c.election_url,
-    c.note
+    c.note,
+    c.has_seats
 from seed_coalitions c
 left join parliamentary_groups g
     on g.legislature = c.legislature and g.group_acronym = c.group_code

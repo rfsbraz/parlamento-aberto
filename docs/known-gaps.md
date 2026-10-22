@@ -46,11 +46,12 @@ Não há ficheiro publicado para a Constituinte, a I (I-A, I-B) nem a III.
 | VII | 1995-10-27 a 1999-10-24 | 1996-10-16 a 1999-10-01 | Nada no primeiro ano, e nenhuma reunião entre 1997-10-03 e 1998-09-16. |
 | XII | 2011-06-20 a 2015-10-22 | 2013-09-16 a 2015-10-21 | Nada antes de setembro de 2013, cerca de dois anos. |
 | XIV | 2019-10-25 a 2022-03-28 | 2019-10-25 a 2022-03-22 | Nenhuma reunião entre 2020-09-10 e 2021-09-15. |
-| XVII | 2025-06-03, em curso | 2026-09-16 a 2026-09-18 | Só 81 registos, todos das reuniões de 16 a 18 de setembro de 2026. |
 
 Todas as outras legislaturas (V, VI, VIII a XI, XIII, XV, XVI) vão das primeiras semanas até cerca de seis semanas antes do fim, sem nenhum período de mais de 100 dias sem reuniões, exceto a primavera de 1992 na VI (1992-04-09 a 1992-07-27).
 
-A AR publica também 113 registos de Intervencoes com todas as chaves a nulo, na V, XI, XIV, XV e XVI. O staging mantém-nos para que as contagens batam com `sources.lock.json`. O mart `interventions` exclui-os.
+A XVII, em curso, deixou de ter lacuna na sincronização de 22 de outubro de 2026: a AR passou a publicar 7937 intervenções em 115 reuniões, de 2025-06-03 a 2026-09-18, e o período mais longo sem reuniões são as férias de 2026-07-17 a 2026-09-09. Até à sincronização de 21 de outubro só havia 81 registos, das reuniões de 16 e 18 de setembro de 2026.
+
+A AR publica também 160 registos de Intervencoes com todas as chaves a nulo, na V, XI, XIV, XV, XVI e XVII (47 na XVII). O staging mantém-nos para que as contagens batam com `sources.lock.json`. O mart `interventions` exclui-os.
 
 ## PerguntasRequerimentos
 

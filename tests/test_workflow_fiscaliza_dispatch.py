@@ -1,4 +1,4 @@
-"""O aviso ao Fiscaliza (#93): só em push para main, sem permissões, e o token só no env."""
+"""O aviso ao Fiscaliza (#93): em push para main ou à mão, sem permissões, e o token só no env."""
 
 import re
 import subprocess
@@ -58,9 +58,20 @@ def fires(changed):
     return any(matches(p, f) for p in triggers()["push"]["paths"] for f in changed)
 
 
-def test_runs_only_on_push_to_main_when_the_data_changes():
+def test_runs_only_on_push_to_main_when_the_data_changes_or_by_hand():
     # Nem pull_request nem pull_request_target: um PR de um fork não pode chegar ao secret.
-    assert triggers() == {"push": {"branches": ["main"], "paths": DATA_PATHS}}
+    assert triggers() == {
+        "push": {"branches": ["main"], "paths": DATA_PATHS},
+        "workflow_dispatch": {
+            "inputs": {
+                "sha": {
+                    "description": "Commit de main a enviar, os 40 caracteres (vazio: o do ref)",
+                    "required": False,
+                    "type": "string",
+                }
+            }
+        },
+    }
 
 
 def test_a_data_push_fires():
@@ -94,13 +105,41 @@ def test_has_no_permissions():
     assert load()["permissions"] == {}
 
 
-def test_sends_data_updated_with_the_commit_to_parliament():
+def test_sends_data_updated_with_the_commit_to_fiscaliza():
+    # O repositório chama-se rfsbraz/fiscaliza. Não confio no redirect do nome antigo num POST.
     (step,) = [s for s in steps() if "run" in s]
     run = step["run"]
-    assert "https://api.github.com/repos/rfsbraz/parliament/dispatches" in run
+    assert "https://api.github.com/repos/rfsbraz/fiscaliza/dispatches" in run
+    assert "rfsbraz/parliament" not in WORKFLOW.read_text(encoding="utf-8")
     assert '"event_type":"data-updated"' in run
-    assert '"client_payload":{"sha":"' in run and "$GITHUB_SHA" in run
+    assert '"client_payload":{"sha":"\'"$SHA"\'"}}' in run
+    assert 'SHA="${INPUT_SHA:-$GITHUB_SHA}"' in run
     assert step["env"]["FISCALIZA_DISPATCH_TOKEN"] == "${{ secrets.FISCALIZA_DISPATCH_TOKEN }}"
+    assert step["env"]["INPUT_SHA"] == "${{ inputs.sha }}"
+
+
+def dispatch_sha(input_sha, github_sha="a" * 40):
+    """Corre a parte do passo que escolhe e valida o commit, sem o curl."""
+    (step,) = [s for s in steps() if "run" in s]
+    run = step["run"]
+    start = run.index('SHA="')
+    end = run.index("\nfi\n", start) + len("\nfi\n")
+    script = run[start:end] + 'echo "$SHA"\n'
+    env = {"PATH": "/usr/bin:/bin", "INPUT_SHA": input_sha, "GITHUB_SHA": github_sha}
+    return subprocess.run(["bash", "-e", "-c", script], env=env, capture_output=True, text=True)
+
+
+def test_a_manual_run_sends_the_sha_input_or_the_ref_commit():
+    pinned = "a48c5b1d623d2e54c5f2168730518c190a81d49a"
+    assert dispatch_sha(pinned).stdout.strip() == pinned
+    assert dispatch_sha("").stdout.strip() == "a" * 40
+
+
+def test_a_bad_sha_input_fails_before_the_dispatch():
+    for bad in ["a48c5b1", "main", "A" * 40, "a" * 40 + "; echo x", "a" * 40 + "\n}}", '"}}']:
+        out = dispatch_sha(bad)
+        assert out.returncode != 0, bad
+        assert "::error::" in out.stdout
 
 
 def test_a_missing_secret_ends_with_a_notice_not_an_error():

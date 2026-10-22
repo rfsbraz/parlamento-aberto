@@ -33,7 +33,7 @@ BUILT_ALONGSIDE = {
 }
 # Extra read_csv options per seed, for columns the type sniffer would get wrong.
 SEED_OPTIONS = {
-    # SGMAI circle codes keep their leading zeros, for example 010000.
+    # CNE and SGMAI circle codes keep their leading zeros, for example 01 or 010000.
     "seed_ballot_list_seats": ", types = {'circle_code': 'VARCHAR'}",
 }
 # The seating macros read mandates and are created as soon as it exists.

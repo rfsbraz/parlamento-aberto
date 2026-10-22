@@ -39,13 +39,18 @@ pendente da resposta da EpT. Até lá, nada derivado da EpT entra numa release d
 Lei n.º 52/2019 (versão consolidada):
 https://pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3192&tabela=leis
 
-4. Os lugares por lista e círculo (`ballot_list_seats`) vêm dos ficheiros de resultados
-eleitorais publicados pela Secretaria-Geral do Ministério da Administração Interna
-(SGMAI), reutilizados ao abrigo dos artigos 19.º e 21.º da Lei n.º 26/2016, de 22 de
-agosto. Os valores são publicados tal como a SGMAI os divulga, sem alterações. A licença
-CC BY 4.0 aplica-se à compilação feita por este projeto e não implica qualquer aprovação
-da SGMAI. Fonte: SGMAI, resultados das eleições para a Assembleia da República, 2009 a
-2025; data de descarga indicada no manifest.json.
+4. Os lugares por lista e círculo (`ballot_list_seats`) vêm dos mapas de resultados das
+eleições de 1979 a 2005 publicados pela Comissão Nacional de Eleições (CNE) e dos
+ficheiros de resultados eleitorais de 2009 a 2025 publicados pela Secretaria-Geral do
+Ministério da Administração Interna (SGMAI), reutilizados ao abrigo dos artigos 19.º e
+21.º da Lei n.º 26/2016, de 22 de agosto. Os valores são publicados tal como a CNE e a
+SGMAI os divulgam, com duas exceções descritas no dicionário de dados: as siglas das
+listas nos mapas da CNE seguem a grafia da SGMAI (PSD passa a PPD/PSD, CDS/PP a CDS-PP e
+PCP/PEV a PCP-PEV), e no círculo Fora da Europa em 1983 segue-se o mapa publicado no
+Diário da República. A licença CC BY 4.0 aplica-se à compilação feita por este projeto e
+não implica qualquer aprovação da CNE ou da SGMAI. Fonte: CNE (1979 a 2005) e SGMAI
+(2009 a 2025), resultados das eleições para a Assembleia da República; data de descarga
+indicada no manifest.json.
 
 Código
 

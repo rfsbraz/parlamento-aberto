@@ -1,15 +1,22 @@
-"""Write models/seeds/ballot_list_seats.csv from the SGMAI election results files (#55).
+"""Write models/seeds/ballot_list_seats.csv from the SGMAI and CNE election results (#55, #107).
 
 The Secretaria-Geral do Ministério da Administração Interna (SGMAI) publishes one results
 workbook per election to the Assembleia da República. From 2009 on, every workbook has the
 seats won by each ballot list in each electoral circle, the two abroad circles included, in
 columns headed "mandatos". This script reads those columns as published and keeps the lists
 that won at least one seat.
-Nothing is computed: the seat counts are the SGMAI's.
 
-It also writes models/seeds/ballot_list_seats.sources.json with, for each workbook, the date
-it was downloaded and, when the workbook's own metadata has one, the date it was last saved
-(Lei n.º 26/2016, art. 19.º, n.º 5). A file with no such date gets no file_modified.
+For 1979 to 2005 the SGMAI workbooks lack the abroad circles up to 1991, so the seats come from
+the Comissão Nacional de Eleições (CNE) official result maps, one spreadsheet per election with
+the 22 circles, in the "Md" columns. Two things differ from the sheet as published: list
+acronyms take the SGMAI spelling (CNE_ACRONYMS), so they join the coalitions seed, and
+CNE_CORRECTIONS follows the official map in the Diário da República where the sheet differs.
+Every circle is checked against the d'Hondt method on the published votes.
+Nothing else is computed: the seat counts are the publishers'.
+
+It also writes models/seeds/ballot_list_seats.sources.json with, for each file, its publisher,
+the date it was downloaded and, when the file's own metadata has one, the date it was last
+saved (Lei n.º 26/2016, art. 19.º, n.º 5). A file with no such date gets no file_modified.
 
 Usage: uv run python scripts/mai_list_seats.py [--cache DIR]
 """
@@ -32,9 +39,26 @@ SEED = ROOT / "src" / "parlamento_aberto" / "models" / "seeds" / "ballot_list_se
 SOURCES = SEED.with_suffix(".sources.json")
 LISBON = ZoneInfo("Europe/Lisbon")
 BASE = "https://www.sg.mai.gov.pt/pt/AdministracaoEleitoral/EleicoesReferendos/AssembleiaRepublica/Documents/"
-# legislature, election date, workbook. 2022: the workbook with the repeated Europa vote,
+CNE_BASE = "https://www.cne.pt/sites/default/files/dl/eleicoes/"
+
+
+def _cne(year: int) -> str:
+    return f"{CNE_BASE}{year}_ar/docs_geral/{year}_ar_quadro_resultados.zip"
+
+
+# legislature, election date, file. 2022: the workbook with the repeated Europa vote,
 # whose result elected the Europa deputies.
 ELECTIONS = [
+    ("I-B", "1979-12-02", _cne(1979)),
+    ("II", "1980-10-05", _cne(1980)),
+    ("III", "1983-04-25", _cne(1983)),
+    ("IV", "1985-10-06", _cne(1985)),
+    ("V", "1987-07-19", _cne(1987)),
+    ("VI", "1991-10-06", _cne(1991)),
+    ("VII", "1995-10-01", _cne(1995)),
+    ("VIII", "1999-10-10", _cne(1999)),
+    ("IX", "2002-03-17", _cne(2002)),
+    ("X", "2005-02-20", _cne(2005)),
     ("XI", "2009-09-27", BASE + "AR2009_Globais.xls"),
     ("XII", "2011-06-05", BASE + "AR_2011_Globais.xls"),
     ("XIII", "2015-10-04", BASE + "AR_2015_Globais.xls"),
@@ -56,8 +80,22 @@ COLUMNS = [
 ]
 
 
+# The same lists as the SGMAI and the coalitions seed spell them.
+CNE_ACRONYMS = {"PSD": "PPD/PSD", "CDS/PP": "CDS-PP", "PCP/PEV": "PCP-PEV"}
+# (file, circle number): seats per list where the official map in the Diário da República
+# differs from the sheet. 1983, Fora da Europa (2 seats): the sheet also gives one to the PS;
+# the map (I série, n.º 121, 26-5-1983, suplemento) elected one PPD/PSD and one CDS deputy.
+CNE_CORRECTIONS = {
+    ("1983_ar_quadro_resultados.zip", "22"): {"PS": 0},
+}
+
+
 class MaiError(ValueError):
     pass
+
+
+def publisher(url: str) -> str:
+    return "CNE" if url.startswith(CNE_BASE) else "SGMAI"
 
 
 def sheets(data: bytes, name: str):
@@ -154,8 +192,92 @@ def parse(data: bytes, name: str) -> dict[str, dict]:
     return circles
 
 
+def _cne_xlsx(data: bytes) -> tuple[bytes, str]:
+    """The .xlsx inside a CNE zip (which also has an .ods copy), and its name."""
+    with zipfile.ZipFile(io.BytesIO(data)) as z:
+        names = [n for n in z.namelist() if n.endswith(".xlsx")]
+        if len(names) != 1:
+            raise MaiError(f"expected one .xlsx in the zip, found {names!r}")
+        return z.read(names[0]), names[0]
+
+
+def dhondt(votes: dict[str, int], seats: int) -> dict[str, int]:
+    """Seats per list by the d'Hondt method (Lei n.º 14/79, art. 16.º)."""
+    quotients = sorted(
+        ((v / d, name) for name, v in votes.items() for d in range(1, seats + 1)), reverse=True
+    )
+    won: dict[str, int] = {}
+    for _q, name in quotients[:seats]:
+        won[name] = won.get(name, 0) + 1
+    return won
+
+
+def _number(value) -> int | None:
+    """A count from a CNE cell, some typed as text with spaced thousands; "-" is None."""
+    if isinstance(value, str):
+        value = re.sub(r"\s", "", value)
+    if value is None or value in ("", "-"):
+        return None
+    return _seats(value)
+
+
+def parse_cne(data: bytes, name: str) -> dict[str, dict]:
+    """Circles in one CNE map: number -> name, total seats and seats per list (seats > 0)."""
+    xlsx, _inner = _cne_xlsx(data)
+    _sheet, rows = next(sheets(xlsx, "map.xlsx"))
+    at = next(
+        (i for i, r in enumerate(rows) if any(_text(c) == "Círculos Eleitorais" for c in r)),
+        None,
+    )
+    if at is None:
+        raise MaiError(f"{name}: no 'Círculos Eleitorais' header")
+    names, subs = rows[at], rows[at + 1]
+    # A list's columns are Número, Percentagem and Md, with the name over Número.
+    lists = [
+        (j, _text(names[j - 2]))
+        for j, h in enumerate(subs)
+        if _text(h) == "Md" and j >= 2 and _text(names[j - 2])
+    ]
+    totals = [j for j, h in enumerate(names) if "total de mandatos" in _text(h).lower()]
+    circles: dict[str, dict] = {}
+    for row in rows[at + 2 :]:
+        if len(row) < 3 or isinstance(row[1], str) or row[1] is None:
+            continue
+        code = str(int(row[1])).zfill(2)
+        circle_name = _text(row[2])
+        seats, votes = {}, {}
+        for j, acronym in lists:
+            n = _number(row[j]) if j < len(row) else None
+            v = _number(row[j - 2])
+            if v is not None:
+                votes[acronym] = v
+            if n:
+                seats[acronym] = n
+        published = _number(row[totals[0]]) if totals else None
+        total = published if published is not None else sum(seats.values())
+        correction = CNE_CORRECTIONS.get((name, code))
+        if correction:
+            seats = {a: n for a, n in {**seats, **correction}.items() if n}
+        if sum(seats.values()) != total:
+            raise MaiError(
+                f"{name} {circle_name}: lists add up to {sum(seats.values())}, not {total}"
+            )
+        if dhondt(votes, total) != seats:
+            got = dhondt(votes, total)
+            raise MaiError(f"{name} {circle_name}: the votes give {got} by d'Hondt, not {seats}")
+        circles[code] = {
+            "name": circle_name,
+            "total": total,
+            "seats": {CNE_ACRONYMS.get(a, a): n for a, n in seats.items()},
+        }
+    if not circles:
+        raise MaiError(f"{name}: no circle with seats")
+    return circles
+
+
 def rows_for(legislature: str, date: str, url: str, data: bytes) -> list[dict]:
-    circles = parse(data, url.rsplit("/", 1)[-1])
+    name = url.rsplit("/", 1)[-1]
+    circles = parse_cne(data, name) if publisher(url) == "CNE" else parse(data, name)
     return [
         {
             "legislature": legislature,
@@ -230,8 +352,11 @@ def fetch(url: str, cache: Path | None) -> tuple[bytes, str]:
 
 
 def source_entry(url: str, data: bytes, downloaded: str) -> dict:
-    entry = {"url": url, "downloaded": downloaded}
-    modified = file_modified(data, url.rsplit("/", 1)[-1])
+    entry = {"publisher": publisher(url), "url": url, "downloaded": downloaded}
+    if publisher(url) == "CNE":
+        modified = file_modified(*_cne_xlsx(data))
+    else:
+        modified = file_modified(data, url.rsplit("/", 1)[-1])
     if modified:
         entry["file_modified"] = modified
     return entry
@@ -245,7 +370,7 @@ def write(rows: list[dict], path: Path = SEED) -> None:
 
 
 def write_sources(files: list[dict], path: Path = SOURCES) -> None:
-    meta = {"publisher": "SGMAI", "files": files}
+    meta = {"files": files}
     path.write_text(json.dumps(meta, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 

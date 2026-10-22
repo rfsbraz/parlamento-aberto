@@ -39,17 +39,13 @@ pendente da resposta da EpT. Até lá, nada derivado da EpT entra numa release d
 Lei n.º 52/2019 (versão consolidada):
 https://pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3192&tabela=leis
 
-4. Resultados eleitorais da Secretaria-Geral do MAI
-
-O seed ballot_list_seats e o mart ballot_list_seats trazem os lugares por lista e círculo
-das eleições para a Assembleia da República, tal como publicados pela Secretaria-Geral do
-Ministério da Administração Interna (SGMAI). São resultados eleitorais públicos, sem
-dados pessoais. A SGMAI não publica termos de reutilização. A CC BY 4.0 do ponto 2 cobre só
-a parte que é trabalho deste repositório; os resultados continuam a ser da SGMAI. O CSV e o
-manifest.json desse mart citam a SGMAI em vez da AR.
-
-Atribuição: Fonte: Secretaria-Geral do Ministério da Administração Interna, resultados eleitorais
-https://www.sg.mai.gov.pt/pt/AdministracaoEleitoral/Resultadoseleitorais/Pages/default.aspx
+4. Os lugares por lista e círculo (`ballot_list_seats`) vêm dos ficheiros de resultados
+eleitorais publicados pela Secretaria-Geral do Ministério da Administração Interna
+(SGMAI), reutilizados ao abrigo dos artigos 19.º e 21.º da Lei n.º 26/2016, de 22 de
+agosto. Os valores são publicados tal como a SGMAI os divulga, sem alterações. A licença
+CC BY 4.0 aplica-se à compilação feita por este projeto e não implica qualquer aprovação
+da SGMAI. Fonte: SGMAI, resultados das eleições para a Assembleia da República, 2009 a
+2025; data de descarga indicada no manifest.json.
 
 Código
 

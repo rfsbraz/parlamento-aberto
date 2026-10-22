@@ -27,13 +27,12 @@ from parlamento_aberto.build import LAYERS, MODELS, build, load_schema
 
 ATTRIBUTION = "Fonte: Assembleia da República, dados abertos"
 AR_TERMS_URL = "https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx"
-# Marts built from the SGMAI election results credit the MAI instead (LICENSE-DATA, point 4).
+# Marts built from the SGMAI election results files credit the SGMAI instead, with the date
+# the files were downloaded (LICENSE-DATA, point 4; Lei n.º 26/2016, art. 19.º, n.º 5).
 MAI_ATTRIBUTION = (
-    "Fonte: Secretaria-Geral do Ministério da Administração Interna, resultados eleitorais"
+    "Fonte: SGMAI, resultados das eleições para a Assembleia da República, 2009 a 2025"
 )
-MAI_RESULTS_URL = (
-    "https://www.sg.mai.gov.pt/pt/AdministracaoEleitoral/Resultadoseleitorais/Pages/default.aspx"
-)
+MAI_SOURCES = MODELS / "seeds" / "ballot_list_seats.sources.json"
 MAI_MODEL = re.compile(r"(?:^|_)ballot_list_seats$")
 # Licence split (LICENSE-DATA): CC BY 4.0 covers only our marts and the dictionary.
 MARTS_LICENCE = "CC BY 4.0"
@@ -103,9 +102,21 @@ def mai_derived(model: str, reads=_reads) -> bool:
     return _derived(model, MAI_MODEL, reads)
 
 
+def mai_sources() -> list[dict]:
+    """The SGMAI workbooks, with download and file dates (scripts/mai_list_seats.py)."""
+    return json.loads(MAI_SOURCES.read_text(encoding="utf-8"))["files"]
+
+
+def mart_downloaded(mart: str, updated: str) -> str:
+    """Date the mart's source was downloaded: the SGMAI files, or the latest AR fetch."""
+    if mai_derived(mart):
+        return max(f["downloaded"] for f in mai_sources())
+    return updated
+
+
 def mart_attribution(mart: str, updated: str) -> str:
     if mai_derived(mart):
-        return f"{MAI_ATTRIBUTION}, {MAI_RESULTS_URL}"
+        return f"{MAI_ATTRIBUTION}, descarregados a {mart_downloaded(mart, updated)}"
     return f"{ATTRIBUTION}, atualizados a {updated}"
 
 
@@ -226,11 +237,17 @@ def export(con, out: Path, tag: str, sha: str, updated: str) -> dict:
             "rows_by_legislature": by,
             "licence": licence,
             "attribution": attribution,
+            "downloaded": mart_downloaded(mart, updated),
             "files": {
                 "parquet": {"name": parquet.name, "sha256": _sha256(parquet)},
                 "csv": {"name": csv_gz.name, "sha256": _sha256(csv_gz)},
             },
         }
+        if mai_derived(mart):
+            # The file date only when the workbook carries one (see the script).
+            entries[mart]["source_files"] = [
+                {k: v for k, v in f.items() if k != "downloaded"} for f in mai_sources()
+            ]
     return entries
 
 

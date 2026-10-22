@@ -1,23 +1,36 @@
-"""Write models/seeds/ballot_list_seats.csv from the MAI election results (#55).
+"""Write models/seeds/ballot_list_seats.csv from the SGMAI election results files (#55).
 
-The Secretaria-Geral do MAI publishes one results workbook per election to the Assembleia
-da República. From 2009 on, every workbook has the seats won by each ballot list in each
-electoral circle, the two abroad circles included, in columns headed "mandatos". This
-script reads those columns as published and keeps the lists that won at least one seat.
-Nothing is computed: the seat counts are the MAI's.
+The Secretaria-Geral do Ministério da Administração Interna (SGMAI) publishes one results
+workbook per election to the Assembleia da República. From 2009 on, every workbook has the
+seats won by each ballot list in each electoral circle, the two abroad circles included, in
+columns headed "mandatos". This script reads those columns as published and keeps the lists
+that won at least one seat.
+Nothing is computed: the seat counts are the SGMAI's.
+
+It also writes models/seeds/ballot_list_seats.sources.json with, for each workbook, the date
+it was downloaded and, when the workbook's own metadata has one, the date it was last saved
+(Lei n.º 26/2016, art. 19.º, n.º 5). A file with no such date gets no file_modified.
 
 Usage: uv run python scripts/mai_list_seats.py [--cache DIR]
 """
 
 import argparse
 import csv
+import datetime as dt
 import io
+import json
+import re
+import struct
 import sys
 import urllib.request
+import zipfile
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).parents[1]
 SEED = ROOT / "src" / "parlamento_aberto" / "models" / "seeds" / "ballot_list_seats.csv"
+SOURCES = SEED.with_suffix(".sources.json")
+LISBON = ZoneInfo("Europe/Lisbon")
 BASE = "https://www.sg.mai.gov.pt/pt/AdministracaoEleitoral/EleicoesReferendos/AssembleiaRepublica/Documents/"
 # legislature, election date, workbook. 2022: the workbook with the repeated Europa vote,
 # whose result elected the Europa deputies.
@@ -158,17 +171,70 @@ def rows_for(legislature: str, date: str, url: str, data: bytes) -> list[dict]:
     ]
 
 
-def fetch(url: str, cache: Path | None) -> bytes:
+# FILETIME: 100 ns intervals since 1601-01-01 UTC.
+FILETIME_EPOCH = dt.datetime(1601, 1, 1, tzinfo=dt.UTC)
+PID_LASTSAVE_DTM = 13
+VT_FILETIME = 0x40
+
+
+def last_saved(stream: bytes) -> str | None:
+    """Last saved date (UTC, YYYY-MM-DD) in an OLE SummaryInformation stream, if there is one."""
+    try:
+        (offset,) = struct.unpack_from("<I", stream, 44)
+        _size, count = struct.unpack_from("<II", stream, offset)
+        for i in range(count):
+            pid, at = struct.unpack_from("<II", stream, offset + 8 + 8 * i)
+            if pid != PID_LASTSAVE_DTM:
+                continue
+            vtype, filetime = struct.unpack_from("<IQ", stream, offset + at)
+            if vtype & 0xFFFF != VT_FILETIME or not filetime:
+                return None
+            return (FILETIME_EPOCH + dt.timedelta(microseconds=filetime // 10)).date().isoformat()
+    except struct.error:
+        return None
+    return None
+
+
+def file_modified(data: bytes, name: str) -> str | None:
+    """Date the workbook says it was last saved (UTC, YYYY-MM-DD), or None if it says none."""
+    if name.endswith(".xlsx"):
+        with zipfile.ZipFile(io.BytesIO(data)) as z:
+            if "docProps/core.xml" not in z.namelist():
+                return None
+            core = z.read("docProps/core.xml").decode("utf-8")
+        found = re.search(r"<dcterms:modified[^>]*>(\d{4}-\d{2}-\d{2})", core)
+        return found.group(1) if found else None
+    from xlrd import compdoc
+
+    try:
+        doc = compdoc.CompDoc(data)
+        stream = doc.get_named_stream("\x05SummaryInformation")
+    except compdoc.CompDocError:
+        return None
+    return last_saved(stream) if stream else None
+
+
+def fetch(url: str, cache: Path | None) -> tuple[bytes, str]:
+    """The workbook and the Lisbon date it was downloaded (a cached copy keeps its own)."""
     if cache is not None:
         path = cache / url.rsplit("/", 1)[-1]
         if path.exists():
-            return path.read_bytes()
+            when = dt.datetime.fromtimestamp(path.stat().st_mtime, LISBON)
+            return path.read_bytes(), when.date().isoformat()
     with urllib.request.urlopen(url, timeout=120) as response:
         data = response.read()
     if cache is not None:
         cache.mkdir(parents=True, exist_ok=True)
         path.write_bytes(data)
-    return data
+    return data, dt.datetime.now(LISBON).date().isoformat()
+
+
+def source_entry(url: str, data: bytes, downloaded: str) -> dict:
+    entry = {"url": url, "downloaded": downloaded}
+    modified = file_modified(data, url.rsplit("/", 1)[-1])
+    if modified:
+        entry["file_modified"] = modified
+    return entry
 
 
 def write(rows: list[dict], path: Path = SEED) -> None:
@@ -178,19 +244,27 @@ def write(rows: list[dict], path: Path = SEED) -> None:
         writer.writerows(rows)
 
 
+def write_sources(files: list[dict], path: Path = SOURCES) -> None:
+    meta = {"publisher": "SGMAI", "files": files}
+    path.write_text(json.dumps(meta, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--cache", type=Path, help="folder to keep the downloaded workbooks in")
     args = parser.parse_args(argv)
-    rows = []
+    rows, files = [], []
     for legislature, date, url in ELECTIONS:
-        election = rows_for(legislature, date, url, fetch(url, args.cache))
+        data, downloaded = fetch(url, args.cache)
+        files.append(source_entry(url, data, downloaded))
+        election = rows_for(legislature, date, url, data)
         print(
             f"{legislature} {date}: {sum(r['seats'] for r in election)} seats, {len(election)} rows"
         )
         rows += election
     write(rows)
-    print(f"Wrote {len(rows)} rows to {SEED.relative_to(ROOT)}")
+    write_sources(files)
+    print(f"Wrote {len(rows)} rows to {SEED.relative_to(ROOT)} and {SOURCES.name}")
     return 0
 
 

@@ -45,3 +45,18 @@ Política de integração enquanto a integração automática nativa não está 
 O `.github/workflows/data-release.yml` corre em cada push para `main` que mexa em `data/`, `src/` ou `docs/data-changelog.md`. Não faz nada quando `main` não tem `data/_meta/sources.lock.json`. Caso contrário, corre todos os testes de dados sobre `data/`, constrói os ficheiros da publicação e compara o número de linhas com a publicação mais recente. Usa apenas o `GITHUB_TOKEN`, com `contents: write` para este job.
 
 A publicação espera pelo meu OK. Enquanto a variável do repositório `DATA_RELEASES` (Settings, Secrets and variables, Actions, Variables) não estiver a `on`, cada execução carrega os ficheiros como artefacto do workflow, guardado durante 7 dias, e não cria publicação nem tag.
+
+## Aviso ao Fiscaliza
+
+O `.github/workflows/fiscaliza-dispatch.yml` corre em cada push para `main`, e só aí: nunca em `pull_request` nem `pull_request_target`, para que um PR vindo de um fork não chegue ao secret. Envia um `repository_dispatch` para `rfsbraz/parliament` com `event_type` `data-updated` e `client_payload` `{"sha": "<commit>"}`. O Fiscaliza valida o commit, abre o PR que move o seu pin e integra-o quando o CI passa. Este repositório só envia o aviso.
+
+Precisa de um secret do repositório chamado `FISCALIZA_DISPATCH_TOKEN`, que crio e guardo em Settings, Secrets and variables, Actions. O valor nunca vai para o git nem para conversas. É um personal access token fine-grained limitado apenas a `rfsbraz/parliament` (não a este repositório), com:
+
+| Permissão | Acesso | Usado para |
+| --- | --- | --- |
+| Contents | Read and write | Enviar o `repository_dispatch`, que o GitHub só aceita com esta permissão no repositório de destino |
+| Metadata | Read | Exigido pelo GitHub para qualquer token |
+
+O workflow corre com `permissions: {}`, porque não usa o `GITHUB_TOKEN`. Se o secret faltar, termina verde com um aviso e o Fiscaliza não sabe da mudança; posso mover o pin à mão ou correr o workflow do Fiscaliza com o commit.
+
+Quando ligar `DATA_RELEASES`, o aviso passa a sair em `release: published` em vez de em cada push, e o pin do Fiscaliza passa a apontar para a tag da publicação.

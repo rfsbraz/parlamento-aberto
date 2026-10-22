@@ -66,15 +66,74 @@ def test_csv_header_cites_source_update_date_and_mart_licence(built):
         assert release.mart_licence(mart) in first, mart
 
 
-def test_only_ballot_list_seats_credits_the_mai(built):
-    # The SGMAI election results are credited to the MAI, not the AR (LICENSE-DATA, point 4).
+POINT_4 = (
+    "4. Os lugares por lista e círculo (`ballot_list_seats`) vêm dos ficheiros de resultados "
+    "eleitorais publicados pela Secretaria-Geral do Ministério da Administração Interna "
+    "(SGMAI), reutilizados ao abrigo dos artigos 19.º e 21.º da Lei n.º 26/2016, de 22 de "
+    "agosto. Os valores são publicados tal como a SGMAI os divulga, sem alterações. A licença "
+    "CC BY 4.0 aplica-se à compilação feita por este projeto e não implica qualquer aprovação "
+    "da SGMAI. Fonte: SGMAI, resultados das eleições para a Assembleia da República, 2009 a "
+    "2025; data de descarga indicada no manifest.json."
+)
+
+
+def _sgmai_sources() -> dict:
+    path = release.MODELS / "seeds" / "ballot_list_seats.sources.json"
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def test_only_ballot_list_seats_credits_the_sgmai(built):
+    # The SGMAI election results are credited to the SGMAI, not the AR (LICENSE-DATA, point 4).
     assert [m for m in release.marts() if release.mai_derived(m)] == ["ballot_list_seats"]
     m = json.loads((built / "manifest.json").read_text())
     entry = m["marts"]["ballot_list_seats"]
     assert entry["attribution"].startswith(release.MAI_ATTRIBUTION)
-    assert "Assembleia da República" not in entry["attribution"]
-    text = (ROOT / "LICENSE-DATA").read_text()
-    assert release.MAI_ATTRIBUTION in text and "ballot_list_seats" in text
+    assert "Assembleia da República, dados abertos" not in entry["attribution"]
+    text = " ".join((ROOT / "LICENSE-DATA").read_text(encoding="utf-8").split())
+    assert release.MAI_ATTRIBUTION.removeprefix("Fonte: ") in text and "ballot_list_seats" in text
+
+
+def test_licence_point_4_is_the_reviewed_text():
+    text = " ".join((ROOT / "LICENSE-DATA").read_text(encoding="utf-8").split())
+    assert POINT_4 in text
+    # Point 4 is that paragraph only, up to the code licence.
+    after = text[text.index(POINT_4) + len(POINT_4) :].strip()
+    assert after.startswith("Código")
+
+
+def test_every_mart_has_its_download_date(built):
+    m = json.loads((built / "manifest.json").read_text())
+    sgmai = _sgmai_sources()
+    downloaded = max(f["downloaded"] for f in sgmai["files"])
+    for mart, entry in m["marts"].items():
+        if release.mai_derived(mart):
+            assert entry["downloaded"] == downloaded, mart
+            assert entry["attribution"].endswith(f"descarregados a {downloaded}"), mart
+            # The file date only when the SGMAI file carries one; nothing is made up.
+            assert entry["source_files"] == [
+                {k: v for k, v in f.items() if k != "downloaded"} for f in sgmai["files"]
+            ]
+        else:
+            assert entry["downloaded"] == lock_updated(), mart
+            assert "source_files" not in entry, mart
+
+
+def test_nothing_calls_the_sgmai_files_official_results():
+    paths = [
+        ROOT / "LICENSE-DATA",
+        ROOT / "README.md",
+        ROOT / "docs" / "data-changelog.md",
+        ROOT / "docs" / "dictionary" / "README.md",
+        ROOT / "docs" / "dictionary" / "ballot_list_seats.md",
+        release.MODELS / "schema.yml",
+    ]
+    for path in paths:
+        text = path.read_text(encoding="utf-8").lower()
+        for phrase in ("resultados oficiais", "resultado oficial", "official results"):
+            assert phrase not in text, (path.name, phrase)
+        # The SGMAI publishes the files; it does not license them.
+        assert "termos de reutilização da sgmai" not in text, path.name
+        assert "licença da sgmai" not in text, path.name
 
 
 def test_ept_lineage_is_detected():

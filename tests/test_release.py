@@ -65,7 +65,7 @@ def test_csv_has_the_attribution_header_and_every_row(built):
             first = f.readline()
             body = f.read()
         source = (
-            "# Fonte: Secretaria-Geral do Ministério da Administração Interna"
+            f"# {release.MAI_ATTRIBUTION}, descarregados a "
             if release.mai_derived(mart)
             else "# Fonte: Assembleia da República, dados abertos, atualizados a "
         )

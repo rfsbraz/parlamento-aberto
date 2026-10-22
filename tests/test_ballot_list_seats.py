@@ -1,13 +1,18 @@
 """Seats per ballot list and electoral circle, as published by the SGMAI (#55).
 
-scripts/mai_list_seats.py reads the "mandatos" columns of the MAI results workbooks into
+scripts/mai_list_seats.py reads the "mandatos" columns of the SGMAI results workbooks into
 models/seeds/ballot_list_seats.csv. The parser tests use a synthetic workbook built here;
 the seed tests check the committed seed against the seats seed.
 """
 
 import csv
+import datetime as dt
 import importlib.util
 import io
+import json
+import re
+import struct
+import zipfile
 from collections import Counter
 from pathlib import Path
 
@@ -176,3 +181,66 @@ def test_mart_is_the_seed():
     assert con.sql("select count(*) from ballot_list_seats").fetchone()[0] == len(seed_rows())
     cols = [c[0] for c in con.sql("describe ballot_list_seats").fetchall()]
     assert cols == mai.COLUMNS
+
+
+# --- download and file dates (Lei n.º 26/2016, art. 19.º, n.º 5) -------------------------
+
+
+def _xlsx_with_core(core: str | None) -> bytes:
+    out = io.BytesIO()
+    with zipfile.ZipFile(out, "w") as z:
+        z.writestr("xl/workbook.xml", "<workbook/>")
+        if core is not None:
+            z.writestr("docProps/core.xml", core)
+    return out.getvalue()
+
+
+def test_file_modified_reads_the_xlsx_metadata():
+    core = (
+        '<cp:coreProperties xmlns:cp="x" xmlns:dcterms="y" xmlns:xsi="z">'
+        '<dcterms:created xsi:type="dcterms:W3CDTF">2000-01-01T00:00:00Z</dcterms:created>'
+        '<dcterms:modified xsi:type="dcterms:W3CDTF">2001-02-03T04:05:06Z</dcterms:modified>'
+        "</cp:coreProperties>"
+    )
+    assert mai.file_modified(_xlsx_with_core(core), "synthetic.xlsx") == "2001-02-03"
+    # No date in the file: nothing is recorded.
+    assert mai.file_modified(_xlsx_with_core(None), "synthetic.xlsx") is None
+    assert mai.file_modified(_xlsx_with_core("<cp:coreProperties/>"), "synthetic.xlsx") is None
+
+
+def _property_set(props: dict[int, int]) -> bytes:
+    """A SummaryInformation stream with FILETIME properties only (MS-OLEPS)."""
+    section = io.BytesIO()
+    entries = []
+    offset = 8 + 8 * len(props)
+    for pid, filetime in props.items():
+        entries.append(struct.pack("<II", pid, offset))
+        section.write(struct.pack("<IQ", 0x40, filetime))
+        offset += 12
+    body = section.getvalue()
+    head = struct.pack("<II", offset, len(props)) + b"".join(entries)
+    fmtid = bytes(16)
+    stream = struct.pack("<HHI16sI", 0xFFFE, 0, 0, bytes(16), 1)
+    stream += fmtid + struct.pack("<I", len(stream) + 20)
+    return stream + head + body
+
+
+def test_last_saved_reads_the_ole_summary_information():
+    # 2005-06-07 08:09:10 UTC as a FILETIME (100 ns since 1601-01-01).
+    when = dt.datetime(2005, 6, 7, 8, 9, 10, tzinfo=dt.UTC)
+    filetime = int((when - dt.datetime(1601, 1, 1, tzinfo=dt.UTC)).total_seconds() * 10**7)
+    assert mai.last_saved(_property_set({12: 0, 13: filetime})) == "2005-06-07"
+    assert mai.last_saved(_property_set({12: filetime})) is None
+    assert mai.last_saved(b"") is None
+
+
+def test_sources_file_dates_every_workbook():
+    meta = json.loads(mai.SOURCES.read_text(encoding="utf-8"))
+    assert [f["url"] for f in meta["files"]] == [url for _l, _d, url in mai.ELECTIONS]
+    iso = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+    for f in meta["files"]:
+        assert iso.match(f["downloaded"]), f["url"]
+        # The file date is only there when the workbook carries one.
+        assert set(f) <= {"url", "downloaded", "file_modified"}, f["url"]
+        if "file_modified" in f:
+            assert iso.match(f["file_modified"]) and f["file_modified"] <= f["downloaded"]

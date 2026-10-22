@@ -51,15 +51,15 @@ Nos termos do artigo 115.º da Lei n.º 14/79, a Comissão Nacional de Eleiçõe
 1 — Círculo de Aveiro (3)
 
 AD — Aliança Democrática (2):
-Ana Maria da Silva.
+Ana Maria da Silva. ]
 João Carlos Pereira de Al-
 meida.
 DIÁRIO DA REPÚBLICA — I SÉRIE — N.º 1
 PS — Partido Socialista (1):
 Rui de A. Costa,
-2 — Círculo de Beja (1)
+. 2 — Círculo de Beja (1)
 APU — Aliança Povo Unido (1):
-Maria José Cunha.
+o Maria José Cunha.
 Mapa oficial 12 345 67 890
 Comissão Nacional de Eleições, 1 de janeiro de 1980.
 """
@@ -75,6 +75,12 @@ def test_parser_reads_names_per_circle_and_list_in_order():
         ("Beja", "APU", 1, "Maria José Cunha"),
     ]  # fmt: skip
     assert {r["circle_code"] for r in rows} == {"01", "02"}
+
+
+def test_parser_reads_a_list_whose_count_does_not_read_up_to_the_next_heading():
+    text = TEXT.replace("Partido Socialista (1):", "Partido Socialista (i;:")
+    rows = cne.parse(text.splitlines(), "II", CIRCLES)
+    assert [r["published_name"] for r in rows if r["ballot_acronym"] == "PS"] == ["Rui de A. Costa"]
 
 
 def test_parser_stops_a_list_at_its_published_count():
@@ -99,6 +105,10 @@ def test_list_names_take_the_ballot_list_seats_spelling():
     assert cne.list_acronym("CDU", "Coligação Democrática Unitária", "V") == "CDU"
     assert cne.list_acronym("CDU", "Coligação Democrática Unitária", "VI") == "PCP-PEV"
     assert cne.list_acronym("FRS", "Frente Republicana e Socialista", "II") == "FRS"
+    # A garbled name falls back to a clean acronym; CDU is left out, its spelling varies.
+    assert cne.list_acronym("PPD/PSD", "Partido Social 1 'emocrata", "III") == "PPD/PSD"
+    with pytest.raises(cne.ElectedError, match="unknown list"):
+        cne.list_acronym("CDU", "Coligação 1 'emocrática", "VI")
 
 
 def test_names_with_a_misread_word_are_rejected():
@@ -111,11 +121,27 @@ def test_names_with_a_misread_word_are_rejected():
 
 
 def test_fixes_replace_misread_names_and_must_all_be_used():
-    rows = [{"legislature": "II", "published_name": "Decmingos Abrantes"}]
-    fixes = {("II", "Decmingos Abrantes"): "Domingos Abrantes"}
+    rows = [{"legislature": "II", "circle_name": "Setúbal", "published_name": "Decmingos Abrantes"}]
+    fixes = {("II", "Setúbal", "name", "Decmingos Abrantes"): "Domingos Abrantes"}
     assert cne.apply_fixes(rows, fixes)[0]["published_name"] == "Domingos Abrantes"
     with pytest.raises(cne.ElectedError, match="unused"):
-        cne.apply_fixes(rows, {**fixes, ("III", "Ana Silva"): "Ana Silva"})
+        cne.apply_fixes(rows, {**fixes, ("III", "Beja", "name", "Ana Silva"): "Ana Silva"})
+
+
+def test_line_fixes_correct_a_misread_count_inside_their_circle_only():
+    misread = TEXT.replace("(1):\nRui", "(5):\nRui").replace(
+        "Unido (1):\no Maria", "Unido (1):\nPS — Partido Socialista (5):\no Maria"
+    )
+    line = ("II", "Aveiro", "line", "PS — Partido Socialista (5):")
+    lines, used = cne.fix_lines(
+        misread.splitlines(), "II", CIRCLES, {line: "PS — Partido Socialista (1):"}
+    )
+    assert used == {line}
+    # Only the Aveiro line changes; the same text in Beja is left as read.
+    assert lines.count("PS — Partido Socialista (5):") == 1
+    assert lines.count("PS — Partido Socialista (1):") == 1
+    # A used line fix is not reported as unused by the name pass.
+    assert cne.apply_fixes([], {line: "x"}, used) == []
 
 
 # --- matcher ------------------------------------------------------------------------------
@@ -271,8 +297,9 @@ def test_every_override_is_applied_as_written():
 
 def test_every_fix_is_used():
     fixes = cne.read_fixes(ROOT / "scripts" / "cne_elected_fixes.csv")
-    names = {(r["legislature"], r["published_name"]) for r in seed_rows()}
-    assert [k for k, v in fixes.items() if (k[0], v) not in names] == []
+    names = {(r["legislature"], r["circle_name"], r["published_name"]) for r in seed_rows()}
+    assert [k for k, v in fixes.items() if k[2] == "name" and (k[0], k[1], v) not in names] == []
+    assert {k[2] for k in fixes} <= set(cne.FIX_KINDS)
 
 
 def test_sources_file_dates_every_pdf():
@@ -288,7 +315,7 @@ def test_mart_is_the_seed():
     assert con.sql("select count(*) from ballot_list_elected").fetchone()[0] == len(seed_rows())
     cols = [c[0] for c in con.sql("describe ballot_list_elected").fetchall()]
     assert cols == cne.COLUMNS
-    types = dict(con.sql("select column_name, data_type from (describe ballot_list_elected)")
+    types = dict(con.sql("select column_name, column_type from (describe ballot_list_elected)")
                  .fetchall())  # fmt: skip
     assert types["cadastro_id"] == "BIGINT" and types["circle_code"] == "VARCHAR"
 
@@ -317,3 +344,12 @@ def test_every_id_is_an_ar_deputy():
     overrides = cne.read_overrides(SEEDS / "ballot_list_elected_overrides.csv")
     ids |= {cid for cid in overrides.values() if cid is not None}
     assert ids - known == set()
+
+
+def test_similar_names_allow_old_spellings_but_not_another_surname():
+    assert cne.similar_name("Vitor Afonso Pinto da Cruz", "Victor Afonso Pinto da Cruz")
+    assert cne.similar_name("Ana Lacerda de Queirós", "Ana Lacerda de Queiroz")
+    assert cne.similar_name("Ana Maria Silva", "Ana Silva")
+    assert not cne.similar_name("Ana Maria Lopes", "Ana Maria Gomes")
+    assert not cne.similar_name("Ana Maria Martins", "Ana Maria Moniz")
+    assert not cne.similar_name("Ana Maria Silva", "Rita Maria Silva")

@@ -19,6 +19,7 @@ Como consultar uma publicação: [querying.md](../querying.md).
 | [parliamentary_groups](parliamentary_groups.md) | Uma linha por grupo parlamentar e por legislatura. |
 | [coalitions](coalitions.md) | Uma linha por legislatura, lista da coligação e grupo parlamentar, a partir de seed_coalitions. |
 | [ballot_list_seats](ballot_list_seats.md) | Uma linha por eleição, círculo eleitoral e lista que ganhou pelo menos um lugar, com os lugares tal como publicados pela CNE, de 1979 (I-B) a 2005 (X), e pela SGMAI, de 2009 (XI) a 2025 (XVII). |
+| [ballot_list_elected](ballot_list_elected.md) | Uma linha por deputado eleito, por eleição, círculo eleitoral e lista, de 1979 (I-B) a 1991 (VI), com o nome tal como publicado no Diário da República e o cadastro_id da AR. |
 | [deputies](deputies.md) | Uma linha por pessoa (cadastro_id) que aparece em qualquer lista, eleita ou não. |
 | [mandates](mandates.md) | Uma linha por deputado, legislatura e período de situação (DepSituacao), tal como publicado. |
 | [group_memberships](group_memberships.md) | Uma linha por deputado, legislatura e período num grupo parlamentar (DepGP). |

@@ -35,6 +35,8 @@ BUILT_ALONGSIDE = {
 SEED_OPTIONS = {
     # CNE and SGMAI circle codes keep their leading zeros, for example 01 or 010000.
     "seed_ballot_list_seats": ", types = {'circle_code': 'VARCHAR'}",
+    "seed_ballot_list_elected": ", types = {'circle_code': 'VARCHAR', 'cadastro_id': 'BIGINT'}",
+    "seed_ballot_list_elected_overrides": ", types = {'cadastro_id': 'BIGINT'}",
 }
 # The seating macros read mandates and are created as soon as it exists.
 MACROS_AFTER = "mandates"

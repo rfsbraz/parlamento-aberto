@@ -287,12 +287,50 @@ def test_coalition_rows_are_unique():
 # Coalition parties that won no seat in the election (#89), as (legislature, coalition,
 # ballot_acronym, group_code). Their group_code is the party's acronym.
 WITHOUT_SEATS = [
+    ("XV", "AD", "PPD/PSD.CDS-PP.PPM", "CDS-PP"),
+    ("XV", "AD", "PPD/PSD.CDS-PP.PPM", "PPM"),
     ("XV", "CDU", "PCP-PEV", "PEV"),
+    ("XV", "Madeira Primeiro", "PPD/PSD.CDS-PP", "CDS-PP"),
     ("XVI", "AD", "PPD/PSD.CDS-PP.PPM", "PPM"),
     ("XVI", "CDU", "PCP-PEV", "PEV"),
     ("XVII", "AD", "PPD/PSD.CDS-PP.PPM", "PPM"),
     ("XVII", "CDU", "PCP-PEV", "PEV"),
 ]
+
+
+# Lists that ran in a single regional circle and won seats there (#92), as in the CNE
+# official maps 1/2022 and 2-A/2024: (legislature, ballot_acronym) -> coalition, list name
+# and {group_code: has_seats}. Their seats sat with PSD; CDS-PP had no group in the XV.
+REGIONAL_LISTS = {
+    ("XV", "PPD/PSD.CDS-PP"): (
+        "Madeira Primeiro",
+        "Madeira Primeiro",
+        {"PSD": "true", "CDS-PP": "false"},
+    ),
+    ("XV", "PPD/PSD.CDS-PP.PPM"): (
+        "AD",
+        "AD/Aliança Democrática",
+        {"PSD": "true", "CDS-PP": "false", "PPM": "false"},
+    ),
+    ("XVI", "PPD/PSD.CDS-PP"): (
+        "Madeira Primeiro",
+        "Madeira Primeiro",
+        {"PSD": "true", "CDS-PP": "true"},
+    ),
+}
+
+
+def test_regional_coalition_lists_are_in_the_seed():
+    found = {}
+    for r in seed_rows():
+        key = (r["legislature"], r["ballot_acronym"])
+        if key in REGIONAL_LISTS:
+            coalition, name, groups = found.setdefault(
+                key, (r["coalition"], r["coalition_name"], {})
+            )
+            assert (r["coalition"], r["coalition_name"]) == (coalition, name), r
+            groups[r["group_code"]] = r["has_seats"]
+    assert found == REGIONAL_LISTS
 
 
 def test_has_seats_is_a_boolean_on_every_row():

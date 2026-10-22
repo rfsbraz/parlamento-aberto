@@ -82,11 +82,6 @@ POINT_4 = (
 )
 
 
-def _sgmai_sources() -> dict:
-    path = release.MODELS / "seeds" / "ballot_list_seats.sources.json"
-    return json.loads(path.read_text(encoding="utf-8"))
-
-
 def test_only_ballot_list_seats_credits_the_sgmai(built):
     # The election results are credited to the CNE and the SGMAI, not the AR (LICENSE-DATA, 4).
     assert [m for m in release.marts() if release.mai_derived(m)] == ["ballot_list_seats"]
@@ -101,22 +96,36 @@ def test_only_ballot_list_seats_credits_the_sgmai(built):
 def test_licence_point_4_is_the_reviewed_text():
     text = " ".join((ROOT / "LICENSE-DATA").read_text(encoding="utf-8").split())
     assert POINT_4 in text
-    # Point 4 is that paragraph only, up to the code licence.
+    # Point 4 is that paragraph, then the elected deputies, up to the code licence.
     after = text[text.index(POINT_4) + len(POINT_4) :].strip()
-    assert after.startswith("Código")
+    assert after.startswith("Os deputados eleitos por lista e círculo de 1979 a 1991")
+
+
+def test_only_ballot_list_elected_credits_the_dr_lists(built):
+    # The elected deputies are credited to the CNE copies of the DR lists (LICENSE-DATA, 4).
+    assert [m for m in release.marts() if release.elected_derived(m)] == ["ballot_list_elected"]
+    m = json.loads((built / "manifest.json").read_text())
+    entry = m["marts"]["ballot_list_elected"]
+    assert entry["attribution"].startswith(release.ELECTED_ATTRIBUTION)
+    text = " ".join((ROOT / "LICENSE-DATA").read_text(encoding="utf-8").split())
+    assert release.ELECTED_ATTRIBUTION.removeprefix("Fonte: ") in text
+    # That paragraph closes point 4, before the code licence.
+    tail = text[text.index(POINT_4) :]
+    assert tail.index("ballot_list_elected") < tail.index("Código")
+    assert tail.index(release.ELECTED_ATTRIBUTION[8:]) < tail.index("Código")
 
 
 def test_every_mart_has_its_download_date(built):
     m = json.loads((built / "manifest.json").read_text())
-    sgmai = _sgmai_sources()
-    downloaded = max(f["downloaded"] for f in sgmai["files"])
     for mart, entry in m["marts"].items():
-        if release.mai_derived(mart):
+        election = release.election_source(mart)
+        if election:
+            downloaded = max(f["downloaded"] for f in election[1])
             assert entry["downloaded"] == downloaded, mart
             assert entry["attribution"].endswith(f"descarregados a {downloaded}"), mart
             # The file date only when the file carries one; nothing is made up.
             assert entry["source_files"] == [
-                {k: v for k, v in f.items() if k != "downloaded"} for f in sgmai["files"]
+                {k: v for k, v in f.items() if k != "downloaded"} for f in election[1]
             ]
         else:
             assert entry["downloaded"] == lock_updated(), mart
@@ -130,6 +139,7 @@ def test_nothing_calls_the_sgmai_files_official_results():
         ROOT / "docs" / "data-changelog.md",
         ROOT / "docs" / "dictionary" / "README.md",
         ROOT / "docs" / "dictionary" / "ballot_list_seats.md",
+        ROOT / "docs" / "dictionary" / "ballot_list_elected.md",
         release.MODELS / "schema.yml",
     ]
     for path in paths:

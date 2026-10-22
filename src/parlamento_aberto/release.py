@@ -35,6 +35,14 @@ MAI_ATTRIBUTION = (
 )
 MAI_SOURCES = MODELS / "seeds" / "ballot_list_seats.sources.json"
 MAI_MODEL = re.compile(r"(?:^|_)ballot_list_seats$")
+# The deputies elected per list, 1979 to 1991, come from the CNE copies of the lists published
+# in the Diário da República, matched to the AR deputy ids (LICENSE-DATA, point 4).
+ELECTED_ATTRIBUTION = (
+    "Fonte: CNE (1979 a 1991), relação dos deputados eleitos para a Assembleia da República "
+    "publicada no Diário da República, com o cadastro_id da Assembleia da República"
+)
+ELECTED_SOURCES = MODELS / "seeds" / "ballot_list_elected.sources.json"
+ELECTED_MODEL = re.compile(r"(?:^|_)ballot_list_elected$")
 # Licence split (LICENSE-DATA): CC BY 4.0 covers only our marts and the dictionary.
 MARTS_LICENCE = "CC BY 4.0"
 RAW_TERMS = (
@@ -108,16 +116,37 @@ def mai_sources() -> list[dict]:
     return json.loads(MAI_SOURCES.read_text(encoding="utf-8"))["files"]
 
 
+def elected_derived(model: str, reads=_reads) -> bool:
+    """True if the model is, or is built from, the CNE elected deputies seed."""
+    return _derived(model, ELECTED_MODEL, reads)
+
+
+def elected_sources() -> list[dict]:
+    """The CNE elected deputies files, with publisher, download and file dates (cne_elected.py)."""
+    return json.loads(ELECTED_SOURCES.read_text(encoding="utf-8"))["files"]
+
+
+def election_source(mart: str) -> tuple[str, list[dict]] | None:
+    """Attribution and files for a mart built from election files, or None for AR data."""
+    if mai_derived(mart):
+        return MAI_ATTRIBUTION, mai_sources()
+    if elected_derived(mart):
+        return ELECTED_ATTRIBUTION, elected_sources()
+    return None
+
+
 def mart_downloaded(mart: str, updated: str) -> str:
     """Date the mart's source was downloaded: the election files, or the latest AR fetch."""
-    if mai_derived(mart):
-        return max(f["downloaded"] for f in mai_sources())
+    source = election_source(mart)
+    if source:
+        return max(f["downloaded"] for f in source[1])
     return updated
 
 
 def mart_attribution(mart: str, updated: str) -> str:
-    if mai_derived(mart):
-        return f"{MAI_ATTRIBUTION}, descarregados a {mart_downloaded(mart, updated)}"
+    source = election_source(mart)
+    if source:
+        return f"{source[0]}, descarregados a {mart_downloaded(mart, updated)}"
     return f"{ATTRIBUTION}, atualizados a {updated}"
 
 
@@ -244,10 +273,11 @@ def export(con, out: Path, tag: str, sha: str, updated: str) -> dict:
                 "csv": {"name": csv_gz.name, "sha256": _sha256(csv_gz)},
             },
         }
-        if mai_derived(mart):
-            # The file date only when the workbook carries one (see the script).
+        source = election_source(mart)
+        if source:
+            # The file date only when the file carries one (see the scripts).
             entries[mart]["source_files"] = [
-                {k: v for k, v in f.items() if k != "downloaded"} for f in mai_sources()
+                {k: v for k, v in f.items() if k != "downloaded"} for f in source[1]
             ]
     return entries
 

@@ -64,9 +64,10 @@ def test_csv_has_the_attribution_header_and_every_row(built):
         with gzip.open(built / f"{mart}.csv.gz", "rt", encoding="utf-8") as f:
             first = f.readline()
             body = f.read()
+        election = release.election_source(mart)
         source = (
-            f"# {release.MAI_ATTRIBUTION}, descarregados a "
-            if release.mai_derived(mart)
+            f"# {election[0]}, descarregados a "
+            if election
             else "# Fonte: Assembleia da República, dados abertos, atualizados a "
         )
         assert first.startswith(source), mart

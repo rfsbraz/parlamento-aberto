@@ -9,7 +9,7 @@ A AR permite a reutilização livre dos seus dados abertos, desde que a fonte se
 ## Licenças
 
 - Código: MIT (`LICENSE`).
-- Dados: ver `LICENSE-DATA`. Os dados brutos da AR em `data/` são reutilizados nos termos da AR; os marts e o dicionário estão sob CC BY 4.0; os dados da EpT ficam fora da CC BY; os lugares por lista (`ballot_list_seats`) vêm dos ficheiros publicados pela CNE e pela SGMAI, reutilizados ao abrigo da Lei n.º 26/2016, e a CC BY 4.0 cobre só a compilação.
+- Dados: ver `LICENSE-DATA`. Os dados brutos da AR em `data/` são reutilizados nos termos da AR; os marts e o dicionário estão sob CC BY 4.0; os dados da EpT ficam fora da CC BY; os lugares por lista (`ballot_list_seats`) vêm dos ficheiros publicados pela CNE e pela SGMAI, e os deputados eleitos por lista (`ballot_list_elected`) das relações do Diário da República digitalizadas pela CNE, ambos reutilizados ao abrigo da Lei n.º 26/2016, e a CC BY 4.0 cobre só a compilação.
 
 ## Dados pessoais
 

@@ -18,6 +18,7 @@ Como consultar uma publicação: [querying.md](../querying.md).
 | [electoral_circles](electoral_circles.md) | Uma linha por círculo eleitoral e por legislatura. |
 | [parliamentary_groups](parliamentary_groups.md) | Uma linha por grupo parlamentar e por legislatura. |
 | [coalitions](coalitions.md) | Uma linha por legislatura, lista da coligação e grupo parlamentar, a partir de seed_coalitions. |
+| [ballot_list_seats](ballot_list_seats.md) | Uma linha por eleição, círculo eleitoral e lista que ganhou pelo menos um lugar, com os lugares tal como publicados pela SGMAI, de 2009 (XI) a 2025 (XVII). |
 | [deputies](deputies.md) | Uma linha por pessoa (cadastro_id) que aparece em qualquer lista, eleita ou não. |
 | [mandates](mandates.md) | Uma linha por deputado, legislatura e período de situação (DepSituacao), tal como publicado. |
 | [group_memberships](group_memberships.md) | Uma linha por deputado, legislatura e período num grupo parlamentar (DepGP). |
@@ -57,6 +58,16 @@ Entidade para a Transparência (XVI e XVII) e não estão cobertas pela CC BY 4.
 não deu autorização de reutilização (Lei n.º 52/2019, art. 17.º). Ficam fora dos
 ficheiros publicados, e o `manifest.json` conta-as em `excluded_sources`. Ver
 [sources/ept.md](../sources/ept.md).
+
+`ballot_list_seats` vem dos ficheiros de resultados eleitorais publicados pela
+Secretaria-Geral do Ministério da Administração Interna (SGMAI), não da AR, reutilizados
+ao abrigo dos artigos 19.º e 21.º da Lei n.º 26/2016. A CC BY 4.0 aplica-se à compilação
+feita por este projeto e não implica qualquer aprovação da SGMAI (`LICENSE-DATA`,
+ponto 4). O CSV e o `manifest.json` desse mart citam a SGMAI com a data de descarga
+(`downloaded`), e o `manifest.json` traz a data de cada ficheiro quando o ficheiro a
+indica (`source_files`):
+
+> Fonte: SGMAI, resultados das eleições para a Assembleia da República, 2009 a 2025, descarregados a AAAA-MM-DD
 
 Biografias, datas de nascimento e registos de interesses são dados pessoais. Os marts
 contêm apenas o que a AR e a EpT publicam, sem os campos que deixamos de fora. Para

@@ -1,6 +1,6 @@
 # Version of the published schema, in manifest.json. Bump the major on a breaking change
 # (a column removed or renamed, a type changed); the site refuses an unknown major.
-schema_version: "1.3.0"
+schema_version: "1.4.0"
 
 # Every model, in run order, with a description of every column.
 # The data dictionary in docs/dictionary is generated from this file
@@ -149,6 +149,42 @@ models:
       election_url: Página da CNE sobre a eleição, com o mapa oficial de resultados.
       note: Exceções, por exemplo círculos onde os partidos concorreram separados.
       has_seats: Verdadeiro quando o partido elegeu deputados e teve grupo nessa legislatura; falso para um partido da lista que não elegeu ninguém.
+
+  seed_ballot_list_seats:
+    description: >-
+      Lugares ganhos por cada lista em cada círculo eleitoral, tal como publicados pela
+      SGMAI nos ficheiros de resultados de cada eleição para a Assembleia da
+      República, de 2009 a 2025. Escrito por scripts/mai_list_seats.py a partir das colunas
+      "mandatos"; não é editado à mão.
+    columns:
+      legislature: Legislatura que a eleição abriu, em numeração romana.
+      election_date: Data da eleição.
+      circle_code: Código do círculo no ficheiro da SGMAI. Em 2009 tem dois dígitos (por exemplo 01, 81); de 2011 em diante tem seis (010000, 800000).
+      circle_name: Nome do círculo tal como publicado.
+      ballot_acronym: Sigla da lista tal como publicada, por exemplo PPD/PSD.CDS-PP ou PCP-PEV.
+      seats: Lugares ganhos pela lista nesse círculo.
+      source_url: Ficheiro da SGMAI de onde vem a linha.
+
+  ballot_list_seats:
+    description: >-
+      Uma linha por eleição, círculo eleitoral e lista que ganhou pelo menos um lugar, com os
+      lugares tal como publicados pela SGMAI, de 2009 (XI) a 2025 (XVII).
+      Nada é calculado aqui. Liga a coalitions por legislature e ballot_acronym.
+    quirks:
+      - >-
+        Os ficheiros publicados pela SGMAI dizem "Escrutínio provisório". Em todas as eleições incluídas, a soma dos lugares é 230, como em seed_seats, e as listas de cada círculo somam o total de lugares que a SGMAI publica para esse círculo.
+      - >-
+        Em 2022 a votação no círculo da Europa foi repetida. A linha vem do ficheiro com a repetição (AR_2022_Globais_REPEU.xlsx), cujo resultado elegeu os deputados da Europa.
+      - >-
+        As listas sem lugares não constam. As eleições antes de 2009 ficam de fora: os ficheiros da SGMAI têm os lugares por lista nos círculos do território nacional, mas em formatos diferentes, e os dos círculos da emigração só existem em ficheiros à parte de 1995 a 2005.
+    columns:
+      legislature: Legislatura que a eleição abriu, em numeração romana.
+      election_date: Data da eleição.
+      circle_code: Código do círculo no ficheiro da SGMAI, com dois dígitos em 2009 e seis de 2011 em diante.
+      circle_name: Nome do círculo tal como publicado.
+      ballot_acronym: Sigla da lista tal como publicada, liga a coalitions.ballot_acronym.
+      seats: Lugares ganhos pela lista nesse círculo.
+      source_url: Ficheiro da SGMAI de onde vem a linha.
 
   deputies:
     description: Uma linha por pessoa (cadastro_id) que aparece em qualquer lista, eleita ou não. Use mandates para saber quem teve lugar e quando.

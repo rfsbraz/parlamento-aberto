@@ -8,7 +8,12 @@ requires-python = ">=3.12"
 dependencies = ["duckdb>=1.1", "pyyaml>=6"]
 
 [dependency-groups]
-dev = ["pytest>=8", "ruff>=0.6"]
+dev = [
+    "openpyxl>=3.1.5",
+    "pytest>=8",
+    "ruff>=0.6",
+    "xlrd>=2.0.2",
+]
 
 [build-system]
 requires = ["hatchling"]

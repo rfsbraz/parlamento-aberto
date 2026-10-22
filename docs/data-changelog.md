@@ -21,3 +21,4 @@ Os títulos `## Unreleased` e os prefixos `schema:` e `drift:` ficam em inglês,
 - drift: mandates I-B: a AR publica a mesma lista para a I-A e a I-B; cada parte fica só com os períodos que se sobrepõem às suas datas (#85).
 - drift: group_memberships I-A: a AR publica a mesma lista para a I-A e a I-B; cada parte fica só com os períodos que se sobrepõem às suas datas (#85).
 - drift: group_memberships I-B: a AR publica a mesma lista para a I-A e a I-B; cada parte fica só com os períodos que se sobrepõem às suas datas (#85).
+- schema: novo mart ballot_list_seats, com os lugares por lista e círculo eleitoral de 2009 (XI) a 2025 (XVII), tal como publicados pela SGMAI. manifest.json ganha attribution e downloaded (data de descarga) por mart, e source_files com a data de cada ficheiro da SGMAI quando o ficheiro a indica (schema 1.4.0).

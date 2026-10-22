@@ -7,9 +7,20 @@ name: fiscaliza dispatch
 # Corre só em push para main, nunca em pull_request nem pull_request_target, para que um PR
 # vindo de um fork não chegue ao secret. Quando eu ligar DATA_RELEASES, o aviso passa a sair
 # em release: published (#93).
+#
+# Só quando muda o que o Fiscaliza lê no commit do pin: corre `uv run --locked python -m
+# parlamento_aberto.release build --data data` (deploy/pages.py no parliament), por isso os
+# dados, o pacote com os modelos, seeds e schema.yml, e o ambiente do uv. Docs, CI, testes e
+# templates não o movem. Este ficheiro também não: mudá-lo não muda os dados.
 on:
   push:
     branches: [main]
+    paths:
+      - 'data/**'
+      - 'src/parlamento_aberto/**'
+      - 'pyproject.toml'
+      - 'uv.lock'
+      - '.python-version'
 
 # Não precisa do GITHUB_TOKEN para nada.
 permissions: {}

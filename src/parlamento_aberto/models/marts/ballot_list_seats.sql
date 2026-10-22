@@ -1,5 +1,5 @@
--- Seats per ballot list and electoral circle, as published by the SGMAI (seed written by
--- scripts/mai_list_seats.py). Nothing is computed here.
+-- Seats per ballot list and electoral circle, as published by the CNE (1979 to 2005) and the
+-- SGMAI (2009 on); seed written by scripts/mai_list_seats.py. Nothing is computed here.
 select
     legislature,
     cast(election_date as date) as election_date,

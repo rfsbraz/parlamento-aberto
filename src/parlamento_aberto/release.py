@@ -27,10 +27,11 @@ from parlamento_aberto.build import LAYERS, MODELS, build, load_schema
 
 ATTRIBUTION = "Fonte: Assembleia da República, dados abertos"
 AR_TERMS_URL = "https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx"
-# Marts built from the SGMAI election results files credit the SGMAI instead, with the date
-# the files were downloaded (LICENSE-DATA, point 4; Lei n.º 26/2016, art. 19.º, n.º 5).
+# Marts built from the CNE and SGMAI election results files credit them instead, with the
+# date the files were downloaded (LICENSE-DATA, point 4; Lei n.º 26/2016, art. 19.º, n.º 5).
 MAI_ATTRIBUTION = (
-    "Fonte: SGMAI, resultados das eleições para a Assembleia da República, 2009 a 2025"
+    "Fonte: CNE (1979 a 2005) e SGMAI (2009 a 2025), resultados das eleições para a "
+    "Assembleia da República"
 )
 MAI_SOURCES = MODELS / "seeds" / "ballot_list_seats.sources.json"
 MAI_MODEL = re.compile(r"(?:^|_)ballot_list_seats$")
@@ -98,17 +99,17 @@ def ept_derived(model: str, reads=_reads) -> bool:
 
 
 def mai_derived(model: str, reads=_reads) -> bool:
-    """True if the model is, or is built from, the SGMAI election results seed."""
+    """True if the model is, or is built from, the CNE and SGMAI election results seed."""
     return _derived(model, MAI_MODEL, reads)
 
 
 def mai_sources() -> list[dict]:
-    """The SGMAI workbooks, with download and file dates (scripts/mai_list_seats.py)."""
+    """The CNE and SGMAI files, with publisher, download and file dates (mai_list_seats.py)."""
     return json.loads(MAI_SOURCES.read_text(encoding="utf-8"))["files"]
 
 
 def mart_downloaded(mart: str, updated: str) -> str:
-    """Date the mart's source was downloaded: the SGMAI files, or the latest AR fetch."""
+    """Date the mart's source was downloaded: the election files, or the latest AR fetch."""
     if mai_derived(mart):
         return max(f["downloaded"] for f in mai_sources())
     return updated

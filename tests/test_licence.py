@@ -67,13 +67,18 @@ def test_csv_header_cites_source_update_date_and_mart_licence(built):
 
 
 POINT_4 = (
-    "4. Os lugares por lista e círculo (`ballot_list_seats`) vêm dos ficheiros de resultados "
-    "eleitorais publicados pela Secretaria-Geral do Ministério da Administração Interna "
-    "(SGMAI), reutilizados ao abrigo dos artigos 19.º e 21.º da Lei n.º 26/2016, de 22 de "
-    "agosto. Os valores são publicados tal como a SGMAI os divulga, sem alterações. A licença "
-    "CC BY 4.0 aplica-se à compilação feita por este projeto e não implica qualquer aprovação "
-    "da SGMAI. Fonte: SGMAI, resultados das eleições para a Assembleia da República, 2009 a "
-    "2025; data de descarga indicada no manifest.json."
+    "4. Os lugares por lista e círculo (`ballot_list_seats`) vêm dos mapas de resultados das "
+    "eleições de 1979 a 2005 publicados pela Comissão Nacional de Eleições (CNE) e dos "
+    "ficheiros de resultados eleitorais de 2009 a 2025 publicados pela Secretaria-Geral do "
+    "Ministério da Administração Interna (SGMAI), reutilizados ao abrigo dos artigos 19.º e "
+    "21.º da Lei n.º 26/2016, de 22 de agosto. Os valores são publicados tal como a CNE e a "
+    "SGMAI os divulgam, com duas exceções descritas no dicionário de dados: as siglas das "
+    "listas nos mapas da CNE seguem a grafia da SGMAI (PSD passa a PPD/PSD, CDS/PP a CDS-PP e "
+    "PCP/PEV a PCP-PEV), e no círculo Fora da Europa em 1983 segue-se o mapa publicado no "
+    "Diário da República. A licença CC BY 4.0 aplica-se à compilação feita por este projeto e "
+    "não implica qualquer aprovação da CNE ou da SGMAI. Fonte: CNE (1979 a 2005) e SGMAI "
+    "(2009 a 2025), resultados das eleições para a Assembleia da República; data de descarga "
+    "indicada no manifest.json."
 )
 
 
@@ -83,7 +88,7 @@ def _sgmai_sources() -> dict:
 
 
 def test_only_ballot_list_seats_credits_the_sgmai(built):
-    # The SGMAI election results are credited to the SGMAI, not the AR (LICENSE-DATA, point 4).
+    # The election results are credited to the CNE and the SGMAI, not the AR (LICENSE-DATA, 4).
     assert [m for m in release.marts() if release.mai_derived(m)] == ["ballot_list_seats"]
     m = json.loads((built / "manifest.json").read_text())
     entry = m["marts"]["ballot_list_seats"]
@@ -109,7 +114,7 @@ def test_every_mart_has_its_download_date(built):
         if release.mai_derived(mart):
             assert entry["downloaded"] == downloaded, mart
             assert entry["attribution"].endswith(f"descarregados a {downloaded}"), mart
-            # The file date only when the SGMAI file carries one; nothing is made up.
+            # The file date only when the file carries one; nothing is made up.
             assert entry["source_files"] == [
                 {k: v for k, v in f.items() if k != "downloaded"} for f in sgmai["files"]
             ]
@@ -131,9 +136,10 @@ def test_nothing_calls_the_sgmai_files_official_results():
         text = path.read_text(encoding="utf-8").lower()
         for phrase in ("resultados oficiais", "resultado oficial", "official results"):
             assert phrase not in text, (path.name, phrase)
-        # The SGMAI publishes the files; it does not license them.
-        assert "termos de reutilização da sgmai" not in text, path.name
-        assert "licença da sgmai" not in text, path.name
+        # The SGMAI and the CNE publish the files; they do not license them.
+        for publisher in ("sgmai", "cne"):
+            assert f"termos de reutilização da {publisher}" not in text, path.name
+            assert f"licença da {publisher}" not in text, path.name
 
 
 def test_ept_lineage_is_detected():

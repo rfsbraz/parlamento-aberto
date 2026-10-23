@@ -5,8 +5,8 @@ name: fiscaliza dispatch
 # seu pin e o integra quando o CI passa (docs/repo-settings.md, "Aviso ao Fiscaliza").
 #
 # Corre só em push para main, nunca em pull_request nem pull_request_target, para que um PR
-# vindo de um fork não chegue ao secret. Quando eu ligar DATA_RELEASES, o aviso passa a sair
-# em release: published (#93).
+# vindo de um fork não chegue ao secret. Com DATA_RELEASES ligado, o push não avisa: é o
+# data-release.yml que chama este workflow depois de publicar, com o commit da publicação (#112).
 #
 # Só quando muda o que o Fiscaliza lê no commit do pin: corre `uv run --locked python -m
 # parlamento_aberto.release build --data data` (deploy/pages.py no fiscaliza), por isso os
@@ -30,12 +30,22 @@ on:
         description: 'Commit de main a enviar, os 40 caracteres (vazio: o do ref)'
         required: false
         type: string
+  workflow_call:
+    inputs:
+      sha:
+        required: true
+        type: string
+    secrets:
+      FISCALIZA_DISPATCH_TOKEN:
+        required: false
 
 # Não precisa do GITHUB_TOKEN para nada.
 permissions: {}
 
 jobs:
   dispatch:
+    # Chamado pelo data-release.yml, o evento é o de quem chamou e inputs.sha vem preenchido.
+    if: github.event_name != 'push' || inputs.sha != '' || vars.DATA_RELEASES != 'on'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:

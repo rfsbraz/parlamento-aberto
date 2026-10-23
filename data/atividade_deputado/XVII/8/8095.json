@@ -2,7 +2,26 @@
  "AtividadeDeputadoList": [
   {
    "ActP": null,
-   "Audicoes": null,
+   "Audicoes": [
+    {
+     "AccDtaud": null,
+     "ActAs": null,
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": null,
+     "ActLg": null,
+     "ActLoc": null,
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": null,
+     "ActTpdesc": null,
+     "CmsAb": null,
+     "CmsNo": null,
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    }
+   ],
    "Audiencias": null,
    "Cms": null,
    "DadosLegisDeputado": null,
@@ -12,17 +31,21 @@
    "Eventos": null,
    "Gpa": null,
    "Ini": null,
-   "Intev": null,
-   "ParlamentoJovens": [
+   "Intev": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "IntId": null,
+     "IntSu": null,
+     "IntTe": null,
+     "PubDar": null,
+     "PubDtreu": null,
+     "PubLg": null,
+     "PubNr": null,
+     "PubSl": null,
+     "PubTp": null,
+     "TinDs": null
     }
    ],
+   "ParlamentoJovens": null,
    "Rel": {
     "AutoresPareceresIncImu": null,
     "RelatoresContasPublicas": null,
@@ -41,7 +64,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-22",
+    "GpDtFim": "2026-10-21",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

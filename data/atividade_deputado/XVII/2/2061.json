@@ -102,7 +102,26 @@
      "ActTpdesc": "Voto"
     }
    ],
-   "Audicoes": null,
+   "Audicoes": [
+    {
+     "AccDtaud": null,
+     "ActAs": null,
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": null,
+     "ActLg": null,
+     "ActLoc": null,
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": null,
+     "ActTpdesc": null,
+     "CmsAb": null,
+     "CmsNo": null,
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    }
+   ],
    "Audiencias": null,
    "Cms": null,
    "DadosLegisDeputado": [
@@ -405,42 +424,6 @@
      "PubSl": "1",
      "PubTp": "D",
      "TinDs": "Intervenção"
-    },
-    {
-     "IntId": "505280",
-     "IntSu": "Debate sobre o Estado da Nação",
-     "IntTe": "Apela ao cumprimento das normas de urbanidade e silêncio durante as intervenções.",
-     "PubDar": "14-14",
-     "PubDtreu": "2026-07-16",
-     "PubLg": "XVII",
-     "PubNr": "112",
-     "PubSl": "1",
-     "PubTp": "D",
-     "TinDs": "Intervenção"
-    },
-    {
-     "IntId": "505284",
-     "IntSu": "Debate sobre o Estado da Nação",
-     "IntTe": "Dá explicações no seguimento da interpelação a mesa do Deputado André Ventura (CH)",
-     "PubDar": "20-20",
-     "PubDtreu": "2026-07-16",
-     "PubLg": "XVII",
-     "PubNr": "112",
-     "PubSl": "1",
-     "PubTp": "D",
-     "TinDs": "Explicações"
-    },
-    {
-     "IntId": "505286",
-     "IntSu": "Debate sobre o Estado da Nação",
-     "IntTe": "Dá explicações no seguimento da interpelação a mesa do Primeiro-Ministro (Luís Montenegro)",
-     "PubDar": "21-21",
-     "PubDtreu": "2026-07-16",
-     "PubLg": "XVII",
-     "PubNr": "112",
-     "PubSl": "1",
-     "PubTp": "D",
-     "TinDs": "Explicações"
     },
     {
      "IntId": "504906",
@@ -2881,7 +2864,7 @@
   ],
   "DepGP": [
    {
-    "GpDtFim": "2026-10-22",
+    "GpDtFim": "2026-10-21",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

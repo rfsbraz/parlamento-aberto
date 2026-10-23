@@ -1195,6 +1195,24 @@
    "Eventos": [
     {
      "AccDtaud": null,
+     "ActAs": "23.º Café de Ciência no Parlamento: Dar Espaço ao Espaço: Inspirar para Inovar",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": "2026-10-21",
+     "ActId": "116694",
+     "ActLg": "XVII",
+     "ActLoc": "Salão Nobre do Palácio de São Bento",
+     "ActNr": null,
+     "ActSl": "2",
+     "ActTp": "EVN",
+     "ActTpdesc": "Evento",
+     "CmsAb": "CEC",
+     "CmsNo": "Comissão de Educação e Ciência",
+     "NomeEntidadeExterna": null,
+     "TevTp": "Debate"
+    },
+    {
+     "AccDtaud": null,
      "ActAs": "Descentralização de competências na educação",
      "ActDtdes1": null,
      "ActDtdes2": null,
@@ -2098,12 +2116,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": "Porto",
-     "Data": "2025-12-15",
-     "Estabelecimento": "Agrupamento de Escolas de Rates, Póvoa de Varzim",
-     "Legislatura": "XVII",
-     "Sessao": "Básico",
-     "TipoReuniao": "Debate na Escola"
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
     }
    ],
    "Rel": {
@@ -2143,6 +2161,16 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "AC"
+    },
+    {
+     "ReqAs": "Intervenção policial na Praça de D. João I, no Porto, denúncias de uso desproporcionado da força e garantia do direito de reunião e de manifestação",
+     "ReqDt": "2026-10-22 00:00:00.0",
+     "ReqId": "231900",
+     "ReqLg": "XVII",
+     "ReqNr": "266",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Adesão de Portugal à declaração conjunta de apoio ao Tribunal Penal Internacional",
@@ -2904,7 +2932,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-21",
+    "GpDtFim": "2026-10-22",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

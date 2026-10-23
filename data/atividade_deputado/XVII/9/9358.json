@@ -3,6 +3,17 @@
   {
    "ActP": [
     {
+     "ActAs": "De saudação pelo 90.º aniversário do Rancho Folclórico “Os Campinos” \nde Vila Chã de Ourique \n",
+     "ActDtdeb": null,
+     "ActDtent": "22-10-2026",
+     "ActId": "248888",
+     "ActNr": "793",
+     "ActSelLg": "XVII",
+     "ActSelNr": "2",
+     "ActTp": "VOT",
+     "ActTpdesc": "Voto"
+    },
+    {
      "ActAs": "De pesar pelo falecimento de Eduardo Santos, Bombeiro Voluntário de Rebordosa ",
      "ActDtdeb": null,
      "ActDtent": "06-10-2026",
@@ -433,6 +444,24 @@
     }
    ],
    "Audicoes": [
+    {
+     "AccDtaud": "2026-10-22",
+     "ActAs": "Audição da primeira peticionária da Petição n.º 194/XVII/1.ª - Parar o hotel no Quartel da Graça.",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190561",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "74-CECT-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CECT",
+     "CmsNo": "Comissão de Economia e Coesão Territorial ",
+     "NomeEntidadeExterna": "Peticionários",
+     "TevTp": null
+    },
     {
      "AccDtaud": "2026-10-21",
      "ActAs": "Audição do Presidente da Comissão Nacional de Acompanhamento do PRR a requerimento do Grupo Parlamentar do PS, “sobre o estado efetivo de execução do Plano de Recuperação e Resiliência”",
@@ -1784,7 +1813,15 @@
    "Rel": {
     "AutoresPareceresIncImu": null,
     "RelatoresContasPublicas": null,
-    "RelatoresIniEuropeias": null,
+    "RelatoresIniEuropeias": [
+     {
+      "IneDataRelatorio": "2026-10-21",
+      "IneId": "227797",
+      "IneReferencia": "COM(2026)567",
+      "IneTitulo": "Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que estabelece um regime de medidas para reforçar o ecossistema de inovação da União e que altera o Regulamento (UE) 2017/1001 (Regulamento Inovação Europeia)",
+      "Leg": "XVII"
+     }
+    ],
     "RelatoresIniciativas": null,
     "RelatoresPeticoes": null
    },
@@ -1799,7 +1836,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-21",
+    "GpDtFim": "2026-10-22",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

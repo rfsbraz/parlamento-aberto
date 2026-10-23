@@ -70,8 +70,8 @@
   "stale_since": null
  },
  "agenda_parlamentar/XVII": {
-  "bytes": 223612,
-  "fetched": "2026-10-22",
+  "bytes": 120721,
+  "fetched": "2026-10-23",
   "keys": [
    "AllDayEvent",
    "AnexosComissaoPermanente",
@@ -98,8 +98,8 @@
    "ThemeId",
    "Title"
   ],
-  "records": 75,
-  "sha256": "2fcd67d9ccd82cf55385df45a10400e2cb15f732a3321be883a267327deed1ae",
+  "records": 61,
+  "sha256": "a85a7e54e81cba9e33ca10392f496410ec4ca990ef4f8fd18f460dc7b11ce620",
   "stale": false,
   "stale_reason": null,
   "stale_since": null
@@ -383,14 +383,14 @@
   "stale_since": null
  },
  "atividade_deputado/XVII": {
-  "bytes": 39664286,
-  "fetched": "2026-10-22",
+  "bytes": 40611963,
+  "fetched": "2026-10-23",
   "keys": [
    "AtividadeDeputadoList",
    "Deputado"
   ],
   "records": 1446,
-  "sha256": "52197057ab493e24953796ee74d06394474452a9a07e4cf33f6d81f99ca12df6",
+  "sha256": "0e867404c644bca1afdc8fa3f88bc5c65d19d33223ab93ff4c8bd5a8483d56ec",
   "stale": false,
   "stale_reason": null,
   "stale_since": null
@@ -612,8 +612,8 @@
   "stale_since": null
  },
  "atividades/XVII": {
-  "bytes": 1933028,
-  "fetched": "2026-10-22",
+  "bytes": 1943837,
+  "fetched": "2026-10-23",
   "keys": [
    "AtividadesGerais",
    "Audicoes",
@@ -623,8 +623,8 @@
    "Eventos",
    "OrcamentoContasGerencia"
   ],
-  "records": 2556,
-  "sha256": "f56ccba5beea1c7bf2e9b235af61a6b19f5e2be5d310f571b2afb0177a635162",
+  "records": 2566,
+  "sha256": "b0611b646a9bafd2c04821c1f5416c1c6719481f2cf898fdad1d53d38885a4e3",
   "stale": false,
   "stale_reason": null,
   "stale_since": null
@@ -1010,8 +1010,8 @@
   "stale_since": null
  },
  "composicao_orgaos/XVII": {
-  "bytes": 5215017,
-  "fetched": "2026-10-22",
+  "bytes": 5216238,
+  "fetched": "2026-10-23",
   "keys": [
    "ComissaoPermanente",
    "Comissoes",
@@ -1024,7 +1024,7 @@
    "SubComissoes"
   ],
   "records": 1739,
-  "sha256": "2460bb270c19d320afcbd6e1f8c148baa72e26667e03a633fdbb98830449ea95",
+  "sha256": "7ef096462a6206a5d49ac02c965dff7449847c616a9d6de3f5ae88b2928d6d77",
   "stale": false,
   "stale_reason": null,
   "stale_since": null
@@ -1403,7 +1403,7 @@
  },
  "delegacoes_eventuais/XVII": {
   "bytes": 50340,
-  "fetched": "2026-10-22",
+  "fetched": "2026-10-23",
   "keys": [
    "DataFim",
    "DataInicio",
@@ -1415,7 +1415,7 @@
    "Sessao"
   ],
   "records": 91,
-  "sha256": "8956320334175a853370ff721ab65eb61b368cee483cf9f0e64b3ad8db44c297",
+  "sha256": "d1dffd99bc36a450c7af068b509e60e2148d79d2be23f65cb9eb92cfcfbfac93",
   "stale": false,
   "stale_reason": null,
   "stale_since": null
@@ -1574,7 +1574,7 @@
  },
  "delegacoes_permanentes/XVII": {
   "bytes": 47851,
-  "fetched": "2026-10-22",
+  "fetched": "2026-10-23",
   "keys": [
    "Comissoes",
    "Composicao",
@@ -1586,7 +1586,7 @@
    "Sessao"
   ],
   "records": 77,
-  "sha256": "645f75a245ec183ba4d5a8ff24297a246a4c9b409c9e9839a9ceccefb236b9f9",
+  "sha256": "30355c184eeb691243f71ca87b2a931c9e01124b9134301ded233e80d65d585d",
   "stale": false,
   "stale_reason": null,
   "stale_since": null
@@ -1760,8 +1760,8 @@
   "stale_since": null
  },
  "diplomas_aprovados/XVII": {
-  "bytes": 2093489,
-  "fetched": "2026-10-22",
+  "bytes": 2097472,
+  "fetched": "2026-10-23",
   "keys": [
    "Actividades",
    "Anexos",
@@ -1781,8 +1781,8 @@
    "Tp",
    "Versao"
   ],
-  "records": 977,
-  "sha256": "e562b3303b103bd8caf5f7f80377ab94ebe6c18a8e8fdceaccabc65be119f790",
+  "records": 980,
+  "sha256": "01082faaf0aab58079f3c52bc0603b115f005a7938949eacd676e0efe94c400b",
   "stale": false,
   "stale_reason": null,
   "stale_since": null
@@ -2016,8 +2016,8 @@
   "stale_since": null
  },
  "grupos_amizade/XVII": {
-  "bytes": 102088,
-  "fetched": "2026-10-22",
+  "bytes": 112364,
+  "fetched": "2026-10-23",
   "keys": [
    "Composicao",
    "DataCriacao",
@@ -2029,7 +2029,7 @@
    "Visitas"
   ],
   "records": 67,
-  "sha256": "d99e8f1dac0198ca61c4c310768d311e16098d1f34de4332464424f79accd843",
+  "sha256": "938699ee41dff3e0025a71c5481e56295e7dfedecf5c5b9c4d566d86b6c6ffe0",
   "stale": false,
   "stale_reason": null,
   "stale_since": null
@@ -2324,7 +2324,7 @@
  },
  "informacao_base/XVII": {
   "bytes": 565693,
-  "fetched": "2026-10-22",
+  "fetched": "2026-10-23",
   "keys": [
    "CirculosEleitorais",
    "Deputados",
@@ -2333,7 +2333,7 @@
    "SessoesLegislativas"
   ],
   "records": 1480,
-  "sha256": "0f305c8ca279827f6cd34e1a44668c828cab1a142bc9f5b7530b4d1fedd50103",
+  "sha256": "5a44ea75cfd0a30550dfc4b67ad8b0eb25969b4c77774a6e7f656416724ffc2b",
   "stale": false,
   "stale_reason": null,
   "stale_since": null
@@ -2951,8 +2951,8 @@
   "stale_since": null
  },
  "iniciativas/XVII": {
-  "bytes": 99887534,
-  "fetched": "2026-10-22",
+  "bytes": 100185573,
+  "fetched": "2026-10-23",
   "keys": [
    "DataFimleg",
    "DataInicioleg",
@@ -2980,8 +2980,8 @@
    "Peticoes",
    "PropostasAlteracao"
   ],
-  "records": 2346,
-  "sha256": "aaa25b11a6dcc7c624c9c905798c17c9b4ff58d68203e7f2cbcbb4c664d0f6b3",
+  "records": 2164,
+  "sha256": "a975877aca4fef9266559cc25f8b39532ee5027f53495782585194363c9e763b",
   "stale": false,
   "stale_reason": null,
   "stale_since": null
@@ -3463,8 +3463,8 @@
   "stale_since": null
  },
  "intervencoes/XVII": {
-  "bytes": 22690908,
-  "fetched": "2026-10-22",
+  "bytes": 327364,
+  "fetched": "2026-10-23",
   "keys": [
    "ActividadeId",
    "ActividadesRelacionadas",
@@ -3490,8 +3490,8 @@
    "TipoDebate",
    "TipoIntervencao"
   ],
-  "records": 7984,
-  "sha256": "d9f6aebba1f91ac82758f17721227d949c988134763ea0db5b3b2a9b45997e36",
+  "records": 81,
+  "sha256": "45edb8f6963ab8625b5a45221aa94a28010154c7fad716c4a771c4b3d6c3cb32",
   "stale": false,
   "stale_reason": null,
   "stale_since": null
@@ -4567,8 +4567,8 @@
   "stale_since": null
  },
  "peticoes/XVII": {
-  "bytes": 821701,
-  "fetched": "2026-10-22",
+  "bytes": 824244,
+  "fetched": "2026-10-23",
   "keys": [
    "DadosComissao",
    "DataDebate",
@@ -4596,7 +4596,7 @@
    "PublicacaoPeticao"
   ],
   "records": 246,
-  "sha256": "52dadaeed916c8926b65f55fba1b64683f3fa940b8fe096c47fb196ae920cf15",
+  "sha256": "a020e3203d4bb4ec4d8ee5ed469444c44b25298cc8eef4b88c20c241591029c9",
   "stale": false,
   "stale_reason": null,
   "stale_since": null
@@ -5127,7 +5127,7 @@
  },
  "registo_biografico/XVII": {
   "bytes": 746179,
-  "fetched": "2026-10-22",
+  "fetched": "2026-10-23",
   "keys": [
    "CadActividadeOrgaos",
    "CadCargosFuncoes",
@@ -5143,7 +5143,7 @@
    "CadTitulos"
   ],
   "records": 339,
-  "sha256": "cf8bc3779dede4b3b29578bff141781d4aabcd90d1e615dc0f14d5b9eafe04ac",
+  "sha256": "95a231e0f8548c453c19c28411886c82b9e6fc999a6c142e016424923b2ef009",
   "stale": false,
   "stale_reason": null,
   "stale_since": null
@@ -5691,8 +5691,8 @@
   "stale_since": null
  },
  "reunioes_visitas/XVII": {
-  "bytes": 65941,
-  "fetched": "2026-10-22",
+  "bytes": 68512,
+  "fetched": "2026-10-23",
   "keys": [
    "DataFim",
    "DataInicio",
@@ -5705,8 +5705,8 @@
    "Sessao",
    "Tipo"
   ],
-  "records": 258,
-  "sha256": "955f757c08a7297a35c592f5dbb3e4e0e1e3b1919256b284eae714608c8356f8",
+  "records": 269,
+  "sha256": "b23aa85a46e8efcc465796f766fba99b6455b3161024af8ef5cd576e6139d245",
   "stale": false,
   "stale_reason": null,
   "stale_since": null

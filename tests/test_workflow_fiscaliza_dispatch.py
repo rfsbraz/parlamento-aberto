@@ -1,4 +1,5 @@
-"""O aviso ao Fiscaliza (#93): em push para main ou à mão, sem permissões, e o token só no env."""
+"""O aviso ao Fiscaliza (#93): em push para main, à mão ou do data-release.yml, sem permissões, e o
+token só no env."""
 
 import re
 import subprocess
@@ -60,7 +61,8 @@ def fires(changed):
 
 def test_runs_only_on_push_to_main_when_the_data_changes_or_by_hand():
     # Nem pull_request nem pull_request_target: um PR de um fork não pode chegar ao secret.
-    assert triggers() == {
+    # O workflow_call é o data-release.yml depois de publicar (#112).
+    assert {k: v for k, v in triggers().items() if k != "workflow_call"} == {
         "push": {"branches": ["main"], "paths": DATA_PATHS},
         "workflow_dispatch": {
             "inputs": {

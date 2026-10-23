@@ -42,9 +42,9 @@ Política de integração enquanto a integração automática nativa não está 
 
 ## Publicações de dados
 
-O `.github/workflows/data-release.yml` corre em cada push para `main` que mexa em `data/`, `src/` ou `docs/data-changelog.md`. Não faz nada quando `main` não tem `data/_meta/sources.lock.json`. Caso contrário, corre todos os testes de dados sobre `data/`, constrói os ficheiros da publicação e compara o número de linhas com a publicação mais recente. Usa apenas o `GITHUB_TOKEN`, com `contents: write` para este job.
+O `.github/workflows/data-release.yml` corre em cada push para `main` que mexa em `data/`, `src/` ou `docs/data-changelog.md`, e também o posso correr à mão (workflow_dispatch). Não faz nada quando `main` não tem `data/_meta/sources.lock.json`. Caso contrário, corre todos os testes de dados sobre `data/`, constrói os ficheiros da publicação e compara o número de linhas com a publicação mais recente. Usa apenas o `GITHUB_TOKEN`, com `contents: write` para este job.
 
-A publicação espera pelo meu OK. Enquanto a variável do repositório `DATA_RELEASES` (Settings, Secrets and variables, Actions, Variables) não estiver a `on`, cada execução carrega os ficheiros como artefacto do workflow, guardado durante 7 dias, e não cria publicação nem tag.
+A publicação espera pelo meu OK. Enquanto a variável do repositório `DATA_RELEASES` (Settings, Secrets and variables, Actions, Variables) não estiver a `on`, cada execução carrega os ficheiros como artefacto do workflow, guardado durante 7 dias, e não cria publicação nem tag. Só publica a partir de `main`, também quando o corro à mão.
 
 ## Aviso ao Fiscaliza
 
@@ -59,4 +59,4 @@ Precisa de um secret do repositório chamado `FISCALIZA_DISPATCH_TOKEN`, que cri
 
 O workflow corre com `permissions: {}`, porque não usa o `GITHUB_TOKEN`. Se o secret faltar, termina verde com um aviso e o Fiscaliza não sabe da mudança; posso mover o pin à mão ou correr o workflow do Fiscaliza com o commit.
 
-Quando ligar `DATA_RELEASES`, o aviso passa a sair em `release: published` em vez de em cada push, e o pin do Fiscaliza passa a apontar para a tag da publicação.
+Com `DATA_RELEASES` ligado, o push não avisa. É o `data-release.yml` que chama o `fiscaliza-dispatch.yml` (workflow_call) depois de publicar, com o commit da publicação, para o Fiscaliza só mover o pin quando a publicação já existe. Não uso `release: published` porque uma publicação criada com o `GITHUB_TOKEN` não inicia outros workflows.

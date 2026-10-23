@@ -3775,6 +3775,24 @@
    "Eventos": [
     {
      "AccDtaud": null,
+     "ActAs": "23.º Café de Ciência no Parlamento: Dar Espaço ao Espaço: Inspirar para Inovar",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": "2026-10-21",
+     "ActId": "116694",
+     "ActLg": "XVII",
+     "ActLoc": "Salão Nobre do Palácio de São Bento",
+     "ActNr": null,
+     "ActSl": "2",
+     "ActTp": "EVN",
+     "ActTpdesc": "Evento",
+     "CmsAb": "CEC",
+     "CmsNo": "Comissão de Educação e Ciência",
+     "NomeEntidadeExterna": null,
+     "TevTp": "Debate"
+    },
+    {
+     "AccDtaud": null,
      "ActAs": "Ensino Profissional: passado, presente e metas para 2030",
      "ActDtdes1": null,
      "ActDtdes2": null,
@@ -7355,6 +7373,18 @@
      "TinDs": "Pedido de esclarecimento"
     },
     {
+     "IntId": "505311",
+     "IntSu": "Debate sobre o Estado da Nação",
+     "IntTe": null,
+     "PubDar": "56-56",
+     "PubDtreu": "2026-07-16",
+     "PubLg": "XVII",
+     "PubNr": "112",
+     "PubSl": "1",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
      "IntId": "504727",
      "IntSu": "Sobre \"Época de incêndios: prontidão do país e das zonas afetadas pelo comboio de tempestades\"",
      "IntTe": "Ao deputado André Rijo (PS)",
@@ -7551,17 +7581,17 @@
     {
      "CirculoEleitoral": "Aveiro",
      "Data": "2025-12-15",
-     "Estabelecimento": "Escola Básica de Loureiro, Alumieira, Oliveira de Azeméis",
+     "Estabelecimento": "Escola Profissional de Aveiro - Polo de Sever do Vouga",
      "Legislatura": "XVII",
-     "Sessao": "Básico",
+     "Sessao": "Secundário",
      "TipoReuniao": "Debate na Escola"
     },
     {
      "CirculoEleitoral": "Aveiro",
      "Data": "2025-12-15",
-     "Estabelecimento": "Escola Profissional de Aveiro - Polo de Sever do Vouga",
+     "Estabelecimento": "Escola Básica de Loureiro, Alumieira, Oliveira de Azeméis",
      "Legislatura": "XVII",
-     "Sessao": "Secundário",
+     "Sessao": "Básico",
      "TipoReuniao": "Debate na Escola"
     }
    ],
@@ -9692,6 +9722,16 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Incumprimento dos prazos de avaliação do desempenho de 2025 do Corpo da Guarda Prisional",
+     "ReqDt": "2026-10-22 00:00:00.0",
+     "ReqId": "231899",
+     "ReqLg": "XVII",
+     "ReqNr": "265",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Exclusão dos pontos de avaliação de desempenho e salvaguarda dos direitos de progressão remuneratória dos docentes na transição do ensino politécnico para o ensino universitário",
@@ -12823,7 +12863,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-21",
+    "GpDtFim": "2026-10-22",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

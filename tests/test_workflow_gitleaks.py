@@ -23,7 +23,8 @@ def load(name: str) -> dict:
 
 
 def gitleaks_steps(job: dict) -> list[dict]:
-    return [s for s in job["steps"] if "gitleaks git" in s.get("run", "")]
+    # A job that calls another workflow (uses:) has no steps.
+    return [s for s in job.get("steps", []) if "gitleaks git" in s.get("run", "")]
 
 
 def test_every_gitleaks_scan_sets_log_opts():

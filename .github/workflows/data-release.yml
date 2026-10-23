@@ -7,7 +7,12 @@ name: data release
 #
 # A publicação fica desligada até eu pôr a variável do repositório DATA_RELEASES a "on".
 # Até lá, cada execução carrega os ficheiros como artefacto do workflow. Só usa o
-# GITHUB_TOKEN; não é preciso nenhum secret.
+# GITHUB_TOKEN para publicar.
+#
+# Depois de publicar, avisa o Fiscaliza com o commit da publicação (fiscaliza-dispatch.yml),
+# para o pin só mudar quando a publicação já existe (#112). Uma publicação criada com o
+# GITHUB_TOKEN não inicia outros workflows, por isso o aviso não pode esperar por
+# release: published. Também o posso correr à mão; só publica a partir de main.
 on:
   push:
     branches: [main]
@@ -15,6 +20,7 @@ on:
       - "data/**"
       - "src/**"
       - "docs/data-changelog.md"
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -29,6 +35,8 @@ jobs:
     timeout-minutes: 60
     permissions:
       contents: write
+    outputs:
+      published: ${{ steps.publish.outputs.published }}
     steps:
       - uses: actions/checkout@v5
         with:
@@ -87,10 +95,22 @@ jobs:
           retention-days: 7
 
       - name: Publish
-        if: steps.data.outputs.present == 'true' && vars.DATA_RELEASES == 'on'
+        id: publish
+        if: steps.data.outputs.present == 'true' && vars.DATA_RELEASES == 'on' && github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ github.token }}
           TAG: ${{ steps.build.outputs.tag }}
         run: |
           gh release create "$TAG" "$RUNNER_TEMP"/release/* --target "$GITHUB_SHA" \
             --title "$TAG" --notes-file "$RUNNER_TEMP/release/CHANGELOG.md" --latest
+          echo "published=true" >> "$GITHUB_OUTPUT"
+
+  fiscaliza:
+    needs: release
+    if: needs.release.outputs.published == 'true'
+    permissions: {}
+    uses: ./.github/workflows/fiscaliza-dispatch.yml
+    with:
+      sha: ${{ github.sha }}
+    secrets:
+      FISCALIZA_DISPATCH_TOKEN: ${{ secrets.FISCALIZA_DISPATCH_TOKEN }}

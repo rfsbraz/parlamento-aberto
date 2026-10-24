@@ -5,10 +5,6 @@
   {
    "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4669597a426c4e6a51324c546b795a6d45744e47517a4d693034597a4d354c54646b5a544d7a4d6d49304f5467324d4335775a47593d&fich=1bc0e646-92fa-4d32-8c39-7de332b49860.pdf&Inline=true",
    "anexoNome": "A.I.G"
-  },
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a497a4d474d314f4449324c574577597a6b744e4455774e4330354d6a55334c5451334e5445324d7a597a4d575a695969356b62324e34&fich=230c5826-a0c9-4504-9257-475163631fbb.docx&Inline=true",
-   "anexoNome": "Nota de admissibilidade"
   }
  ],
  "IniAutorDeputados": [
@@ -368,6 +364,50 @@
    "ActId": null,
    "ActividadesConjuntas": null,
    "AnexosFase": null,
+   "CodigoFase": "50",
+   "Comissao": null,
+   "DataFase": "2026-10-06",
+   "EvtId": "51",
+   "Fase": "Publicação",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1754352",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/s2a/17/02/013/2026-10-06/2?pgs=2-7&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1035930",
+     "obs": null,
+     "pag": [
+      "2-7"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVII",
+     "pubNr": "13",
+     "pubSL": "2",
+     "pubTipo": "DAR II série A",
+     "pubTp": "A",
+     "pubdt": "2026-10-06",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
    "CodigoFase": "21",
    "Comissao": null,
    "DataFase": "2026-10-08",
@@ -390,7 +430,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255785a6d466c59575a6a4c5745335a6a67744e4467794e4330354e475a684c5751774d54686d4d574d794d7a417a4f43356b62324e34&fich=e1faeafc-a7f8-4824-94fa-d018f1c23038.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-10-08",
@@ -449,7 +494,12 @@
      "Nome": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias ",
      "Numero": "8447",
      "Observacao": null,
-     "PareceresRecebidos": null,
+     "PareceresRecebidos": [
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e4467795a6d49794e5455745a4459774d4330304d4751324c546c6a596a6374597a41774e6a4a6c4e6a59324d6d51314c6e426b5a673d3d&fich=482fb255-d600-40d6-9cb7-c0062e6662d5.pdf&Inline=true",
+       "nome": "Conselho Superior dos Tribunais Administrativos e Fiscais em 2026-10-23"
+      }
+     ],
      "PedidosParecer": [
       {
        "link": "",
@@ -464,7 +514,7 @@
        "nome": "Ordem dos Advogados em 2026-10-14"
       },
       {
-       "link": "",
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e4467795a6d49794e5455745a4459774d4330304d4751324c546c6a596a6374597a41774e6a4a6c4e6a59324d6d51314c6e426b5a673d3d&fich=482fb255-d600-40d6-9cb7-c0062e6662d5.pdf&Inline=true",
        "nome": "Conselho Superior dos Tribunais Administrativos e Fiscais em 2026-10-14"
       }
      ],

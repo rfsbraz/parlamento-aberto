@@ -7,6 +7,7 @@ Obrigado pelo interesse no parlamento-aberto. Este repositório reconstrói, a p
 - Para reportar um dado errado, ou pedir a correção ou remoção de dados pessoais, abra uma issue com o formulário [Correção de dados](https://github.com/rfsbraz/parlamento-aberto/issues/new?template=correcao-de-dados.yml). Não escreva os dados pessoais na issue: indique só onde está o problema.
 - Para reportar uma vulnerabilidade ou uma fuga de dados que não deviam estar publicados, siga o [SECURITY.md](SECURITY.md) e não abra uma issue pública.
 - Para uma alteração maior (um modelo novo, uma fonte nova, uma mudança no esquema), abra primeiro uma issue a descrever a ideia.
+- Ao participar, aceita seguir o [Código de Conduta](CODE_OF_CONDUCT.md).
 
 ## Preparar o ambiente
 
@@ -56,8 +57,18 @@ Os dados de deputados incluem dados pessoais. As regras abaixo não têm exceç�
 - Use [Conventional Commits](https://www.conventionalcommits.org/), com o prefixo em inglês e o texto em português de Portugal, por exemplo `docs: traduz README` ou `fix(marts): não conta deputados duas vezes em dias de substituição`.
 - O título do pull request segue a mesma forma, porque é ele que fica no histórico quando o pull request é integrado (squash merge).
 - Escreva o título, a descrição, as issues e os comentários em português de Portugal. Código, identificadores, nomes de colunas e mensagens da linha de comandos ficam em inglês.
-- Preencha o modelo de pull request: o que muda, porquê, que issue fecha e como foi testado.
+- Preencha o modelo de pull request: o que muda e porquê, a issue que fecha, uma tabela antes/depois, como testou e se usou IA.
 - Para atualizar um ramo, faça merge de `main` no ramo.
+
+## Pull requests de pouco esforço e automáticos
+
+O parlamento-aberto é mantido no meu tempo livre, e cada pull request leva tempo a rever. Fico contente com contribuições de quem usa o parlamento-aberto e o quer melhorar.
+
+Fecho sem revisão os pull requests que pareçam feitos para acumular contribuições: contas que abrem muitos pull requests em projetos sem relação entre si, ou alterações feitas sobretudo para somar contribuições e não para corrigir algo com que se deparou. Isto aplica-se mesmo quando a alteração está correta.
+
+Pull requests feitos com ajuda de IA são bem-vindos se leu e percebeu a alteração e consegue responder a perguntas sobre ela. Diga-o no pull request.
+
+A forma mais fácil de ver um pull request integrado é começar por uma issue, combinar a abordagem e só depois abrir o pull request.
 
 ## Licenças
 

@@ -319,7 +319,20 @@
      "Numero": "8459",
      "Observacao": null,
      "PareceresRecebidos": null,
-     "PedidosParecer": null,
+     "PedidosParecer": [
+      {
+       "link": "",
+       "nome": "Associação Nacional de Assembleias Municipais (ANAM) em 2026-10-22"
+      },
+      {
+       "link": "",
+       "nome": "Associação Nacional de Freguesias (ANAFRE) em 2026-10-22"
+      },
+      {
+       "link": "",
+       "nome": "Associação Nacional de Municípios Portugueses (ANMP) em 2026-10-22"
+      }
+     ],
      "Prorrogado": null,
      "Publicacao": null,
      "PublicacaoRelatorio": null,
@@ -593,6 +606,81 @@
    "Links": null,
    "ObsFase": null,
    "OevId": "1754308",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2026-10-21",
+     "descricao": "Requerimento, apresentado pelo JPP a solicitar a baixa à Comissão da Reforma do Estado e Poder Local, sem votação, por 60 dias, do Projeto de Lei n.º 747/XVII/2.ª (JPP)",
+     "detalhe": null,
+     "id": "193216",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "14",
+     "tipoReuniao": "RP",
+     "unanime": "unanime"
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "240",
+   "Comissao": [
+    {
+     "AccId": "119987",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2026-10-21",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8459",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão da Reforma do Estado e Poder Local",
+     "Numero": "8459",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2026-10-21",
+   "EvtId": "12",
+   "Fase": "Nova apreciação comissão generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1754330",
    "OevTextId": null,
    "PcpublicasConjuntas": null,
    "PeticoesConjuntas": null,

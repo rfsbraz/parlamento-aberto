@@ -2,26 +2,7 @@
  "AtividadeDeputadoList": [
   {
    "ActP": null,
-   "Audicoes": [
-    {
-     "AccDtaud": null,
-     "ActAs": null,
-     "ActDtdes1": null,
-     "ActDtdes2": null,
-     "ActDtent": null,
-     "ActId": null,
-     "ActLg": null,
-     "ActLoc": null,
-     "ActNr": null,
-     "ActSl": null,
-     "ActTp": null,
-     "ActTpdesc": null,
-     "CmsAb": null,
-     "CmsNo": null,
-     "NomeEntidadeExterna": null,
-     "TevTp": null
-    }
-   ],
+   "Audicoes": null,
    "Audiencias": null,
    "Cms": null,
    "DadosLegisDeputado": [
@@ -39,16 +20,16 @@
    "Ini": null,
    "Intev": [
     {
-     "IntId": null,
-     "IntSu": null,
+     "IntId": "469108",
+     "IntSu": "De pesar pelas vítimas de violência política nos Estados Unidos da América\n",
      "IntTe": null,
-     "PubDar": null,
-     "PubDtreu": null,
-     "PubLg": null,
-     "PubNr": null,
-     "PubSl": null,
-     "PubTp": null,
-     "TinDs": null
+     "PubDar": "185-186",
+     "PubDtreu": "2025-10-28",
+     "PubLg": "XVII",
+     "PubNr": "29",
+     "PubSl": "1",
+     "PubTp": "D",
+     "TinDs": "Declaração de voto"
     }
    ],
    "ParlamentoJovens": [
@@ -79,7 +60,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-21",
+    "GpDtFim": "2026-10-23",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

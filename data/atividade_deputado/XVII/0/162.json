@@ -3,6 +3,17 @@
   {
    "ActP": [
     {
+     "ActAs": "De pesar pela morte de Joaquim Letria",
+     "ActDtdeb": "2026-10-21 00:00:00.0",
+     "ActDtent": "20-10-2026",
+     "ActId": "248885",
+     "ActNr": "790",
+     "ActSelLg": "XVII",
+     "ActSelNr": "2",
+     "ActTp": "VOT",
+     "ActTpdesc": "Voto"
+    },
+    {
      "ActAs": "De condenação da detenção de dois cidadãos portugueses pelas Forças de Defesa de Israel na Cisjordânia",
      "ActDtdeb": null,
      "ActDtent": "18-10-2026",
@@ -2370,6 +2381,18 @@
    ],
    "Intev": [
     {
+     "IntId": "505405",
+     "IntSu": "Debate com a participação do Governo, sobre as prioridades da Presidência Irlandesa do Conselho da União Europeia",
+     "IntTe": "À Secretária de Estado dos Assuntos Europeus Inês Domingos ",
+     "PubDar": "37-38",
+     "PubDtreu": "2026-09-18",
+     "PubLg": "XVII",
+     "PubNr": "3",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Pergunta"
+    },
+    {
      "IntId": "493497",
      "IntSu": "Debate anual com o Governo sobre a participação de Portugal na Cooperação Estruturada Permanente.",
      "IntTe": "Ao  Secretário de Estado Adjunto e da Política da Defesa Nacional (Nuno Pinheiro Torres)",
@@ -2418,7 +2441,16 @@
      "TinDs": "Pergunta"
     }
    ],
-   "ParlamentoJovens": null,
+   "ParlamentoJovens": [
+    {
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
+    }
+   ],
    "Rel": {
     "AutoresPareceresIncImu": null,
     "RelatoresContasPublicas": null,
@@ -3008,7 +3040,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-21",
+    "GpDtFim": "2026-10-23",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

@@ -4326,6 +4326,18 @@
        "TipoDocumento": "Proposta de alteração",
        "TituloDocumento": "Proposta de Alteração GPPS",
        "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938345a4449324e4749784f433077597a566a4c54526b5957457459545a6a4d4330304e6a49795a5445314e4751355a5751756347526d&fich=8d264b18-0c5c-4daa-a6c0-4622e154d9ed.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Resultado de Votações",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684e5755315a44646a4f43316d4f5745324c54526c5a6a63745954677859693035595759314d7a55325a6a526c59574d756347526d&fich=a5e5d7c8-f9a6-4ef7-a81b-9af5356f4eac.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c4f5749785a544a6c5a5330314e6d4e684c54526b4e4445744f5459795a5330344f5445324d5445774e32597a4e544d756347526d&fich=e9b1e2ee-56ca-4d41-962e-89161107f353.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -4400,10 +4412,31 @@
      "PublicacaoRelatorio": null,
      "Relatores": null,
      "RemessaRedaccaoFinal": null,
-     "Remessas": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2026-10-21",
+       "dataRemessa": "2026-10-21",
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Texto Final"
+      }
+     ],
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2026-10-21",
+       "descricao": null,
+       "detalhe": null,
+       "id": "193232",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "121",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
     }
    ],
    "DataFase": "2026-06-25",

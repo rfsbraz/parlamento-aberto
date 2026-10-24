@@ -1,7 +1,12 @@
 {
  "DataFimleg": null,
  "DataInicioleg": "2026-09-15",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a686c5a5467324d54557a4c5445304e544d744e4446694e6931694f546b304c546333593259314f4459304f544933595335775a47593d&fich=8ee86153-1453-41b6-b994-77cf5864927a.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PCP",
@@ -35,16 +40,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a686b4d6a49345a6d46684c57457a4e3255744e4441784f5331694e7a526c4c546732595455334e6a4d314e325a6a4d7935775a47593d&fich=8d228faa-a37e-4019-b74e-86a576357fc3.pdf&Inline=true",
-     "anexoNome": "A.I.G"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3259324d6d4d79593245774c54526d4d6a41744e4441344e5330344f545a6c4c5749354e574d345a6a4d795a575a6a4d79356b62324e34&fich=f62c2ca0-4f20-4085-896e-b95c8f32efc3.docx&Inline=true",
-     "anexoNome": "Texto"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "10",
    "Comissao": null,
    "DataFase": "2026-10-08",
@@ -281,7 +277,7 @@
  ],
  "IniId": "377354",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a41324d6a4a684f57566c4c546b315a4749744e4441344d533169595751304c54526b596a55334d445a685a6a4d795a53356b62324e34&fich=0622a9ee-95db-4081-bad4-4db5706af32e.docx&Inline=true",
  "IniNr": "807",
  "IniObs": null,
  "IniSel": "2",

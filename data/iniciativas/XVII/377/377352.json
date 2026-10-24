@@ -333,6 +333,12 @@
        "TipoDocumento": "Outro",
        "TituloDocumento": "Contributo ASPTPS - Associação Portuguesa de Planos de Saúde",
        "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c4e444d305a57566a4e793032595459304c54526b5a5745744f44417a5a43303559545a6959324d344e7a4e6a595745756347526d&fich=e434eec7-6a64-4dea-803d-9a6bcc873caa.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-23",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Siesta Campers",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314e574e694d7a41344e7930785954646a4c54526859545174596d4d315979316b4d446b354d47597a4d325179597a49756347526d&fich=55cb3087-1a7c-4aa4-bc5c-d0990f33d2c2.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -848,7 +854,27 @@
      "Remessas": null,
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": [
+        "IL",
+        "L",
+        "PCP",
+        "CDS-PP",
+        "PAN",
+        "JPP"
+       ],
+       "data": "2026-10-21",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I><BR>Ausência: <I>IL</I>, <I> L</I>, <I> PCP</I>, <I> CDS-PP</I>, <I> PAN</I>, <I> JPP</I>",
+       "id": "193207",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "68",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
     }
    ],
    "DataFase": "2026-10-08",
@@ -1200,7 +1226,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-22",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer CAENE",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d325579593245324f5459745a57557a4e4330304d444e684c5467344d7a51744e4459354f545535597a686d595445334c6e426b5a673d3d&fich=3e2ca696-ee34-403a-8834-469959c8fa17.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8457",
      "Legislatura": null,
@@ -1599,6 +1632,34 @@
    "Links": null,
    "ObsFase": null,
    "OevId": "1754165",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45354f5451794d6a6b324c575977596a67744e445934597931685a44526a4c5464695a444e6b4e44466b4e544e6c4e5335775a47593d&fich=19942296-f0b8-468c-ad4c-7bd3d41d53e5.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
+   "CodigoFase": "172",
+   "Comissao": null,
+   "DataFase": "2026-10-23",
+   "EvtId": "148",
+   "Fase": "Parecer da ALRAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1754358",
    "OevTextId": null,
    "PcpublicasConjuntas": null,
    "PeticoesConjuntas": null,

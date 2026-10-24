@@ -599,6 +599,24 @@
    ],
    "Audicoes": [
     {
+     "AccDtaud": "2026-10-21",
+     "ActAs": "Audição regimental do Senhor Ministro da Presidência ao abrigo do n.º 5 do artigo 104.º do Regimento da Assembleia da República\n",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190512",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "34-CCCJD-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CCCJD",
+     "CmsNo": "Comissão de Cultura, Comunicação, Juventude e Desporto ",
+     "NomeEntidadeExterna": "Ministro da Presidência",
+     "TevTp": null
+    },
+    {
      "AccDtaud": "2026-10-06",
      "ActAs": "Sobre o «Grupo de Trabalho da Reforma do Estado»",
      "ActDtdes1": null,
@@ -7183,6 +7201,18 @@
      "TinDs": "Pedido de esclarecimento"
     },
     {
+     "IntId": "505323",
+     "IntSu": "Debate sobre o Estado da Nação",
+     "IntTe": null,
+     "PubDar": "65-66",
+     "PubDtreu": "2026-07-16",
+     "PubLg": "XVII",
+     "PubNr": "112",
+     "PubSl": "1",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
      "IntId": "504718",
      "IntSu": "Sobre \"Época de incêndios: prontidão do país e das zonas afetadas pelo comboio de tempestades\"",
      "IntTe": "Ao Secretário de Estado da Proteção Civil Rui Rocha",
@@ -7821,12 +7851,44 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Porto",
+     "Data": "2026-01-12",
+     "Estabelecimento": "Escola Básica de S. Tomé de Negrelos, Santo Tirso",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Porto",
+     "Data": "2026-01-12",
+     "Estabelecimento": "Escola Básica Ave, Vila das Aves, Santo Tirso",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Vila Real",
+     "Data": "2026-03-23",
+     "Estabelecimento": "Auditório do MACNA - Museu Nadir Afonso - Chaves",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Sessão Distrital/Regional"
+    },
+    {
+     "CirculoEleitoral": "Lisboa",
+     "Data": "2026-05-12",
+     "Estabelecimento": "Lisboa",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Sessão Nacional"
+    },
+    {
+     "CirculoEleitoral": "Lisboa",
+     "Data": "2026-05-11",
+     "Estabelecimento": "Lisboa",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Sessão Nacional"
     }
    ],
    "Rel": {
@@ -9660,7 +9722,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-21",
+    "GpDtFim": "2026-10-23",
     "GpDtInicio": "2025-06-03",
     "GpId": 7265.0,
     "GpSigla": "L"

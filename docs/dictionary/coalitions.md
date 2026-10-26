@@ -14,12 +14,12 @@ Ficheiros da publicação: `coalitions.parquet` e `coalitions.csv.gz`.
 | `coalition` | VARCHAR | Nome curto pelo qual a coligação é conhecida, por exemplo AD ou CDU. |
 | `ballot_acronym` | VARCHAR | Sigla da lista no boletim de voto. |
 | `coalition_name` | VARCHAR | Nome da lista da coligação. |
-| `group_code` | VARCHAR | Grupo parlamentar, liga a parliamentary_groups por legislature e group_acronym. Nas linhas com has_seats falso, a sigla do partido, sem grupo. |
+| `group_code` | VARCHAR | Grupo parlamentar, liga a parliamentary_groups por legislature e group_acronym. Nas linhas com has_seats falso, a sigla do partido. |
 | `group_name` | VARCHAR | Nome desse grupo em parliamentary_groups. Nulo quando has_seats é falso. |
 | `source_url` | VARCHAR | Referência para a composição da coligação. |
 | `election_url` | VARCHAR | Página da CNE sobre a eleição, com o mapa oficial de resultados. |
 | `note` | VARCHAR | Exceções, por exemplo círculos onde os partidos concorreram separados. |
-| `has_seats` | BOOLEAN | Verdadeiro quando o partido elegeu deputados e teve grupo nessa legislatura; falso para um partido da lista que não elegeu ninguém. |
+| `has_seats` | BOOLEAN | Verdadeiro quando o partido elegeu deputados por esta lista; falso quando a lista não lhe deu nenhum lugar, mesmo que tenha grupo por lugares ganhos noutra lista, como o CDS-PP na lista dos Açores na XVII. |
 
 ## Particularidades conhecidas
 
@@ -43,4 +43,4 @@ Lista mantida à mão das coligações eleitorais que elegeram deputados, uma li
 | `source_url` | VARCHAR | Referência para a composição da coligação. |
 | `election_url` | VARCHAR | Página da CNE sobre a eleição, com o mapa oficial de resultados. |
 | `note` | VARCHAR | Exceções, por exemplo círculos onde os partidos concorreram separados. |
-| `has_seats` | BOOLEAN | Verdadeiro quando o partido elegeu deputados e teve grupo nessa legislatura; falso para um partido da lista que não elegeu ninguém. |
+| `has_seats` | BOOLEAN | Verdadeiro quando o partido elegeu deputados por esta lista; falso quando a lista não lhe deu nenhum lugar, mesmo que tenha grupo por lugares ganhos noutra lista, como o CDS-PP na lista dos Açores na XVII. |

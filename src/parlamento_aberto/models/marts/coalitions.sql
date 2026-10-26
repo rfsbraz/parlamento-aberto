@@ -4,7 +4,7 @@ select
     c.ballot_acronym,
     c.coalition_name,
     c.group_code,
-    g.name as group_name,
+    case when c.has_seats then g.name end as group_name,
     c.source_url,
     c.election_url,
     c.note,

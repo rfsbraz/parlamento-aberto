@@ -284,8 +284,10 @@ def test_coalition_rows_are_unique():
     assert len(keys) == len(set(keys))
 
 
-# Coalition parties that won no seat in the election (#89), as (legislature, coalition,
-# ballot_acronym, group_code). Their group_code is the party's acronym.
+# Coalition parties that won no seat on the list (#89, #119), as (legislature, coalition,
+# ballot_acronym, group_code). Their group_code is the party's acronym. CDS-PP on the
+# Madeira list in the XVI and the Açores list in the XVII won no seat there, though it
+# had a group from its seats elsewhere.
 WITHOUT_SEATS = [
     ("XV", "AD", "PPD/PSD.CDS-PP.PPM", "CDS-PP"),
     ("XV", "AD", "PPD/PSD.CDS-PP.PPM", "PPM"),
@@ -293,14 +295,16 @@ WITHOUT_SEATS = [
     ("XV", "Madeira Primeiro", "PPD/PSD.CDS-PP", "CDS-PP"),
     ("XVI", "AD", "PPD/PSD.CDS-PP.PPM", "PPM"),
     ("XVI", "CDU", "PCP-PEV", "PEV"),
+    ("XVI", "Madeira Primeiro", "PPD/PSD.CDS-PP", "CDS-PP"),
+    ("XVII", "AD", "PPD/PSD.CDS-PP.PPM", "CDS-PP"),
     ("XVII", "AD", "PPD/PSD.CDS-PP.PPM", "PPM"),
     ("XVII", "CDU", "PCP-PEV", "PEV"),
 ]
 
 
 # Lists that ran in a single regional circle and won seats there (#92), as in the CNE
-# official maps 1/2022 and 2-A/2024: (legislature, ballot_acronym) -> coalition, list name
-# and {group_code: has_seats}. Their seats sat with PSD; CDS-PP had no group in the XV.
+# official maps 1/2022, 2-A/2024 and 2025: (legislature, ballot_acronym) -> coalition, list
+# name and {group_code: has_seats}. Every seat on these lists sat with PSD (#119).
 REGIONAL_LISTS = {
     ("XV", "PPD/PSD.CDS-PP"): (
         "Madeira Primeiro",
@@ -315,7 +319,12 @@ REGIONAL_LISTS = {
     ("XVI", "PPD/PSD.CDS-PP"): (
         "Madeira Primeiro",
         "Madeira Primeiro",
-        {"PSD": "true", "CDS-PP": "true"},
+        {"PSD": "true", "CDS-PP": "false"},
+    ),
+    ("XVII", "PPD/PSD.CDS-PP.PPM"): (
+        "AD",
+        "Aliança Democrática",
+        {"PSD": "true", "CDS-PP": "false", "PPM": "false"},
     ),
 }
 
@@ -347,20 +356,55 @@ def test_parties_without_seats_are_pinned():
 
 
 def test_parties_without_seats_have_no_group(con):
-    # On the fixtures only some legislatures have a group list; on full data, all do.
+    # A party with no seat on the list has no group name there. It may still have a group
+    # in that legislature, but only from seats on another of its lists.
     grouped = rows(
         con,
         """
-        select c.legislature, c.group_code, c.group_name from coalitions c
+        select c.legislature, c.ballot_acronym, c.group_code, c.group_name from coalitions c
         where not c.has_seats
-        and c.legislature in (select legislature from parliamentary_groups)
-        and (c.group_name is not null or exists (
-            select 1 from parliamentary_groups g
-            where g.legislature = c.legislature and g.group_acronym = c.group_code
+        and (c.group_name is not null or (
+            exists (
+                select 1 from parliamentary_groups g
+                where g.legislature = c.legislature and g.group_acronym = c.group_code
+            )
+            and not exists (
+                select 1 from coalitions o
+                where o.legislature = c.legislature and o.group_code = c.group_code
+                and o.has_seats
+            )
         ))
         """,
     )
     assert grouped == []
+
+
+@data_only
+def test_has_seats_matches_who_sat_for_the_list(con):
+    # has_seats is per list (#119): true when someone elected in a circle where the list won
+    # seats sat in that group. Substitutes who never sat do not count.
+    wrong = rows(
+        con,
+        """
+        with sat as (
+            select distinct s.legislature, s.ballot_acronym, g.group_acronym
+            from ballot_list_seats s
+            join electoral_circles e on e.legislature = s.legislature and e.name = s.circle_name
+            join mandates m on m.legislature = e.legislature and m.circle_id = e.circle_id
+            join group_memberships g
+                on g.legislature = m.legislature and g.cadastro_id = m.cadastro_id
+            where s.seats > 0
+            and m.situation not in ('Suplente', 'Suspenso(Não Eleito)', 'Desistência')
+        )
+        select c.legislature, c.ballot_acronym, c.group_code, c.has_seats from coalitions c
+        where c.has_seats != exists (
+            select 1 from sat
+            where sat.legislature = c.legislature and sat.ballot_acronym = c.ballot_acronym
+            and sat.group_acronym = c.group_code
+        )
+        """,
+    )
+    assert wrong == []
 
 
 def test_cdu_note_since_2022_is_the_pev_note():
@@ -420,7 +464,7 @@ def test_fixture_coalitions(con):
     ) == [
         ("AD", "PPD/PSD.CDS-PP", "CDS-PP", True, True),
         ("AD", "PPD/PSD.CDS-PP", "PSD", True, True),
-        ("AD", "PPD/PSD.CDS-PP.PPM", "CDS-PP", True, True),
+        ("AD", "PPD/PSD.CDS-PP.PPM", "CDS-PP", False, False),
         ("AD", "PPD/PSD.CDS-PP.PPM", "PPM", False, False),
         ("AD", "PPD/PSD.CDS-PP.PPM", "PSD", True, True),
         ("CDU", "PCP-PEV", "PCP", True, True),

@@ -184,15 +184,14 @@ def test_parse_failure_rejected(srcs, tmp_path):
     assert len(list((tmp_path / "iniciativas/XVII").rglob("*.json"))) == 2
 
 
-def test_row_drop_over_5_percent_is_flagged_but_written(srcs, tmp_path):
+def test_row_drop_over_5_percent_keeps_the_last_copy(srcs, tmp_path):
     src = sources.select(srcs, dataset="iniciativas")
     run(src, tmp_path, Server({INI17: ok(ini(100))}))
     (r,) = run(src, tmp_path, Server({INI17: ok(ini(94))}))
-    assert r["status"] == "updated" and r["removed"] == 6
-    assert r["flags"] == ["row drop 100 to 94"]
-    assert len(list((tmp_path / "iniciativas/XVII").rglob("*.json"))) == 94
-    (r,) = run(src, tmp_path, Server({INI17: ok(ini(90))}))
-    assert r["flags"] == []  # 4.3% is under the limit
+    assert r["status"] == "stale" and r["reason"] == "row drop 100 to 94"
+    assert len(list((tmp_path / "iniciativas/XVII").rglob("*.json"))) == 100
+    (r,) = run(src, tmp_path, Server({INI17: ok(ini(96))}))
+    assert r["status"] == "updated" and r["flags"] == []  # 4% is under the limit
 
 
 def test_key_set_change_is_flagged_but_written(srcs, tmp_path):

@@ -36,9 +36,19 @@ uv run python scripts/check_file_size.py
 gitleaks git --redact --verbose --exit-code 1 --log-opts="origin/main..HEAD" .
 ```
 
+Se mexer em `data/`, corra também o check `data-hold`, que compara os registos das fontes centrais com os de `main`:
+
+```sh
+export RUNNER_TEMP=$(mktemp -d) && mkdir -p "$RUNNER_TEMP/base"
+git show origin/main:data/_meta/sources.lock.json > "$RUNNER_TEMP/base/sources.lock.json"
+git show origin/main:docs/data-changelog.md > "$RUNNER_TEMP/base/CHANGELOG.md"
+uv run python -m parlamento_aberto.release source-drops --lock data/_meta/sources.lock.json --previous "$RUNNER_TEMP/base"
+```
+
 - `ruff` verifica o estilo e a formatação (`uv run ruff format .` corrige a formatação).
 - `pytest` corre todos os testes, incluindo os testes de dados sobre as fixtures.
 - `dictionary --check` falha se `docs/dictionary` não corresponder a `src/parlamento_aberto/models/schema.yml`. O dicionário é gerado: não edite essas páginas à mão. Altere as descrições no `schema.yml` e gere de novo com `uv run python -m parlamento_aberto.dictionary`.
+- `data-hold` falha se uma fonte central perder mais de 5% dos registos numa legislatura face a `main`. Se a AR publicou um ficheiro parcial, reponha-o a partir do histórico do git e não mexa nos pins dos testes. Se a queda estiver correta, registe-a com `- drift: <dataset> <legislature>: motivo` em `docs/data-changelog.md`.
 - `check_file_size.py` rejeita qualquer ficheiro acima de 50 MB.
 - O [gitleaks](https://github.com/gitleaks/gitleaks) procura segredos nos commits do seu ramo, com as regras de `.gitleaks.toml`. Essas regras incluem duas para os dados da Entidade para a Transparência, que falham com qualquer NIF ou valor de 9 dígitos fora dos sítios previstos. Não altere nem contorne estas regras para fazer passar um commit.
 

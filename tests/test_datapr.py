@@ -150,6 +150,71 @@ def test_merge_only_clean_green_pr_at_the_tested_head():
     assert datapr.merge_decision(**{**ok, "labels": []})[0] is False
 
 
+# Row drops against main. Replays #118: main had 7984 XVII interventions, the first run
+# cut them to 127 and the next runs compared against that, so only the first run flagged
+# the drop. The run on 2026-10-27 would have brought 149.
+
+MAIN_LOCK = {"intervencoes/XVII": {"records": 7984}, "agenda_parlamentar/XVII": {"records": 75}}
+NIGHTLY_LOCK = {"intervencoes/XVII": {"records": 149}, "agenda_parlamentar/XVII": {"records": 72}}
+LAST_RUN = [rep("intervencoes/XVII", added=22)]  # 127 to 149, no flags on the branch
+
+
+def test_drops_against_main_compare_the_branch_lock_with_main():
+    assert datapr.drops_against(MAIN_LOCK, NIGHTLY_LOCK) == ["intervencoes/XVII: 7984 to 149"]
+    assert datapr.drops_against(MAIN_LOCK, MAIN_LOCK) == []
+    assert datapr.drops_against(MAIN_LOCK, {}) == [
+        "agenda_parlamentar/XVII: 75 to 0",
+        "intervencoes/XVII: 7984 to 0",
+    ]
+    assert datapr.drops_against({}, NIGHTLY_LOCK) == []
+
+
+def test_a_drop_against_main_holds_even_when_the_last_run_is_clean():
+    drops = datapr.drops_against(MAIN_LOCK, NIGHTLY_LOCK)
+    assert datapr.labels(LAST_RUN, current="XVII") == ["data"]
+    names = datapr.labels(LAST_RUN, current="XVII", drops=drops)
+    assert names == ["data", "hold: row-drop"]
+    body = datapr.render_body(
+        {}, LAST_RUN, NIGHTLY_LOCK, names, mode="catch-up", today=dt.date(2026, 10, 27), drops=drops
+    )
+    assert "## Row drops against main\n\n- intervencoes/XVII: 7984 to 149\n" in body
+    assert "Clean" not in body
+    clean = datapr.render_body(
+        {}, [], MAIN_LOCK, ["data"], mode="nightly", today=dt.date(2026, 10, 27)
+    )
+    assert "## Row drops against main\n\nNone.\n" in clean
+
+
+def test_merge_refuses_a_drop_against_main_without_the_hold_label():
+    ok = dict(labels=["data"], conclusion="success", pr_head="abc", run_head="abc", state="OPEN")
+    drops = datapr.drops_against(MAIN_LOCK, NIGHTLY_LOCK)
+    assert datapr.merge_decision(**ok, drops=drops) == (
+        False,
+        "row drop against main: intervencoes/XVII: 7984 to 149",
+    )
+    assert datapr.merge_decision(**ok, drops=[])[0] is True
+
+
+def test_merge_check_cli_reads_both_locks(tmp_path):
+    import json
+
+    pr = {"number": 118, "state": "OPEN", "labels": [{"name": "data"}], "headRefOid": "abc"}
+    for name, data in {"pr": pr, "main": MAIN_LOCK, "head": NIGHTLY_LOCK}.items():
+        (tmp_path / f"{name}.json").write_text(json.dumps(data))
+    p = subprocess.run(
+        [sys.executable, "-m", "parlamento_aberto.datapr", "merge-check"]
+        + ["--pr", str(tmp_path / "pr.json"), "--conclusion", "success", "--run-head", "abc"]
+        + ["--base-lock", str(tmp_path / "main.json"), "--head-lock", str(tmp_path / "head.json")],
+        capture_output=True,
+        text=True,
+    )
+    assert p.returncode == 0, p.stderr
+    assert p.stdout.splitlines() == [
+        "merge=false",
+        "reason=row drop against main: intervencoes/XVII: 7984 to 149",
+    ]
+
+
 # Stale core files
 
 
@@ -292,3 +357,17 @@ def test_pr_step_on_a_changed_fixture_run(tmp_path):
     body = (tmp_path / "body.md").read_text()
     assert "| iniciativas/XVII | 0 | 10 | 0 |" in body
     assert "iniciativas/XVII: row drop 100 to 90" in body
+    assert "## Row drops against main\n\n- iniciativas/XVII: 100 to 90\n" in body
+
+    # A later run compares against the branch's own lock and has no flags, but main still
+    # has 100 records, so the PR stays held.
+    reports = sync.run(srcs, repo / "data", get=serve(ini(91)), today="2026-10-21")
+    assert not any(r["flags"] for r in reports)
+    git("add", "-A")
+    git("commit", "-qm", "run 2")
+    (tmp_path / "report.json").write_text(json.dumps(reports))
+    p = subprocess.run(p.args, cwd=repo, capture_output=True, text=True)
+    assert p.returncode == 0, p.stderr
+    assert (tmp_path / "labels.txt").read_text().split("\n") == ["data", "hold: row-drop", ""]
+    body = (tmp_path / "body.md").read_text()
+    assert "## Row drops against main\n\n- iniciativas/XVII: 100 to 91\n" in body

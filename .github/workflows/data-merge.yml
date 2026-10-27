@@ -45,10 +45,17 @@ jobs:
           GH_TOKEN: ${{ secrets.DATA_BOT_TOKEN }}
           CONCLUSION: ${{ github.event.workflow_run.conclusion }}
           RUN_HEAD: ${{ github.event.workflow_run.head_sha }}
+        # Compara o lock do PR com o de main, para que uma queda de linhas contra main não
+        # entre sozinha mesmo que a última execução não a tenha assinalado.
         run: |
           gh pr view data/nightly --json number,state,labels,headRefOid > "$RUNNER_TEMP/pr.json"
+          gh api -H "Accept: application/vnd.github.raw" \
+            "repos/$GITHUB_REPOSITORY/contents/data/_meta/sources.lock.json?ref=$RUN_HEAD" \
+            > "$RUNNER_TEMP/head-lock.json"
           uv run python -m parlamento_aberto.datapr merge-check --pr "$RUNNER_TEMP/pr.json" \
-            --conclusion "$CONCLUSION" --run-head "$RUN_HEAD" | tee -a "$GITHUB_OUTPUT"
+            --conclusion "$CONCLUSION" --run-head "$RUN_HEAD" \
+            --base-lock data/_meta/sources.lock.json --head-lock "$RUNNER_TEMP/head-lock.json" \
+            | tee -a "$GITHUB_OUTPUT"
 
       - name: Squash-merge
         if: steps.decide.outputs.merge == 'true'

@@ -45,3 +45,11 @@ regexes = ['''^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}(_\d+
 [[allowlists]]
 description = "AR open data under data/, everything except data/ept_*/"
 paths = ['''^data/(?:e|ep|ept|(?:[^e/]|e[^p/]|ep[^t/]|ept[^_/])[^/]*)/''']
+
+# A source key such as "intervencoes/XVII" (dataset/legislature) in test code reads as a
+# generic API key when it is assigned to a name ending in key. It is never a secret.
+[[allowlists]]
+description = "dataset/legislature source keys"
+targetRules = ["generic-api-key"]
+regexTarget = "secret"
+regexes = ['''^[a-z_]+/(?:[IVX]+(?:-[AB])?|Constituinte)$''']

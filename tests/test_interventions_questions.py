@@ -232,6 +232,20 @@ def test_intervention_coverage_is_pinned(con):
             assert last == pinned_last, f"{legislature} last date {last}. {hint}"
 
 
+def test_coverage_hint_depends_on_the_direction():
+    # 2026-10-26: AR's XVII file started on 2026-09-16 instead of 2025-06-03 because AR
+    # dropped 7984 records down to 149. Moving the pin would have hidden it.
+    dropped = coverage_hint("XVII", "first", "2026-09-16", "2025-06-03")
+    assert "AR dropped data, do not move the pin" in dropped
+    assert "update the pin" not in dropped
+    assert "AR dropped data" in coverage_hint("XVI", "last", "2025-01-10", "2025-04-30")
+    assert "AR dropped data" in coverage_hint("XVI", "missing", None, "2024-03-26")
+    filled = coverage_hint("XII", "first", "2011-06-20", "2013-09-16")
+    assert "AR filled a gap" in filled and "update the pin" in filled
+    assert "AR filled a gap" in coverage_hint("XVI", "last", "2025-05-02", "2025-04-30")
+    assert "AR filled a gap" in coverage_hint("III", "new", "1983-06-01", None)
+
+
 def test_sent_dates_outside_the_legislature_are_flagged(con):
     rows = con.sql(
         """

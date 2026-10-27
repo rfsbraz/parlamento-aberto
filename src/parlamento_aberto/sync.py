@@ -125,7 +125,7 @@ def sync_source(
             lock[src.key] = {**last, "stale": False, "stale_since": None, "stale_reason": None}
         return {**report, "status": "unchanged", "records": last["records"]}
 
-    verdict = validate(resp, last, src.path, src.format)
+    verdict = validate(resp, last, src.path, src.format, rolling=src.rolling)
     files = None
     masked = 0
     if verdict.ok:

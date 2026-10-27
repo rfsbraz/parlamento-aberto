@@ -21,11 +21,18 @@ class Verdict:
 
 
 def validate(
-    resp: Response | None, last: dict | None, path: str | None = None, fmt: str = "json"
+    resp: Response | None,
+    last: dict | None,
+    path: str | None = None,
+    fmt: str = "json",
+    *,
+    rolling: bool = False,
 ) -> Verdict:
-    """Reject HTML, parse failures and empty files that used to have records.
+    """Reject HTML, parse failures, empty files that used to have records, and a
+    record drop over 5% (#135).
 
-    Flag, but accept, a record drop over 5% and a changed key set.
+    A rolling source (the agenda only lists the coming weeks) accepts the drop with a
+    flag. A changed key set is flagged and accepted.
     """
     if resp is None:
         return Verdict(False, "download failed")
@@ -56,7 +63,10 @@ def validate(
         keys = top_level_keys(data)
     flags = []
     if last and last_records and records < last_records * (1 - ROW_DROP_LIMIT):
-        flags.append(f"row drop {last_records} to {records}")
+        drop = f"row drop {last_records} to {records}"
+        if not rolling:
+            return Verdict(False, drop)
+        flags.append(drop)
     if last and last.get("keys") is not None and last["keys"] != keys:
         added = sorted(set(keys) - set(last["keys"]))
         removed = sorted(set(last["keys"]) - set(keys))

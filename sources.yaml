@@ -9,9 +9,13 @@
 # copy_of = the file is an older snapshot of that legislature's register (same ids,
 # older content): fetched and hashed, not stored,
 # and a record outside it holds the data PR (hold: source-changed).
+# rolling: true = the file is a moving window (the agenda lists the coming weeks), so a
+# drop of more than 5% is written and flagged. Anywhere else it keeps the last good copy
+# and marks the file stale (#135).
 datasets:
   agenda_parlamentar:
     layout: tables
+    rolling: true
     ids:
       records: Id
     files:

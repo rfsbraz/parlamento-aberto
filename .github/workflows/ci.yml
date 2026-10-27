@@ -38,6 +38,42 @@ jobs:
       - name: Check docs/dictionary is up to date with schema.yml
         run: uv run python -m parlamento_aberto.dictionary --check
 
+  # Every PR, so it can be a required check: the core source records in the merge result
+  # against the base branch (HEAD^1), per legislature. A drop over 5% fails unless the PR
+  # acknowledges it in docs/data-changelog.md, as in the data release (#126). A PR that does
+  # not touch the lock passes, and so does a push.
+  data-hold:
+    name: data-hold
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 2
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/data/
+          sparse-checkout-cone-mode: false
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      - name: Source row drops against base
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT" != pull_request ]; then
+            echo "Not a pull request, nothing to compare."
+            exit 0
+          fi
+          base="$RUNNER_TEMP/base"
+          mkdir -p "$base"
+          git show HEAD:data/_meta/sources.lock.json > "$RUNNER_TEMP/lock.json" \
+            || echo '{}' > "$RUNNER_TEMP/lock.json"
+          git show HEAD^1:data/_meta/sources.lock.json > "$base/sources.lock.json" \
+            || rm -f "$base/sources.lock.json"
+          git show HEAD^1:docs/data-changelog.md > "$base/CHANGELOG.md" || true
+          uv run python -m parlamento_aberto.release source-drops \
+            --lock "$RUNNER_TEMP/lock.json" --previous "$base"
+
   # Scans only the commits the PR adds. The full history is scanned weekly on main
   # (gitleaks-full.yml).
   gitleaks:

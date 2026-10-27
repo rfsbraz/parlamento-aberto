@@ -31,6 +31,11 @@ def main(argv: list[str] | None = None) -> int:
     f.add_argument("--offline", action="store_true", help="read inputs from --raw-dir")
     f.add_argument("--report", type=Path, help="write the run report as JSON")
     f.add_argument("--stale-only", action="store_true", help="only files marked stale in the lock")
+    f.add_argument(
+        "--prune",
+        action="store_true",
+        help="merge: upsert sources take AR's file as is, deleting records it left out",
+    )
     a = p.parse_args(argv)
 
     srcs = sources.select(
@@ -56,6 +61,7 @@ def main(argv: list[str] | None = None) -> int:
         fetch_kwargs=kwargs,
         raw_dir=None if a.offline else a.raw_dir,
         log=lambda line: print(line, file=sys.stderr, flush=True),
+        prune=a.prune,
     )
     if a.report:
         a.report.write_text(json.dumps(reports, ensure_ascii=False, indent=1) + "\n")

@@ -20,12 +20,25 @@ class Verdict:
     flags: list[str] = field(default_factory=list)
 
 
+def row_drop(last: dict | None, records: int) -> list[str]:
+    last_records = (last or {}).get("records", 0)
+    if last_records and records < last_records * (1 - ROW_DROP_LIMIT):
+        return [f"row drop {last_records} to {records}"]
+    return []
+
+
 def validate(
-    resp: Response | None, last: dict | None, path: str | None = None, fmt: str = "json"
+    resp: Response | None,
+    last: dict | None,
+    path: str | None = None,
+    fmt: str = "json",
+    *,
+    check_drop: bool = True,
 ) -> Verdict:
     """Reject HTML, parse failures and empty files that used to have records.
 
-    Flag, but accept, a record drop over 5% and a changed key set.
+    Flag, but accept, a record drop over 5% and a changed key set. An upsert
+    source checks the drop itself, on the merged count (check_drop=False).
     """
     if resp is None:
         return Verdict(False, "download failed")
@@ -54,9 +67,7 @@ def validate(
     else:
         records = count_records(data) if data is not None else 0
         keys = top_level_keys(data)
-    flags = []
-    if last and last_records and records < last_records * (1 - ROW_DROP_LIMIT):
-        flags.append(f"row drop {last_records} to {records}")
+    flags = row_drop(last, records) if check_drop else []
     if last and last.get("keys") is not None and last["keys"] != keys:
         added = sorted(set(keys) - set(last["keys"]))
         removed = sorted(set(last["keys"]) - set(keys))

@@ -1,6 +1,7 @@
 """merge: upsert (#133): a partial AR file adds and updates records by id and never
 deletes the ones it leaves out. Only a --prune run deletes."""
 
+import datetime as dt
 import io
 import json
 import os
@@ -10,7 +11,7 @@ from pathlib import Path
 
 import pytest
 
-from parlamento_aberto import sources, sync
+from parlamento_aberto import datapr, sources, sync
 from parlamento_aberto.fetch import Response
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -41,7 +42,9 @@ def ok(data) -> Response:
 
 
 def interv(ids, text="r"):
-    return [{"Id": str(i), "DataReuniaoPlenaria": "2026-01-01", "Resumo": f"{text}{i}"} for i in ids]
+    return [
+        {"Id": str(i), "DataReuniaoPlenaria": "2026-01-01", "Resumo": f"{text}{i}"} for i in ids
+    ]
 
 
 def ini(ids, title="t"):
@@ -282,7 +285,7 @@ def test_replaying_the_nightly_files_never_lowers_the_count(real, tmp_path):
     for fetched, commit in NIGHTLY:
         ar = ar_file(fetched, commit)
         seen |= {r["Id"] for r in json.loads(ar.body) if r["Id"] is not None}
-        (r,) = sync.run([src], tmp_path, get=lambda url: ar, today=fetched)
+        (r,) = sync.run([src], tmp_path, get=lambda url, ar=ar: ar, today=fetched)
         counts.append(sync.read_lock(tmp_path)[src.key]["records"])
         assert {row["Id"] for row in lines(tmp_path)} == seen, fetched
     assert counts == sorted(counts), counts
@@ -308,3 +311,25 @@ def test_iniciativas_10_23_keeps_all_2346(real, tmp_path):
     assert before <= after
     assert sync.read_lock(tmp_path)[src.key]["records"] == len(after) >= 2346
     assert r["removed"] == 0 and r["flags"] == []
+
+
+def test_data_pr_body_lists_records_missing_from_the_ar_file():
+    reports = [
+        {
+            "source": "intervencoes/XVII",
+            "status": "updated",
+            "flags": [],
+            "missing_from_source": 7856,
+        },
+        {"source": "iniciativas/XVII", "status": "updated", "flags": [], "missing_from_source": 0},
+    ]
+    body = datapr.render_body(
+        {}, reports, {}, ["data"], mode="nightly", today=dt.date(2026, 10, 27)
+    )
+    assert (
+        "## Kept, missing from AR's file\n\n"
+        "- intervencoes/XVII: 7856 records kept that AR's file left out\n"
+    ) in body
+    assert "iniciativas/XVII: 0" not in body
+    clean = datapr.render_body({}, [], {}, ["data"], mode="nightly", today=dt.date(2026, 10, 27))
+    assert "## Kept, missing from AR's file\n\nNone.\n" in clean

@@ -228,6 +228,12 @@ def render_body(summary, reports, lock, label_names, *, mode, today: dt.date, dr
     flagged = [f"- {r['source']}: {f}" for r in reports for f in r.get("flags") or []]
     flagged += [f"- {r['source']}: new source" for r in reports if r.get("status") == "new"]
     lines += ["## Flags from the last run", ""] + (flagged or ["None."]) + [""]
+    kept = [
+        f"- {r['source']}: {r['missing_from_source']} records kept that AR's file left out"
+        for r in reports
+        if r.get("missing_from_source")
+    ]
+    lines += ["## Kept, missing from AR's file", ""] + (kept or ["None."]) + [""]
     stale = []
     for key, e in sorted(lock.items()):
         if e.get("stale") and e.get("stale_since"):

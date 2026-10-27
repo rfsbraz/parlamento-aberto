@@ -390,7 +390,20 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório de Votações",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a6b794e7a637a4e546c694c5759794e3251744e444d795a5330354e6d51344c5441314d6a45304e6a4d334f44566a4f5335775a47593d&fich=9277359b-f27d-432e-96d8-0521463785c9.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c324a6a4d44466d4d574e6d4c5755784d6a67744e444a6b4d6931694d7a4d314c57466b4f5755334d54426b4e4445785a4335775a47593d&fich=bc01f1cf-e128-42d2-b335-ad9e710d411d.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8452",
      "Legislatura": null,
@@ -405,10 +418,35 @@
      "PublicacaoRelatorio": null,
      "Relatores": null,
      "RemessaRedaccaoFinal": null,
-     "Remessas": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2026-10-21",
+       "dataRemessa": "2026-10-26",
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Texto Final"
+      }
+     ],
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": [
+        "L",
+        "PCP",
+        "CDS-PP"
+       ],
+       "data": "2026-10-21",
+       "descricao": null,
+       "detalhe": "A Favor: <I>CH</I>, <I> PS</I>, <I> JPP</I><BR>Contra:<I>PSD</I>, <I> IL</I><BR>Ausência: <I>L</I>, <I> PCP</I>, <I> CDS-PP</I>",
+       "id": "193235",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "54",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
     }
    ],
    "DataFase": "2026-10-08",

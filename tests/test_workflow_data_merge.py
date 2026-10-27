@@ -34,3 +34,11 @@ def test_only_runs_after_ci_on_a_pull_request():
 def test_fork_pull_requests_cannot_trigger_the_merge():
     assert SAME_REPO in conditions()
     assert "||" not in load()["jobs"]["merge"]["if"]
+
+
+def test_decide_checks_row_drops_against_main():
+    decide = next(s for s in load()["jobs"]["merge"]["steps"] if s.get("name") == "Decide")
+    run = decide["run"]
+    assert "contents/data/_meta/sources.lock.json?ref=$RUN_HEAD" in run
+    assert "--base-lock data/_meta/sources.lock.json" in run
+    assert '--head-lock "$RUNNER_TEMP/head-lock.json"' in run

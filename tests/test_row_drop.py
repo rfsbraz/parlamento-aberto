@@ -1,5 +1,5 @@
-"""A drop of more than 5% keeps the last good copy (#135). Only rolling-window sources,
-like the agenda, accept it and flag it."""
+"""A drop of more than 5% keeps the last good copy (#135). Rolling-window sources, like
+the agenda, accept it and flag it. Upsert sources (#133) flag a drop in the merged count."""
 
 import datetime as dt
 import json
@@ -13,6 +13,7 @@ from parlamento_aberto.fetch import Response
 ROOT = Path(__file__).resolve().parents[1]
 URL = "https://ar.test/intervencoes-XVII"
 AGENDA = "https://ar.test/agenda-XVII"
+UPSERT = "https://ar.test/iniciativas-XVII"
 
 SOURCES = f"""
 datasets:
@@ -29,6 +30,13 @@ datasets:
       records: Id
     files:
       - {{legislature: XVII, url: "{AGENDA}"}}
+  iniciativas:
+    layout: tables
+    merge: upsert
+    ids:
+      records: Id
+    files:
+      - {{legislature: XVII, url: "{UPSERT}"}}
 """
 
 
@@ -47,9 +55,9 @@ def srcs(tmp_path):
     return sources.load(p)
 
 
-def run(src, data_dir, routes, today):
+def run(src, data_dir, routes, today, **kw):
     return sync.run(
-        src, data_dir, get=lambda url: routes[url], today=today, fetch_kwargs={"attempts": 1}
+        src, data_dir, get=lambda url: routes[url], today=today, fetch_kwargs={"attempts": 1}, **kw
     )
 
 
@@ -114,3 +122,21 @@ def test_a_rolling_source_writes_the_drop_and_flags_it(srcs, tmp_path):
 def test_only_the_agenda_is_rolling_in_sources_yaml():
     rolling = {s.dataset for s in sources.load(ROOT / "sources.yaml") if s.rolling}
     assert rolling == {"agenda_parlamentar"}
+
+
+def test_an_upsert_source_merges_a_short_file_instead_of_going_stale(srcs, tmp_path):
+    src = sources.select(srcs, dataset="iniciativas")
+    run(src, tmp_path, {UPSERT: ok(rows(100))}, "2026-10-22")
+    (r,) = run(src, tmp_path, {UPSERT: ok(rows(2))}, "2026-10-23")
+    assert r["status"] != "stale" and r["flags"] == []
+    entry = lock(tmp_path)["iniciativas/XVII"]
+    assert entry["stale"] is False and entry["records"] == 100
+
+
+def test_an_upsert_source_flags_a_drop_in_the_merged_count(srcs, tmp_path):
+    src = sources.select(srcs, dataset="iniciativas")
+    run(src, tmp_path, {UPSERT: ok(rows(100))}, "2026-10-22")
+    (r,) = run(src, tmp_path, {UPSERT: ok(rows(2))}, "2026-10-23", prune=True)
+    assert r["status"] == "updated" and r["flags"] == ["row drop 100 to 2"]
+    entry = lock(tmp_path)["iniciativas/XVII"]
+    assert entry["stale"] is False and entry["records"] == 2

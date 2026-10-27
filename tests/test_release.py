@@ -175,6 +175,55 @@ def test_unacknowledged_drift_produces_no_release(built, tmp_path):
     assert (out / "manifest.json").exists()
 
 
+# Source row drops against the previous release's lock. Replays 2026-10-26: the release
+# data-2026-10-26 had 7984 XVII interventions in the lock, main now has 149.
+
+PREVIOUS_LOCK = {
+    "intervencoes/XVII": {"records": 7984},
+    "iniciativas/XVII": {"records": 2346},
+    "agenda_parlamentar/XVII": {"records": 75},
+}
+LOCK_NOW = {
+    "intervencoes/XVII": {"records": 149},
+    "iniciativas/XVII": {"records": 2353},
+    "agenda_parlamentar/XVII": {"records": 50},
+}
+
+
+def test_source_drops_over_five_percent_in_core_datasets():
+    assert release.source_drops(PREVIOUS_LOCK, LOCK_NOW, set()) == [
+        "intervencoes XVII: 7984 -> 149 (-98.1%)"
+    ]
+    assert release.source_drops(PREVIOUS_LOCK, LOCK_NOW, {("intervencoes", "XVII")}) == []
+    assert release.source_drops(PREVIOUS_LOCK, PREVIOUS_LOCK, set()) == []
+    assert release.source_drops({}, LOCK_NOW, set()) == []
+
+
+def test_source_drops_cli_blocks_until_acknowledged(tmp_path, capsys):
+    previous = tmp_path / "previous"
+    previous.mkdir()
+    (previous / "sources.lock.json").write_text(json.dumps(PREVIOUS_LOCK))
+    (previous / "CHANGELOG.md").write_text("# data-2026-10-26\n\nNo schema changes.\n")
+    lock = tmp_path / "lock.json"
+    lock.write_text(json.dumps(LOCK_NOW))
+    changelog = tmp_path / "changelog.md"
+    changelog.write_text("## Unreleased\n\n- schema: x.\n")
+    args = ["source-drops", "--lock", str(lock), "--previous", str(previous)]
+    args += ["--changelog", str(changelog)]
+    assert release.main(args) == 1
+    err = capsys.readouterr().err
+    assert "intervencoes XVII: 7984 -> 149 (-98.1%)" in err
+    assert "do not move a test pin" in err
+    changelog.write_text("## Unreleased\n\n- drift: intervencoes XVII: AR cut the file.\n")
+    assert release.main(args) == 0
+    # A note the previous release already carried does not count again.
+    (previous / "CHANGELOG.md").write_text("- drift: intervencoes XVII: AR cut the file.\n")
+    assert release.main(args) == 1
+    # No previous release, nothing to compare.
+    (previous / "sources.lock.json").unlink()
+    assert release.main(args) == 0
+
+
 def test_next_tag():
     assert release.next_tag("2026-10-20", []) == "data-2026-10-20"
     assert release.next_tag("2026-10-20", ["data-2026-10-19"]) == "data-2026-10-20"
@@ -190,6 +239,16 @@ def test_failing_data_tests_block_publishing():
     steps = [line.strip() for line in text.splitlines() if line.strip().startswith("- name:")]
     names = [s.removeprefix("- name:").strip() for s in steps]
     assert names.index("Data tests") < names.index("Build release") < names.index("Publish")
+
+
+def test_source_row_drops_are_checked_before_the_data_tests():
+    # A partial AR file first fails the pins in the data tests, whose fix is not to move
+    # them, so the release says it is a row drop before running them.
+    text = (Path(__file__).parents[1] / ".github" / "workflows" / "data-release.yml").read_text()
+    steps = [line.strip() for line in text.splitlines() if line.strip().startswith("- name:")]
+    names = [s.removeprefix("- name:").strip() for s in steps]
+    assert names.index("Previous release") < names.index("Source row drops")
+    assert names.index("Source row drops") < names.index("Data tests")
 
 
 def test_no_data_means_no_release(tmp_path):

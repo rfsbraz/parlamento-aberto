@@ -511,7 +511,26 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de Alteração GPPSD",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774d4751775a4459325a5330355a446b344c5451304e4445744f5745775a53316d4f4449315957526c5a6a67354f5755756347526d&fich=00d0d66e-9d98-4441-9a0e-f825adef899e.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Resultado das votações",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793968596a63794d6a6331596930774d4746694c5451325a6a51744f47526c4e7931685954426b5a57566c4e7a4e6c4f5449756347526d&fich=ab72275b-00ab-46f4-8de7-aa0deee73e92.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939694f4441774f446332597930304e546c6a4c54526c4e6a5574596a5a694d69307a5a544d324d325977597a4a6c4d6a59756347526d&fich=b800876c-459c-4e65-b6b2-3e363f0c2e26.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8451",
      "Legislatura": null,
@@ -526,10 +545,31 @@
      "PublicacaoRelatorio": null,
      "Relatores": null,
      "RemessaRedaccaoFinal": null,
-     "Remessas": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2026-10-21",
+       "dataRemessa": "2026-10-21",
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Texto Final"
+      }
+     ],
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": null,
+       "data": "2026-10-21",
+       "descricao": null,
+       "detalhe": null,
+       "id": "193234",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "121",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
     }
    ],
    "DataFase": "2026-10-09",

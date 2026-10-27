@@ -2,11 +2,7 @@
 deletes the ones it leaves out. Only a --prune run deletes."""
 
 import datetime as dt
-import io
 import json
-import os
-import subprocess
-import tarfile
 from pathlib import Path
 
 import pytest
@@ -183,44 +179,37 @@ def test_cli_prune_reaches_the_sync(tmp_path):
     assert [row["Id"] for row in lines(tmp_path / "data")] == ["2"]
 
 
-# The real files, read from git history. The 2026-10-27 file is not on main, so it is a
-# trimmed fixture (tests/fixtures/README.md, item 15).
+# The real files, trimmed to the ids, dates and lock entries the tests assert on
+# (tests/fixtures/history/upsert.json, from scripts/upsert_history_fixture.py). The
+# 2026-10-27 file is not on main, so it is its own fixture (tests/fixtures/README.md, item 22).
 
+HISTORY = json.loads((FIX / "history" / "upsert.json").read_text(encoding="utf-8"))
 MAIN_7984 = "4ecab717"  # #128, the restored 7,984-record file
 NIGHTLY = [  # fetched, commit on main whose data has that night's AR file
     ("2026-10-20", "ef53439a"),
-    ("2026-10-21", "90949cee"),
-    ("2026-10-22", "9033f8c4"),
+    ("2026-10-21", "ef53439a"),  # 90949cee, the same file
+    ("2026-10-22", "4ecab717"),  # 9033f8c4, the same file
     ("2026-10-23", "65a68f9e"),
     ("2026-10-24", "52f9df2b"),  # 10-24 and 10-26 served the same 127 records
     ("2026-10-26", "52f9df2b"),
     ("2026-10-27", None),
 ]
-INTERV = "data/intervencoes/XVII/records.ndjson"
-
-
-def git(*args) -> bytes:
-    return subprocess.run(["git", *args], cwd=ROOT, check=True, capture_output=True).stdout
-
-
-def need_history(*commits):
-    for c in commits:
-        if subprocess.run(["git", "cat-file", "-e", f"{c}^{{commit}}"], cwd=ROOT).returncode:
-            msg = f"commit {c} not in this clone (needs full history)"
-            if os.environ.get("CI"):
-                pytest.fail(msg)
-            pytest.skip(msg)
 
 
 def ndjson(body: bytes) -> list[dict]:
     return [json.loads(line) for line in body.decode().splitlines()]
 
 
+def interventions(commit: str) -> list[dict]:
+    files = HISTORY["intervencoes/XVII"]["files"]
+    return [{"Id": i, "DataReuniaoPlenaria": day} for i, day in files[commit]]
+
+
 def ar_file(fetched: str, commit: str | None) -> Response:
     if commit is None:
         path = FIX / "history" / f"intervencoes-XVII-{fetched}.ndjson"
         return ok(ndjson(path.read_bytes()))
-    return ok(ndjson(git("show", f"{commit}:{INTERV}")))
+    return ok(interventions(commit))
 
 
 @pytest.fixture
@@ -228,21 +217,17 @@ def real():
     return {s.dataset: s for s in sources.select(sources.load(ROOT / "sources.yaml"))}
 
 
-def seed(data_dir: Path, commit: str, key: str):
-    lock = json.loads(git("show", f"{commit}:data/_meta/sources.lock.json"))
-    sync.write_lock(data_dir, {key: lock[key]})
-    with tarfile.open(fileobj=io.BytesIO(git("archive", commit, f"data/{key}"))) as tar:
-        for m in tar.getmembers():
-            if m.isfile():
-                out = data_dir / Path(m.name).relative_to("data")
-                out.parent.mkdir(parents=True, exist_ok=True)
-                out.write_bytes(tar.extractfile(m).read())
+def seed_interventions(data_dir: Path, key: str):
+    sync.write_lock(data_dir, {key: HISTORY[key]["lock"]})
+    root = data_dir / key
+    root.mkdir(parents=True)
+    rows = interventions(MAIN_7984)
+    (root / "records.ndjson").write_text("".join(json.dumps(r) + "\n" for r in rows))
 
 
 def test_main_7984_plus_ar_149_gives_8005(real, tmp_path):
-    need_history(MAIN_7984)
     src = real["intervencoes"]
-    seed(tmp_path, MAIN_7984, src.key)
+    seed_interventions(tmp_path, src.key)
     before = {r["Id"]: r for r in lines(tmp_path)}
     ar = ar_file("2026-10-27", None)
     ar_rows = {r["Id"]: r for r in json.loads(ar.body)}
@@ -264,9 +249,8 @@ def test_main_7984_plus_ar_149_gives_8005(real, tmp_path):
 
 
 def test_real_file_twice_is_idempotent(real, tmp_path):
-    need_history(MAIN_7984)
     src = real["intervencoes"]
-    seed(tmp_path, MAIN_7984, src.key)
+    seed_interventions(tmp_path, src.key)
     ar = ar_file("2026-10-27", None)
     run([src], tmp_path, {src.url: ar})
     once = tree(tmp_path / src.key)
@@ -279,7 +263,6 @@ def test_real_file_twice_is_idempotent(real, tmp_path):
 
 
 def test_replaying_the_nightly_files_never_lowers_the_count(real, tmp_path):
-    need_history(*(c for _, c in NIGHTLY if c))
     src = real["intervencoes"]
     counts, seen = [], set()
     for fetched, commit in NIGHTLY:
@@ -293,18 +276,17 @@ def test_replaying_the_nightly_files_never_lowers_the_count(real, tmp_path):
 
 
 def test_iniciativas_10_23_keeps_all_2346(real, tmp_path):
-    need_history("9033f8c4", "65a68f9e")
     src = real["iniciativas"]
-    seed(tmp_path, "9033f8c4", src.key)
+    history = HISTORY[src.key]
+    sync.write_lock(tmp_path, {src.key: history["lock"]})
+    for i in history["files"]["9033f8c4"]:
+        path = tmp_path / src.key / str(i // 1000) / f"{i}.json"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps({"IniId": str(i)}))
     before = set(tree(tmp_path / src.key))
     assert len(before) == 2346
-    partial = [
-        json.loads(git("show", f"65a68f9e:data/{src.key}/{path}"))
-        for path in git("ls-tree", "-r", "--name-only", "65a68f9e", f"data/{src.key}/")
-        .decode()
-        .split()
-        for path in [path.removeprefix(f"data/{src.key}/")]
-    ]
+    keys = dict.fromkeys(history["lock"]["keys"])
+    partial = [{**keys, "IniId": str(i)} for i in history["files"]["65a68f9e"]]
     assert len(partial) == 2164
     (r,) = run([src], tmp_path, {src.url: ok(partial)})
     after = set(tree(tmp_path / src.key))

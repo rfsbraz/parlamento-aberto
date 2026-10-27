@@ -8,9 +8,19 @@ from pathlib import Path
 
 from . import privacy
 from .fetch import Response, fetch, is_soft_404
-from .normalise import LayoutError, as_int, dump_line, get_path, normalise, records_at
+from .normalise import (
+    LayoutError,
+    as_int,
+    count_lines,
+    drop_null_ids,
+    dump_line,
+    get_path,
+    normalise,
+    records_at,
+    upsert,
+)
 from .sources import Source
-from .validate import validate
+from .validate import row_drop, validate
 
 LOCK = "_meta/sources.lock.json"
 
@@ -109,7 +119,9 @@ def sync_source(
     today: str,
     fetch_kwargs: dict | None = None,
     raw_dir: Path | None = None,
+    prune: bool = False,
 ) -> dict:
+    """prune: an upsert source is replaced by AR's file, deleting what it left out."""
     last = lock.get(src.key)
     resp, attempts = fetch(src.url, get=get, **(fetch_kwargs or {}))
     report = {"source": src.key, "attempts": attempts, "flags": []}
@@ -125,9 +137,11 @@ def sync_source(
             lock[src.key] = {**last, "stale": False, "stale_since": None, "stale_reason": None}
         return {**report, "status": "unchanged", "records": last["records"]}
 
-    verdict = validate(resp, last, src.path, src.format)
+    # An upsert source checks the drop on what it writes, after the merge.
+    verdict = validate(resp, last, src.path, src.format, check_drop=src.merge != "upsert")
     files = None
     masked = 0
+    null_ids = 0
     if verdict.ok:
         try:
             if src.copy_of:
@@ -135,6 +149,8 @@ def sync_source(
             else:
                 # Private citizens' numbers in free text never reach data/ (privacy.py).
                 data, masked = privacy.mask_tree(verdict.data)
+                if src.merge == "upsert":
+                    null_ids = drop_null_ids(data, src.layout, src.id_key, src.ids, src.path)
                 files = normalise(
                     data, src.layout, src.id_key, src.ids, src.bucket, src.names, src.path
                 )
@@ -175,16 +191,26 @@ def sync_source(
 
     root = data_dir / src.key
     old = read_tree(root)
+    extra = {}
+    if src.merge == "upsert":
+        kept = 0
+        if not prune:
+            files, kept = upsert(old, files, src.layout, src.ids, src.names)
+        records = count_lines(files, src.layout, src.names)
+        verdict.flags = row_drop(last, records) + verdict.flags
+        entry["records"], entry["source_records"] = records, verdict.records
+        extra = {"missing_from_source": kept, "null_ids_dropped": null_ids}
     write_tree(root, old, files)
     lock[src.key] = entry
     return {
         **report,
         "status": status,
-        "records": verdict.records,
+        "records": entry["records"],
         "files": len(files),
         "largest_file": max((len(b) for b in files.values()), default=0),
         "flags": verdict.flags,
         "masked": masked,
+        **extra,
         **diff_counts(old, files),
     }
 
@@ -198,6 +224,7 @@ def run(
     fetch_kwargs: dict | None = None,
     raw_dir: Path | None = None,
     log: Callable[[str], None] = lambda s: None,
+    prune: bool = False,
 ) -> list[dict]:
     """Sources are processed one at a time, so requests to AR are sequential."""
     today = today or dt.date.today().isoformat()
@@ -205,7 +232,14 @@ def run(
     reports = []
     for src in sorted(sources, key=run_order):
         r = sync_source(
-            src, data_dir, lock, get=get, today=today, fetch_kwargs=fetch_kwargs, raw_dir=raw_dir
+            src,
+            data_dir,
+            lock,
+            get=get,
+            today=today,
+            fetch_kwargs=fetch_kwargs,
+            raw_dir=raw_dir,
+            prune=prune,
         )
         reports.append(r)
         write_lock(data_dir, lock)

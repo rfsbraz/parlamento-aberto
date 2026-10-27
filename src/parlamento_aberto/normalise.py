@@ -161,3 +161,79 @@ def top_level_keys(data) -> list[str]:
     if isinstance(data, dict):
         return sorted(data)
     return []
+
+
+def drop_null_ids(data, layout: str, id_key: str | None, ids: dict, path: str | None) -> int:
+    """Remove records whose id is null, in place. AR publishes some all-null rows
+    (Intervencoes XVII has 47). They have no id to merge by. Returns how many."""
+    if layout == "records":
+        found = [(records_at(data, path), id_key)]
+    else:
+        found = [(recs, ids[name]) for name, recs in tables(data) if ids.get(name)]
+    dropped = 0
+    for recs, key in found:
+        if not isinstance(recs, list):
+            continue
+        keep = [r for r in recs if not (isinstance(r, dict) and get_path(r, key) is None)]
+        dropped += len(recs) - len(keep)
+        recs[:] = keep
+    return dropped
+
+
+def table_file_key(fname: str, ids: dict, names: dict) -> str | None:
+    """The id key of the id-keyed table a tables-layout file belongs to, if any."""
+    for name, key in ids.items():
+        stem = names.get(name) or safe_name(name)
+        if fname == f"{stem}.ndjson" or re.fullmatch(
+            re.escape(stem) + r"\.(\d+-\d+|no-id)\.ndjson", fname
+        ):
+            return key
+    return None
+
+
+def upsert(
+    old: dict[str, bytes], new: dict[str, bytes], layout: str, ids: dict, names: dict
+) -> tuple[dict[str, bytes], int]:
+    """Merge a normalised AR file into the stored files by record id.
+
+    AR's records replace stored ones with the same id and add new ones. Stored
+    records AR left out stay. Files of tables without an id are replaced.
+    Returns the merged files and how many stored records AR left out.
+    """
+    if layout == "records":
+        return {**old, **new}, len(old.keys() - new.keys())
+    merged: dict[str, bytes] = {}
+    kept = 0
+    for fname in sorted(old.keys() | new.keys()):
+        key = table_file_key(fname, ids, names)
+        if key is None:
+            merged[fname] = new.get(fname, old.get(fname))
+            continue
+        rows: dict[int, str] = {}
+        from_ar: set[int] = set()
+        for body, is_new in ((old.get(fname, b""), False), (new.get(fname, b""), True)):
+            for line in body.decode().splitlines():
+                rid = get_path(json.loads(line), key)
+                if rid is None:
+                    continue
+                rows[rid := as_int(rid, key)] = line
+                if is_new:
+                    from_ar.add(rid)
+        kept += len(rows.keys() - from_ar)
+        if rows:
+            merged[fname] = ("\n".join(rows[i] for i in sorted(rows)) + "\n").encode()
+    return merged, kept
+
+
+def count_lines(files: dict[str, bytes], layout: str, names: dict) -> int:
+    """Records in normalised files: one per file, or one per NDJSON line outside _meta tables."""
+    if layout == "records":
+        return len(files)
+    meta = {names.get(n) or safe_name(n) for n in names if n.endswith("_meta")}
+    return sum(
+        body.count(b"\n")
+        for fname, body in files.items()
+        if not (
+            fname.removesuffix(".ndjson").endswith("_meta") or fname.removesuffix(".ndjson") in meta
+        )
+    )

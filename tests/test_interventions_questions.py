@@ -203,6 +203,26 @@ COVERAGE_FULL = {
     "XVII": ("2025-06-03", "2026-09-18"),
 }
 COVERAGE_FIXTURES = {"XVII": ("2026-09-16", "2026-09-16")}
+COVERAGE_PINS = "tests/test_interventions_questions.py and docs/known-gaps.md"
+
+
+def coverage_hint(legislature, edge, actual, pinned):
+    """What a coverage change means. A later first date, an earlier last date or a missing
+    legislature is data AR stopped publishing: restore it, the pin is right. An earlier
+    first date, a later last date or a new legislature is a gap AR filled."""
+    dropped = {
+        "first": lambda: actual > pinned,
+        "last": lambda: actual < pinned,
+        "missing": lambda: True,
+        "new": lambda: False,
+    }[edge]()
+    seen = f"Intervencoes {legislature} {edge}: {actual or 'none'}, pinned {pinned or 'none'}."
+    if dropped:
+        return (
+            f"{seen} AR dropped data, do not move the pin. Restore "
+            f"data/intervencoes/{legislature} from git history (see #115 and #122)."
+        )
+    return f"{seen} AR filled a gap: update the pin in {COVERAGE_PINS}."
 
 
 def test_intervention_coverage_is_pinned(con):
@@ -218,18 +238,33 @@ def test_intervention_coverage_is_pinned(con):
         group by all
         """
     ).fetchall()
-    hint = (
-        "Intervencoes coverage changed. If AR filled a gap, update the pin in "
-        "tests/test_interventions_questions.py and docs/known-gaps.md."
-    )
-    assert sorted(r[0] for r in rows) == sorted(expected), hint
+    first_dates = {r[0]: r[1] for r in rows}
+    for legislature in sorted(set(expected) - set(first_dates)):
+        pytest.fail(coverage_hint(legislature, "missing", None, expected[legislature][0]))
+    for legislature in sorted(set(first_dates) - set(expected)):
+        pytest.fail(coverage_hint(legislature, "new", first_dates[legislature], None))
     for legislature, first, last, is_open in rows:
         pinned_first, pinned_last = expected[legislature]
-        assert first == pinned_first, f"{legislature} first date {first}. {hint}"
+        assert first == pinned_first, coverage_hint(legislature, "first", first, pinned_first)
+        hint = coverage_hint(legislature, "last", last, pinned_last)
         if is_open:
-            assert last >= pinned_last, f"{legislature} last date {last}. {hint}"
+            assert last >= pinned_last, hint
         else:
-            assert last == pinned_last, f"{legislature} last date {last}. {hint}"
+            assert last == pinned_last, hint
+
+
+def test_coverage_hint_depends_on_the_direction():
+    # 2026-10-26: AR's XVII file started on 2026-09-16 instead of 2025-06-03 because AR
+    # dropped 7984 records down to 149. Moving the pin would have hidden it.
+    dropped = coverage_hint("XVII", "first", "2026-09-16", "2025-06-03")
+    assert "AR dropped data, do not move the pin" in dropped
+    assert "update the pin" not in dropped
+    assert "AR dropped data" in coverage_hint("XVI", "last", "2025-01-10", "2025-04-30")
+    assert "AR dropped data" in coverage_hint("XVI", "missing", None, "2024-03-26")
+    filled = coverage_hint("XII", "first", "2011-06-20", "2013-09-16")
+    assert "AR filled a gap" in filled and "update the pin" in filled
+    assert "AR filled a gap" in coverage_hint("XVI", "last", "2025-05-02", "2025-04-30")
+    assert "AR filled a gap" in coverage_hint("III", "new", "1983-06-01", None)
 
 
 def test_sent_dates_outside_the_legislature_are_flagged(con):

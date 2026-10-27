@@ -39,11 +39,11 @@ def test_data_hold_reports_on_every_pr_with_a_stable_name():
     assert all("if" not in s for s in job()["steps"])
 
 
-def test_data_hold_reads_both_locks_from_git_without_the_data():
+def test_data_hold_checks_out_only_the_lock_from_data():
     checkout = job()["steps"][0]
     assert checkout["uses"].startswith("actions/checkout@")
     assert checkout["with"]["fetch-depth"] == 2
-    assert "!/data/" in checkout["with"]["sparse-checkout"]
+    assert checkout["with"]["sparse-checkout"].split() == ["/*", "!/data/", f"/{LOCK}"]
     assert "HEAD^1:data/_meta/sources.lock.json" in step()["run"]
 
 

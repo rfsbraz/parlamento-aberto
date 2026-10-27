@@ -148,9 +148,9 @@ def test_prune_replaces_with_the_ar_file_and_flags_the_drop(srcs, tmp_path):
 def test_sources_without_merge_still_replace(tmp_path):
     (src,) = sources.select(sources.load(FIX / "sources.yaml"), dataset="iniciativas")
     assert src.merge == "replace"
-    run([src], tmp_path, {src.url: ok(ini(range(377000, 377010)))})
-    run([src], tmp_path, {src.url: ok(ini([377000]))})
-    assert len(tree(tmp_path / "iniciativas/XVII")) == 1
+    run([src], tmp_path, {src.url: ok(ini(range(377000, 377020)))})
+    run([src], tmp_path, {src.url: ok(ini(range(377000, 377019)))})
+    assert len(tree(tmp_path / "iniciativas/XVII")) == 19
 
 
 def test_unknown_merge_value_is_refused(tmp_path):

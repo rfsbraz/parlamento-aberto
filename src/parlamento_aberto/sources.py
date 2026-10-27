@@ -36,6 +36,7 @@ class Source:
     listed_on: str | None = None
     copy_of: str | None = None
     format: str = "json"
+    rolling: bool = False
     merge: str = "replace"
 
     @property
@@ -68,6 +69,7 @@ def load(path: Path) -> list[Source]:
                     listed_on=str(f["listed_on"]) if f.get("listed_on") else None,
                     copy_of=str(f["copy_of"]) if f.get("copy_of") else None,
                     format=str(f.get("format") or "json"),
+                    rolling=bool(spec.get("rolling", False)),
                     merge=merge,
                 )
             )

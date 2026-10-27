@@ -138,7 +138,9 @@ def sync_source(
         return {**report, "status": "unchanged", "records": last["records"]}
 
     # An upsert source checks the drop on what it writes, after the merge.
-    verdict = validate(resp, last, src.path, src.format, check_drop=src.merge != "upsert")
+    verdict = validate(
+        resp, last, src.path, src.format, check_drop=src.merge != "upsert", rolling=src.rolling
+    )
     files = None
     masked = 0
     null_ids = 0

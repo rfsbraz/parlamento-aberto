@@ -34,11 +34,14 @@ def validate(
     fmt: str = "json",
     *,
     check_drop: bool = True,
+    rolling: bool = False,
 ) -> Verdict:
-    """Reject HTML, parse failures and empty files that used to have records.
+    """Reject HTML, parse failures, empty files that used to have records, and a
+    record drop over 5% (#135).
 
-    Flag, but accept, a record drop over 5% and a changed key set. An upsert
-    source checks the drop itself, on the merged count (check_drop=False).
+    A rolling source (the agenda only lists the coming weeks) accepts the drop with a
+    flag. An upsert source checks the drop itself, on the merged count, and flags it
+    (check_drop=False). A changed key set is flagged and accepted.
     """
     if resp is None:
         return Verdict(False, "download failed")
@@ -68,6 +71,8 @@ def validate(
         records = count_records(data) if data is not None else 0
         keys = top_level_keys(data)
     flags = row_drop(last, records) if check_drop else []
+    if flags and not rolling:
+        return Verdict(False, flags[0])
     if last and last.get("keys") is not None and last["keys"] != keys:
         added = sorted(set(keys) - set(last["keys"]))
         removed = sorted(set(last["keys"]) - set(keys))

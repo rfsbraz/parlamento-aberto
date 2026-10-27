@@ -303,6 +303,7 @@ def test_stale_only_selects_files_marked_stale(tmp_path):
 
 
 def test_pr_step_on_a_changed_fixture_run(tmp_path):
+    import dataclasses
     import json
     from pathlib import Path
 
@@ -317,6 +318,8 @@ def test_pr_step_on_a_changed_fixture_run(tmp_path):
     git("config", "user.email", "t@example.com")
     git("config", "user.name", "t")
     srcs = sources.select(sources.load(fix / "sources.yaml"), dataset="iniciativas")
+    # Only a rolling source still writes a drop over 5% (#135).
+    srcs = [dataclasses.replace(s, rolling=True) for s in srcs]
     ini = lambda n: [{"IniId": 377350 + i, "t": "x"} for i in range(n)]  # noqa: E731
     serve = lambda data: lambda url: Response(200, "application/json", json.dumps(data).encode())  # noqa: E731
     sync.run(srcs, repo / "data", get=serve(ini(100)), today="2026-10-19")

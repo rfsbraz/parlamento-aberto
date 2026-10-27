@@ -94,15 +94,15 @@ def test_scope_options(srcs):
 
 
 def test_single_legislature_run_touches_only_its_files(srcs, tmp_path):
-    server = Server({INI16: ok(ini(2, 300000)), INI17: ok(ini(3)), ATV17: ok({"Audicoes": []})})
+    server = Server({INI16: ok(ini(20, 300000)), INI17: ok(ini(3)), ATV17: ok({"Audicoes": []})})
     run(sources.select(srcs, all_legislatures=True)[:3], tmp_path, server)
     before = tree(tmp_path)
-    server.routes[INI16] = [ok(ini(1, 300000))]
+    server.routes[INI16] = [ok(ini(19, 300000))]
     server.routes[INI17] = [ok(ini(9))]
     run(sources.select(srcs, legislature="XVI"), tmp_path, server)
     after = tree(tmp_path)
     changed = {p for p in before.keys() | after.keys() if before.get(p) != after.get(p)}
-    assert changed == {"iniciativas/XVI/300/300001.json", "_meta/sources.lock.json"}
+    assert changed == {"iniciativas/XVI/300/300019.json", "_meta/sources.lock.json"}
     lock_before = json.loads(before["_meta/sources.lock.json"])
     lock_after = json.loads(after["_meta/sources.lock.json"])
     assert lock_before["iniciativas/XVII"] == lock_after["iniciativas/XVII"]
@@ -184,15 +184,14 @@ def test_parse_failure_rejected(srcs, tmp_path):
     assert len(list((tmp_path / "iniciativas/XVII").rglob("*.json"))) == 2
 
 
-def test_row_drop_over_5_percent_is_flagged_but_written(srcs, tmp_path):
+def test_row_drop_over_5_percent_keeps_the_last_copy(srcs, tmp_path):
     src = sources.select(srcs, dataset="iniciativas")
     run(src, tmp_path, Server({INI17: ok(ini(100))}))
     (r,) = run(src, tmp_path, Server({INI17: ok(ini(94))}))
-    assert r["status"] == "updated" and r["removed"] == 6
-    assert r["flags"] == ["row drop 100 to 94"]
-    assert len(list((tmp_path / "iniciativas/XVII").rglob("*.json"))) == 94
-    (r,) = run(src, tmp_path, Server({INI17: ok(ini(90))}))
-    assert r["flags"] == []  # 4.3% is under the limit
+    assert r["status"] == "stale" and r["reason"] == "row drop 100 to 94"
+    assert len(list((tmp_path / "iniciativas/XVII").rglob("*.json"))) == 100
+    (r,) = run(src, tmp_path, Server({INI17: ok(ini(96))}))
+    assert r["status"] == "updated" and r["flags"] == []  # 4% is under the limit
 
 
 def test_key_set_change_is_flagged_but_written(srcs, tmp_path):
@@ -262,10 +261,10 @@ def test_second_run_is_byte_identical_and_skipped_by_hash(srcs, tmp_path, monkey
 
 def test_removed_records_are_deleted_and_counted(srcs, tmp_path):
     src = sources.select(srcs, dataset="iniciativas")
-    run(src, tmp_path, Server({INI17: ok(ini(3, 377999))}))
-    (r,) = run(src, tmp_path, Server({INI17: ok(ini(1, 377999))}))
-    assert (r["added"], r["removed"], r["changed"]) == (0, 2, 0)
-    assert sorted(tree(tmp_path / "iniciativas/XVII")) == ["377/377999.json"]
+    run(src, tmp_path, Server({INI17: ok(ini(20, 377981))}))
+    (r,) = run(src, tmp_path, Server({INI17: ok(ini(19, 377981))}))
+    assert (r["added"], r["removed"], r["changed"]) == (0, 1, 0)
+    assert len(tree(tmp_path / "iniciativas/XVII")) == 19
     assert not (tmp_path / "iniciativas/XVII/378").exists()
 
 

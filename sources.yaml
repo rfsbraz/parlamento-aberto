@@ -11,9 +11,13 @@
 # and a record outside it holds the data PR (hold: source-changed).
 # merge: upsert = AR's file updates and adds records by id and never deletes the ones it
 # leaves out; rows with a null id are dropped. Only `fetch --prune` deletes (#133).
+# rolling: true = the file is a moving window (the agenda lists the coming weeks), so a
+# drop of more than 5% is written and flagged. An upsert source flags a drop in its merged
+# count. Anywhere else a drop keeps the last good copy and marks the file stale (#135).
 datasets:
   agenda_parlamentar:
     layout: tables
+    rolling: true
     ids:
       records: Id
     files:

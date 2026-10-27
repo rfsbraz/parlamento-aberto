@@ -20,19 +20,28 @@ class Verdict:
     flags: list[str] = field(default_factory=list)
 
 
+def row_drop(last: dict | None, records: int) -> list[str]:
+    last_records = (last or {}).get("records", 0)
+    if last_records and records < last_records * (1 - ROW_DROP_LIMIT):
+        return [f"row drop {last_records} to {records}"]
+    return []
+
+
 def validate(
     resp: Response | None,
     last: dict | None,
     path: str | None = None,
     fmt: str = "json",
     *,
+    check_drop: bool = True,
     rolling: bool = False,
 ) -> Verdict:
     """Reject HTML, parse failures, empty files that used to have records, and a
     record drop over 5% (#135).
 
     A rolling source (the agenda only lists the coming weeks) accepts the drop with a
-    flag. A changed key set is flagged and accepted.
+    flag. An upsert source checks the drop itself, on the merged count, and flags it
+    (check_drop=False). A changed key set is flagged and accepted.
     """
     if resp is None:
         return Verdict(False, "download failed")
@@ -61,12 +70,9 @@ def validate(
     else:
         records = count_records(data) if data is not None else 0
         keys = top_level_keys(data)
-    flags = []
-    if last and last_records and records < last_records * (1 - ROW_DROP_LIMIT):
-        drop = f"row drop {last_records} to {records}"
-        if not rolling:
-            return Verdict(False, drop)
-        flags.append(drop)
+    flags = row_drop(last, records) if check_drop else []
+    if flags and not rolling:
+        return Verdict(False, flags[0])
     if last and last.get("keys") is not None and last["keys"] != keys:
         added = sorted(set(keys) - set(last["keys"]))
         removed = sorted(set(last["keys"]) - set(keys))

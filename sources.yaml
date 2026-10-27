@@ -9,9 +9,11 @@
 # copy_of = the file is an older snapshot of that legislature's register (same ids,
 # older content): fetched and hashed, not stored,
 # and a record outside it holds the data PR (hold: source-changed).
+# merge: upsert = AR's file updates and adds records by id and never deletes the ones it
+# leaves out; rows with a null id are dropped. Only `fetch --prune` deletes (#133).
 # rolling: true = the file is a moving window (the agenda lists the coming weeks), so a
-# drop of more than 5% is written and flagged. Anywhere else it keeps the last good copy
-# and marks the file stale (#135).
+# drop of more than 5% is written and flagged. An upsert source flags a drop in its merged
+# count. Anywhere else a drop keeps the last good copy and marks the file stale (#135).
 datasets:
   agenda_parlamentar:
     layout: tables
@@ -403,6 +405,7 @@ datasets:
   iniciativas:
     layout: records
     id: IniId
+    merge: upsert
     files:
       - legislature: I
         part: A
@@ -444,6 +447,7 @@ datasets:
         url: "https://app.parlamento.pt/webutils/docs/doc.txt?path=Y0rFuyreEHRz7JcOj2Y8tyTr7X%2fmEge7oDUmiencqGFaCzJxFJGLDLmRO%2b%2bU0NiIkOnvK6CtnFODCHgUNXCTjcR1KNjDBPYO5ntWALdfWy9K0BBQSXjhMmNfaVsduLc%2bP3Sz1AqfnbhzJih7RV%2bdBr6%2fGRgrGrzu099gxX0a2aaJZItRvtEmSpXylpbTh2bSZEx%2fOcIUYKmdwF6xrjqnRBMmCOCWCW4RkeyULXIac2fRVIqrTnvecvbobEeero0Yc2udhJHkECiRaExj3ujSPPadLtBsJ2fNPs0x11TGg5SLVYvOMVaN5nKH1ur%2fse4rESIeOBG0jMbPEIC8loGMAAbMMVVfcuzwtsrrpaZx2Cg%3d&fich=IniciativasXVII_json.txt&Inline=true"
   intervencoes:
     layout: tables
+    merge: upsert
     ids:
       records: Id
     files:

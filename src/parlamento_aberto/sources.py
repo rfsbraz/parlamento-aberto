@@ -6,6 +6,7 @@ from pathlib import Path
 import yaml
 
 ROMAN = {"I": 1, "V": 5, "X": 10}
+MERGES = ("replace", "upsert")
 
 
 def legislature_number(name: str) -> int:
@@ -36,6 +37,7 @@ class Source:
     copy_of: str | None = None
     format: str = "json"
     rolling: bool = False
+    merge: str = "replace"
 
     @property
     def key(self) -> str:
@@ -48,6 +50,9 @@ def load(path: Path) -> list[Source]:
     raw = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or {}
     out = []
     for dataset, spec in (raw.get("datasets") or {}).items():
+        merge = spec.get("merge", "replace")
+        if merge not in MERGES:
+            raise ValueError(f"{dataset}: merge must be one of {MERGES}, not {merge!r}")
         for f in spec.get("files", []):
             out.append(
                 Source(
@@ -65,6 +70,7 @@ def load(path: Path) -> list[Source]:
                     copy_of=str(f["copy_of"]) if f.get("copy_of") else None,
                     format=str(f.get("format") or "json"),
                     rolling=bool(spec.get("rolling", False)),
+                    merge=merge,
                 )
             )
     keys = [s.key for s in out]

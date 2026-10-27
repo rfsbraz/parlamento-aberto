@@ -7,6 +7,13 @@ python -m parlamento_aberto.release build --data data --out DIR --sha SHA --date
 --previous holds manifest.json and CHANGELOG.md of the latest release, if there is one.
 Prints tag=<tag> for $GITHUB_OUTPUT. Exits 1, writing nothing, if a mart drops more than 5%
 in a legislature and the drop is not acknowledged in the changelog (see drift()).
+
+python -m parlamento_aberto.release source-drops --lock data/_meta/sources.lock.json
+    --previous DIR [--changelog docs/data-changelog.md]
+
+Runs before the data tests. DIR also holds sources.lock.json at the previous release's
+data_commit. Exits 1 if a core source has over 5% fewer records than then and the drop is
+not acknowledged in the changelog (see source_drops()).
 """
 
 import argparse
@@ -24,6 +31,7 @@ import duckdb
 import yaml
 
 from parlamento_aberto.build import LAYERS, MODELS, build, load_schema
+from parlamento_aberto.datapr import CORE_DATASETS
 
 ATTRIBUTION = "Fonte: Assembleia da República, dados abertos"
 AR_TERMS_URL = "https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx"
@@ -233,6 +241,48 @@ def drift(previous: dict, current: dict, acknowledged: set[tuple[str, str]]) -> 
     return out
 
 
+SOURCE_DROP_HELP = (
+    "If AR published a partial file, restore it from git history and do not move a test pin. "
+    "If the drop is right, acknowledge it with '- drift: <dataset> <legislature>: why' under "
+    "## Unreleased in docs/data-changelog.md."
+)
+
+
+def source_drops(previous: dict, lock: dict, acknowledged: set[tuple[str, str]]) -> list[str]:
+    """Core sources with over 5% fewer records than in the previous release's lock, per
+    dataset and legislature. A partial AR file shows up here before it fails a test pin."""
+    out = []
+    for key, prev in sorted(previous.items()):
+        dataset, _, leg = key.partition("/")
+        if dataset not in CORE_DATASETS:
+            continue
+        before = prev.get("records") or 0
+        after = (lock.get(key) or {}).get("records") or 0
+        if before and after < before * (1 - MAX_DROP) and (dataset, leg) not in acknowledged:
+            change = (after - before) / before * 100
+            out.append(f"{dataset} {leg}: {before} -> {after} ({change:.1f}%)")
+    return out
+
+
+def cmd_source_drops(a) -> int:
+    previous = _read(Path(a.previous) / "sources.lock.json")
+    if previous is None:
+        print("No previous release lock, nothing to compare.")
+        return 0
+    lock = json.loads(Path(a.lock).read_text(encoding="utf-8"))
+    excerpt = changelog_excerpt(_read(Path(a.changelog)) or "")
+    acknowledged = acknowledgements(excerpt, _read(Path(a.previous) / "CHANGELOG.md"))
+    drops = source_drops(json.loads(previous), lock, acknowledged)
+    if not drops:
+        print("No source row drops against the previous release.")
+        return 0
+    print("Source records dropped over 5% against the previous release:", file=sys.stderr)
+    for d in drops:
+        print(f"  {d}", file=sys.stderr)
+    print(SOURCE_DROP_HELP, file=sys.stderr)
+    return 1
+
+
 def _sha256(path: Path) -> str:
     h = hashlib.sha256()
     with path.open("rb") as f:
@@ -366,8 +416,12 @@ def main(argv: list[str] | None = None) -> int:
     b.add_argument("--changelog", default="docs/data-changelog.md")
     b.add_argument("--previous", help="folder with the latest release's manifest and changelog")
     b.add_argument("--tags", default="", help="existing release tags, space separated")
+    d = sub.add_parser("source-drops", help="check core source records against the last release")
+    d.add_argument("--lock", default="data/_meta/sources.lock.json")
+    d.add_argument("--previous", required=True, help="folder with the previous release's lock")
+    d.add_argument("--changelog", default="docs/data-changelog.md")
     a = p.parse_args(argv)
-    return cmd_build(a)
+    return cmd_source_drops(a) if a.cmd == "source-drops" else cmd_build(a)
 
 
 if __name__ == "__main__":

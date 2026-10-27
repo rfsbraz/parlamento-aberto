@@ -94,3 +94,11 @@ def test_the_release_and_a_manual_run_always_dispatch():
     assert dispatches("workflow_dispatch", "on", sha="a" * 40)
     assert dispatches("workflow_dispatch", "on")
     assert dispatches("workflow_dispatch", "")
+
+
+def test_source_row_drops_use_the_lock_at_the_previous_release_commit():
+    run = release_steps()["Source row drops"]["run"]
+    assert "jq -r .data_commit" in run
+    assert "contents/data/_meta/sources.lock.json?ref=$commit" in run
+    assert "parlamento_aberto.release source-drops" in run
+    assert '--previous "$RUNNER_TEMP/previous"' in run

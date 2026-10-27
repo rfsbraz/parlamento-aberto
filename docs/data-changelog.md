@@ -4,6 +4,7 @@ Alterações aos marts publicados que quem usa os dados deve conhecer. A secçã
 
 - Alterações ao schema: uma linha cada, por exemplo `- schema: votes gains committee_id.` Suba também `schema_version` em `src/parlamento_aberto/models/schema.yml`, a versão major numa alteração incompatível.
 - Quedas de linhas: um mart que perde mais de 5% das linhas numa legislatura, face à publicação anterior, bloqueia a publicação. Se a queda estiver correta, registe-a com `- drift: <mart> <legislature>: motivo`, usando `all` para marts sem coluna de legislatura. Uma linha que a publicação anterior já trazia não volta a contar.
+- Quedas de registos nas fontes: antes dos testes de dados, a publicação compara os registos de informacao_base, iniciativas, atividades e intervencoes, por legislatura, com o lock do commit da publicação anterior. Uma queda acima de 5% bloqueia a publicação. Se a AR publicou um ficheiro parcial, reponha-o a partir do histórico do git e não mexa nos pins dos testes. Se a queda estiver correta, registe-a com `- drift: <dataset> <legislature>: motivo`, por exemplo `- drift: intervencoes XVII: motivo`.
 
 Depois de uma publicação, passe as linhas publicadas para um título com a respetiva tag.
 

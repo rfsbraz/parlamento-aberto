@@ -1,9 +1,10 @@
 name: data release
 
-# On every push to main that touches data or code: build staging and marts, run all data
-# tests, and build the release assets (one Parquet and one gzipped CSV per mart,
-# manifest.json, CHANGELOG.md). A failing test or an unacknowledged row drop stops the run
-# before anything is published, so the previous release stays latest.
+# On every push to main that touches data or code: check the core source records against
+# the previous release, build staging and marts, run all data tests, and build the release
+# assets (one Parquet and one gzipped CSV per mart, manifest.json, CHANGELOG.md). A failing
+# test or an unacknowledged row drop stops the run before anything is published, so the
+# previous release stays latest.
 #
 # A publicação fica desligada até eu pôr a variável do repositório DATA_RELEASES a "on".
 # Até lá, cada execução carrega os ficheiros como artefacto do workflow. Só usa o
@@ -59,13 +60,6 @@ jobs:
         if: steps.data.outputs.present == 'true'
         run: uv sync --locked
 
-      - name: Data tests
-        if: steps.data.outputs.present == 'true'
-        env:
-          PA_DATA_DIR: data
-          PARLAMENTO_DATA_DIR: data
-        run: uv run pytest
-
       - name: Previous release
         if: steps.data.outputs.present == 'true'
         env:
@@ -76,6 +70,30 @@ jobs:
           if [ -s "$RUNNER_TEMP/tags.txt" ]; then
             gh release download --pattern manifest.json --pattern CHANGELOG.md --dir "$RUNNER_TEMP/previous"
           fi
+
+      # Um ficheiro parcial da AR falha primeiro os pins dos testes de dados, e a correção
+      # não é mexer nos pins. Este passo compara os registos das fontes principais com o lock
+      # do commit da publicação anterior e diz que é uma queda de linhas antes dos testes.
+      - name: Source row drops
+        if: steps.data.outputs.present == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f "$RUNNER_TEMP/previous/manifest.json" ]; then
+            commit=$(jq -r .data_commit "$RUNNER_TEMP/previous/manifest.json")
+            gh api -H "Accept: application/vnd.github.raw" \
+              "repos/$GITHUB_REPOSITORY/contents/data/_meta/sources.lock.json?ref=$commit" \
+              > "$RUNNER_TEMP/previous/sources.lock.json"
+          fi
+          uv run python -m parlamento_aberto.release source-drops \
+            --lock data/_meta/sources.lock.json --previous "$RUNNER_TEMP/previous"
+
+      - name: Data tests
+        if: steps.data.outputs.present == 'true'
+        env:
+          PA_DATA_DIR: data
+          PARLAMENTO_DATA_DIR: data
+        run: uv run pytest
 
       - name: Build release
         id: build

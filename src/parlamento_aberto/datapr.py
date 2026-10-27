@@ -15,6 +15,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from . import sources as sources_mod
+from .validate import ROW_DROP_LIMIT
 
 LISBON = ZoneInfo("Europe/Lisbon")
 
@@ -91,7 +92,22 @@ def legislature_of(source_key: str) -> str:
     return source_key.split("/", 1)[1].split("-", 1)[0]
 
 
-def labels(reports: list[dict], current: str) -> list[str]:
+def drops_against(base_lock: dict, lock: dict) -> list[str]:
+    """Sources with over 5% fewer records than on the base branch.
+
+    validate() compares each run with the lock on the data branch, so a drop is flagged
+    only by the first run that sees it. This compares with main every time.
+    """
+    out = []
+    for key, base in sorted(base_lock.items()):
+        before = base.get("records") or 0
+        after = (lock.get(key) or {}).get("records") or 0
+        if before and after < before * (1 - ROW_DROP_LIMIT):
+            out.append(f"{key}: {before} to {after}")
+    return out
+
+
+def labels(reports: list[dict], current: str, drops=()) -> list[str]:
     out = {DATA}
     for r in reports:
         flags = " ".join(r.get("flags") or [])
@@ -105,6 +121,8 @@ def labels(reports: list[dict], current: str) -> list[str]:
             out.add(HOLD_NEW)
         if r.get("status") in ("new", "updated") and legislature_of(r["source"]) != current:
             out.add(HISTORICAL)
+    if drops:
+        out.add(HOLD_ROW_DROP)
     return sorted(out)
 
 
@@ -112,13 +130,15 @@ def is_held(label_names) -> bool:
     return any(name.startswith("hold:") for name in label_names)
 
 
-def merge_decision(*, labels, conclusion, pr_head, run_head, state) -> tuple[bool, str]:
+def merge_decision(*, labels, conclusion, pr_head, run_head, state, drops=()) -> tuple[bool, str]:
     if state != "OPEN":
         return False, f"PR is {state}"
     if DATA not in labels:
         return False, "not a data PR"
     if is_held(labels):
         return False, "held: " + ", ".join(sorted(x for x in labels if x.startswith("hold:")))
+    if drops:
+        return False, "row drop against main: " + "; ".join(drops)
     if conclusion != "success":
         return False, f"CI {conclusion}"
     if pr_head != run_head:
@@ -172,7 +192,7 @@ def diff_summary(name_status: str, numstat: str) -> dict:
     return out
 
 
-def render_body(summary, reports, lock, label_names, *, mode, today: dt.date) -> str:
+def render_body(summary, reports, lock, label_names, *, mode, today: dt.date, drops=()) -> str:
     lines = [
         "Automated data update from the AR open data dumps.",
         "",
@@ -204,6 +224,7 @@ def render_body(summary, reports, lock, label_names, *, mode, today: dt.date) ->
         lines.append("")
     if not summary:
         lines += ["Only the lock file changed.", ""]
+    lines += ["## Row drops against main", ""] + ([f"- {d}" for d in drops] or ["None."]) + [""]
     flagged = [f"- {r['source']}: {f}" for r in reports for f in r.get("flags") or []]
     flagged += [f"- {r['source']}: new source" for r in reports if r.get("status") == "new"]
     lines += ["## Flags from the last run", ""] + (flagged or ["None."]) + [""]
@@ -220,6 +241,19 @@ def render_body(summary, reports, lock, label_names, *, mode, today: dt.date) ->
 
 def git(*args) -> str:
     return subprocess.run(["git", *args], check=True, capture_output=True, text=True).stdout
+
+
+def read_lock(path: Path) -> dict:
+    return json.loads(path.read_text()) if path.exists() else {}
+
+
+def base_lock(base: str, data: Path) -> dict:
+    try:
+        return json.loads(
+            git("show", f"{base}:{(data / '_meta' / 'sources.lock.json').as_posix()}")
+        )
+    except subprocess.CalledProcessError:
+        return {}
 
 
 def main(argv=None) -> int:
@@ -248,6 +282,8 @@ def main(argv=None) -> int:
     mg.add_argument("--pr", type=Path, required=True, help="gh pr view --json output")
     mg.add_argument("--conclusion", required=True)
     mg.add_argument("--run-head", required=True)
+    mg.add_argument("--base-lock", type=Path, help="sources.lock.json on main")
+    mg.add_argument("--head-lock", type=Path, help="sources.lock.json at the PR head")
     a = p.parse_args(argv)
 
     today = dt.datetime.now(LISBON).date()
@@ -274,15 +310,16 @@ def main(argv=None) -> int:
             today = dt.date.fromisoformat(a.today)
         reports = json.loads(a.report.read_text())
         current = sources_mod.current_legislature(sources_mod.load(a.sources))
-        lock_path = a.data / "_meta" / "sources.lock.json"
-        lock = json.loads(lock_path.read_text()) if lock_path.exists() else {}
+        lock = read_lock(a.data / "_meta" / "sources.lock.json")
+        drops = drops_against(base_lock(a.base, a.data), lock)
         summary = diff_summary(
             git("diff", "--name-status", a.base, "--", "data"),
             git("diff", "--numstat", a.base, "--", "data"),
         )
-        names = labels(reports, current)
+        names = labels(reports, current, drops)
         a.labels.write_text("\n".join(names) + "\n")
-        a.body.write_text(render_body(summary, reports, lock, names, mode=a.mode, today=today))
+        body = render_body(summary, reports, lock, names, mode=a.mode, today=today, drops=drops)
+        a.body.write_text(body)
         return 0
     if a.cmd == "stale-core":
         current = sources_mod.current_legislature(sources_mod.load(a.sources))
@@ -294,12 +331,16 @@ def main(argv=None) -> int:
         return 1 if bad else 0
     if a.cmd == "merge-check":
         info = json.loads(a.pr.read_text())
+        drops = []
+        if a.base_lock and a.head_lock:
+            drops = drops_against(read_lock(a.base_lock), read_lock(a.head_lock))
         ok, why = merge_decision(
             labels=[x["name"] for x in info.get("labels", [])],
             conclusion=a.conclusion,
             pr_head=info.get("headRefOid"),
             run_head=a.run_head,
             state=info.get("state"),
+            drops=drops,
         )
         print(f"merge={'true' if ok else 'false'}")
         print(f"reason={why}")

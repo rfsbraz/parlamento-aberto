@@ -43,7 +43,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a417a4d32526a4f54526a4c57466c4d6a63744e4445314e4330344e474e694c544e6d4e6a52694f4441314f444d344f53356b62324e34&fich=033dc94c-ae27-4154-84cb-3f64b8058389.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-11-13",
@@ -99,6 +104,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Apreciação Pública",
        "URL": "https://www.parlamento.pt/sites/COM/XVIILeg/10CTSSI/Paginas/Iniciativas-Apreciacao-Publica.aspx?t=5546424d4947347577726f304d793159566b6c4a4c54457577716f674c53424254464a4254513d3d&Path=kYo6wANF%2foUXzhY6ibwSNxSEl1lPgdzvn5pnCEdjfLU4MNXvWFm%2bYz0jmjhdQeM9ltd4PR5OLtGADDvWmf5ej0X3bHOPsbvuxCmqyROuOgM5KAex83PQAEdundK6lhDs5X5UDFgokqC67CVF62QDBCzerb%2fSm378JnrdkFIhhCRD8JskiEokXY37IuqaQUbPhVgdnDswQQalCG0gxxNTn%2bQ3jP0DycElJfUgB2%2bXZFE8I%2bwtmmO4rFVJDVeU0S26P0LGc2iUt7MsVzqSzz91%2bjE2CdPnOJrGiuVhOZ%2blPOox%2bAFEs2PHFE%2bLtd7DTLAvEZN74VHS1a7ECxw0PfwHhz6S49kktf5P48TF2m1J5MiG%2b%2bfr6Lt%2bF8KdECrTjXLjzTR572SLLj3xZfXm%2bdc%2bS%2b9CyF3d0HNeYJy41EH4t6g%3d"
+      },
+      {
+       "DataDocumento": "2025-12-03",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e5459795a6a4e694f47517459325a6a595330304d446c6b4c5467304f5467744d5441784e444e685a5755324e6a64684c6e426b5a673d3d&fich=562f3b8d-cfca-409d-8498-10143aee667a.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

@@ -114,6 +114,12 @@
        "TipoDocumento": "Nota técnica",
        "TituloDocumento": "Nota Técnica",
        "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938344d5441355a4445304d43316d596a49354c5451775a445174595445774d693031596d4d774d7a646a4d7a67324d5451756347526d&fich=8109d140-fb29-40d4-a102-5bc037c38614.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-27",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774d4749794d54497a4e4331694d5455324c5451795a6a55744f5449304d693032596a4535596a5935596a63784f5749756347526d&fich=00b21234-b156-42f5-9242-6b19b69b719b.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -139,10 +145,38 @@
       }
      ],
      "RemessaRedaccaoFinal": null,
-     "Remessas": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2026-10-23",
+       "dataRemessa": "2026-10-27",
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": [
+        "IL",
+        "L",
+        "PCP",
+        "CDS-PP",
+        "BE",
+        "PAN"
+       ],
+       "data": "2026-10-27",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I><BR>Ausência: <I>IL</I>, <I> L</I>, <I> PCP</I>, <I> CDS-PP</I>, <I> BE</I>, <I> PAN</I>",
+       "id": "193242",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "124",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
     }
    ],
    "DataFase": "2026-06-24",

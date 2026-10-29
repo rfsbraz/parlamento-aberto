@@ -234,7 +234,28 @@
    "OevTextId": null,
    "PcpublicasConjuntas": null,
    "PeticoesConjuntas": null,
-   "PublicacaoFase": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/007/2026-10-01/130?pgs=130-131&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1035965",
+     "obs": null,
+     "pag": [
+      "130-131"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVII",
+     "pubNr": "7",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2026-10-01",
+     "supl": null
+    }
+   ],
    "RecursoDeputados": null,
    "RecursoGP": null,
    "TextosAprovados": null,
@@ -256,7 +277,7 @@
  ],
  "IniId": "377248",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63335a444179597a557a4c5751315a6a49744e474d305a693035595759774c544a6c5a5759314e4455774e6d51794d6935775a47593d&fich=77d02c53-d5f2-4c4f-9af0-2eef54506d22.pdf&Inline=true",
  "IniNr": "1260",
  "IniObs": null,
  "IniSel": "2",

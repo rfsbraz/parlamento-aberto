@@ -2614,7 +2614,20 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-03-05",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Ofício do PAR (Redistribuição)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938304e544d32596a63794e6930344e7a67784c5452684f4751744f574a6b4d6931684f4459305a6a59794d3256695a4459756347526d&fich=4536b726-8781-4a8d-9bd2-a864f623ebd6.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-25",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774f544a694e475a6c4d5330794e3245304c54526b4e6a6b74596a5533595330794d7a686d4f54566b5a445133596a51756347526d&fich=092b4fe1-27a4-4d69-b57a-238f95dd47b4.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8451",
      "Legislatura": null,
@@ -2719,7 +2732,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a56694e5445325a5445334c5467324e3245744e474a6b4d5330354f4449334c5463774e4451354f4755344f575a6a5a69356b62324e34&fich=5b516e17-867a-4bd1-9827-704498e89fcf.docx&Inline=true",
+     "anexoNome": "Sugestão de redação final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -2740,7 +2758,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-04-15",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939694f574e6c4d5445334d7930314e6d45344c5451315a4467744f574d7a4d7930354d7a557859574e694e6a4668595745756347526d&fich=b9ce1173-56a8-45d8-9c33-9351acb61aaa.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8451",
      "Legislatura": null,

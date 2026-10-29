@@ -76,7 +76,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a51324f444d784f4463774c5459334e3249744e446b314f4330354d445a6a4c5451794e7a59324d6d4577596d49334e53356b62324e34&fich=46831870-677b-4958-906c-427662a0bb75.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-09-23",
@@ -126,6 +131,30 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributo - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=1040"
+      },
+      {
+       "DataDocumento": "2026-10-12",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Parecer da ANMP - PJL 746-XVII-2ª (BE)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a4d6a526a4d7a59314d793034596d5a6a4c545179596a4974596d4d34596930784e5452695a44457a4e7a4130597a45756347526d&fich=c24c3653-8bfc-42b2-bc8b-154bd13704c1.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-15",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Parecer da ANAFRE - PJL 746-XVII-2ª (BE)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938354e6a55784d5746684d7930784e6a67794c54526a4d446b74596d4d784e79316b4f4459795a6a51784d6d51794f5445756347526d&fich=96511aa3-1682-4c09-bc17-d862f412d291.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-15",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Parecer da Entidade para a Transparência - PJL 746-XVII-2ª (BE)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938344d32497a4e3259314e7930324e444d784c54526c4d6d5574596d4d334e43316d4d444a6d4d6a67784d6a466c4d446b756347526d&fich=83b37f57-6431-4e2e-bc74-f02f28121e09.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-19",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Parecer do Conselho Superior da Magistratura - PJL 746-XVII-2ª (BE)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938344f4455304d5751304e4330324e444d7a4c5451304e7a6374596d526d5969316859544d3159574d774e474578596a59756347526d&fich=88541d44-6433-4477-bdfb-aa35ac04a1b6.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

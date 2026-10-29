@@ -47,7 +47,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d30595455325a4463304c54597859546b744e444d344d43303459325a6a4c54566c5a5451794f57526c5a6a45334e5335775a47593d&fich=c4a56d74-61a9-4380-8cfc-5ee429def175.pdf&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-07-16",
@@ -114,7 +119,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-07-22",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer CNECP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938354f474e68596a457a4e7930304f575a6d4c5451344d6d4d744f545a6b4d7930344d5751314e44646d4d6a4530597a49756347526d&fich=98cab137-49ff-482c-96d3-81d547f214c2.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8448",
      "Legislatura": null,

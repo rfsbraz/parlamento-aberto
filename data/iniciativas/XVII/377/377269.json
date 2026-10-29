@@ -123,7 +123,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d324e6d5a6d4d4749794c5463335a4445744e446b334e4330344d6a56684c546b78596a557a4d6d51355a4755344d5335775a47593d&fich=366ff0b2-77d1-4974-825a-91b532d9de81.pdf&Inline=true",
+     "anexoNome": "Oficio de Conexão à 13.ª Comissão"
+    }
+   ],
    "CodigoFase": "180",
    "Comissao": [
     {
@@ -270,6 +275,38 @@
       {
        "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6d4a684f5745324d4445744d44686c5a4330304d5455334c574a6c4d5751744e6a63324e6a686d4d7a4531597a63314c6e426b5a673d3d&fich=fba9a601-08ed-4157-be1d-67668f315c75.pdf&Inline=true",
        "nome": "Conselho Superior dos Tribunais Administrativos e Fiscais em 2026-10-07"
+      },
+      {
+       "link": "",
+       "nome": "Conselho Superior da Magistratura em 2026-10-07"
+      },
+      {
+       "link": "",
+       "nome": "Conselho Superior do Ministério Público em 2026-10-07"
+      },
+      {
+       "link": "",
+       "nome": "Ordem dos Advogados em 2026-10-07"
+      },
+      {
+       "link": "",
+       "nome": "CNPD - Comissão Nacional de Proteção de Dados em 2026-10-07"
+      },
+      {
+       "link": "",
+       "nome": "Centro Nacional de Cibersegurança - CNCS em 2026-10-07"
+      },
+      {
+       "link": "",
+       "nome": "Associação Nacional de Freguesias (ANAFRE) em 2026-10-28"
+      },
+      {
+       "link": "",
+       "nome": "Associação Nacional de Assembleias Municipais (ANAM) em 2026-10-28"
+      },
+      {
+       "link": "",
+       "nome": "Associação Nacional de Municípios Portugueses (ANMP) em 2026-10-28"
       }
      ],
      "Prorrogado": null,

@@ -2671,6 +2671,42 @@
    ],
    "Intev": [
     {
+     "IntId": "505487",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": "Formulou um pedido de esclarecimento ao deputado André Ventura (CH)",
+     "PubDar": "8-8",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Pedido de esclarecimento"
+    },
+    {
+     "IntId": "505489",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": "Formulou um pedido de esclarecimento ao deputado André Ventura (CH)",
+     "PubDar": "9-9",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Pedido de esclarecimento"
+    },
+    {
+     "IntId": "505494",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": null,
+     "PubDar": "13-14",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Interpelação à mesa"
+    },
+    {
      "IntId": "505359",
      "IntSu": "De pesar pelo falecimento de Pavlo Sadokha, Presidente da Associação dos Ucranianos em Portugal",
      "IntTe": null,
@@ -4723,7 +4759,16 @@
      "TinDs": "Interpelação à mesa"
     }
    ],
-   "ParlamentoJovens": null,
+   "ParlamentoJovens": [
+    {
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
+    }
+   ],
    "Rel": {
     "AutoresPareceresIncImu": null,
     "RelatoresContasPublicas": null,
@@ -7833,7 +7878,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-26",
+    "GpDtFim": "2026-10-28",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

@@ -1779,6 +1779,24 @@
      "Documentos": [
       {
        "DataDocumento": "2026-06-24",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de alteração CH",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f5751325a54426a4e7a45744f546b354d6930304e6a49304c5749324f4745745a5455355a6d45774e7a4d355a6a6b794c6e426b5a673d3d&fich=9d6e0c71-9992-4624-b68a-e59fa0739f92.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-24",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Relatório da discussão e votação na especialidade da Proposta de Lei n.º 66-XVII-1 (GOV)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a6c6b4e6d4d334e3249744e4467354d5330304d474a694c5467334d546b745a4759784f5455344d6a4d784e6a42684c6e426b5a673d3d&fich=c9d6c77b-4891-40bb-8719-df195823160a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-24",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a55334d4446684e4459745a6a4d7a4d4330304e7a526d4c5749774d3259744f574e6c4d4455314e544a6d4d6a45324c6e426b5a673d3d&fich=75701a46-f330-474f-b03f-9ce05552f216.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-24",
        "TipoDocumento": "Link",
        "TituloDocumento": "Gravação da discussão e votação na especialidade da Proposta de Lei n.º 66/XVII/1 (GOV)",
        "URL": "https://media.parlamento.pt/site/XVIILEG/SL1/COM/13_CREPL/CREPL_20260624_2.mp3"
@@ -1898,7 +1916,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59344e6d4e6a5a545a6b4c545a6c4e546b744e444e684e5331694f5449314c5759314e325a6c4d7a4e684e6d49774e43356b62324e34&fich=686cce6d-6e59-43a5-b925-f57fe33a6b04.docx&Inline=true",
+     "anexoNome": "Informação de Redação Final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245324d6a6b324d6a517a4c574d31595751744e474a6b5a6931685a47566b4c5755774e574e695a6a63334e5751355a43356b62324e34&fich=a6296243-c5ad-4bdf-aded-e05cbf775d9d.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {

@@ -1,7 +1,12 @@
 {
  "DataFimleg": null,
  "DataInicioleg": "2026-09-15",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4669597a426c4e6a51324c546b795a6d45744e47517a4d693034597a4d354c54646b5a544d7a4d6d49304f5467324d4335775a47593d&fich=1bc0e646-92fa-4d32-8c39-7de332b49860.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PSD",
@@ -11,7 +16,7 @@
   {
    "GP": "PSD",
    "idCadastro": "9357",
-   "nome": "Paulo Lopes Marcelo"
+   "nome": "Paulo Marcelo"
   },
   {
    "GP": "PSD",
@@ -425,7 +430,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255785a6d466c59575a6a4c5745335a6a67744e4467794e4330354e475a684c5751774d54686d4d574d794d7a417a4f43356b62324e34&fich=e1faeafc-a7f8-4824-94fa-d018f1c23038.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-10-08",
@@ -548,7 +558,7 @@
  ],
  "IniId": "377345",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4e694d546b7a595749794c546735597a63744e444a694e5330344f546b334c5441785a4451305a6d5130597a4a6d5a53356b62324e34&fich=3b193ab2-89c7-42b5-8997-01d44fd4c2fe.docx&Inline=true",
  "IniNr": "804",
  "IniObs": null,
  "IniSel": "2",

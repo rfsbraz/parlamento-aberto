@@ -125,6 +125,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta pública - recolha de contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=879"
+      },
+      {
+       "DataDocumento": "2026-08-10",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6d4a694f574a69597a4974596a5668596930304d6d5a6a4c546c6c5a4467744d54426b5a6a59304f546c6a4d5751314c6e426b5a673d3d&fich=6bb9bbc2-b5ab-42fc-9ed8-10df6499c1d5.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -301,7 +307,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4a684d4751355a4468694c544d315a5451744e474a6a4f5330344e54526d4c5456694d5749344e7a41795a475934596935775a47593d&fich=2a0d9d8b-35e4-4bc9-854f-5b1b8702df8b.pdf&Inline=true",
+     "anexoNome": "Parecer ALRAA"
+    }
+   ],
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2026-06-16",

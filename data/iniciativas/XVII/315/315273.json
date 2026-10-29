@@ -230,7 +230,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a426d4e444d784d6a6b314c5755794e4755744e4441344e6930345a6a51784c575a6b4f4441784f47466a4e444935597935775a47593d&fich=0f431295-e24e-4086-8f41-fd8018ac429c.pdf&Inline=true",
+     "anexoNome": "Ofício de redistribuição"
+    }
+   ],
    "CodigoFase": "181",
    "Comissao": [
     {
@@ -251,7 +256,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-09-10",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação para discussão em Plenário ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a517a4f574d344d5455744f5746684d433030593255784c546c6a5a6d4d744f4467304d54686b4e4455784e446b7a4c6e426b5a673d3d&fich=f439c815-9aa0-4ce1-9cfc-88418d451493.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,

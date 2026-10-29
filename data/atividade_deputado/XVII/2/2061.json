@@ -102,7 +102,8 @@
      "ActTpdesc": "Voto"
     }
    ],
-   "Audicoes": [
+   "Audicoes": null,
+   "Audiencias": [
     {
      "AccDtaud": null,
      "ActAs": null,
@@ -122,7 +123,6 @@
      "TevTp": null
     }
    ],
-   "Audiencias": null,
    "Cms": null,
    "DadosLegisDeputado": [
     {
@@ -133,6 +133,16 @@
    ],
    "Deslocacoes": null,
    "DlE": [
+    {
+     "DevDtfim": "2026-11-04 00:00:00.0",
+     "DevDtini": "2026-11-02 00:00:00.0",
+     "DevId": "22868",
+     "DevLoc": "Bratislava",
+     "DevNo": "Visita oficial de Sua Excelência o Presidente da Assembleia da República à Eslováquia",
+     "DevSelLg": "XVII",
+     "DevSelNr": "2",
+     "DevTp": "Internacional"
+    },
     {
      "DevDtfim": "2026-10-02 00:00:00.0",
      "DevDtini": "2026-10-01 00:00:00.0",
@@ -317,6 +327,42 @@
     }
    ],
    "Intev": [
+    {
+     "IntId": "505488",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": null,
+     "PubDar": "8-9",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
+     "IntId": "505490",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": null,
+     "PubDar": "9-10",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
+     "IntId": "505495",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": null,
+     "PubDar": "14-14",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
     {
      "IntId": "505362",
      "IntSu": "Sobre o “Custo de Vida”",
@@ -3044,7 +3090,7 @@
   ],
   "DepGP": [
    {
-    "GpDtFim": "2026-10-26",
+    "GpDtFim": "2026-10-28",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

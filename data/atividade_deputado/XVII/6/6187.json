@@ -544,6 +544,24 @@
    ],
    "Audicoes": [
     {
+     "AccDtaud": "2026-10-26",
+     "ActAs": "Audição da Ministra do Trabalho, Solidariedade e Segurança Social no âmbito da apreciação, na generalidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190567",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "115-COFAP-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "COFAP",
+     "CmsNo": "Comissão de Orçamento, Finanças e Administração Pública ",
+     "NomeEntidadeExterna": "Maria do Rosário Palma Ramalho (Ministra do Trabalho, Solidariedade e Segurança Social); Adriano Rafael Moreira (Secretário de Estado do Trabalho); Clara Marques Mendes (Secretária de Estado da Ação Social e da Inclusão); Susana Filipa Lima (Secretária de Estado da Segurança Social)",
+     "TevTp": null
+    },
+    {
      "AccDtaud": "2026-10-23",
      "ActAs": "Audição do Ministro de Estado e das Finanças no âmbito da apreciação, na generalidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027",
      "ActDtdes1": null,
@@ -4247,12 +4265,20 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Setúbal",
+     "Data": "2026-01-29",
+     "Estabelecimento": "Escola Secundária de Palmela",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Lisboa",
+     "Data": "2026-01-09",
+     "Estabelecimento": "Escola Secundária Pedro Nunes, Lisboa",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -6318,7 +6344,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-26",
+    "GpDtFim": "2026-10-28",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

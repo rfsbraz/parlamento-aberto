@@ -310,7 +310,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a466a4e57517a4d444d344c5441794e7a51744e444a6a4d4330344d54646b4c5446685954517a4d44686a4e5459784e6935775a47593d&fich=1c5d3038-0274-42c0-817d-1aa4308c5616.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "174",
    "Comissao": null,
    "DataFase": "2025-07-28",
@@ -333,7 +338,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6c6c596a68694e6a597a4c5441334e7a41744e4441304e6930345a6d49794c5759314d54557a4d5441335a6a51344e5335775a47593d&fich=9eb8b663-0770-4046-8fb2-f5153107f485.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "175",
    "Comissao": null,
    "DataFase": "2025-08-04",
@@ -356,7 +366,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6c6d5a446b32595759774c5455314d6d55744e4451334d4330344d5746694c5468694e5464685a5449774e5749795a5335775a47593d&fich=9fd96af0-552e-4470-81ab-8b57ae205b2e.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2025-08-08",
@@ -1355,7 +1370,20 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-09-09",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório da discussão e votação na especialidade",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a497a4d6a64684f446b744d7a5a684d4330304d7a4a6d4c5467325a546b744e4445305a4745304d6a41324d7a6b794c6e426b5a673d3d&fich=62327a89-36a0-432f-86e9-414da4206392.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-09",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596d4d345a5451305a54597459324e694d4330304e47566a4c5467314e7a6b744d4445334d575979596d4e6b5a6a4e6b4c6e426b5a673d3d&fich=bc8e44e6-ccb0-44ec-8579-0171f2bcdf3d.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8456",
      "Legislatura": null,
@@ -1483,7 +1511,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-09-30",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final – Deliberação da Comissão",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d44646b4f57566c4d325174596a51304d433030596a41794c5749785a6d4d744d324d794e546b354d4449344d6d4e6d4c6e426b5a673d3d&fich=07d9ee3d-b440-4b02-b1fc-3c25990282cf.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8456",
      "Legislatura": null,

@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49324e57526c5a5459344c54566d4e4467744e4467794e4331695a4442694c544d31596d56695a5755324e6a6b7a5a5335775a47593d&fich=265dee68-5f48-4824-bd0b-35bebee6693e.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a566b4d4451354d6a63344c5467334f444d744e4451785a433035595445784c5441344d7a526c593251304f446c6b4d7935775a47593d&fich=5d049278-8783-441d-9a11-0834ecd489d3.pdf&Inline=true",
+   "anexoNome": "Ofício pedido de processo de urgência"
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -132,6 +141,12 @@
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
      "Documentos": [
+      {
+       "DataDocumento": "2025-07-04",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação não emissão de relatório",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f4463344f54497a4d6a49744d6a59354e7930304d4449304c5745324d6d4d744d6a4a6c597a63774d5745334d5759794c6e426b5a673d3d&fich=87892322-2697-4024-a62c-22ec701a71f2.pdf&Inline=true"
+      },
       {
        "DataDocumento": "2025-06-27",
        "TipoDocumento": "Link",
@@ -2254,7 +2269,7 @@
  ],
  "IniId": "315161",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49355a5751324f5463314c546377595451744e4759784e5330344f544a694c5464694d5455334e6a5977596a4a6b4e53356b62324e34&fich=29ed6975-70a4-4f15-892b-7b157660b2d5.docx&Inline=true",
  "IniNr": "2",
  "IniObs": null,
  "IniSel": "1",

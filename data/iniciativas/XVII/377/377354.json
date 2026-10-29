@@ -1,7 +1,12 @@
 {
  "DataFimleg": null,
  "DataInicioleg": "2026-09-15",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a686c5a5467324d54557a4c5445304e544d744e4446694e6931694f546b304c546333593259314f4459304f544933595335775a47593d&fich=8ee86153-1453-41b6-b994-77cf5864927a.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PCP",
@@ -222,7 +227,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-27",
+       "TipoDocumento": "Link",
+       "TituloDocumento": "Contributos - Consulta Pública",
+       "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=1072"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8449",
      "Legislatura": null,
@@ -296,11 +308,39 @@
    "RecursoGP": null,
    "TextosAprovados": null,
    "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6c6b4d47597a4f4759314c54466b4d3249744e446b334d6931694d54517a4c54566c4d474e6d59575a6b4d546b794d5335775a47593d&fich=9d0f38f5-1d3b-4972-b143-5e0cfafd1921.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
+   "CodigoFase": "174",
+   "Comissao": null,
+   "DataFase": "2026-10-27",
+   "EvtId": "150",
+   "Fase": "Parecer do Governo da RAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1754402",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
   }
  ],
  "IniId": "377354",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a41324d6a4a684f57566c4c546b315a4749744e4441344d533169595751304c54526b596a55334d445a685a6a4d795a53356b62324e34&fich=0622a9ee-95db-4081-bad4-4db5706af32e.docx&Inline=true",
  "IniNr": "807",
  "IniObs": null,
  "IniSel": "2",

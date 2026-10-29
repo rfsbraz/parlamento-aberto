@@ -23,8 +23,47 @@
     }
    ],
    "Audiencias": null,
-   "Cms": null,
-   "DadosLegisDeputado": null,
+   "Cms": [
+    {
+     "CmsCargo": null,
+     "CmsCd": "4",
+     "CmsLg": "XVII",
+     "CmsNo": "Comissão de Assuntos Europeus ",
+     "CmsSituacao": "Suplente",
+     "CmsSubCargo": null
+    },
+    {
+     "CmsCargo": null,
+     "CmsCd": "6",
+     "CmsLg": "XVII",
+     "CmsNo": "Comissão de Economia e Coesão Territorial ",
+     "CmsSituacao": "Efetivo",
+     "CmsSubCargo": null
+    },
+    {
+     "CmsCargo": null,
+     "CmsCd": "12",
+     "CmsLg": "XVII",
+     "CmsNo": "Comissão de Cultura, Comunicação, Juventude e Desporto ",
+     "CmsSituacao": "Efetivo",
+     "CmsSubCargo": null
+    },
+    {
+     "CmsCargo": null,
+     "CmsCd": "18",
+     "CmsLg": "XVII",
+     "CmsNo": "Comissão Eventual para a Resiliência Nacional, Prevenção de Catástrofes Naturais e Acompanhamento do Portugal Transformação, Recuperação e Resiliência (PTRR) ",
+     "CmsSituacao": "Efetivo",
+     "CmsSubCargo": null
+    }
+   ],
+   "DadosLegisDeputado": [
+    {
+     "Dpl_grpar": "PSD",
+     "Dpl_lg": "XVII",
+     "Nome": "Ana Catarina Peixoto"
+    }
+   ],
    "Deslocacoes": null,
    "DlE": null,
    "DlP": null,
@@ -51,7 +90,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-26",
+    "GpDtFim": "2026-10-28",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"
@@ -59,11 +98,16 @@
   ],
   "DepId": 15971.0,
   "DepNomeCompleto": "Ana Catarina Faria Peixoto",
-  "DepNomeParlamentar": "Ana Peixoto",
+  "DepNomeParlamentar": "Ana Catarina Peixoto",
   "DepSituacao": [
    {
-    "SioDes": "Suplente",
+    "SioDes": "Efetivo Temporário",
     "SioDtFim": null,
+    "SioDtInicio": "2026-10-26"
+   },
+   {
+    "SioDes": "Suplente",
+    "SioDtFim": "2026-10-25",
     "SioDtInicio": "2025-06-03"
    }
   ],

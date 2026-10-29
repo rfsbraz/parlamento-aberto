@@ -47,7 +47,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6331595752684f5445794c5755304d3251744e4759304d4331694f544a694c5441305a5445314e574a6b4e54686c5a53356b62324e34&fich=75ada912-e43d-4f40-b92b-04e155bd58ee.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-09-01",
@@ -313,7 +318,28 @@
    "OevTextId": null,
    "PcpublicasConjuntas": null,
    "PeticoesConjuntas": null,
-   "PublicacaoFase": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/007/2026-10-01/126?pgs=126&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1035935",
+     "obs": null,
+     "pag": [
+      "126-126"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVII",
+     "pubNr": "7",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2026-10-01",
+     "supl": null
+    }
+   ],
    "RecursoDeputados": null,
    "RecursoGP": null,
    "TextosAprovados": null,

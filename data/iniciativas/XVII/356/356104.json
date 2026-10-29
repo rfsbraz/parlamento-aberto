@@ -47,7 +47,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255315a6a49324e6a49794c5751795a6d59744e4455775a5331694d7a6b344c5468684e5449774e4759344d3255774f43356b62324e34&fich=e5f26622-d2ff-450e-b398-8a5204f83e08.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-02-11",
@@ -97,6 +102,48 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=665"
+      },
+      {
+       "DataDocumento": "2026-03-12",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Relatório CACDLG ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f4467314d446735596a5574597a63334d6930305a57526d4c57466a4f574574596a46694f54466c5a6a677a4d6d51784c6e426b5a673d3d&fich=885089b5-c772-4edf-ac9a-b1b91ef832d1.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-12",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a5751324e7a55324f544d74596a417959533030595467324c546b334f5749744d7a49794d7a55774e6d517a5957457a4c6e426b5a673d3d&fich=ed675693-b02a-4a86-979b-3223506d3aa3.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-27",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Instituto Nacional de Medicina Legal e Ciências Forenses ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596d59334d7a56684e6d5974595464694f5330305a5459314c54686a4d6d49744d3259315a6a497a5a4451345a6d4a6b4c6e426b5a673d3d&fich=bf735a6f-a7b9-4e65-8c2b-3f5f23d48fbd.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-02",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Conselho Superior da Magistratura",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d445a6b4e5759794d4459745a474d344f4330305a5455784c57497a4f5445744d5745305a54686d4d3259314f444a6d4c6e426b5a673d3d&fich=06d5f206-dc88-4e51-b391-1a4e8f3f582f.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-03",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer Agência da União Europeia sobre Drogas (EUDA) ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a566b4f5759344f5441744e544a695a5330304e544a694c574533595441745a5755774f446c6d59575a6a4d7a6b354c6e426b5a673d3d&fich=75d9f890-52be-452b-a7a0-ee089fafc399.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-04",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Conselho Superior do Ministério Público",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a5957387659544d775a44646a4d5745744d6d59784e433030597a646a4c5467304d6d4d745a5455344e7a55794e7a59784e5459344c6e426b5a673d3d&fich=a30d7c1a-2f14-4c7c-842c-e58752761568.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-26",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Ordem dos Advogados",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a46694e444e69593251744d44466d59793030595455334c574a684e7a4574597a5a694e6a5a6d595441334d544a694c6e426b5a673d3d&fich=b1b43bcd-01fc-4a57-ba71-c6b66fa0712b.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

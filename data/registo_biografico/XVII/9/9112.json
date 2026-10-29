@@ -52,12 +52,25 @@
    "ParSigla": "PPD/PSD.CDS-PP"
   }
  ],
- "CadDtNascimento": null,
- "CadHabilitacoes": null,
+ "CadDtNascimento": "1993-01-12",
+ "CadHabilitacoes": [
+  {
+   "HabDes": "Direito dos Contratos e da Empresa",
+   "HabEstado": "F",
+   "HabId": 57109.0,
+   "HabTipoId": 14.0
+  },
+  {
+   "HabDes": "Direito",
+   "HabEstado": "F",
+   "HabId": 57110.0,
+   "HabTipoId": 13.0
+  }
+ ],
  "CadId": 9112.0,
  "CadNomeCompleto": "Ana Catarina Faria Peixoto",
  "CadObrasPublicadas": null,
- "CadProfissao": null,
+ "CadProfissao": "Advogada",
  "CadSexo": "F",
  "CadTitulos": null
 }

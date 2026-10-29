@@ -122,6 +122,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos de Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=796"
+      },
+      {
+       "DataDocumento": "2026-05-12",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939694f5441344e3255335a4330775a57526b4c545177597a4d74596a45784e79316c5a445268595455795a6a51335a4751756347526d&fich=b9087e7d-0edd-40c3-b117-ed4aa52f47dd.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -284,7 +290,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45794e7a49774e444a684c57566b4d7a51744e4449315a4330354f54426b4c545133596a5a6a4e7a45325a6a6468597935775a47593d&fich=1272042a-ed34-425d-990d-47b6c716f7ac.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "175",
    "Comissao": null,
    "DataFase": "2026-05-15",
@@ -307,7 +318,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249344d47526d4d5745334c5445354d4467744e446b354e793168595455324c574d325a5445305a44497a4e7a4e6c4d4335775a47593d&fich=b80df1a7-1908-4997-aa56-c6e14d2373e0.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "173",
    "Comissao": null,
    "DataFase": "2026-05-28",

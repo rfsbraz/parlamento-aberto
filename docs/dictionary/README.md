@@ -56,8 +56,9 @@ e o `manifest.json` traz o mesmo por mart.
 
 As linhas de `interest_declarations` e `interests` com `source = 'ept'` vêm da
 Entidade para a Transparência (XVI e XVII) e não estão cobertas pela CC BY 4.0
-(`LICENSE-DATA`, ponto 3). Ficam fora dos ficheiros publicados enquanto os dados da EpT
-não estiverem em `data/`, e o `manifest.json` conta-as em `excluded_sources`. Ver
+(`LICENSE-DATA`, ponto 3). Entram nos ficheiros publicados com os termos da EpT no
+cabeçalho do CSV e no `manifest.json`, depois de a publicação confirmar que nenhuma
+tem um número fiscal. Ver
 [sources/ept.md](../sources/ept.md).
 
 `ballot_list_seats` vem dos mapas de resultados publicados pela Comissão Nacional de

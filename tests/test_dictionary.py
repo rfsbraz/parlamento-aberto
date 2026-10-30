@@ -75,13 +75,13 @@ def test_index_lists_every_mart_and_the_licence(pages):
     assert "Fonte: Assembleia da República, dados abertos" in index
 
 
-def test_index_says_ept_rows_are_not_published(pages):
-    # The EpT register has no reuse authorisation (#42), so its rows stay out of CC BY.
+def test_index_says_ept_rows_are_published_on_the_ept_terms(pages):
+    # The EpT rows are republished citing the EpT, outside CC BY (LICENSE-DATA, point 3).
     licence = pages["README.md"].split("## Licença e atribuição", 1)[1]
     assert "Entidade para a Transparência" in licence
     assert "source = 'ept'" in licence
     assert "Lei n.º 52/2019" in licence
-    assert "excluded_sources" in licence
+    assert "excluded_sources" not in licence and "Ficam fora" not in licence
     assert "apenas o que a AR publica" not in licence
 
 

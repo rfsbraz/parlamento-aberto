@@ -745,7 +745,7 @@ models:
       Registo de interesses da EpT (XVI, XVII e as declarações anteriores da entidade 510), uma
       linha por declaração guardada de um Deputado ou Deputada, a partir de data/ept_registo_interesses.
       As primeiras colunas são as de stg_registo_interesses__declarations. As versões substituídas e
-      modificadas ficam como linhas próprias. Não publicado até a EpT responder (#42).
+      modificadas ficam como linhas próprias. É staging, por isso não entra nos ficheiros publicados.
     columns:
       declaration_key: Chave construída como ept:<id da declaração na EpT>.
       cadastro_id: Nulo aqui; os marts preenchem-no a partir de seed_ept_holders (#47).
@@ -825,8 +825,8 @@ models:
       não publica; as da EpT anteriores à XVI ficam só em staging. Nos dados da AR só estão cobertas
       as pessoas das listas da XVII, porque todos os ficheiros listam essas pessoas. As primeiras
       colunas são as de sempre; as colunas da EpT vêm depois e são nulas nas linhas da AR. As
-      linhas da EpT ficam fora da licença CC BY 4.0 e fora dos ficheiros publicados até haver
-      autorização de reutilização (Lei n.º 52/2019, art. 17.º). Ficam de fora nomes, cônjuge,
+      linhas da EpT ficam fora da licença CC BY 4.0 e citam a EpT como fonte (Lei n.º 52/2019,
+      art. 15.º, n.º 1; LADA, art. 21.º, n.º 1). Ficam de fora nomes, cônjuge,
       estado civil, regime de bens, NIF e campos de contacto; para os nomes, faça join com deputies.
     columns:
       legislature: Legislatura em numeração romana. Na AR vem do ficheiro; na EpT, das datas da declaração.
@@ -864,8 +864,8 @@ models:
       antigo: a V1 publica as atividades como um único campo de texto livre, e a V5 também é lida
       (XIV, XV), porque o dump a contém. Na EpT só entra o separador 4. As primeiras colunas são as
       de sempre; paid_raw e as colunas da EpT vêm depois. As linhas da EpT ficam fora da licença
-      CC BY 4.0 e fora dos ficheiros publicados até haver autorização de reutilização (Lei n.º
-      52/2019, art. 17.º).
+      CC BY 4.0 e citam a EpT como fonte (Lei n.º 52/2019, art. 15.º, n.º 1; LADA, art. 21.º,
+      n.º 1).
     columns:
       legislature: Legislatura em numeração romana.
       declaration_key: Declaração, liga a interest_declarations.

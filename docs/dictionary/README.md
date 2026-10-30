@@ -49,15 +49,15 @@ atualização que vem no `manifest.json` (`source_updated`):
 Dados brutos em `data/`. Dados abertos da Assembleia da República reutilizados nos termos da AR, com a fonte e a data de atualização (Lei n.º 26/2016, art. 19.º, n.º 5).
 Termos da AR: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx
 
-`data/ept_*` e tudo o que deriva deles. Dados da Entidade para a Transparência, fora da licença dos marts: regidos pela Lei n.º 52/2019, art. 17.º, e pelos termos da EpT; republicação pendente da resposta da EpT.
+`data/ept_*` e tudo o que deriva deles. Registo de interesses da XVI e da XVII: Fonte: Entidade para a Transparência (EpT), republicado ao abrigo da Lei n.º 52/2019, art. 15.º, n.º 1, e da Lei n.º 26/2016 (LADA), art. 21.º, n.º 1, fora da licença dos marts. Ficam excluídos o NIF dos titulares, os dados pessoais, os rendimentos e património, as filiações associativas e os anexos.
 
 Cada CSV de uma publicação começa com a fonte, a data de atualização e a licença do mart,
 e o `manifest.json` traz o mesmo por mart.
 
 As linhas de `interest_declarations` e `interests` com `source = 'ept'` vêm da
-Entidade para a Transparência (XVI e XVII) e não estão cobertas pela CC BY 4.0: a EpT
-não deu autorização de reutilização (Lei n.º 52/2019, art. 17.º). Ficam fora dos
-ficheiros publicados, e o `manifest.json` conta-as em `excluded_sources`. Ver
+Entidade para a Transparência (XVI e XVII) e não estão cobertas pela CC BY 4.0
+(`LICENSE-DATA`, ponto 3). Ficam fora dos ficheiros publicados enquanto os dados da EpT
+não estiverem em `data/`, e o `manifest.json` conta-as em `excluded_sources`. Ver
 [sources/ept.md](../sources/ept.md).
 
 `ballot_list_seats` vem dos mapas de resultados publicados pela Comissão Nacional de

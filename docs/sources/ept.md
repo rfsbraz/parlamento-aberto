@@ -2,14 +2,17 @@
 
 Os dados abertos da AR só têm ficheiros `RegistoInteresses` até à XV. A partir da XVI, os deputados entregam as declarações à Entidade para a Transparência, ao abrigo da Lei n.º 52/2019, e a AR não publica nenhuma. Esta página regista o que decidi, o que a EpT publica e o que nunca guardo. Plano e ordem de construção: #42 (issues #43 a #49).
 
+## Republicação (30 de outubro de 2026)
+
+Os elementos públicos do registo de interesses dos Deputados da XVI e da XVII são republicados com indicação da Entidade para a Transparência (EpT) como fonte, ao abrigo da Lei n.º 52/2019, art. 15.º, n.º 1, e da Lei n.º 26/2016 (LADA), art. 21.º, n.º 1. Ficam excluídos o NIF dos titulares, os dados pessoais, os rendimentos e património, as filiações associativas e os anexos.
+
+A EpT confirmou que a divulgação do registo de interesses está prevista no n.º 1 do artigo 15.º da Lei n.º 52/2019 e que a reutilização de documentos disponibilizados na Internet não depende de autorização (LADA, art. 21.º, n.º 1). Os marts publicados citam a EpT como fonte em cada CSV e no `manifest.json`.
+
 ## Decisão (20 de outubro de 2026)
 
 - O código é público, como o resto do repositório. As declarações da XVI e da XVII são normalizadas nos mesmos marts `interest_declarations` e `interests` da XI à XV, com `source = 'ept'`.
-- Sem republicação por agora. As linhas da EpT não entram numa publicação de dados, no site nem no repositório até a EpT responder ao meu pedido e eu decidir com base na resposta.
-- Sem contacto com a EpT para além de um email a perguntar se os dados podem ser reutilizados. Não envio mais nada enquanto não houver resposta.
 - Não guardo a secção de filiação ou funções em entidades de natureza associativa (decidido a 20 de outubro de 2026). Fica fora do acesso público (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)), por isso descarto-a inteira, sem ler nenhuma célula.
 - O PR de dados `ept_registo_interesses` fica em espera (novo conjunto de dados, etiqueta `hold:`), nunca é integrado automaticamente e sou eu que decido quando o integrar.
-- **Republicação: pendente da resposta da EpT.** A questão legal abaixo tem de estar resolvida antes de quaisquer dados derivados da EpT serem publicados.
 
 ## Limites legais: Lei n.º 52/2019, art. 17.º
 
@@ -21,7 +24,7 @@ Texto consolidado após a Lei n.º 58/2021 e a Lei n.º 4/2022 ([pgdlisboa.pt](h
 - n.º 4: os campos do registo de interesses são publicados no site da EpT e no site do órgão a que o titular pertence.
 - n.º 14: fora do n.º 4, a declaração não pode ser divulgada, nomeadamente num site ou numa rede social.
 
-Questão em aberto: se republicar os campos do registo de interesses, que o n.º 4 torna públicos, está coberto pelo n.º 4 ou proibido pelo n.º 14. Até haver resposta, não republico nenhum dado da EpT: só o código e as fixtures sintéticas estão no repositório.
+Estes limites definem o que fica de fora: nada do n.º 2 e nada do separador 3 é guardado, e só os campos do registo de interesses do n.º 4 entram nos marts.
 
 ## O que nunca guardamos
 
@@ -35,11 +38,7 @@ O fetcher retira isto em memória, antes de escrever o que quer que seja em disc
 
 A resposta em bruto da EpT nunca é guardada. As fixtures são sintéticas ou limpas, e os testes falham se aparecer a secção de associações, ou um valor de 9 dígitos fora dos sítios previstos, numa fixture, num seed ou num ficheiro normalizado.
 
-## Acesso aos dados
-
-Os pormenores de acesso aos dados da EpT ficam suspensos até a EpT responder.
-
-### Separador 4: registo de interesses
+## Separador 4: registo de interesses
 
 O separador 4 é o GUID `1483a8d1-adca-4f39-8038-98cc6f728fcb`. O seu único grupo tem seis secções, cada uma uma lista de linhas cujas células são indexadas por `<GUID da secção>-colN` e têm `value` e `isVisible`. Só mantemos as células visíveis das colunas abaixo.
 
@@ -68,7 +67,7 @@ A publicação de dados deixa de fora as linhas com `source = 'ept'`, que não e
 1. #43: esta página.
 2. #44: fetcher para as entidades 510 e 4508, só metadados e separador 4, limpos em memória.
 3. #46: parser de staging.
-4. #45: o conjunto de dados `ept_registo_interesses` no data-sync, em espera até à resposta da EpT.
+4. #45: o conjunto de dados `ept_registo_interesses` no data-sync, com o PR de dados em espera até eu o integrar.
 5. #47: seed de correspondência entre titulares e `cadastro_id`.
 6. #48: os marts unificados.
 7. #49: dicionário, lacunas conhecidas e notas de publicação (esta atualização).

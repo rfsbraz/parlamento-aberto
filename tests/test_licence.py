@@ -3,7 +3,8 @@
 - Raw AR files in data/ are AR data reused under the AR's terms (Lei 26/2016, art. 19.º,
   n.º 5: cite the source and the update date). They are not ours to license.
 - CC BY 4.0 covers only our derived marts and the data dictionary, crediting the AR.
-- data/ept_* and anything built from EpT data are outside CC BY (Lei 52/2019, art. 17.º).
+- data/ept_* and anything built from EpT data are outside CC BY. They are reused citing the EpT
+  (Lei 52/2019, art. 15.º, n.º 1; LADA, art. 21.º, n.º 1).
 
 The release metadata, the CSV headers, the dictionary footer and LICENSE-DATA must say
 the same thing.
@@ -166,8 +167,7 @@ def test_ept_lineage_is_detected():
 
 
 def test_only_the_interest_marts_are_ept_derived_and_their_ept_rows_stay_out_of_cc_by(built):
-    # Republishing EpT data waits on the EpT's reply. A new EpT-derived mart fails here on
-    # purpose so its release licence is looked at again.
+    # A new EpT-derived mart fails here on purpose so its release licence is looked at again.
     ept_marts = ["interest_declarations", "interests"]
     assert [m for m in release.marts() if release.ept_derived(m)] == ept_marts
     m = json.loads((built / "manifest.json").read_text())

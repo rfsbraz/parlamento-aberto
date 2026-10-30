@@ -151,7 +151,7 @@ As declarações da XVI e da XVII vêm da API pública da Entidade para a Transp
 - A EpT não publica exclusividade, data de alteração do cargo nem data de versão: `is_exclusive`, `position_changed_date` e `version_date` ficam nulos. A participação social vem em `share_value_eur` e `share_pct`, não em `share`.
 - O detalhe dos serviços prestados ao abrigo de segredo profissional não é público (Lei n.º 52/2019, art. 17.º, n.º 2); só fica `is_professional_secrecy`.
 - As datas da EpT vêm em UTC e são convertidas para o dia em Europe/Lisbon; o valor publicado fica nas colunas `_raw`.
-- Licença: as linhas da EpT não estão cobertas pela CC BY 4.0 e ficam fora dos ficheiros publicados até haver autorização de reutilização. O `manifest.json` conta-as em `excluded_sources`.
+- Licença: as linhas da EpT não estão cobertas pela CC BY 4.0. São republicadas citando a EpT como fonte, ao abrigo da Lei n.º 52/2019, art. 15.º, n.º 1, e da Lei n.º 26/2016 (LADA), art. 21.º, n.º 1 (`LICENSE-DATA`, ponto 3). Enquanto os dados da EpT não estiverem em `data/`, ficam fora dos ficheiros publicados e o `manifest.json` conta-as em `excluded_sources`.
 
 ## Votações
 

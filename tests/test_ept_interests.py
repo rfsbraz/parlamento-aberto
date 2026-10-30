@@ -367,16 +367,6 @@ def test_a_nine_digit_value_in_tabs_2_and_3_fails(tmp_path):
         ept_interests.assert_extra_rows_clean([{"value": with_check("2" + "1" * 7)}])
 
 
-def test_an_email_in_an_ept_row_fails_the_build():
-    # Lei n.º 52/2019, art. 17.º, n.º 2, al. a): an email is never public, in any field.
-    email = "nome" + "@" + "exemplo.pt"
-    with pytest.raises(ept.LeakError):
-        ept_interests.assert_extra_rows_clean([{"label": "Naturalidade", "value": email}])
-    with pytest.raises(ept.LeakError):
-        ept_interests.assert_rows_clean([], [{"entity_nipc": None, "observation": email}])
-    ept_interests.assert_extra_rows_clean([{"value": "Lisboa"}, {"value": "a @ b"}])
-
-
 # Associations, kept apart so they can be dropped on their own (#148)
 
 

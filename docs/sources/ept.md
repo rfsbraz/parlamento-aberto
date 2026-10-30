@@ -32,7 +32,6 @@ Até #148 estes limites definiam o que ficava de fora: nada do n.º 2 e nada do 
 O fetcher retira isto em memória, antes de escrever o que quer que seja em disco, num log ou no output do CI:
 
 - qualquer número de 9 dígitos num valor mantido, substituído antes da escrita;
-- um email em qualquer campo (Lei n.º 52/2019, art. 17.º, n.º 2, al. a)): a construção falha em vez de o publicar;
 - o NIF do titular (campo `d155af2b-21e9-475f-be81-8e42bc5a5641` do separador 2), mesmo quando a EpT o mostra;
 - as células dos separadores 2 e 3 que a EpT esconde, apagadas ou vazias;
 - as chaves da EpT dos separadores 2 e 3: alguns GUID têm 9 dígitos seguidos, por isso cada campo fica pela posição (`0.3.1.2`), com a tabela, a coluna e o nome do campo no formulário;

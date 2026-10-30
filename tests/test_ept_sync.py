@@ -1,4 +1,4 @@
-"""EpT sync (#45): weekly job writing data/ept_registo_interesses on data/ept, as a held draft PR.
+"""EpT sync (#45): weekly job writing data/ept_registo_interesses on data/ept, as a data PR I merge.
 
 Offline only. The real dataset is never fetched in tests or PR CI.
 """
@@ -75,10 +75,12 @@ def test_leak_check_runs_before_commit_and_only_ept_data_is_committed():
     assert "git add data\n" not in commit and "git add -A" not in commit
 
 
-def test_pr_is_a_held_draft():
-    run = step("Open or update the draft PR")["run"]
-    assert "gh pr create --draft" in run
-    assert "hold: new-dataset" in run and "hold: ept" in run
+def test_pr_is_held_while_the_dataset_is_new_and_never_merged_by_the_job():
+    run = step("Open or update the data PR")["run"]
+    assert "gh pr create --head" in run and "--draft" not in run
+    # Held until the dataset is on main; after that it is a plain data PR, still merged by hand.
+    assert "origin/main:data/ept_registo_interesses" in run and "hold: new-dataset" in run
+    assert "hold: ept" not in runs()
     assert "gh pr ready" not in runs() and "gh pr merge" not in runs()
 
 
@@ -176,7 +178,9 @@ def test_body_is_pt_pt_with_counts_and_no_names(tmp_path):
     summary = {"added": 5, "changed": 0, "removed": 0}
     body = ept_sync.render_body(report, counts, summary, today="2026-10-20")
     assert body.startswith("Atualização semanal do registo de interesses da EpT")
-    assert "Não fazer merge" in body
+    assert "Não fazer merge" not in body and "por decidir" not in body
+    assert "Fonte: Entidade para a Transparência (EpT)" in body
+    assert "Lei n.º 52/2019, art. 15.º, n.º 1" in body
     assert "| Titularidades | 4 |" in body
     assert "| Declarações guardadas | 5 |" in body
     assert "| Published | 4 |" in body

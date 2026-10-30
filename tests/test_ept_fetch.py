@@ -1,4 +1,4 @@
-"""EpT fetcher (#44): metadata and tab 4 only, stripped in memory, 1 request per second.
+"""EpT fetcher (#44, #148): metadata, tabs 2 to 4 and attachment metadata, stripped in memory.
 
 Every input here is synthetic. The holder NIF and the entity NIF/NIPC values are planted
 at runtime, never stored in a fixture, so the fixture scan below stays clean.
@@ -116,16 +116,16 @@ def test_the_raw_response_fails_the_guard():
 # Strip
 
 
-def test_strip_keeps_metadata_and_tab4_only():
+def test_strip_keeps_metadata_tabs_and_attachment_metadata():
     out = ept.strip(raw_with_leaks()["data"])
     ept.assert_clean(out)
     text = dumps(out)
     assert PLANTED not in text
     assert "nif" not in text.lower()
     assert "sintético, contribuinte [removido]" in text
-    for gone in ("Morada", "Rendimento", "Imóvel", "anexo", "oppositionKeys", "attachments"):
+    for gone in ("oppositionKeys", "alreadyPublished", "internalStateTypeId"):
         assert gone not in text
-    assert set(out) == set(ept.META_KEYS) | {"tab4"}
+    assert set(out) == set(ept.META_KEYS) | {"tab2", "tab3", "tab4", "attachments"}
     assert out["id"] == 902 and out["holderId"] == 7001 and out["relatedDeclarationId"] == 901
     assert list(out["tab4"]) == list(ept.SECTIONS)
     acts = out["tab4"][ACT]
@@ -545,3 +545,180 @@ def test_guard_fails_on_a_stored_association_section():
         ept.assert_clean({"id": 1, "tab4": {ASSOC: []}})
     with pytest.raises(ept.LeakError):
         ept.assert_clean({"id": 1, "tab4": {ASSOC: [{"col1": "x"}]}})
+
+
+# Tabs 2 and 3 (#148): every cell the EpT shows, by position, without a 9-digit number
+
+# Real EpT keys whose digits read as a 9-digit number. They must never reach a stored file.
+GUID_NINE = "7bf6ccdd-f797-4339-8c76-18a248882016"
+TAB3_SECTION = "112c6561-4a51-4f79-b637-bbd8d2c0c74c"
+
+
+def cell(key, value, visible=True, **extra):
+    return {"key": key, "value": value, "isVisible": visible, **extra}
+
+
+def raw_with_tabs():
+    raw = copy.deepcopy(RAW)["data"]
+    tabs = {t["key"]: t for t in raw["data"]["value"]}
+    tabs[ept.TAB2]["value"] = [
+        cell(
+            "56786e7c-a8bb-43aa-9250-eaf8fa82002f",
+            [
+                cell("c0a2f813-fb84-4923-b7a1-55cef0c5fc1b", "Pessoa Sintética"),
+                cell("97ac10fd-3e8e-4fa8-a7f2-991bb3d13a0e", None, visible=False, reason=1),
+                cell("d155af2b-21e9-475f-be81-8e42bc5a5641", "Morada oculta", visible=False),
+                cell("a5bf96eb-8af0-4c05-bb76-a15f57f8490d", f"contribuinte {PLANTED}"),
+                cell(GUID_NINE, 3),
+            ],
+        )
+    ]
+    row = f"{TAB3_SECTION}_0"
+    empty_row = cell(f"{TAB3_SECTION}_1", [cell(f"{TAB3_SECTION}-col1", "x")], isEmpty=True)
+    fund = cell(GUID_NINE, [cell(f"{GUID_NINE}_0", [cell(f"{GUID_NINE}-col2", "Fundo")])])
+    deleted = cell("e516635f-aeb6-4e1f-aa9c-d77bf888ec36", [cell("x", "apagado")], isDeleted=True)
+    tabs[ept.TAB3]["value"] = [
+        cell(
+            "45b8a3d2-374f-4531-b167-ac62b950ad6b",
+            [
+                cell(
+                    TAB3_SECTION,
+                    [
+                        cell(
+                            row,
+                            [
+                                cell(f"{TAB3_SECTION}-col1", "Urbano"),
+                                cell(f"{TAB3_SECTION}-col5", 125000.5),
+                                cell(f"{TAB3_SECTION}-col6", PERSONAL["2"]),
+                                cell(f"{TAB3_SECTION}-col7", VALID["5"]),
+                                cell(f"{TAB3_SECTION}-col9", "oculto", visible=False),
+                            ],
+                            isEmpty=False,
+                        ),
+                        empty_row,
+                    ],
+                    isDeleted=False,
+                ),
+                fund,
+                deleted,
+            ],
+        )
+    ]
+    return raw
+
+
+def test_strip_keeps_the_visible_cells_of_tabs_2_and_3():
+    out = ept.strip(raw_with_tabs())
+    ept.assert_clean(out)
+    assert out["tab2"] == [
+        {"path": "0.0", "section": None, "column": None, "value": "Pessoa Sintética"},
+        {"path": "0.3", "section": None, "column": None, "value": "contribuinte [removido]"},
+        {"path": "0.4", "section": None, "column": None, "value": 3},
+    ]
+    sec = "real_estate_portugal"
+    assert out["tab3"] == [
+        {"path": "0.0.0.0", "section": sec, "column": "col1", "value": "Urbano"},
+        {"path": "0.0.0.1", "section": sec, "column": "col5", "value": 125000.5},
+        {"path": "0.0.0.2", "section": sec, "column": "col6", "value": "[removido]"},
+        {"path": "0.0.0.3", "section": sec, "column": "col7", "value": "[removido]"},
+        {
+            "path": "0.1.0.0",
+            "section": "financial_investments_portugal",
+            "column": "col2",
+            "value": "Fundo",
+        },
+    ]
+
+
+def test_strip_never_stores_a_guid_or_hidden_cell_from_tabs_2_and_3():
+    text = dumps(ept.strip(raw_with_tabs()))
+    for gone in (GUID_NINE, TAB3_SECTION, "Morada oculta", "oculto", "apagado", PLANTED):
+        assert gone not in text
+    for gone in (PERSONAL["2"], VALID["5"]):
+        assert gone not in text
+
+
+def test_strip_fails_on_an_object_value_in_tabs_2_and_3():
+    raw = raw_with_tabs()
+    tab2 = next(t for t in raw["data"]["value"] if t["key"] == ept.TAB2)
+    tab2["value"][0]["value"][0]["value"] = {"a": "b"}
+    with pytest.raises(ept.ShapeError, match="tab2"):
+        ept.strip(raw)
+
+
+def test_hidden_tab_keeps_nothing():
+    raw = raw_with_tabs()
+    for t in raw["data"]["value"]:
+        if t["key"] in (ept.TAB2, ept.TAB3):
+            t["isVisible"] = False
+    out = ept.strip(raw)
+    assert out["tab2"] == [] and out["tab3"] == []
+
+
+def test_table_section_names_never_hold_nine_digits():
+    for name in ept.TAB3_SECTIONS.values():
+        assert not ept.NINE.search(name)
+
+
+# Attachments (#148): the EpT API serves no file, so only the metadata is kept
+
+
+def test_strip_keeps_attachment_metadata_only():
+    raw = copy.deepcopy(RAW)["data"]
+    raw["attachments"] = [
+        {
+            "name": f"anexo {PLANTED}.pdf",
+            "size": 2048,
+            "format": "pdf",
+            "sectionType": 3,
+            "observations": f"NIF {PLANTED}",
+            "content": "ZmFrZQ==",
+            "url": "https://example.invalid/f",
+            "holderNif": PLANTED,
+        },
+        "not an object",
+    ]
+    out = ept.strip(raw)
+    ept.assert_clean(out)
+    assert out["attachments"] == [
+        {
+            "name": "anexo [removido].pdf",
+            "size": 2048,
+            "format": "pdf",
+            "sectionType": 3,
+            "observations": "NIF [removido]",
+        }
+    ]
+    assert set(ept.ATTACHMENT_KEYS) == {"name", "size", "format", "sectionType", "observations"}
+
+
+def test_strip_without_attachments_keeps_an_empty_list():
+    raw = copy.deepcopy(RAW)["data"]
+    raw.pop("attachments")
+    assert ept.strip(raw)["attachments"] == []
+
+
+def test_run_refetches_a_file_stored_before_tabs_2_and_3(tmp_path):
+    api = api_fixture()
+    ept.run(ept.Client(post=api, throttle=None), tmp_path, log=lambda _: None)
+    path = tmp_path / ept.DATASET / "510" / "0" / "11.json"
+    old = json.loads(path.read_text())
+    for key in ("tab2", "tab3", "attachments"):
+        old.pop(key)
+    path.write_text(json.dumps(old))
+    api.calls.clear()
+    report = ept.run(ept.Client(post=api, throttle=None), tmp_path, log=lambda _: None)
+    got = [c[2]["Id"] for c in api.calls if c[1] == "/publicquery/getdeclaration"]
+    assert got == [11]
+    assert report["fetched"] == 1
+    assert "tab2" in json.loads(path.read_text())
+
+
+def test_strip_drops_the_holder_nif_cell_of_tab_2_even_when_shown():
+    raw = raw_with_tabs()
+    tab2 = next(t for t in raw["data"]["value"] if t["key"] == ept.TAB2)
+    nif_cell = tab2["value"][0]["value"][2]
+    assert nif_cell["key"] in ept.HOLDER_NIF_CELLS
+    nif_cell.update(isVisible=True, value=f"PT {PLANTED}")
+    paths = [r["path"] for r in ept.strip(raw)["tab2"]]
+    assert "0.2" not in paths

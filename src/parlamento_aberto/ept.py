@@ -138,6 +138,9 @@ SEARCH_KEYS = (
 # Nine digits not part of a longer number, also split as 3+3+3 by a space, dot or dash.
 NINE = re.compile(r"(?<!\d)\d{3}[ .-]?\d{3}[ .-]?\d{3}(?!\d)")
 NIF_KEY = re.compile(r"nif|nipc", re.IGNORECASE)
+# What the strip drops before anything is stored, and how the reuse note names it. The note
+# in release.EPT_TERMS and the docs is built from this, and a test keeps them in step.
+STRIPPED = {"nif": "o NIF dos titulares"}
 REMOVED = "[removido]"
 # Company NIPC ranges kept: 5 (legal persons), 6 (public bodies), 71, 72 and 79. Every
 # other prefix can identify a person and is dropped like a personal NIF (Lei 52/2019,

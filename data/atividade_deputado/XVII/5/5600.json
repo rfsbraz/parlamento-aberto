@@ -3,6 +3,17 @@
   {
    "ActP": [
     {
+     "ActAs": "De saudação ao povo brasileiro pela expressiva participação nas eleições de outubro de 2026 e ao Presidente reeleito, Luiz Inácio Lula da Silva",
+     "ActDtdeb": null,
+     "ActDtent": "28-10-2026",
+     "ActId": "248896",
+     "ActNr": "801",
+     "ActSelLg": "XVII",
+     "ActSelNr": "2",
+     "ActTp": "VOT",
+     "ActTpdesc": "Voto"
+    },
+    {
      "ActAs": "De congratulação pelos 50 anos de adesão de Portugal ao Conselho da Europa ",
      "ActDtdeb": null,
      "ActDtent": "25-09-2026",
@@ -610,21 +621,57 @@
    ],
    "Audicoes": [
     {
-     "AccDtaud": null,
-     "ActAs": null,
+     "AccDtaud": "2025-11-05",
+     "ActAs": "Audição do Ministro da Defesa Nacional, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 37/XVII/1.ª (GOV) – Aprova o Orçamento do Estado para 2026, nos termos do n.º 5 do artigo 104.º e do n.º 2 do artigo 211.º do Regimento da Assembleia da República",
      "ActDtdes1": null,
      "ActDtdes2": null,
      "ActDtent": null,
-     "ActId": null,
-     "ActLg": null,
+     "ActId": "159621",
+     "ActLg": "XVII",
      "ActLoc": null,
-     "ActNr": null,
+     "ActNr": "9-CDN-XVII",
      "ActSl": null,
-     "ActTp": null,
-     "ActTpdesc": null,
-     "CmsAb": null,
-     "CmsNo": null,
-     "NomeEntidadeExterna": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CDN",
+     "CmsNo": "Comissão de Defesa Nacional ",
+     "NomeEntidadeExterna": "Nuno Melo (Ministro da Defesa Nacional)",
+     "TevTp": null
+    },
+    {
+     "AccDtaud": "2025-07-23",
+     "ActAs": "Audição do Ministro da Defesa Nacional para prestar esclarecimentos sobre participação da Força Aérea Portuguesa no processo de helitransporte de emergência médica com o INEM, a requerimento do Grupo Parlamentar do CDS-PP",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "159479",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "2-CDN-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CDN",
+     "CmsNo": "Comissão de Defesa Nacional ",
+     "NomeEntidadeExterna": "Nuno Melo (Ministro da Defesa Nacional); Álvaro Castelo Branco (Secretário de Estado Adjunto e da Defesa Nacional); Nuno Pinheiro Torres (Secretário de Estado Adjunto e da Política da Defesa Nacional)",
+     "TevTp": null
+    },
+    {
+     "AccDtaud": "2025-07-23",
+     "ActAs": "Audição do Chefe do Estado-Maior da Força Aérea, General João Cartaxo Alves, para prestar esclarecimentos sobre participação da Força Aérea Portuguesa no processo de helitransporte de emergência médica com o INEM, a requerimento dos Grupos Parlamentares do PS e do CH",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "159478",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "1-CDN-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CDN",
+     "CmsNo": "Comissão de Defesa Nacional ",
+     "NomeEntidadeExterna": "General João Cartaxo Alves, Chefe do Estado-Maior da Força Aérea",
      "TevTp": null
     }
    ],
@@ -1512,6 +1559,18 @@
     }
    ],
    "Intev": [
+    {
+     "IntId": "505497",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": "Formulou um pedido de esclarecimento ao deputado André Ventura (CH)",
+     "PubDar": "15-16",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Pedido de esclarecimento"
+    },
     {
      "IntId": "505394",
      "IntSu": "Pelo fim de um Governo sem autoridade política, incapaz de assumir responsabilidades e de garantir confiança nas instituições.",
@@ -2775,12 +2834,28 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Leiria",
+     "Data": "2026-01-12",
+     "Estabelecimento": "Agrupamento de Escolas de Marrazes, Leiria",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Leiria",
+     "Data": "2025-12-15",
+     "Estabelecimento": "Escola Básica José Saraiva, Leiria",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Leiria",
+     "Data": "2025-12-09",
+     "Estabelecimento": "Escola Secundária Eng. Acácio Calazans Duarte, Marinha Grande",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -3332,7 +3407,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-28",
+    "GpDtFim": "2026-10-29",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

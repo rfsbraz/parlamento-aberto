@@ -5499,28 +5499,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": "Beja",
-     "Data": "2026-01-20",
-     "Estabelecimento": "Escola Básica Professor Francisco Honrado Pereira, Amareleja, Moura",
-     "Legislatura": "XVII",
-     "Sessao": "Básico",
-     "TipoReuniao": "Debate na Escola"
-    },
-    {
-     "CirculoEleitoral": "Setúbal",
-     "Data": "2026-01-19",
-     "Estabelecimento": "Agrupamento de Escolas D. João I, Moita",
-     "Legislatura": "XVII",
-     "Sessao": "Básico",
-     "TipoReuniao": "Debate na Escola"
-    },
-    {
-     "CirculoEleitoral": "Setúbal",
-     "Data": "2026-03-17",
-     "Estabelecimento": "Delegação INATEL - Setúbal Casa Carlos César Praça da República - Setúbal",
-     "Legislatura": "XVII",
-     "Sessao": "Secundário",
-     "TipoReuniao": "Sessão Distrital/Regional"
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
     }
    ],
    "Rel": {
@@ -7649,6 +7633,46 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Falha de energia no Estabelecimento Prisional de Lisboa",
+     "ReqDt": "2026-10-28 00:00:00.0",
+     "ReqId": "231926",
+     "ReqLg": "XVII",
+     "ReqNr": "291",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Exclusão do TROFAPROARTE dos Contratos de Patrocínio 2026–2032",
+     "ReqDt": "2026-10-28 00:00:00.0",
+     "ReqId": "231923",
+     "ReqLg": "XVII",
+     "ReqNr": "288",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Revisão da carreira dos TSDT — pontos de avaliação, transição remuneratória e valorização das carreiras longas",
+     "ReqDt": "2026-10-28 00:00:00.0",
+     "ReqId": "231922",
+     "ReqLg": "XVII",
+     "ReqNr": "287",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Recusa de primeiras consultas hospitalares por critérios territoriais e direito de escolha no SNS",
+     "ReqDt": "2026-10-28 00:00:00.0",
+     "ReqId": "231921",
+     "ReqLg": "XVII",
+     "ReqNr": "286",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Incumprimento dos prazos de avaliação do desempenho de 2025 do Corpo da Guarda Prisional",
@@ -10568,7 +10592,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-28",
+    "GpDtFim": "2026-10-29",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

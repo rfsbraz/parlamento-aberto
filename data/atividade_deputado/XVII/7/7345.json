@@ -7095,16 +7095,7 @@
      "TinDs": "Intervenção"
     }
    ],
-   "ParlamentoJovens": [
-    {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
-    }
-   ],
+   "ParlamentoJovens": null,
    "Rel": {
     "AutoresPareceresIncImu": null,
     "RelatoresContasPublicas": [
@@ -9920,6 +9911,46 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Falha de energia no Estabelecimento Prisional de Lisboa",
+     "ReqDt": "2026-10-28 00:00:00.0",
+     "ReqId": "231926",
+     "ReqLg": "XVII",
+     "ReqNr": "291",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Exclusão do TROFAPROARTE dos Contratos de Patrocínio 2026–2032",
+     "ReqDt": "2026-10-28 00:00:00.0",
+     "ReqId": "231923",
+     "ReqLg": "XVII",
+     "ReqNr": "288",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Revisão da carreira dos TSDT — pontos de avaliação, transição remuneratória e valorização das carreiras longas",
+     "ReqDt": "2026-10-28 00:00:00.0",
+     "ReqId": "231922",
+     "ReqLg": "XVII",
+     "ReqNr": "287",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Recusa de primeiras consultas hospitalares por critérios territoriais e direito de escolha no SNS",
+     "ReqDt": "2026-10-28 00:00:00.0",
+     "ReqId": "231921",
+     "ReqLg": "XVII",
+     "ReqNr": "286",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Incumprimento dos prazos de avaliação do desempenho de 2025 do Corpo da Guarda Prisional",
@@ -12901,7 +12932,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-28",
+    "GpDtFim": "2026-10-29",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

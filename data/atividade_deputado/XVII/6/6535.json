@@ -916,7 +916,26 @@
      "ActTpdesc": "Voto"
     }
    ],
-   "Audicoes": null,
+   "Audicoes": [
+    {
+     "AccDtaud": null,
+     "ActAs": null,
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": null,
+     "ActLg": null,
+     "ActLoc": null,
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": null,
+     "ActTpdesc": null,
+     "CmsAb": null,
+     "CmsNo": null,
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    }
+   ],
    "Audiencias": null,
    "Cms": [
     {
@@ -4173,6 +4192,42 @@
      "PubSl": "2",
      "PubTp": "D",
      "TinDs": "Interpelação à mesa"
+    },
+    {
+     "IntId": "505499",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": "Respondeu a pedidos de esclarecimento dos deputados Eurico Brilhante Dias (PS) e Gonçalo Lage (PSD)",
+     "PubDar": "17-20",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
+     "IntId": "505507",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": "Formulou um pedido de esclarecimento ao deputado João Torres (PS)",
+     "PubDar": "29-31",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Pedido de esclarecimento"
+    },
+    {
+     "IntId": "505509",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": "Formulou um pedido de esclarecimento ao deputado João Torres (PS)",
+     "PubDar": "31-32",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Pedido de esclarecimento"
     },
     {
      "IntId": "505212",
@@ -8872,6 +8927,46 @@
      "ReqTp": "EI"
     },
     {
+     "ReqAs": "Falha de energia no Estabelecimento Prisional de Lisboa",
+     "ReqDt": "2026-10-28 00:00:00.0",
+     "ReqId": "231926",
+     "ReqLg": "XVII",
+     "ReqNr": "291",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Exclusão do TROFAPROARTE dos Contratos de Patrocínio 2026–2032",
+     "ReqDt": "2026-10-28 00:00:00.0",
+     "ReqId": "231923",
+     "ReqLg": "XVII",
+     "ReqNr": "288",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Revisão da carreira dos TSDT — pontos de avaliação, transição remuneratória e valorização das carreiras longas",
+     "ReqDt": "2026-10-28 00:00:00.0",
+     "ReqId": "231922",
+     "ReqLg": "XVII",
+     "ReqNr": "287",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Recusa de primeiras consultas hospitalares por critérios territoriais e direito de escolha no SNS",
+     "ReqDt": "2026-10-28 00:00:00.0",
+     "ReqId": "231921",
+     "ReqLg": "XVII",
+     "ReqNr": "286",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
      "ReqAs": "Incumprimento dos prazos de avaliação do desempenho de 2025 do Corpo da Guarda Prisional",
      "ReqDt": "2026-10-22 00:00:00.0",
      "ReqId": "231899",
@@ -11632,7 +11727,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-28",
+    "GpDtFim": "2026-10-29",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

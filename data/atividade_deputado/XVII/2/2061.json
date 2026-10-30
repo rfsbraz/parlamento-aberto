@@ -103,26 +103,7 @@
     }
    ],
    "Audicoes": null,
-   "Audiencias": [
-    {
-     "AccDtaud": null,
-     "ActAs": null,
-     "ActDtdes1": null,
-     "ActDtdes2": null,
-     "ActDtent": null,
-     "ActId": null,
-     "ActLg": null,
-     "ActLoc": null,
-     "ActNr": null,
-     "ActSl": null,
-     "ActTp": null,
-     "ActTpdesc": null,
-     "CmsAb": null,
-     "CmsNo": null,
-     "NomeEntidadeExterna": null,
-     "TevTp": null
-    }
-   ],
+   "Audiencias": null,
    "Cms": null,
    "DadosLegisDeputado": [
     {
@@ -356,6 +337,30 @@
      "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
      "IntTe": null,
      "PubDar": "14-14",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
+     "IntId": "505500",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": null,
+     "PubDar": "20-20",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
+     "IntId": "505508",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": null,
+     "PubDar": "31-31",
      "PubDtreu": "2026-09-24",
      "PubLg": "XVII",
      "PubNr": "5",
@@ -3090,7 +3095,7 @@
   ],
   "DepGP": [
    {
-    "GpDtFim": "2026-10-28",
+    "GpDtFim": "2026-10-29",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

@@ -1,4 +1,13 @@
 {
+ "attachments": [
+  {
+   "format": "pdf",
+   "name": "anexo-sintetico.pdf",
+   "observations": null,
+   "sectionType": 4,
+   "size": 2048
+  }
+ ],
  "board": "Órgão sintético",
  "boardId": 2,
  "endDate": null,
@@ -14,6 +23,45 @@
  "startDate": "2025-06-03T13:42:00",
  "stateType": 8,
  "submitedDate": "2026-01-30T12:19:04.5",
+ "tab2": [
+  {
+   "column": null,
+   "label": "Nome Completo",
+   "path": "0.0",
+   "section": null,
+   "value": "Pessoa Sintética"
+  },
+  {
+   "column": null,
+   "label": "Estado Civil",
+   "path": "0.1",
+   "section": null,
+   "value": 2
+  }
+ ],
+ "tab3": [
+  {
+   "column": "col1",
+   "label": null,
+   "path": "0.0.0.0",
+   "section": "real_estate_portugal",
+   "value": "Urbano sintético"
+  },
+  {
+   "column": "col5",
+   "label": null,
+   "path": "0.0.0.1",
+   "section": "real_estate_portugal",
+   "value": 125000.5
+  },
+  {
+   "column": "col2",
+   "label": null,
+   "path": "0.1.0.0",
+   "section": "financial_investments_portugal",
+   "value": "Fundo sintético"
+  }
+ ],
  "tab4": {
   "2c6d9562-dea5-488b-9afe-42519c636daf": [
    {

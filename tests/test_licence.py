@@ -168,11 +168,16 @@ def test_ept_lineage_is_detected():
 
 def test_only_the_interest_marts_are_ept_derived_and_their_ept_rows_stay_out_of_cc_by(built):
     # A new EpT-derived mart fails here on purpose so its release licence is looked at again.
-    ept_marts = ["interest_declarations", "interests"]
+    ept_marts = [
+        "interest_declarations",
+        "interests",
+        "interest_declaration_fields",
+        "interest_declaration_attachments",
+    ]
     assert [m for m in release.marts() if release.ept_derived(m)] == ept_marts
     m = json.loads((built / "manifest.json").read_text())
     excluded = m["excluded_sources"]["ept"]
-    assert sorted(excluded["rows"]) == ept_marts
+    assert sorted(excluded["rows"]) == sorted(ept_marts)
     assert "CC BY" not in excluded["licence"]
     for mart in ept_marts:
         assert release.mart_licence(mart) == release.EPT_TERMS

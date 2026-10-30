@@ -228,6 +228,33 @@ EXAMPLE_ITEM_KEYS = (
     "end_date_raw",
 )
 BOOLEAN_FIELDS = {"is_professional_secrecy"}
+# Tabs 2 and 3 by position (#148). The EpT keys are never stored: some GUIDs read as 9 digits.
+FIELD_COLUMNS = {
+    "declaration_key": "VARCHAR",
+    "field_number": "INTEGER",
+    "tab": "VARCHAR",
+    "path": "VARCHAR",
+    "section": "VARCHAR",
+    "column_name": "VARCHAR",
+    "label": "VARCHAR",
+    "value": "VARCHAR",
+    "legislature": "VARCHAR",
+    "source": "VARCHAR",
+    "source_file": "VARCHAR",
+}
+# Attachment metadata only: the public API serves no file.
+ATTACHMENT_COLUMNS = {
+    "declaration_key": "VARCHAR",
+    "attachment_number": "INTEGER",
+    "name": "VARCHAR",
+    "size_bytes": "BIGINT",
+    "format": "VARCHAR",
+    "section_type": "VARCHAR",
+    "observations": "VARCHAR",
+    "legislature": "VARCHAR",
+    "source": "VARCHAR",
+    "source_file": "VARCHAR",
+}
 
 Ranges = list[tuple[str, dt.date, dt.date | None]]
 
@@ -351,6 +378,54 @@ def parse_declaration(rec: dict, ranges: Ranges, source_file: str) -> tuple[dict
     return decl, items
 
 
+def parse_fields(rec: dict, legislature: str | None, source_file: str) -> list[dict]:
+    """One row per stored cell of tabs 2 and 3, in file order."""
+    ept.assert_clean(rec)
+    rows = []
+    for tab in ("tab2", "tab3"):
+        for f in rec.get(tab) or []:
+            rows.append(
+                {
+                    "declaration_key": f"ept:{rec['id']}",
+                    "field_number": len(rows) + 1,
+                    "tab": tab,
+                    "path": f["path"],
+                    "section": f.get("section"),
+                    "column_name": f.get("column"),
+                    "label": f.get("label"),
+                    "value": _text(f.get("value")),
+                    "legislature": legislature,
+                    "source": "ept",
+                    "source_file": source_file,
+                }
+            )
+    return rows
+
+
+def _int(v) -> int | None:
+    return v if isinstance(v, int) and not isinstance(v, bool) else None
+
+
+def parse_attachments(rec: dict, legislature: str | None, source_file: str) -> list[dict]:
+    """One row per attachment: name, size, format, section and observations."""
+    ept.assert_clean(rec)
+    return [
+        {
+            "declaration_key": f"ept:{rec['id']}",
+            "attachment_number": n,
+            "name": _text(a.get("name")),
+            "size_bytes": _int(a.get("size")),
+            "format": _text(a.get("format")),
+            "section_type": _text(a.get("sectionType")),
+            "observations": _text(a.get("observations")),
+            "legislature": legislature,
+            "source": "ept",
+            "source_file": source_file,
+        }
+        for n, a in enumerate(rec.get("attachments") or [], 1)
+    ]
+
+
 def resolve_chains(decls: list[dict]) -> list[dict]:
     """Fill superseded_by_declaration_id, chain_root_declaration_id and is_current."""
     by_id = {d["source_declaration_id"]: d for d in decls}
@@ -396,15 +471,24 @@ def assert_rows_clean(decls: list[dict], items: list[dict]) -> None:
         ept.assert_clean(rest, f"items[{i}]")
 
 
-def read_all(data_dir: Path | str, ranges: Ranges) -> tuple[list[dict], list[dict]]:
-    data_dir = Path(data_dir)
+def assert_extra_rows_clean(rows: list[dict]) -> None:
+    """No nif and no 9 digits anywhere in the field or attachment rows."""
+    ept.assert_clean([{k: str(v) if v is not None else None for k, v in r.items()} for r in rows])
+
+
+def _records(data_dir: Path):
+    """(source_file, record) for every deputy declaration, by id."""
     root = data_dir / ept.DATASET
-    decls, items = [], []
     for path in sorted(root.glob("*/*/*.json"), key=lambda p: int(p.stem)):
         rec = json.loads(path.read_text(encoding="utf-8"))
-        if rec.get("roleId") not in ROLES:
-            continue
-        d, i = parse_declaration(rec, ranges, path.relative_to(data_dir).as_posix())
+        if rec.get("roleId") in ROLES:
+            yield path.relative_to(data_dir).as_posix(), rec
+
+
+def read_all(data_dir: Path | str, ranges: Ranges) -> tuple[list[dict], list[dict]]:
+    decls, items = [], []
+    for source_file, rec in _records(Path(data_dir)):
+        d, i = parse_declaration(rec, ranges, source_file)
         decls.append(d)
         items += i
     resolve_chains(decls)
@@ -412,8 +496,21 @@ def read_all(data_dir: Path | str, ranges: Ranges) -> tuple[list[dict], list[dic
     return decls, items
 
 
+def read_extras(data_dir: Path | str, decls: list[dict]) -> tuple[list[dict], list[dict]]:
+    """(field rows, attachment rows), with the legislature of each declaration row."""
+    legislature = {d["declaration_key"]: d["legislature"] for d in decls}
+    fields, attachments = [], []
+    for source_file, rec in _records(Path(data_dir)):
+        leg = legislature[f"ept:{rec['id']}"]
+        fields += parse_fields(rec, leg, source_file)
+        attachments += parse_attachments(rec, leg, source_file)
+    assert_extra_rows_clean(fields)
+    assert_extra_rows_clean(attachments)
+    return fields, attachments
+
+
 def build_ept_tables(con: duckdb.DuckDBPyConnection, data_dir: str) -> None:
-    """Writes stg_ept_registo_interesses__declarations and __items."""
+    """Writes stg_ept_registo_interesses__declarations, __items, __fields and __attachments."""
     ranges = [
         (leg, start, end)
         for leg, start, end in con.execute(
@@ -423,3 +520,6 @@ def build_ept_tables(con: duckdb.DuckDBPyConnection, data_dir: str) -> None:
     decls, items = read_all(data_dir, ranges)
     _write_table(con, "stg_ept_registo_interesses__declarations", decls, DECLARATION_COLUMNS)
     _write_table(con, "stg_ept_registo_interesses__items", items, ITEM_COLUMNS)
+    fields, attachments = read_extras(data_dir, decls)
+    _write_table(con, "stg_ept_registo_interesses__fields", fields, FIELD_COLUMNS)
+    _write_table(con, "stg_ept_registo_interesses__attachments", attachments, ATTACHMENT_COLUMNS)

@@ -143,7 +143,8 @@ Todos os ficheiros RegistoInteresses, da Constituinte à XV, listam as mesmas 14
 As declarações da XVI e da XVII vêm da API pública da Entidade para a Transparência e entram em `interest_declarations` e `interests` com `source = 'ept'`. Diferenças face aos dados abertos da AR:
 
 - Não há dedup entre fontes. A entidade 510 também tem declarações da XIV e da XV, que a AR já publica; nos marts só entram as da XVI e da XVII, e as outras ficam só em staging.
-- Só entra o separador 4 (registo de interesses). O separador 2 (dados pessoais) e o separador 3 (rendimentos e património) nunca são guardados, nem os anexos.
+- Dos separadores 2 (dados pessoais) e 3 (rendimentos e património) só entram as células que a EpT mostra, pela posição, em `interest_declaration_fields`. O NIF do titular nunca entra, e qualquer número de 9 dígitos fica `[removido]`, também os NIPC de empresas do separador 3. Das tabelas do separador 3 só se conhece o nome das colunas da tabela de trabalho dependente; nas outras fica só `col1`, `col2`...
+- Dos anexos só entram os metadados (`interest_declaration_attachments`): a API pública da EpT não serve o ficheiro.
 - A secção de filiação ou funções em entidades de natureza associativa nunca é lida nem guardada, por isso não há `category = 'association'` (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)).
 - A EpT não tem id da AR. O `cadastro_id` vem de `seed_ept_holders`, pela correspondência de nomes com a InformacaoBase e correções à mão. Um titular sem correspondência fica com `cadastro_id` nulo.
 - A EpT guarda as versões: uma declaração substituída ou modificada fica como linha própria, com `declaration_state` replaced ou modified e `is_current` falso. Para contar uma declaração por titular e cargo, filtre `is_current`.

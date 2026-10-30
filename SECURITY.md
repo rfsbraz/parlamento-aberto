@@ -18,7 +18,7 @@ O reporte fica visível apenas para quem mantém o repositório.
 
 - Vulnerabilidades no código, nos workflows do GitHub Actions ou nas dependências.
 - Um segredo ou token publicado no repositório ou no histórico.
-- Dados que a lei não permite publicar e que aparecem no repositório, no histórico ou numa release de dados: por exemplo um NIF pessoal, uma morada, contactos, ou elementos dos separadores 2 (dados pessoais) ou 3 (rendimentos e património) de uma declaração da Entidade para a Transparência.
+- Dados que a lei não permite publicar e que aparecem no repositório, no histórico ou numa release de dados: por exemplo um NIF pessoal, uma morada, contactos, ou uma célula dos separadores 2 (dados pessoais) ou 3 (rendimentos e património) que a Entidade para a Transparência esconde.
 
 Não copie o dado pessoal para o reporte. Indique o ficheiro, o commit ou a release e o identificador do registo.
 

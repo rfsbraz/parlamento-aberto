@@ -1,9 +1,10 @@
 """EpT sync (#45): checks and PR body for the weekly job in .github/workflows/ept-sync.yml.
 
 The job fetches the dataset with ``parlamento_aberto.ept fetch`` on the ``data/ept`` branch,
-runs ``check`` before anything is committed, and opens or updates one draft PR, held with
-``hold: new-dataset`` and ``hold: ept``. data-merge.yml only merges ``data/nightly``, so this
-PR is never merged automatically. The PR body is in pt-PT and carries counts and ids only.
+runs ``check`` before anything is committed, and opens or updates one data PR, held with
+``hold: new-dataset`` while the dataset is not on main. data-merge.yml only merges
+``data/nightly``, so this PR is never merged automatically. The PR body is in pt-PT and
+carries counts and ids only.
 
     python -m parlamento_aberto.ept_sync check --data data --counts counts.json
     python -m parlamento_aberto.ept_sync body --report report.json --counts counts.json \\
@@ -80,9 +81,9 @@ def render_body(report: dict, counts: dict, summary: dict, *, today: str) -> str
         "",
         f"Última execução: {today} (Lisboa).",
         "",
-        "**Não fazer merge.** É um dataset novo e a publicação ainda está por decidir: "
-        "este PR fica em rascunho, com `hold: new-dataset` e `hold: ept`. Um merge põe estes "
-        "dados no `main`.",
+        "O merge é feito à mão: o `data-merge.yml` só integra os dados da AR. Enquanto o "
+        "conjunto não está no `main`, o PR fica com `hold: new-dataset`. Um merge põe estes "
+        "dados no `main` e na publicação seguinte.",
         "",
         "Cada declaração foi reduzida em memória antes de ser escrita: só metadados e o "
         "separador 4. Não há NIF do titular, nem separadores 2 e 3, nem anexos. Da coluna "
@@ -119,7 +120,11 @@ def render_body(report: dict, counts: dict, summary: dict, *, today: str) -> str
     ]
     failed = [f"- declaração {f['id']}: {f['error']}" for f in report.get("failed") or []]
     lines += failed or ["Nenhuma."]
-    lines += ["", "Fonte: Entidade para a Transparência."]
+    lines += [
+        "",
+        "Fonte: Entidade para a Transparência (EpT), republicado ao abrigo da Lei n.º 52/2019, "
+        "art. 15.º, n.º 1, e da Lei n.º 26/2016 (LADA), art. 21.º, n.º 1.",
+    ]
     body = "\n".join(lines) + "\n"
     ept.assert_clean(body)
     return body
@@ -131,7 +136,7 @@ def main(argv=None) -> int:
     c = sub.add_parser("check", help="leak guard and counts for the stored dataset")
     c.add_argument("--data", type=Path, default=Path("data"))
     c.add_argument("--counts", type=Path, help="write the counts as JSON")
-    b = sub.add_parser("body", help="render the draft PR body")
+    b = sub.add_parser("body", help="render the data PR body")
     b.add_argument("--report", type=Path, required=True)
     b.add_argument("--counts", type=Path, required=True)
     b.add_argument("--base", default="origin/main")

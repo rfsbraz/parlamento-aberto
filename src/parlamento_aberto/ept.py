@@ -17,8 +17,9 @@ keeps only a valid company NIPC (see ``is_company_nipc``) and drops anything els
 a sole trader's personal NIF. Tabs 2 and 3 are stored by position (``0.3.1.2``) with the
 table name and column, never by the EpT keys: some of those GUIDs read as 9 digits. The
 API serves no attachment file, so only the name, size, format, section and observations
-are kept. The associations section (memberships) is dropped whole, without
-reading a cell: Reg. EpT 258/2024, art. 15.º, n.º 1, al. b) keeps it out of public access.
+are kept. The associations section (memberships) of tab 4 is kept apart, under
+``associations``, with the same rule for its NIF/NIPC column, so it can be dropped on its
+own.
 Nothing is written before ``assert_clean`` passes, and the raw response is never stored
 or logged.
 
@@ -95,12 +96,11 @@ HOLDER_NIF_CELLS = {"d155af2b-21e9-475f-be81-8e42bc5a5641"}
 COLUMN = re.compile(r"-(col\d+)$")
 ATTACHMENT_KEYS = ("name", "size", "format", "sectionType", "observations")
 TAB4_GROUP = "88ff2a6e-3702-4687-9f05-2738f70ccbd0"
-# Tab 4 sections that are never read, stored or parsed. Their cells are not looked at.
-DROPPED_SECTIONS = {
-    # Filiação ou funções em entidades de natureza associativa: not public under
-    # Reg. EpT 258/2024, art. 15.º, n.º 1, al. b).
-    "cd0e811a-d9bb-49ee-b0f0-1dae0680eb22": "association",
-}
+# Filiação ou funções em entidades de natureza associativa. Stored under ``associations``,
+# never inside ``tab4``. col8 is "NIF/NIPC/Tax identification number ou equivalente".
+ASSOCIATION = "cd0e811a-d9bb-49ee-b0f0-1dae0680eb22"
+ASSOCIATION_NIPC = "col8"
+ASSOCIATION_COLS = ("col1", "col2", "col3", "col4", "col5", "col6", "col7")
 # section GUID -> (category, entity NIF/NIPC column or None, other columns kept)
 SECTIONS = {
     "2c6d9562-dea5-488b-9afe-42519c636daf": (
@@ -131,7 +131,7 @@ SECTIONS = {
 }
 for _cat, _nif, _cols in SECTIONS.values():
     assert _nif not in _cols
-assert not set(SECTIONS) & set(DROPPED_SECTIONS)
+assert ASSOCIATION not in SECTIONS
 
 META_KEYS = (
     "id",
@@ -248,35 +248,45 @@ def _assert_tab4(tab4, path: str) -> None:
         return assert_clean(tab4, path, _top=False)
     for guid, rows in tab4.items():
         here = f"{path}.{guid}"
-        if guid in DROPPED_SECTIONS:
-            raise LeakError(f"{DROPPED_SECTIONS[guid]} section at {here}")
+        if guid == ASSOCIATION:
+            raise LeakError(f"association section inside tab4 at {here}")
         nif_col = SECTIONS[guid][1] if guid in SECTIONS else None
         if nif_col is None or not isinstance(rows, list):
             assert_clean({guid: rows}, path, _top=False)
             continue
-        for i, row in enumerate(rows):
-            if not isinstance(row, dict):
-                assert_clean(row, f"{here}[{i}]", _top=False)
-                continue
-            for col, v in row.items():
-                if col == nif_col and v is not None:
-                    if not is_company_nipc(v):
-                        raise LeakError(f"not a company NIPC at {here}[{i}].{col}")
-                else:
-                    assert_clean({col: v}, f"{here}[{i}]", _top=False)
+        _assert_rows(rows, nif_col, here)
+
+
+def _assert_rows(rows, nif_col: str, here: str) -> None:
+    """A valid company NIPC is allowed in ``nif_col`` only."""
+    if not isinstance(rows, list):
+        return assert_clean(rows, here, _top=False)
+    for i, row in enumerate(rows):
+        if not isinstance(row, dict):
+            assert_clean(row, f"{here}[{i}]", _top=False)
+            continue
+        for col, v in row.items():
+            if col == nif_col and v is not None:
+                if not is_company_nipc(v):
+                    raise LeakError(f"not a company NIPC at {here}[{i}].{col}")
+            else:
+                assert_clean({col: v}, f"{here}[{i}]", _top=False)
 
 
 def assert_clean(obj, path: str = "", *, _top: bool = True) -> None:
     """Raise LeakError on any nif/nipc key or 9-digit value. The message names the path only.
 
-    The one exception is a valid company NIPC in the NIPC column of a known tab 4 section,
-    in a stored declaration (a top-level dict with a ``tab4`` key).
+    The one exception is a valid company NIPC in the NIPC column of a known tab 4 section
+    or of the associations, in a stored declaration (top-level ``tab4`` or ``associations``).
     """
     if isinstance(obj, dict):
         for k, v in obj.items():
             here = f"{path}.{k}" if path else str(k)
-            if _top and k == "tab4" and not NINE.search(str(k)):
+            if _top and k == "tab4":
                 _assert_tab4(v, here)
+                continue
+            if _top and k == "associations":
+                _assert_rows(v, ASSOCIATION_NIPC, here)
                 continue
             if NIF_KEY.search(str(k)):
                 raise LeakError(f"nif key at {here}")
@@ -292,32 +302,42 @@ def assert_clean(obj, path: str = "", *, _top: bool = True) -> None:
         raise LeakError(f"9-digit value at {path or '<root>'}")
 
 
+def _rows(sec: dict, nif_col, cols) -> list:
+    """Visible cells of a tab 4 table. The NIF/NIPC column keeps a company NIPC only."""
+    rows = []
+    for row in sec.get("value") or []:
+        vals = {}
+        for cell in row.get("value") or []:
+            col = str(cell.get("key", "")).rsplit("-", 1)[-1]
+            if not cell.get("isVisible"):
+                continue
+            if col == nif_col:
+                nipc = company_nipc(cell.get("value"))
+                if nipc is not None:
+                    vals[col] = nipc
+            elif col in cols:
+                vals[col] = clean(cell.get("value"))
+        if any(v is not None for v in vals.values()):
+            rows.append(vals)
+    return rows
+
+
 def _tab4(sections: list) -> dict:
     out = {}
     for sec in sections:
         key = sec.get("key")
-        if key in DROPPED_SECTIONS:
+        if key == ASSOCIATION:
             continue
         if key not in SECTIONS:
             raise ShapeError(f"unknown tab 4 section {key}")
         _, nif_col, cols = SECTIONS[key]
-        rows = []
-        for row in sec.get("value") or []:
-            vals = {}
-            for cell in row.get("value") or []:
-                col = str(cell.get("key", "")).rsplit("-", 1)[-1]
-                if not cell.get("isVisible"):
-                    continue
-                if col == nif_col:
-                    nipc = company_nipc(cell.get("value"))
-                    if nipc is not None:
-                        vals[col] = nipc
-                elif col in cols:
-                    vals[col] = clean(cell.get("value"))
-            if any(v is not None for v in vals.values()):
-                rows.append(vals)
-        out[key] = rows
+        out[key] = _rows(sec, nif_col, cols)
     return out
+
+
+def _associations(sections: list) -> list:
+    sec = next((s for s in sections if s.get("key") == ASSOCIATION), None)
+    return _rows(sec, ASSOCIATION_NIPC, ASSOCIATION_COLS) if sec else []
 
 
 def _fields(node, tab: str, path: str, section, out: list) -> None:
@@ -367,13 +387,16 @@ def strip(data: dict) -> dict:
                 _fields(t, name, "", None, out[name])
     out["attachments"] = _attachments(data.get("attachments"))
     out["tab4"] = None
+    out["associations"] = []
     tabs = [t for t in tabs if t.get("key") == TAB4]
     if tabs:
         groups = tabs[0].get("value") or []
         for g in groups:
             if g.get("key") != TAB4_GROUP:
                 raise ShapeError(f"unknown tab 4 group {g.get('key')}")
-        out["tab4"] = _tab4(groups[0].get("value") or []) if groups else {}
+        sections = (groups[0].get("value") or []) if groups else []
+        out["tab4"] = _tab4(sections)
+        out["associations"] = _associations(sections)
     return out
 
 
@@ -495,7 +518,7 @@ def decl_path(root: Path, entity_id: int, decl_id: int) -> Path:
 
 
 # Keys every stored declaration has. A file without one was stored by an older strip.
-STORED_KEYS = ("tab2", "tab3", "tab4", "attachments")
+STORED_KEYS = ("tab2", "tab3", "tab4", "attachments", "associations")
 
 
 def is_current(path: Path) -> bool:

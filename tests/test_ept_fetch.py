@@ -125,7 +125,7 @@ def test_strip_keeps_metadata_tabs_and_attachment_metadata():
     assert "sintético, contribuinte [removido]" in text
     for gone in ("oppositionKeys", "alreadyPublished", "internalStateTypeId"):
         assert gone not in text
-    assert set(out) == set(ept.META_KEYS) | {"tab2", "tab3", "tab4", "attachments"}
+    assert set(out) == set(ept.META_KEYS) | set(ept.STORED_KEYS)
     assert out["id"] == 902 and out["holderId"] == 7001 and out["relatedDeclarationId"] == 901
     assert list(out["tab4"]) == list(ept.SECTIONS)
     acts = out["tab4"][ACT]
@@ -512,7 +512,7 @@ def test_nipc_prefixes_match_privacy():
         assert bool(ept.NIPC_PREFIX.match(prefix)) == prefix.startswith(privacy.COMPANY_PREFIXES)
 
 
-# Associations (Reg. EpT 258/2024, art. 15.º, n.º 1, al. b): never parsed or stored
+# Associations (#148): their own key, so they can be dropped on their own
 
 
 def raw_with_association():
@@ -525,26 +525,47 @@ def raw_with_association():
         for cell in row["value"]:
             cell["isVisible"] = True
             col = cell["key"].rsplit("-", 1)[-1]
-            cell["value"] = VALID["5"] if col == "col8" else f"Associação sintética {col}"
+            cell["value"] = VALID["5"] if col == "col8" else f"Associação sintética {col} {PLANTED}"
     return raw
 
 
-def test_strip_drops_the_association_section():
+def test_strip_keeps_associations_apart_from_tab4():
     out = ept.strip(raw_with_association()["data"])
     ept.assert_clean(out)
-    text = dumps(out)
-    assert ASSOC not in text
-    assert "Associação sintética" not in text
-    assert VALID["5"] not in text
-    assert ASSOC not in ept.SECTIONS
-    assert ASSOC in ept.DROPPED_SECTIONS
+    assert ASSOC not in out["tab4"]
+    assert ASSOC not in dumps(out)
+    assert out["associations"]
+    row = out["associations"][0]
+    assert row["col8"] == VALID["5"]
+    assert row["col1"] == "Associação sintética col1 [removido]"
+    assert PLANTED not in dumps(out)
+    assert ept.ASSOCIATION_NIPC == "col8"
 
 
-def test_guard_fails_on_a_stored_association_section():
+@pytest.mark.parametrize("value", [PERSONAL["1"], WIDER["8"], WRONG_CHECK, "x"])
+def test_strip_drops_anything_but_a_company_nipc_from_the_association_nipc(value):
+    raw = raw_with_association()
+    tab4 = next(t for t in raw["data"]["data"]["value"] if t["key"] == ept.TAB4)
+    sec = next(s for s in tab4["value"][0]["value"] if s["key"] == ASSOC)
+    for row in sec["value"]:
+        for cell in row["value"]:
+            if cell["key"].endswith("-col8"):
+                cell["value"] = value
+    out = ept.strip(raw["data"])
+    assert all("col8" not in r for r in out["associations"])
+
+
+def test_guard_allows_a_company_nipc_only_in_the_association_nipc_column():
+    ept.assert_clean({"id": 1, "associations": [{"col8": VALID["5"]}]})
+    with pytest.raises(ept.LeakError):
+        ept.assert_clean({"id": 1, "associations": [{"col8": PERSONAL["1"]}]})
+    with pytest.raises(ept.LeakError):
+        ept.assert_clean({"id": 1, "associations": [{"col1": VALID["5"]}]})
+
+
+def test_guard_fails_on_an_association_section_inside_tab4():
     with pytest.raises(ept.LeakError):
         ept.assert_clean({"id": 1, "tab4": {ASSOC: []}})
-    with pytest.raises(ept.LeakError):
-        ept.assert_clean({"id": 1, "tab4": {ASSOC: [{"col1": "x"}]}})
 
 
 # Tabs 2 and 3 (#148): every cell the EpT shows, by position, without a 9-digit number
@@ -703,7 +724,7 @@ def test_run_refetches_a_file_stored_before_tabs_2_and_3(tmp_path):
     ept.run(ept.Client(post=api, throttle=None), tmp_path, log=lambda _: None)
     path = tmp_path / ept.DATASET / "510" / "0" / "11.json"
     old = json.loads(path.read_text())
-    for key in ("tab2", "tab3", "attachments"):
+    for key in ("tab2", "tab3", "attachments", "associations"):
         old.pop(key)
     path.write_text(json.dumps(old))
     api.calls.clear()

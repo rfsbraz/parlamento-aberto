@@ -1,6 +1,6 @@
 # interests
 
-Uma linha por interesse declarado, das mesmas duas fontes de interest_declarations (ar_open_data, XI a XV, e ept, XVI e XVII): atividades e cargos, cargos sociais, sociedades, apoios, serviços e outras situações. O texto está tal como publicado, por isso os itens de texto livre podem dizer "Nada a declarar". Na AR o JSON prevalece sobre o mapeador antigo: a V1 publica as atividades como um único campo de texto livre, e a V5 também é lida (XIV, XV), porque o dump a contém. Na EpT só entra o separador 4. As primeiras colunas são as de sempre; paid_raw e as colunas da EpT vêm depois. As linhas da EpT ficam fora da licença CC BY 4.0 e fora dos ficheiros publicados até haver autorização de reutilização (Lei n.º 52/2019, art. 17.º).
+Uma linha por interesse declarado, das mesmas duas fontes de interest_declarations (ar_open_data, XI a XV, e ept, XVI e XVII): atividades e cargos, cargos sociais, sociedades, apoios, serviços e outras situações. O texto está tal como publicado, por isso os itens de texto livre podem dizer "Nada a declarar". Na AR o JSON prevalece sobre o mapeador antigo: a V1 publica as atividades como um único campo de texto livre, e a V5 também é lida (XIV, XV), porque o dump a contém. Na EpT só entra o separador 4. As primeiras colunas são as de sempre; paid_raw e as colunas da EpT vêm depois. As linhas da EpT ficam fora da licença CC BY 4.0 e citam a EpT como fonte (Lei n.º 52/2019, art. 15.º, n.º 1; LADA, art. 21.º, n.º 1).
 
 Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
@@ -107,7 +107,7 @@ Uma linha por item declarado, tal como publicado. Os campos de texto livre da V1
 
 ### stg_ept_registo_interesses__declarations
 
-Registo de interesses da EpT (XVI, XVII e as declarações anteriores da entidade 510), uma linha por declaração guardada de um Deputado ou Deputada, a partir de data/ept_registo_interesses. As primeiras colunas são as de stg_registo_interesses__declarations. As versões substituídas e modificadas ficam como linhas próprias. Não publicado até a EpT responder (#42).
+Registo de interesses da EpT (XVI, XVII e as declarações anteriores da entidade 510), uma linha por declaração guardada de um Deputado ou Deputada, a partir de data/ept_registo_interesses. As primeiras colunas são as de stg_registo_interesses__declarations. As versões substituídas e modificadas ficam como linhas próprias. É staging, por isso não entra nos ficheiros publicados.
 
 | Coluna | Tipo | Descrição |
 |---|---|---|

@@ -3,7 +3,8 @@
 - Raw AR files in data/ are AR data reused under the AR's terms (Lei 26/2016, art. 19.º,
   n.º 5: cite the source and the update date). They are not ours to license.
 - CC BY 4.0 covers only our derived marts and the data dictionary, crediting the AR.
-- data/ept_* and anything built from EpT data are outside CC BY (Lei 52/2019, art. 17.º).
+- data/ept_* and anything built from EpT data are outside CC BY. They are reused citing the EpT
+  (Lei 52/2019, art. 15.º, n.º 1; LADA, art. 21.º, n.º 1).
 
 The release metadata, the CSV headers, the dictionary footer and LICENSE-DATA must say
 the same thing.
@@ -166,8 +167,7 @@ def test_ept_lineage_is_detected():
 
 
 def test_only_the_interest_marts_are_ept_derived_and_their_ept_rows_stay_out_of_cc_by(built):
-    # Republishing EpT data waits on the EpT's reply. A new EpT-derived mart fails here on
-    # purpose so its release licence is looked at again.
+    # A new EpT-derived mart fails here on purpose so its release licence is looked at again.
     ept_marts = ["interest_declarations", "interests"]
     assert [m for m in release.marts() if release.ept_derived(m)] == ept_marts
     m = json.loads((built / "manifest.json").read_text())
@@ -200,3 +200,43 @@ def test_license_data_states_the_split():
     assert "Lei n.º 26/2016" in text and "Lei n.º 52/2019" in text
     assert "data/ept_" in text
     assert "CC BY 4.0" in text and "docs/dictionary" in text
+
+
+EPT_BASIS = ("Lei n.º 52/2019, art. 15.º, n.º 1", "Lei n.º 26/2016 (LADA), art. 21.º, n.º 1")
+EPT_EXCLUDED = (
+    "Ficam excluídos o NIF dos titulares, os dados pessoais, os rendimentos e património, "
+    "as filiações associativas e os anexos"
+)
+
+
+def _ept_note_places() -> dict[str, str]:
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    section = readme.split("## Registo de interesses da EpT", 1)[1].split("\n## ", 1)[0]
+    licence = (ROOT / "LICENSE-DATA").read_text(encoding="utf-8")
+    point3 = licence.split("3. Dados da Entidade", 1)[1].split("\n4. ", 1)[0]
+    return {
+        "EPT_TERMS": release.EPT_TERMS,
+        "README": section,
+        "LICENSE-DATA": point3,
+        "docs/sources/ept.md": (ROOT / "docs" / "sources" / "ept.md").read_text(encoding="utf-8"),
+        "dictionary": dictionary.render_index(),
+    }
+
+
+def test_ept_note_cites_the_legal_basis_the_source_and_the_exclusions():
+    # The same note everywhere it appears: the EpT as source, the legal basis for reuse and the
+    # fields left out. Nothing still says it waits on the EpT.
+    for place, text in _ept_note_places().items():
+        flat = " ".join(text.split())
+        assert "Entidade para a Transparência" in flat, place
+        for basis in EPT_BASIS:
+            assert basis in flat, (place, basis)
+        assert EPT_EXCLUDED in flat, place
+        assert "pendente" not in flat and "até a EpT responder" not in flat, place
+
+
+def test_ept_docs_do_not_describe_the_api_fields_we_drop():
+    # The docs say what is left out, never how the EpT's API carries it.
+    for place, text in _ept_note_places().items():
+        for word in ("getdeclaration", "`nif`", "resposta técnica"):
+            assert word not in text, (place, word)

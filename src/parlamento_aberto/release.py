@@ -57,21 +57,24 @@ RAW_TERMS = (
     "Dados abertos da Assembleia da República reutilizados nos termos da AR, com a fonte e a "
     "data de atualização (Lei n.º 26/2016, art. 19.º, n.º 5)"
 )
+# The EpT register is reused citing the EpT, under Lei n.º 52/2019, art. 15.º, n.º 1, and
+# LADA, art. 21.º, n.º 1 (LICENSE-DATA, point 3). It is not ours to license.
 EPT_TERMS = (
-    "Dados da Entidade para a Transparência, fora da licença dos marts: regidos pela "
-    "Lei n.º 52/2019, art. 17.º, e pelos termos da EpT; republicação pendente da resposta da EpT"
+    "Registo de interesses da XVI e da XVII: Fonte: Entidade para a Transparência (EpT), "
+    "republicado ao abrigo da Lei n.º 52/2019, art. 15.º, n.º 1, e da Lei n.º 26/2016 (LADA), "
+    "art. 21.º, n.º 1, fora da licença dos marts. Ficam excluídos o NIF dos titulares, os dados "
+    "pessoais, os rendimentos e património, as filiações associativas e os anexos"
 )
 EPT_MODEL = re.compile(r"(?:^|_)ept_")
 REPO = "https://github.com/rfsbraz/parlamento-aberto"
 MAX_DROP = 0.05
 # Sources whose rows stay in the marts but out of the published files, with the reason. The
-# EpT register has no reuse authorisation yet (Lei n.º 52/2019, art. 17.º), so it is not
-# covered by CC BY 4.0.
+# EpT rows wait for the EpT data to be merged into data/ (LICENSE-DATA, point 3).
 EXCLUDED_SOURCES = {
     "ept": {
         "licence": "não publicado",
-        "terms": "Entidade para a Transparência, Lei n.º 52/2019, art. 17.º: sem autorização "
-        "de reutilização, fora da CC BY 4.0",
+        "terms": "Entidade para a Transparência, Lei n.º 52/2019, art. 15.º, n.º 1: fora da "
+        "CC BY 4.0, ainda sem os dados da EpT em data/",
     },
 }
 ACK = re.compile(r"^\s*[-*]\s*drift:\s*(\S+)\s+([^\s:]+)", re.MULTILINE)

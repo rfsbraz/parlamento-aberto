@@ -60,7 +60,7 @@ A EpT não tem id da AR. O `seed_ept_holders` (#47) faz corresponder cada id de 
 
 As declarações da XVI e da XVII entram em `interest_declarations` e `interests` com `source = 'ept'` e `format_version = 'EPT'` (#48). As colunas da AR vêm primeiro e pela mesma ordem; as colunas próprias da EpT vêm depois e são nulas nas linhas da AR. As declarações da entidade 510 anteriores à XVI ficam só em `stg_ept_registo_interesses__declarations`, porque a AR já as publica. O que muda face à AR está nas [lacunas conhecidas](../known-gaps.md#registo-de-interesses-da-ept-xvi-e-xvii) e no [dicionário de dados](../dictionary/interests.md).
 
-A publicação de dados deixa de fora as linhas com `source = 'ept'`, que não estão cobertas pela CC BY 4.0, e conta-as em `excluded_sources` no `manifest.json`. Os marts continuam a tê-las no build local.
+As linhas com `source = 'ept'` entram nos ficheiros publicados, fora da CC BY 4.0, com os termos do ponto 3 da `LICENSE-DATA` no cabeçalho do CSV e no `manifest.json`. Antes de escrever qualquer ficheiro, a publicação corre a verificação de fugas em cada linha da EpT: `entity_nipc` tem de ser vazio ou um NIPC de empresa válido, e nenhum outro valor pode ter 9 dígitos. Se alguma falhar, a publicação para e não escreve nada.
 
 ## Ordem de construção
 

@@ -30,6 +30,7 @@ from pathlib import Path
 import duckdb
 import yaml
 
+from parlamento_aberto import ept
 from parlamento_aberto.build import LAYERS, MODELS, build, load_schema
 from parlamento_aberto.datapr import CORE_DATASETS
 
@@ -68,15 +69,9 @@ EPT_TERMS = (
 EPT_MODEL = re.compile(r"(?:^|_)ept_")
 REPO = "https://github.com/rfsbraz/parlamento-aberto"
 MAX_DROP = 0.05
-# Sources whose rows stay in the marts but out of the published files, with the reason. The
-# EpT rows wait for the EpT data to be merged into data/ (LICENSE-DATA, point 3).
-EXCLUDED_SOURCES = {
-    "ept": {
-        "licence": "não publicado",
-        "terms": "Entidade para a Transparência, Lei n.º 52/2019, art. 15.º, n.º 1: fora da "
-        "CC BY 4.0, ainda sem os dados da EpT em data/",
-    },
-}
+# Sources whose rows stay in the marts but out of the published files, with the reason. None
+# now: the EpT rows are published citing the EpT (LICENSE-DATA, point 3), after check_ept_rows.
+EXCLUDED_SOURCES: dict[str, dict] = {}
 ACK = re.compile(r"^\s*[-*]\s*drift:\s*(\S+)\s+([^\s:]+)", re.MULTILINE)
 
 
@@ -180,11 +175,36 @@ def published(con: duckdb.DuckDBPyConnection, mart: str) -> str:
     cols = [c[0] for c in con.execute(f"describe {mart}").fetchall()]
     view = f"_release_{mart}"
     where = ""
-    if "source" in cols:
+    if "source" in cols and EXCLUDED_SOURCES:
         excluded = ", ".join(f"'{k}'" for k in EXCLUDED_SOURCES)
         where = f" where source not in ({excluded})"
     con.execute(f"create or replace temp view {view} as select * from {mart}{where}")
     return view
+
+
+def check_ept_rows(con: duckdb.DuckDBPyConnection, mart_names: list[str]) -> dict:
+    """Run the EpT leak guard on every EpT row about to be published, and count them.
+
+    ``entity_nipc`` must be empty or a valid company NIPC; every other value must pass
+    ``ept.assert_clean``. Raises ``ept.LeakError`` naming the mart and column, never the value.
+    """
+    counts = {}
+    for mart in mart_names:
+        rel = con.sql(f"select * from {mart} where source = 'ept'")
+        cols = rel.columns
+        n = 0
+        for values in rel.fetchall():
+            row = dict(zip(cols, values, strict=True))
+            nipc = row.pop("entity_nipc", None)
+            if nipc is not None and not ept.is_company_nipc(nipc):
+                raise ept.LeakError(f"{mart}: not a company NIPC in entity_nipc")
+            try:
+                ept.assert_clean({k: None if v is None else str(v) for k, v in row.items()})
+            except ept.LeakError as e:
+                raise ept.LeakError(f"{mart}: {e}") from None
+            n += 1
+        counts[mart] = n
+    return counts
 
 
 def excluded_rows(con: duckdb.DuckDBPyConnection) -> dict:
@@ -365,6 +385,8 @@ def cmd_build(a) -> int:
     prev_excerpt = _read(Path(a.previous) / "CHANGELOG.md") if a.previous else None
 
     con = build(data)
+    # Stops the build before anything is written if an EpT row carries a tax number.
+    check_ept_rows(con, [m for m in marts() if ept_derived(m)])
     updated = source_updated(data)
     with tempfile.TemporaryDirectory() as tmp:
         staging = Path(tmp)

@@ -12,6 +12,7 @@ from pathlib import Path
 
 import duckdb
 import pytest
+from test_ept_fetch import PLANTED
 
 from parlamento_aberto import ept, release
 from parlamento_aberto.build import _model_sql, build, load_schema
@@ -252,7 +253,7 @@ def test_the_nipc_column_reaches_the_mart_and_nothing_else_has_nine_digits(con):
         ept.assert_clean({k: None if v is None else str(v) for k, v in row.items()})
 
 
-# Release: EpT rows stay out of the CC BY assets
+# Release: EpT rows are published citing the EpT, and only once they pass the leak check
 
 
 @pytest.fixture(scope="module")
@@ -266,20 +267,55 @@ def built(tmp_path_factory):
     return out
 
 
-def test_release_leaves_out_ept_rows(built):
+def test_release_publishes_ept_rows(built):
     m = json.loads((built / "manifest.json").read_text())
-    assert m["excluded_sources"]["ept"]["licence"] != "CC BY 4.0"
-    assert "52/2019" in m["excluded_sources"]["ept"]["terms"]
-    for mart in ("interest_declarations", "interests"):
+    assert m["excluded_sources"] == {}
+    for mart, n in {"interest_declarations": 4, "interests": 11}.items():
         p = built / f"{mart}.parquet"
-        assert duckdb.sql(f"select count(*) from '{p}' where source = 'ept'").fetchone() == (0,)
+        assert duckdb.sql(f"select count(*) from '{p}' where source = 'ept'").fetchone() == (n,)
         assert m["marts"][mart]["rows"] == duckdb.sql(f"select count(*) from '{p}'").fetchone()[0]
         with gzip.open(built / f"{mart}.csv.gz", "rt", encoding="utf-8") as f:
             text = f.read()
-        assert ",ept," not in text and "ept:" not in text
-    assert "XVI" not in (m["marts"]["interest_declarations"]["rows_by_legislature"] or {})
+        assert ",ept," in text and "ept:" in text
+    by_leg = m["marts"]["interest_declarations"]["rows_by_legislature"]
+    assert {"XVI", "XVII"} & set(by_leg)
 
 
-def test_release_excluded_counts_are_reported(built):
-    m = json.loads((built / "manifest.json").read_text())
-    assert m["excluded_sources"]["ept"]["rows"] == {"interest_declarations": 4, "interests": 11}
+def test_published_ept_rows_pass_the_leak_check(built):
+    for mart in ("interest_declarations", "interests"):
+        p = built / f"{mart}.parquet"
+        rel = duckdb.sql(f"select * from '{p}' where source = 'ept'")
+        cols = rel.columns
+        for values in rel.fetchall():
+            row = dict(zip(cols, values, strict=True))
+            nipc = row.pop("entity_nipc", None)
+            assert nipc is None or ept.is_company_nipc(nipc)
+            ept.assert_clean({k: None if v is None else str(v) for k, v in row.items()})
+
+
+def _mart(rows):
+    con = duckdb.connect()
+    con.execute("create table interests (source varchar, entity_nipc varchar, description varchar)")
+    con.executemany("insert into interests values (?, ?, ?)", rows)
+    return con
+
+
+@pytest.mark.parametrize(
+    "row",
+    [
+        ("ept", None, f"Pessoa {PLANTED}"),
+        ("ept", PLANTED, "Empresa"),
+    ],
+    ids=["nine-digit-value", "not-a-company-nipc"],
+)
+def test_release_stops_on_a_tax_number_in_an_ept_row(row):
+    with pytest.raises(ept.LeakError) as e:
+        release.check_ept_rows(_mart([row]), ["interests"])
+    assert PLANTED not in str(e.value)
+    assert "interests" in str(e.value)
+
+
+def test_leak_check_passes_clean_ept_rows_and_skips_ar_rows():
+    nipc = next(f"50000000{d}" for d in range(10) if ept.is_company_nipc(f"50000000{d}"))
+    con = _mart([("ept", nipc, "Empresa"), ("ept", None, None), ("ar", None, f"ref {PLANTED}")])
+    assert release.check_ept_rows(con, ["interests"]) == {"interests": 2}

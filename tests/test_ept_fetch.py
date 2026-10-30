@@ -632,20 +632,33 @@ def test_strip_keeps_the_visible_cells_of_tabs_2_and_3():
     out = ept.strip(raw_with_tabs())
     ept.assert_clean(out)
     assert out["tab2"] == [
-        {"path": "0.0", "section": None, "column": None, "value": "Pessoa Sintética"},
-        {"path": "0.3", "section": None, "column": None, "value": "contribuinte [removido]"},
-        {"path": "0.4", "section": None, "column": None, "value": 3},
+        {
+            "path": "0.0",
+            "section": None,
+            "column": None,
+            "label": "Nome Completo",
+            "value": "Pessoa Sintética",
+        },
+        {
+            "path": "0.3",
+            "section": None,
+            "column": None,
+            "label": "Naturalidade",
+            "value": "contribuinte [removido]",
+        },
+        {"path": "0.4", "section": None, "column": None, "label": None, "value": 3},
     ]
     sec = "real_estate_portugal"
     assert out["tab3"] == [
-        {"path": "0.0.0.0", "section": sec, "column": "col1", "value": "Urbano"},
-        {"path": "0.0.0.1", "section": sec, "column": "col5", "value": 125000.5},
-        {"path": "0.0.0.2", "section": sec, "column": "col6", "value": "[removido]"},
-        {"path": "0.0.0.3", "section": sec, "column": "col7", "value": "[removido]"},
+        {"path": "0.0.0.0", "section": sec, "column": "col1", "label": None, "value": "Urbano"},
+        {"path": "0.0.0.1", "section": sec, "column": "col5", "label": None, "value": 125000.5},
+        {"path": "0.0.0.2", "section": sec, "column": "col6", "label": None, "value": "[removido]"},
+        {"path": "0.0.0.3", "section": sec, "column": "col7", "label": None, "value": "[removido]"},
         {
             "path": "0.1.0.0",
             "section": "financial_investments_portugal",
             "column": "col2",
+            "label": None,
             "value": "Fundo",
         },
     ]
@@ -674,6 +687,13 @@ def test_hidden_tab_keeps_nothing():
             t["isVisible"] = False
     out = ept.strip(raw)
     assert out["tab2"] == [] and out["tab3"] == []
+
+
+def test_field_labels_are_the_form_labels_and_never_hold_nine_digits():
+    assert ept.FIELD_LABELS["c0a2f813-fb84-4923-b7a1-55cef0c5fc1b"] == "Nome Completo"
+    assert len(ept.FIELD_LABELS) == 63
+    for key, label in ept.FIELD_LABELS.items():
+        assert not ept.NINE.search(label), key
 
 
 def test_table_section_names_never_hold_nine_digits():

@@ -94,6 +94,8 @@ FIELD_TABS = {"tab2": TAB2, "tab3": TAB3}
 # The holder's NIF in tab 2 ("Número de Identificação Fiscal (NIF)"). Never kept, shown or not.
 HOLDER_NIF_CELLS = {"d155af2b-21e9-475f-be81-8e42bc5a5641"}
 COLUMN = re.compile(r"-(col\d+)$")
+# Form label of each EpT input, from the EpT web form (inputKey -> label). Labels only.
+FIELD_LABELS = json.loads((Path(__file__).parent / "ept_labels.json").read_text(encoding="utf-8"))
 ATTACHMENT_KEYS = ("name", "size", "format", "sectionType", "observations")
 TAB4_GROUP = "88ff2a6e-3702-4687-9f05-2738f70ccbd0"
 # Filiação ou funções em entidades de natureza associativa. Stored under ``associations``,
@@ -362,7 +364,15 @@ def _fields(node, tab: str, path: str, section, out: list) -> None:
     if v is None:
         return
     m = COLUMN.search(key)
-    out.append({"path": path, "section": section, "column": m.group(1) if m else None, "value": v})
+    out.append(
+        {
+            "path": path,
+            "section": section,
+            "column": m.group(1) if m else None,
+            "label": FIELD_LABELS.get(key),
+            "value": v,
+        }
+    )
 
 
 def _attachments(items) -> list:

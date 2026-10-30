@@ -62,8 +62,7 @@ RAW_TERMS = (
 EPT_TERMS = (
     "Registo de interesses da XVI e da XVII: Fonte: Entidade para a Transparência (EpT), "
     "republicado ao abrigo da Lei n.º 52/2019, art. 15.º, n.º 1, e da Lei n.º 26/2016 (LADA), "
-    "art. 21.º, n.º 1, fora da licença dos marts. Ficam excluídos o NIF dos titulares, os dados "
-    "pessoais, os rendimentos e património, as filiações associativas e os anexos"
+    "art. 21.º, n.º 1, fora da licença dos marts. Fica excluído apenas o NIF dos titulares"
 )
 EPT_MODEL = re.compile(r"(?:^|_)ept_")
 REPO = "https://github.com/rfsbraz/parlamento-aberto"

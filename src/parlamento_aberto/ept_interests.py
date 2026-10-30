@@ -21,6 +21,7 @@ interests.py (same column names where the meaning is the same), plus the EpT-onl
 
 import datetime as dt
 import json
+import re
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -496,8 +497,21 @@ def resolve_chains(decls: list[dict]) -> list[dict]:
     return decls
 
 
+# Lei n.º 52/2019, art. 17.º, n.º 2, al. a): an email is never public. EpT shows some in
+# free-text fields, so a row with one fails the build rather than being published.
+EMAIL = re.compile(r"[\w.+-]+@[\w-]+(\.[\w-]+)+")
+
+
+def _assert_no_email(rows: list[dict], what: str) -> None:
+    for i, row in enumerate(rows):
+        for k, v in row.items():
+            if isinstance(v, str) and EMAIL.search(v):
+                raise ept.LeakError(f"email at {what}[{i}].{k}")
+
+
 def assert_rows_clean(decls: list[dict], items: list[dict]) -> None:
-    """No nif, no personal-range value, no 9 digits outside entity_nipc."""
+    """No nif, no personal-range value, no 9 digits outside entity_nipc, no email."""
+    _assert_no_email(items, "items")
     ept.assert_clean([{k: str(v) if v is not None else None for k, v in d.items()} for d in decls])
     for i, row in enumerate(items):
         nipc = row.get("entity_nipc")
@@ -508,7 +522,8 @@ def assert_rows_clean(decls: list[dict], items: list[dict]) -> None:
 
 
 def assert_extra_rows_clean(rows: list[dict]) -> None:
-    """No nif and no 9 digits anywhere in the field or attachment rows."""
+    """No nif, no 9 digits and no email anywhere in the field or attachment rows."""
+    _assert_no_email(rows, "rows")
     ept.assert_clean([{k: str(v) if v is not None else None for k, v in r.items()} for r in rows])
 
 

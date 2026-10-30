@@ -254,7 +254,11 @@ def test_the_nipc_column_reaches_the_mart_and_nothing_else_has_nine_digits(con):
 
 # Tabs 2 and 3 and the attachment metadata (#148)
 
-EXTRA_MARTS = ("interest_declaration_fields", "interest_declaration_attachments")
+EXTRA_MARTS = (
+    "interest_declaration_fields",
+    "interest_declaration_attachments",
+    "interest_associations",
+)
 
 
 def test_field_and_attachment_marts_follow_schema_and_scope(con):
@@ -271,6 +275,11 @@ def test_field_and_attachment_marts_follow_schema_and_scope(con):
         "select legislature, declaration_key, name, size_bytes "
         "from interest_declaration_attachments",
     ) == [("XVII", "ept:902", "anexo-sintetico.pdf", 2048)]
+    assert rows(
+        con,
+        "select legislature, declaration_key, category, entity, entity_nipc "
+        "from interest_associations",
+    ) == [("XVII", "ept:902", "association", "Associação Sintética", None)]
 
 
 def test_field_and_attachment_marts_have_no_nine_digits(con):
@@ -280,6 +289,8 @@ def test_field_and_attachment_marts_have_no_nine_digits(con):
         for r in cur.fetchall():
             row = dict(zip(names, r, strict=True))
             assert row["source"] == "ept"
+            nipc = row.pop("entity_nipc", None)
+            assert nipc is None or ept.is_company_nipc(nipc)
             ept.assert_clean({k: None if v is None else str(v) for k, v in row.items()})
 
 
@@ -318,4 +329,5 @@ def test_release_excluded_counts_are_reported(built):
         "interests": 11,
         "interest_declaration_fields": 5,
         "interest_declaration_attachments": 1,
+        "interest_associations": 1,
     }

@@ -296,10 +296,9 @@ def test_an_association_section_is_never_parsed():
         parse(rec)
 
 
-def test_no_fixture_holds_an_association_section():
+def test_no_fixture_holds_the_association_section_inside_tab4():
     for f in sorted(ROOT.rglob("*.json")):
-        text = f.read_text()
-        assert ASSOC not in text and "Associa" not in text, f.name
+        assert ASSOC not in f.read_text(), f.name
 
 
 @pytest.mark.parametrize("base8", ["8" + "1" * 7, "90" + "1" * 6, "91" + "1" * 6, "77" + "1" * 6])
@@ -368,6 +367,41 @@ def test_a_nine_digit_value_in_tabs_2_and_3_fails(tmp_path):
         ept_interests.assert_extra_rows_clean([{"value": with_check("2" + "1" * 7)}])
 
 
+# Associations, kept apart so they can be dropped on their own (#148)
+
+
+def test_association_rows_use_the_item_columns():
+    rows = ept_interests.parse_associations(load(902, 4508), "XVII", "x")
+    assert len(rows) == 1
+    row = rows[0]
+    assert list(row) == list(ept_interests.ITEM_COLUMNS)
+    assert row["category"] == "association"
+    assert row["source_list"] == "Filiação ou funções em entidades de natureza associativa"
+    assert (row["description"], row["entity"], row["location"]) == (
+        "Vogal sintético",
+        "Associação Sintética",
+        "Lisboa",
+    )
+    assert (row["paid_raw"], row["start_date"], row["entity_nipc"]) == ("0", "2025-06-03", None)
+    assert (row["declaration_key"], row["item_number"], row["source"]) == ("ept:902", 1, "ept")
+
+
+def test_an_association_keeps_a_company_nipc_and_fails_on_a_personal_nif():
+    rec = load(902, 4508)
+    rec["associations"][0]["col8"] = with_check("5" + "1" * 7)
+    assert ept_interests.parse_associations(rec, "XVII", "x")[0]["entity_nipc"] == with_check(
+        "5" + "1" * 7
+    )
+    rec["associations"][0]["col8"] = with_check("2" + "1" * 7)
+    with pytest.raises(ept.LeakError):
+        ept_interests.parse_associations(rec, "XVII", "x")
+
+
+def test_the_items_never_hold_an_association():
+    _, items = ept_interests.read_all(FIX, RANGES)
+    assert "association" not in {i["category"] for i in items}
+
+
 def test_no_dataset_folder_gives_empty_tables(tmp_path):
     assert ept_interests.read_all(tmp_path, RANGES) == ([], [])
 
@@ -409,6 +443,12 @@ def test_build_writes_both_staging_tables(con):
 EXTRA_TABLES = ("stg_ept_registo_interesses__fields", "stg_ept_registo_interesses__attachments")
 
 
+def test_build_writes_the_association_table(con):
+    assert con.execute(
+        "select declaration_key, category, entity from stg_ept_registo_interesses__associations"
+    ).fetchall() == [("ept:902", "association", "Associação Sintética")]
+
+
 def test_build_writes_the_field_and_attachment_tables(con):
     fields = con.execute(
         "select declaration_key, tab, count(*) from stg_ept_registo_interesses__fields "
@@ -426,6 +466,7 @@ def test_staging_columns_match_schema_yml(con):
     for table in (
         "stg_ept_registo_interesses__declarations",
         "stg_ept_registo_interesses__items",
+        "stg_ept_registo_interesses__associations",
         *EXTRA_TABLES,
     ):
         cols = [r[0] for r in con.execute(f"describe {table}").fetchall()]
@@ -433,13 +474,17 @@ def test_staging_columns_match_schema_yml(con):
 
 
 def test_built_tables_pass_the_leak_guard(con):
-    for table in ("stg_ept_registo_interesses__declarations", "stg_ept_registo_interesses__items"):
+    for table in (
+        "stg_ept_registo_interesses__declarations",
+        "stg_ept_registo_interesses__items",
+        "stg_ept_registo_interesses__associations",
+    ):
         cur = con.execute(f"select * from {table}")
         names = [d[0] for d in cur.description]
         rows = [dict(zip(names, r, strict=True)) for r in cur.fetchall()]
         ept_interests.assert_rows_clean(
             rows if table.endswith("declarations") else [],
-            rows if table.endswith("items") else [],
+            rows if table.endswith(("items", "associations")) else [],
         )
     for table in EXTRA_TABLES:
         cur = con.execute(f"select * from {table}")

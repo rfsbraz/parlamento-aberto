@@ -32,6 +32,7 @@ BUILT_ALONGSIDE = {
     "stg_ept_registo_interesses__items",
     "stg_ept_registo_interesses__fields",
     "stg_ept_registo_interesses__attachments",
+    "stg_ept_registo_interesses__associations",
 }
 # Extra read_csv options per seed, for columns the type sniffer would get wrong.
 SEED_OPTIONS = {

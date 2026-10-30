@@ -173,6 +173,7 @@ def test_only_the_interest_marts_are_ept_derived_and_their_ept_rows_stay_out_of_
         "interests",
         "interest_declaration_fields",
         "interest_declaration_attachments",
+        "interest_associations",
     ]
     assert [m for m in release.marts() if release.ept_derived(m)] == ept_marts
     m = json.loads((built / "manifest.json").read_text())

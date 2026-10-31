@@ -916,26 +916,7 @@
      "ActTpdesc": "Voto"
     }
    ],
-   "Audicoes": [
-    {
-     "AccDtaud": null,
-     "ActAs": null,
-     "ActDtdes1": null,
-     "ActDtdes2": null,
-     "ActDtent": null,
-     "ActId": null,
-     "ActLg": null,
-     "ActLoc": null,
-     "ActNr": null,
-     "ActSl": null,
-     "ActTp": null,
-     "ActTpdesc": null,
-     "CmsAb": null,
-     "CmsNo": null,
-     "NomeEntidadeExterna": null,
-     "TevTp": null
-    }
-   ],
+   "Audicoes": null,
    "Audiencias": null,
    "Cms": [
     {
@@ -4230,6 +4211,18 @@
      "TinDs": "Pedido de esclarecimento"
     },
     {
+     "IntId": "505534",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": null,
+     "PubDar": "59-60",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
      "IntId": "505212",
      "IntSu": "Sobre o “Custo de Vida”\n",
      "IntTe": "Formulou um pedido de esclarecimento ao deputado José Luís Carneiro (PS)",
@@ -6800,12 +6793,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": "Lisboa",
-     "Data": "2025-12-09",
-     "Estabelecimento": "Externato de Penafirme",
-     "Legislatura": "XVII",
-     "Sessao": "Secundário",
-     "TipoReuniao": "Debate na Escola"
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
     }
    ],
    "Rel": {
@@ -11727,7 +11720,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-29",
+    "GpDtFim": "2026-10-30",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

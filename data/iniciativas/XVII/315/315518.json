@@ -1562,18 +1562,27 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a41784d4463794e546b334c574e684e5441744e444d774d5331685a5749334c5446694d5467785a545a6a4f5751774e79356b62324e34&fich=01072597-ca50-4301-aeb7-1b181e6c9d07.docx&Inline=true",
+     "anexoNome": "Informação de redação final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49354d6a67334d44646c4c5755325a4441744e474a6a4e6930344d446b334c5451774d446c6d4d445134593245325969356b62324e34&fich=2928707e-e6d0-4bc6-8097-4009f048ca6b.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
-     "AccId": "119977",
+     "AccId": "120006",
      "AguardaAgendamentoPlenario": null,
      "Audicoes": null,
      "Audiencias": null,
      "Competente": "S",
      "DataAgendamentoDiscussao": null,
      "DataAgendamentoPlenario": "0001-01-01T00:00:00",
-     "DataDistribuicao": "2026-10-19",
+     "DataDistribuicao": "2026-10-29",
      "DataDistruibuicaoSubcomissao": null,
      "DataEntrada": null,
      "DataMotivoNaoParecer": null,
@@ -1604,7 +1613,7 @@
      "Votacao": null
     }
    ],
-   "DataFase": "2026-10-19",
+   "DataFase": "2026-10-29",
    "EvtId": "133",
    "Fase": "Envio à Comissão para fixação da Redação final",
    "IniciativasConjuntas": null,

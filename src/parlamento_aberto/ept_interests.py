@@ -1,7 +1,8 @@
 """Python model: read the EpT register of interests (#46) into declarations and items.
 
 Input is the fetcher's output (#44), data/ept_registo_interesses/<entity>/<id // 1000>/<id>.json,
-already stripped to metadata and tab 4. Rows line up with the XI to XV staging tables in
+already stripped of the holder's NIF and of every 9-digit value outside the NIPC columns. Rows
+line up with the XI to XV staging tables in
 interests.py (same column names where the meaning is the same), plus the EpT-only columns.
 
 - Only Deputado (8) and Deputada (232) declarations are read. Presidente da Assembleia da
@@ -229,6 +230,33 @@ EXAMPLE_ITEM_KEYS = (
     "end_date_raw",
 )
 BOOLEAN_FIELDS = {"is_professional_secrecy"}
+# Tabs 2 and 3 by position (#148). The EpT keys are never stored: some GUIDs read as 9 digits.
+FIELD_COLUMNS = {
+    "declaration_key": "VARCHAR",
+    "field_number": "INTEGER",
+    "tab": "VARCHAR",
+    "path": "VARCHAR",
+    "section": "VARCHAR",
+    "column_name": "VARCHAR",
+    "label": "VARCHAR",
+    "value": "VARCHAR",
+    "legislature": "VARCHAR",
+    "source": "VARCHAR",
+    "source_file": "VARCHAR",
+}
+# Attachment metadata only: the public API serves no file.
+ATTACHMENT_COLUMNS = {
+    "declaration_key": "VARCHAR",
+    "attachment_number": "INTEGER",
+    "name": "VARCHAR",
+    "size_bytes": "BIGINT",
+    "format": "VARCHAR",
+    "section_type": "VARCHAR",
+    "observations": "VARCHAR",
+    "legislature": "VARCHAR",
+    "source": "VARCHAR",
+    "source_file": "VARCHAR",
+}
 
 Ranges = list[tuple[str, dt.date, dt.date | None]]
 
@@ -281,12 +309,19 @@ def _enum(table: dict, value, what: str) -> str:
 
 
 def _items(tab4: dict | None, key: str, legislature: str | None, source_file: str) -> list[dict]:
-    items = []
+    sections = []
     for guid, rows in (tab4 or {}).items():
         if guid not in SECTION_FIELDS:
             raise EptParseError(f"declaration {key}: unknown tab 4 section {guid}")
         category, nif_col, _ = ept.SECTIONS[guid]
-        label, fields = SECTION_FIELDS[guid]
+        sections.append((category, *SECTION_FIELDS[guid], nif_col, rows))
+    return _item_rows(sections, key, legislature, source_file)
+
+
+def _item_rows(sections, key: str, legislature: str | None, source_file: str) -> list[dict]:
+    """sections: (category, source_list, {column: field}, NIPC column, rows)."""
+    items = []
+    for category, label, fields, nif_col, rows in sections:
         for row in rows:
             item = {
                 "category": category,
@@ -313,6 +348,34 @@ def _items(tab4: dict | None, key: str, legislature: str | None, source_file: st
         )
         out.append(row)
     return out
+
+
+# The associations section of tab 4 (Reg. EpT 258/2024, art. 15.º, n.º 1, al. b)), kept in a
+# table of its own (#148) so it can be dropped without touching the other sections.
+ASSOCIATION_FIELDS = {
+    "col1": "description",
+    "col2": "entity",
+    "col3": "activity_area",
+    "col4": "location",
+    "col5": "paid_raw",
+    "col6": "start_date_raw",
+    "col7": "end_date_raw",
+}
+assert set(ASSOCIATION_FIELDS) == set(ept.ASSOCIATION_COLS)
+
+
+def parse_associations(rec: dict, legislature: str | None, source_file: str) -> list[dict]:
+    """Item rows, category association, for the stored associations section."""
+    section = (
+        "association",
+        "Filiação ou funções em entidades de natureza associativa",
+        ASSOCIATION_FIELDS,
+        ept.ASSOCIATION_NIPC,
+        rec.get("associations") or [],
+    )
+    rows = _item_rows([section], f"ept:{rec['id']}", legislature, source_file)
+    assert_rows_clean([], rows)
+    return rows
 
 
 def parse_declaration(rec: dict, ranges: Ranges, source_file: str) -> tuple[dict, list[dict]]:
@@ -351,6 +414,54 @@ def parse_declaration(rec: dict, ranges: Ranges, source_file: str) -> tuple[dict
         retrieved_at=_text(rec.get("retrieved_at")),
     )
     return decl, items
+
+
+def parse_fields(rec: dict, legislature: str | None, source_file: str) -> list[dict]:
+    """One row per stored cell of tabs 2 and 3, in file order."""
+    ept.assert_clean(rec)
+    rows = []
+    for tab in ("tab2", "tab3"):
+        for f in rec.get(tab) or []:
+            rows.append(
+                {
+                    "declaration_key": f"ept:{rec['id']}",
+                    "field_number": len(rows) + 1,
+                    "tab": tab,
+                    "path": f["path"],
+                    "section": f.get("section"),
+                    "column_name": f.get("column"),
+                    "label": f.get("label"),
+                    "value": _text(f.get("value")),
+                    "legislature": legislature,
+                    "source": "ept",
+                    "source_file": source_file,
+                }
+            )
+    return rows
+
+
+def _int(v) -> int | None:
+    return v if isinstance(v, int) and not isinstance(v, bool) else None
+
+
+def parse_attachments(rec: dict, legislature: str | None, source_file: str) -> list[dict]:
+    """One row per attachment: name, size, format, section and observations."""
+    ept.assert_clean(rec)
+    return [
+        {
+            "declaration_key": f"ept:{rec['id']}",
+            "attachment_number": n,
+            "name": _text(a.get("name")),
+            "size_bytes": _int(a.get("size")),
+            "format": _text(a.get("format")),
+            "section_type": _text(a.get("sectionType")),
+            "observations": _text(a.get("observations")),
+            "legislature": legislature,
+            "source": "ept",
+            "source_file": source_file,
+        }
+        for n, a in enumerate(rec.get("attachments") or [], 1)
+    ]
 
 
 def resolve_chains(decls: list[dict]) -> list[dict]:
@@ -398,15 +509,24 @@ def assert_rows_clean(decls: list[dict], items: list[dict]) -> None:
         ept.assert_clean(rest, f"items[{i}]")
 
 
-def read_all(data_dir: Path | str, ranges: Ranges) -> tuple[list[dict], list[dict]]:
-    data_dir = Path(data_dir)
+def assert_extra_rows_clean(rows: list[dict]) -> None:
+    """No nif and no 9 digits anywhere in the field or attachment rows."""
+    ept.assert_clean([{k: str(v) if v is not None else None for k, v in r.items()} for r in rows])
+
+
+def _records(data_dir: Path):
+    """(source_file, record) for every deputy declaration, by id."""
     root = data_dir / ept.DATASET
-    decls, items = [], []
     for path in sorted(root.glob("*/*/*.json"), key=lambda p: int(p.stem)):
         rec = json.loads(path.read_text(encoding="utf-8"))
-        if rec.get("roleId") not in ROLES:
-            continue
-        d, i = parse_declaration(rec, ranges, path.relative_to(data_dir).as_posix())
+        if rec.get("roleId") in ROLES:
+            yield path.relative_to(data_dir).as_posix(), rec
+
+
+def read_all(data_dir: Path | str, ranges: Ranges) -> tuple[list[dict], list[dict]]:
+    decls, items = [], []
+    for source_file, rec in _records(Path(data_dir)):
+        d, i = parse_declaration(rec, ranges, source_file)
         decls.append(d)
         items += i
     resolve_chains(decls)
@@ -414,8 +534,26 @@ def read_all(data_dir: Path | str, ranges: Ranges) -> tuple[list[dict], list[dic
     return decls, items
 
 
+def read_extras(
+    data_dir: Path | str, decls: list[dict]
+) -> tuple[list[dict], list[dict], list[dict]]:
+    """(field, attachment, association) rows, with the legislature of each declaration row."""
+    legislature = {d["declaration_key"]: d["legislature"] for d in decls}
+    fields, attachments, associations = [], [], []
+    for source_file, rec in _records(Path(data_dir)):
+        leg = legislature[f"ept:{rec['id']}"]
+        fields += parse_fields(rec, leg, source_file)
+        attachments += parse_attachments(rec, leg, source_file)
+        associations += parse_associations(rec, leg, source_file)
+    assert_extra_rows_clean(fields)
+    assert_extra_rows_clean(attachments)
+    assert_rows_clean([], associations)
+    return fields, attachments, associations
+
+
 def build_ept_tables(con: duckdb.DuckDBPyConnection, data_dir: str) -> None:
-    """Writes stg_ept_registo_interesses__declarations and __items."""
+    """Writes stg_ept_registo_interesses__declarations, __items, __fields, __attachments and
+    __associations."""
     ranges = [
         (leg, start, end)
         for leg, start, end in con.execute(
@@ -425,3 +563,7 @@ def build_ept_tables(con: duckdb.DuckDBPyConnection, data_dir: str) -> None:
     decls, items = read_all(data_dir, ranges)
     _write_table(con, "stg_ept_registo_interesses__declarations", decls, DECLARATION_COLUMNS)
     _write_table(con, "stg_ept_registo_interesses__items", items, ITEM_COLUMNS)
+    fields, attachments, associations = read_extras(data_dir, decls)
+    _write_table(con, "stg_ept_registo_interesses__fields", fields, FIELD_COLUMNS)
+    _write_table(con, "stg_ept_registo_interesses__attachments", attachments, ATTACHMENT_COLUMNS)
+    _write_table(con, "stg_ept_registo_interesses__associations", associations, ITEM_COLUMNS)

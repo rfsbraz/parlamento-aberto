@@ -252,6 +252,48 @@ def test_the_nipc_column_reaches_the_mart_and_nothing_else_has_nine_digits(con):
         ept.assert_clean({k: None if v is None else str(v) for k, v in row.items()})
 
 
+# Tabs 2 and 3 and the attachment metadata (#148)
+
+EXTRA_MARTS = (
+    "interest_declaration_fields",
+    "interest_declaration_attachments",
+    "interest_associations",
+)
+
+
+def test_field_and_attachment_marts_follow_schema_and_scope(con):
+    for mart in EXTRA_MARTS:
+        assert cols(con, mart) == list(load_schema()[mart]["columns"]), mart
+        assert cols(con, mart)[:3] == ["legislature", "declaration_key", "cadastro_id"]
+    assert rows(
+        con,
+        "select legislature, declaration_key, tab, count(*) "
+        "from interest_declaration_fields group by all order by all",
+    ) == [("XVII", "ept:902", "tab2", 2), ("XVII", "ept:902", "tab3", 3)]
+    assert rows(
+        con,
+        "select legislature, declaration_key, name, size_bytes "
+        "from interest_declaration_attachments",
+    ) == [("XVII", "ept:902", "anexo-sintetico.pdf", 2048)]
+    assert rows(
+        con,
+        "select legislature, declaration_key, category, entity, entity_nipc "
+        "from interest_associations",
+    ) == [("XVII", "ept:902", "association", "Associação Sintética", None)]
+
+
+def test_field_and_attachment_marts_have_no_nine_digits(con):
+    for mart in EXTRA_MARTS:
+        cur = con.execute(f"select * from {mart}")
+        names = [d[0] for d in cur.description]
+        for r in cur.fetchall():
+            row = dict(zip(names, r, strict=True))
+            assert row["source"] == "ept"
+            nipc = row.pop("entity_nipc", None)
+            assert nipc is None or ept.is_company_nipc(nipc)
+            ept.assert_clean({k: None if v is None else str(v) for k, v in row.items()})
+
+
 # Release: EpT rows stay out of the CC BY assets
 
 
@@ -270,7 +312,7 @@ def test_release_leaves_out_ept_rows(built):
     m = json.loads((built / "manifest.json").read_text())
     assert m["excluded_sources"]["ept"]["licence"] != "CC BY 4.0"
     assert "52/2019" in m["excluded_sources"]["ept"]["terms"]
-    for mart in ("interest_declarations", "interests"):
+    for mart in ("interest_declarations", "interests", *EXTRA_MARTS):
         p = built / f"{mart}.parquet"
         assert duckdb.sql(f"select count(*) from '{p}' where source = 'ept'").fetchone() == (0,)
         assert m["marts"][mart]["rows"] == duckdb.sql(f"select count(*) from '{p}'").fetchone()[0]
@@ -282,4 +324,10 @@ def test_release_leaves_out_ept_rows(built):
 
 def test_release_excluded_counts_are_reported(built):
     m = json.loads((built / "manifest.json").read_text())
-    assert m["excluded_sources"]["ept"]["rows"] == {"interest_declarations": 4, "interests": 11}
+    assert m["excluded_sources"]["ept"]["rows"] == {
+        "interest_declarations": 4,
+        "interests": 11,
+        "interest_declaration_fields": 5,
+        "interest_declaration_attachments": 1,
+        "interest_associations": 1,
+    }

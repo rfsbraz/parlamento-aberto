@@ -56,6 +56,10 @@ A sexta secção, `cd0e811a-d9bb-49ee-b0f0-1dae0680eb22` (Filiação ou funçõe
 
 A EpT não tem id da AR. O `seed_ept_holders` (#47) faz corresponder cada id de titular da EpT a um `cadastro_id` pelo nome completo normalizado, comparado com a InformacaoBase (XVII para a entidade 4508, XIV a XVI para a 510), com uma correção mantida à mão para cada titular que a comparação de nomes deixa sem correspondência ou ambíguo. O RegistoBiografico da XVI é uma cópia do registo da XVII (ver [lacunas conhecidas](../known-gaps.md)), por isso não é usado para a 510.
 
+## Sincronização semanal
+
+O `.github/workflows/ept-sync.yml` (#45) corre à segunda-feira às 07:15 de Lisboa (06:15 no inverno), no ramo `data/ept`. Recolhe com `python -m parlamento_aberto.ept fetch` e corre `python -m parlamento_aberto.ept_sync check`, que falha com qualquer chave `nif`, valor da gama pessoal, valor de 9 dígitos fora da coluna NIPC ou ficheiro fora do formato. Só depois faz commit de `data/ept_registo_interesses` e abre ou atualiza um único PR de dados, com as contagens no corpo. Enquanto o conjunto não está no `main`, o PR fica com `hold: new-dataset`. O `data-merge.yml` só faz merge dos dados da AR, por isso sou eu que faço o merge deste PR. Cada declaração guarda `retrieved_at`, o dia (Lisboa) em que foi obtida. Como só se volta a obter quando o estado muda, é o dia da primeira recolha desse estado.
+
 ## Nos marts
 
 As declarações da XVI e da XVII entram em `interest_declarations` e `interests` com `source = 'ept'` e `format_version = 'EPT'` (#48). As colunas da AR vêm primeiro e pela mesma ordem; as colunas próprias da EpT vêm depois e são nulas nas linhas da AR. As declarações da entidade 510 anteriores à XVI ficam só em `stg_ept_registo_interesses__declarations`, porque a AR já as publica. O que muda face à AR está nas [lacunas conhecidas](../known-gaps.md#registo-de-interesses-da-ept-xvi-e-xvii) e no [dicionário de dados](../dictionary/interests.md).

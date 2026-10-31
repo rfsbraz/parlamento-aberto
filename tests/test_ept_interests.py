@@ -375,3 +375,9 @@ def test_fixtures_are_clean_and_synthetic():
         text = f.read_text()
         ept.assert_clean(json.loads(text))
         assert "Pessoa Sintética" in text and "nif" not in text.lower()
+
+
+def test_retrieved_at_carries_through():
+    decl, _ = parse({**load(902, 4508), "retrieved_at": "2026-10-20"})
+    assert decl["retrieved_at"] == "2026-10-20"
+    assert parse(load(902, 4508))[0]["retrieved_at"] is None

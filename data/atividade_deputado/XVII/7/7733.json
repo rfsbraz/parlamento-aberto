@@ -3,7 +3,26 @@
   {
    "ActP": null,
    "Audicoes": null,
-   "Audiencias": null,
+   "Audiencias": [
+    {
+     "AccDtaud": null,
+     "ActAs": null,
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": null,
+     "ActLg": null,
+     "ActLoc": null,
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": null,
+     "ActTpdesc": null,
+     "CmsAb": null,
+     "CmsNo": null,
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    }
+   ],
    "Cms": null,
    "DadosLegisDeputado": null,
    "Deslocacoes": null,
@@ -13,16 +32,7 @@
    "Gpa": null,
    "Ini": null,
    "Intev": null,
-   "ParlamentoJovens": [
-    {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
-    }
-   ],
+   "ParlamentoJovens": null,
    "Rel": {
     "AutoresPareceresIncImu": null,
     "RelatoresContasPublicas": null,
@@ -41,7 +51,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-29",
+    "GpDtFim": "2026-10-30",
     "GpDtInicio": "2025-06-03",
     "GpId": 7264.0,
     "GpSigla": "IL"

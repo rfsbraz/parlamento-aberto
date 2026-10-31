@@ -3862,6 +3862,16 @@
    ],
    "DlE": [
     {
+     "DevDtfim": "2026-11-06 00:00:00.0",
+     "DevDtini": "2026-11-04 00:00:00.0",
+     "DevId": "22869",
+     "DevLoc": "Dublin, Irlanda",
+     "DevNo": "29.ª Conferência Interparlamentar sobre Política Externa e de Segurança Comum e Política Comum de Segurança e Defesa (PESC-PCSD)",
+     "DevSelLg": "XVII",
+     "DevSelNr": "2",
+     "DevTp": "Internacional"
+    },
+    {
      "DevDtfim": "2026-09-30 00:00:00.0",
      "DevDtini": "2026-09-29 00:00:00.0",
      "DevId": "22852",
@@ -4650,20 +4660,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": "Açores",
-     "Data": "2026-01-19",
-     "Estabelecimento": "Escola Profissional da Câmara de Comércio e Indústria de Ponta Delgada",
-     "Legislatura": "XVII",
-     "Sessao": "Secundário",
-     "TipoReuniao": "Debate na Escola"
-    },
-    {
-     "CirculoEleitoral": "Açores",
-     "Data": "2026-01-12",
-     "Estabelecimento": "ES Antero de Quental",
-     "Legislatura": "XVII",
-     "Sessao": "Básico",
-     "TipoReuniao": "Debate na Escola"
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
     }
    ],
    "Rel": {
@@ -4885,7 +4887,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-29",
+    "GpDtFim": "2026-10-30",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

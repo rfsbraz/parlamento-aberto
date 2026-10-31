@@ -1711,7 +1711,18 @@
     }
    ],
    "Deslocacoes": null,
-   "DlE": null,
+   "DlE": [
+    {
+     "DevDtfim": "2026-11-06 00:00:00.0",
+     "DevDtini": "2026-11-04 00:00:00.0",
+     "DevId": "22869",
+     "DevLoc": "Dublin, Irlanda",
+     "DevNo": "29.ª Conferência Interparlamentar sobre Política Externa e de Segurança Comum e Política Comum de Segurança e Defesa (PESC-PCSD)",
+     "DevSelLg": "XVII",
+     "DevSelNr": "2",
+     "DevTp": "Internacional"
+    }
+   ],
    "DlP": null,
    "Eventos": null,
    "Gpa": [
@@ -2015,6 +2026,14 @@
       "PetNr": "193",
       "PetSelLgPk": "XVII",
       "PetSelNrPk": "1"
+     },
+     {
+      "PecDtrelf": "2026-10-30",
+      "PetAspet": "Pelo acesso universal e gratuito a terapias essenciais para crianças com necessidades especiais",
+      "PetId": "54487",
+      "PetNr": "234",
+      "PetSelLgPk": "XVII",
+      "PetSelNrPk": "2"
      }
     ]
    },
@@ -5187,7 +5206,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-29",
+    "GpDtFim": "2026-10-30",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

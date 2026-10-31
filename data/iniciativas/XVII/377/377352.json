@@ -1919,6 +1919,105 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "270",
+   "Comissao": [
+    {
+     "AccId": "120005",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": [
+      {
+       "data": "2026-10-29",
+       "id": "190597",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-10-29",
+       "id": "190596",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-10-29",
+       "id": "190595",
+       "tipo": "AUP"
+      }
+     ],
+     "Audiencias": [
+      {
+       "data": "2026-10-29",
+       "id": "127830",
+       "tipo": "AUD"
+      },
+      {
+       "data": "2026-10-29",
+       "id": "127829",
+       "tipo": "AUD"
+      },
+      {
+       "data": "2026-10-30",
+       "id": "127833",
+       "tipo": "AUD"
+      },
+      {
+       "data": "2026-10-30",
+       "id": "127832",
+       "tipo": "AUD"
+      }
+     ],
+     "Competente": "N",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2026-10-28",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8451",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão de Orçamento, Finanças e Administração Pública ",
+     "Numero": "8451",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2026-10-28",
+   "EvtId": "14",
+   "Fase": "Baixa comissão especialidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1754466",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
    "AnexosFase": [
     {
      "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a466b597a51354d445a694c546c695a444d744e47526c4e4331694d6a526d4c544d784e6a517a4e6a46694e6a59794d7935775a47593d&fich=1dc4906b-9bd3-4de4-b24f-3164361b6623.pdf&Inline=true",

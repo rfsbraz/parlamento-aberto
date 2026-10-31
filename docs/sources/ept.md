@@ -4,7 +4,7 @@ Os dados abertos da AR só têm ficheiros `RegistoInteresses` até à XV. A part
 
 ## Republicação (30 de outubro de 2026)
 
-Os elementos públicos do registo de interesses dos Deputados da XVI e da XVII são republicados com indicação da Entidade para a Transparência (EpT) como fonte, ao abrigo da Lei n.º 52/2019, art. 15.º, n.º 1, e da Lei n.º 26/2016 (LADA), art. 21.º, n.º 1. Ficam excluídos o NIF dos titulares, os dados pessoais, os rendimentos e património, as filiações associativas e os anexos.
+Os elementos públicos do registo de interesses dos Deputados da XVI e da XVII são republicados com indicação da Entidade para a Transparência (EpT) como fonte, ao abrigo da Lei n.º 52/2019, art. 15.º, n.º 1, e da Lei n.º 26/2016 (LADA), art. 21.º, n.º 1. Fica excluído apenas o NIF dos titulares.
 
 A EpT confirmou que a divulgação do registo de interesses está prevista no n.º 1 do artigo 15.º da Lei n.º 52/2019 e que a reutilização de documentos disponibilizados na Internet não depende de autorização (LADA, art. 21.º, n.º 1). Os marts publicados citam a EpT como fonte em cada CSV e no `manifest.json`.
 

@@ -16,7 +16,7 @@ from pathlib import Path
 
 import pytest
 
-from parlamento_aberto import dictionary, release
+from parlamento_aberto import dictionary, ept, release
 
 ROOT = Path(__file__).parents[1]
 FIXTURES = Path(__file__).parent / "fixtures" / "data"
@@ -203,10 +203,8 @@ def test_license_data_states_the_split():
 
 
 EPT_BASIS = ("Lei n.º 52/2019, art. 15.º, n.º 1", "Lei n.º 26/2016 (LADA), art. 21.º, n.º 1")
-EPT_EXCLUDED = (
-    "Ficam excluídos o NIF dos titulares, os dados pessoais, os rendimentos e património, "
-    "as filiações associativas e os anexos"
-)
+# Published since Rodrigo's call of 30 October 2026, so no note may still list them as left out.
+EPT_PUBLISHED = ("os dados pessoais", "os rendimentos e património", "filiações associativas")
 
 
 def _ept_note_places() -> dict[str, str]:
@@ -231,8 +229,20 @@ def test_ept_note_cites_the_legal_basis_the_source_and_the_exclusions():
         assert "Entidade para a Transparência" in flat, place
         for basis in EPT_BASIS:
             assert basis in flat, (place, basis)
-        assert EPT_EXCLUDED in flat, place
+        assert release.EPT_EXCLUDED in flat, place
+        for published in EPT_PUBLISHED:
+            assert published not in flat, (place, published)
         assert "pendente" not in flat and "até a EpT responder" not in flat, place
+
+
+def test_the_ept_note_names_exactly_what_the_strip_removes():
+    # ept.STRIPPED is the one list: the strip drops each key and the note names each one, so
+    # the note cannot drift from the pipeline.
+    assert release.EPT_EXCLUDED == "Fica excluído apenas o NIF dos titulares"
+    assert release.ept_excluded({"a": "x", "b": "y"}) == "Ficam excluídos apenas x e y"
+    for key, name in ept.STRIPPED.items():
+        assert key not in ept.clean({key: "x", "kept": "y"})
+        assert name in release.EPT_EXCLUDED
 
 
 def test_ept_docs_do_not_describe_the_api_fields_we_drop():

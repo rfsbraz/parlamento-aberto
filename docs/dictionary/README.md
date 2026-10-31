@@ -49,7 +49,7 @@ atualização que vem no `manifest.json` (`source_updated`):
 Dados brutos em `data/`. Dados abertos da Assembleia da República reutilizados nos termos da AR, com a fonte e a data de atualização (Lei n.º 26/2016, art. 19.º, n.º 5).
 Termos da AR: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx
 
-`data/ept_*` e tudo o que deriva deles. Registo de interesses da XVI e da XVII: Fonte: Entidade para a Transparência (EpT), republicado ao abrigo da Lei n.º 52/2019, art. 15.º, n.º 1, e da Lei n.º 26/2016 (LADA), art. 21.º, n.º 1, fora da licença dos marts. Ficam excluídos o NIF dos titulares, os dados pessoais, os rendimentos e património, as filiações associativas e os anexos.
+`data/ept_*` e tudo o que deriva deles. Registo de interesses da XVI e da XVII: Fonte: Entidade para a Transparência (EpT), republicado ao abrigo da Lei n.º 52/2019, art. 15.º, n.º 1, e da Lei n.º 26/2016 (LADA), art. 21.º, n.º 1, fora da licença dos marts. Fica excluído apenas o NIF dos titulares.
 
 Cada CSV de uma publicação começa com a fonte, a data de atualização e a licença do mart,
 e o `manifest.json` traz o mesmo por mart.

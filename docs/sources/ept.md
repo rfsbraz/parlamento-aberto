@@ -58,7 +58,7 @@ A EpT não tem id da AR. O `seed_ept_holders` (#47) faz corresponder cada id de 
 
 ## Sincronização semanal
 
-O `.github/workflows/ept-sync.yml` (#45) corre à segunda-feira às 07:15 de Lisboa (06:15 no inverno), no ramo `data/ept`. Recolhe com `python -m parlamento_aberto.ept fetch` e corre `python -m parlamento_aberto.ept_sync check`, que falha com qualquer chave `nif`, valor da gama pessoal, valor de 9 dígitos fora da coluna NIPC ou ficheiro fora do formato. Só depois faz commit de `data/ept_registo_interesses` e abre ou atualiza um único PR de dados, com as contagens no corpo. Enquanto o conjunto não está no `main`, o PR fica com `hold: new-dataset`. O `data-merge.yml` só faz merge dos dados da AR, por isso sou eu que faço o merge deste PR. Cada declaração guarda `retrieved_at`, o dia (Lisboa) em que foi obtida. Como só se volta a obter quando o estado muda, é o dia da primeira recolha desse estado.
+O `.github/workflows/ept-sync.yml` (#45) corre à segunda-feira às 07:15 de Lisboa (06:15 no inverno), no ramo `data/ept`. Recolhe com `python -m parlamento_aberto.ept fetch` e corre `python -m parlamento_aberto.ept_sync check`, que falha se ficar o NIF de algum titular, um valor da gama pessoal, um valor de 9 dígitos fora da coluna NIPC ou um ficheiro fora do formato. Só depois faz commit de `data/ept_registo_interesses` e abre ou atualiza um único PR de dados, com as contagens no corpo. Enquanto o conjunto não está no `main`, o PR fica com `hold: new-dataset`. O `data-merge.yml` só faz merge dos dados da AR, por isso sou eu que faço o merge deste PR. Cada declaração guarda `retrieved_at`, o dia (Lisboa) em que foi obtida. Como só se volta a obter quando o estado muda, é o dia da primeira recolha desse estado.
 
 ## Nos marts
 

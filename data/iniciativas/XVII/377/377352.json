@@ -228,7 +228,18 @@
     {
      "AccId": "119899",
      "AguardaAgendamentoPlenario": null,
-     "Audicoes": null,
+     "Audicoes": [
+      {
+       "data": "2026-10-23",
+       "id": "190564",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-10-26",
+       "id": "190567",
+       "tipo": "AUP"
+      }
+     ],
      "Audiencias": null,
      "Competente": "S",
      "DataAgendamentoDiscussao": null,
@@ -339,6 +350,48 @@
        "TipoDocumento": "Outro",
        "TituloDocumento": "Contributo Siesta Campers",
        "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314e574e694d7a41344e7930785954646a4c54526859545174596d4d315979316b4d446b354d47597a4d325179597a49756347526d&fich=55cb3087-1a7c-4aa4-bc5c-d0990f33d2c2.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-23",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer ANMP - Associação Nacional de Municípios Portugueses",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774d7a5a684d4749784d53316b4d6a41774c5451354d32557459574a6c4e7930305a5463794d446c6c4d3251324e3249756347526d&fich=036a0b11-d200-493e-abe7-4e7209e3d67b.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-23",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo ANPAC - Associação Nacional de Profissionais de Administração de Condomínios",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c4e544a684f54466b4e69316a4e6a55354c5451354d4445744f4441794d693035596a49785a6a5a6b5957517a4d4449756347526d&fich=e52a91d6-c659-4901-8022-9b21f6dad302.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-26",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Animar — Associação Portuguesa para o Desenvolvimento Local",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c4e4446684e32466d4d793077596a51314c5451314e4445744f574e6b4d53316a4d7a4d304e4451784d7a6b345a6d59756347526d&fich=e41a7af3-0b45-4541-9cd1-c334441398ff.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-26",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório CFP - Análise da Proposta de Orçamento do Estado para 2027",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939694e54513359325a6b4d7930794e54497a4c5451344e57517459574530595330344d7a49355957526a4d6a5131595467756347526d&fich=b547cfd3-2523-485d-aa4a-8329adc245a8.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-27",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer final COFAP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d596a4a684d5746694d7930325a5445324c5451335a444574595755344e6930334e57526d5a5759314d6d49344e7a59756347526d&fich=fb2a1ab3-6e16-47d1-ae86-75dfef52b876.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-27",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo João Paulo Fernandes",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396859544e6d4d7a6b304d4330354e6a49794c5451784e3259744f5759314d4330774e7a55324e4452684d7a67774d6d45756347526d&fich=aa3f3940-9622-417f-9f50-075644a3802a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-27",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Duarte Carvalhosa",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774d6d4d334e5752685a6930784f5455324c5452684d3251744f5467334d69307a5a44566d4e474533597a637a4e4463756347526d&fich=02c75daf-1956-4a3d-9872-3d5f4a7c7347.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -364,10 +417,38 @@
       }
      ],
      "RemessaRedaccaoFinal": null,
-     "Remessas": null,
+     "Remessas": [
+      {
+       "dataDocumento": "2026-10-26",
+       "dataRemessa": "2026-10-27",
+       "numeroOficio": null,
+       "observacoes": null,
+       "tipoRemessa": "Relatório/Parecer"
+      }
+     ],
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": [
+        "IL",
+        "L",
+        "PCP",
+        "CDS-PP",
+        "BE",
+        "PAN"
+       ],
+       "data": "2026-10-27",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I><BR>Ausência: <I>IL</I>, <I> L</I>, <I> PCP</I>, <I> CDS-PP</I>, <I> BE</I>, <I> PAN</I>",
+       "id": "193241",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "124",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
     }
    ],
    "DataFase": "2026-10-08",
@@ -498,7 +579,32 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-22",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer da Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938344d4442695a4455345969316b59546c694c545131596a6b74596a677a5a693079596a497a4e6d4a6c4d5759774e546b756347526d&fich=800bd58b-da9b-45b9-b83f-2b236be1f059.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-22",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Opinião do Deputado Relator",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774d57553359544d794d6931694f5749324c5452685a6a4574596d4e6a4d793169597a6b785a6a633459546378596d45756347526d&fich=01e7a322-b9b6-4af1-bcc3-bc91f78a71ba.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-22",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Posição do GP Chega",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314e544130596a4d7a596930344f474e6c4c54517a593249744f47526c4e4330784d4467305a5749334e6a45784d474d756347526d&fich=5504b33b-88ce-43cb-8de4-1084eb76110c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-22",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Posição da Deputada Patrícia Gonçalves (L)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396b4e7a4d77596a42694d79316a4e6d4e6a4c54526c4d7a4d74596a4d774f4330344f44646859325177595759345a4459756347526d&fich=d730b0b3-c6cc-4e33-b308-887acd0af8d6.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8448",
      "Legislatura": null,
@@ -511,12 +617,36 @@
      "Prorrogado": null,
      "Publicacao": null,
      "PublicacaoRelatorio": null,
-     "Relatores": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PSD",
+       "id": "6178",
+       "motivoCessacao": null,
+       "nome": "Paulo Neves"
+      }
+     ],
      "RemessaRedaccaoFinal": null,
      "Remessas": null,
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": [
+        "IL"
+       ],
+       "data": "2026-10-22",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I><BR>Contra:<I>L</I><BR>Abstenção:<I>PS</I><BR>Ausência: <I>IL</I>",
+       "id": "193238",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "45",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
     }
    ],
    "DataFase": "2026-10-08",
@@ -1084,7 +1214,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-26",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a45784e3245314f4463744d575a6b4d53303059324e694c5749354d546374596d566a5a47466a595751324e4452684c6e426b5a673d3d&fich=b117a587-1fd1-4ccb-b917-becdacad644a.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8456",
      "Legislatura": null,
@@ -1111,7 +1248,25 @@
      "Remessas": null,
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": [
+        "IL",
+        "L",
+        "PCP",
+        "CDS-PP"
+       ],
+       "data": "2026-10-26",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I><BR>Abstenção:<I>BE</I><BR>Ausência: <I>IL</I>, <I> L</I>, <I> PCP</I>, <I> CDS-PP</I>",
+       "id": "193236",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "75",
+       "tipoReuniao": null,
+       "unanime": null
+      }
+     ]
     }
    ],
    "DataFase": "2026-10-08",
@@ -1660,6 +1815,126 @@
    "Links": null,
    "ObsFase": null,
    "OevId": "1754358",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d34595755324e6d59774c5749334d5445744e4749304f533034595463784c5446695a54557a596a4d334f5751324f5335775a47593d&fich=38ae66f0-b711-4b49-8a71-1be53b379d69.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
+   "CodigoFase": "174",
+   "Comissao": null,
+   "DataFase": "2026-10-26",
+   "EvtId": "150",
+   "Fase": "Parecer do Governo da RAA",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1754363",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255784e3249334e324e694c5749324e6a55744e44646b5a693034593259314c574d7a5957466d4e6d566b4f4445775a5335775a47593d&fich=e17b77cb-b665-47df-8cf5-c3aaf6ed810e.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
+   "CodigoFase": "175",
+   "Comissao": null,
+   "DataFase": "2026-10-27",
+   "EvtId": "151",
+   "Fase": "Parecer do Governo da RAM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1754392",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "250",
+   "Comissao": null,
+   "DataFase": "2026-10-28",
+   "EvtId": "13",
+   "Fase": "Votação na generalidade",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1754431",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2026-10-28",
+     "descricao": null,
+     "detalhe": "A Favor: <I>PSD</I>, <I> CDS-PP</I><BR>Contra:<I>CH</I>, <I> IL</I>, <I> L</I>, <I> PCP</I>, <I> BE</I><BR>Abstenção:<I>PS</I>, <I> PAN</I>, <I> JPP</I>",
+     "id": "193246",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "16",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a466b597a51354d445a694c546c695a444d744e47526c4e4331694d6a526d4c544d784e6a517a4e6a46694e6a59794d7935775a47593d&fich=1dc4906b-9bd3-4de4-b24f-3164361b6623.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
+   "CodigoFase": "173",
+   "Comissao": null,
+   "DataFase": "2026-10-29",
+   "EvtId": "149",
+   "Fase": "Parecer da ALRAM",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1754427",
    "OevTextId": null,
    "PcpublicasConjuntas": null,
    "PeticoesConjuntas": null,

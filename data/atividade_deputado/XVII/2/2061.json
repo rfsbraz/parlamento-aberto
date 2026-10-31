@@ -102,26 +102,7 @@
      "ActTpdesc": "Voto"
     }
    ],
-   "Audicoes": [
-    {
-     "AccDtaud": null,
-     "ActAs": null,
-     "ActDtdes1": null,
-     "ActDtdes2": null,
-     "ActDtent": null,
-     "ActId": null,
-     "ActLg": null,
-     "ActLoc": null,
-     "ActNr": null,
-     "ActSl": null,
-     "ActTp": null,
-     "ActTpdesc": null,
-     "CmsAb": null,
-     "CmsNo": null,
-     "NomeEntidadeExterna": null,
-     "TevTp": null
-    }
-   ],
+   "Audicoes": null,
    "Audiencias": null,
    "Cms": null,
    "DadosLegisDeputado": [
@@ -133,6 +114,16 @@
    ],
    "Deslocacoes": null,
    "DlE": [
+    {
+     "DevDtfim": "2026-11-04 00:00:00.0",
+     "DevDtini": "2026-11-02 00:00:00.0",
+     "DevId": "22868",
+     "DevLoc": "Bratislava",
+     "DevNo": "Visita oficial de Sua Excelência o Presidente da Assembleia da República à Eslováquia",
+     "DevSelLg": "XVII",
+     "DevSelNr": "2",
+     "DevTp": "Internacional"
+    },
     {
      "DevDtfim": "2026-10-02 00:00:00.0",
      "DevDtini": "2026-10-01 00:00:00.0",
@@ -318,6 +309,66 @@
    ],
    "Intev": [
     {
+     "IntId": "505488",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": null,
+     "PubDar": "8-9",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
+     "IntId": "505490",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": null,
+     "PubDar": "9-10",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
+     "IntId": "505495",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": null,
+     "PubDar": "14-14",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
+     "IntId": "505500",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": null,
+     "PubDar": "20-20",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
+     "IntId": "505508",
+     "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
+     "IntTe": null,
+     "PubDar": "31-31",
+     "PubDtreu": "2026-09-24",
+     "PubLg": "XVII",
+     "PubNr": "5",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
      "IntId": "505362",
      "IntSu": "Sobre o “Custo de Vida”",
      "IntTe": null,
@@ -445,6 +496,66 @@
      "PubDtreu": "2026-09-08",
      "PubLg": "XVII",
      "PubNr": "116",
+     "PubSl": "1",
+     "PubTp": "D",
+     "TinDs": "Explicações"
+    },
+    {
+     "IntId": "505436",
+     "IntSu": "Pelo fim de um Governo sem autoridade política, incapaz de assumir responsabilidades e de garantir confiança nas instituições.",
+     "IntTe": "Dá explicações ao Deputado Pedro Pinto (CH)",
+     "PubDar": "45-45",
+     "PubDtreu": "2026-09-08",
+     "PubLg": "XVII",
+     "PubNr": "116",
+     "PubSl": "1",
+     "PubTp": "D",
+     "TinDs": "Explicações"
+    },
+    {
+     "IntId": "505438",
+     "IntSu": "Pelo fim de um Governo sem autoridade política, incapaz de assumir responsabilidades e de garantir confiança nas instituições.",
+     "IntTe": null,
+     "PubDar": "46-46",
+     "PubDtreu": "2026-09-08",
+     "PubLg": "XVII",
+     "PubNr": "116",
+     "PubSl": "1",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
+     "IntId": "505480",
+     "IntSu": "Sobre \"A situação dos exames nacionais, o processo de digitalização e classificação dos exames, o processo de acesso ao ensino superior e a abertura do próximo ano letivo\"",
+     "IntTe": "Dá explicações ao Deputado André Ventura (CH), esclarece que a Comissão Permanente decorre nos termos da grelha acordada em Conferência de Líderes e em conformidade com a prática parlamentar.",
+     "PubDar": "5-6",
+     "PubDtreu": "2026-08-03",
+     "PubLg": "XVII",
+     "PubNr": "114",
+     "PubSl": "1",
+     "PubTp": "D",
+     "TinDs": "Explicações"
+    },
+    {
+     "IntId": "505482",
+     "IntSu": "Sobre \"A situação dos exames nacionais, o processo de digitalização e classificação dos exames, o processo de acesso ao ensino superior e a abertura do próximo ano letivo\"",
+     "IntTe": "Dá explicações do Deputado Hugo Soares (PSD), esclarece que nenhum partido se opôs à grelha acordada para a Comissão Permanente, em Conferência de Líderes, previamente comunicada por escrito a todos os grupos parlamentares.",
+     "PubDar": "7-7",
+     "PubDtreu": "2026-08-03",
+     "PubLg": "XVII",
+     "PubNr": "114",
+     "PubSl": "1",
+     "PubTp": "D",
+     "TinDs": "Explicações"
+    },
+    {
+     "IntId": "505484",
+     "IntSu": "Sobre \"A situação dos exames nacionais, o processo de digitalização e classificação dos exames, o processo de acesso ao ensino superior e a abertura do próximo ano letivo\"",
+     "IntTe": "Dá explicações ao Deputado Pedro Pinto (CH), reafirma a sua versão dos factos e remete para os restantes grupos parlamentares a confirmação da mesma.",
+     "PubDar": "8-8",
+     "PubDtreu": "2026-08-03",
+     "PubLg": "XVII",
+     "PubNr": "114",
      "PubSl": "1",
      "PubTp": "D",
      "TinDs": "Explicações"
@@ -2984,7 +3095,7 @@
   ],
   "DepGP": [
    {
-    "GpDtFim": "2026-10-26",
+    "GpDtFim": "2026-10-29",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

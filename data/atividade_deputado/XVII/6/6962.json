@@ -3,6 +3,28 @@
   {
    "ActP": [
     {
+     "ActAs": "De saudação pelo Centenário da Criação da Freguesia da Torreira",
+     "ActDtdeb": null,
+     "ActDtent": "27-10-2026",
+     "ActId": "248893",
+     "ActNr": "798",
+     "ActSelLg": "XVII",
+     "ActSelNr": "2",
+     "ActTp": "VOT",
+     "ActTpdesc": "Voto"
+    },
+    {
+     "ActAs": "De saudação pelo Centenário da Criação do Concelho da Murtosa",
+     "ActDtdeb": null,
+     "ActDtent": "27-10-2026",
+     "ActId": "248892",
+     "ActNr": "797",
+     "ActSelLg": "XVII",
+     "ActSelNr": "2",
+     "ActTp": "VOT",
+     "ActTpdesc": "Voto"
+    },
+    {
      "ActAs": "De saudação pelo centenário da emancipação concelhia de São João da Madeira",
      "ActDtdeb": null,
      "ActDtent": "17-10-2026",
@@ -675,6 +697,24 @@
     }
    ],
    "Audicoes": [
+    {
+     "AccDtaud": "2026-10-29",
+     "ActAs": "Audição do Senhor Ministro de Estado e dos Negócios Estrangeiros, Paulo Rangel, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) - Aprova o Orçamento do Estado para 2027, nos termos do n.º 2 do artigo 211.º do Regimento da Assembleia da República.",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190588",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "26-CAE-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CAE",
+     "CmsNo": "Comissão de Assuntos Europeus ",
+     "NomeEntidadeExterna": "Paulo Rangel (Ministro de Estado e dos Negócios Estrangeiros); Ana Isabel Xavier (Secretária de Estado dos Negócios Estrangeiros e da Cooperação); Emídio Sousa (Secretário de Estado das Comunidades Portuguesas); Inês Domingos (Secretária de Estado dos Assuntos Europeus)",
+     "TevTp": null
+    },
     {
      "AccDtaud": "2026-10-22",
      "ActAs": "Petição n.º 230/XVII/1.ª - «Pela Criação de Cuidados Intensivos Pediátricos no IPO do Porto»",
@@ -4256,28 +4296,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": "Aveiro",
-     "Data": "2026-01-12",
-     "Estabelecimento": "Agrupamento de Escolas de Valongo do Vouga, Águeda",
-     "Legislatura": "XVII",
-     "Sessao": "Básico",
-     "TipoReuniao": "Debate na Escola"
-    },
-    {
-     "CirculoEleitoral": "Aveiro",
-     "Data": "2026-01-05",
-     "Estabelecimento": "Agrupamento de Escolas de Gafanha da Encarnação, Ílhavo",
-     "Legislatura": "XVII",
-     "Sessao": "Básico",
-     "TipoReuniao": "Debate na Escola"
-    },
-    {
-     "CirculoEleitoral": "Aveiro",
-     "Data": "2025-12-16",
-     "Estabelecimento": "Escola Básica João Afonso, Aveiro",
-     "Legislatura": "XVII",
-     "Sessao": "Básico",
-     "TipoReuniao": "Debate na Escola"
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
     }
    ],
    "Rel": {
@@ -4361,6 +4385,26 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Regulamentação de competências em Cardiopneumologia ",
+     "ReqDt": "2026-10-28 00:00:00.0",
+     "ReqId": "231920",
+     "ReqLg": "XVII",
+     "ReqNr": "285",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Restrições à prescrição e ao acesso aos medicamentos comparticipados para o tratamento da obesidade (Portaria n.º 464/2026/1, de 22 de outubro)",
+     "ReqDt": "2026-10-23 00:00:00.0",
+     "ReqId": "231903",
+     "ReqLg": "XVII",
+     "ReqNr": "269",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Apoios às pessoas com epidermólise bolhosa ",
@@ -5670,7 +5714,7 @@
   ],
   "DepGP": [
    {
-    "GpDtFim": "2026-10-26",
+    "GpDtFim": "2026-10-29",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

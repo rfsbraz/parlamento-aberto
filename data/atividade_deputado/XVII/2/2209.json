@@ -3,6 +3,17 @@
   {
    "ActP": [
     {
+     "ActAs": "De saudação ao povo brasileiro pela expressiva participação nas eleições de outubro de 2026 e ao Presidente reeleito, Luiz Inácio Lula da Silva",
+     "ActDtdeb": null,
+     "ActDtent": "28-10-2026",
+     "ActId": "248896",
+     "ActNr": "801",
+     "ActSelLg": "XVII",
+     "ActSelNr": "2",
+     "ActTp": "VOT",
+     "ActTpdesc": "Voto"
+    },
+    {
      "ActAs": "De Saudação pelas Festas do Povo de Campo Maior",
      "ActDtdeb": null,
      "ActDtent": "01-09-2026",
@@ -390,21 +401,21 @@
    ],
    "Audicoes": [
     {
-     "AccDtaud": "2025-11-05",
-     "ActAs": "Audição regimental do Ministro do Estado e dos Negócios Estrangeiros no âmbito da discussão do OE 2026.\n",
+     "AccDtaud": null,
+     "ActAs": null,
      "ActDtdes1": null,
      "ActDtdes2": null,
      "ActDtent": null,
-     "ActId": "159625",
-     "ActLg": "XVII",
+     "ActId": null,
+     "ActLg": null,
      "ActLoc": null,
-     "ActNr": "2-CNECP-XVII",
+     "ActNr": null,
      "ActSl": null,
-     "ActTp": "AUP",
-     "ActTpdesc": "Audição",
-     "CmsAb": "CNECP",
-     "CmsNo": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas ",
-     "NomeEntidadeExterna": "Paulo Rangel (Ministro de Estado e dos Negócios Estrangeiros); Emídio Sousa (Secretário de Estado das Comunidades Portuguesas); Ana Isabel Xavier (Secretária de Estado dos Negócios Estrangeiros e da Cooperação)",
+     "ActTp": null,
+     "ActTpdesc": null,
+     "CmsAb": null,
+     "CmsNo": null,
+     "NomeEntidadeExterna": null,
      "TevTp": null
     }
    ],
@@ -559,6 +570,18 @@
     }
    ],
    "Intev": [
+    {
+     "IntId": "505449",
+     "IntSu": "Pelo fim de um Governo sem autoridade política, incapaz de assumir responsabilidades e de garantir confiança nas instituições.",
+     "IntTe": null,
+     "PubDar": "55-57",
+     "PubDtreu": "2026-09-08",
+     "PubLg": "XVII",
+     "PubNr": "116",
+     "PubSl": "1",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
     {
      "IntId": "505352",
      "IntSu": "Debate sobre o Estado da Nação",
@@ -910,12 +933,20 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Santarém",
+     "Data": "2026-01-13",
+     "Estabelecimento": "Agrupamento de Escolas de Constância",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Santarém",
+     "Data": "2025-12-16",
+     "Estabelecimento": "Agrupamento de Escolas Salgueiro Maia - Fazendas de Almeirim, Almeirim",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -975,6 +1006,16 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "AC"
+    },
+    {
+     "ReqAs": "Calendário da revisão da Lei de Programação Militar e da decisão sobre a substituição das aeronaves F-16",
+     "ReqDt": "2026-10-23 00:00:00.0",
+     "ReqId": "231904",
+     "ReqLg": "XVII",
+     "ReqNr": "270",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Entrada em vigor da Portaria n.º 318/2023, de 24 de outubro, e aplicação das tabelas de aptidão física e de capacidade pelos ramos das Forças Armadas",
@@ -1104,7 +1145,7 @@
   ],
   "DepGP": [
    {
-    "GpDtFim": "2026-10-26",
+    "GpDtFim": "2026-10-29",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

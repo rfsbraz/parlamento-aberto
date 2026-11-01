@@ -83,6 +83,14 @@ def test_index_says_ept_rows_are_published_on_the_ept_terms(pages):
     assert "Lei n.º 52/2019" in licence
     assert "excluded_sources" not in licence and "Ficam fora" not in licence
     assert "apenas o que a AR publica" not in licence
+    for mart in (
+        "interest_declarations",
+        "interests",
+        "interest_declaration_fields",
+        "interest_declaration_attachments",
+        "interest_associations",
+    ):
+        assert f"`{mart}`" in licence
 
 
 def test_committed_dictionary_is_current(pages):

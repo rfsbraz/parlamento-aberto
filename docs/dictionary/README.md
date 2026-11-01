@@ -57,8 +57,9 @@ Termos da AR: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx
 Cada CSV de uma publicação começa com a fonte, a data de atualização e a licença do mart,
 e o `manifest.json` traz o mesmo por mart.
 
-As linhas de `interest_declarations` e `interests` com `source = 'ept'` vêm da
-Entidade para a Transparência (XVI e XVII) e não estão cobertas pela CC BY 4.0
+As linhas de `interest_declarations`, `interests`, `interest_declaration_fields`,
+`interest_declaration_attachments` e `interest_associations` com `source = 'ept'` vêm
+da Entidade para a Transparência (XVI e XVII) e não estão cobertas pela CC BY 4.0
 (`LICENSE-DATA`, ponto 3). Entram nos ficheiros publicados com os termos da EpT no
 cabeçalho do CSV e no `manifest.json`, depois de a publicação confirmar que nenhuma
 tem um número fiscal. Ver

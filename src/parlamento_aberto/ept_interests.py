@@ -499,19 +499,32 @@ def resolve_chains(decls: list[dict]) -> list[dict]:
 
 
 def assert_rows_clean(decls: list[dict], items: list[dict]) -> None:
-    """No nif, no personal-range value, no 9 digits outside entity_nipc."""
+    """No nif, no personal-range value, no 9 digits outside entity_nipc and kept amounts."""
     ept.assert_clean([{k: str(v) if v is not None else None for k, v in d.items()} for d in decls])
     for i, row in enumerate(items):
         nipc = row.get("entity_nipc")
         if nipc is not None and not ept.is_company_nipc(nipc):
             raise ept.LeakError(f"not a company NIPC at items[{i}].entity_nipc")
-        rest = {k: str(v) if v is not None else None for k, v in row.items() if k != "entity_nipc"}
+        rest = {
+            k: str(v) if v is not None else None
+            for k, v in row.items()
+            if k != "entity_nipc" and not ept.kept_amount(row, k)
+        }
         ept.assert_clean(rest, f"items[{i}]")
 
 
 def assert_extra_rows_clean(rows: list[dict]) -> None:
-    """No nif and no 9 digits anywhere in the field or attachment rows."""
-    ept.assert_clean([{k: str(v) if v is not None else None for k, v in r.items()} for r in rows])
+    """No nif and no 9 digits in the field or attachment rows, outside kept amounts."""
+    ept.assert_clean(
+        [
+            {
+                k: str(v) if v is not None else None
+                for k, v in r.items()
+                if not ept.kept_amount(r, k)
+            }
+            for r in rows
+        ]
+    )
 
 
 def _records(data_dir: Path):

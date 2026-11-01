@@ -12,14 +12,15 @@ A declaration carries the holder's full NIF in a top-level ``nif`` field, person
 (tab 2), income and assets (tab 3), interests (tab 4), the entity NIF/NIPC in one tab 4
 column and a list of attachments. ``strip`` keeps an allow-list of metadata keys, every
 cell the EpT shows in tabs 2 and 3, the known tab 4 columns and the attachment metadata,
-and replaces any 9-digit number left in a value. In the tab 4 entity NIF/NIPC column it
-keeps only a valid company NIPC (see ``is_company_nipc``) and drops anything else, such as
-a sole trader's personal NIF. Tabs 2 and 3 are stored by position (``0.3.1.2``) with the
-table name and column, never by the EpT keys: some of those GUIDs read as 9 digits. The
-API serves no attachment file, so only the name, size, format, section and observations
-are kept. The associations section (memberships) of tab 4 is kept apart, under
-``associations``, with the same rule for its NIF/NIPC column, so it can be dropped on its
-own.
+and replaces any 9-digit number left in a value, except an amount or percentage
+(``is_amount``) in a tab 3 cell or the tab 4 share columns (#154). In the tab 4 entity
+NIF/NIPC column it keeps only a valid company NIPC (see ``is_company_nipc``) and drops
+anything else, such as a sole trader's personal NIF. Tabs 2 and 3 are stored by position
+(``0.3.1.2``) with the table name and column, never by the EpT keys: some of those GUIDs
+read as 9 digits. The API serves no attachment file, so only the name, size, format,
+section and observations are kept. The associations section (memberships) of tab 4 is kept
+apart, under ``associations``, with the same rule for its NIF/NIPC column, so it can be
+dropped on its own.
 Nothing is written before ``assert_clean`` passes, and the raw response is never stored
 or logged.
 
@@ -107,6 +108,9 @@ TAB4_GROUP = "88ff2a6e-3702-4687-9f05-2738f70ccbd0"
 ASSOCIATION = "cd0e811a-d9bb-49ee-b0f0-1dae0680eb22"
 ASSOCIATION_NIPC = "col8"
 ASSOCIATION_COLS = ("col1", "col2", "col3", "col4", "col5", "col6", "col7")
+# Shares held in a company: col4 is the value in euros, col5 the percentage (#154).
+SOCIETY = "9b58c917-b14c-4eed-9b3c-40c3d99d45da"
+AMOUNT_COLS = {SOCIETY: ("col4", "col5")}
 # section GUID -> (category, entity NIF/NIPC column or None, other columns kept)
 SECTIONS = {
     "2c6d9562-dea5-488b-9afe-42519c636daf": (
@@ -124,7 +128,7 @@ SECTIONS = {
         "col6",
         ("col1", "col2", "col3", "col4", "col5", "col7", "col8"),
     ),
-    "9b58c917-b14c-4eed-9b3c-40c3d99d45da": (
+    SOCIETY: (
         "society",
         "col7",
         ("col1", "col2", "col3", "col4", "col5", "col6", "col8"),
@@ -188,6 +192,14 @@ NIF_KEY = re.compile(r"nif|nipc", re.IGNORECASE)
 # in release.EPT_TERMS and the docs is built from this, and a test keeps them in step.
 STRIPPED = {"nif": "o NIF dos titulares"}
 REMOVED = "[removido]"
+# An amount or percentage as the EpT shows it, pt-PT (123.456.789,00) or plain (123456.789),
+# with an optional sign and unit. A decimal part is required, so a bare or 3+3+3 NIF never
+# reads as one.
+AMOUNT = (
+    re.compile(r"[+-]?(?P<whole>\d{1,3}(?:[. ]\d{3})+|\d+),(?P<frac>\d+)\s*(?:€|EUR|%)?"),
+    re.compile(r"[+-]?(?P<whole>\d+)\.(?P<frac>\d+)\s*(?:€|EUR|%)?"),
+)
+BARE_NINE = re.compile(r"\d{9}")
 # Company NIPC ranges kept: 5 (legal persons), 6 (public bodies), 71, 72 and 79. Every
 # other prefix can identify a person and is dropped like a personal NIF (Lei 52/2019,
 # art. 17.º, n.º 2, al. a); Reg. EpT 258/2024, art. 15.º, n.º 2, al. a)): 1 to 4 are
@@ -235,10 +247,29 @@ class ShapeError(ValueError):
     """The declaration does not have the tab 4 shape this module knows."""
 
 
-def clean(v):
+def is_amount(v) -> bool:
+    """True for a number with a decimal part (see ``AMOUNT``), never for a NIF.
+
+    A bare 9-digit whole part with a zero decimal part (``123456789,00``) is not an amount:
+    it reads the same as a NIF with a decimal tail.
+    """
+    if isinstance(v, bool) or not isinstance(v, str | float):
+        return False
+    s = str(v).strip()
+    for pattern in AMOUNT:
+        m = pattern.fullmatch(s)
+        if m:
+            return bool(m["frac"].strip("0")) or not BARE_NINE.fullmatch(m["whole"])
+    return False
+
+
+def clean(v, *, amount: bool = False):
+    """Replace 9-digit runs. With ``amount``, a value that ``is_amount`` is kept as is."""
     if v is None or v == "":
         return None
     if isinstance(v, bool):
+        return v
+    if amount and is_amount(v):
         return v
     if isinstance(v, str):
         return NINE.sub(REMOVED, v)
@@ -263,11 +294,11 @@ def _assert_tab4(tab4, path: str) -> None:
         if nif_col is None or not isinstance(rows, list):
             assert_clean({guid: rows}, path, _top=False)
             continue
-        _assert_rows(rows, nif_col, here)
+        _assert_rows(rows, nif_col, here, AMOUNT_COLS.get(guid, ()))
 
 
-def _assert_rows(rows, nif_col: str, here: str) -> None:
-    """A valid company NIPC is allowed in ``nif_col`` only."""
+def _assert_rows(rows, nif_col: str, here: str, amount_cols=()) -> None:
+    """A valid company NIPC is allowed in ``nif_col`` only, an amount in ``amount_cols``."""
     if not isinstance(rows, list):
         return assert_clean(rows, here, _top=False)
     for i, row in enumerate(rows):
@@ -278,15 +309,30 @@ def _assert_rows(rows, nif_col: str, here: str) -> None:
             if col == nif_col and v is not None:
                 if not is_company_nipc(v):
                     raise LeakError(f"not a company NIPC at {here}[{i}].{col}")
+            elif col in amount_cols and is_amount(v):
+                continue
             else:
                 assert_clean({col: v}, f"{here}[{i}]", _top=False)
+
+
+def _assert_fields(fields, path: str) -> None:
+    """Tab 3 cells: an amount is allowed in ``value`` only."""
+    if not isinstance(fields, list):
+        return assert_clean(fields, path, _top=False)
+    for i, f in enumerate(fields):
+        here = f"{path}[{i}]"
+        if isinstance(f, dict) and is_amount(f.get("value")):
+            assert_clean({k: v for k, v in f.items() if k != "value"}, here, _top=False)
+        else:
+            assert_clean(f, here, _top=False)
 
 
 def assert_clean(obj, path: str = "", *, _top: bool = True) -> None:
     """Raise LeakError on any nif/nipc key or 9-digit value. The message names the path only.
 
-    The one exception is a valid company NIPC in the NIPC column of a known tab 4 section
-    or of the associations, in a stored declaration (top-level ``tab4`` or ``associations``).
+    The exceptions, in a stored declaration only: a valid company NIPC in the NIPC column of
+    a known tab 4 section or of the associations (top-level ``tab4`` or ``associations``),
+    and an amount (``is_amount``) in the share columns of tab 4 or a tab 3 value (``tab3``).
     """
     if isinstance(obj, dict):
         for k, v in obj.items():
@@ -296,6 +342,9 @@ def assert_clean(obj, path: str = "", *, _top: bool = True) -> None:
                 continue
             if _top and k == "associations":
                 _assert_rows(v, ASSOCIATION_NIPC, here)
+                continue
+            if _top and k == "tab3":
+                _assert_fields(v, here)
                 continue
             if NIF_KEY.search(str(k)):
                 raise LeakError(f"nif key at {here}")
@@ -311,7 +360,19 @@ def assert_clean(obj, path: str = "", *, _top: bool = True) -> None:
         raise LeakError(f"9-digit value at {path or '<root>'}")
 
 
-def _rows(sec: dict, nif_col, cols) -> list:
+# Mart columns that carry what the strip keeps as an amount: the interests share columns
+# and the value of a tab 3 field row. A row guard skips them only when ``is_amount`` holds.
+AMOUNT_ROW_COLUMNS = ("share_value_eur", "share_pct")
+
+
+def kept_amount(row: dict, key: str) -> bool:
+    """True when ``row[key]`` is an amount the strip keeps (see ``AMOUNT_ROW_COLUMNS``)."""
+    if key in AMOUNT_ROW_COLUMNS or (key == "value" and row.get("tab") == "tab3"):
+        return is_amount(row.get(key))
+    return False
+
+
+def _rows(sec: dict, nif_col, cols, amount_cols=()) -> list:
     """Visible cells of a tab 4 table. The NIF/NIPC column keeps a company NIPC only."""
     rows = []
     for row in sec.get("value") or []:
@@ -325,7 +386,7 @@ def _rows(sec: dict, nif_col, cols) -> list:
                 if nipc is not None:
                     vals[col] = nipc
             elif col in cols:
-                vals[col] = clean(cell.get("value"))
+                vals[col] = clean(cell.get("value"), amount=col in amount_cols)
         if any(v is not None for v in vals.values()):
             rows.append(vals)
     return rows
@@ -340,7 +401,7 @@ def _tab4(sections: list) -> dict:
         if key not in SECTIONS:
             raise ShapeError(f"unknown tab 4 section {key}")
         _, nif_col, cols = SECTIONS[key]
-        out[key] = _rows(sec, nif_col, cols)
+        out[key] = _rows(sec, nif_col, cols, AMOUNT_COLS.get(key, ()))
     return out
 
 
@@ -367,7 +428,7 @@ def _fields(node, tab: str, path: str, section, out: list) -> None:
         return
     if isinstance(v, dict):
         raise ShapeError(f"object value in {tab} at {path}")
-    v = clean(v)
+    v = clean(v, amount=tab == "tab3")
     if v is None:
         return
     m = COLUMN.search(key)

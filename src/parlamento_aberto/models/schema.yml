@@ -823,7 +823,8 @@ models:
       Uma linha por campo visível dos separadores 2 (dados pessoais) e 3 (rendimentos e património) de uma
       declaração da EpT em stg_ept_registo_interesses__declarations. Só entram os campos que a EpT mostra; o
       NIF do titular nunca é guardado. Os campos ficam pela posição na declaração, com a tabela e a coluna, e
-      nunca pelas chaves da EpT. Qualquer número de 9 dígitos no valor fica [removido].
+      nunca pelas chaves da EpT. Qualquer número de 9 dígitos no valor fica [removido], exceto um montante ou
+      uma percentagem com parte decimal no separador 3 (#154).
     columns:
       declaration_key: Declaração a que o campo pertence.
       field_number: Posição do campo na declaração, separador 2 primeiro.
@@ -977,7 +978,8 @@ models:
       Uma linha por campo visível dos separadores 2 (dados pessoais) e 3 (rendimentos e património) das
       declarações da EpT da XVI e da XVII. Só entram os campos que a EpT mostra; o NIF dos titulares nunca
       entra, e qualquer número de 9 dígitos no valor fica [removido], também os NIPC de empresas, porque as
-      colunas do separador 3 não dizem qual é a do NIF. Os campos ficam pela posição na declaração, com a
+      colunas do separador 3 não dizem qual é a do NIF. Os montantes e as percentagens com parte decimal do
+      separador 3 ficam como publicados (#154). Os campos ficam pela posição na declaração, com a
       tabela e a coluna. As linhas ficam fora da licença CC BY 4.0 e citam a EpT como fonte (Lei n.º 52/2019,
       art. 15.º, n.º 1; LADA, art. 21.º, n.º 1).
     columns:

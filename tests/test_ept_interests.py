@@ -507,3 +507,49 @@ def test_retrieved_at_carries_through():
     decl, _ = parse({**load(902, 4508), "retrieved_at": "2026-10-20"})
     assert decl["retrieved_at"] == "2026-10-20"
     assert parse(load(902, 4508))[0]["retrieved_at"] is None
+
+
+# Amounts and percentages kept by the strip pass the row guards (#154)
+
+D = "".join(str(d) for d in (1, 2, 3, 4, 5, 6, 7, 8, 9))
+AMOUNT = f"{D[:3]}.{D[3:6]}.{D[6:]},00"
+
+
+def test_a_kept_share_amount_carries_through_to_the_item_rows():
+    rec = load(502, 510)
+    row = rec["tab4"][SOC][0]
+    row["col4"], row["col5"] = AMOUNT, f"12,{D}"
+    _, items = parse(rec)
+    soc = next(i for i in items if i["category"] == "society")
+    assert soc["share_value_eur"] == AMOUNT and soc["share_pct"] == f"12,{D}"
+    ept_interests.assert_rows_clean([], items)
+
+
+def test_the_item_guard_allows_an_amount_only_in_the_share_columns():
+    ept_interests.assert_rows_clean([], [{"share_value_eur": AMOUNT, "share_pct": AMOUNT}])
+    for row in ({"description": AMOUNT}, {"share_value_eur": D}, {"share_pct": f"NIF {D}"}):
+        with pytest.raises(ept.LeakError):
+            ept_interests.assert_rows_clean([], [row])
+    with pytest.raises(ept.LeakError):
+        ept_interests.assert_rows_clean([{"share_value_eur": AMOUNT}], [])
+
+
+def test_a_kept_tab_3_amount_carries_through_to_the_field_rows():
+    rec = load(902, 4508)
+    rec["tab3"][0]["value"] = AMOUNT
+    rows = ept_interests.parse_fields(rec, "XVII", "x")
+    assert AMOUNT in [r["value"] for r in rows]
+    ept_interests.assert_extra_rows_clean(rows)
+
+
+def test_the_field_guard_allows_an_amount_only_in_a_tab_3_value():
+    ept_interests.assert_extra_rows_clean([{"tab": "tab3", "value": AMOUNT}])
+    for row in (
+        {"tab": "tab2", "value": AMOUNT},
+        {"tab": "tab3", "value": D},
+        {"tab": "tab3", "value": f"NIF {D}"},
+        {"tab": "tab3", "label": AMOUNT, "value": "x"},
+        {"name": AMOUNT},
+    ):
+        with pytest.raises(ept.LeakError):
+            ept_interests.assert_extra_rows_clean([row])

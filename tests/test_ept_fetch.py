@@ -763,3 +763,118 @@ def test_strip_drops_the_holder_nif_cell_of_tab_2_even_when_shown():
     nif_cell.update(isVisible=True, value=f"PT {PLANTED}")
     paths = [r["path"] for r in ept.strip(raw)["tab2"]]
     assert "0.2" not in paths
+
+
+# Amounts and percentages are kept (#154). Built from PLANTED so no line holds the literal.
+
+D = PLANTED
+AMOUNTS = [
+    f"{D[:3]}.{D[3:6]}.{D[6:]},00",
+    f"{D[:6]}.{D[6:]}",
+    f"{D[:3]} {D[3:6]} {D[6:]},50 €",
+    f"12,{D} %",
+    f"-{D[:3]}.{D[3:6]}.{D[6:]},25",
+]
+NOT_AMOUNTS = [
+    D,
+    f"{D[:3]}.{D[3:6]}.{D[6:]}",
+    f"{D[:3]} {D[3:6]} {D[6:]}",
+    f"{D},00",
+    f"NIF {D}",
+    f"{D[:3]}.{D[3:6]}.{D[6:]},00 NIF {D}",
+]
+
+
+def society_raw(col, value):
+    raw = copy.deepcopy(RAW)["data"]
+    tab4 = next(t for t in raw["data"]["value"] if t["key"] == ept.TAB4)
+    sec = next(s for s in tab4["value"][0]["value"] if s["key"] == SOC)
+    for c in sec["value"][0]["value"]:
+        if c["key"].endswith(f"-{col}"):
+            c["value"] = value
+    return raw
+
+
+def tab3_raw(value):
+    raw = raw_with_tabs()
+    tab3 = next(t for t in raw["data"]["value"] if t["key"] == ept.TAB3)
+    tab3["value"][0]["value"][0]["value"][0]["value"][1]["value"] = value
+    return raw
+
+
+@pytest.mark.parametrize("value", AMOUNTS)
+def test_is_amount(value):
+    assert ept.is_amount(value)
+
+
+@pytest.mark.parametrize("value", [*NOT_AMOUNTS, int(D), float(D), None, True, ""])
+def test_is_not_amount(value):
+    assert not ept.is_amount(value)
+
+
+@pytest.mark.parametrize("value", AMOUNTS)
+@pytest.mark.parametrize("col", ["col4", "col5"])
+def test_strip_keeps_a_share_value_or_percentage(col, value):
+    out = ept.strip(society_raw(col, value))
+    ept.assert_clean(out)
+    assert out["tab4"][SOC][0][col] == value
+
+
+@pytest.mark.parametrize("value", NOT_AMOUNTS)
+@pytest.mark.parametrize("col", ["col4", "col5"])
+def test_strip_still_masks_a_nif_in_a_share_column(col, value):
+    out = ept.strip(society_raw(col, value))
+    ept.assert_clean(out)
+    assert D not in dumps(out)
+
+
+@pytest.mark.parametrize("value", AMOUNTS)
+def test_strip_keeps_an_amount_in_tab_3(value):
+    out = ept.strip(tab3_raw(value))
+    ept.assert_clean(out)
+    assert out["tab3"][1]["value"] == value
+
+
+@pytest.mark.parametrize("value", NOT_AMOUNTS)
+def test_strip_still_masks_a_nif_in_tab_3(value):
+    out = ept.strip(tab3_raw(value))
+    ept.assert_clean(out)
+    assert D not in dumps(out)
+
+
+@pytest.mark.parametrize("value", AMOUNTS)
+def test_strip_still_masks_nine_digits_in_free_text_and_tab_2(value):
+    raw = society_raw("col1", value)
+    tab2 = next(t for t in raw["data"]["value"] if t["key"] == ept.TAB2)
+    tab2["value"] = [cell("56786e7c-a8bb-43aa-9250-eaf8fa82002f", [cell("x-col1", value)])]
+    tab2["isVisible"] = True
+    out = ept.strip(raw)
+    ept.assert_clean(out)
+    assert D not in dumps(out)
+
+
+@pytest.mark.parametrize("value", AMOUNTS)
+def test_guard_allows_an_amount_only_in_the_amount_places(value):
+    ept.assert_clean(stored(SOC, "col4", value))
+    ept.assert_clean(stored(SOC, "col5", value))
+    ept.assert_clean({"id": 1, "tab3": [{"path": "0", "column": "col5", "value": value}]})
+    for obj in (
+        stored(SOC, "col1", value),
+        stored(ACT, "col4", value),
+        {"id": 1, "tab2": [{"path": "0", "column": "col5", "value": value}]},
+        {"id": 1, "holder": value},
+        {"id": 1, "tab3": [{"path": value, "value": "x"}]},
+        [{"tab3": [{"value": value}]}],
+    ):
+        with pytest.raises(ept.LeakError):
+            ept.assert_clean(obj)
+
+
+@pytest.mark.parametrize("value", NOT_AMOUNTS)
+def test_guard_fails_on_a_nif_in_the_amount_places(value):
+    for obj in (
+        stored(SOC, "col4", value),
+        {"id": 1, "tab3": [{"path": "0", "value": value}]},
+    ):
+        with pytest.raises(ept.LeakError):
+            ept.assert_clean(obj)

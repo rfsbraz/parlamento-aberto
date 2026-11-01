@@ -599,6 +599,24 @@
    ],
    "Audicoes": [
     {
+     "AccDtaud": "2026-10-30",
+     "ActAs": "Audição do Ministro da Administração Interna, no âmbito da apreciação na especialidade da Proposta de Lei 110/XVI/2.ª – Orçamento do Estado para 2027, nos termos conjugados do n.º 5 do artigo 104.º e do n.º 2 do artigo 211.º do Regimento da Assembleia da República (conjunta com a Comissão de Orçamento, Finanças e Administração Pública).",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190593",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "74-CACDLG-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CACDLG",
+     "CmsNo": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias ",
+     "NomeEntidadeExterna": "Luís Neves (Ministro da Administração Interna); Telmo Correia (Secretário de Estado da Administração Interna); Paulo Simões Ribeiro (Secretário de Estado Adjunto da Administração Interna); Rui Rocha (Secretário de Estado da Proteção Civil)",
+     "TevTp": null
+    },
+    {
      "AccDtaud": "2026-10-22",
      "ActAs": "Petição n.º 230/XVII/1.ª - «Pela Criação de Cuidados Intensivos Pediátricos no IPO do Porto»",
      "ActDtdes1": null,
@@ -758,6 +776,24 @@
      "CmsAb": "CACDLG",
      "CmsNo": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias ",
      "NomeEntidadeExterna": "António Leitão Amaro (Ministro da Presidência); Rui Armindo Freitas (Secretário de Estado Adjunto da Presidência e Imigração); Tiago Macieirinha (Secretário de Estado da Presidência do Conselho de Ministros); João Valle e Azevedo (Secretário de Estado da Presidência)",
+     "TevTp": null
+    },
+    {
+     "AccDtaud": "2026-10-06",
+     "ActAs": "Audição da A Casa – Habitação Colaborativa, CRL, a requerimento do CH, «sobre o desenvolvimento das cooperativas de habitação colaborativa e de propriedade coletiva em Portugal» ",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190569",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "96-CIMH-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CIMH",
+     "CmsNo": "Comissão de Infraestruturas, Mobilidade e Habitação",
+     "NomeEntidadeExterna": "A Casa - Habitação Colaborativa CRL",
      "TevTp": null
     },
     {
@@ -8308,12 +8344,20 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Lisboa",
+     "Data": "2026-01-12",
+     "Estabelecimento": "Escola Básica e Secundária D. Martinho Vaz de Castelo Branco, Póvoa de Santa Iria, Vila Franca de Xira",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Setúbal",
+     "Data": "2026-01-05",
+     "Estabelecimento": "Escola Secundária Manuel Cargaleiro, Amora, Seixal",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -8652,6 +8696,36 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Alunos do 3.º ano sem professor titular de turma e persistência da falta de docentes do 1.º ciclo na cidade de Lisboa",
+     "ReqDt": "2026-10-26 00:00:00.0",
+     "ReqId": "231907",
+     "ReqLg": "XVII",
+     "ReqNr": "273",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Pagamento do prémio salarial relativo aos anos de 2025 e 2026",
+     "ReqDt": "2026-10-23 00:00:00.0",
+     "ReqId": "231906",
+     "ReqLg": "XVII",
+     "ReqNr": "272",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Encerramento do aterro de Sobrado - Valongo",
+     "ReqDt": "2026-10-23 00:00:00.0",
+     "ReqId": "231905",
+     "ReqLg": "XVII",
+     "ReqNr": "271",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Intervenção policial sobre manifestantes pelo direito à habitação e contra o aumento do custo de vida, na Praça D. João I, no Porto",
@@ -10277,7 +10351,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-26",
+    "GpDtFim": "2026-10-30",
     "GpDtInicio": "2025-06-03",
     "GpId": 7265.0,
     "GpSigla": "L"

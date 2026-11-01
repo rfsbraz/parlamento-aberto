@@ -1548,16 +1548,7 @@
      "TinDs": "Intervenção"
     }
    ],
-   "ParlamentoJovens": [
-    {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
-    }
-   ],
+   "ParlamentoJovens": null,
    "Rel": {
     "AutoresPareceresIncImu": null,
     "RelatoresContasPublicas": null,
@@ -1622,6 +1613,26 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "AC"
+    },
+    {
+     "ReqAs": "Regulamentação de competências em Cardiopneumologia ",
+     "ReqDt": "2026-10-28 00:00:00.0",
+     "ReqId": "231920",
+     "ReqLg": "XVII",
+     "ReqNr": "285",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Restrições à prescrição e ao acesso aos medicamentos comparticipados para o tratamento da obesidade (Portaria n.º 464/2026/1, de 22 de outubro)",
+     "ReqDt": "2026-10-23 00:00:00.0",
+     "ReqId": "231903",
+     "ReqLg": "XVII",
+     "ReqNr": "269",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Apoios às pessoas com epidermólise bolhosa ",
@@ -3323,7 +3334,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-26",
+    "GpDtFim": "2026-10-30",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

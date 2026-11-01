@@ -32,6 +32,7 @@ import yaml
 
 from parlamento_aberto.build import LAYERS, MODELS, build, load_schema
 from parlamento_aberto.datapr import CORE_DATASETS
+from parlamento_aberto.ept import STRIPPED
 
 ATTRIBUTION = "Fonte: Assembleia da República, dados abertos"
 AR_TERMS_URL = "https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx"
@@ -57,13 +58,23 @@ RAW_TERMS = (
     "Dados abertos da Assembleia da República reutilizados nos termos da AR, com a fonte e a "
     "data de atualização (Lei n.º 26/2016, art. 19.º, n.º 5)"
 )
+
+
+def ept_excluded(stripped: dict[str, str]) -> str:
+    """The note's exclusion sentence for what ept.strip drops."""
+    names = list(stripped.values())
+    if len(names) == 1:
+        return f"Fica excluído apenas {names[0]}"
+    return f"Ficam excluídos apenas {', '.join(names[:-1])} e {names[-1]}"
+
+
 # The EpT register is reused citing the EpT, under Lei n.º 52/2019, art. 15.º, n.º 1, and
 # LADA, art. 21.º, n.º 1 (LICENSE-DATA, point 3). It is not ours to license.
+EPT_EXCLUDED = ept_excluded(STRIPPED)
 EPT_TERMS = (
     "Registo de interesses da XVI e da XVII: Fonte: Entidade para a Transparência (EpT), "
     "republicado ao abrigo da Lei n.º 52/2019, art. 15.º, n.º 1, e da Lei n.º 26/2016 (LADA), "
-    "art. 21.º, n.º 1, fora da licença dos marts. Ficam excluídos o NIF dos titulares, os dados "
-    "pessoais, os rendimentos e património, as filiações associativas e os anexos"
+    f"art. 21.º, n.º 1, fora da licença dos marts. {EPT_EXCLUDED}"
 )
 EPT_MODEL = re.compile(r"(?:^|_)ept_")
 REPO = "https://github.com/rfsbraz/parlamento-aberto"

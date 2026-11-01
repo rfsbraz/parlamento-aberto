@@ -111,3 +111,4 @@ Registo de interesses da EpT (XVI, XVII e as declarações anteriores da entidad
 | `submitted_at` | VARCHAR | Hora de entrega tal como publicada (submitedDate). |
 | `submitted_date` | DATE | Entrega como dia em Europe/Lisbon. |
 | `is_current` | BOOLEAN | Verdadeiro para a declaração publicada mais recente sem sucessora, por titular, órgão e cargo. |
+| `retrieved_at` | DATE | Dia (Lisboa) em que a declaração foi obtida da EpT. Nulo nas declarações guardadas antes da sincronização semanal (#45). |

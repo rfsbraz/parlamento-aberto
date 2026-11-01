@@ -70,7 +70,7 @@ O site vai para o Cloudflare Pages (escalão gratuito, 20 000 ficheiros por depl
 
 - Os ficheiros brutos da AR em `data/` são dados da AR reutilizados nos termos da AR, não sob uma licença nossa. A Lei n.º 26/2016, art. 19.º, n.º 5, pede que se mencionem a fonte e a data da última atualização e que a informação não seja alterada ([diariodarepublica.pt](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2016-106603618)).
 - Os marts publicados e o dicionário de dados estão sob CC BY 4.0, com a AR creditada. A atribuição ("Fonte: Assembleia da República, dados abertos") e a data de atualização (`source_updated`, a data de recolha mais recente em `sources.lock.json`) vão no `manifest.json` e no comentário inicial de cada CSV, com a licença de cada mart.
-- `data/ept_*` e tudo o que deriva da EpT ficam fora da CC BY: são republicados citando a EpT como fonte, ao abrigo da Lei n.º 52/2019, art. 15.º, n.º 1, e da Lei n.º 26/2016 (LADA), art. 21.º, n.º 1. Ficam excluídos o NIF dos titulares, os dados pessoais, os rendimentos e património, as filiações associativas e os anexos. `release.ept_derived` marca um mart construído a partir de modelos ou seeds da EpT, e um teste falha se algum mart publicado o for.
+- `data/ept_*` e tudo o que deriva da EpT ficam fora da CC BY: são republicados citando a EpT como fonte, ao abrigo da Lei n.º 52/2019, art. 15.º, n.º 1, e da Lei n.º 26/2016 (LADA), art. 21.º, n.º 1. Fica excluído apenas o NIF dos titulares. `release.ept_derived` marca um mart construído a partir de modelos ou seeds da EpT, e um teste falha se algum mart publicado o for.
 
 **Código: MIT**, porque a AGPL desencoraja a reutilização de um pipeline pequeno. O repositório do site mantém a AGPL-3.0.
 

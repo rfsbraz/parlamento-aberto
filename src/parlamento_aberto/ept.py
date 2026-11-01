@@ -32,10 +32,12 @@ Layout under ``data/ept_registo_interesses/``:
 
 - ``titularidades.ndjson``: one line per titularidade (entity, role, holder), by id;
 - ``declarations.ndjson``: one line per declaration from the search, by id;
-- ``<entityId>/<id // 1000>/<id>.json``: one stripped declaration.
+- ``<entityId>/<id // 1000>/<id>.json``: one stripped declaration, with ``retrieved_at``,
+  the Lisbon day it was fetched.
 """
 
 import argparse
+import datetime as dt
 import json
 import re
 import sys
@@ -45,6 +47,7 @@ import urllib.request
 from collections import Counter
 from collections.abc import Callable
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 API = "https://api.entidadetransparencia.pt"
 ORIGIN = "https://entidadetransparencia.pt"
@@ -53,6 +56,7 @@ USER_AGENT = (
     "sequential requests, 1 per second)"
 )
 DATASET = "ept_registo_interesses"
+LISBON = ZoneInfo("Europe/Lisbon")
 # 510 is "Assembleia da República" (XVI and earlier titularidades), 4508 is
 # "Assembleia da República - XVII Legislatura".
 ENTITIES = (510, 4508)
@@ -180,6 +184,9 @@ SEARCH_KEYS = (
 # Nine digits not part of a longer number, also split as 3+3+3 by a space, dot or dash.
 NINE = re.compile(r"(?<!\d)\d{3}[ .-]?\d{3}[ .-]?\d{3}(?!\d)")
 NIF_KEY = re.compile(r"nif|nipc", re.IGNORECASE)
+# What the strip drops before anything is stored, and how the reuse note names it. The note
+# in release.EPT_TERMS and the docs is built from this, and a test keeps them in step.
+STRIPPED = {"nif": "o NIF dos titulares"}
 REMOVED = "[removido]"
 # Company NIPC ranges kept: 5 (legal persons), 6 (public bodies), 71, 72 and 79. Every
 # other prefix can identify a person and is dropped like a personal NIF (Lei 52/2019,
@@ -516,6 +523,11 @@ def write_ndjson(path: Path, rows: list[dict]) -> None:
     path.write_text(text)
 
 
+def lisbon_today(now: dt.datetime | None = None) -> str:
+    """Today's date in Lisbon, the day a declaration was fetched."""
+    return (now or dt.datetime.now(dt.UTC)).astimezone(LISBON).date().isoformat()
+
+
 def read_index(root: Path) -> dict[int, dict]:
     path = root / "declarations.ndjson"
     if not path.exists():
@@ -546,6 +558,7 @@ def run(
     dry_run: bool = False,
     limit: int | None = None,
     log: Callable[[str], None] = print,
+    today: Callable[[], str] = lisbon_today,
 ) -> dict:
     """Sync the dataset into ``data_dir``. Logs and the report carry counts and ids only."""
     root = data_dir / DATASET
@@ -603,6 +616,7 @@ def run(
             continue
         if rec["id"] != row["id"]:
             raise ShapeError(f"asked for {row['id']}, got another id")
+        rec["retrieved_at"] = today()
         write_json(decl_path(root, row["entityId"], row["id"]), rec)
         report["fetched"] += 1
         if n % 50 == 0:

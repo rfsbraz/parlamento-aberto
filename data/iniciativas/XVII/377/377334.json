@@ -410,7 +410,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-27",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação - Súmula da discussão",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533830513046464c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f574a684f444d334e6d59745a6d4e6d596930304e7a63334c5467324f5455745a6d5532596a4e6b5a54646a4f474d794c6e426b5a673d3d&fich=9ba8376f-fcfb-4777-8695-fe6b3de7c8c2.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8450",
      "Legislatura": null,
@@ -447,6 +454,42 @@
    "RecursoGP": null,
    "TextosAprovados": null,
    "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "315",
+   "Comissao": null,
+   "DataFase": "2026-10-28",
+   "EvtId": "196",
+   "Fase": "Votação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1754445",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": [
+    {
+     "ausencias": null,
+     "data": "2026-10-28",
+     "descricao": null,
+     "detalhe": "A Favor: <I>CH</I>, <I> PS</I>, <I> IL</I>, <I> PAN</I>, <I> JPP</I><BR>Contra:<I>PSD</I>, <I> PCP</I>, <I> CDS-PP</I><BR>Abstenção:<I>L</I>, <I> BE</I>",
+     "id": "193257",
+     "publicacao": null,
+     "resultado": "Aprovado",
+     "reuniao": "16",
+     "tipoReuniao": "RP",
+     "unanime": null
+    }
+   ]
   }
  ],
  "IniId": "377334",

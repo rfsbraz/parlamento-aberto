@@ -674,6 +674,24 @@
    ],
    "Audiencias": [
     {
+     "AccDtaud": "2026-10-22",
+     "ActAs": "Audiência da Comissão de Cidadãos de Infraestruturas, Mobilidade e Habitação ",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "127828",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "28-CIMH-XVII",
+     "ActSl": null,
+     "ActTp": "AUD",
+     "ActTpdesc": "Audiência",
+     "CmsAb": "CIMH",
+     "CmsNo": "Comissão de Infraestruturas, Mobilidade e Habitação",
+     "NomeEntidadeExterna": "\"Os 230\"",
+     "TevTp": null
+    },
+    {
      "AccDtaud": "2026-06-24",
      "ActAs": "Audiências no âmbito das iniciativas legislativas que alteram o regime TVDE",
      "ActDtdes1": null,
@@ -1475,12 +1493,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Setúbal",
+     "Data": "2026-01-12",
+     "Estabelecimento": "Agrupamento de Escolas Maria do Carmo Serrote",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -1519,6 +1537,16 @@
     ]
    },
    "Req": [
+    {
+     "ReqAs": "Documentação relativa aos termos da proposta da Lufthansa para a reprivatização parcial da TAP",
+     "ReqDt": "2026-10-27 00:00:00.0",
+     "ReqId": "231912",
+     "ReqLg": "XVII",
+     "ReqNr": "25",
+     "ReqPerTp": "REQ",
+     "ReqSl": "2",
+     "ReqTp": "AC"
+    },
     {
      "ReqAs": "Sistema Integrado de Gestão de Veículos em Fim de Vida (SIGVFV).",
      "ReqDt": "2026-09-30 00:00:00.0",
@@ -2820,7 +2848,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-26",
+    "GpDtFim": "2026-10-30",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

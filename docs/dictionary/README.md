@@ -35,6 +35,9 @@ Como consultar uma publicação: [querying.md](../querying.md).
 | [question_recipients](question_recipients.md) | Uma linha por pergunta e organismo destinatário. |
 | [interest_declarations](interest_declarations.md) | Uma linha por declaração no registo de interesses, de duas fontes: os dados abertos da AR (source = ar_open_data, XI a XV) e a Entidade para a Transparência (source = ept, XVI e XVII). |
 | [interests](interests.md) | Uma linha por interesse declarado, das mesmas duas fontes de interest_declarations (ar_open_data, XI a XV, e ept, XVI e XVII): atividades e cargos, cargos sociais, sociedades, apoios, serviços e outras situações. |
+| [interest_declaration_fields](interest_declaration_fields.md) | Uma linha por campo visível dos separadores 2 (dados pessoais) e 3 (rendimentos e património) das declarações da EpT da XVI e da XVII. |
+| [interest_declaration_attachments](interest_declaration_attachments.md) | Uma linha por anexo das declarações da EpT da XVI e da XVII. |
+| [interest_associations](interest_associations.md) | Uma linha por filiação ou função em entidades de natureza associativa declarada à EpT na XVI e na XVII (Regulamento da EpT n.º 258/2024, art. |
 | [plenary_attendance](plenary_attendance.md) | Uma linha por reunião plenária e pessoa na sua lista de presenças. |
 | [plenary_attendance_summary](plenary_attendance_summary.md) | Uma linha por legislatura, pessoa, grupo e tipo de reunião (solene ou comemorativa, ou não), a partir de plenary_attendance: o número de reuniões nas listas de presenças e quantas caem em cada categoria, para que qualquer taxa se possa calcular. |
 

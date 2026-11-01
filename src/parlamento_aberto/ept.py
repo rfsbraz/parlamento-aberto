@@ -1,4 +1,4 @@
-"""Fetch the EpT register of interests for XVI and XVII (#44): metadata and tab 4 only.
+"""Fetch the EpT register of interests for XVI and XVII (#44, #148).
 
 The Entidade para a Transparência (EpT) publishes the declarations of the Assembleia da
 República deputies through an unauthenticated JSON API (https://api.entidadetransparencia.pt):
@@ -8,18 +8,24 @@ República deputies through an unauthenticated JSON API (https://api.entidadetra
   with every state (Published, Replaced, Modified and so on);
 - ``POST /publicquery/getdeclaration`` returns one declaration.
 
-A declaration carries the holder's full NIF in a top-level ``nif`` field, personal data,
-income and assets in other tabs, attachments, and the entity NIF/NIPC in one tab 4 column.
-``strip`` keeps an allow-list of metadata keys and the known tab 4 columns only, and
-replaces any 9-digit number left in a value. In the entity NIF/NIPC column it keeps only a
-valid company NIPC (see ``is_company_nipc``) and drops anything else, such as a sole
-trader's personal NIF. The associations section (memberships) is dropped whole, without
-reading a cell: Reg. EpT 258/2024, art. 15.º, n.º 1, al. b) keeps it out of public access.
+A declaration carries the holder's full NIF in a top-level ``nif`` field, personal data
+(tab 2), income and assets (tab 3), interests (tab 4), the entity NIF/NIPC in one tab 4
+column and a list of attachments. ``strip`` keeps an allow-list of metadata keys, every
+cell the EpT shows in tabs 2 and 3, the known tab 4 columns and the attachment metadata,
+and replaces any 9-digit number left in a value. In the tab 4 entity NIF/NIPC column it
+keeps only a valid company NIPC (see ``is_company_nipc``) and drops anything else, such as
+a sole trader's personal NIF. Tabs 2 and 3 are stored by position (``0.3.1.2``) with the
+table name and column, never by the EpT keys: some of those GUIDs read as 9 digits. The
+API serves no attachment file, so only the name, size, format, section and observations
+are kept. The associations section (memberships) of tab 4 is kept apart, under
+``associations``, with the same rule for its NIF/NIPC column, so it can be dropped on its
+own.
 Nothing is written before ``assert_clean`` passes, and the raw response is never stored
 or logged.
 
 Requests go one at a time, at most one per second. The run is incremental: a declaration
-is fetched again only when it is new or its state changed. Replaced and modified versions
+is fetched again only when it is new, its state changed or its file was stored by an
+older strip. Replaced and modified versions
 are kept, since each has its own id.
 
 Layout under ``data/ept_registo_interesses/``:
@@ -57,14 +63,50 @@ ENTITIES = (510, 4508)
 INTERVAL = 1.0
 PAGE_SIZE = 500
 
+TAB2 = "7df770a3-e06b-4448-b5ac-c1b162c80fcc"
+TAB3 = "ecc58cb2-0808-4d2f-bb2b-64b87617a4ac"
 TAB4 = "1483a8d1-adca-4f39-8038-98cc6f728fcb"
-TAB4_GROUP = "88ff2a6e-3702-4687-9f05-2738f70ccbd0"
-# Tab 4 sections that are never read, stored or parsed. Their cells are not looked at.
-DROPPED_SECTIONS = {
-    # Filiação ou funções em entidades de natureza associativa: not public under
-    # Reg. EpT 258/2024, art. 15.º, n.º 1, al. b).
-    "cd0e811a-d9bb-49ee-b0f0-1dae0680eb22": "association",
+# Tables of tab 3, named after the EpT frontend's export functions (addTable...). Some
+# GUIDs hold more than one kind of good: the row says which.
+TAB3_SECTIONS = {
+    "da9c415a-e950-4ce9-ab58-5ce1c1b5af53": "employment_income",
+    "112c6561-4a51-4f79-b637-bbd8d2c0c74c": "real_estate_portugal",
+    "252ba9e4-bbba-4660-be9e-470b263c4832": "real_estate_abroad",
+    "70fdd906-58d5-4682-967d-90ae90805436": "shares_portugal",
+    "cdeffda1-efd5-44c7-b256-1822dd5bafe0": "shares_abroad",
+    "53168cfb-433e-41e6-9b23-33c1eac7fa6f": "vehicles_portugal",
+    "05d989a9-7824-459d-aeb3-cc13f1f70c00": "vehicles_abroad",
+    "1a5d2580-aaf3-4874-9e20-68ce10671263": "securities_portugal",
+    "4a8f53d5-34c2-4bda-b3ea-ec2b157efe67": "securities_abroad",
+    "e498015f-062e-4fcd-93a8-c5f1393f568b": "term_deposits_portugal",
+    "9d7b601c-dc39-4460-a3ab-3bc1178cbae7": "term_deposits_abroad",
+    "7bf6ccdd-f797-4339-8c76-18a248882016": "financial_investments_portugal",
+    "5eea74fb-2cdc-4897-8f04-ce31341f7296": "financial_investments_abroad",
+    "873b46af-f3a5-4329-9aa0-a04fd1114467": "demand_deposits_portugal",
+    "151ea0ca-b4a5-4764-a461-67d0c300c915": "demand_deposits_abroad",
+    "58adafd6-226e-4978-a48c-66f53affd3ac": "credits_portugal",
+    "f4838f1a-b32e-43bd-9f3e-6de9ff72526d": "credits_abroad",
+    "8a7cfdae-1d47-41f9-a366-5ba020c1b90f": "other_assets_portugal",
+    "ea846529-712c-4b47-953f-5b39015c4f17": "other_assets_abroad",
+    "27bb57dd-0fd8-4595-aaca-53bf1634ca87": "liabilities_portugal",
+    "50117239-0a0b-427d-9c23-f33c766b2b3a": "liabilities_abroad",
+    "ffd1a4f7-c19e-4e75-b722-11c6e3fae511": "guarantees_portugal",
+    "3737df7d-c0e0-4a24-8bce-346a479971f5": "guarantees_abroad",
+    "60c13abc-b075-475c-86c5-fa69a7cae259": "asset_changes",
 }
+FIELD_TABS = {"tab2": TAB2, "tab3": TAB3}
+# The holder's NIF in tab 2 ("Número de Identificação Fiscal (NIF)"). Never kept, shown or not.
+HOLDER_NIF_CELLS = {"d155af2b-21e9-475f-be81-8e42bc5a5641"}
+COLUMN = re.compile(r"-(col\d+)$")
+# Form label of each EpT input, from the EpT web form (inputKey -> label). Labels only.
+FIELD_LABELS = json.loads((Path(__file__).parent / "ept_labels.json").read_text(encoding="utf-8"))
+ATTACHMENT_KEYS = ("name", "size", "format", "sectionType", "observations")
+TAB4_GROUP = "88ff2a6e-3702-4687-9f05-2738f70ccbd0"
+# Filiação ou funções em entidades de natureza associativa. Stored under ``associations``,
+# never inside ``tab4``. col8 is "NIF/NIPC/Tax identification number ou equivalente".
+ASSOCIATION = "cd0e811a-d9bb-49ee-b0f0-1dae0680eb22"
+ASSOCIATION_NIPC = "col8"
+ASSOCIATION_COLS = ("col1", "col2", "col3", "col4", "col5", "col6", "col7")
 # section GUID -> (category, entity NIF/NIPC column or None, other columns kept)
 SECTIONS = {
     "2c6d9562-dea5-488b-9afe-42519c636daf": (
@@ -95,7 +137,7 @@ SECTIONS = {
 }
 for _cat, _nif, _cols in SECTIONS.values():
     assert _nif not in _cols
-assert not set(SECTIONS) & set(DROPPED_SECTIONS)
+assert ASSOCIATION not in SECTIONS
 
 META_KEYS = (
     "id",
@@ -215,35 +257,45 @@ def _assert_tab4(tab4, path: str) -> None:
         return assert_clean(tab4, path, _top=False)
     for guid, rows in tab4.items():
         here = f"{path}.{guid}"
-        if guid in DROPPED_SECTIONS:
-            raise LeakError(f"{DROPPED_SECTIONS[guid]} section at {here}")
+        if guid == ASSOCIATION:
+            raise LeakError(f"association section inside tab4 at {here}")
         nif_col = SECTIONS[guid][1] if guid in SECTIONS else None
         if nif_col is None or not isinstance(rows, list):
             assert_clean({guid: rows}, path, _top=False)
             continue
-        for i, row in enumerate(rows):
-            if not isinstance(row, dict):
-                assert_clean(row, f"{here}[{i}]", _top=False)
-                continue
-            for col, v in row.items():
-                if col == nif_col and v is not None:
-                    if not is_company_nipc(v):
-                        raise LeakError(f"not a company NIPC at {here}[{i}].{col}")
-                else:
-                    assert_clean({col: v}, f"{here}[{i}]", _top=False)
+        _assert_rows(rows, nif_col, here)
+
+
+def _assert_rows(rows, nif_col: str, here: str) -> None:
+    """A valid company NIPC is allowed in ``nif_col`` only."""
+    if not isinstance(rows, list):
+        return assert_clean(rows, here, _top=False)
+    for i, row in enumerate(rows):
+        if not isinstance(row, dict):
+            assert_clean(row, f"{here}[{i}]", _top=False)
+            continue
+        for col, v in row.items():
+            if col == nif_col and v is not None:
+                if not is_company_nipc(v):
+                    raise LeakError(f"not a company NIPC at {here}[{i}].{col}")
+            else:
+                assert_clean({col: v}, f"{here}[{i}]", _top=False)
 
 
 def assert_clean(obj, path: str = "", *, _top: bool = True) -> None:
     """Raise LeakError on any nif/nipc key or 9-digit value. The message names the path only.
 
-    The one exception is a valid company NIPC in the NIPC column of a known tab 4 section,
-    in a stored declaration (a top-level dict with a ``tab4`` key).
+    The one exception is a valid company NIPC in the NIPC column of a known tab 4 section
+    or of the associations, in a stored declaration (top-level ``tab4`` or ``associations``).
     """
     if isinstance(obj, dict):
         for k, v in obj.items():
             here = f"{path}.{k}" if path else str(k)
-            if _top and k == "tab4" and not NINE.search(str(k)):
+            if _top and k == "tab4":
                 _assert_tab4(v, here)
+                continue
+            if _top and k == "associations":
+                _assert_rows(v, ASSOCIATION_NIPC, here)
                 continue
             if NIF_KEY.search(str(k)):
                 raise LeakError(f"nif key at {here}")
@@ -259,46 +311,109 @@ def assert_clean(obj, path: str = "", *, _top: bool = True) -> None:
         raise LeakError(f"9-digit value at {path or '<root>'}")
 
 
+def _rows(sec: dict, nif_col, cols) -> list:
+    """Visible cells of a tab 4 table. The NIF/NIPC column keeps a company NIPC only."""
+    rows = []
+    for row in sec.get("value") or []:
+        vals = {}
+        for cell in row.get("value") or []:
+            col = str(cell.get("key", "")).rsplit("-", 1)[-1]
+            if not cell.get("isVisible"):
+                continue
+            if col == nif_col:
+                nipc = company_nipc(cell.get("value"))
+                if nipc is not None:
+                    vals[col] = nipc
+            elif col in cols:
+                vals[col] = clean(cell.get("value"))
+        if any(v is not None for v in vals.values()):
+            rows.append(vals)
+    return rows
+
+
 def _tab4(sections: list) -> dict:
     out = {}
     for sec in sections:
         key = sec.get("key")
-        if key in DROPPED_SECTIONS:
+        if key == ASSOCIATION:
             continue
         if key not in SECTIONS:
             raise ShapeError(f"unknown tab 4 section {key}")
         _, nif_col, cols = SECTIONS[key]
-        rows = []
-        for row in sec.get("value") or []:
-            vals = {}
-            for cell in row.get("value") or []:
-                col = str(cell.get("key", "")).rsplit("-", 1)[-1]
-                if not cell.get("isVisible"):
-                    continue
-                if col == nif_col:
-                    nipc = company_nipc(cell.get("value"))
-                    if nipc is not None:
-                        vals[col] = nipc
-                elif col in cols:
-                    vals[col] = clean(cell.get("value"))
-            if any(v is not None for v in vals.values()):
-                rows.append(vals)
-        out[key] = rows
+        out[key] = _rows(sec, nif_col, cols)
     return out
 
 
+def _associations(sections: list) -> list:
+    sec = next((s for s in sections if s.get("key") == ASSOCIATION), None)
+    return _rows(sec, ASSOCIATION_NIPC, ASSOCIATION_COLS) if sec else []
+
+
+def _fields(node, tab: str, path: str, section, out: list) -> None:
+    """Append every visible, non-empty leaf under ``node`` as a positional record."""
+    if not isinstance(node, dict) or node.get("isVisible") is not True:
+        return
+    if node.get("isDeleted") is True or node.get("isEmpty") is True:
+        return
+    key = str(node.get("key", ""))
+    if key in HOLDER_NIF_CELLS:
+        return
+    if tab == "tab3":
+        section = TAB3_SECTIONS.get(key, section)
+    v = node.get("value")
+    if isinstance(v, list):
+        for i, child in enumerate(v):
+            _fields(child, tab, f"{path}.{i}" if path else str(i), section, out)
+        return
+    if isinstance(v, dict):
+        raise ShapeError(f"object value in {tab} at {path}")
+    v = clean(v)
+    if v is None:
+        return
+    m = COLUMN.search(key)
+    out.append(
+        {
+            "path": path,
+            "section": section,
+            "column": m.group(1) if m else None,
+            "label": FIELD_LABELS.get(key),
+            "value": v,
+        }
+    )
+
+
+def _attachments(items) -> list:
+    """Attachment metadata only: the public API serves no file to check for a NIF."""
+    if not isinstance(items, list):
+        return []
+    return [{k: clean(a.get(k)) for k in ATTACHMENT_KEYS} for a in items if isinstance(a, dict)]
+
+
 def strip(data: dict) -> dict:
-    """Keep the metadata allow-list and tab 4. Everything else, including nif, is dropped."""
+    """Keep the metadata allow-list, tabs 2 to 4 and the attachment metadata.
+
+    Everything else, including nif, is dropped.
+    """
     out = {k: clean(data.get(k)) for k in META_KEYS}
     out["id"] = data["id"]
+    tabs = (data.get("data") or {}).get("value") or []
+    for name, guid in FIELD_TABS.items():
+        out[name] = []
+        for t in tabs:
+            if t.get("key") == guid:
+                _fields(t, name, "", None, out[name])
+    out["attachments"] = _attachments(data.get("attachments"))
     out["tab4"] = None
-    tabs = [t for t in (data.get("data") or {}).get("value") or [] if t.get("key") == TAB4]
+    out["associations"] = []
+    tabs = [t for t in tabs if t.get("key") == TAB4]
     if tabs:
         groups = tabs[0].get("value") or []
         for g in groups:
             if g.get("key") != TAB4_GROUP:
                 raise ShapeError(f"unknown tab 4 group {g.get('key')}")
-        out["tab4"] = _tab4(groups[0].get("value") or []) if groups else {}
+        sections = (groups[0].get("value") or []) if groups else []
+        out["tab4"] = _tab4(sections)
+        out["associations"] = _associations(sections)
     return out
 
 
@@ -424,6 +539,17 @@ def decl_path(root: Path, entity_id: int, decl_id: int) -> Path:
     return root / str(entity_id) / str(decl_id // 1000) / f"{decl_id}.json"
 
 
+# Keys every stored declaration has. A file without one was stored by an older strip.
+STORED_KEYS = ("tab2", "tab3", "tab4", "attachments", "associations")
+
+
+def is_current(path: Path) -> bool:
+    if not path.exists():
+        return False
+    stored = json.loads(path.read_text())
+    return all(k in stored for k in STORED_KEYS)
+
+
 def run(
     client: Client,
     data_dir: Path,
@@ -460,7 +586,7 @@ def run(
             if (
                 prev is None
                 or prev.get("stateType") != row["stateType"]
-                or not decl_path(root, e, row["id"]).exists()
+                or not is_current(decl_path(root, e, row["id"]))
             ):
                 todo.append(row)
         if n % 50 == 0:

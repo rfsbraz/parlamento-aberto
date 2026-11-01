@@ -789,7 +789,7 @@ models:
     columns:
       declaration_key: Declaração a que o item pertence.
       item_number: Posição do item dentro da declaração, com as secções pela ordem do separador 4.
-      category: activity, support, service, society ou other_situation (atividade, apoio, serviço, sociedade ou outra situação). A secção de filiação em entidades de natureza associativa nunca é lida (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)).
+      category: activity, support, service, society ou other_situation (atividade, apoio, serviço, sociedade ou outra situação). A secção de filiação em entidades de natureza associativa está em stg_ept_registo_interesses__associations.
       source_list: Designação da secção do separador 4 como a EpT a mostra.
       item_id: Nulo. As linhas da EpT não têm id.
       type_code: Nulo. A EpT não tem código de tipo.
@@ -818,6 +818,78 @@ models:
       is_professional_secrecy: Segredo profissional invocado, nos serviços e outras situações.
       observation: Observação de uma outra situação.
 
+  stg_ept_registo_interesses__fields:
+    description: >-
+      Uma linha por campo visível dos separadores 2 (dados pessoais) e 3 (rendimentos e património) de uma
+      declaração da EpT em stg_ept_registo_interesses__declarations. Só entram os campos que a EpT mostra; o
+      NIF do titular nunca é guardado. Os campos ficam pela posição na declaração, com a tabela e a coluna, e
+      nunca pelas chaves da EpT. Qualquer número de 9 dígitos no valor fica [removido].
+    columns:
+      declaration_key: Declaração a que o campo pertence.
+      field_number: Posição do campo na declaração, separador 2 primeiro.
+      tab: tab2 (dados pessoais) ou tab3 (rendimentos e património).
+      path: Posição do campo na árvore do separador, por exemplo 0.3.1.2.
+      section: Tabela do separador 3, por exemplo real_estate_portugal. Nulo no separador 2.
+      column_name: Coluna da tabela do separador 3 (col1, col2...). Nulo fora das tabelas.
+      label: Nome do campo no formulário da EpT, quando é conhecido.
+      value: Valor tal como publicado, em texto.
+      legislature: Legislatura da declaração.
+      source: Sempre ept.
+      source_file: Ficheiro guardado de onde a linha foi lida, relativo a data/.
+
+  stg_ept_registo_interesses__attachments:
+    description: >-
+      Uma linha por anexo de uma declaração da EpT. Só os metadados: a API pública da EpT não serve o
+      ficheiro, e sem o ficheiro não há forma de provar que não traz um NIF.
+    columns:
+      declaration_key: Declaração a que o anexo pertence.
+      attachment_number: Posição do anexo na declaração.
+      name: Nome do ficheiro tal como publicado.
+      size_bytes: Tamanho do ficheiro em bytes.
+      format: Formato do ficheiro tal como publicado.
+      section_type: Código da secção a que o anexo pertence, tal como publicado.
+      observations: Observações do anexo tal como escritas.
+      legislature: Legislatura da declaração.
+      source: Sempre ept.
+      source_file: Ficheiro guardado de onde a linha foi lida, relativo a data/.
+
+  stg_ept_registo_interesses__associations:
+    description: >-
+      Uma linha por linha da secção de filiação ou funções em entidades de natureza associativa do
+      separador 4 de uma declaração da EpT (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)). Tem
+      as colunas de stg_ept_registo_interesses__items e fica numa tabela à parte para poder sair sozinha.
+    columns:
+      declaration_key: Declaração a que a linha pertence.
+      item_number: Posição da linha dentro da secção.
+      category: Sempre association.
+      source_list: Designação da secção como a EpT a mostra.
+      item_id: Nulo. As linhas da EpT não têm id.
+      type_code: Nulo. A EpT não tem código de tipo.
+      description: Cargo ou função tal como escrito.
+      entity: Entidade indicada.
+      nature: Nulo. A secção não tem natureza.
+      activity_area: Natureza e área de atividade da entidade.
+      location: Sede.
+      share: Nulo.
+      paid_raw: Remuneração tal como publicada, 1 ou 0, não documentada pela EpT.
+      start_date_raw: Data de início tal como publicada, em UTC.
+      end_date_raw: Data de fim tal como publicada, em UTC.
+      date_raw: Nulo.
+      legislature: Legislatura da declaração.
+      source_file: Ficheiro guardado de onde a linha foi lida, relativo a data/.
+      source: Sempre ept.
+      is_paid: Nulo. A EpT não diz o que significam 1 e 0.
+      start_date: Data de início como dia em Europe/Lisbon.
+      end_date: Data de fim como dia em Europe/Lisbon.
+      entity_nipc: NIPC da entidade, só quando é um NIPC de empresa válido. Nulo nos outros casos.
+      beneficiary: Nulo.
+      beneficiary_company: Nulo.
+      share_value_eur: Nulo.
+      share_pct: Nulo.
+      share_holder: Nulo.
+      is_professional_secrecy: Nulo.
+      observation: Nulo.
+
   interest_declarations:
     description: >-
       Uma linha por declaração no registo de interesses, de duas fontes: os dados abertos da AR
@@ -827,8 +899,8 @@ models:
       as pessoas das listas da XVII, porque todos os ficheiros listam essas pessoas. As primeiras
       colunas são as de sempre; as colunas da EpT vêm depois e são nulas nas linhas da AR. As
       linhas da EpT ficam fora da licença CC BY 4.0 e citam a EpT como fonte (Lei n.º 52/2019,
-      art. 15.º, n.º 1; LADA, art. 21.º, n.º 1). Ficam de fora nomes, cônjuge,
-      estado civil, regime de bens, NIF e campos de contacto; para os nomes, faça join com deputies.
+      art. 15.º, n.º 1; LADA, art. 21.º, n.º 1). Os dados pessoais e os rendimentos e património
+      que a EpT mostra estão em interest_declaration_fields; o NIF dos titulares nunca entra.
     columns:
       legislature: Legislatura em numeração romana. Na AR vem do ficheiro; na EpT, das datas da declaração.
       declaration_key: Chave da declaração, única nas duas fontes, liga a interests. Na EpT é ept:<id>.
@@ -863,7 +935,8 @@ models:
       sociedades, apoios, serviços e outras situações. O texto está tal como publicado, por isso os
       itens de texto livre podem dizer "Nada a declarar". Na AR o JSON prevalece sobre o mapeador
       antigo: a V1 publica as atividades como um único campo de texto livre, e a V5 também é lida
-      (XIV, XV), porque o dump a contém. Na EpT só entra o separador 4. As primeiras colunas são as
+      (XIV, XV), porque o dump a contém. Na EpT entra o separador 4, sem a filiação em entidades
+      de natureza associativa, que está em interest_associations. As primeiras colunas são as
       de sempre; paid_raw e as colunas da EpT vêm depois. As linhas da EpT ficam fora da licença
       CC BY 4.0 e citam a EpT como fonte (Lei n.º 52/2019, art. 15.º, n.º 1; LADA, art. 21.º,
       n.º 1).
@@ -872,7 +945,7 @@ models:
       declaration_key: Declaração, liga a interest_declarations.
       item_number: Posição do item dentro da declaração.
       cadastro_id: Id da pessoa, liga a deputies. Na EpT vem de seed_ept_holders e pode ser nulo.
-      category: activity, social_position, society, support, service ou other_situation (atividade, cargo social, sociedade, apoio, serviço ou outra situação). Da EpT não entra a filiação em entidades de natureza associativa (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)).
+      category: activity, social_position, society, support, service ou other_situation (atividade, cargo social, sociedade, apoio, serviço ou outra situação). A filiação em entidades de natureza associativa da EpT está em interest_associations.
       source_list: Lista, campo ou secção publicada de onde vem o item, por exemplo GenCargosMaisTresAnos.
       item_id: Id do item na AR, quando publicado. Nulo na EpT.
       type_code: Código Type da V3 tal como publicado (0, 1 ou 2), não documentado pela AR.
@@ -898,6 +971,70 @@ models:
       share_holder: Titular da participação social tal como escrito. Só EpT.
       is_professional_secrecy: Segredo profissional invocado, nos serviços e outras situações. Só EpT.
       observation: Observação de uma outra situação. Só EpT.
+
+  interest_declaration_fields:
+    description: >-
+      Uma linha por campo visível dos separadores 2 (dados pessoais) e 3 (rendimentos e património) das
+      declarações da EpT da XVI e da XVII. Só entram os campos que a EpT mostra; o NIF dos titulares nunca
+      entra, e qualquer número de 9 dígitos no valor fica [removido], também os NIPC de empresas, porque as
+      colunas do separador 3 não dizem qual é a do NIF. Os campos ficam pela posição na declaração, com a
+      tabela e a coluna. As linhas ficam fora da licença CC BY 4.0 e citam a EpT como fonte (Lei n.º 52/2019,
+      art. 15.º, n.º 1; LADA, art. 21.º, n.º 1).
+    columns:
+      legislature: Legislatura em numeração romana.
+      declaration_key: Declaração, liga a interest_declarations.
+      cadastro_id: Id da pessoa, liga a deputies. Vem de seed_ept_holders e pode ser nulo.
+      field_number: Posição do campo na declaração, separador 2 primeiro.
+      tab: tab2 (dados pessoais) ou tab3 (rendimentos e património).
+      path: Posição do campo na árvore do separador, por exemplo 0.3.1.2.
+      section: Tabela do separador 3, por exemplo real_estate_portugal. Nulo no separador 2.
+      column_name: Coluna da tabela do separador 3 (col1, col2...). Nulo fora das tabelas.
+      label: Nome do campo no formulário da EpT, quando é conhecido.
+      value: Valor tal como publicado, em texto.
+      source: Sempre ept.
+
+  interest_declaration_attachments:
+    description: >-
+      Uma linha por anexo das declarações da EpT da XVI e da XVII. Só os metadados: a API pública da EpT
+      não serve o ficheiro, e sem o ficheiro não há forma de provar que não traz um NIF. As linhas ficam
+      fora da licença CC BY 4.0 e citam a EpT como fonte (Lei n.º 52/2019, art. 15.º, n.º 1; LADA,
+      art. 21.º, n.º 1).
+    columns:
+      legislature: Legislatura em numeração romana.
+      declaration_key: Declaração, liga a interest_declarations.
+      cadastro_id: Id da pessoa, liga a deputies. Vem de seed_ept_holders e pode ser nulo.
+      attachment_number: Posição do anexo na declaração.
+      name: Nome do ficheiro tal como publicado.
+      size_bytes: Tamanho do ficheiro em bytes.
+      format: Formato do ficheiro tal como publicado.
+      section_type: Código da secção a que o anexo pertence, tal como publicado.
+      observations: Observações do anexo tal como escritas.
+      source: Sempre ept.
+
+  interest_associations:
+    description: >-
+      Uma linha por filiação ou função em entidades de natureza associativa declarada à EpT na XVI e na
+      XVII (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)). Fica fora de interests para poder
+      sair sozinha. As linhas ficam fora da licença CC BY 4.0 e citam a EpT como fonte (Lei n.º 52/2019,
+      art. 15.º, n.º 1; LADA, art. 21.º, n.º 1).
+    columns:
+      legislature: Legislatura em numeração romana.
+      declaration_key: Declaração, liga a interest_declarations.
+      cadastro_id: Id da pessoa, liga a deputies. Vem de seed_ept_holders e pode ser nulo.
+      item_number: Posição da linha dentro da secção.
+      category: Sempre association.
+      source_list: Designação da secção como a EpT a mostra.
+      description: Cargo ou função tal como escrito.
+      entity: Entidade indicada.
+      activity_area: Natureza e área de atividade da entidade.
+      location: Sede.
+      paid_raw: Remuneração tal como publicada, 1 ou 0, não documentada pela EpT.
+      start_date: Data de início como dia em Europe/Lisbon.
+      end_date: Data de fim como dia em Europe/Lisbon.
+      start_date_raw: Data de início tal como publicada, em UTC.
+      end_date_raw: Data de fim tal como publicada, em UTC.
+      entity_nipc: NIPC da entidade, só quando é um NIPC de empresa válido. Nulo nos outros casos.
+      source: Sempre ept.
 
   # Plenary attendance (#71).
   seed_attendance_codes:

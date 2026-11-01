@@ -56,7 +56,7 @@ uv run python -m parlamento_aberto.release source-drops --lock data/_meta/source
 
 Os dados de deputados incluem dados pessoais. As regras abaixo não têm exceções:
 
-- Nunca escreva um NIF pessoal em código, fixtures, logs, issues ou commits. Dos dados da Entidade para a Transparência só se guardam os metadados da declaração e o separador 4 (registo de interesses). Os separadores 2 (dados pessoais) e 3 (rendimentos e património) nunca entram no repositório.
+- Nunca escreva um NIF pessoal em código, fixtures, logs, issues ou commits. Dos dados da Entidade para a Transparência guardam-se os metadados da declaração, as células visíveis dos separadores 2 a 4 e os metadados dos anexos. O NIF do titular nunca entra no repositório, e qualquer número de 9 dígitos fora das colunas de NIPC do separador 4 é substituído.
 - As fixtures são sintéticas ou depuradas. Nomes e texto livre inventados usam `Pessoa Sintética`, `sintético` ou `sintética`, e as ligações apontam para `https://app.parlamento.pt/fixture/`. Os testes verificam isto, e falham se uma fixture da EpT tiver uma chave `nif` ou um valor de 9 dígitos.
 - Cada fixture nova é descrita em [tests/fixtures/README.md](tests/fixtures/README.md): de onde vem, a data da extração e o que foi inventado ou retirado.
 - Não edite `data/` à mão. Esses ficheiros vêm da sincronização automática com os dados abertos da AR. Um dado errado na fonte reporta-se com o formulário de correção.

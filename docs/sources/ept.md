@@ -11,7 +11,8 @@ A EpT confirmou que a divulgação do registo de interesses está prevista no n.
 ## Decisão (20 de outubro de 2026)
 
 - O código é público, como o resto do repositório. As declarações da XVI e da XVII são normalizadas nos mesmos marts `interest_declarations` e `interests` da XI à XV, com `source = 'ept'`.
-- Não guardo a secção de filiação ou funções em entidades de natureza associativa (decidido a 20 de outubro de 2026). Fica fora do acesso público (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)), por isso descarto-a inteira, sem ler nenhuma célula.
+- A 20 de outubro de 2026 decidi não guardar a secção de filiação ou funções em entidades de natureza associativa, por ficar fora do acesso público (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)). A 30 de outubro de 2026 passei a guardá-la (#148), numa tabela à parte, `interest_associations`, para poder sair sozinha. Só entram as células que a EpT mostra.
+- A 30 de outubro de 2026 decidi guardar também os separadores 2 e 3 e os metadados dos anexos (#148), em `interest_declaration_fields` e `interest_declaration_attachments`. Fica de fora apenas o NIF dos titulares. Só entram as células que a EpT mostra (`isVisible`); as que a EpT esconde, com ou sem motivo, nunca são lidas.
 - O PR de dados `ept_registo_interesses` fica em espera (novo conjunto de dados, etiqueta `hold:`), nunca é integrado automaticamente e sou eu que decido quando o integrar.
 
 ## Limites legais: Lei n.º 52/2019, art. 17.º
@@ -24,19 +25,21 @@ Texto consolidado após a Lei n.º 58/2021 e a Lei n.º 4/2022 ([pgdlisboa.pt](h
 - n.º 4: os campos do registo de interesses são publicados no site da EpT e no site do órgão a que o titular pertence.
 - n.º 14: fora do n.º 4, a declaração não pode ser divulgada, nomeadamente num site ou numa rede social.
 
-Estes limites definem o que fica de fora: nada do n.º 2 e nada do separador 3 é guardado, e só os campos do registo de interesses do n.º 4 entram nos marts.
+Até #148 estes limites definiam o que ficava de fora: nada do n.º 2 e nada do separador 3. Desde #148 guardo as células dos separadores 2 e 3 que a EpT mostra, e confio na EpT para esconder o que o n.º 2 não deixa publicar. O NIF do titular fica sempre de fora, mesmo que apareça visível, e qualquer número de 9 dígitos é substituído.
 
 ## O que nunca guardamos
 
 O fetcher retira isto em memória, antes de escrever o que quer que seja em disco, num log ou no output do CI:
 
 - qualquer número de 9 dígitos num valor mantido, substituído antes da escrita;
-- a secção de filiação ou funções em entidades de natureza associativa do separador 4, inteira (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b));
-- o separador 2 (dados pessoais: identificação, morada, contactos, cônjuge);
-- o separador 3 (rendimentos e património);
-- os anexos.
+- o NIF do titular (campo `d155af2b-21e9-475f-be81-8e42bc5a5641` do separador 2), mesmo quando a EpT o mostra;
+- as células dos separadores 2 e 3 que a EpT esconde, apagadas ou vazias;
+- as chaves da EpT dos separadores 2 e 3: alguns GUID têm 9 dígitos seguidos, por isso cada campo fica pela posição (`0.3.1.2`), com a tabela, a coluna e o nome do campo no formulário;
+- os ficheiros dos anexos: a API pública não os serve, e sem o ficheiro não há forma de provar que não trazem um NIF. Ficam só o nome, o tamanho, o formato, a secção e as observações.
 
-A resposta em bruto da EpT nunca é guardada. As fixtures são sintéticas ou limpas, e os testes falham se aparecer a secção de associações, ou um valor de 9 dígitos fora dos sítios previstos, numa fixture, num seed ou num ficheiro normalizado.
+Nos separadores 2 e 3 também os NIPC de empresas ficam `[removido]`: as colunas do separador 3 não dizem qual é a do NIF/NIPC, por isso não há forma segura de deixar só os de empresas.
+
+A resposta em bruto da EpT nunca é guardada. As fixtures são sintéticas ou limpas, e os testes falham se aparecer a secção de associações dentro do separador 4, ou um valor de 9 dígitos fora dos sítios previstos, numa fixture, num seed ou num ficheiro normalizado.
 
 ## Separador 4: registo de interesses
 
@@ -50,7 +53,7 @@ O separador 4 é o GUID `1483a8d1-adca-4f39-8038-98cc6f728fcb`. O seu único gru
 | `9b58c917-b14c-4eed-9b3c-40c3d99d45da` | society | Sociedades | col1 a col6, col8 |
 | `fd85f91f-2803-41bc-b315-ede3a4a66d4e` | other_situation | Outras situações | col1 a col4, col6 |
 
-A sexta secção, `cd0e811a-d9bb-49ee-b0f0-1dae0680eb22` (Filiação ou funções em entidades de natureza associativa), é descartada inteira, sem ler nenhuma célula, porque fica fora do acesso público (Regulamento da EpT n.º 258/2024, art. 15.º, n.º 1, al. b)). Se aparecer num ficheiro guardado, a verificação falha. Um GUID de secção desconhecido é um erro, não algo que se salta, para que uma alteração no formulário seja detetada. A EpT publica a Remuneração como `1` ou `0` sem a documentar, por isso fica como `paid_raw` e `is_paid` fica nulo.
+A sexta secção, `cd0e811a-d9bb-49ee-b0f0-1dae0680eb22` (Filiação ou funções em entidades de natureza associativa), fica fora do separador 4 guardado: as células visíveis das colunas col1 a col7 vão para a chave `associations` e para `interest_associations` (#148), e a col8 (NIF/NIPC) só fica quando é um NIPC de empresa válido. Se a secção aparecer dentro do separador 4 guardado, a verificação falha. Um GUID de secção desconhecido é um erro, não algo que se salta, para que uma alteração no formulário seja detetada. A EpT publica a Remuneração como `1` ou `0` sem a documentar, por isso fica como `paid_raw` e `is_paid` fica nulo.
 
 ## Correspondência entre titulares e deputados da AR
 

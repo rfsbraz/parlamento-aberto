@@ -292,7 +292,13 @@ def test_field_and_attachment_marts_have_no_nine_digits(con):
             assert row["source"] == "ept"
             nipc = row.pop("entity_nipc", None)
             assert nipc is None or ept.is_company_nipc(nipc)
-            ept.assert_clean({k: None if v is None else str(v) for k, v in row.items()})
+            ept.assert_clean(
+                {
+                    k: None if v is None else str(v)
+                    for k, v in row.items()
+                    if not ept.kept_amount(row, k)
+                }
+            )
 
 
 # Release: EpT rows are published citing the EpT, and only once they pass the leak check
@@ -338,7 +344,13 @@ def test_published_ept_rows_pass_the_leak_check(built):
             row = dict(zip(cols, values, strict=True))
             nipc = row.pop("entity_nipc", None)
             assert nipc is None or ept.is_company_nipc(nipc)
-            ept.assert_clean({k: None if v is None else str(v) for k, v in row.items()})
+            ept.assert_clean(
+                {
+                    k: None if v is None else str(v)
+                    for k, v in row.items()
+                    if not ept.kept_amount(row, k)
+                }
+            )
 
 
 def _mart(rows):
@@ -367,3 +379,25 @@ def test_leak_check_passes_clean_ept_rows_and_skips_ar_rows():
     nipc = next(f"50000000{d}" for d in range(10) if ept.is_company_nipc(f"50000000{d}"))
     con = _mart([("ept", nipc, "Empresa"), ("ept", None, None), ("ar", None, f"ref {PLANTED}")])
     assert release.check_ept_rows(con, ["interests"]) == {"interests": 2}
+
+
+def _amounts_mart(share_value, description):
+    con = duckdb.connect()
+    con.execute(
+        "create table interests (source varchar, entity_nipc varchar,"
+        " share_value_eur varchar, description varchar)"
+    )
+    con.execute("insert into interests values ('ept', null, ?, ?)", [share_value, description])
+    return con
+
+
+def test_release_keeps_an_amount_the_strip_keeps():
+    con = _amounts_mart("123.456.789,00", "Quota")
+    assert release.check_ept_rows(con, ["interests"]) == {"interests": 1}
+
+
+def test_release_still_stops_on_nine_digits_outside_kept_amounts():
+    for con in (_amounts_mart(None, f"Quota {PLANTED}"), _amounts_mart(PLANTED, "Quota")):
+        with pytest.raises(ept.LeakError) as e:
+            release.check_ept_rows(con, ["interests"])
+        assert PLANTED not in str(e.value)

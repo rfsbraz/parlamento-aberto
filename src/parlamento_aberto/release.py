@@ -197,7 +197,8 @@ def check_ept_rows(con: duckdb.DuckDBPyConnection, mart_names: list[str]) -> dic
     """Run the EpT leak guard on every EpT row about to be published, and count them.
 
     ``entity_nipc`` must be empty or a valid company NIPC; every other value must pass
-    ``ept.assert_clean``. Raises ``ept.LeakError`` naming the mart and column, never the value.
+    ``ept.assert_clean``, except an amount the strip keeps (``ept.kept_amount``).
+    Raises ``ept.LeakError`` naming the mart and column, never the value.
     """
     counts = {}
     for mart in mart_names:
@@ -210,7 +211,13 @@ def check_ept_rows(con: duckdb.DuckDBPyConnection, mart_names: list[str]) -> dic
             if nipc is not None and not ept.is_company_nipc(nipc):
                 raise ept.LeakError(f"{mart}: not a company NIPC in entity_nipc")
             try:
-                ept.assert_clean({k: None if v is None else str(v) for k, v in row.items()})
+                ept.assert_clean(
+                    {
+                        k: None if v is None else str(v)
+                        for k, v in row.items()
+                        if not ept.kept_amount(row, k)
+                    }
+                )
             except ept.LeakError as e:
                 raise ept.LeakError(f"{mart}: {e}") from None
             n += 1

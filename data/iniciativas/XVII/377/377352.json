@@ -392,6 +392,18 @@
        "TipoDocumento": "Outro",
        "TituloDocumento": "Contributo Duarte Carvalhosa",
        "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774d6d4d334e5752685a6930784f5455324c5452684d3251744f5467334d69307a5a44566d4e474533597a637a4e4463756347526d&fich=02c75daf-1956-4a3d-9872-3d5f4a7c7347.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-28",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo ELS Group",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a4d7a52685a57526b5979316a597a686d4c54517a5a5459744f47526a5a4330334e5449344d474a695a5459794d4751756347526d&fich=c34aeddc-cc8f-43e6-8dcd-75280bbe620d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-28",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Joana Gonçalves",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938334d544934596a4d774e7930334e5755324c545177596a4574596a55314d693030597a67335a5455305a4449784f5749756347526d&fich=7128b307-75e6-40b1-b552-4c87e54d219b.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -1459,7 +1471,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Parecer da Comissão da Reforma do Estado e Poder Local",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a54646a4f57566c4d6a517459575a685a5330304d545a694c546c6a5a5451744d5749345a47466b5a47466a4e444a694c6e426b5a673d3d&fich=e7c9ee24-afae-416b-9ce4-1b8daddac42b.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8459",
      "Legislatura": null,
@@ -1472,12 +1491,37 @@
      "Prorrogado": null,
      "Publicacao": null,
      "PublicacaoRelatorio": null,
-     "Relatores": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "CH",
+       "id": "8591",
+       "motivoCessacao": null,
+       "nome": "João Ribeiro"
+      }
+     ],
      "RemessaRedaccaoFinal": null,
      "Remessas": null,
      "Sessao": null,
      "Sigla": null,
-     "Votacao": null
+     "Votacao": [
+      {
+       "ausencias": [
+        "L",
+        "CDS-PP"
+       ],
+       "data": "2026-10-21",
+       "descricao": null,
+       "detalhe": "A Favor: <I>PSD</I>, <I> CH</I>, <I> PS</I>, <I> IL</I>, <I> JPP</I><BR>Ausência: <I>L</I>, <I> CDS-PP</I>",
+       "id": "193283",
+       "publicacao": null,
+       "resultado": "Aprovado",
+       "reuniao": "59",
+       "tipoReuniao": null,
+       "unanime": "unanime"
+      }
+     ]
     }
    ],
    "DataFase": "2026-10-08",
@@ -1962,6 +2006,16 @@
        "data": "2026-10-30",
        "id": "127832",
        "tipo": "AUD"
+      },
+      {
+       "data": "2026-11-02",
+       "id": "127835",
+       "tipo": "AUD"
+      },
+      {
+       "data": "2026-11-02",
+       "id": "127834",
+       "tipo": "AUD"
       }
      ],
      "Competente": "N",
@@ -1977,7 +2031,92 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-30",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório UTAO - Apreciação Final da Proposta de Orçamento do Estado para 2027",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a5a44597a4e444d354d6930344e5449774c54517a5a44517459574e6d4f5330304e6d5a6c4d54426b597a4d334f574d756347526d&fich=cd634392-8520-43d4-acf9-46fe10dc379c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-02",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer Comissão Nacional de Proteção de Dados",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774f444a6a596d49304e7930335a544d304c5451354d324574596a6b774f433034595755354e324a6b595459304d4751756347526d&fich=082cbb47-7e34-493a-b908-8ae97bda640d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-29",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Associação Nacional dos Médicos de Saúde Pública",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a596a67774d7a6778596931694e544d794c54526c596d4574596a55794d7930304f5449795a4759314d54646a596a6b756347526d&fich=cb80381b-b532-4eba-b523-4922df517cb9.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-29",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Comunidade Intermunicipal da Região de Leiria",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a593255794e6a51334d69316d4f546c694c5452685a6d51744f4746694d5330334f5445304d6a453359544979596a63756347526d&fich=3ce26472-f99b-4afd-8ab1-7914217a22b7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-29",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Dra. Cristina Pereira Leite",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938785a44466b4f474d324e693168596a466b4c54526d5a5459744f4745355a53316c596a45334e54426a4e6a5a6b5a6a67756347526d&fich=1d1d8c66-ab1d-4fe6-8a9e-eb1750c66df8.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-30",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Conselho Intermunicipal da Beira Baixa",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d5a5445305954557a4f43316a5a6a49774c54526c597a41744f546b304e53316c4d4749784e3259354d47566c596a49756347526d&fich=fe14a538-cf20-4ec0-9945-e0b17f90eeb2.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-30",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Nuno Mendes",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938335a444d354e6a6c694d6930795a5451774c5451354f44497459574a684e6930774e44417a595455315a44646d4d5467756347526d&fich=7d3969b2-2e40-4982-aba6-0403a55d7f18.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-30",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo ALF - Associação Portuguesa de Leasing- Factoring e Renting",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d5a4745784d6a5a6c59693033597a68684c5451304d5463744f44426d4e5330324d6a59784d4749324d5451775a4745756347526d&fich=fda126eb-7c8a-4417-80f5-62610b6140da.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-31",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Movimento PEV – Professores pela Equidade e Valorização",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938794e4446684d44686a4d6930304f5755784c5452695a5755744f44566b4e5330345a6a41794f4751344e4445774e7a41756347526d&fich=241a08c2-49e1-4bee-85d5-8f028d841070.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-01",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Fábio Canguri",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938775a5459354e7a59325a69316c5a4755354c5451304e7a4d744f4452684d43316d4d475a6b59546b354f54466a4e6a41756347526d&fich=0e69766f-ede9-4473-84a0-f0fda9991c60.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-01",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Jorge Sobral",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314d575a684d4751354d7930774e6a646a4c5451794d6a5974595455344d7930314e6a49314e4755324e574a6b5a5749756347526d&fich=51fa0d93-067c-4226-a583-56254e65bdeb.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-01",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo João Pereira",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938784d6a63354e7a5535597930314e7a63354c5452684d3245744f574d32596930334f54493059324d304f574e6c4d5751756347526d&fich=1279759c-5779-4a3a-9c6b-7924cc49ce1d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-02",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Luís Valadares",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938784e544d324e6d526b5a693077595449794c54526a4e6d5574595459784f4331695a6a4d304e3259795a4464684d4751756347526d&fich=15366ddf-0a22-4c6e-a618-bf347f2d7a0d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-02",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo ANAM - Associação Nacional de Assembleias Municipais",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396b4d546c684f5759774d7930774e6a45774c5451344e446b744f57526c4d53316d4f5451304f4749324f575a6b5a544d756347526d&fich=d19a9f03-0610-4849-9de1-f9448b69fde3.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8451",
      "Legislatura": null,

@@ -319,20 +319,7 @@
      "Numero": "8459",
      "Observacao": null,
      "PareceresRecebidos": null,
-     "PedidosParecer": [
-      {
-       "link": "",
-       "nome": "Associação Nacional de Assembleias Municipais (ANAM) em 2026-10-22"
-      },
-      {
-       "link": "",
-       "nome": "Associação Nacional de Freguesias (ANAFRE) em 2026-10-22"
-      },
-      {
-       "link": "",
-       "nome": "Associação Nacional de Municípios Portugueses (ANMP) em 2026-10-22"
-      }
-     ],
+     "PedidosParecer": null,
      "Prorrogado": null,
      "Publicacao": null,
      "PublicacaoRelatorio": null,
@@ -660,8 +647,26 @@
      "Nome": "Comissão da Reforma do Estado e Poder Local",
      "Numero": "8459",
      "Observacao": null,
-     "PareceresRecebidos": null,
-     "PedidosParecer": null,
+     "PareceresRecebidos": [
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a5957387659574d304e475a694d4449744d544133596930304d6a63334c5745344e6a5974595455784e3249784e575577596d4e6b4c6e426b5a673d3d&fich=ac44fb02-107b-4277-a866-a517b15e0bcd.pdf&Inline=true",
+       "nome": "Associação Nacional de Freguesias (ANAFRE) em 2026-11-02"
+      }
+     ],
+     "PedidosParecer": [
+      {
+       "link": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a5957387659574d304e475a694d4449744d544133596930304d6a63334c5745344e6a5974595455784e3249784e575577596d4e6b4c6e426b5a673d3d&fich=ac44fb02-107b-4277-a866-a517b15e0bcd.pdf&Inline=true",
+       "nome": "Associação Nacional de Freguesias (ANAFRE) em 2026-10-22"
+      },
+      {
+       "link": "",
+       "nome": "Associação Nacional de Municípios Portugueses (ANMP) em 2026-10-22"
+      },
+      {
+       "link": "",
+       "nome": "Associação Nacional de Assembleias Municipais (ANAM) em 2026-10-22"
+      }
+     ],
      "Prorrogado": null,
      "Publicacao": null,
      "PublicacaoRelatorio": null,

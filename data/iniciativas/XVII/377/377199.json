@@ -161,6 +161,12 @@
        "TipoDocumento": "Outro",
        "TituloDocumento": "Parecer do MENAC - PJL  746-XVII-2ª (BE)",
        "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314d6a41324d4441335a5330794e4441304c5451345a6a5974596a52684e7930334f44686a5a47597a4e7a55784f5445756347526d&fich=5206007e-2404-48f6-b4a7-788cdf375191.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-02",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938324d7a6b305a474e69597930315a5441774c5452695a47517459575577596930354e6d59344f5441774e6a5a6d4e5441756347526d&fich=6394dcbc-5e00-4bdd-ae0b-96f890066f50.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -229,7 +235,16 @@
      "Prorrogado": null,
      "Publicacao": null,
      "PublicacaoRelatorio": null,
-     "Relatores": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "CH",
+       "id": "7363",
+       "motivoCessacao": null,
+       "nome": "Rodrigo Alves Taxa"
+      }
+     ],
      "RemessaRedaccaoFinal": null,
      "Remessas": null,
      "Sessao": null,

@@ -2396,6 +2396,24 @@
    ],
    "Audiencias": [
     {
+     "AccDtaud": "2026-11-02",
+     "ActAs": "Audiência da Confederação Portuguesa de Colectividades de Cultura, Recreio e Desporto no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "127835",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "33-COFAP-XVII",
+     "ActSl": null,
+     "ActTp": "AUD",
+     "ActTpdesc": "Audiência",
+     "CmsAb": "COFAP",
+     "CmsNo": "Comissão de Orçamento, Finanças e Administração Pública ",
+     "NomeEntidadeExterna": "Confederação Portuguesa das Colectividades da Cultura, Recreio e Desporto",
+     "TevTp": null
+    },
+    {
      "AccDtaud": "2026-10-20",
      "ActAs": "Audiência ao Sindicato Nacional do Ensino Superior (SNESUP), sobre o processo de transição dos diplomas de criação da Universidade Técnica do Porto e Universidade de Leiria e Oeste ",
      "ActDtdes1": null,
@@ -2961,7 +2979,18 @@
      "TevTp": null
     }
    ],
-   "DlE": null,
+   "DlE": [
+    {
+     "DevDtfim": "2026-11-05 00:00:00.0",
+     "DevDtini": "2026-11-04 00:00:00.0",
+     "DevId": "22870",
+     "DevLoc": "Bruxelas, Bélgica",
+     "DevNo": "Reunião interparlamentar sobre a aplicação do Regulamento Europeu da Liberdade dos Meios de Comunicação Social (EMFA)",
+     "DevSelLg": "XVII",
+     "DevSelNr": "2",
+     "DevTp": "Internacional"
+    }
+   ],
    "DlP": null,
    "Eventos": null,
    "Gpa": [
@@ -3448,7 +3477,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-30",
+    "GpDtFim": "2026-11-02",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

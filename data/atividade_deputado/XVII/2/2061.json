@@ -103,26 +103,7 @@
     }
    ],
    "Audicoes": null,
-   "Audiencias": [
-    {
-     "AccDtaud": null,
-     "ActAs": null,
-     "ActDtdes1": null,
-     "ActDtdes2": null,
-     "ActDtent": null,
-     "ActId": null,
-     "ActLg": null,
-     "ActLoc": null,
-     "ActNr": null,
-     "ActSl": null,
-     "ActTp": null,
-     "ActTpdesc": null,
-     "CmsAb": null,
-     "CmsNo": null,
-     "NomeEntidadeExterna": null,
-     "TevTp": null
-    }
-   ],
+   "Audiencias": null,
    "Cms": null,
    "DadosLegisDeputado": [
     {
@@ -133,6 +114,16 @@
    ],
    "Deslocacoes": null,
    "DlE": [
+    {
+     "DevDtfim": "2026-11-11 00:00:00.0",
+     "DevDtini": "2026-11-06 00:00:00.0",
+     "DevId": "22871",
+     "DevLoc": null,
+     "DevNo": "Deslocação de SEXA o PAR a Moçambique",
+     "DevSelLg": "XVII",
+     "DevSelNr": "2",
+     "DevTp": "Internacional"
+    },
     {
      "DevDtfim": "2026-11-03 00:00:00.0",
      "DevDtini": "2026-11-02 00:00:00.0",
@@ -3114,7 +3105,7 @@
   ],
   "DepGP": [
    {
-    "GpDtFim": "2026-11-02",
+    "GpDtFim": "2026-11-03",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

@@ -1550,7 +1550,13 @@
     {
      "AccId": "119911",
      "AguardaAgendamentoPlenario": null,
-     "Audicoes": null,
+     "Audicoes": [
+      {
+       "data": "2026-11-02",
+       "id": "190601",
+       "tipo": "AUP"
+      }
+     ],
      "Audiencias": null,
      "Competente": "S",
      "DataAgendamentoDiscussao": null,
@@ -1984,6 +1990,36 @@
        "data": "2026-10-29",
        "id": "190595",
        "tipo": "AUP"
+      },
+      {
+       "data": "2026-10-30",
+       "id": "190605",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-10-30",
+       "id": "190604",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-10-30",
+       "id": "190603",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-11-02",
+       "id": "190607",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-11-02",
+       "id": "190606",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-11-03",
+       "id": "190609",
+       "tipo": "AUP"
       }
      ],
      "Audiencias": [
@@ -2015,6 +2051,16 @@
       {
        "data": "2026-11-02",
        "id": "127834",
+       "tipo": "AUD"
+      },
+      {
+       "data": "2026-11-03",
+       "id": "127837",
+       "tipo": "AUD"
+      },
+      {
+       "data": "2026-11-03",
+       "id": "127836",
        "tipo": "AUD"
       }
      ],
@@ -2115,6 +2161,60 @@
        "TipoDocumento": "Outro",
        "TituloDocumento": "Contributo ANAM - Associação Nacional de Assembleias Municipais",
        "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396b4d546c684f5759774d7930774e6a45774c5451344e446b744f57526c4d53316d4f5451304f4749324f575a6b5a544d756347526d&fich=d19a9f03-0610-4849-9de1-f9448b69fde3.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-02",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Magna Lourenço",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938325a444931595751314e533079596d49354c545178596d55744f5459334e4330794f4445794e444a6d5a5445314e6a41756347526d&fich=6d25ad55-2bb9-41be-9674-281242fe1560.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-03",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo SNESUP - Sindicato Nacional do Ensino Superior",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684d44557a4d47466d4e4330324e6a41774c54517a4f546b744f4755345a69303359575930596a67314e6d4533596a55756347526d&fich=a0530af4-6600-4399-8e8f-7af4b856a7b5.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-03",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Angelini Pharma",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793969597a6b344e7a426a4e6930344d6a49324c5451314d574974596d566b4e5330314f5451304d3245304e6d59305a474d756347526d&fich=bc9870c6-8226-451b-bed5-59443a46f4dc.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-03",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Fundação Âncora",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938785a6a51774e544d324e69316d4e6a4a694c54526c4d7a59744f574d324e53316a5a6a59304e44686a4e446c6d4d4745756347526d&fich=1f405366-f62b-4e36-9c65-cf6448c49f0a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-03",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo STI – Sindicato dos Trabalhadores dos Impostos",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938344d6a466a4f44646c5a6930774d5445784c5451354e57457459544e6a5969307a4e7a426a4e5449355a6a686b4f474d756347526d&fich=821c87ef-0111-495a-a3cb-370c529f8d8c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-03",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Trabalhadores Unidade Local de Saúde Loures-Odivelas",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d4d7a4a6b5957526d4e6930304d4751784c5451324e446b744f4441785969316d4e6d4d774e6a6c684d6a45784d544d756347526d&fich=f32dadf6-40d1-4649-801b-f6c069a21113.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-03",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Associação Nacional de Sargentos",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938794f4752684e6a51344e79316a4e6a55324c5451335a545974596a686c4f533034596a6b794f44526959546c6a4d6a63756347526d&fich=28da6487-c656-47e6-b8e9-8b9284ba9c27.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-03",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Câmara Municipal da Moita",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938354f5446694e54677a595330775a5452684c5451794d574974596a5133597930344e7a686c4d445a6859544d34596d45756347526d&fich=991b583a-0e4a-421b-b47c-878e06aa38ba.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-03",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer Conselho Económico e Social",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a4e6d51354d546c6c4d533168596a4a684c54526d4e7a4174596a63795a4330345a47566b4d444d334d546c6d5a6a67756347526d&fich=36d919e1-ab2a-4f70-b72d-8ded03719ff8.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

@@ -99,7 +99,8 @@ Cite o que construir com estes dados assim, com a data `source_updated` do `mani
 
 Termos da AR: https://www.parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx. A mesma linha,
 já com a data, abre cada CSV, e o `manifest.json` traz a licença de cada mart. Os dados
-brutos em `data/` não estão sob CC BY: são dados da AR, reutilizados nos termos da AR. Os
-dados da Entidade para a Transparência ficam fora da CC BY e não entram nas publicações. Cada
+brutos em `data/` não estão sob CC BY: são dados da AR, reutilizados nos termos da AR. As
+linhas da Entidade para a Transparência (`source = 'ept'`) ficam fora da CC BY e seguem os
+termos do ponto 3 da `LICENSE-DATA`, que o cabeçalho dos seus CSV repete. Cada
 publicação indica o commit de dados de onde foi construída, por isso pode citar uma tag e
 reconstruí-la a partir do git.

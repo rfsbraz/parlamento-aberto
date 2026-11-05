@@ -3096,17 +3096,17 @@
     {
      "CirculoEleitoral": "Braga",
      "Data": "2025-12-15",
-     "Estabelecimento": "Escola Básica Júlio Brandão, Vila Nova de Famalicão",
+     "Estabelecimento": "Escola Secundária Camilo Castelo Branco, Vila Nova de Famalicão",
      "Legislatura": "XVII",
-     "Sessao": "Básico",
+     "Sessao": "Secundário",
      "TipoReuniao": "Debate na Escola"
     },
     {
      "CirculoEleitoral": "Braga",
      "Data": "2025-12-15",
-     "Estabelecimento": "Escola Secundária Camilo Castelo Branco, Vila Nova de Famalicão",
+     "Estabelecimento": "Escola Básica Júlio Brandão, Vila Nova de Famalicão",
      "Legislatura": "XVII",
-     "Sessao": "Secundário",
+     "Sessao": "Básico",
      "TipoReuniao": "Debate na Escola"
     }
    ],
@@ -3129,6 +3129,16 @@
    },
    "Req": [
     {
+     "ReqAs": "Documentação relativa à exploração do parque de estacionamento do Hospital de Braga",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231949",
+     "ReqLg": "XVII",
+     "ReqNr": "27",
+     "ReqPerTp": "REQ",
+     "ReqSl": "2",
+     "ReqTp": "AC"
+    },
+    {
      "ReqAs": "Nomeações para os cargos de Direção dos Centros Distritais do Instituto da Segurança Social, I.P.",
      "ReqDt": "2026-07-22 00:00:00.0",
      "ReqId": "210420",
@@ -3137,6 +3147,46 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Alegados impedimentos e atrasos na prestação de socorro médico durante as intervenções policiais no Rossio, em Lisboa, nas madrugadas de 25 de Outubro e 1 de Novembro de 2026",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231950",
+     "ReqLg": "XVII",
+     "ReqNr": "312",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Encargos e condições de acesso ao estacionamento do Hospital de Braga",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231948",
+     "ReqLg": "XVII",
+     "ReqNr": "311",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Encerramento da unidade industrial da ECCO em Santa Maria da Feira - salvaguarda dos direitos dos trabalhadores e medidas de proteção do emprego",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231941",
+     "ReqLg": "XVII",
+     "ReqNr": "305",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Encerramento da unidade industrial da ECCO em Santa Maria da Feira",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231940",
+     "ReqLg": "XVII",
+     "ReqNr": "304",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Proposta de designação de membros do Conselho de Curadores da Fundação Universidade NOVA de Lisboa",
@@ -3979,7 +4029,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-30",
+    "GpDtFim": "2026-11-04",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

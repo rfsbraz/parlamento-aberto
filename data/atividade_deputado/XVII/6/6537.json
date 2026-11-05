@@ -269,6 +269,42 @@
    ],
    "Audicoes": [
     {
+     "AccDtaud": "2026-11-02",
+     "ActAs": "Audição, do Ministro das Infraestruturas e Habitação, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) - Orçamento do Estado para 2027.",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190601",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "112-CIMH-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CIMH",
+     "CmsNo": "Comissão de Infraestruturas, Mobilidade e Habitação",
+     "NomeEntidadeExterna": "Miguel Pinto Luz (Ministro das Infraestruturas e Habitação); Hugo Espírito Santo (Secretário de Estado das Infraestruturas); Cristina Pinto Dias (Secretária de Estado da Mobilidade); Patrícia Gonçalves Costa (Secretária de Estado da Habitação)",
+     "TevTp": null
+    },
+    {
+     "AccDtaud": "2026-10-30",
+     "ActAs": "Audição com o Vice-Primeiro Ministro da Ucrânia para a Integração Europeia e Euro-Atlântica, Vsevolod Chentsov",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190599",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "27-CAE-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CAE",
+     "CmsNo": "Comissão de Assuntos Europeus ",
+     "NomeEntidadeExterna": "Vsevolod Chentsov, Vice-Primeiro Ministro da Ucrânia para a Integração Europeia e Euro-Atlântica",
+     "TevTp": null
+    },
+    {
      "AccDtaud": "2026-10-29",
      "ActAs": "Audição do Senhor Ministro de Estado e dos Negócios Estrangeiros, Paulo Rangel, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) - Aprova o Orçamento do Estado para 2027, nos termos do n.º 2 do artigo 211.º do Regimento da Assembleia da República.",
      "ActDtdes1": null,
@@ -3862,6 +3898,16 @@
    ],
    "DlE": [
     {
+     "DevDtfim": "2026-11-10 00:00:00.0",
+     "DevDtini": "2026-11-09 00:00:00.0",
+     "DevId": "22873",
+     "DevLoc": "Bruxelas, Bélgica",
+     "DevNo": "19.ª Reunião do Grupo Especializado de Controlo Parlamentar Conjunto (GCPC) da Europol",
+     "DevSelLg": "XVII",
+     "DevSelNr": "2",
+     "DevTp": "Internacional"
+    },
+    {
      "DevDtfim": "2026-11-06 00:00:00.0",
      "DevDtini": "2026-11-04 00:00:00.0",
      "DevId": "22869",
@@ -4660,12 +4706,20 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Açores",
+     "Data": "2026-01-19",
+     "Estabelecimento": "Escola Profissional da Câmara de Comércio e Indústria de Ponta Delgada",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Açores",
+     "Data": "2026-01-12",
+     "Estabelecimento": "ES Antero de Quental",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -4887,7 +4941,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-30",
+    "GpDtFim": "2026-11-04",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

@@ -555,6 +555,42 @@
    ],
    "Audicoes": [
     {
+     "AccDtaud": "2026-11-03",
+     "ActAs": "Audição regimental do Ministro da Presidência ao abrigo do n.º 5 do artigo 104.º do Regimento da Assembleia da República\n",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190586",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "38-CCCJD-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CCCJD",
+     "CmsNo": "Comissão de Cultura, Comunicação, Juventude e Desporto ",
+     "NomeEntidadeExterna": "Ministro da Presidência; António Leitão Amaro (Ministro da Presidência); João Valle e Azevedo (Secretário de Estado da Presidência); Tiago Macieirinha (Secretário de Estado da Presidência do Conselho de Ministros); Rui Armindo Freitas (Secretário de Estado Adjunto da Presidência e Imigração)",
+     "TevTp": null
+    },
+    {
+     "AccDtaud": "2026-10-30",
+     "ActAs": "Audição com o Vice-Primeiro Ministro da Ucrânia para a Integração Europeia e Euro-Atlântica, Vsevolod Chentsov",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190599",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "27-CAE-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CAE",
+     "CmsNo": "Comissão de Assuntos Europeus ",
+     "NomeEntidadeExterna": "Vsevolod Chentsov, Vice-Primeiro Ministro da Ucrânia para a Integração Europeia e Euro-Atlântica",
+     "TevTp": null
+    },
+    {
      "AccDtaud": "2026-10-22",
      "ActAs": "Audição, a requerimento dos Grupos Parlamentares do L, PS e PCP, do Conselho de Administração da Lusa, sobre a cessação de funções da Direção de Informação e a independência editorial da Agência",
      "ActDtdes1": null,
@@ -1524,8 +1560,37 @@
      "Nome": "Rodrigo Saraiva"
     }
    ],
-   "Deslocacoes": null,
+   "Deslocacoes": [
+    {
+     "AccDtaud": null,
+     "ActAs": "Reunião Interparlamentar de Comissões sobre a aplicação do Regulamento Europeu da Liberdade dos Meios de Comunicação Social (EMFA)",
+     "ActDtdes1": "2026-11-04",
+     "ActDtdes2": "2026-11-05",
+     "ActDtent": null,
+     "ActId": "157698",
+     "ActLg": "XVII",
+     "ActLoc": "Bruxelas",
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": "DES",
+     "ActTpdesc": "Deslocação",
+     "CmsAb": "CCCJD",
+     "CmsNo": "Comissão de Cultura, Comunicação, Juventude e Desporto ",
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    }
+   ],
    "DlE": [
+    {
+     "DevDtfim": "2026-11-05 00:00:00.0",
+     "DevDtini": "2026-11-04 00:00:00.0",
+     "DevId": "22870",
+     "DevLoc": "Bruxelas, Bélgica",
+     "DevNo": "Reunião interparlamentar sobre a aplicação do Regulamento Europeu da Liberdade dos Meios de Comunicação Social (EMFA)",
+     "DevSelLg": "XVII",
+     "DevSelNr": "2",
+     "DevTp": "Internacional"
+    },
     {
      "DevDtfim": "2026-09-30 00:00:00.0",
      "DevDtini": "2026-09-29 00:00:00.0",
@@ -2868,6 +2933,18 @@
    ],
    "Intev": [
     {
+     "IntId": "505566",
+     "IntSu": "De saudação pelos 30 anos da Comunidade de Países de Língua Portuguesa",
+     "IntTe": null,
+     "PubDar": "83-85",
+     "PubDtreu": "2026-09-18",
+     "PubLg": "XVII",
+     "PubNr": "3",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Declaração de voto"
+    },
+    {
      "IntId": "505310",
      "IntSu": "Debate sobre o Estado da Nação",
      "IntTe": null,
@@ -3712,7 +3789,7 @@
     {
      "CirculoEleitoral": "Castelo Branco",
      "Data": "2026-01-12",
-     "Estabelecimento": "Escola Secundária de Fundão",
+     "Estabelecimento": "Escola Profissional Agostinho Roseta - UGT",
      "Legislatura": "XVII",
      "Sessao": "Secundário",
      "TipoReuniao": "Debate na Escola"
@@ -3720,7 +3797,7 @@
     {
      "CirculoEleitoral": "Castelo Branco",
      "Data": "2026-01-12",
-     "Estabelecimento": "Escola Profissional Agostinho Roseta - UGT",
+     "Estabelecimento": "Escola Secundária de Fundão",
      "Legislatura": "XVII",
      "Sessao": "Secundário",
      "TipoReuniao": "Debate na Escola"
@@ -4739,7 +4816,7 @@
   ],
   "DepGP": [
    {
-    "GpDtFim": "2026-10-30",
+    "GpDtFim": "2026-11-04",
     "GpDtInicio": "2025-06-03",
     "GpId": 7264.0,
     "GpSigla": "IL"

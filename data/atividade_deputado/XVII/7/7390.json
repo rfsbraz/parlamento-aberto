@@ -940,6 +940,24 @@
    ],
    "Audicoes": [
     {
+     "AccDtaud": "2026-11-03",
+     "ActAs": "Audição do Ministro da Presidência, no âmbito da apreciação na especialidade da Proposta de Lei 110/XVI/2.ª – Orçamento do Estado para 2027, nos termos conjugados do n.º 5 do artigo 104.º e do n.º 2 do artigo 211.º do Regimento da Assembleia da República (conjunta com a Comissão de Orçamento, Finanças e Administração Pública).",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190608",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "76-CACDLG-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CACDLG",
+     "CmsNo": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias ",
+     "NomeEntidadeExterna": "António Leitão Amaro (Ministro da Presidência); Rui Armindo Freitas (Secretário de Estado Adjunto da Presidência e Imigração); Tiago Macieirinha (Secretário de Estado da Presidência do Conselho de Ministros); João Valle e Azevedo (Secretário de Estado da Presidência)",
+     "TevTp": null
+    },
+    {
      "AccDtaud": "2026-09-29",
      "ActAs": "III sessão da Audição pública sobre os Projetos de Lei n.º 391/XVII/1.ª (CH) – Atualiza a regulação do procedimento de mudança de sexo e de nome próprio no registo civil, em particular no que diz respeito à proteção das crianças e jovens, à luz da evidência científica mais recente e em consonância com os princípios da bioética e da dignidade da pessoa humana, n.º 486/XVII/1.ª (PSD) - Altera o regime jurídico de mudança de sexo e de nome próprio no registo civil e n.º 479/XVII/1.ª (CDS-PP) - Protege a integridade das crianças e proíbe a utilização de bloqueadores da puberdade e/ou terapia hormonal no tratamento da incongruência ou disforia de género em menores de 18 anos.",
      "ActDtdes1": null,
@@ -5499,12 +5517,28 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Beja",
+     "Data": "2026-01-20",
+     "Estabelecimento": "Escola Básica Professor Francisco Honrado Pereira, Amareleja, Moura",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Setúbal",
+     "Data": "2026-01-19",
+     "Estabelecimento": "Agrupamento de Escolas D. João I, Moita",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Setúbal",
+     "Data": "2026-03-17",
+     "Estabelecimento": "Delegação INATEL - Setúbal Casa Carlos César Praça da República - Setúbal",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Sessão Distrital/Regional"
     }
    ],
    "Rel": {
@@ -7633,6 +7667,36 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Falta de professor de filosofia na Escola Secundária Arco Íris, em Loures",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231947",
+     "ReqLg": "XVII",
+     "ReqNr": "310",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Recusa de transferência de aluno com autismo e falta de recursos para a aplicação das medidas de educação inclusiva",
+     "ReqDt": "2026-10-31 00:00:00.0",
+     "ReqId": "231930",
+     "ReqLg": "XVII",
+     "ReqNr": "295",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Avaliação da urgência centralizada de Ginecologia e Obstetrícia da Península de Setúbal",
+     "ReqDt": "2026-10-31 00:00:00.0",
+     "ReqId": "231929",
+     "ReqLg": "XVII",
+     "ReqNr": "294",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Falha de energia no Estabelecimento Prisional de Lisboa",
@@ -10592,7 +10656,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-10-30",
+    "GpDtFim": "2026-11-04",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

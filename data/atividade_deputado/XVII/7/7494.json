@@ -5171,28 +5171,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": "Braga",
-     "Data": "2026-01-19",
-     "Estabelecimento": "Escola Básica de Ribeira do Neiva, Vila Verde",
-     "Legislatura": "XVII",
-     "Sessao": "Básico",
-     "TipoReuniao": "Debate na Escola"
-    },
-    {
-     "CirculoEleitoral": "Braga",
-     "Data": "2026-01-12",
-     "Estabelecimento": "Agrupamento de Escolas de S. Bento, Vizela",
-     "Legislatura": "XVII",
-     "Sessao": "Secundário",
-     "TipoReuniao": "Debate na Escola"
-    },
-    {
-     "CirculoEleitoral": "Braga",
-     "Data": "2025-12-15",
-     "Estabelecimento": "Escola Secundária de Barcelos",
-     "Legislatura": "XVII",
-     "Sessao": "Secundário",
-     "TipoReuniao": "Debate na Escola"
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
     }
    ],
    "Rel": {
@@ -5258,6 +5242,16 @@
    },
    "Req": [
     {
+     "ReqAs": "Documentação relativa à exploração do parque de estacionamento do Hospital de Braga",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231949",
+     "ReqLg": "XVII",
+     "ReqNr": "27",
+     "ReqPerTp": "REQ",
+     "ReqSl": "2",
+     "ReqTp": "AC"
+    },
+    {
      "ReqAs": "Solicitação de envio do relatório de avaliação dos projetos piloto das Equipas de Cuidados Continuados Integrados (ECCI)",
      "ReqDt": "2026-04-11 00:00:00.0",
      "ReqId": "209425",
@@ -5276,6 +5270,46 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "AC"
+    },
+    {
+     "ReqAs": "Encargos e condições de acesso ao estacionamento do Hospital de Braga",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231948",
+     "ReqLg": "XVII",
+     "ReqNr": "311",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Esclarecimentos sobre a atuação do INEM e a prestação de socorro médico durante as intervenções policiais no Rossio, em Lisboa, nas madrugadas de 25 de outubro e 1 de novembro de 2026",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231944",
+     "ReqLg": "XVII",
+     "ReqNr": "307",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Encerramento da unidade industrial da ECCO em Santa Maria da Feira - salvaguarda dos direitos dos trabalhadores e medidas de proteção do emprego",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231941",
+     "ReqLg": "XVII",
+     "ReqNr": "305",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Encerramento da unidade industrial da ECCO em Santa Maria da Feira",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231940",
+     "ReqLg": "XVII",
+     "ReqNr": "304",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Regulamentação de competências em Cardiopneumologia ",
@@ -6643,7 +6677,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-03",
+    "GpDtFim": "2026-11-04",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

@@ -929,6 +929,24 @@
    ],
    "Audicoes": [
     {
+     "AccDtaud": "2026-11-03",
+     "ActAs": "Audição do Ministro da Presidência no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190612",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "125-COFAP-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "COFAP",
+     "CmsNo": "Comissão de Orçamento, Finanças e Administração Pública ",
+     "NomeEntidadeExterna": "António Leitão Amaro (Ministro da Presidência); Rui Armindo Freitas (Secretário de Estado Adjunto da Presidência e Imigração); Tiago Macieirinha (Secretário de Estado da Presidência do Conselho de Ministros); João Valle e Azevedo (Secretário de Estado da Presidência)",
+     "TevTp": null
+    },
+    {
      "AccDtaud": "2026-10-26",
      "ActAs": "Audição da Ministra do Trabalho, Solidariedade e Segurança Social, Maria do Rosário Palma Ramalho, no âmbito da apreciação, na generalidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Orçamento do Estado para 2027, ao abrigo do disposto no n.º 6 do artigo 206.º do Regimento.\n[Audição conjunta com a Comissão Orçamento, Finanças e Administração Pública (5.ª – COFAP)]\n",
      "ActDtdes1": null,
@@ -6527,12 +6545,28 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Santarém",
+     "Data": "2026-01-19",
+     "Estabelecimento": "Escola Secundária Marquesa de Alorna, Almeirim",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Santarém",
+     "Data": "2026-01-12",
+     "Estabelecimento": "Agrupamento de Escolas da Golegã, Azinhaga e Pombalinho, Golegã",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Santarém",
+     "Data": "2026-02-24",
+     "Estabelecimento": "Sala de Reuniões da Assembleia Municipal Casa do Campino Campo Infante da Câmara - Santarém",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Sessão Distrital/Regional"
     }
    ],
    "Rel": {
@@ -8698,6 +8732,16 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Falta de professor de filosofia na Escola Secundária Arco Íris, em Loures",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231947",
+     "ReqLg": "XVII",
+     "ReqNr": "310",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Recusa de transferência de aluno com autismo e falta de recursos para a aplicação das medidas de educação inclusiva",
@@ -11855,7 +11899,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-03",
+    "GpDtFim": "2026-11-04",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

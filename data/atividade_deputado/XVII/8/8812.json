@@ -4151,7 +4151,18 @@
     }
    ],
    "Deslocacoes": null,
-   "DlE": null,
+   "DlE": [
+    {
+     "DevDtfim": "2026-11-10 00:00:00.0",
+     "DevDtini": "2026-11-10 00:00:00.0",
+     "DevId": "22874",
+     "DevLoc": "Bruxelas, Bélgica",
+     "DevNo": "Interparliamentary Committee Meeting on «Lessons learnt from the COVID-19 Pandemic: Strengthening EU Health Resilience and Preparedness for Future Global Health Crises»|",
+     "DevSelLg": "XVII",
+     "DevSelNr": "2",
+     "DevTp": "Internacional"
+    }
+   ],
    "DlP": [
     {
      "CdeCrg": "Vice-Presidente",
@@ -10010,6 +10021,16 @@
      "ReqTp": "EI"
     },
     {
+     "ReqAs": "Falta de professor de filosofia na Escola Secundária Arco Íris, em Loures",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231947",
+     "ReqLg": "XVII",
+     "ReqNr": "310",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
      "ReqAs": "Recusa de transferência de aluno com autismo e falta de recursos para a aplicação das medidas de educação inclusiva",
      "ReqDt": "2026-10-31 00:00:00.0",
      "ReqId": "231930",
@@ -13475,7 +13496,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-03",
+    "GpDtFim": "2026-11-04",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

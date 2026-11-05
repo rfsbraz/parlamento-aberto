@@ -2284,24 +2284,6 @@
     },
     {
      "AccDtaud": null,
-     "ActAs": "Conferência Interparlamentar sobre a Política Externa e de Segurança Comum e Política Comum de Segurança e Defesa (PESC/PCSD)",
-     "ActDtdes1": "2025-08-26",
-     "ActDtdes2": "2025-08-28",
-     "ActDtent": null,
-     "ActId": "137412",
-     "ActLg": "XVII",
-     "ActLoc": "Copenhaga, Dinamarca",
-     "ActNr": null,
-     "ActSl": null,
-     "ActTp": "DES",
-     "ActTpdesc": "Deslocação",
-     "CmsAb": "CAE",
-     "CmsNo": "Comissão de Assuntos Europeus ",
-     "NomeEntidadeExterna": null,
-     "TevTp": null
-    },
-    {
-     "AccDtaud": null,
      "ActAs": "Conferência Interparlamentar sobre Política Externa e de Segurança Comum e Política Comum de Segurança e Defesa (PESC/PCSD)",
      "ActDtdes1": "2025-08-26",
      "ActDtdes2": "2025-08-28",
@@ -2315,6 +2297,24 @@
      "ActTpdesc": "Deslocação",
      "CmsAb": "CDN",
      "CmsNo": "Comissão de Defesa Nacional ",
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    },
+    {
+     "AccDtaud": null,
+     "ActAs": "Conferência Interparlamentar sobre a Política Externa e de Segurança Comum e Política Comum de Segurança e Defesa (PESC/PCSD)",
+     "ActDtdes1": "2025-08-26",
+     "ActDtdes2": "2025-08-28",
+     "ActDtent": null,
+     "ActId": "137412",
+     "ActLg": "XVII",
+     "ActLoc": "Copenhaga, Dinamarca",
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": "DES",
+     "ActTpdesc": "Deslocação",
+     "CmsAb": "CAE",
+     "CmsNo": "Comissão de Assuntos Europeus ",
      "NomeEntidadeExterna": null,
      "TevTp": null
     },
@@ -5983,12 +5983,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": "Lisboa",
-     "Data": "2025-12-15",
-     "Estabelecimento": "Agrupamento de Escolas da Venda do Pinheiro, Mafra",
-     "Legislatura": "XVII",
-     "Sessao": "Básico",
-     "TipoReuniao": "Debate na Escola"
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
     }
    ],
    "Rel": {
@@ -8108,6 +8108,16 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Falta de professor de filosofia na Escola Secundária Arco Íris, em Loures",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231947",
+     "ReqLg": "XVII",
+     "ReqNr": "310",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Recusa de transferência de aluno com autismo e falta de recursos para a aplicação das medidas de educação inclusiva",
@@ -10990,7 +11000,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-03",
+    "GpDtFim": "2026-11-04",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

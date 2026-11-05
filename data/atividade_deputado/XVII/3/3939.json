@@ -1638,12 +1638,20 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Braga",
+     "Data": "2026-02-02",
+     "Estabelecimento": "Escola Profissional de Esposende",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Braga",
+     "Data": "2026-01-19",
+     "Estabelecimento": "Agrupamento de Escolas Sá de Miranda, Braga",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -1693,6 +1701,16 @@
    },
    "Req": [
     {
+     "ReqAs": "Documentação relativa à exploração do parque de estacionamento do Hospital de Braga",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231949",
+     "ReqLg": "XVII",
+     "ReqNr": "27",
+     "ReqPerTp": "REQ",
+     "ReqSl": "2",
+     "ReqTp": "AC"
+    },
+    {
      "ReqAs": "Sistema Integrado de Gestão de Veículos em Fim de Vida (SIGVFV).",
      "ReqDt": "2026-09-30 00:00:00.0",
      "ReqId": "231481",
@@ -1731,6 +1749,36 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "AC"
+    },
+    {
+     "ReqAs": "Encargos e condições de acesso ao estacionamento do Hospital de Braga",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231948",
+     "ReqLg": "XVII",
+     "ReqNr": "311",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Encerramento da unidade industrial da ECCO em Santa Maria da Feira - salvaguarda dos direitos dos trabalhadores e medidas de proteção do emprego",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231941",
+     "ReqLg": "XVII",
+     "ReqNr": "305",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Encerramento da unidade industrial da ECCO em Santa Maria da Feira",
+     "ReqDt": "2026-11-03 00:00:00.0",
+     "ReqId": "231940",
+     "ReqLg": "XVII",
+     "ReqNr": "304",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Libertação de 90 mil mosquitos-tigre-asiáticos em Lisboa ",
@@ -2272,7 +2320,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-03",
+    "GpDtFim": "2026-11-04",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

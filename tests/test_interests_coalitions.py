@@ -206,9 +206,9 @@ def test_every_item_belongs_to_a_declaration(con):
     )
 
 
-# Declarations, items and people per legislature and format, from the 20 Oct 2026 sync.
-# XVI and XVII are not in the dump (declarations moved to the Entidade para a
-# Transparência). V3 in XIV has several declarations for some people (111 for 56).
+# Declarations, items and people per legislature and format.
+# AR rows from the 20 Oct 2026 sync; EpT XVI/XVII from #157 (2026-11-06 data release).
+# V3 in XIV has several declarations for some people (111 for 56).
 EXPECTED_FULL = [
     ("XI", "V1", 24, 76, 24),
     ("XII", "V2", 43, 402, 43),
@@ -216,6 +216,8 @@ EXPECTED_FULL = [
     ("XIV", "V3", 111, 905, 56),
     ("XIV", "V5", 15, 165, 15),
     ("XV", "V5", 98, 678, 98),
+    ("XVI", "EPT", 960, 4609, 293),
+    ("XVII", "EPT", 255, 1093, 137),
 ]
 
 

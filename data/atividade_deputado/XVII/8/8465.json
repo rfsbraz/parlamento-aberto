@@ -907,6 +907,60 @@
    ],
    "Audicoes": [
     {
+     "AccDtaud": "2026-11-05",
+     "ActAs": "Audição do Ministro da Agricultura e Mar no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027, nos termos conjugados do n.º 5 do artigo 104.º e do n.º 2 do artigo 211.º do Regimento da Assembleia da República. (conjunta com a Comissão de Orçamento, Finanças e Administração Pública).",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190622",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "70-CAPes-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CAPes",
+     "CmsNo": "Comissão de Agricultura e Pescas ",
+     "NomeEntidadeExterna": "José Manuel Fernandes (Ministro da Agricultura e Mar); Salvador Malheiro (Secretário de Estado das Pescas e do Mar); João Moura (Secretário de Estado da Agricultura); Rui Ladeira (Secretário de Estado das Florestas)",
+     "TevTp": null
+    },
+    {
+     "AccDtaud": "2026-11-04",
+     "ActAs": "Audição do Ministro da Educação, Ciência e Inovação no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190619",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "129-COFAP-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "COFAP",
+     "CmsNo": "Comissão de Orçamento, Finanças e Administração Pública ",
+     "NomeEntidadeExterna": "Fernando Alexandre (Ministro da Educação, Ciência e Inovação); Alexandre Homem Cristo (Secretário de Estado Adjunto e da Educação); Maria Luísa Oliveira (Secretária de Estado da Administração Escolar); Helena Canhão (Secretária de Estado da Ciência e Inovação); Cláudia Sarrico (Secretária de Estado do Ensino Superior)",
+     "TevTp": null
+    },
+    {
+     "AccDtaud": "2026-11-04",
+     "ActAs": "Audição da ANAFRE – Associação Nacional de Freguesias no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190617",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "127-COFAP-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "COFAP",
+     "CmsNo": "Comissão de Orçamento, Finanças e Administração Pública ",
+     "NomeEntidadeExterna": "ANAFRE - Associação Nacional de Freguesias",
+     "TevTp": null
+    },
+    {
      "AccDtaud": "2026-11-02",
      "ActAs": "Audição do Ministro das Infraestruturas e Habitação no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027",
      "ActDtdes1": null,
@@ -7702,20 +7756,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": "Coimbra",
-     "Data": "2026-01-12",
-     "Estabelecimento": "Escola Básica n.º 2 de Taveiro, Coimbra",
-     "Legislatura": "XVII",
-     "Sessao": "Básico",
-     "TipoReuniao": "Debate na Escola"
-    },
-    {
-     "CirculoEleitoral": "Coimbra",
-     "Data": "2025-12-02",
-     "Estabelecimento": "Agrupamento de Escolas Gândara-Mar, Tocha, Cantanhede",
-     "Legislatura": "XVII",
-     "Sessao": "Secundário",
-     "TipoReuniao": "Debate na Escola"
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
     }
    ],
    "Rel": {
@@ -9863,6 +9909,26 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Acesso dos cuidadores com menos de 60 anos à vacina contra a gripe",
+     "ReqDt": "2026-11-06 00:00:00.0",
+     "ReqId": "231982",
+     "ReqLg": "XVII",
+     "ReqNr": "343",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Acesso ao belantamab mafodotina no SNS - pedidos, decisões e prazos",
+     "ReqDt": "2026-11-06 00:00:00.0",
+     "ReqId": "231981",
+     "ReqLg": "XVII",
+     "ReqNr": "342",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Falta de professor de filosofia na Escola Secundária Arco Íris, em Loures",
@@ -12755,7 +12821,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-04",
+    "GpDtFim": "2026-11-06",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

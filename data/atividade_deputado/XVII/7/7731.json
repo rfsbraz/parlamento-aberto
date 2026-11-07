@@ -639,21 +639,21 @@
    ],
    "Audiencias": [
     {
-     "AccDtaud": null,
-     "ActAs": null,
+     "AccDtaud": "2026-05-26",
+     "ActAs": "Audiência da Associação Brasileira de Relações Institucionais e Governamentais, Abrig, no âmbito da realização de «Missões Internacionais com o objetivo de oferecer aos seus associados e à sociedade civil organizada experiências formativas e institucionais de alto nível, por meio do intercâmbio de boas práticas, visitas técnicas e diálogos estratégicos com organizações públicas e privadas de reconhecida relevância»",
      "ActDtdes1": null,
      "ActDtdes2": null,
      "ActDtent": null,
-     "ActId": null,
-     "ActLg": null,
+     "ActId": "117734",
+     "ActLg": "XVII",
      "ActLoc": null,
-     "ActNr": null,
+     "ActNr": "7-CREPL-XVII",
      "ActSl": null,
-     "ActTp": null,
-     "ActTpdesc": null,
-     "CmsAb": null,
-     "CmsNo": null,
-     "NomeEntidadeExterna": null,
+     "ActTp": "AUD",
+     "ActTpdesc": "Audiência",
+     "CmsAb": "CREPL",
+     "CmsNo": "Comissão da Reforma do Estado e Poder Local",
+     "NomeEntidadeExterna": "Associação Brasileira de Relações Institucionais e Governamentais - Abrig",
      "TevTp": null
     }
    ],
@@ -1155,16 +1155,7 @@
      "TinDs": "Intervenção"
     }
    ],
-   "ParlamentoJovens": [
-    {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
-    }
-   ],
+   "ParlamentoJovens": null,
    "Rel": {
     "AutoresPareceresIncImu": null,
     "RelatoresContasPublicas": null,
@@ -1212,6 +1203,26 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "AC"
+    },
+    {
+     "ReqAs": "Investimentos previstos nas infraestruturas rodoviárias e ferroviárias do Alentejo até 2028",
+     "ReqDt": "2026-11-06 00:00:00.0",
+     "ReqId": "231980",
+     "ReqLg": "XVII",
+     "ReqNr": "341",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Disponibilização dos suportes visuais apresentados na audição regimental (Orçamento do Estado para 2027)",
+     "ReqDt": "2026-11-06 00:00:00.0",
+     "ReqId": "231979",
+     "ReqLg": "XVII",
+     "ReqNr": "340",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Regulamentação de competências em Cardiopneumologia ",
@@ -2334,7 +2345,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-04",
+    "GpDtFim": "2026-11-06",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

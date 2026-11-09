@@ -1,6 +1,6 @@
 # Version of the published schema, in manifest.json. Bump the major on a breaking change
 # (a column removed or renamed, a type changed); the site refuses an unknown major.
-schema_version: "1.6.0"
+schema_version: "1.7.0"
 
 # Every model, in run order, with a description of every column.
 # The data dictionary in docs/dictionary is generated from this file
@@ -333,7 +333,7 @@ models:
       author_committee: Comissão autora da iniciativa, quando o autor é uma comissão (IniAutorOutros.iniAutorComissao).
       author_deputies: Deputados autores (IniAutorDeputados) como cadastro_id, name, group_acronym.
       author_groups: Grupos autores (IniAutorGruposParlamentares) como siglas de grupos.
-      events: Eventos (IniEventos) como event_id, phase, phase_date, as votações em plenário em bruto (Votacao) e as comissões (Comissao) como committee_id, committee_name e as suas votações em bruto.
+      events: Eventos (IniEventos) como event_id, oev_id, phase_code, phase, phase_date, observation, as votações em plenário em bruto (Votacao) e as comissões (Comissao) como committee_id, committee_name e as suas votações em bruto.
       legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
       source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
@@ -516,6 +516,60 @@ models:
       event_id: Evento da iniciativa que contém a votação.
       phase: Fase desse evento, por exemplo Votação na generalidade.
       phase_date: Data desse evento.
+
+  seed_phase_codes:
+    description: >-
+      Códigos de fase dos eventos das iniciativas (CodigoFase), mantidos à mão, uma linha por
+      código, com a categoria de desfecho que a fase indica. Um código que apareça nos eventos e
+      não esteja aqui faz falhar os testes de dados, até ter a sua linha.
+    columns:
+      phase_code: Código da fase (CodigoFase), por exemplo 580.
+      phase: Nome da fase tal como publicado, sem espaços nem quebras de linha no fim.
+      outcome: >-
+        Desfecho que a fase indica: in_progress (a fase não fecha a iniciativa), approved_published
+        (lei, resolução ou regimento publicado no Diário da República, ou deliberação publicada no
+        Diário da Assembleia da República), rejected (não admitida), lapsed (caducada), withdrawn
+        (retirada), prejudiced (prejudicada) ou vetoed (vetada, o decreto pode ainda ser confirmado
+        ou reapreciado). As votações ficam em in_progress, porque o resultado está em votes.
+      note: Nota sobre a fase, vazia quando o nome basta.
+
+  initiative_events:
+    description: >-
+      Uma linha por evento (fase) de uma iniciativa, a partir de IniEventos, com a ordem dos
+      eventos dentro da iniciativa. Para saber a fase atual, use o evento com o maior
+      event_order. Para o desfecho, junte phase_code a phase_codes.
+    quirks:
+      - >-
+        O último evento não chega para saber o desfecho: uma iniciativa rejeitada fica normalmente
+        em Votação na generalidade. O desfecho é a categoria em phase_codes da última fase
+        final da iniciativa (Lei ou Resolução publicada no Diário da República, Caducada,
+        Retirada, Prejudicada) e, quando não há nenhuma, uma votação em plenário com result
+        Rejeitado em votes, ligada por initiative_votes a um evento de votação da própria
+        iniciativa (phase_code 250, 315, 320, 330 ou 335). Votações de recursos, requerimentos ou
+        em comissão não contam. Com esta regra há desfecho para 97% a 99,8% das iniciativas da
+        VII à XVI, 89,5% na VI, 62% na XVII (em curso) e só 22% a 60% da I-A à V, segundo os
+        dados de 9 de novembro de 2026.
+    columns:
+      legislature: Legislatura da iniciativa.
+      initiative_id: Iniciativa, liga a initiatives.
+      event_id: Id do evento dentro da iniciativa (EvtId), como em initiative_votes. Não é único.
+      oev_id: Id único do evento na AR (OevId).
+      phase_code: Código da fase (CodigoFase), liga a phase_codes. Nulo quando a AR não o publica.
+      phase: Nome da fase (Fase), sem espaços nem quebras de linha no fim, por exemplo Votação na generalidade.
+      phase_date: Data da fase (DataFase).
+      event_order: Posição do evento na iniciativa, a partir de 1, por phase_date e depois por oev_id.
+      observation: Observação da fase (ObsFase) tal como publicada, nula quando não há.
+
+  phase_codes:
+    description: >-
+      Uma linha por código de fase dos eventos das iniciativas, com a categoria de desfecho que a
+      fase indica. É seed_phase_codes tal como mantido à mão, publicado para se poder juntar a
+      initiative_events.
+    columns:
+      phase_code: Código da fase (CodigoFase), liga a initiative_events.
+      phase: Nome da fase tal como publicado, sem espaços nem quebras de linha no fim.
+      outcome: Desfecho que a fase indica, com as categorias descritas em seed_phase_codes.
+      note: Nota sobre a fase, vazia quando o nome basta.
 
   vote_group_positions:
     description: >-

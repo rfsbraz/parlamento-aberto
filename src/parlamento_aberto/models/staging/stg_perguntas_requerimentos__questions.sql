@@ -22,6 +22,9 @@ select
             'recipient': d.nomeEntidade,
             'sent_date': cast(d.dataEnvio as date),
             'is_extended': d.prorrogado = 'S',
+            'extension_date': cast(d.dataProrrogacao as date),
+            'extension_days': try_cast(d.prazoProrrogacao as integer),
+            'resent_date': cast(d.dataReenvio as date),
             'is_returned': d.devolvido = 'S',
             'is_withdrawn': d.retirado = 'S',
             'answer_dates': list_transform(d.respostas, r -> cast(r.dataResposta as date))
@@ -46,7 +49,7 @@ from read_json(
         DataEnvio: 'VARCHAR',
         Ficheiro: 'VARCHAR',
         Autores: 'STRUCT(idCadastro VARCHAR, nome VARCHAR, GP VARCHAR)[]',
-        Destinatarios: 'STRUCT(nomeEntidade VARCHAR, dataEnvio VARCHAR, prorrogado VARCHAR, devolvido VARCHAR, retirado VARCHAR, respostas STRUCT(dataResposta VARCHAR)[])[]',
+        Destinatarios: 'STRUCT(nomeEntidade VARCHAR, dataEnvio VARCHAR, prorrogado VARCHAR, dataProrrogacao VARCHAR, prazoProrrogacao VARCHAR, dataReenvio VARCHAR, devolvido VARCHAR, retirado VARCHAR, respostas STRUCT(dataResposta VARCHAR)[])[]',
         RespostasSPerguntas: 'STRUCT(dataResposta VARCHAR)[]'
     }
 )

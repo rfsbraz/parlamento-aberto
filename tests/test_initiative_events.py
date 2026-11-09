@@ -136,3 +136,11 @@ def test_only_the_two_xvii_events_have_no_phase_code(con):
         "select legislature, phase from initiative_events where phase_code is null"
     ).fetchall()
     assert rows == [("XVII", "Anúncio de conclusão")] * 2
+
+
+def test_phase_codes_are_published_with_initiative_events(con):
+    from parlamento_aberto.release import marts
+
+    assert {"initiative_events", "phase_codes"} <= set(marts())
+    seed = con.sql("select * from seed_phase_codes order by phase_code").fetchall()
+    assert con.sql("select * from phase_codes order by phase_code").fetchall() == seed

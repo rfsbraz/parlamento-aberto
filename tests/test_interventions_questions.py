@@ -296,3 +296,100 @@ def test_fixture_has_an_invalid_sent_date(con):
         "select question_id, sent_date_raw from questions where sent_date_invalid"
     ).fetchall()
     assert rows == [(187751, "2125-06-12")]
+
+
+# Recipient extension and resend fields (#161). In the 9 November 2026 checkout, XVII has 171
+# recipients flagged prorrogado; all have dataProrrogacao and 168 have prazoProrrogacao.
+XVII_EXTENSIONS = {"flagged": 171, "with_date": 171, "with_days": 168, "resent": 1}
+
+
+def raw_recipient_counts() -> dict[str, tuple[int, int, int, int]]:
+    """Per legislature: recipients flagged prorrogado, and those with dataProrrogacao,
+    prazoProrrogacao and dataReenvio, read straight from the source files."""
+    import duckdb
+
+    path = (DATA / "perguntas_requerimentos").as_posix()
+    rows = duckdb.sql(
+        f"""
+        select split_part(replace(filename, '{path}/', ''), '/', 1) as legislature,
+            count(*) filter (where d.prorrogado = 'S'),
+            count(d.dataProrrogacao),
+            count(try_cast(d.prazoProrrogacao as integer)),
+            count(d.dataReenvio)
+        from (
+            select filename, unnest(Destinatarios) as d
+            from read_json(
+                '{path}/*/records*.ndjson',
+                format = 'newline_delimited',
+                filename = true,
+                maximum_object_size = 100000000,
+                columns = {{Destinatarios: 'STRUCT(prorrogado VARCHAR, dataProrrogacao VARCHAR,
+                    prazoProrrogacao VARCHAR, dataReenvio VARCHAR)[]'}}
+            )
+        )
+        group by 1
+        """
+    ).fetchall()
+    return {leg: tuple(rest) for leg, *rest in rows}
+
+
+def mart_recipient_counts(con) -> dict[str, tuple[int, int, int, int]]:
+    rows = con.sql(
+        """
+        select legislature, count(*) filter (where is_extended), count(extension_date),
+            count(extension_days), count(resent_date)
+        from question_recipients group by 1
+        """
+    ).fetchall()
+    return {leg: tuple(rest) for leg, *rest in rows}
+
+
+def test_extension_and_resend_fields_match_the_source(con):
+    raw = raw_recipient_counts()
+    assert mart_recipient_counts(con) == raw
+
+
+@pytest.mark.skipif(not ON_FIXTURES, reason="fixture content only")
+def test_fixture_extensions_carry_their_date_and_length(con):
+    rows = con.sql(
+        """
+        select is_extended, extension_date is not null, extension_days
+        from question_recipients where is_extended or extension_date is not null
+        """
+    ).fetchall()
+    assert rows == [(True, True, 30)] * 7
+
+
+@pytest.mark.skipif(ON_FIXTURES, reason="needs the full data")
+def test_xvii_extensions_are_pinned(con):
+    flagged, with_date, with_days, resent = con.sql(
+        """
+        select count(*), count(extension_date), count(extension_days), count(resent_date)
+        from question_recipients where legislature = 'XVII' and is_extended
+        """
+    ).fetchone()
+    assert flagged >= XVII_EXTENSIONS["flagged"]
+    assert with_date >= XVII_EXTENSIONS["with_date"]
+    assert with_days >= XVII_EXTENSIONS["with_days"]
+    (resent,) = con.sql(
+        "select count(resent_date) from question_recipients where legislature = 'XVII'"
+    ).fetchone()
+    assert resent >= XVII_EXTENSIONS["resent"]
+
+
+def test_resent_date_is_read(tmp_path):
+    import shutil
+
+    data = tmp_path / "data"
+    shutil.copytree(FIXTURES, data)
+    path = data / "perguntas_requerimentos" / "XVII" / "records.ndjson"
+    lines = path.read_text(encoding="utf-8").splitlines()
+    first = json.loads(lines[0])
+    first["Destinatarios"][0]["dataReenvio"] = "2026-03-02"
+    lines[0] = json.dumps(first, ensure_ascii=False)
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    c = build(data)
+    rows = c.sql(
+        "select question_id, resent_date from question_recipients where resent_date is not null"
+    ).fetchall()
+    assert [str(d) for _, d in rows] == ["2026-03-02"]

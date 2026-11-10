@@ -3579,12 +3579,20 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Lisboa",
+     "Data": "2026-01-12",
+     "Estabelecimento": "EPAD - Escola Profissional de Artes, Tecnologias e Desporto",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Lisboa",
+     "Data": "2025-12-15",
+     "Estabelecimento": "Escola Secundária Marquês de Pombal, Lisboa",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -4607,6 +4615,14 @@
      "ScmCd": "26",
      "ScmComCd": "9",
      "ScmComLg": "XVII"
+    },
+    {
+     "CcmDscom": "Grupo de Trabalho – Pagamento dos retroativos aos enfermeiros",
+     "CmsCargo": null,
+     "CmsSituacao": "Efetivo",
+     "ScmCd": "30",
+     "ScmComCd": "9",
+     "ScmComLg": "XVII"
     }
    ]
   }
@@ -4618,7 +4634,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-06",
+    "GpDtFim": "2026-11-09",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

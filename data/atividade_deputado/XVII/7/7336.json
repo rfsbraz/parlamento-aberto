@@ -1512,6 +1512,42 @@
    ],
    "Audicoes": [
     {
+     "AccDtaud": "2026-11-06",
+     "ActAs": "Audição do Ministro de Estado e das Finanças no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190630",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "135-COFAP-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "COFAP",
+     "CmsNo": "Comissão de Orçamento, Finanças e Administração Pública ",
+     "NomeEntidadeExterna": "Joaquim Miranda Sarmento (Ministro de Estado e das Finanças); José Maria Brandão de Brito (Secretário de Estado Adjunto e do Orçamento); Cláudia Reis Duarte (Secretária de Estado dos Assuntos Fiscais); João Silva Lopes (Secretário de Estado do Tesouro e Finanças)",
+     "TevTp": null
+    },
+    {
+     "AccDtaud": "2026-11-06",
+     "ActAs": "Audição da Ministra do Trabalho, Solidariedade e Segurança Social no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190627",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "134-COFAP-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "COFAP",
+     "CmsNo": "Comissão de Orçamento, Finanças e Administração Pública ",
+     "NomeEntidadeExterna": "Maria do Rosário Palma Ramalho (Ministra do Trabalho, Solidariedade e Segurança Social); Adriano Rafael Moreira (Secretário de Estado do Trabalho); Susana Filipa Lima (Secretária de Estado da Segurança Social); Clara Marques Mendes (Secretária de Estado da Ação Social e da Inclusão)",
+     "TevTp": null
+    },
+    {
      "AccDtaud": "2026-11-05",
      "ActAs": "Audição do Ministro da Agricultura e do Mar no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027",
      "ActDtdes1": null,
@@ -7210,6 +7246,30 @@
    ],
    "Intev": [
     {
+     "IntId": "505623",
+     "IntSu": "Sobre \"Início do ano letivo\"",
+     "IntTe": null,
+     "PubDar": "19-19",
+     "PubDtreu": "2026-09-23",
+     "PubLg": "XVII",
+     "PubNr": "4",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
+     "IntId": "505640",
+     "IntSu": "Sobre \"Início do ano letivo\"",
+     "IntTe": "Ao Ministro da Educação, Ciência e Inovação (Fernando Alexandre)",
+     "PubDar": "35-35",
+     "PubDtreu": "2026-09-23",
+     "PubLg": "XVII",
+     "PubNr": "4",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Pedido de esclarecimento"
+    },
+    {
      "IntId": "505365",
      "IntSu": "Sobre o “Custo de Vida”",
      "IntTe": null,
@@ -7220,6 +7280,18 @@
      "PubSl": "2",
      "PubTp": "D",
      "TinDs": "Defesa da honra"
+    },
+    {
+     "IntId": "505592",
+     "IntSu": "Sobre “O jogo online e as apostas em Portugal”",
+     "IntTe": null,
+     "PubDar": "26-27",
+     "PubDtreu": "2026-09-17",
+     "PubLg": "XVII",
+     "PubNr": "2",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Interpelação à mesa"
     },
     {
      "IntId": "505123",
@@ -9910,7 +9982,16 @@
      "TinDs": "Pedido de esclarecimento"
     }
    ],
-   "ParlamentoJovens": null,
+   "ParlamentoJovens": [
+    {
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
+    }
+   ],
    "Rel": {
     "AutoresPareceresIncImu": null,
     "RelatoresContasPublicas": null,
@@ -23000,7 +23081,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-06",
+    "GpDtFim": "2026-11-09",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

@@ -1571,7 +1571,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Relatório CIMH",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314e32457a59544e6b5a6930774f544d7a4c5451794e474974596d466b5a53316a4f47557859325578595759784e6a49756347526d&fich=57a3a3df-0933-424b-bade-c8e1ce1af162.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8460",
      "Legislatura": null,
@@ -1584,7 +1591,16 @@
      "Prorrogado": null,
      "Publicacao": null,
      "PublicacaoRelatorio": null,
-     "Relatores": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "JPP",
+       "id": "9378",
+       "motivoCessacao": null,
+       "nome": "Filipe Sousa"
+      }
+     ],
      "RemessaRedaccaoFinal": null,
      "Remessas": null,
      "Sessao": null,

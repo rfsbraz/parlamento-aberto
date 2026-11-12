@@ -623,7 +623,26 @@
      "Nome": "Miguel Guimarães"
     }
    ],
-   "Deslocacoes": null,
+   "Deslocacoes": [
+    {
+     "AccDtaud": null,
+     "ActAs": "Interparliamentary Committee Meeting  »Lessons learnt from the COVID-19 Pandemic: Strengthening EU Health Resilience and Preparedness for Future Global Health Crises»",
+     "ActDtdes1": "2026-11-10",
+     "ActDtdes2": "2026-11-10",
+     "ActDtent": null,
+     "ActId": "157701",
+     "ActLg": "XVII",
+     "ActLoc": "Bruxelas ",
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": "DES",
+     "ActTpdesc": "Deslocação",
+     "CmsAb": "CS",
+     "CmsNo": "Comissão de Saúde ",
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    }
+   ],
    "DlE": [
     {
      "DevDtfim": "2026-11-10 00:00:00.0",
@@ -1121,7 +1140,16 @@
      "TinDs": "Intervenção"
     }
    ],
-   "ParlamentoJovens": null,
+   "ParlamentoJovens": [
+    {
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
+    }
+   ],
    "Rel": {
     "AutoresPareceresIncImu": null,
     "RelatoresContasPublicas": null,
@@ -1159,7 +1187,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-10",
+    "GpDtFim": "2026-11-11",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

@@ -2995,6 +2995,16 @@
    ],
    "DlE": [
     {
+     "DevDtfim": "2026-11-17 00:00:00.0",
+     "DevDtini": "2026-11-16 00:00:00.0",
+     "DevId": "22882",
+     "DevLoc": "Nairobi, Quénia",
+     "DevNo": "Terceira Cimeira Parlamentar Global contra a Fome e a Subnutrição",
+     "DevSelLg": "XVII",
+     "DevSelNr": "2",
+     "DevTp": "Internacional"
+    },
+    {
      "DevDtfim": "2026-09-29 00:00:00.0",
      "DevDtini": "2026-09-27 00:00:00.0",
      "DevId": "22849",
@@ -3228,12 +3238,28 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Coimbra",
+     "Data": "2026-01-19",
+     "Estabelecimento": "Escola Secundária Avelar Brotero, Coimbra",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Coimbra",
+     "Data": "2026-01-05",
+     "Estabelecimento": "Agrupamento de Escolas de Arganil",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Coimbra",
+     "Data": "2025-12-15",
+     "Estabelecimento": "Colégio de S. Teotónio",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -3284,7 +3310,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-11",
+    "GpDtFim": "2026-11-12",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

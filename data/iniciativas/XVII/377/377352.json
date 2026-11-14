@@ -395,9 +395,9 @@
       },
       {
        "DataDocumento": "2026-10-28",
-       "TipoDocumento": "Outro",
+       "TipoDocumento": "Link",
        "TituloDocumento": "Contributo ELS Group",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a4d7a52685a57526b5979316a597a686d4c54517a5a5459744f47526a5a4330334e5449344d474a695a5459794d4751756347526d&fich=c34aeddc-cc8f-43e6-8dcd-75280bbe620d.pdf&Inline=true"
+       "URL": "https://app.parlamento.pt/webutils/docs/doc.pdf?path=Mm2YR97IPsGS60E2Ai%2fqsLzalOA41N5%2b59QsBb%2bFuUDXqTlqgwT0%2b9hMCz2M1mWqL1WzthzLxznwx9QzCBHjlDFGQNXt2xcgO6DyQY7Thu453IN8gphxJgsvcgtvIG7z23t0VAKLQ7rOZ3EsKZxjBZiO2pC4W2vTmAeMcxNKOInBZFnmNDKgEP%2f%2bxGe21T2SVXZS63ZJQlRXw8uqy6AhSOLbq79dhZIQpf%2flZk49Ctk6lCojG0qF0yM94iMr5iffHEEn7ZqIhMrQRexkLebsSV0o%2fiYMBMGF5xyykaGNiy2lSOx2uNy4knQ5DAY9Kna8qJEuLmfO7UPSZXv7T9Cn4e669ZCMaClpxgn%2fmkMFzlo%3d&fich=Contributo+ELS+Group.pdf&Inline=true"
       },
       {
        "DataDocumento": "2026-10-28",
@@ -1571,7 +1571,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Relatório CIMH",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314e32457a59544e6b5a6930774f544d7a4c5451794e474974596d466b5a53316a4f47557859325578595759784e6a49756347526d&fich=57a3a3df-0933-424b-bade-c8e1ce1af162.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8460",
      "Legislatura": null,
@@ -1584,7 +1591,16 @@
      "Prorrogado": null,
      "Publicacao": null,
      "PublicacaoRelatorio": null,
-     "Relatores": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "JPP",
+       "id": "9378",
+       "motivoCessacao": null,
+       "nome": "Filipe Sousa"
+      }
+     ],
      "RemessaRedaccaoFinal": null,
      "Remessas": null,
      "Sessao": null,
@@ -2025,6 +2041,56 @@
        "data": "2026-11-03",
        "id": "190609",
        "tipo": "AUP"
+      },
+      {
+       "data": "2026-11-04",
+       "id": "190619",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-11-04",
+       "id": "190618",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-11-04",
+       "id": "190617",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-11-04",
+       "id": "190616",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-11-05",
+       "id": "190624",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-11-05",
+       "id": "190623",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-11-05",
+       "id": "190621",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-11-05",
+       "id": "190620",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-11-06",
+       "id": "190630",
+       "tipo": "AUP"
+      },
+      {
+       "data": "2026-11-06",
+       "id": "190627",
+       "tipo": "AUP"
       }
      ],
      "Audiencias": [
@@ -2066,6 +2132,11 @@
       {
        "data": "2026-11-03",
        "id": "127836",
+       "tipo": "AUD"
+      },
+      {
+       "data": "2026-11-04",
+       "id": "127838",
        "tipo": "AUD"
       }
      ],
@@ -2244,6 +2315,42 @@
        "TipoDocumento": "Outro",
        "TituloDocumento": "Contributo Contributo do Movimento Idanha Viva",
        "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938784f57526b5a546469595330795932526a4c5451325932597459546b324d53316d4d474a684e7a457a4e6d4d33597a55756347526d&fich=19dde7ba-2cdc-46cf-a961-f0ba7136c7c5.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-04",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo STAL – Sindicato Nacional dos Trabalhadores da Administração Local e Regional- Empresas Públicas- Concessionárias e Afins",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774f54466a4d6a59355979316c4d4467334c5452694e4759744f544d785a4330344d444e6a5a6a566a4f5463334d324d756347526d&fich=091c269c-e087-4b4f-931d-803cf5c9773c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-04",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Ordem dos Nutricionistas",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774d54646d5a444a6d4f5330344e7a5a684c5451344e4751744f4463794e4330775954426a4e6a49774f54457a4d6a59756347526d&fich=017fd2f9-876a-484d-8724-0a0c62091326.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-04",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "STSS - Sindicato Nacional dos Técnicos Superiores de Diagnóstico e Terapêutica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938355a5755345a574e6b4e7930324f4755324c54526c4f474574596d4a6d4d53307a4e6a4931595463334d4755344f4449756347526d&fich=9ee8ecd7-68e6-4e8a-bbf1-3625a770e882.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-04",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Baladi",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279383259546c684e6a59795979307a4d5459794c54526a4d6a4974595445315a5331684f4464694e575a694d6a6b34595445756347526d&fich=6a9a662c-3162-4c22-a15e-a87b5fb298a1.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-05",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Ordem dos Médicos Dentistas",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793879595441324d474d304d79316b5a445a6a4c54517a4e6d49744f446b305a4330784e7a5a694f54566b5a54566d596a49756347526d&fich=2a060c43-dd6c-436b-894d-176b95de5fb2.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-04",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo Sindicato dos Funcionários Judiciais",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d4d6a6b334d7a41324e4330344f5449784c54526c4f575574596d4e6d4e53316b4d7a457a4d7a41304d54566d5a6d59756347526d&fich=f2973064-8921-4e9e-bcf5-d31330415fff.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

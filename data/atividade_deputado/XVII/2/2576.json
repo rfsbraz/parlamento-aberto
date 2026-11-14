@@ -927,6 +927,24 @@
    ],
    "Audiencias": [
     {
+     "AccDtaud": "2026-11-04",
+     "ActAs": "Audiência da Ordem dos Contabilistas Certificados - OCC, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "127839",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "37-COFAP-XVII",
+     "ActSl": null,
+     "ActTp": "AUD",
+     "ActTpdesc": "Audiência",
+     "CmsAb": "COFAP",
+     "CmsNo": "Comissão de Orçamento, Finanças e Administração Pública ",
+     "NomeEntidadeExterna": "Ordem dos Contabilistas Certificados",
+     "TevTp": null
+    },
+    {
      "AccDtaud": "2026-11-03",
      "ActAs": "Audiência da AUDIOGEST- Associação para a Gestão e Distribuição de Direitos e da APM – Associação para a Promoção da Música, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027",
      "ActDtdes1": null,
@@ -5071,6 +5089,18 @@
    ],
    "Intev": [
     {
+     "IntId": "505787",
+     "IntSu": "Altera os estatutos do Conselho das Finanças Públicas; Alarga os protocolos de acesso do Conselho das Finanças Públicas aos dados regionais e torna obrigatória a audição parlamentar dos membros propostos para o conselho superior.",
+     "IntTe": null,
+     "PubDar": "43-44",
+     "PubDtreu": "2026-10-07",
+     "PubLg": "XVII",
+     "PubNr": "8",
+     "PubSl": "2",
+     "PubTp": "D",
+     "TinDs": "Intervenção"
+    },
+    {
      "IntId": "505524",
      "IntSu": "Agendamento potestativo, requerido pelo GP do CH: Projeto de Resolução n.º 1232/XVII/1.ª (CH)",
      "IntTe": "Formulou um pedido de esclarecimento ao deputado Emídio Guerreiro (PSD)",
@@ -5085,14 +5115,14 @@
     {
      "IntId": "505313",
      "IntSu": "Debate sobre o Estado da Nação",
-     "IntTe": null,
+     "IntTe": "Ao Primeiro-Ministro (Luís Montenegro)",
      "PubDar": "57-58",
      "PubDtreu": "2026-07-16",
      "PubLg": "XVII",
      "PubNr": "112",
      "PubSl": "1",
      "PubTp": "D",
-     "TinDs": "Intervenção"
+     "TinDs": "Pergunta"
     },
     {
      "IntId": "504632",
@@ -7591,6 +7621,26 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Acesso dos cuidadores com menos de 60 anos à vacina contra a gripe",
+     "ReqDt": "2026-11-06 00:00:00.0",
+     "ReqId": "231982",
+     "ReqLg": "XVII",
+     "ReqNr": "343",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Acesso ao belantamab mafodotina no SNS - pedidos, decisões e prazos",
+     "ReqDt": "2026-11-06 00:00:00.0",
+     "ReqId": "231981",
+     "ReqLg": "XVII",
+     "ReqNr": "342",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Falta de professor de filosofia na Escola Secundária Arco Íris, em Loures",
@@ -10610,7 +10660,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-04",
+    "GpDtFim": "2026-11-12",
     "GpDtInicio": "2025-06-03",
     "GpId": 7262.0,
     "GpSigla": "CH"

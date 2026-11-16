@@ -3,6 +3,17 @@
   {
    "ActP": [
     {
+     "ActAs": "De saudação aos agentes de proteção civil e forças de segurança envolvidas no apoio às tempestades",
+     "ActDtdeb": null,
+     "ActDtent": "12-11-2026",
+     "ActId": "248902",
+     "ActNr": "807",
+     "ActSelLg": "XVII",
+     "ActSelNr": "2",
+     "ActTp": "VOT",
+     "ActTpdesc": "Voto"
+    },
+    {
      "ActAs": "De saudação pelo 90.º aniversário do Rancho Folclórico “Os Campinos” \nde Vila Chã de Ourique \n",
      "ActDtdeb": null,
      "ActDtent": "22-10-2026",
@@ -774,6 +785,24 @@
     }
    ],
    "Audicoes": [
+    {
+     "AccDtaud": "2026-11-10",
+     "ActAs": "Audição com a Vice-Presidente Executiva da Comissão Europeia, Henna Virkkunen, responsável pelo pelouro da Soberania Tecnológica, Segurança e Democracia",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "190632",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "29-CAE-XVII",
+     "ActSl": null,
+     "ActTp": "AUP",
+     "ActTpdesc": "Audição",
+     "CmsAb": "CAE",
+     "CmsNo": "Comissão de Assuntos Europeus ",
+     "NomeEntidadeExterna": "Henna Virkkunen, Vice-Presidente Executiva da Comissão Europeia",
+     "TevTp": null
+    },
     {
      "AccDtaud": "2026-11-04",
      "ActAs": "Audição da Ministra da Justiça, no âmbito da apreciação na especialidade da Proposta de Lei 110/XVI/2.ª – Orçamento do Estado para 2027, nos termos conjugados do n.º 5 do artigo 104.º e do n.º 2 do artigo 211.º do Regimento da Assembleia da República (conjunta com a Comissão de Orçamento, Finanças e Administração Pública).",
@@ -3147,24 +3176,6 @@
      "ActDtdes1": "2025-12-11",
      "ActDtdes2": "2025-12-11",
      "ActDtent": null,
-     "ActId": "147629",
-     "ActLg": "XVII",
-     "ActLoc": "Bruxelas (Bélgica)",
-     "ActNr": null,
-     "ActSl": null,
-     "ActTp": "DES",
-     "ActTpdesc": "Deslocação",
-     "CmsAb": "CACDLG",
-     "CmsNo": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias ",
-     "NomeEntidadeExterna": null,
-     "TevTp": null
-    },
-    {
-     "AccDtaud": null,
-     "ActAs": "Reunião interparlamentar sobre o Estado de Direito na União Europeia",
-     "ActDtdes1": "2025-12-11",
-     "ActDtdes2": "2025-12-11",
-     "ActDtent": null,
      "ActId": "137480",
      "ActLg": "XVII",
      "ActLoc": "Parlamento Europeu, Bruxelas",
@@ -3174,6 +3185,24 @@
      "ActTpdesc": "Deslocação",
      "CmsAb": "CAE",
      "CmsNo": "Comissão de Assuntos Europeus ",
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    },
+    {
+     "AccDtaud": null,
+     "ActAs": "Reunião interparlamentar sobre o Estado de Direito na União Europeia",
+     "ActDtdes1": "2025-12-11",
+     "ActDtdes2": "2025-12-11",
+     "ActDtent": null,
+     "ActId": "147629",
+     "ActLg": "XVII",
+     "ActLoc": "Bruxelas (Bélgica)",
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": "DES",
+     "ActTpdesc": "Deslocação",
+     "CmsAb": "CACDLG",
+     "CmsNo": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias ",
      "NomeEntidadeExterna": null,
      "TevTp": null
     },
@@ -3233,6 +3262,26 @@
     }
    ],
    "DlE": [
+    {
+     "DevDtfim": "2026-11-16 00:00:00.0",
+     "DevDtini": "2026-11-16 00:00:00.0",
+     "DevId": "22885",
+     "DevLoc": "Bruxelas, Bélgica",
+     "DevNo": "7.ª Reunião interparlamentar dedicada à Avaliação das atividades da EUROJUST |",
+     "DevSelLg": "XVII",
+     "DevSelNr": "2",
+     "DevTp": "Internacional"
+    },
+    {
+     "DevDtfim": "2026-11-17 00:00:00.0",
+     "DevDtini": "2026-11-15 00:00:00.0",
+     "DevId": "22883",
+     "DevLoc": "Bruxelas, Bérlgica",
+     "DevNo": "Visita de trabalho às instituições da União Europeia",
+     "DevSelLg": "XVII",
+     "DevSelNr": "2",
+     "DevTp": "Internacional"
+    },
     {
      "DevDtfim": "2026-06-24 00:00:00.0",
      "DevDtini": "2026-06-24 00:00:00.0",
@@ -3753,7 +3802,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-04",
+    "GpDtFim": "2026-11-13",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

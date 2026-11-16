@@ -462,7 +462,7 @@
    "Votacao": null
   },
   {
-   "ActId": null,
+   "ActId": "82776",
    "ActividadesConjuntas": null,
    "AnexosFase": null,
    "CodigoFase": "315",
@@ -471,7 +471,70 @@
    "EvtId": "196",
    "Fase": "Votação final",
    "IniciativasConjuntas": null,
-   "Intervencoesdebates": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2026-09-25",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": "9194",
+         "nome": "Aida Carvalho"
+        },
+        {
+         "GP": "PS",
+         "idCadastro": "5600",
+         "nome": "Eurico Brilhante Dias"
+        },
+        {
+         "GP": "PS",
+         "idCadastro": "469",
+         "nome": "Porfírio Silva"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:02",
+       "horaTermo": "13:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/006/2026-09-26?org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "505704",
+         "idPag": null,
+         "obs": null,
+         "pag": null,
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XVII",
+         "pubNr": "6",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2026-09-26",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo que apoie os municípios na criação de programas de formação específica e contínua para o pessoal não docente das escolas, no âmbito do acompanhamento de alunos com necessidades de suporte à aprendizagem e à inclusão.",
+       "teor": null
+      }
+     ]
+    }
+   ],
    "Links": null,
    "ObsFase": null,
    "OevId": "1753494",
@@ -480,15 +543,15 @@
    "PeticoesConjuntas": null,
    "PublicacaoFase": [
     {
-     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/006/2026-09-26/52?pgs=52&org=PLC",
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/006/2026-09-26/54?pgs=54-55&org=PLC",
      "debateDtReu": null,
      "idAct": null,
      "idDeb": null,
-     "idInt": null,
-     "idPag": "1035926",
+     "idInt": "67565",
+     "idPag": null,
      "obs": null,
      "pag": [
-      "52-52"
+      "54-55"
      ],
      "pagFinalDiarioSupl": null,
      "pubLeg": "XVII",

@@ -3,6 +3,17 @@
   {
    "ActP": [
     {
+     "ActAs": "De saudação aos agentes de proteção civil e forças de segurança envolvidas no apoio às tempestades",
+     "ActDtdeb": null,
+     "ActDtent": "12-11-2026",
+     "ActId": "248902",
+     "ActNr": "807",
+     "ActSelLg": "XVII",
+     "ActSelNr": "2",
+     "ActTp": "VOT",
+     "ActTpdesc": "Voto"
+    },
+    {
      "ActAs": "De saudação pelo centenário do Concelho da Murtosa\n",
      "ActDtdeb": null,
      "ActDtent": "29-10-2026",
@@ -1767,6 +1778,16 @@
    ],
    "DlE": [
     {
+     "DevDtfim": "2026-11-17 00:00:00.0",
+     "DevDtini": "2026-11-15 00:00:00.0",
+     "DevId": "22883",
+     "DevLoc": "Bruxelas, Bérlgica",
+     "DevNo": "Visita de trabalho às instituições da União Europeia",
+     "DevSelLg": "XVII",
+     "DevSelNr": "2",
+     "DevTp": "Internacional"
+    },
+    {
      "DevDtfim": "2026-03-05 00:00:00.0",
      "DevDtini": "2026-03-05 00:00:00.0",
      "DevId": "22768",
@@ -2030,12 +2051,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Aveiro",
+     "Data": "2026-01-12",
+     "Estabelecimento": "Agrupamento de Escolas Águeda Sul",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -2077,7 +2098,7 @@
     {
      "CcmDscom": "Grupo de Trabalho - Júri do Prémio Barbosa de Melo 2026",
      "CmsCargo": "Coordenador ",
-     "CmsSituacao": "Efetivo",
+     "CmsSituacao": null,
      "ScmCd": "21",
      "ScmComCd": "1",
      "ScmComLg": "XVII"
@@ -2085,7 +2106,7 @@
     {
      "CcmDscom": "Grupo de Trabalho - Júri do Prémio Mário Soares 2026",
      "CmsCargo": "Coordenador ",
-     "CmsSituacao": "Efetivo",
+     "CmsSituacao": null,
      "ScmCd": "23",
      "ScmComCd": "1",
      "ScmComLg": "XVII"
@@ -2093,7 +2114,7 @@
     {
      "CcmDscom": "GT - Júri do Prémio Direitos Humanos 2026",
      "CmsCargo": "Coordenador ",
-     "CmsSituacao": "Efetivo",
+     "CmsSituacao": null,
      "ScmCd": "28",
      "ScmComCd": "1",
      "ScmComLg": "XVII"
@@ -2108,7 +2129,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-04",
+    "GpDtFim": "2026-11-13",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

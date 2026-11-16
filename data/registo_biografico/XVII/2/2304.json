@@ -21,7 +21,14 @@
   "actividadeGT": null,
   "actividadeSCom": null
  },
- "CadCargosFuncoes": null,
+ "CadCargosFuncoes": [
+  {
+   "FunAntiga": "N",
+   "FunDes": "Eleito Assembleia Municipal de Vila Franca de Xira",
+   "FunId": 55411.0,
+   "FunOrdem": 1
+  }
+ ],
  "CadCondecoracoes": null,
  "CadDeputadoLegis": [
   {
@@ -63,8 +70,14 @@
   {
    "HabDes": "Relações Internacionais",
    "HabEstado": "C",
-   "HabId": 36611.0,
+   "HabId": 57123.0,
    "HabTipoId": 13.0
+  },
+  {
+   "HabDes": "Pós-Graduação Gestão",
+   "HabEstado": "C",
+   "HabId": 57124.0,
+   "HabTipoId": 16.0
   }
  ],
  "CadId": 2304.0,

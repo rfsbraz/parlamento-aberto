@@ -1,6 +1,6 @@
 # Version of the published schema, in manifest.json. Bump the major on a breaking change
 # (a column removed or renamed, a type changed); the site refuses an unknown major.
-schema_version: "1.6.0"
+schema_version: "1.7.0"
 
 # Every model, in run order, with a description of every column.
 # The data dictionary in docs/dictionary is generated from this file
@@ -540,6 +540,10 @@ models:
       Uma linha por deputado nomeado no detalhe de uma votação, normalmente por votar de forma diferente do seu grupo,
       ou nomeado como ausente no campo ausencias de uma votação sem detalhe. Associado ao cadastro_id pelo nome parlamentar (ignorando maiúsculas e espaços) e pelo grupo
       dentro da legislatura da votação, ou só pelo nome para Indep e Ninsc.
+      As linhas com group_code Ninsc ou Indep são votos ordinários de deputados não inscritos, não dissidência. is_non_attached_vote assinala-as.
+    quirks:
+      - >-
+        Ninsc e Indep nunca contam como dissidência. Quem conta votos divergentes deve excluir as linhas com is_non_attached_vote verdadeiro.
     columns:
       vote_id: Votação, liga a votes.
       legislature: Legislatura da votação.

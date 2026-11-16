@@ -292,6 +292,76 @@ def test_non_inscribed_dissenters_match_on_name(con):
     ]
 
 
+
+@fixture_only
+def test_non_attached_votes_are_flagged(con):
+    # Vote 90081 names two non-attached deputies. Vote 171494 names two PS dissenters.
+    non_attached = con.sql(
+        """
+        select name, group_code, is_non_attached_vote from vote_deputy_dissents
+        where vote_id = 90081 order by name
+        """
+    ).fetchall()
+    assert non_attached == [
+        ("Cristina Rodrigues", "Ninsc", True),
+        ("Joacine Katar Moreira", "Ninsc", True),
+    ]
+    dissenters = con.sql(
+        """
+        select name, group_code, is_non_attached_vote from vote_deputy_dissents
+        where vote_id = 171494 order by name
+        """
+    ).fetchall()
+    assert dissenters == [
+        ("Pedro Delgado Alves", "PS", False),
+        ("Pedro Vaz", "PS", False),
+    ]
+
+
+def test_ninsc_and_indep_are_never_classified_as_dissent(con):
+    # Ninsc and Indep are never dissent. No other group_code gets the flag.
+    wrong = con.sql(
+        """
+        select legislature, group_code, is_non_attached_vote, count(*)
+        from vote_deputy_dissents
+        where (group_code in ('Indep', 'Ninsc')) is distinct from is_non_attached_vote
+        group by all
+        """
+    ).fetchall()
+    assert wrong == []
+
+
+# Full data on main 33ca8ffc7 (AR update #167). XIV and XVI are closed, so a change
+# in these counts is a regression or a historical correction that must be reviewed.
+# The issue cited 3439 of 4294 in XIV and 352 of 497 in XVI, from an earlier extract.
+XIV_DISSENT_ROWS = 4298
+XIV_NINSC_ROWS = 3440
+XVI_DISSENT_ROWS = 512
+XVI_NINSC_ROWS = 365
+
+
+@data_only
+def test_xiv_and_xvi_ninsc_shares_are_pinned(con):
+    rows = con.sql(
+        """
+        select
+            legislature,
+            count(*) as n_rows,
+            count(*) filter (where group_code = 'Ninsc') as ninsc,
+            count(*) filter (where group_code = 'Indep') as indep,
+            count(*) filter (where is_non_attached_vote) as flagged
+        from vote_deputy_dissents
+        where legislature in ('XIV', 'XVI')
+        group by legislature
+        order by legislature
+        """
+    ).fetchall()
+    assert rows == [
+        ("XIV", XIV_DISSENT_ROWS, XIV_NINSC_ROWS, 0, XIV_NINSC_ROWS),
+        ("XVI", XVI_DISSENT_ROWS, XVI_NINSC_ROWS, 0, XVI_NINSC_ROWS),
+    ]
+
+
 def test_every_alias_cites_a_source():
     import csv
 

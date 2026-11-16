@@ -19,6 +19,7 @@ Ficheiros da publicação: `vote_deputy_dissents.parquet` e `vote_deputy_dissent
 | `group_code_raw` | VARCHAR | Código do grupo tal como escrito no detalhe. |
 | `cadastro_id` | BIGINT | Id da pessoa, liga a deputies. Nulo quando nenhum deputado corresponde ou corresponde mais do que um. |
 | `candidates` | INTEGER | Número de deputados que correspondem ao nome e ao grupo. 0 é sem correspondência, mais de 1 é ambíguo. |
+| `is_non_attached_vote` | BOOLEAN | Verdadeiro quando o grupo é Ninsc ou Indep, ou seja, quando o deputado não pertence a nenhum grupo parlamentar. Estas linhas não são dissidência. |
 
 ## Particularidades conhecidas
 

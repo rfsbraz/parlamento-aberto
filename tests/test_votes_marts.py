@@ -292,7 +292,6 @@ def test_non_inscribed_dissenters_match_on_name(con):
     ]
 
 
-
 @fixture_only
 def test_non_attached_votes_are_flagged(con):
     # Vote 90081 names two non-attached deputies. Vote 171494 names two PS dissenters.

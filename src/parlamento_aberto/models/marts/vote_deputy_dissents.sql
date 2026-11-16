@@ -2,7 +2,7 @@
 -- and deputies named as absent in ausencias on votes without a detail.
 -- Matched to cadastro_id by parliamentary name (ignoring case and spacing) and group
 -- within the vote's legislature, accepting the published code or its alias. Indep and Ninsc are not groups, so those names are
--- matched on the name alone. A name with no match, or more than one, stays null.
+-- matched on the name alone. Those rows are ordinary non-attached votes, not dissent, and is_non_attached_vote marks them. A name with no match, or more than one, stays null.
 with named as (
     select distinct v.vote_id, v.legislature, v.body, i.position, i.name, i.group_acronym
     from votes v
@@ -49,7 +49,8 @@ select
     group_code,
     group_acronym as group_code_raw,
     case when count(distinct candidate) = 1 then any_value(candidate) end as cadastro_id,
-    count(distinct candidate)::integer as candidates
+    count(distinct candidate)::integer as candidates,
+    group_code in ('Indep', 'Ninsc') as is_non_attached_vote
 from candidates
 group by vote_id, legislature, body, position, name, group_code, group_acronym
 order by vote_id, name

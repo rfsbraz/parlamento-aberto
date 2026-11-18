@@ -1,6 +1,6 @@
 # Version of the published schema, in manifest.json. Bump the major on a breaking change
 # (a column removed or renamed, a type changed); the site refuses an unknown major.
-schema_version: "1.6.0"
+schema_version: "1.7.0"
 
 # Every model, in run order, with a description of every column.
 # The data dictionary in docs/dictionary is generated from this file
@@ -599,7 +599,7 @@ models:
       sent_date_raw: Data de envio (DataEnvio), tal como publicada. Algumas são implausíveis, por exemplo o ano 0024 ou 2909; o mart questions assinala-as.
       document_url: Ligação para o documento da pergunta ou requerimento (Ficheiro).
       authors: Autores (Autores) como cadastro_id, name, group_acronym.
-      recipients: Destinatários (Destinatarios) como recipient, sent_date, is_extended, is_returned, is_withdrawn, answer_dates.
+      recipients: Destinatários (Destinatarios) como recipient, sent_date, is_extended, extension_date, extension_days, resent_date, is_returned, is_withdrawn, answer_dates.
       question_level_answers: Número de respostas publicadas na pergunta e não por destinatário (RespostasSPerguntas), usado em legislaturas mais antigas.
       legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
       source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
@@ -684,6 +684,9 @@ models:
       is_withdrawn: Verdadeiro quando foi retirada.
       answer_count: Respostas recebidas deste destinatário.
       first_answer_date: Data da primeira resposta, nula se não houver nenhuma.
+      extension_date: Data da prorrogação do prazo de resposta (dataProrrogacao), nula quando a AR não a publica.
+      extension_days: Duração da prorrogação em dias (prazoProrrogacao), normalmente 30. Nula quando a AR não a publica ou não é um número inteiro.
+      resent_date: Data em que a pergunta foi reenviada a este destinatário (dataReenvio), nula quando a AR não a publica.
 
   stg_registo_interesses__files:
     description: >-

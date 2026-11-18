@@ -38,7 +38,7 @@ PerguntasRequerimentos, uma linha por registo da fonte. As contagens de linhas p
 | `sent_date_raw` | VARCHAR | Data de envio (DataEnvio), tal como publicada. Algumas são implausíveis, por exemplo o ano 0024 ou 2909; o mart questions assinala-as. |
 | `document_url` | VARCHAR | Ligação para o documento da pergunta ou requerimento (Ficheiro). |
 | `authors` | STRUCT(cadastro_id BIGINT, "name" VARCHAR, group_acronym VARCHAR)[] | Autores (Autores) como cadastro_id, name, group_acronym. |
-| `recipients` | STRUCT(recipient VARCHAR, sent_date DATE, is_extended BOOLEAN, is_returned BOOLEAN, is_withdrawn BOOLEAN, answer_dates DATE[])[] | Destinatários (Destinatarios) como recipient, sent_date, is_extended, is_returned, is_withdrawn, answer_dates. |
+| `recipients` | STRUCT(recipient VARCHAR, sent_date DATE, is_extended BOOLEAN, extension_date DATE, extension_days INTEGER, resent_date DATE, is_returned BOOLEAN, is_withdrawn BOOLEAN, answer_dates DATE[])[] | Destinatários (Destinatarios) como recipient, sent_date, is_extended, extension_date, extension_days, resent_date, is_returned, is_withdrawn, answer_dates. |
 | `question_level_answers` | BIGINT | Número de respostas publicadas na pergunta e não por destinatário (RespostasSPerguntas), usado em legislaturas mais antigas. |
 | `legislature` | VARCHAR | Legislatura em numeração romana, a partir do caminho do ficheiro. |
 | `source_file` | VARCHAR | Ficheiro normalizado de onde a linha foi lida, relativo a data/. |

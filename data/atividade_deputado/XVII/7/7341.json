@@ -2350,36 +2350,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": "Açores",
-     "Data": "2026-01-19",
-     "Estabelecimento": "EB1,2,3/JI/S Padre Maurício de Freitas",
-     "Legislatura": "XVII",
-     "Sessao": "Secundário",
-     "TipoReuniao": "Debate na Escola"
-    },
-    {
-     "CirculoEleitoral": "Açores",
-     "Data": "2026-01-12",
-     "Estabelecimento": "EB1,2,3/JI da Vila de Rabo de Peixe",
-     "Legislatura": "XVII",
-     "Sessao": "Básico",
-     "TipoReuniao": "Debate na Escola"
-    },
-    {
-     "CirculoEleitoral": "Açores",
-     "Data": "2025-12-15",
-     "Estabelecimento": "Escola Profissional da Praia da Vitória",
-     "Legislatura": "XVII",
-     "Sessao": "Secundário",
-     "TipoReuniao": "Debate na Escola"
-    },
-    {
-     "CirculoEleitoral": "Açores",
-     "Data": "2026-03-02",
-     "Estabelecimento": "Assembleia Legislativa da Região Autónoma dos Açores - Horta - Açores",
-     "Legislatura": "XVII",
-     "Sessao": "Básico",
-     "TipoReuniao": "Sessão Distrital/Regional"
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
     }
    ],
    "Rel": {
@@ -2439,6 +2415,16 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Apuramento da dívida da Região Autónoma dos Açores relevante para o limiar de 50% do PIB e verificação das condições de recurso ao endividamento para projetos comparticipados por fundos europeus",
+     "ReqDt": "2026-11-11 00:00:00.0",
+     "ReqId": "232010",
+     "ReqLg": "XVII",
+     "ReqNr": "369",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Instalação e entrada em funcionamento da Esquadra da PSP na ilha do Corvo",
@@ -3071,7 +3057,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-16",
+    "GpDtFim": "2026-11-17",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

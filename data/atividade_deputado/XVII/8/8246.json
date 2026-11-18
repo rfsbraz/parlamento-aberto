@@ -4083,6 +4083,24 @@
    "Deslocacoes": [
     {
      "AccDtaud": null,
+     "ActAs": "Visita aos Portos Europeus",
+     "ActDtdes1": "2026-09-27",
+     "ActDtdes2": "2026-09-30",
+     "ActDtent": null,
+     "ActId": "157705",
+     "ActLg": "XVII",
+     "ActLoc": "Hamburgo, Roterdão e Antuérpia",
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": "DES",
+     "ActTpdesc": "Deslocação",
+     "CmsAb": "CIMH",
+     "CmsNo": "Comissão de Infraestruturas, Mobilidade e Habitação",
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    },
+    {
+     "AccDtaud": null,
      "ActAs": "Visita às instalações da INCM, onde está a decorrer o processo de digitalização dos exames nacionais, para conhecimento, in loco,  do processo da 2.ª fase, a convite de S. Exa. o Ministro da Educação, Ciência e Inovação",
      "ActDtdes1": "2026-07-28",
      "ActDtdes2": "2026-07-28",
@@ -4380,6 +4398,15 @@
      "IniTi": "Desconcentração de processos contra a AIMA e Redistribuição para um descongestionamento do TAC de Lisboa, alteração do Código de Processo nos Tribunais Administrativos  ",
      "IniTp": "J",
      "IniTpdesc": "Projeto de Lei"
+    },
+    {
+     "IniId": "377390",
+     "IniNr": "1339",
+     "IniSelLg": "XVII",
+     "IniSelNr": "2",
+     "IniTi": "Recomenda ao Governo que aprofunde a presença diplomática portuguesa e o reforço das relações estratégicas com os parceiros do Indo-Pacífico",
+     "IniTp": "R",
+     "IniTpdesc": "Projeto de Resolução"
     },
     {
      "IniId": "377365",
@@ -6808,6 +6835,16 @@
      "ReqTp": "AC"
     },
     {
+     "ReqAs": "Acesso à documentação do processo de seleção do Conselho de Administração da RTP para o mandato 2027-2029",
+     "ReqDt": "2026-11-11 00:00:00.0",
+     "ReqId": "231999",
+     "ReqLg": "XVII",
+     "ReqNr": "5",
+     "ReqPerTp": "REQ",
+     "ReqSl": "2",
+     "ReqTp": "EI"
+    },
+    {
      "ReqAs": "Documentação de Suporte à decisão de generalização da classificação digital dos exames nacionais",
      "ReqDt": "2026-08-04 00:00:00.0",
      "ReqId": "230848",
@@ -7797,7 +7834,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-16",
+    "GpDtFim": "2026-11-17",
     "GpDtInicio": "2025-06-03",
     "GpId": 7264.0,
     "GpSigla": "IL"

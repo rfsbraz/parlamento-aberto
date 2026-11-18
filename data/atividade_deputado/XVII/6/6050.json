@@ -1610,6 +1610,24 @@
    "Deslocacoes": [
     {
      "AccDtaud": null,
+     "ActAs": "Visita aos Portos Europeus",
+     "ActDtdes1": "2026-09-27",
+     "ActDtdes2": "2026-09-30",
+     "ActDtent": null,
+     "ActId": "157705",
+     "ActLg": "XVII",
+     "ActLoc": "Hamburgo, Roterdão e Antuérpia",
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": "DES",
+     "ActTpdesc": "Deslocação",
+     "CmsAb": "CIMH",
+     "CmsNo": "Comissão de Infraestruturas, Mobilidade e Habitação",
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    },
+    {
+     "AccDtaud": null,
      "ActAs": "Participação no Fórum Económico",
      "ActDtdes1": "2025-09-02",
      "ActDtdes2": "2025-09-05",
@@ -2209,6 +2227,16 @@
     ]
    },
    "Req": [
+    {
+     "ReqAs": "Disponibilização dos suportes visuais apresentados na audição regimental (Orçamento do Estado para 2027)",
+     "ReqDt": "2026-11-12 00:00:00.0",
+     "ReqId": "232011",
+     "ReqLg": "XVII",
+     "ReqNr": "30",
+     "ReqPerTp": "REQ",
+     "ReqSl": "2",
+     "ReqTp": "AC"
+    },
     {
      "ReqAs": "Documentação relativa aos termos da proposta da Lufthansa para a reprivatização parcial da TAP",
      "ReqDt": "2026-10-27 00:00:00.0",
@@ -3530,7 +3558,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-16",
+    "GpDtFim": "2026-11-17",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

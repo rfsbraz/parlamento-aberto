@@ -2892,7 +2892,16 @@
      "TevTp": "Conferência"
     }
    ],
-   "Gpa": null,
+   "Gpa": [
+    {
+     "CgaCrg": "Membro",
+     "CgaDtfim": null,
+     "CgaDtini": "2025-12-19 00:00:00.0",
+     "GplId": "590",
+     "GplNo": "Portugal - Arménia",
+     "GplSelLg": "XVII"
+    }
+   ],
    "Ini": [
     {
      "IniId": "335948",
@@ -4016,6 +4025,16 @@
      "ReqTp": "EI"
     },
     {
+     "ReqAs": "Garantias de integridade e independência da CReSAP",
+     "ReqDt": "2026-11-13 00:00:00.0",
+     "ReqId": "232028",
+     "ReqLg": "XVII",
+     "ReqNr": "385",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
      "ReqAs": "Situação operacional dos equipamentos informáticos do programa Kit Digital, mecanismos de assistência técnica e plano de renovação contínua nas escolas, em particular no concelho de Palmela",
      "ReqDt": "2026-10-02 00:00:00.0",
      "ReqId": "231593",
@@ -5066,7 +5085,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-16",
+    "GpDtFim": "2026-11-17",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

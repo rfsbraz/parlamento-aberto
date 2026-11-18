@@ -1,6 +1,6 @@
 # vote_deputy_dissents
 
-Uma linha por deputado nomeado no detalhe de uma votação, normalmente por votar de forma diferente do seu grupo, ou nomeado como ausente no campo ausencias de uma votação sem detalhe. Associado ao cadastro_id pelo nome parlamentar (ignorando maiúsculas e espaços) e pelo grupo dentro da legislatura da votação, ou só pelo nome para Indep e Ninsc.
+Uma linha por deputado nomeado no detalhe de uma votação, normalmente por votar de forma diferente do seu grupo, ou nomeado como ausente no campo ausencias de uma votação sem detalhe. Associado ao cadastro_id pelo nome parlamentar (ignorando maiúsculas e espaços) e pelo grupo dentro da legislatura da votação, ou só pelo nome para Indep e Ninsc. As linhas com group_code Ninsc ou Indep são votos ordinários de deputados não inscritos, não dissidência. is_non_attached_vote assinala-as.
 
 Gerado a partir de `src/parlamento_aberto/models/schema.yml` por `uv run python -m parlamento_aberto.dictionary`. Não editar à mão.
 
@@ -19,9 +19,11 @@ Ficheiros da publicação: `vote_deputy_dissents.parquet` e `vote_deputy_dissent
 | `group_code_raw` | VARCHAR | Código do grupo tal como escrito no detalhe. |
 | `cadastro_id` | BIGINT | Id da pessoa, liga a deputies. Nulo quando nenhum deputado corresponde ou corresponde mais do que um. |
 | `candidates` | INTEGER | Número de deputados que correspondem ao nome e ao grupo. 0 é sem correspondência, mais de 1 é ambíguo. |
+| `is_non_attached_vote` | BOOLEAN | Verdadeiro quando o grupo é Ninsc ou Indep, ou seja, quando o deputado não pertence a nenhum grupo parlamentar. Estas linhas não são dissidência. |
 
 ## Particularidades conhecidas
 
+- Ninsc e Indep nunca contam como dissidência. Quem conta votos divergentes deve excluir as linhas com is_non_attached_vote verdadeiro.
 - As lacunas da própria fonte da AR estão em [lacunas conhecidas](../known-gaps.md).
 
 ## Construído a partir de

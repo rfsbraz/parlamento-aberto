@@ -25,3 +25,17 @@ def committee_votes_without_composition(con: duckdb.DuckDBPyConnection) -> list[
         order by v.committee_id, v.vote_id
         """
     ).fetchall()
+
+
+def unknown_phase_codes(con: duckdb.DuckDBPyConnection) -> list[tuple[str, str]]:
+    """(phase_code, phase) for event phase codes missing from seed_phase_codes. A new AR
+    phase code needs a seed row, with its outcome, before it is published."""
+    return con.sql(
+        """
+        select distinct e.phase_code, e.phase
+        from initiative_events e
+        where e.phase_code is not null
+          and e.phase_code not in (select phase_code from seed_phase_codes)
+        order by e.phase_code
+        """
+    ).fetchall()

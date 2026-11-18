@@ -27,6 +27,8 @@ Como consultar uma publicação: [querying.md](../querying.md).
 | [initiative_authors](initiative_authors.md) | Uma linha por autor de uma iniciativa. |
 | [votes](votes.md) | Uma linha por id de votação, a partir dos arrays Votacao dos eventos das Iniciativas (plenário), das suas entradas Comissao (comissão) e dos arrays VotacaoDebate das Atividades (plenário). |
 | [initiative_votes](initiative_votes.md) | Liga as votações em plenário e em comissão às iniciativas e eventos em que são publicadas. |
+| [initiative_events](initiative_events.md) | Uma linha por evento (fase) de uma iniciativa, a partir de IniEventos, com a ordem dos eventos dentro da iniciativa. |
+| [phase_codes](phase_codes.md) | Uma linha por código de fase dos eventos das iniciativas, com a categoria de desfecho que a fase indica. |
 | [vote_group_positions](vote_group_positions.md) | Uma linha por votação, grupo e sentido de voto, a partir do detalhe lido. |
 | [vote_deputy_dissents](vote_deputy_dissents.md) | Uma linha por deputado nomeado no detalhe de uma votação, normalmente por votar de forma diferente do seu grupo, ou nomeado como ausente no campo ausencias de uma votação sem detalhe. |
 | [interventions](interventions.md) | Uma linha por intervenção em plenário, com debate, orador e referência no Diário. |

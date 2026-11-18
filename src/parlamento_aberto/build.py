@@ -40,6 +40,7 @@ SEED_OPTIONS = {
     "seed_ballot_list_seats": ", types = {'circle_code': 'VARCHAR'}",
     "seed_ballot_list_elected": ", types = {'circle_code': 'VARCHAR', 'cadastro_id': 'BIGINT'}",
     "seed_ballot_list_elected_overrides": ", types = {'cadastro_id': 'BIGINT'}",
+    "seed_phase_codes": ", types = {'phase_code': 'VARCHAR', 'note': 'VARCHAR'}",
 }
 # The seating macros read mandates and are created as soon as it exists.
 MACROS_AFTER = "mandates"

@@ -3824,12 +3824,20 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Lisboa",
+     "Data": "2026-01-12",
+     "Estabelecimento": "Colégio Valsassina",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Lisboa",
+     "Data": "2026-05-26",
+     "Estabelecimento": "Lisboa",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Sessão Nacional"
     }
    ],
    "Rel": {
@@ -4057,6 +4065,26 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Impacto da pobreza energética nas mulheres e ausência de perspetiva de género na Estratégia Nacional de Adaptação às Alterações Climáticas (ENAAC 2030)",
+     "ReqDt": "2026-11-17 00:00:00.0",
+     "ReqId": "232053",
+     "ReqLg": "XVII",
+     "ReqNr": "409",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Falhas no funcionamento da Chave Móvel Digital para os portugueses residentes no EUA e Canadá",
+     "ReqDt": "2026-11-17 00:00:00.0",
+     "ReqId": "232044",
+     "ReqLg": "XVII",
+     "ReqNr": "400",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Garantias de integridade e independência da CReSAP",
@@ -5976,7 +6004,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-17",
+    "GpDtFim": "2026-11-18",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

@@ -53,7 +53,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b784d3245794f4755324c57526a597a51744e445934597930344d44417a4c5467784e545a6b4e474e6a4e4446694e69356b62324e34&fich=913a28e6-dcc4-468c-8003-8156d4cc41b6.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-04-21",
@@ -103,6 +108,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributo - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=826"
+      },
+      {
+       "DataDocumento": "2026-05-15",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Conselho Superior da Magistratura",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f444d334f574a6c59575974596a49794e4330304d7a55774c5467784d7a4d745a5451304d3249775a5459774f5755314c6e426b5a673d3d&fich=8379beaf-b224-4350-8133-e443b0e609e5.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

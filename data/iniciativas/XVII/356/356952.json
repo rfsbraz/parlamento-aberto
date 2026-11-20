@@ -73,7 +73,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45334e7a45784d7a67304c5451324f546b744e4441334e4330344d574e684c54646b4f47566d4d574d354d3249355a5335775a47593d&fich=17711384-4699-4074-81ca-7d8ef1c93b9e.pdf&Inline=true",
+     "anexoNome": "Despacho 210-XVII do PAR"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-06-24",
@@ -3579,7 +3584,7 @@
  ],
  "IniId": "356952",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63354d6a49344e3259784c546c6c5a4467744e444d334f533169595441784c544d784e47466b5a544d354d6d59334d6935775a47593d&fich=792287f1-9ed8-4379-ba01-314ade392f72.pdf&Inline=true",
  "IniNr": "1084",
  "IniObs": null,
  "IniSel": "1",

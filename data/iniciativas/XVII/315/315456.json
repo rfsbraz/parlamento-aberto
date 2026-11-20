@@ -97,7 +97,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a64684f44466c4d4451784c54566c593259744e47566b4e7931694d325a694c544d314f5445795a6a6b77596a526d5969356b62324e34&fich=7a81e041-5ecf-4ed7-b3fb-35912f90b4fb.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-08-27",
@@ -142,6 +147,18 @@
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
      "Documentos": [
+      {
+       "DataDocumento": "2025-09-18",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6d51304f4449775a6d49744d7a63334f4330304f57557a4c546c68593255744f4467344e3251354d446b355a6d4d794c6e426b5a673d3d&fich=2d4820fb-3778-49e3-9ace-8887d9099fc2.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-23",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório CEC",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f54426c4d4751304d5451745a475a6a4e693030597a67324c546868597a45744d44517a5a4445315a574e6c5a4442694c6e426b5a673d3d&fich=90e0d414-dfc6-4c86-8ac1-043d15eced0b.pdf&Inline=true"
+      },
       {
        "DataDocumento": "2025-08-28",
        "TipoDocumento": "Link",

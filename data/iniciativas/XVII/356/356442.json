@@ -1836,7 +1836,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59794e7a59354d6a51344c545a6b4d3251744e4441794e7930345a6a646a4c546b354d474a684d4755785a4752694f5335775a47593d&fich=62769248-6d3d-4027-8f7c-990ba0e1ddb9.pdf&Inline=true",
+     "anexoNome": "Requerimento PSD"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-05-15",

@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3252694e6d59305a44597a4c5468694d4441744e4759794d533168593259774c575a684f54686c4d6a41794d7a4e6c4d6935775a47593d&fich=db6f4d63-8b00-4f21-acf0-fa98e20233e2.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PSD",
@@ -1201,7 +1206,20 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-02-19",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório de Votações",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939694d574d314f4449334f433169595455304c5451324e474d744f5755344e793077596a466d4d3251304d474a694d7a55756347526d&fich=b1c58278-ba54-464c-9e87-0b1f3d40bb35.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-19",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d4d6a6c6b4e5459324d69316d4e4749354c54517a4d5455744f4752684e79316a4f5441344e475532596a6b7a596a45756347526d&fich=f29d5662-f4b9-4315-8da7-c9084e6b93b1.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8460",
      "Legislatura": null,
@@ -1299,7 +1317,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3252694f4751344d5749784c544e6c4f5751744e47466a4e6931684e3251314c5759304d7a457a4f4455324d5449324e53356b62324e34&fich=db8d81b1-3e9d-4ac6-a7d5-f43138561265.docx&Inline=true",
+     "anexoNome": "Informação de Redação Final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a68684d6a426d4f5463784c5751344f544d744e446b77597930344e446b304c5459774d7a5269595468694f475a6b4d53356b62324e34&fich=8a20f971-d893-490c-8494-6034ba8b8fd1.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -1512,7 +1539,7 @@
  ],
  "IniId": "315362",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d7a4e5451314e6d5a6d4c5745304e6d55744e474d785a5331694e544d354c544d354f446c6b5a474e6c59324e6c4f53356b62324e34&fich=335456ff-a46e-4c1e-b539-3989ddcecce9.docx&Inline=true",
  "IniNr": "125",
  "IniObs": null,
  "IniSel": "1",

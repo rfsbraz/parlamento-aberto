@@ -1,7 +1,12 @@
 {
  "DataFimleg": null,
  "DataInicioleg": "2026-09-15",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59774e546c6b4d7a67334c544e6c5a6d51744e47597a4d6930344d44566d4c574a6c4d444e685a44466d4e474a684f5335775a47593d&fich=6059d387-3efd-4f32-805f-be03ad1f4ba9.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PS",
@@ -146,6 +151,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributo - Consulta Pública ",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=1065"
+      },
+      {
+       "DataDocumento": "2026-11-19",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Confederação do Desporto de Portugal",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a51355a5759344d6a45744e54426a4e7930304d54677a4c5745324f5751744f54417a5a5468695a5463794d444d354c6e426b5a673d3d&fich=b49ef821-50c7-4183-a69d-903e8be72039.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -188,7 +199,7 @@
  ],
  "IniId": "377371",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b794d6a686d5a4463304c574a6c4f4449744e474d794d4330344e4464684c5445325a6a55324e7a59324e6d5a6a4f43356b62324e34&fich=9228fd74-be82-4c20-847a-16f567666fc8.docx&Inline=true",
  "IniNr": "813",
  "IniObs": null,
  "IniSel": "2",

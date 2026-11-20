@@ -2125,6 +2125,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Gravação da discussão e votação na especialidade (a partir do minuto 09:57)",
        "URL": "https://media.parlamento.pt/site/XVIILEG/SL1/COM/08_CEC/CEC_20260602.mp3"
+      },
+      {
+       "DataDocumento": "2026-06-02",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a49794f474530593259745a4449794d693030596a63344c546c684d5749744e4749795a475135596d55304d57526a4c6e426b5a673d3d&fich=b228a4cf-d222-4b78-9a1b-4b2dd9be41dc.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-02",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório de discussão e votação na especialidade",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596d59305a4445794d4459744d32493359533030593245784c5749334e324d74596a4e694d475a695a6d55304d32497a4c6e426b5a673d3d&fich=bf4d1206-3b7a-4ca1-b77c-b3b0fbfe43b3.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -2232,7 +2244,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d324e4467334d47466c4c5468684f474d744e4452695a4330344e446b334c57466a4e7a63304d444534597a63304d43356b62324e34&fich=364870ae-8a8c-44bd-8497-ac774018c740.docx&Inline=true",
+     "anexoNome": "Sugestão de redação final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -2253,7 +2270,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-06-24",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e5455324d474d7a5a444d744d7a4d79596930304d545a6d4c5745784e6d59745a54566a4d6d466c4d4751784d6a6b324c6e426b5a673d3d&fich=5560c3d3-332b-416f-a16f-e5c2ae0d1296.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8454",
      "Legislatura": null,
@@ -2387,7 +2411,7 @@
  ],
  "IniId": "346013",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59354d7a417959574a684c544531595459744e444d304e4330344d7a49314c574a6d4f544a6c4e4459334d44646d5a69356b62324e34&fich=69302aba-15a6-4344-8325-bf92e46707ff.docx&Inline=true",
  "IniNr": "502",
  "IniObs": null,
  "IniSel": "1",

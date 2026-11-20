@@ -92,7 +92,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-09-16",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação - Súmula da discussão em comissão",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a41774d6d55324f4745744d6a4a6c597930305a6a49354c546c6a4d5455744e544d345a6a56684d7a49304f47526c4c6e426b5a673d3d&fich=b002e68a-22ec-4f29-9c15-538f5a3248de.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -164,7 +171,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45774f4759784d6d51774c544d794d4455744e475a6c4e4331684f57517a4c574a6d595467304d4755345a6a466a597935775a47593d&fich=108f12d0-3205-4fe4-a9d3-bfa840e8f1cc.pdf&Inline=true",
+     "anexoNome": "Requerimento PAN"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-09-18",
@@ -283,7 +295,7 @@
  ],
  "IniId": "356962",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249354f4759314e4755784c5449344e3245744e4451314d6930354f474a6a4c544a6b4e6a557a5a47466c5a44517a5a43356b62324e34&fich=b98f54e1-287a-4452-98bc-2d653daed43d.docx&Inline=true",
  "IniNr": "1091",
  "IniObs": null,
  "IniSel": "1",

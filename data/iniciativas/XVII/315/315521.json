@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5a6d4e7a67774e546b7a4c5459354e5451744e475531596930344f444a684c5441784f54413559544578597a4e6b4d5335775a47593d&fich=6f780593-6954-4e5b-882a-01909a11c3d1.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "CH",
@@ -343,7 +348,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45784e6d4577596a59324c5451784e5755744e47493059533034595459784c57526c4f4745355a4755344d474e6c5979356b62324e34&fich=116a0b66-415e-4b4a-8a61-de8a9de80cec.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-09-10",
@@ -393,6 +403,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta pública - recolha de contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=405"
+      },
+      {
+       "DataDocumento": "2026-03-12",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596d566d5a57457a4f5449745a5467334d6930304f54557a4c546c6d4f4441744f444669593259795954526b5a574d334c6e426b5a673d3d&fich=befea392-e872-4953-9f80-81bcf2a4dec7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-12",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a67774d5463324d4445744d5441335a6930305a5751304c546c6b4e3255745957566d4d4745785a546377596d5a6a4c6e426b5a673d3d&fich=68017601-107f-4ed4-9d7e-aef0a1e70bfc.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -1649,7 +1671,7 @@
  ],
  "IniId": "315521",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325a6d4f574d31595751344c5449794e3251744e4449344f5330354e6a55794c574d335a546b784e6a6c694e5456684e79356b62324e34&fich=ff9c5ad8-227d-4289-9652-c7e9169b55a7.docx&Inline=true",
  "IniNr": "177",
  "IniObs": null,
  "IniSel": "1",

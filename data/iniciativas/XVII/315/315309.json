@@ -122,7 +122,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32497a596a5669595751304c544931596d4d744e4467774d6930354d6a63784c57557a5932466a4f4752684d6d517a4d43356b62324e34&fich=b3b5bad4-25bc-4802-9271-e3cac8da2d30.docx&Inline=true",
+     "anexoNome": "Nota de Admissiblidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-07-09",
@@ -195,6 +200,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=319"
+      },
+      {
+       "DataDocumento": "2025-08-22",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533833513046515a584d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774d4749785a5459345a6930784f4441314c5451344e574974596d526b5a5330795957593559324d304e6a646a4d7a4d756347526d&fich=00b1e68f-1805-485b-bdde-2af9cc467c33.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-09",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório da Comissão de Agricultura e Pescas",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533833513046515a584d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938334d7a45774d474d344e433168596d55344c5451325a6a4574596d526d5a69316b5a444d324d445a6a4f546c6d4d6a6b756347526d&fich=73100c84-abe8-46f1-bdff-dd3606c99f29.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

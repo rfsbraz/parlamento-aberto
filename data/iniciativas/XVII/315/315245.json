@@ -122,7 +122,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325934595451784d57466c4c5459344f5467744e446b30596931684e444d784c545530596d4a6d4d7a566a5a6a557a4e69356b62324e34&fich=f8a411ae-6898-494b-a431-54bbf35cf536.docx&Inline=true",
+     "anexoNome": "Nota de Admissiblidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-07-09",
@@ -195,6 +200,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=275"
+      },
+      {
+       "DataDocumento": "2025-11-21",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396b5954566c4e57597a4d43316959575a6c4c5451314d446b744f446334597930334d7a566d5a47593359324e6b4e4751756347526d&fich=da5e5f30-bafe-4509-878c-735fdf7ccd4d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-18",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório CIMH",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279383459544d304d7a67325a533035596a466a4c5451324e474d744f5441334d53316b4e6d4a6a5a544d354d4468684f5755756347526d&fich=8a34386e-9b1c-464c-9071-d6bce3908a9e.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a56694d5755784f4745304c5745794e474d744e445a6a5a5330344d324d354c5455304e4745304e6a6b33595745334d6935775a47593d&fich=5b1e18a4-a24c-46ce-83c9-544a4697aa72.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "L",
@@ -117,7 +122,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49345a44466d4e6a67354c574d795a6d45744e474d344d7930354e5759774c54686c4e4459774d446c6b4d7a49334d53356b62324e34&fich=28d1f689-c2fa-4c83-95f0-8e46009d3271.docx&Inline=true",
+     "anexoNome": "Nota de Admissiblidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-07-09",
@@ -2356,7 +2366,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55304f4459305a6d49334c544d344e5451744e4463784e4330345a544e6a4c5751354d5749304d7a49345a6d56684d4335775a47593d&fich=54864fb7-3854-4714-8e3c-d91b4328fea0.pdf&Inline=true",
+     "anexoNome": "Requerimento do L"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2025-07-11",
@@ -2496,7 +2511,104 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-09-25",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Ordem das Médicos",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a4d575a6b4e5745794f53307a59546b304c54526a5a6a6b744f5751334d69316a4e6d45314e5749314d444d32595749756347526d&fich=31fd5a29-3a94-4cf9-9d72-c6a55b5036ab.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-18",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer- Associação Portuguesa de Mulheres Juristas (18-11-2025)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a4d7a4d795a6a513159693079593255344c54526a596a4974595463334e7930774d44646b5a6a63324d6d4577595445756347526d&fich=c332f45b-2ce8-4cb2-a777-007df762a0a1.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-19",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Observatório de Violência Obstétrica em Portugal (OVO PT)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a4e6a6c69597a686c4d7930794f44566b4c54526d4d6a4d744f546c6a4f4330314d7a59354f4759794d7a646a4d5463756347526d&fich=369bc8e3-285d-4f23-99c8-53698f237c17.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-28",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer e Contributo - Associação Portuguesa dos Enfermeiros Obstetras (APEO)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938794e54637a59544579596931694e444a6a4c5451775a5759744f5755345a6930305a544e6d4d57466c4f446731596a55756347526d&fich=2573a12b-b42c-40ef-9e8f-4e3f1ae885b5.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-12",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Sociedade Portuguesa de Sexologia Clínica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938344e4441334e7a466b4d4330324d6d45304c5451344f546b74596a457a5a693168596d4931596d526d593259304e7a4d756347526d&fich=840771d0-62a4-4899-b13f-abb5bdfcf473.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-07",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Ordem dos Enfermeiros",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684e7a51784d4446684d5330785a6d4d354c5451324e6a41745957566b4d433168596a4e684d6a51344e7a6730593249756347526d&fich=a74101a1-1fc9-4660-aed0-ab3a248784cb.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-21",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Plataforma Portuguesa para os Direitos das Mulheres",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684d6a646a4f5445784d5330314f546c6d4c54526b5a544174596d45305969307a595749785a4745784e7a466c5a6a4d756347526d&fich=a27c9111-599f-4de0-ba4b-3ab1da171ef3.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-29",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Doular ou Associação Portuguesa de Doulas",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938304d4463345a6d51784e43307a5a5755324c54526d4e5463744f546b355a69316d4d6a49335a544d795957497a4d4441756347526d&fich=4078fd14-3ee6-4f57-999f-f227e32ab300.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-13",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer 2 - Associação Portuguesa de Mulheres Juristas",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938795a545532597a6333595330344d7a67784c54526d4f475974595759784e6930305a4451794d7a67784e6d4e6a596a49756347526d&fich=2e56c77a-8381-4f8f-af16-4d423816ccb2.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-15",
+       "TipoDocumento": "Texto de Substituição",
+       "TituloDocumento": "Texto de substituição",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938775a4755315a5467334d5330784e5459334c54526a5a44497459574579596930314e7a5a6c597a45335a6d526c5a6d59756347526d&fich=0de5e871-1567-4cd2-aa2b-576ec17fdeff.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-21",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório de discussão e votação",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938354d6a5a6c4d6a51334d4330305932517a4c545130596a51744f5445794f5330335a44526a4e44677a4d7a686a4e6a63756347526d&fich=926e2470-4cd3-44b4-9129-7d4c48338c67.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-15",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Propostas de alteração - GP PCP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938334d444668596a59774d53303159324d7a4c5451345a4445744f475a6c4e79316c4d544a69595449344e6a52685a5463756347526d&fich=701ab601-5cc3-48d1-8fe7-e12ba2864ae7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-15",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Propostas de alteração - GP IL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938784d325a69596d59315953316a5a6a63324c5452684d444174595749344f4330304f54686959574d324d47526b4e544d756347526d&fich=13fbbf5a-cf76-4a00-ab88-498bac60dd53.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-15",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Propostas de alteração - GP PS",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a4d3252694f57566d4e79307a4d574d344c54517a4d6a6b7459575177596930784d3249324d5751325957466c4e5745756347526d&fich=c3db9ef7-31c8-4329-ad0b-13b61d6aae5a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-15",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Propostas de alteração - GP L",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938305a6d4d7a4e5759324e693078595745354c5451795a6d51744f5759314d6930304d546b30597a4e68595451774d474d756347526d&fich=4fc35f66-1aa9-42fd-9f52-4194c3aa400c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-15",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Propostas de alteração - GP PSD-CDS-PP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a4e6d5a694e6a55774e43316c5a6a41324c5451334f446774596d59334d53316a59544534596a457a5a6a59345a574d756347526d&fich=36fb6504-ef06-4788-bf71-ca18b13f68ec.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8455",
      "Legislatura": null,
@@ -3598,7 +3710,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59314f54677a4d54637a4c5455774e474d744e444531595330344d7a526c4c5756684e7a63304e3249345a5745334d43356b62324e34&fich=65983173-504c-415a-834e-ea7747b8ea70.docx&Inline=true",
+     "anexoNome": "Informação de Redação Final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4a6b4d544d784e324e6d4c574a6d4e6a59744e4459785a533034596a59794c5751324e7a426b5954566d4d7a59305979356b62324e34&fich=2d1317cf-bf66-461e-8b62-d670da5f364c.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -3805,7 +3926,7 @@
  ],
  "IniId": "315307",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325577597a51324d4745784c57457a4f5759744e445a6a596931694d446c6a4c546c6a4f54646a4e446c685a6a5a6b4d7935775a47593d&fich=e0c460a1-a39f-46cb-b09c-9c97c49af6d3.pdf&Inline=true",
  "IniNr": "106",
  "IniObs": null,
  "IniSel": "1",

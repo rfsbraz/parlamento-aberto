@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45794e5451794f5445794c5451785a4467744e444d774d6931684e475a6b4c544e6d4f475a6a4e32457a4d6a41314f4335775a47593d&fich=12542912-41d8-4302-a4fd-3f8fc7a32058.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PAN",
@@ -92,7 +97,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a51314e7a59334e5759344c5441344d7a4d744e446c6b5a6930354e6a4e6a4c54566b4f5463794e5449344e47526d5979356b62324e34&fich=457675f8-0833-49df-963c-5d9725284dfc.docx&Inline=true",
+     "anexoNome": "Nota de Admissiblidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-07-01",
@@ -1575,6 +1585,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributo - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=334"
+      },
+      {
+       "DataDocumento": "2025-09-30",
+       "TipoDocumento": "Requerimento",
+       "TituloDocumento": "Despacho PAR do pedido de redistribuição",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314e575a694d6d55304d6930794e57497a4c5451774d445974596d4a684d4331695a6d5a6c4f5449325a4749314d5745756347526d&fich=55fb2e42-25b3-4006-bba0-bffe926db51a.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -1729,7 +1745,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d305a445668596d51344c5749304e5749744e4751784e6931694d7a41324c544a6b4f54686a5a5441305a6a45314d7935775a47593d&fich=34d5abd8-b45b-4d16-b306-2d98ce04f153.pdf&Inline=true",
+     "anexoNome": "Ofício de redistribuição"
+    }
+   ],
    "CodigoFase": "270",
    "Comissao": [
     {
@@ -2720,7 +2741,7 @@
  ],
  "IniId": "315168",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245794d47466d4d5467334c5455355a5467744e446b345a4330354e544d314c546335595745344e4463314f546b784d69356b62324e34&fich=a20af187-59e8-498d-9535-79aa84759912.docx&Inline=true",
  "IniNr": "48",
  "IniObs": null,
  "IniSel": "1",

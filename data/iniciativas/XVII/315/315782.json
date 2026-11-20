@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d324e446b324f5749324c544d7a4e446b744e474d775a5330354f5463794c5745774d324e6c5a544e6d5a6a417a4e69356b62324e34&fich=364969b6-3349-4c0e-9972-a03cee3ff036.docx&Inline=true",
+   "anexoNome": "Texto da iniciativa - versão 1, de 27-11-2025"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "CH",
@@ -387,7 +392,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-12-16",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação da discussão",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d3259344f4759335a4751744d324d354f533030596d5a694c57466a595751744f4746684d446b334d6a52694f4745324c6d52765933673d&fich=3f88f7dd-3c99-4bfb-acad-8aa09724b8a6.docx&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8458",
      "Legislatura": null,
@@ -547,7 +559,20 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-01-06",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório da votação na especialidade",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6d45305a6a55784e3245744e4449304d7930305a6a41794c57497a5a446b74597a5669597a5a6c4e7a49334d6a6c684c6e426b5a673d3d&fich=6a4f517a-4243-4f02-b3d9-c5bc6e72729a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-01-06",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f54566a5957526a4d545974596a51794d5330304e5467774c546c6b593251745954426b4e5759794d4746695a6d4a6d4c6e426b5a673d3d&fich=95cadc16-b421-4580-9dcd-a0d5f20abfbf.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8458",
      "Legislatura": null,
@@ -767,7 +792,7 @@
  ],
  "IniId": "315782",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49324e325a6d596a5a6b4c5455344e7a51744e4745345a6930354e6d49774c544e684d5467315a4467314d575a685a53356b62324e34&fich=267ffb6d-5874-4a8f-96b0-3a185d851fae.docx&Inline=true",
  "IniNr": "373",
  "IniObs": null,
  "IniSel": "1",

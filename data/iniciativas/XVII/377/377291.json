@@ -182,7 +182,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-21",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação – Discussão em Comissão",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e546c695a4449354d6d4d745a5759324f433030597a526a4c5749334e6a63745a5449784e445a6b4d6d497a59544e6b4c6e426b5a673d3d&fich=59bd292c-ef68-4c4c-b767-e2146d2b3a3d.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8456",
      "Legislatura": null,
@@ -259,7 +266,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32566a4d4451345a4755324c57526c4d6a4d744e47566d5a69316959324d7a4c5467305a44566a5a6a67315a5455355a69356b62324e34&fich=ec048de6-de23-4eff-bcc3-84d5cf85e59f.docx&Inline=true",
+     "anexoNome": "Sugestão de redação final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -321,7 +333,7 @@
  ],
  "IniId": "377291",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245324e4445794e6a55314c5751785a6a41744e444d784d4331684e444d304c574977595449774f54417a596a4d344e53356b62324e34&fich=a6412655-d1f0-4310-a434-b0a20903b385.docx&Inline=true",
  "IniNr": "1282",
  "IniObs": null,
  "IniSel": "2",

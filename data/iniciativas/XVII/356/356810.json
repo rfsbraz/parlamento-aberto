@@ -144,7 +144,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b335a6d5133596a42694c54466a4e7a4d744e4456685a6930354e5452684c5755784d6a6c6b4e4445334f5451325a6935775a47593d&fich=97fd7b0b-1c73-45af-954a-e129d417946f.pdf&Inline=true",
+     "anexoNome": "Despacho n.º 197-XVII do PAR"
+    }
+   ],
    "CodigoFase": "180",
    "Comissao": [
     {
@@ -171,6 +176,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos de Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=900"
+      },
+      {
+       "DataDocumento": "2026-06-15",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d5a57457a4d4449334f4330774e6a45304c5451795a574d74596d5931597930794e444d78596d597a4e6d49785a6a59756347526d&fich=fea30278-0614-42ec-bf5c-2431bf36b1f6.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

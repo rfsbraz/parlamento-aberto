@@ -1,7 +1,12 @@
 {
  "DataFimleg": null,
  "DataInicioleg": "2026-09-15",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4a684e6d526d4d3246684c544d314e7a6b744e4749334d7930345a6a4d774c5446684d7a49774e5759774d6a686a4e6935775a47593d&fich=2a6df3aa-3579-4b73-8f30-1a3205f028c6.pdf&Inline=true",
+   "anexoNome": "A. I. G"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "L",
@@ -73,7 +78,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a566b595441354d444a684c574d784d4449744e444d354e4330354f5449304c5446684f4451794d6a41795a4745774e79356b62324e34&fich=5da0902a-c102-4394-9924-1a842202da07.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-09-23",
@@ -119,10 +129,28 @@
      "DistribuicaoSubcomissao": null,
      "Documentos": [
       {
+       "DataDocumento": "2026-11-06",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo - ANAFRE",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314e54646a4e5464694d433077596a6b354c5451784f5449744f5441355a69316b4f5449335a6a49335a6a517a4e444d756347526d&fich=557c57b0-0b99-4192-909f-d927f27f4343.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-05",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo - ANMP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a4d446b334d47457a4e69316b5a4446684c54526d4e6d55745954686a4d433078596d517a5a4442684e575577593259756347526d&fich=30970a36-dd1a-4f6e-a8c0-1bd3d0a5e0cf.pdf&Inline=true"
+      },
+      {
        "DataDocumento": "2026-09-23",
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos  - Consulta Pública",
        "URL": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=377246"
+      },
+      {
+       "DataDocumento": "2026-10-23",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793969596a426b4f4756684d43316c4e444a6b4c54517a4e474d74595441304e4330795a5455315a6d566a596a49354e574d756347526d&fich=bb0d8ea0-e42d-434c-a044-2e55fecb295c.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -188,7 +216,7 @@
  ],
  "IniId": "377246",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a68684d5456684e6a466c4c5455314e6a63744e475135595330354e4751324c57566b4e6a63784f5467785a5451325a4335775a47593d&fich=8a15a61e-5567-4d9a-94d6-ed671981e46d.pdf&Inline=true",
  "IniNr": "770",
  "IniObs": null,
  "IniSel": "2",

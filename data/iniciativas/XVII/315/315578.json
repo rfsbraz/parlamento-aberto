@@ -58,7 +58,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249314e44426b4d4745314c546b78596d51744e4751355a5331695a6d5a694c54426b596d4a6d4e7a42684e4449775953356b62324e34&fich=b540d0a5-91bd-4d9e-bffb-0dbbf70a420a.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-09-18",
@@ -2632,7 +2637,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251324d7a56695a44497a4c574d7a4e444d744e4459794d6930355a475a6a4c5751784e7a63355954466b4e6a63784d4335775a47593d&fich=d635bd23-c343-4622-9dfc-d1779a1d6710.pdf&Inline=true",
+     "anexoNome": "Requerimento PS"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2025-09-19",
@@ -2733,7 +2743,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-01-26",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Prorrogaçao do prazo para apreciação",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533833513046515a584d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c4e5455774d7a59775953316a4f545a6c4c54517959544574596a517a5a533030596a55354e7a4178597a6b324e5759756347526d&fich=e550360a-c96e-42a1-b43e-4b59701c965f.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8453",
      "Legislatura": null,
@@ -2836,7 +2853,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251344e6a67344e475a6d4c54686b4e5751744e44517a5a5331684d546b794c5449344e44566c4e574d354f574d355a4335775a47593d&fich=d86884ff-8d5d-443e-a192-2845e5c99c9d.pdf&Inline=true",
+     "anexoNome": "Despacho do PAR"
+    }
+   ],
    "CodigoFase": "240",
    "Comissao": [
     {
@@ -2898,7 +2920,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a42694e545178597a67784c574a6b4d4467744e4467794d5330344f445a684c574d794e4745774e6a63354d5455304d4335775a47593d&fich=0b541c81-bd08-4821-886a-c24a06791540.pdf&Inline=true",
+     "anexoNome": "Requerimento 7.ª Comissão"
+    }
+   ],
    "CodigoFase": "225",
    "Comissao": null,
    "DataFase": "2026-06-17",

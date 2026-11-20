@@ -1,7 +1,20 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249324d5451335a5442694c54457a59544d744e47566b4e4331684d6d4d774c54426b596a41314f5749334e4755774e4335775a47593d&fich=b6147e0b-13a3-4ed4-a2c0-0db059b74e04.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255324f546b7a4f54646c4c5441784d7a49744e44646a596931694e7a6b774c5755774d546b7a5a6d5a684d6a4d7a4d43356b62324e34&fich=e699397e-0132-47cb-b790-e0193ffa2330.docx&Inline=true",
+   "anexoNome": "Texto da iniciativa - versão 1, de 13-03-2026"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d30597a63314e7a6c6b4c5441784e6d59744e4441344f5331695a6a46694c5455314d6a59794f4459784d324e6b4d79356b62324e34&fich=34c7579d-016f-4089-bf1b-552628613cd3.docx&Inline=true",
+   "anexoNome": "Texto da iniciativa - versão 2- de 18-03-2026"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PCP",
@@ -81,7 +94,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a686b597a6c6a4f5467774c546b7a4d6a59744e4441354e5330344d54426c4c57526c593245354d6d55315a5451344d53356b62324e34&fich=8dc9c980-9326-4095-810e-deca92e5e481.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-03-18",
@@ -131,6 +149,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Link dos Contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=867"
+      },
+      {
+       "DataDocumento": "2026-05-18",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f5459334d7a51324d574d744d5751324e5330304d446b324c5745794d546774597a6869596a63354d4459344e57457a4c6d52765933673d&fich=9673461c-1d65-4096-a218-c8bb790685a3.docx&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-26",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d446b774d446b7a4d6a6b744d6a5a6b597930304d474d7a4c5745315a5467744d544e6a4d5463335a5459334e3259794c6e426b5a673d3d&fich=09009329-26dc-40c3-a5e8-13c177e677f2.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -8127,7 +8157,7 @@
  ],
  "IniId": "356357",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55325a6a686c4e5759784c5451354d474d744e44457a4d7930344d6d4d324c546c6b4e7a646d4d544a6c4d6a63794d79356b62324e34&fich=56f8e5f1-490c-4133-82c6-9d77f12e2723.docx&Inline=true",
  "IniNr": "514",
  "IniObs": null,
  "IniSel": "1",

@@ -1,7 +1,12 @@
 {
  "DataFimleg": null,
  "DataInicioleg": "2026-09-15",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a52694e6a4a69596d45774c574d774e3249744e4459774e533034597a6b794c5751354e44686a597a4130597a4a694e4335775a47593d&fich=4b62bba0-c07b-4605-8c92-d948cc04c2b4.pdf&Inline=true",
+   "anexoNome": "A. I. G"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "BE",
@@ -48,7 +53,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55784e7a466c4d7a4d304c545a6d5a5449744e474533596931684e7a6b304c544e6c4d6d5530597a55314e6d5a6a4d53356b62324e34&fich=5171e334-6fe2-4a7b-a794-3e2e4c556fc1.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-09-23",
@@ -338,7 +348,7 @@
  ],
  "IniId": "377237",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325a684f575934595749334c574d7a593259744e47517a4d79303459324d304c574d334d54426d597a646d59545a685979356b62324e34&fich=fa9f8ab7-c3cf-4d33-8cc4-c710fc7fa6ac.docx&Inline=true",
  "IniNr": "767",
  "IniObs": null,
  "IniSel": "2",

@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324578596a55314e54466d4c5755334e7a41744e444a6b4e5331694d47466c4c5755774d546c6c597a4d314e6a51334e43356b62324e34&fich=a1b5551f-e770-42d5-b0ae-e019ec356474.docx&Inline=true",
+   "anexoNome": "Texto da iniciativa – versão 1, de 2025-07-24"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49304e5745314e5445784c5449304d5451744e4467354e5330345a5452684c5468685a6a566b4e574578596a63775a4335775a47593d&fich=245a5511-2414-4895-8e4a-8af5d5a1b70d.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PCP",
@@ -102,7 +111,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a426b59544e6a4f444a6c4c5749344f546b744e444a6c4d6931684e47566b4c546b314d32566d4e6a4d344d6a677a4d69356b62324e34&fich=0da3c82e-b899-42e2-a4ed-953ef6382832.docx&Inline=true",
+     "anexoNome": "Nota de Admissiblidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-07-25",
@@ -147,6 +161,18 @@
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
      "Documentos": [
+      {
+       "DataDocumento": "2025-09-18",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f47466d4d4441795a5459744f574e6d595330304f444d774c546b79596d45744e57497a4e57526c596a426b4d6d5a684c6e426b5a673d3d&fich=8af002e6-9cfa-4830-92ba-5b35deb0d2fa.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-10-14",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório CEC",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6d5932593249305a574d744d57526d4d533030593255784c57497a4e7a45745a4441344f445a6d4d6d4a6b59574d784c6e426b5a673d3d&fich=ff6cb4ec-1df1-4ce1-b371-d0886f2bdac1.pdf&Inline=true"
+      },
       {
        "DataDocumento": "2025-07-25",
        "TipoDocumento": "Link",
@@ -2703,7 +2729,7 @@
  ],
  "IniId": "315415",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32526d5a6a4a6b4e3251784c545a6a595751744e446b334f5331694e6d55314c54646859546777593255354d57526c4f53356b62324e34&fich=dff2d7d1-6cad-4979-b6e5-7aa80ce91de9.docx&Inline=true",
  "IniNr": "143",
  "IniObs": null,
  "IniSel": "1",

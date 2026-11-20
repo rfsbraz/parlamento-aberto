@@ -1927,7 +1927,12 @@
   {
    "ActId": "82602",
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4a6b4d4755785a6a5a684c5759345a5749744e4759794d4330344d4459774c5441314d5467314e4459794d3255334f4335775a47593d&fich=2d0e1f6a-f8eb-4f20-8060-051854623e78.pdf&Inline=true",
+     "anexoNome": "Requerimento L"
+    }
+   ],
    "CodigoFase": "280",
    "Comissao": null,
    "DataFase": "2026-07-17",
@@ -2533,7 +2538,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a457a4d44466b4d6a67304c5468685a5751744e446c684e433169596a59334c544a6b4e6a4535595751334d7a67305a6935775a47593d&fich=1301d284-8aed-49a4-bb67-2d619ad7384f.pdf&Inline=true",
+     "anexoNome": "Resultado de votações"
+    }
+   ],
    "CodigoFase": "310",
    "Comissao": null,
    "DataFase": "2026-07-17",
@@ -2628,7 +2638,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325535595455334d4459314c5451324e6a59744e44526c59533035596a67304c57566d59546b324d6a5a684e445a6b4e69356b62324e34&fich=e9a57065-4666-44ea-9b84-efa9626a46d6.docx&Inline=true",
+     "anexoNome": "Informação de Redação Final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5a685a446b355a544d334c546b324d5449744e446b334d7930354f57497a4c57566d4f444977596a4d794e6a41315979356b62324e34&fich=6ad99e37-9612-4973-99b3-ef820b32605c.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -2649,7 +2668,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-23",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a5749314e6a55774d3255744d7a59314e5330304d7a64684c574a6d595449744e7a4e6a5a4463795a4751314e324d304c6e426b5a673d3d&fich=eb56503e-3655-437a-bfa2-73cd72dd57c4.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,

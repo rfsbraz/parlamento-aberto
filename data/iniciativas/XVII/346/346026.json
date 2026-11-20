@@ -437,7 +437,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a457a5a546c6b5a6a63774c5755775a6a6b744e444e685a4330355a6a49774c546468595449305a5459345a5455795a4335775a47593d&fich=13e9df70-e0f9-43ad-9f20-7aa24e68e52d.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "173",
    "Comissao": null,
    "DataFase": "2026-02-16",

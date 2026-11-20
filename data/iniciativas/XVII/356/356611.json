@@ -502,7 +502,11 @@
        "faseSessao": "P",
        "horaInicio": "15:03",
        "horaTermo": "18:32",
-       "linkVideo": null,
+       "linkVideo": [
+        {
+         "link": "https://av.parlamento.pt/videos/Plenary/17/2/8/51"
+        }
+       ],
        "membrosGoverno": {
         "cargo": null,
         "governo": null,
@@ -551,7 +555,11 @@
        "faseSessao": "P",
        "horaInicio": "15:03",
        "horaTermo": "18:32",
-       "linkVideo": null,
+       "linkVideo": [
+        {
+         "link": "https://av.parlamento.pt/videos/Plenary/17/2/8/52"
+        }
+       ],
        "membrosGoverno": {
         "cargo": null,
         "governo": null,
@@ -600,7 +608,11 @@
        "faseSessao": "P",
        "horaInicio": "15:03",
        "horaTermo": "18:32",
-       "linkVideo": null,
+       "linkVideo": [
+        {
+         "link": "https://av.parlamento.pt/videos/Plenary/17/2/8/53"
+        }
+       ],
        "membrosGoverno": {
         "cargo": null,
         "governo": null,
@@ -1629,6 +1641,29 @@
    "RecursoDeputados": null,
    "RecursoGP": null,
    "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "580",
+   "Comissao": null,
+   "DataFase": "2026-11-18",
+   "EvtId": "32",
+   "Fase": "Lei (Publicação DR)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1754556",
+   "OevTextId": "136059",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "136059",
    "Votacao": null
   }
  ],

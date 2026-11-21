@@ -4109,7 +4109,16 @@
      "TevTp": "Conferência"
     }
    ],
-   "Gpa": null,
+   "Gpa": [
+    {
+     "CgaCrg": "Membro",
+     "CgaDtfim": null,
+     "CgaDtini": "2025-12-19 00:00:00.0",
+     "GplId": "608",
+     "GplNo": "Portugal - Finlândia",
+     "GplSelLg": "XVII"
+    }
+   ],
    "Ini": [
     {
      "IniId": "377345",
@@ -4320,12 +4329,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Aveiro",
+     "Data": "2026-01-19",
+     "Estabelecimento": "Escola Básica e Secundária Dr. Serafim Leite",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -4456,7 +4465,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-18",
+    "GpDtFim": "2026-11-20",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

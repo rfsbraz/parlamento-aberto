@@ -2558,14 +2558,6 @@
     {
      "CgaCrg": "Membro",
      "CgaDtfim": null,
-     "CgaDtini": "2025-07-01 00:00:00.0",
-     "GplId": "608",
-     "GplNo": "Portugal - Finlândia",
-     "GplSelLg": "XVII"
-    },
-    {
-     "CgaCrg": "Membro",
-     "CgaDtfim": null,
      "CgaDtini": "2025-12-19 00:00:00.0",
      "GplId": "620",
      "GplNo": "Portugal - Japão",
@@ -2577,6 +2569,14 @@
      "CgaDtini": "2025-12-19 00:00:00.0",
      "GplId": "642",
      "GplNo": "Portugal - Tailândia",
+     "GplSelLg": "XVII"
+    },
+    {
+     "CgaCrg": "Membro",
+     "CgaDtfim": null,
+     "CgaDtini": "2025-12-19 00:00:00.0",
+     "GplId": "608",
+     "GplNo": "Portugal - Finlândia",
      "GplSelLg": "XVII"
     }
    ],
@@ -5984,7 +5984,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-18",
+    "GpDtFim": "2026-11-20",
     "GpDtInicio": "2025-06-03",
     "GpId": 7264.0,
     "GpSigla": "IL"

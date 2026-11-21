@@ -2183,12 +2183,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Setúbal",
+     "Data": "2026-01-12",
+     "Estabelecimento": "Agrupamento de Escolas Maria do Carmo Serrote",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -2326,6 +2326,26 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Assunto: Muito urgente. Atraso na entrega de manuais escolares traduzidos para braille. Desvantagens para os alunos. \n\n",
+     "ReqDt": "2026-11-20 00:00:00.0",
+     "ReqId": "232064",
+     "ReqLg": "XVII",
+     "ReqNr": "419",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Redução da oferta de Alfa Pendular entre Braga e Lisboa e necessidades de reforço da rede ferroviária no distrito de Braga",
+     "ReqDt": "2026-11-20 00:00:00.0",
+     "ReqId": "232056",
+     "ReqLg": "XVII",
+     "ReqNr": "412",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Investimentos previstos nas infraestruturas rodoviárias e ferroviárias do Alentejo até 2028",
@@ -3558,7 +3578,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-18",
+    "GpDtFim": "2026-11-20",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

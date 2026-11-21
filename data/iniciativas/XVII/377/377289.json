@@ -1,12 +1,7 @@
 {
  "DataFimleg": null,
  "DataInicioleg": "2026-09-15",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a526a5a6a68695a44686a4c574932596a55744e444a6d5a5330354d4451344c54677a4f5463795954566b4f4755775a5335775a47593d&fich=4cf8bd8c-b6b5-42fe-9048-83972a5d8e0e.pdf&Inline=true",
-   "anexoNome": "A. I. G"
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": [
   {
    "GP": "JPP",
@@ -76,16 +71,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a67314e57466c4d6a49344c546469596a51744e4441784d6931694d6a686a4c544a6d596d55334d574d31593255345a5335775a47593d&fich=855ae228-7bb4-4012-b28c-2fbe71c5ce8e.pdf&Inline=true",
-     "anexoNome": "Despacho de admissibilidade"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a526c4e6a5132596d46684c5451315a6d4d744e444d794f4330354e6a41314c574d785a54686c4e4746694d4451344e43356b62324e34&fich=4e646baa-45fc-4328-9605-c1e8e4ab0484.docx&Inline=true",
-     "anexoNome": "Nota de admissibilidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-10-02",
@@ -225,6 +211,26 @@
      "pubTp": "D",
      "pubdt": "2026-10-08",
      "supl": null
+    },
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/010/2026-10-10/96?pgs=96-98&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1036171",
+     "obs": null,
+     "pag": [
+      "96-98"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVII",
+     "pubNr": "10",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2026-10-10",
+     "supl": null
     }
    ],
    "RecursoDeputados": null,
@@ -233,7 +239,7 @@
    "Votacao": null
   },
   {
-   "ActId": null,
+   "ActId": "82787",
    "ActividadesConjuntas": null,
    "AnexosFase": null,
    "CodigoFase": "250",
@@ -242,7 +248,72 @@
    "EvtId": "13",
    "Fase": "Votação na generalidade",
    "IniciativasConjuntas": null,
-   "Intervencoesdebates": null,
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2026-10-09",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "8879",
+         "nome": "Pedro Coelho"
+        },
+        {
+         "GP": "PSD",
+         "idCadastro": "6178",
+         "nome": "Paulo Neves"
+        },
+        {
+         "GP": "PSD",
+         "idCadastro": "4221",
+         "nome": "Vânia Jesus"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "09:59",
+       "horaTermo": "14:28",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/010/2026-10-10/96?pgs=96-98&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "505979",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "96-98"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XVII",
+         "pubNr": "10",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2026-10-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Concretiza as prioridades de mobilidade e coesão territorial das Grandes Opções para 2026-2029, estabelecendo metas para a ligação marítima Madeira-continente e para a revisão do mecanismo de continuidade territorial nas viagens aéreas.",
+       "teor": null
+      }
+     ]
+    }
+   ],
    "Links": null,
    "ObsFase": null,
    "OevId": "1753977",
@@ -251,15 +322,15 @@
    "PeticoesConjuntas": null,
    "PublicacaoFase": [
     {
-     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/010/2026-10-10/79?pgs=79&org=PLC",
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/010/2026-10-10/96?pgs=96-98&org=PLC",
      "debateDtReu": null,
      "idAct": null,
      "idDeb": null,
-     "idInt": null,
-     "idPag": "1036090",
+     "idInt": "67567",
+     "idPag": null,
      "obs": null,
      "pag": [
-      "79-79"
+      "96-98"
      ],
      "pagFinalDiarioSupl": null,
      "pubLeg": "XVII",
@@ -292,7 +363,7 @@
  ],
  "IniId": "377289",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a526b5a5752695a546b344c57526c4e7a59744e44526c5a6930355a6a4e6b4c5446684e546c6d4d445a694f47526a5969356b62324e34&fich=4dedbe98-de76-44ef-9f3d-1a59f06b8dcb.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "785",
  "IniObs": null,
  "IniSel": "2",

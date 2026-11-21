@@ -10,19 +10,19 @@
    "DlE": null,
    "DlP": null,
    "Eventos": null,
-   "Gpa": [
-    {
-     "CgaCrg": "Membro",
-     "CgaDtfim": null,
-     "CgaDtini": "2025-07-01 00:00:00.0",
-     "GplId": "608",
-     "GplNo": "Portugal - Finlândia",
-     "GplSelLg": "XVII"
-    }
-   ],
+   "Gpa": null,
    "Ini": null,
    "Intev": null,
-   "ParlamentoJovens": null,
+   "ParlamentoJovens": [
+    {
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
+    }
+   ],
    "Rel": {
     "AutoresPareceresIncImu": null,
     "RelatoresContasPublicas": null,
@@ -41,7 +41,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-18",
+    "GpDtFim": "2026-11-20",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

@@ -2817,7 +2817,16 @@
      "TinDs": "Intervenção"
     }
    ],
-   "ParlamentoJovens": null,
+   "ParlamentoJovens": [
+    {
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
+    }
+   ],
    "Rel": {
     "AutoresPareceresIncImu": null,
     "RelatoresContasPublicas": null,
@@ -2894,6 +2903,26 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Reorganização da Comissão para a Cidadania e a Igualdade de Género (CIG), designação de dirigente para unidade não prevista na orgânica em vigor e futuro da Delegação do Norte",
+     "ReqDt": "2026-11-20 00:00:00.0",
+     "ReqId": "232065",
+     "ReqLg": "XVII",
+     "ReqNr": "420",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Redução da oferta de Alfa Pendular entre Braga e Lisboa e necessidades de reforço da rede ferroviária no distrito de Braga",
+     "ReqDt": "2026-11-20 00:00:00.0",
+     "ReqId": "232056",
+     "ReqLg": "XVII",
+     "ReqNr": "412",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Cumprimento das obrigações de qualidade do serviço postal universal e preparação do futuro da concessão dos CTT",
@@ -3756,7 +3785,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-18",
+    "GpDtFim": "2026-11-20",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

@@ -3915,8 +3915,35 @@
    "DlE": null,
    "DlP": null,
    "Eventos": null,
-   "Gpa": null,
+   "Gpa": [
+    {
+     "CgaCrg": "Membro",
+     "CgaDtfim": null,
+     "CgaDtini": "2025-12-19 00:00:00.0",
+     "GplId": "598",
+     "GplNo": "Portugal - Cazaquistão",
+     "GplSelLg": "XVII"
+    }
+   ],
    "Ini": [
+    {
+     "IniId": "377393",
+     "IniNr": "822",
+     "IniSelLg": "XVII",
+     "IniSelNr": "2",
+     "IniTi": "Alteração da denominação da freguesia de «Dornelas», no município de Boticas, para «Couto de Dornelas»",
+     "IniTp": "J",
+     "IniTpdesc": "Projeto de Lei"
+    },
+    {
+     "IniId": "377392",
+     "IniNr": "821",
+     "IniSelLg": "XVII",
+     "IniSelNr": "2",
+     "IniTi": "Alteração da denominação da freguesia de «Aves», no município de Santo Tirso, para «Vila das Aves»",
+     "IniTp": "J",
+     "IniTpdesc": "Projeto de Lei"
+    },
     {
      "IniId": "377345",
      "IniNr": "804",
@@ -4297,7 +4324,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-18",
+    "GpDtFim": "2026-11-20",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

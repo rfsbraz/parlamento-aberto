@@ -339,7 +339,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a67794e7a557a5a6a4e694c544a6d4f4441744e4759794e6930344d54426c4c57526d596d5a6d596a686b5a574e6b4e6935775a47593d&fich=82753f3b-2f80-4f26-810e-dfbffb8decd6.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "173",
    "Comissao": null,
    "DataFase": "2025-07-25",
@@ -390,7 +395,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b325a5467785a5445344c574e694e5459744e475578595330354f4463324c5449325a6a63334e445a694e47526d595335775a47593d&fich=96e81e18-cb56-4e1a-9876-26f7746b4dfa.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "174",
    "Comissao": null,
    "DataFase": "2025-07-31",
@@ -1050,7 +1060,20 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-05-14",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "PA1-PSD-Proposta de substituição integral",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a426c595759784e544174596a45774e433030597a63774c5467774d5749744e4449774e47517759575668596a417a4c6e426b5a673d3d&fich=20eaf150-b104-4c70-801b-4204d0aeab03.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-08",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final e relatório da discussão e votação na especialidade CACDLG",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d575534596a6c6c5a44457459574d33596930304d6d55334c546b794e3251744e6a67314f445978596a4a6a4e6a51344c6e426b5a673d3d&fich=1e8b9ed1-ac7b-42e7-927d-685861b2c648.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -1163,7 +1186,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a646b4d6a686b595455354c5442684d6d49744e44557a5a5330355a6d45304c5467354e4451774e44597a4f5467354f53356b62324e34&fich=7d28da59-0a2b-453e-9fa4-894404639899.docx&Inline=true",
+     "anexoNome": "Informação de Redação Final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a526c4d7a51334d3246684c54526d5a5467744e475a6d4e7930354f5449304c5467304e7a55775a5751774d5755775953356b62324e34&fich=4e3473aa-4fe8-4ff7-9924-84750ed01e0a.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {

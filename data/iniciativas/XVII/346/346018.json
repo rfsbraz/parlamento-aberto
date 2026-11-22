@@ -1,16 +1,7 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3259354d6a677a596d49304c5749354e5445744e444d35595330344e5455334c54566d4d6d45304e47566a5a6a6c6b595335775a47593d&fich=f9283bb4-b951-439a-8557-5f2a44ecf9da.pdf&Inline=true",
-   "anexoNome": "A.I.G"
-  },
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255774d4751344f54466c4c545177593249744e474e6c4e533034596a55794c5749335a575a6c4f546b30595445785a69356b62324e34&fich=e00d891e-40cb-4ce5-8b52-b7efe994a11f.docx&Inline=true",
-   "anexoNome": "Texto da Iniciativa - Versão 1 de 2026-01-19"
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": [
   {
    "GP": "IL",
@@ -120,12 +111,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63334e4441784e6d4d774c5759345a6a4d744e4759335a5330344e44526a4c575a694f5745304e5751334e7a63344d69356b62324e34&fich=774016c0-f8f3-4f7e-844c-fb9a45d77782.docx&Inline=true",
-     "anexoNome": "Nota de admissibilidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-01-27",
@@ -2225,7 +2211,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255315a57566d5a44686d4c574e6d4f5455744e445a684f433169595759304c5467354f444d305a57526b5a444532597935775a47593d&fich=e5eefd8f-cf95-46a8-baf4-89834eddd16c.pdf&Inline=true",
+     "anexoNome": "Requerimento IL"
+    }
+   ],
    "CodigoFase": "195",
    "Comissao": null,
    "DataFase": "2026-01-30",
@@ -2387,7 +2378,7 @@
  ],
  "IniId": "346018",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a42695a4745324d7a6b334c57597a4f5463744e444e6c4d4330354d4445324c546b775a57466d4d44497a4e6a5a6b4e69356b62324e34&fich=0bda6397-f397-43e0-9016-90eaf02366d6.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "388",
  "IniObs": null,
  "IniSel": "1",

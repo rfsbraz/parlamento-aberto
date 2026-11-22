@@ -119,12 +119,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324669596a457a4d4441324c5446695a6a59744e44457a5a6930344e325a694c546b324d544e6a595749314e4745325a6935775a47593d&fich=abb13006-1bf6-413f-87fb-9613cab54a6f.pdf&Inline=true",
-     "anexoNome": "Despacho n.º 197-XVII do PAR"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "181",
    "Comissao": [
     {
@@ -145,7 +140,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-06-02",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação - discussão em Plenário",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a68685a5468684d7a4d745a6d59314d4330304e6d51304c546c6a4e6a67744e6a41314f444e6c4d5459794e5759354c6e426b5a673d3d&fich=68ae8a33-ff50-46d4-9c68-60583e1625f9.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,

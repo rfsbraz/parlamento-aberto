@@ -101,7 +101,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a41785a5451774e325a6b4c5451304e6d4d744e4441774e7931684e575a6a4c57466a4e6a59315957526a4d474d345a69356b62324e34&fich=01e407fd-446c-4007-a5fc-ac665adc0c8f.docx&Inline=true",
+     "anexoNome": "Nota de Admissiblidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-07-09",
@@ -174,42 +179,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=299"
-      },
-      {
-       "DataDocumento": "2026-01-07",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório CACDLG",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d57466b4d6d59784e6d51744d324530596930304e6a466c4c5467314e7a557459544a6a4f4441794f4759335a44426c4c6e426b5a673d3d&fich=1ad2f16d-3a4b-461e-8575-a2c8028f7d0e.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-01-07",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota Técnica ",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e546c6d4d7a59334d4451745a5459324f533030597a4e694c574a6a4d5459744e4441795a4459784e6a49334f4451304c6e426b5a673d3d&fich=59f36704-e669-4c3b-bc16-402d61627844.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-09-01",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Parecer - Conselho Superior dos Tribunais Administrativos e Fiscais",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a42695a5745305a6d5174596d553159693030597a426b4c5749324f5441744e54686b4d6d52694d7a63774d4759774c6e426b5a673d3d&fich=c0bea4fd-be5b-4c0d-b690-58d2db3700f0.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-09-02",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Parecer - Ordem dos Advogados",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a4a6c4f54566d4e5463744d6a5a684e433030596d59304c57466c5a6a4174596a41304e5464694e4451774e44566b4c6e426b5a673d3d&fich=c2e95f57-26a4-4bf4-aef0-b0457b44045d.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-09-12",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Parecer - Conselho Superior da Magistratura",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e544d344f5463334f57497459544d7a595330304d475a6b4c54686a4f544d744e5752684e4755354d3245345a6d566a4c6e426b5a673d3d&fich=5389779b-a33a-40fd-8c93-5da4e93a8fec.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-01-21",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Parecer - Conselho Superior do Ministério Público",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a5934597a526c4d5449745a54566c5a5330305a6a646d4c5745794f4751744e44417a4e546b7a596d566b4f5467774c6e426b5a673d3d&fich=768c4e12-e5ee-4f7f-a28d-403593bed980.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

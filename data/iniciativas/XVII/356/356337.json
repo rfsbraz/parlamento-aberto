@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251784e7a67344d544e694c57453259544d744e4756694f4331684d44566d4c54566c4e5441344e546b33593252684d4335775a47593d&fich=d178813b-a6a3-4eb8-a05f-5e508597cda0.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "CH",
@@ -366,7 +371,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a41334d5455774d7a64694c5441335a6a67744e474e6a597931685a6d4a6a4c5467325957517a5a6a6735596a4d325a69356b62324e34&fich=0715037b-07f8-4ccc-afbc-86ad3f89b36f.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-03-18",
@@ -416,6 +426,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta Pública - Recolha de contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=753"
+      },
+      {
+       "DataDocumento": "2026-04-08",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387a5130524f4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d5751324d474e6a4e7a45744d5445794e5330304d7a4a6b4c546b304d446b745a54566b4d5451784d6a45345a6d4d774c6e426b5a673d3d&fich=1d60cc71-1125-432d-9409-e5d141218fc0.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-30",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório - Comissão de Defesa Nacional",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387a5130524f4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e32526b5a574a6d5a6a51744e6a426c5a533030596a6b344c54686a597a6b744d545135596a557a596d55334d5452694c6e426b5a673d3d&fich=7ddebff4-60ee-4b98-8cc9-149b53be714b.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -1831,7 +1853,26 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-01",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer - Associação de Oficiais das Forças Armadas (AOFA)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387a5130524f4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e44646a5a5442684d7a55744e3249774d7930305a5745324c546b7a4d5751744d6d49354e4745304f4468694e4749784c6e426b5a673d3d&fich=47ce0a35-7b03-4ea6-931d-2b94a488b4b1.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-01",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer - Associação Nacional de Sargentos (ANS)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387a5130524f4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a566d4d4751354d445574597a6c684d6930305a5756684c546b324e5751744d7a526b597a686c4d4751304e444d304c6e426b5a673d3d&fich=65f0d905-c9a2-4eea-965d-34dc8e0d4434.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-01",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer - Associação de Praças (AP)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387a5130524f4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f574d794d6d5a6c4e5449745954646859533030597a566b4c546c6b5a6a6b745a6a5a6d4e6d497a4d546b314d3245354c6e426b5a673d3d&fich=9c22fe52-a7aa-4c5d-9df9-f6f6b31953a9.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8449",
      "Legislatura": null,
@@ -1902,7 +1943,7 @@
  ],
  "IniId": "356337",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5577596a4135595441344c544a685a6a45744e474e6b5a6931684d4751774c546b304f4467355a4745314f54646b4d43356b62324e34&fich=50b09a08-2af1-4cdf-a0d0-94889da597d0.docx&Inline=true",
  "IniNr": "504",
  "IniObs": null,
  "IniSel": "1",

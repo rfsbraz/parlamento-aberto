@@ -2143,7 +2143,20 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-02-20",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de Alteração GP PS",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c596a51774d474a685a69316b4d3251324c54517a4d4467744f5745324d43316d4e7a55344d3255334f474d784d5445756347526d&fich=eb400baf-d3d6-4308-9a60-f7583e78c111.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-25",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938304f54466a596d4a6c4d53316a5a6d49794c54526c4e4745744f5752694f43307a5954646c5a4467794d47466c5a6a51756347526d&fich=491cbbe1-cfb2-4e4a-9db8-3a7ed820aef4.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8451",
      "Legislatura": null,
@@ -2284,7 +2297,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32597859575a6c4e3245784c54566b4e4451744e4451324e7930345a6a45314c545178593249784d5751784f5751325a53356b62324e34&fich=f1afe7a1-5d44-4467-8f15-41cb11d19d6e.docx&Inline=true",
+     "anexoNome": "Informação da redação final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d774d6a67344e7a426a4c5451785a544d744e446469595331694e4449784c546b355a6a6b784e54646c5a54526c4d69356b62324e34&fich=3028870c-41e3-47ba-b421-99f9157ee4e2.docx&Inline=true",
+     "anexoNome": "Sugestão de Redação Final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {

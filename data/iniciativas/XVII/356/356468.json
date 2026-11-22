@@ -1022,12 +1022,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45334d7a4d784f446b334c5445304d7a63744e44637a4d4330345a5455344c574a6c597a67784d474d31597a52684f5335775a47593d&fich=17331897-1437-4730-8e58-bec810c5c4a9.pdf&Inline=true",
-     "anexoNome": "Requerimento PAN"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-04-17",
@@ -1227,7 +1222,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a51774d7a4e6a4d6a51314c574a6a5a5759744e44526c4e5330354e7a63314c5449784d474e6b59544e694e6d5a6b4d6935775a47593d&fich=4033c245-bcef-44e5-9775-210cda3b6fd2.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2026-05-07",

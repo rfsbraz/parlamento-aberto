@@ -92,12 +92,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a51314e7a59334e5759344c5441344d7a4d744e446c6b5a6930354e6a4e6a4c54566b4f5463794e5449344e47526d5979356b62324e34&fich=457675f8-0833-49df-963c-5d9725284dfc.docx&Inline=true",
-     "anexoNome": "Nota de Admissiblidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-07-01",
@@ -1580,12 +1575,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributo - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=334"
-      },
-      {
-       "DataDocumento": "2025-09-30",
-       "TipoDocumento": "Requerimento",
-       "TituloDocumento": "Despacho PAR do pedido de redistribuição",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314e575a694d6d55304d6930794e57497a4c5451774d445974596d4a684d4331695a6d5a6c4f5449325a4749314d5745756347526d&fich=55fb2e42-25b3-4006-bba0-bffe926db51a.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -1628,12 +1617,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4a694d6a51784e474d7a4c54457a4d4451744e474d334e5330344e444d324c544d334e324e694d544978597a67315a6935775a47593d&fich=2b2414c3-1304-4c75-8436-377cb121c85f.pdf&Inline=true",
-     "anexoNome": "Parecer"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "175",
    "Comissao": null,
    "DataFase": "2025-07-15",
@@ -1684,12 +1668,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a646c5a5451354f444e6b4c57566c596a67744e4749354d53316859544d324c545530597a4e6a4e7a426c4d5459304f4335775a47593d&fich=7ee4983d-eeb8-4b91-aa36-54c3c70e1648.pdf&Inline=true",
-     "anexoNome": "Parecer "
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "173",
    "Comissao": null,
    "DataFase": "2025-07-17",
@@ -1712,7 +1691,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59774e4451324f4451324c544e6a4e4441744e446b34595331694e6d4d794c544d355a5446695a445a6d4d546b77596935775a47593d&fich=60446846-3c40-498a-b6c2-39e1bd6f190b.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2025-07-21",

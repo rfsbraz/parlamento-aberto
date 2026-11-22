@@ -161,7 +161,20 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-09-10",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d544d314d5759344d3259744e6a6b324d7930304d5751784c5749344e5745744e444d354f4451314d4451315a6a4e684c6d52765933673d&fich=1351f83f-6963-41d1-b85a-439845045f3a.docx&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-10-02",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer DECO",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e3256685a4751314e446b744e4749344e533030595749794c574a6d4e5463745a546b315a5449314f445134597a67314c6e426b5a673d3d&fich=7eadd549-4b85-4ab2-bf57-e95e25848c85.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8457",
      "Legislatura": null,
@@ -2903,7 +2916,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a646d4d5442684d5449334c574669597a49744e474931595331694e574d774c5756694e47566b4d544e6c4f474e6a5a43356b62324e34&fich=7f10a127-abc2-4b5a-b5c0-eb4ed13e8ccd.docx&Inline=true",
+     "anexoNome": "Sugestão de Redação Final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -2924,7 +2942,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-22",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a5759334d4759775a546b745a574e6b4f5330304e57466d4c5745355a6a45744f574e6c595459305a544a6b4d5749784c6e426b5a673d3d&fich=ef70f0e9-ecd9-45af-a9f1-9cea64e2d1b1.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8457",
      "Legislatura": null,
@@ -3034,7 +3059,7 @@
  ],
  "IniId": "315425",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255774d6d4d304d5752684c5452694d6a49744e4463314e533034597a637a4c546c6b4d446c6b596a5a6b5954466b5953356b62324e34&fich=e02c41da-4b22-4755-8c73-9d09db6da1da.docx&Inline=true",
  "IniNr": "212",
  "IniObs": null,
  "IniSel": "1",

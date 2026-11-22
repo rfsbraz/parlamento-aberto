@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251305a5449304e5446694c574e6b4e444d744e444e68595330344d7a51324c5468684d7a566b5a44646a596d526d596935775a47593d&fich=d4e2451b-cd43-43aa-8346-8a35dd7cbdfb.pdf&Inline=true",
+   "anexoNome": "A. I. G."
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a56684d6d4e6b5932466c4c5459785a6d59744e4445324d4330354f474a694c574d305a6a59344e7a59334f54466d4d5335775a47593d&fich=5a2cdcae-61ff-4160-98bb-c4f6876791f1.pdf&Inline=true",
+   "anexoNome": "Texto (versão assinada)"
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -1081,7 +1090,32 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-06",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "PA 1 - Proposta de alteração do GP do PSD (substituída)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e546c6b4f4441784f5467745a4441354e533030593255334c54686c4d324974597a6377597a5931596a64684f5459784c6e426b5a673d3d&fich=59d80198-d095-4ce7-8e3b-c70c65b7a961.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-07",
+       "TipoDocumento": "Quadro comparativo",
+       "TituloDocumento": "Quadro comparativo",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d474a6a4d6d566b4d7a6b744f4463304e7930304d5759354c5749774e5455744d546b784d544d344d7a4a6a595463354c6e426b5a673d3d&fich=0bc2ed39-8747-41f9-b055-19113832ca79.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-08",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "PA 1 - Proposta de alteração do GP do PSD (substitui a anterior)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6d466a4f474d354e5463744d444530596930304e6a6c6d4c5467354e544974595445334d7a59775a6d4a6b4d6a517a4c6e426b5a673d3d&fich=fac8c957-014b-469f-8952-a17360fbd243.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-08",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final e relatório da discussão e votação na especialidade",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a6c685a6a4a6a4e546b744e7a4d774f4330305932466c4c546b774d3245744e444d335954566d5a4445774e574a6c4c6e426b5a673d3d&fich=c9af2c59-7308-4cae-903a-437a5fd105be.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -1391,7 +1425,7 @@
  ],
  "IniId": "356564",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325a6a5a5445324e4467784c574a6c4f5459744e44457959793034597a67344c545a6959575a694d5442694f54646c4f53356b62324e34&fich=fce16481-be96-412c-8c88-6bafb10b97e9.docx&Inline=true",
  "IniNr": "69",
  "IniObs": null,
  "IniSel": "1",

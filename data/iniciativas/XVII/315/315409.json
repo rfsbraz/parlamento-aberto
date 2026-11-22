@@ -201,6 +201,24 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=357"
+      },
+      {
+       "DataDocumento": "2025-09-24",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f545268597a59794d6a59744f5451354e6930304f5441314c574a685a6a41745a57566c4e446b335a5463314e474e6b4c6e426b5a673d3d&fich=94ac6226-9496-4905-baf0-eee497e754cd.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-01-20",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório da Proposta de Lei n.º 19/XVII/1 (ALRAA)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a45784d474d31596a45744e32526b595330304f54526d4c546b324f5445744d475a684d4751324f545a685a5463314c6e426b5a673d3d&fich=7110c5b1-7dda-494f-9691-0fa0d696ae75.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-09",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer ANAFRE",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d544d324e6a6c684f474974597a4d794f5330304e544e6d4c5746684d7a4574596a41304e574e6b4e6a59774d47566d4c6e426b5a673d3d&fich=13669a8b-c329-453f-aa31-b045cd6600ef.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -1169,7 +1187,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245785a6d4d314e444d304c544135596a63744e4442694e433168596a67334c5467305a444a6b4d6a686a4d5751785969356b62324e34&fich=a1fc5434-09b7-40b4-ab87-84d2d28c1d1b.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -1190,7 +1213,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-21",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a51344d5749794d7a67744e574e6b597930304f444a6a4c5468694e446b744e54646d596a59784e325a695a57517a4c6e426b5a673d3d&fich=b481b238-5cdc-482c-8b49-57fb617fbed3.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8459",
      "Legislatura": null,

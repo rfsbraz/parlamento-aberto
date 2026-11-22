@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55344e5745324f5755314c57526d596d51744e475668597930344d54646a4c54646d5a54597a4f5467794e4756684f53356b62324e34&fich=585a69e5-dfbd-4eac-817c-7fe639824ea9.docx&Inline=true",
+   "anexoNome": "Texto - versão 1 de 08-07-2025"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32566d5a4745334d4445324c5749324e4449744e4745784f5331694d5468694c5467335a5463785a6d59325a57526a4e5335775a47593d&fich=efda7016-b642-4a19-b18b-87e71ff6edc5.pdf&Inline=true",
+   "anexoNome": "AIG"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "CDS-PP",
@@ -97,7 +106,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b345a4745345a44686c4c5449314e544d744e444933596930354e6d55344c5459784f44466b5957466d5a5449315a43356b62324e34&fich=98da8d8e-2553-427b-96e8-6181daafe25d.docx&Inline=true",
+     "anexoNome": "Nota de Admissiblidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-07-09",
@@ -1622,12 +1636,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d334d6d457a4f4449344c5449774d5455744e44646a4d5331695a4759794c574933596a49785a6a6c6b4d446b794d4335775a47593d&fich=372a3828-2015-47c1-bdf2-b7b21f9d0920.pdf&Inline=true",
-     "anexoNome": "Parecer "
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "173",
    "Comissao": null,
    "DataFase": "2025-07-17",
@@ -1706,12 +1715,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245774e54566a4d4446684c546b7a4d7a63744e474d315a5330344e446c684c574a6a4f544933597a4131596a59335a4335775a47593d&fich=a055c01a-9337-4c5e-849a-bc927c05b67d.pdf&Inline=true",
-     "anexoNome": "Ofício de redistribuição"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "270",
    "Comissao": [
     {
@@ -2516,14 +2520,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-01-07",
-       "TipoDocumento": "Redação final",
-       "TituloDocumento": "Redação final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e445a6d4e7a646b595745744e575a694e6930305a6a41774c546b784e5745744d6a55354f5455324d4441354e7a6b324c6e426b5a673d3d&fich=46f77daa-5fb6-4f00-915a-259956009796.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -2702,7 +2699,7 @@
  ],
  "IniId": "315340",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a42684d4449785a545a6b4c54426d4e4467744e4451354d793035596d45784c5755795a6a63334d44517a4d44426c4e53356b62324e34&fich=0a021e6d-0f48-4493-9ba1-e2f7704300e5.docx&Inline=true",
  "IniNr": "119",
  "IniObs": null,
  "IniSel": "1",

@@ -5619,12 +5619,20 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Lisboa",
+     "Data": "2026-01-12",
+     "Estabelecimento": "Colégio Marista de Carcavelos",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Lisboa",
+     "Data": "2026-05-12",
+     "Estabelecimento": "Lisboa",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Sessão Nacional"
     }
    ],
    "Rel": {
@@ -6672,7 +6680,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-20",
+    "GpDtFim": "2026-11-21",
     "GpDtInicio": "2025-06-03",
     "GpId": 7264.0,
     "GpSigla": "IL"

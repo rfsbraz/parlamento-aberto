@@ -47,12 +47,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a686d4e7a51355a6d51324c57526b5a6a4d744e44566b5a5331694d7a46694c574e6c59325a6d4e6a63774e6a517a5979356b62324e34&fich=8f749fd6-ddf3-45de-b31b-cecff670643c.docx&Inline=true",
-     "anexoNome": "Nota de admissibilidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-02-13",
@@ -1119,6 +1114,18 @@
      "Documentos": [
       {
        "DataDocumento": "2026-04-21",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de alteração PS",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e324d794d5749314e6d5174597a67355a6930304d6a566a4c5749344e3255745a4451345a546b334f444a6b4d6a49304c6e426b5a673d3d&fich=7c21b56d-c89f-425c-b87e-d48e9782d224.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-22",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Relatório da discussão e votação na especialidade da Proposta de Lei n.º 58-XVII-1 (GOV)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a42694d4452684d7a4974597a68694d6930304d6a46694c546b784d4745745932557a5a546c6c5957466c595752684c6e426b5a673d3d&fich=b0b04a32-c8b2-421b-910a-ce3e9eaaeada.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-21",
        "TipoDocumento": "Link",
        "TituloDocumento": "Gravação da discussão e votação na especialidade",
        "URL": "https://media.parlamento.pt/site/XVIILEG/SL1/COM/13_CREPL/CREPL_20260421_2.mp3"
@@ -1237,7 +1244,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63354e7a6c684d6d46694c54526a4d7a4d744e474d7a597930354d446c6d4c5449794e7a67355a4463794e4464694f53356b62324e34&fich=7979a2ab-4c33-4c3c-909f-22789d7247b9.docx&Inline=true",
+     "anexoNome": "Informação de redação final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63354d444e6b5a544e684c57526b5a5451744e4463335a693035596a51344c5441775a6d5269596d497a4d4459785a53356b62324e34&fich=7903de3a-dde4-477f-9b48-00fdbbb3061e.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -1258,7 +1274,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-05-12",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e44646d4d7a56694e5449744e6a4a6b5a693030595445314c5749334f4459744f445a694e3259314d544e6a4d57517a4c6e426b5a673d3d&fich=47f35b52-62df-4a15-b786-86b7f513c1d3.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8459",
      "Legislatura": null,

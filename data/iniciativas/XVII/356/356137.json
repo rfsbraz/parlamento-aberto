@@ -1246,20 +1246,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-03-26",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório de Votações",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c596d466a4d5745334f5330775a4455304c545269596a63744f4441315a4330315a6a5a6a5a4455794e7a426b595755756347526d&fich=ebac1a79-0d54-4bb7-805d-5f6cd5270dae.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-03-26",
-       "TipoDocumento": "Texto final",
-       "TituloDocumento": "Texto Final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938315a6d4d7a4f5451334e6931684e6a4e684c54526a4f445574596a517a596930795954646b4d325a69595451784f5755756347526d&fich=5fc39476-a63a-4c85-b43b-2a7d3fba419e.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8460",
      "Legislatura": null,
@@ -1336,7 +1323,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45344d544a6c4d7a41324c5745314d5751744e4759344d4331694f4759354c57466c4e3255784d47526a4e6d526c4e69356b62324e34&fich=1812e306-a51d-4f80-b8f9-ae7e10dc6de6.docx&Inline=true",
+     "anexoNome": "Informação de redação final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d325a5441775a4467794c544977595751744e4749324d693034595441774c5451325a6a4269597a5930596a5a695a53356b62324e34&fich=36e00d82-20ad-4b62-8a00-46f0bc64b6be.docx&Inline=true",
+     "anexoNome": "Projeto de decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {

@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a56684d6d517a4e3251784c5759794e7a49744e47457a596930345954646d4c57466859324534595451304d544d785a6935775a47593d&fich=5a2d37d1-f272-4a3b-8a7f-aaca8a44131f.pdf&Inline=true",
+   "anexoNome": "Texto-versão assinada"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59774e6a55794f4441344c574a6a5a5755744e44646b4f4331685a4445784c5751315954566b5a6d4d334d6d49304e7935775a47593d&fich=60652808-bcee-47d8-ad11-d5a5dfc72b47.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -1275,7 +1284,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45784e574e69596a63304c574669596a63744e4446684f5330344e7a6b324c54646a5a4455354e5749794f44466a5979356b62324e34&fich=115cbb74-abb7-41a9-8796-7cd595b281cc.docx&Inline=true",
+     "anexoNome": "Informação de Redação Final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249314e445a684d32566b4c5455304d5449744e4745794e7931684f5756694c546b35597a49794f5455324e4441325a69356b62324e34&fich=b546a3ed-5412-4a27-a9eb-99c22956406f.docx&Inline=true",
+     "anexoNome": "Sugestão de Redação Final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -1490,7 +1508,7 @@
  ],
  "IniId": "356383",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3252684d44466a4d4445344c57466a4d7a63744e4464684d6930354d6d55304c575579595451774d574932596a4e685953356b62324e34&fich=da01c018-ac37-47a2-92e4-e2a401b6b3aa.docx&Inline=true",
  "IniNr": "64",
  "IniObs": null,
  "IniSel": "1",

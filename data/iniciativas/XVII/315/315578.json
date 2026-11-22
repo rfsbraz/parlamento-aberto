@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49794e6d4a6c4f4751304c54417a4d6a41744e44526a4d4330354f44566b4c54553259324e684f5752694f544979596935775a47593d&fich=226be8d4-0320-44c0-985d-56cca9db922b.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PS",
@@ -53,7 +58,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249314e44426b4d4745314c546b78596d51744e4751355a5331695a6d5a694c54426b596d4a6d4e7a42684e4449775953356b62324e34&fich=b540d0a5-91bd-4d9e-bffb-0dbbf70a420a.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-09-18",
@@ -2776,7 +2786,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245795a44566c5a6a417a4c54686d5a6a45744e4749774e4330355a6d517a4c5467325a6a67784e54526d5a545a6a4e7935775a47593d&fich=a2d5ef03-8ff1-4b04-9fd3-86f8154fe6c7.pdf&Inline=true",
+     "anexoNome": "Requerimento do PS"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-03-20",
@@ -2833,7 +2848,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251344e6a67344e475a6d4c54686b4e5751744e44517a5a5331684d546b794c5449344e44566c4e574d354f574d355a4335775a47593d&fich=d86884ff-8d5d-443e-a192-2845e5c99c9d.pdf&Inline=true",
+     "anexoNome": "Despacho do PAR"
+    }
+   ],
    "CodigoFase": "240",
    "Comissao": [
     {
@@ -2967,7 +2987,7 @@
  ],
  "IniId": "315578",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4269597a55785a6a49344c5746695a4449744e44677a59533034597a566b4c544133595759794e5752684e6d59314f53356b62324e34&fich=0bc51f28-abd2-483a-8c5d-07af25da6f59.docx&Inline=true",
  "IniNr": "205",
  "IniObs": null,
  "IniSel": "1",

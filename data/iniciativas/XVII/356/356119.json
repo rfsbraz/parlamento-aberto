@@ -3006,7 +3006,38 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-02-24",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de Alteração - GP IL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a6730595441795a4445744e6a4d7a4d6930304d4449314c546b335a444d74596d5a694e7a51354d4463324d4449344c6d52765933673d&fich=c84a02d1-6332-4025-97d3-bfb749076028.docx&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-24",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de alteração Durp PAN",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f5746694f5455784e6a51744e4749334d7930304e5451334c546b314e5449744d5459305a47466a596a6b774f544e6d4c6d52765933673d&fich=9ab95164-4b73-4547-9552-164dacb9093f.docx&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-24",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de alteração GP Livre",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a55334d6a417859546774596a566b596930304d7a63794c54686c4e5455745a4455344d4749355a5756694d6a51334c6d52765933673d&fich=f57201a8-b5db-4372-8e55-d580b9eeb247.docx&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-24",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de alteração GP PS",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f544e6b4f4441774d7a4d74596d55344d7930305a4755354c574668596a41745a575934596a6b314d7a51305a6a526d4c6d52765933673d&fich=93d80033-be83-4de9-aab0-ef8b95344f4f.docx&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-25",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d474a684d4749305a546b74597a6c6b5a6930304d5445784c5745324e5449745a6d597a593251795a6d5a694f54526a4c6d527659773d3d&fich=0ba0b4e9-c9df-4111-a652-ff3cd2ffb94c.doc&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8457",
      "Legislatura": null,
@@ -3441,7 +3472,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324a6c4d544a6d597a6b344c5446694e5441744e4455784d53303459324a684c5745304e7a4a6a4d6d52684d5459784d4335775a47593d&fich=be12fc98-1b50-4511-8cba-a472c2da1610.pdf&Inline=true",
+     "anexoNome": "Resultado de votações"
+    }
+   ],
    "CodigoFase": "310",
    "Comissao": null,
    "DataFase": "2026-02-25",

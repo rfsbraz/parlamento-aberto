@@ -1461,7 +1461,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45314f444e6a5a6d4e6b4c546b345a4451744e44566d4d7930354e6d4d304c574d334d544d784e5445345a544d334e4335775a47593d&fich=1583cfcd-98d4-45f3-96c4-c7131518e374.pdf&Inline=true",
+     "anexoNome": "Requerimento BE"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-05-22",

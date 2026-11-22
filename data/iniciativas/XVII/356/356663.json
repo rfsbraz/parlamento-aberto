@@ -1783,7 +1783,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a466b4e54426c4e54597a4c5452694d6a67744e44646d4d7930354d4445304c5463354d57466a4e324e6c4d4445315a5335775a47593d&fich=1d50e563-4b28-47f3-9014-791ac7ce015e.pdf&Inline=true",
+     "anexoNome": "Requerimento da IL"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-05-22",

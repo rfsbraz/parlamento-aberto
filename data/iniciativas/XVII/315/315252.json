@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59354d544535596d5a6d4c545133593259744e44526a5a5331685a474a6c4c5451334f54466d4e6a67304e6a5a68597935775a47593d&fich=69119bff-47cf-44ce-adbe-4791f68466ac.pdf&Inline=true",
+   "anexoNome": "Texto da iniciativa - versão 1, de 03-07-2025"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55794d5756684e5751314c5463334f5751744e4759314f5331694f4463784c5459325a6a6c684d6a6c694d7a5533595335775a47593d&fich=521ea5d5-779d-4f59-b871-66f9a29b357a.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "L",
@@ -117,7 +126,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a526a4e4449315a57597a4c5449774e5441744e4755784f4330355a5749774c574669593255785a444d7a4d6a466b5969356b62324e34&fich=4c425ef3-2050-4e18-9eb0-abce1d3321db.docx&Inline=true",
+     "anexoNome": "Nota de Admissiblidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-07-09",
@@ -289,7 +303,7 @@
  ],
  "IniId": "315252",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a646d595451774d6d55304c545179593245744e4455775a4331685a4755304c546330595759774d7a426d4f44466c597935775a47593d&fich=7fa402e4-42ca-450d-ade4-74af030f81ec.pdf&Inline=true",
  "IniNr": "84",
  "IniObs": null,
  "IniSel": "1",

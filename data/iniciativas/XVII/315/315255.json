@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d77596d49775a475a6a4c5752684e7a51744e47597a4d693034596a526c4c575a684f5463314d475a69597a67334f43356b62324e34&fich=30bb0dfc-da74-4f32-8b4e-fa9750fbc878.docx&Inline=true",
+   "anexoNome": "Texto - versão 1 de 02-07-2025"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "L",
@@ -210,6 +215,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Áudio da Reunião",
        "URL": "https://media.parlamento.pt/site/XVIILEG/SL1/COM/14_CIMH/CIMH_20260512_1.mp3"
+      },
+      {
+       "DataDocumento": "2026-05-14",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação da Discussão",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938315957526d5a6d526d4e43316b596d4a6c4c5451304d7a6b74596a6c6c4f5330324e444268597a67324f5441775a5749756347526d&fich=5adffdf4-dbbe-4439-b9e9-640ac86900eb.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -309,7 +320,7 @@
  ],
  "IniId": "315255",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d324e6a566b596a56694c5451325a4463744e4749304e533169596d5a684c54686c4d545a6b4e6a457a5a6a526d4d53356b62324e34&fich=3665db5b-46d7-4b45-bbfa-8e16d613f4f1.docx&Inline=true",
  "IniNr": "128",
  "IniObs": null,
  "IniSel": "1",

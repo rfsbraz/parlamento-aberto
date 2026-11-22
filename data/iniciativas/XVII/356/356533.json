@@ -67,12 +67,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325131597a5532597a55344c5459794d324d744e446b78596930355a44466a4c5449325a6a67794f47526b5a5459305979356b62324e34&fich=d5c56c58-623c-491b-9d1c-26f828dde64c.docx&Inline=true",
-     "anexoNome": "Nota de admissibilidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-04-16",
@@ -256,12 +251,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4e6b4e3255344d44637a4c544d314e4759744e4455314e5331694e4749794c5745774e6d4d33597a56695a6a49335a4335775a47593d&fich=3d7e8073-354f-4555-b4b2-a06c7c5bf27d.pdf&Inline=true",
-     "anexoNome": "Parecer"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "174",
    "Comissao": null,
    "DataFase": "2026-05-04",
@@ -307,7 +297,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249344d47526d4d5745334c5445354d4467744e446b354e793168595455324c574d325a5445305a44497a4e7a4e6c4d4335775a47593d&fich=b80df1a7-1908-4997-aa56-c6e14d2373e0.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "173",
    "Comissao": null,
    "DataFase": "2026-05-28",

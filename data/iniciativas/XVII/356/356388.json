@@ -181,7 +181,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6868596a686d4d5463344c545a684f5463744e444d334f5330345932466d4c5759325a6d45314e7a55324e5445314f5335775a47593d&fich=8ab8f178-6a97-4379-8caf-f6fa57565159.pdf&Inline=true",
+     "anexoNome": "Requerimento"
+    }
+   ],
    "CodigoFase": "225",
    "Comissao": null,
    "DataFase": "2026-04-23",
@@ -436,7 +441,7 @@
  ],
  "IniId": "356388",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4e6c4f5745304d7a51334c5463354e4467744e444d324d5330344f4749314c5452694d6d51785a475a695a44646c5a4335775a47593d&fich=3e9a4347-7948-4361-88b5-4b2d1dfbd7ed.pdf&Inline=true",
  "IniNr": "720",
  "IniObs": null,
  "IniSel": "1",

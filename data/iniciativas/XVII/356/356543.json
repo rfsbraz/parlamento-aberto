@@ -1297,7 +1297,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b794f47517a4f54646b4c5755304e7a59744e44526c4d693169596a51334c545a6a4e4445794e5455334d6a67334d6935775a47593d&fich=928d397d-e476-44e2-bb47-6c4125572872.pdf&Inline=true",
+     "anexoNome": "Requerimento"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-04-24",

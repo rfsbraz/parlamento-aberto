@@ -220,7 +220,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32566c4f574a694f44646c4c546b7a4e6a51744e444a694d7930344e444d344c5756685a5445334d47566d593259354d4335775a47593d&fich=ee9bb87e-9364-42b3-8438-eae170efcf90.pdf&Inline=true",
+     "anexoNome": "Ofício de redistribuição"
+    }
+   ],
    "CodigoFase": "181",
    "Comissao": [
     {
@@ -241,7 +246,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-09-23",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e474d7a4f446c6d597a63744e6a6b354e5330305a47566c4c57466d4d6a5574593245324f4455334d446335593251304c6e426b5a673d3d&fich=4c389fc7-6995-4dee-af25-ca6857079cd4.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8458",
      "Legislatura": null,
@@ -339,7 +351,26 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-10-22",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de alteração apresentada pelo Grupo Parlamentar do PSD ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f4451345a444d3159544d745a6d49774e7930304d4746694c574a6b59544d744d6d4d7a596a426c4e5755334e5752684c6e426b5a673d3d&fich=848d35a3-fb07-40ab-bda3-2c3b0e5e75da.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-10-22",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório da votação na especialidade ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a5751774d5459795a6a6b744f5751344f5330305a5445324c574a6b4f4459744e5749344e4456694d6a49794d54426b4c6e426b5a673d3d&fich=ed0162f9-9d89-4e16-bd86-5b845b22210d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-10-22",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e32597a4e6a417a4d6d45744d7a4d795a5330304e4451784c546b774d54497459546330593245324e6d51345a44466a4c6e426b5a673d3d&fich=7f36032a-332e-4441-9012-a74ca66d8d1c.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8458",
      "Legislatura": null,
@@ -471,7 +502,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-12-02",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação final ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f574a684d6a55354e7a4174596a4579595330304f5756694c546b314e7a63744d3255794d6a41334d474a6c4f474a694c6e426b5a673d3d&fich=9ba25970-b12a-49eb-9577-3e22070be8bb.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8458",
      "Legislatura": null,
@@ -581,7 +619,7 @@
  ],
  "IniId": "315367",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a526d4e7a49784e7a497a4c57466c595463744e44466a595331684e6d55334c544a694d444d794d54417a4e4745335979356b62324e34&fich=4f721723-aea7-41ca-a6e7-2b0321034a7c.docx&Inline=true",
  "IniNr": "184",
  "IniObs": null,
  "IniSel": "1",

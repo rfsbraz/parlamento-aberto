@@ -183,7 +183,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32526b5a5445345a5459354c57566b596a59744e44426a4e533035595459304c54646d4e6d4578593251345a4751325969356b62324e34&fich=dde18e69-edb6-40c5-9a64-7f6a1cd8dd6b.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-03-24",
@@ -233,6 +238,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=765"
+      },
+      {
+       "DataDocumento": "2026-05-19",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica - PJL 523-XVII-1",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d7a49785a574e6b5a446b74595755794e7930304d7a6c6c4c5749305a6a51745a6a55334d324e684e54686d4f444e6c4c6e426b5a673d3d&fich=321ecdd9-ae27-439e-b4f4-f573ca58f83e.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-01",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório do Projeto de Lei n.º 523-XVII-1",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a574a6d4e7a49354d7a67744e574d32595330304d3259784c5745354d6a55744e7a4e6c4f47517a4e7a4e6b4d574e694c6e426b5a673d3d&fich=ebf72938-5c6a-43f1-a925-73e8d373d1cb.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

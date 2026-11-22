@@ -228,7 +228,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a526b597a67774d3255314c5751324d5749744e444a6b597930344e445a6b4c5455774d44417a4f44566a4e54466d595335775a47593d&fich=4dc803e5-d61b-42dc-846d-5000385c51fa.pdf&Inline=true",
+     "anexoNome": "Redistribuição da iniciativa"
+    }
+   ],
    "CodigoFase": "180",
    "Comissao": [
     {
@@ -255,6 +260,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta Pública - Contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=604"
+      },
+      {
+       "DataDocumento": "2026-01-15",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Mecanismo Nacional de Monitorização da Implementação da Convenção sobre os Direitos das Pessoas com Deficiência",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279383459575530595455784f4330345a5459334c545177595467744f4441304d5330314e545577597a41784f575a69596a45756347526d&fich=8ae4a518-8e67-40a8-8041-5550c019fbb1.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -10512,20 +10523,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-02-04",
-       "TipoDocumento": "Informação",
-       "TituloDocumento": "Informação de Redação Final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793969595459314d445133597931694e7a49784c54526b4f5467744f54637a5a6930314d474e69596a4d31596d4930593245756347526d&fich=ba65047c-b721-4d98-973f-50cbb35bb4ca.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-02-04",
-       "TipoDocumento": "Redação final",
-       "TituloDocumento": "Redação final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938324d5451774d5455314e5331684f54686c4c5451784d5463744f5467784d79316c4d6d5a6d597a6b7a4e446b305a4745756347526d&fich=61401555-a98e-4117-9813-e2ffc93494da.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8455",
      "Legislatura": null,

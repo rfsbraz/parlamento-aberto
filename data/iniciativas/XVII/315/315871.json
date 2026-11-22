@@ -48,7 +48,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a686b4d5455344f5451324c57466d4d7a41744e4455335a5331684e6a466b4c5751354d7a5a68596a52694d6d466c4d43356b62324e34&fich=8d158946-af30-457e-a61d-d936ab4b2ae0.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-12-16",
@@ -98,6 +103,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=569"
+      },
+      {
+       "DataDocumento": "2025-12-17",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação de não emissão de relatório ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e5746695a6a49774d4749744e5759784f4330304d4751774c57466d596a49744d6a63344d7a6b774e4445784d5441784c6e426b5a673d3d&fich=5abf200b-5f18-40d0-afb2-278390411101.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

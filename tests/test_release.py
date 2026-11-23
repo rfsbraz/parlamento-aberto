@@ -140,6 +140,22 @@ def test_drift_blocks_a_drop_over_five_percent():
     )
 
 
+def test_drift_allows_shrinkage_on_a_rolling_mart():
+    # agenda is a moving window: 36 to 34 is a normal expiry, not a broken release.
+    prev = manifest_with({"agenda": {"XVII": 36}, "votes": {"XVII": 100}})
+    assert (
+        release.drift(prev, manifest_with({"agenda": {"XVII": 34}, "votes": {"XVII": 100}}), set())
+        == []
+    )
+    # A drop to zero still blocks, and so does shrinkage on a historical mart.
+    assert release.drift(
+        prev, manifest_with({"agenda": {"XVII": 0}, "votes": {"XVII": 100}}), set()
+    ) == ["agenda XVII: 36 -> 0 (-100.0%)"]
+    assert release.drift(
+        prev, manifest_with({"agenda": {"XVII": 34}, "votes": {"XVII": 90}}), set()
+    ) == ["votes XVII: 100 -> 90 (-10.0%)"]
+
+
 def test_drift_on_marts_without_legislature():
     prev = {"marts": {"deputies": {"rows": 100, "rows_by_legislature": None}}}
     new = {"marts": {"deputies": {"rows": 90, "rows_by_legislature": None}}}

@@ -15,6 +15,7 @@ Como consultar uma publicação: [querying.md](../querying.md).
 |---|---|
 | [legislatures](legislatures.md) | Uma linha por legislatura. |
 | [sessions](sessions.md) | Uma linha por sessão legislativa. |
+| [agenda](agenda.md) | Uma linha por evento da agenda parlamentar da legislatura atual, a partir de data/agenda_parlamentar/. |
 | [electoral_circles](electoral_circles.md) | Uma linha por círculo eleitoral e por legislatura. |
 | [parliamentary_groups](parliamentary_groups.md) | Uma linha por grupo parlamentar e por legislatura. |
 | [coalitions](coalitions.md) | Uma linha por legislatura, lista da coligação e grupo parlamentar, a partir de seed_coalitions. |

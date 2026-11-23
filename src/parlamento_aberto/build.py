@@ -14,6 +14,7 @@ from pathlib import Path
 import duckdb
 import yaml
 
+from parlamento_aberto.agenda import build_agenda_events
 from parlamento_aberto.ept_interests import build_ept_tables
 from parlamento_aberto.interests import build_interest_tables
 from parlamento_aberto.vote_details import build_detail_items
@@ -24,6 +25,7 @@ PYTHON_MODELS = {
     "stg_votes__detail_items": build_detail_items,
     "stg_registo_interesses__files": build_interest_tables,
     "stg_ept_registo_interesses__declarations": build_ept_tables,
+    "stg_agenda_parlamentar__events": build_agenda_events,
 }
 # Tables a Python model above writes alongside its own.
 BUILT_ALONGSIDE = {

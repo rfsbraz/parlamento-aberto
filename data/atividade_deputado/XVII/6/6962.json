@@ -3450,7 +3450,26 @@
     }
    ],
    "DlP": null,
-   "Eventos": null,
+   "Eventos": [
+    {
+     "AccDtaud": null,
+     "ActAs": "Conferência sobre o Quadro Financeiro Plurianual (2028-2034) e recursos próprios da União Europeia",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": "2026-10-20",
+     "ActId": "116701",
+     "ActLg": "XVII",
+     "ActLoc": "Sala do Senado",
+     "ActNr": null,
+     "ActSl": "2",
+     "ActTp": "EVN",
+     "ActTpdesc": "Evento",
+     "CmsAb": "CAE",
+     "CmsNo": "Comissão de Assuntos Europeus ",
+     "NomeEntidadeExterna": null,
+     "TevTp": "Conferência"
+    }
+   ],
    "Gpa": [
     {
      "CgaCrg": "Membro",
@@ -4531,6 +4550,16 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Garantias de integridade e independência da CReSAP",
+     "ReqDt": "2026-11-13 00:00:00.0",
+     "ReqId": "232028",
+     "ReqLg": "XVII",
+     "ReqNr": "385",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Erro no mapa de vagas do Internato Médico de 2027 - retirada de duas vagas de Cirurgia Geral à ULS da Região de Aveiro",
@@ -5900,7 +5929,7 @@
   ],
   "DepGP": [
    {
-    "GpDtFim": "2026-11-13",
+    "GpDtFim": "2026-11-17",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

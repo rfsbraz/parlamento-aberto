@@ -3,6 +3,17 @@
   {
    "ActP": [
     {
+     "ActAs": "De pesar pelo falecimento de José Luís Bonifácio Ramos",
+     "ActDtdeb": null,
+     "ActDtent": "17-11-2026",
+     "ActId": "248905",
+     "ActNr": "810",
+     "ActSelLg": "XVII",
+     "ActSelNr": "2",
+     "ActTp": "VOT",
+     "ActTpdesc": "Voto"
+    },
+    {
      "ActAs": "De saudação aos agentes de proteção civil e forças de segurança envolvidas no apoio às tempestades",
      "ActDtdeb": null,
      "ActDtent": "12-11-2026",
@@ -2258,7 +2269,15 @@
    "Rel": {
     "AutoresPareceresIncImu": null,
     "RelatoresContasPublicas": null,
-    "RelatoresIniEuropeias": null,
+    "RelatoresIniEuropeias": [
+     {
+      "IneDataRelatorio": "2026-11-03",
+      "IneId": "227865",
+      "IneReferencia": "COM(2026)681",
+      "IneTitulo": "Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO EU KIDS ACT — Salvaguarda da Responsabilização e da Fiabilidade nos Espaços Digitais da Internet na UE",
+      "Leg": "XVII"
+     }
+    ],
     "RelatoresIniciativas": null,
     "RelatoresPeticoes": [
      {
@@ -2280,6 +2299,16 @@
     ]
    },
    "Req": [
+    {
+     "ReqAs": "Recuperação e aproveitamento habitacional das habitações existentes nos bairros prisionais de Vale Judeus e do Outeiro, em Alcoentre, concelho de Azambuja",
+     "ReqDt": "2026-11-11 00:00:00.0",
+     "ReqId": "231995",
+     "ReqLg": "XVII",
+     "ReqNr": "356",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
     {
      "ReqAs": "Dados sobre a atividade da \"medicina de género\" e custos para o SNS",
      "ReqDt": "2026-08-07 00:00:00.0",
@@ -2328,7 +2357,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-13",
+    "GpDtFim": "2026-11-17",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

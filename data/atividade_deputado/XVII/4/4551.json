@@ -3670,12 +3670,20 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Bragança",
+     "Data": "2026-01-19",
+     "Estabelecimento": "Agrupamento de Escolas de Alfândega da Fé",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Debate na Escola"
+    },
+    {
+     "CirculoEleitoral": "Bragança",
+     "Data": "2026-02-24",
+     "Estabelecimento": "Auditório Paulo Quintela R. Abílio Beça - Bragança",
+     "Legislatura": "XVII",
+     "Sessao": "Secundário",
+     "TipoReuniao": "Sessão Distrital/Regional"
     }
    ],
    "Rel": {
@@ -3715,6 +3723,26 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Esclarecimentos sobre a candidatura da Europe Startup Nations Alliance (ESNA) ao estatuto de consórcio europeu e garantias de manutenção da sua sede em Portugal",
+     "ReqDt": "2026-11-16 00:00:00.0",
+     "ReqId": "232020",
+     "ReqLg": "XVII",
+     "ReqNr": "378",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Garantias de integridade e independência da CReSAP",
+     "ReqDt": "2026-11-13 00:00:00.0",
+     "ReqId": "232028",
+     "ReqLg": "XVII",
+     "ReqNr": "385",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Investimento turístico na Estação do Côa — obstáculos à entrada em funcionamento e articulação entre entidades públicas",
@@ -4416,7 +4444,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-13",
+    "GpDtFim": "2026-11-17",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

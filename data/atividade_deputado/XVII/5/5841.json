@@ -1419,12 +1419,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": "Lisboa",
-     "Data": "2025-12-16",
-     "Estabelecimento": "Escola Secundária da Ramada, Odivelas",
-     "Legislatura": "XVII",
-     "Sessao": "Básico",
-     "TipoReuniao": "Debate na Escola"
+     "CirculoEleitoral": null,
+     "Data": null,
+     "Estabelecimento": null,
+     "Legislatura": null,
+     "Sessao": null,
+     "TipoReuniao": null
     }
    ],
    "Rel": {
@@ -1618,6 +1618,16 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "EI"
+    },
+    {
+     "ReqAs": "Garantias de integridade e independência da CReSAP",
+     "ReqDt": "2026-11-13 00:00:00.0",
+     "ReqId": "232028",
+     "ReqLg": "XVII",
+     "ReqNr": "385",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Encerramento da unidade industrial da ECCO em Santa Maria da Feira - salvaguarda dos direitos dos trabalhadores e medidas de proteção do emprego",
@@ -3109,7 +3119,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-13",
+    "GpDtFim": "2026-11-17",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

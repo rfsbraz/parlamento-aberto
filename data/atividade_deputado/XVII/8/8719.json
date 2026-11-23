@@ -245,7 +245,26 @@
      "ActTpdesc": "Voto"
     }
    ],
-   "Audicoes": null,
+   "Audicoes": [
+    {
+     "AccDtaud": null,
+     "ActAs": null,
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": null,
+     "ActLg": null,
+     "ActLoc": null,
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": null,
+     "ActTpdesc": null,
+     "CmsAb": null,
+     "CmsNo": null,
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    }
+   ],
    "Audiencias": null,
    "Cms": null,
    "DadosLegisDeputado": [
@@ -261,6 +280,15 @@
    "Eventos": null,
    "Gpa": null,
    "Ini": [
+    {
+     "IniId": "377389",
+     "IniNr": "820",
+     "IniSelLg": "XVII",
+     "IniSelNr": "2",
+     "IniTi": "Regula as relações de trabalho no exercício profissional da advocacia e reforça a proteção social dos advogados na parentalidade, na doença, na gravidez de risco e no luto, procede à terceira alteração ao Decreto-Lei n.º 131/2009, de 1 de junho, e altera o Código de Processo Civil",
+     "IniTp": "J",
+     "IniTpdesc": "Projeto de Lei"
+    },
     {
      "IniId": "377378",
      "IniNr": "819",
@@ -2574,7 +2602,7 @@
      "PubNr": "116",
      "PubSl": "1",
      "PubTp": "D",
-     "TinDs": "Pergunta"
+     "TinDs": "Pedido de esclarecimento"
     },
     {
      "IntId": "505295",
@@ -3541,7 +3569,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-13",
+    "GpDtFim": "2026-11-17",
     "GpDtInicio": "2025-06-03",
     "GpId": 7266.0,
     "GpSigla": "PCP"

@@ -3548,7 +3548,26 @@
      "Nome": "José Lago Gonçalves"
     }
    ],
-   "Deslocacoes": null,
+   "Deslocacoes": [
+    {
+     "AccDtaud": null,
+     "ActAs": "Visita aos Portos Europeus",
+     "ActDtdes1": "2026-09-27",
+     "ActDtdes2": "2026-09-30",
+     "ActDtent": null,
+     "ActId": "157705",
+     "ActLg": "XVII",
+     "ActLoc": "Hamburgo, Roterdão e Antuérpia",
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": "DES",
+     "ActTpdesc": "Deslocação",
+     "CmsAb": "CIMH",
+     "CmsNo": "Comissão de Infraestruturas, Mobilidade e Habitação",
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    }
+   ],
    "DlE": [
     {
      "DevDtfim": "2026-09-30 00:00:00.0",
@@ -3988,6 +4007,16 @@
     ]
    },
    "Req": [
+    {
+     "ReqAs": "Despejo de antigo combatente de 76 anos em Guifões, Matosinhos, e resposta habitacional municipal",
+     "ReqDt": "2026-11-14 00:00:00.0",
+     "ReqId": "232043",
+     "ReqLg": "XVII",
+     "ReqNr": "205",
+     "ReqPerTp": "REQ",
+     "ReqSl": "2",
+     "ReqTp": "AL"
+    },
     {
      "ReqAs": "Acesso dos Antigos Combatentes aos Equipamentos Municipais.",
      "ReqDt": "2026-07-30 00:00:00.0",
@@ -7154,7 +7183,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-13",
+    "GpDtFim": "2026-11-17",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

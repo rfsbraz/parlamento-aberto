@@ -3468,7 +3468,15 @@
    "Rel": {
     "AutoresPareceresIncImu": null,
     "RelatoresContasPublicas": null,
-    "RelatoresIniEuropeias": null,
+    "RelatoresIniEuropeias": [
+     {
+      "IneDataRelatorio": "2026-10-26",
+      "IneId": "227838",
+      "IneReferencia": "COM(2026)980",
+      "IneTitulo": "Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO relativo à digitalização da coordenação dos sistemas de segurança social, que estabelece um quadro para o Passaporte Europeu de Segurança Social (PESS) e que altera os Regulamentos (CE) n.º 883/2004, (CE) n.º 987/2009 e (UE) 2018/1724",
+      "Leg": "XVII"
+     }
+    ],
     "RelatoresIniciativas": [
      {
       "AccDtrel": null,
@@ -3545,7 +3553,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-13",
+    "GpDtFim": "2026-11-17",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

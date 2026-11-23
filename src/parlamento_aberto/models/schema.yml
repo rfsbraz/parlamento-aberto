@@ -132,6 +132,7 @@ models:
     description: >-
       Uma linha por evento da agenda parlamentar da legislatura atual, a partir de
       data/agenda_parlamentar/.
+    rolling: true
     quirks:
       - >-
         Só a legislatura atual entra. Os ficheiros da XV e da XVI são restos congelados

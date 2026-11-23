@@ -238,9 +238,15 @@ def acknowledgements(excerpt: str, previous: str | None) -> set[tuple[str, str]]
     return set(ACK.findall(excerpt)) - old
 
 
+def rolling_marts() -> frozenset[str]:
+    """Marts whose source is a moving window, from schema.yml."""
+    return frozenset(name for name, spec in load_schema().items() if spec.get("rolling"))
+
+
 def drift(previous: dict, current: dict, acknowledged: set[tuple[str, str]]) -> list[str]:
     """Drops over 5% per mart and legislature (or per mart, 'all', without one)."""
     out = []
+    rolling = rolling_marts()
     for mart, prev in sorted(previous.get("marts", {}).items()):
         cur = current.get("marts", {}).get(mart, {"rows": 0, "rows_by_legislature": {}})
         if prev.get("rows_by_legislature") is None:
@@ -249,6 +255,8 @@ def drift(previous: dict, current: dict, acknowledged: set[tuple[str, str]]) -> 
             now = cur.get("rows_by_legislature") or {}
             pairs = [(leg, n, now.get(leg, 0)) for leg, n in prev["rows_by_legislature"].items()]
         for leg, before, after in sorted(pairs, key=lambda p: p[0]):
+            if mart in rolling and after > 0:
+                continue
             if before and after < before * (1 - MAX_DROP) and (mart, leg) not in acknowledged:
                 change = (after - before) / before * 100
                 out.append(f"{mart} {leg}: {before} -> {after} ({change:.1f}%)")

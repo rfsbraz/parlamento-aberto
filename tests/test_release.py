@@ -147,10 +147,15 @@ def test_drift_allows_shrinkage_on_a_rolling_mart():
         release.drift(prev, manifest_with({"agenda": {"XVII": 34}, "votes": {"XVII": 100}}), set())
         == []
     )
+    # A legislature change is not an empty mart: the window just moved.
+    assert (
+        release.drift(prev, manifest_with({"agenda": {"XVIII": 12}, "votes": {"XVII": 100}}), set())
+        == []
+    )
     # A drop to zero still blocks, and so does shrinkage on a historical mart.
     assert release.drift(
         prev, manifest_with({"agenda": {"XVII": 0}, "votes": {"XVII": 100}}), set()
-    ) == ["agenda XVII: 36 -> 0 (-100.0%)"]
+    ) == ["agenda all: 36 -> 0 (-100.0%)"]
     assert release.drift(
         prev, manifest_with({"agenda": {"XVII": 34}, "votes": {"XVII": 90}}), set()
     ) == ["votes XVII: 100 -> 90 (-10.0%)"]

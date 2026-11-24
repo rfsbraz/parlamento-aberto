@@ -1,7 +1,20 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3259315a544d314d6d55784c546c684d6a59744e4751774f4330344d5445304c574d784f5751794d3249774d5749785a5335775a47593d&fich=f5e352e1-9a26-4d08-8114-c19d23b01b1e.pdf&Inline=true",
+   "anexoNome": "Texto da iniciativa - Versão assinada"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63784e5459785a44426a4c57466d4d5445744e4467325a6931695954686d4c5441325a6a49344f574d314d6d59305979356b62324e34&fich=71561d0c-af11-486f-ba8f-06f289c52f4c.docx&Inline=true",
+   "anexoNome": "Convenção"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249344e4459324d7a51344c5449354f5467744e4749355a433169596d566d4c574a6c5a544d304f5759305a4445335a4335775a47593d&fich=b8466348-2998-4b9d-bbef-bee349f4d17d.pdf&Inline=true",
+   "anexoNome": "Ofício - Processo de urgência"
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -82,7 +95,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-12-18",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer CNECP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938334e574d314f474e6c5969307a4d7a59794c5451785a575574596d55324d4330304d32526d4f5449314f444d354e5455756347526d&fich=75c58ceb-3362-41ee-be60-43df92583955.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8448",
      "Legislatura": null,
@@ -412,7 +432,7 @@
  ],
  "IniId": "315874",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251774e54526b4e6d526c4c544134596d51744e446c685a4331684e5745304c54426a4d546468597a52684f54686b4e79356b62324e34&fich=d054d6de-08bd-49ad-a5a4-0c17ac4a98d7.docx&Inline=true",
  "IniNr": "5",
  "IniObs": null,
  "IniSel": "1",

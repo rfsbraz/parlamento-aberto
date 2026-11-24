@@ -1739,12 +1739,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4534597a51324e5451304c5451314d7a51744e4745354d6931685a6a51794c5441784d54497a4e6a557a4d544a6d5a5335775a47593d&fich=18c46544-4534-4a92-af42-0112365312fe.pdf&Inline=true",
-     "anexoNome": "Requerimento PSD"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-06-12",
@@ -1822,7 +1817,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-01",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação de subida a Plenário",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a5957387659545132593255354d6a497459544d314d6930305a575a6c4c546c6d4f5759745a6d55354e6d5a6c597a4d334d4745314c6e426b5a673d3d&fich=a46ce922-a352-4efe-9f9f-fe96fec370a5.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,

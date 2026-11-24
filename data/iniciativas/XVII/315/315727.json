@@ -1,12 +1,7 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a46694e5745334f474e694c5749344d7a41744e445178597931695a5441784c545a695a6a45774d5451344d6a59324e7935775a47593d&fich=1b5a78cb-b830-441c-be01-6bf101482667.pdf&Inline=true",
-   "anexoNome": "A.I.G."
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": [
   {
    "GP": "PSD",
@@ -206,24 +201,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=510"
-      },
-      {
-       "DataDocumento": "2025-12-03",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota Técnica",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f5467345a6d453159575574596a6b3559693030596d517a4c5745344d4459745a5449795a546b794e6a4d31597a646c4c6e426b5a673d3d&fich=988fa5ae-b99b-4bd3-a806-e22e92635c7e.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-02-10",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório do Projeto de Lei n.º 279/XVII/1 (PSD/CDS-PP)",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a45304f57526a4d4455744e7a51314d6930304e574a6a4c574a684d6d51744d7a51774d6a56694f4449794f5467314c6e426b5a673d3d&fich=f149dc05-7452-45bc-ba2d-34025b822985.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-03-18",
-       "TipoDocumento": "Texto de Substituição",
-       "TituloDocumento": "Texto de substituição",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a4459324d6d4d315a6d4d744d5751775a4330304d4463304c5749344e6a4974597a4e6d4f4751785a544d32597a64694c6e426b5a673d3d&fich=d662c5fc-1d0d-4074-b862-c3f8d1e36c7b.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -523,7 +500,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-04-14",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a457a4e6d55334d5455745a54417a4f4330304e324a694c5745324f4749744e444e694d324d305a6d5a695957566b4c6e426b5a673d3d&fich=c136e715-e038-47bb-a68b-43b3c4ffbaed.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8459",
      "Legislatura": null,
@@ -702,7 +686,7 @@
  ],
  "IniId": "315727",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a686a4e6d45314f546b794c544a6b4d6a4d744e445134597931685a44646c4c5745325a4459794e54466d4e7a56695969356b62324e34&fich=8c6a5992-2d23-448c-ad7e-a6d6251f75bb.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "279",
  "IniObs": null,
  "IniSel": "1",

@@ -416,7 +416,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324534597a4d354d446c6b4c574578593245744e4459324f4331684e7a6b794c54526a4f545269597a6c6d593259324d69356b62324e34&fich=a8c3909d-a1ca-4668-a792-4c94bc9fcf62.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3259325a5755324d32526c4c544d785a5745744e4745334d79303459324a6d4c5441304f44466a593251794e324d31596935775a47593d&fich=f6ee63de-31ea-4a73-8cbf-0481ccd27c5b.pdf&Inline=true",
+     "anexoNome": "Despacho do PAR - admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-06-25",
@@ -2352,7 +2361,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249334d6d59354e3249794c5467794e3255744e44426c4f4330355a6a49334c544d784e6a49304f4449784e4445775a6935775a47593d&fich=b72f97b2-827e-40e8-9f27-31624821410f.pdf&Inline=true",
+     "anexoNome": "Requerimento CH"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2025-07-04",
@@ -2439,7 +2453,92 @@
        "sigla": "GT-AALN"
       }
      ],
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-08-11",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronúncia escrita - Professor Doutor Paulo Otero ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a646a4d6d566a4d544d745a4746694d793030596d4d304c5467354e7a67744d4756684e4459784d5751304e445a684c6e426b5a673d3d&fich=c7c2ec13-dab3-4bc4-8978-0ea4611d446a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-01",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronúncia escrita - Comunidade Israelita de Lisboa",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f574d315a5459774d6a55744d47497a4e6930304e5745334c5745784e5451744d5449334e44557a5a446b785a5455784c6e426b5a673d3d&fich=9c5e6025-0b36-45a7-a154-127453d91e51.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-02",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronúncia escrita - Professor Doutor Carlos Blanco de Morais",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596d45334f575978597a63744d44646a5a6930305a6d59344c546c6b4e3249744f4759784e544a6d4f54597a4d7a51354c6e426b5a673d3d&fich=ba79f1c7-07cf-4ff8-9d7b-8f152f963349.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-03",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronúncia escrita - Professor Doutor Miguel Nogueira de Brito",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6d5a6c4e4455794d5745745a57566c4e4330304e32517a4c546c6a4f5441744e325a6d4e3251355a57517a4e6d5a6b4c6e426b5a673d3d&fich=2fe4521a-eee4-47d3-9c90-7ff7d9ed36fd.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-05",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronúncia escrita - Professor Doutor Jónatas Machado",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a474d344d7a4d304d32497459574e69596930304f5459354c546869595759745a575978595451775a6a6c684e4755774c6e426b5a673d3d&fich=dc83343b-acbb-4969-8baf-ef1a40f9a4e0.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-08",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronúncia escrita - Professora Doutora Inês Ferreira Leite",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f446b324d544e6d593249744e4755775a6930304f5464694c5746694d6a59745954677a4d6d4a695932466c595455774c6e426b5a673d3d&fich=89613fcb-4e0f-497b-ab26-a832bbcaea50.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-08",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronúncia escrita - Professor Doutor Jorge Reis Novais",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a68694d6a6869597a59744e5468694d6930304e7a51774c5467335a5459745a6a4a695a5464684e5445304e5751354c6e426b5a673d3d&fich=f8b28bc6-58b2-4740-87e6-f2be7a5145d9.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-08",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronúncia escrita - Professora Doutora Ana Rita Gil",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a6732596d466c4d6a51744d5755795a4330304e6d4e6a4c54686d4e5445744d7a557a4e7a67315a4749794f444d354c6e426b5a673d3d&fich=286bae24-1e2d-46cc-8f51-353785db2839.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-08",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronúncia escrita - Professora Doutora Catarina Santos Botelho",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f546b30597a4d7a4d324974597a4d324e4330305a5452684c546b334f5459745a6a63795a546778597a5a695a5745794c6e426b5a673d3d&fich=994c333b-c364-4e4a-9796-f72e81c6bea2.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-09",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronúncia escrita - Professora Doutora Catarina Reis de Oliveira",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a41334e6d49304e5463745a545a6b4e5330304d4456694c574a6c4e546b744e7a5a6b4f445579595449784d4759314c6e426b5a673d3d&fich=7076b457-e6d5-405b-be59-76d852a210f5.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-16",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronúncia escrita - Professor Doutor Rui Moura Ramos",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a44426c5a5455774d546b744d7a6b304e7930305957526c4c546b33595459745a474a6d4f474e685a474a694e6d517a4c6e426b5a673d3d&fich=d0ee5019-3947-4ade-97a6-dbf8cadbb6d3.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-29",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronúncia escrita - Professor Doutor Luís Menezes do Vale",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d3259304d6d49354e4459744e7a46694e4330304e7a686a4c546c6c4d7a45745954646b5a6a6c684d7a49355a5445334c6e426b5a673d3d&fich=3f42b946-71b4-478c-9e31-a7df9a329e17.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-10-13",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "PA1 - GP CHEGA",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a5467314d6a497a4f5441744d325a6c4e6930304d6a67774c5745324e474d745a475a695a4464684f5445774d5751794c6e426b5a673d3d&fich=e8522390-3fe6-4280-a64c-dfbd7a9101d2.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-10-22",
+       "TipoDocumento": "Quadro comparativo",
+       "TituloDocumento": "Quadro comparativo - Lei da Nacionalidade",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a686b5a4449794d4755744e7a6b334d6930304e5759314c57457a4f4745745a5441784f446b7a5a4441304e6a417a4c6e426b5a673d3d&fich=28dd220e-7972-45f5-a38a-e01893d04603.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,

@@ -82,7 +82,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49794e5445784e6d4a6d4c5446694f4459744e446b794d43316859324a684c5455775a5464694d54526b4f4755334f43356b62324e34&fich=225116bf-1b86-4920-acba-50e7b14d8e78.docx&Inline=true",
+     "anexoNome": "Nota de Admissiblidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-08-27",
@@ -1408,12 +1413,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a646d4f5449325a6d55314c544d324d6a45744e44426959793168596a6b324c5445324e6d45304d545668597a41335a69356b62324e34&fich=7f926fe5-3621-40bc-ab96-166a415ac07f.docx&Inline=true",
-     "anexoNome": "Projeto de Decreto"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -1434,14 +1434,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2025-09-29",
-       "TipoDocumento": "Redação final",
-       "TituloDocumento": "Confirmação da Redação Final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c59574e68593259324e79307a4e3255344c5452685a6d4d74596a4d775979316c4e7a4a6d4e4467345a575a68596a59756347526d&fich=eacacf67-37e8-4afc-b30c-e72f488efab6.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8451",
      "Legislatura": null,

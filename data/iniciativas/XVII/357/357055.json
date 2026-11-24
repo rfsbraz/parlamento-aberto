@@ -181,12 +181,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324a6859575a6a4d6a4e6b4c546b354e7a49744e44686c4f4330344e5459304c5455774e54637759574e6d4e446c6c5a6935775a47593d&fich=baafc23d-9972-48e8-8564-50570acf49ef.pdf&Inline=true",
-     "anexoNome": "Despacho PAR N.º 287-XVII - Pedido de redistribuição"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "181",
    "Comissao": [
     {
@@ -347,7 +342,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-22",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314e7a4d794d474e6b4d53316c593251344c54526d4d5459744f544a6c59533030597a517a4d446b7a5a4441334e4445755a47396a65413d3d&fich=57320cd1-ecd8-4f16-92ea-4c43093d0741.docx&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8448",
      "Legislatura": null,
@@ -457,7 +459,7 @@
  ],
  "IniId": "357055",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55314e57466d5a6d55314c5745785a5467744e444e684e7930354f5468684c544d304d54497a4e5467304f545932597935775a47593d&fich=555affe5-a1e8-43a7-998a-34123584966c.pdf&Inline=true",
  "IniNr": "1147",
  "IniObs": null,
  "IniSel": "1",

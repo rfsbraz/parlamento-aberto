@@ -1745,7 +1745,20 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5a6b4d325934595449314c544d354d4745744e4455335a6931694e4449774c5445794e4463345932593459544a6a4f4335775a47593d&fich=6d3f8a25-390a-457f-b420-12478cf8a2c8.pdf&Inline=true",
+     "anexoNome": "Requerimento PS"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324e6a4d6a45795a5759344c574e6d4d4451744e475a6d4e5330345a5467794c5467304e4463775954646c5a5755795a5335775a47593d&fich=cc212ef8-cf04-4ff5-8e82-84470a7eee2e.pdf&Inline=true",
+     "anexoNome": "Propostas de Alteração PS"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49335a47466a5a5445334c544577597a49744e47497a5a533169596a42694c574a6c4d4463324e5749334d446b774d6935775a47593d&fich=27dace17-10c2-4b3e-bb0b-be0765b70902.pdf&Inline=true",
+     "anexoNome": "Propostas de Alteração PS (aditamento)"
+    }
+   ],
    "CodigoFase": "280",
    "Comissao": null,
    "DataFase": "2026-05-21",
@@ -1781,7 +1794,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3259304e6a45344d7a63794c5468694d444d744e4451344e533168597a45304c54517a4d54466b5a57593259546335596935775a47593d&fich=f4618372-8b03-4485-ac14-4311def6a79b.pdf&Inline=true",
+     "anexoNome": "Resultado das Votações (Guião Suplementar)"
+    }
+   ],
    "CodigoFase": "310",
    "Comissao": null,
    "DataFase": "2026-05-22",
@@ -2384,14 +2402,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-06-03",
-       "TipoDocumento": "Redação final",
-       "TituloDocumento": "Redação Final – Deliberação da Comissão",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876595463314e6a5533596a55744d54466a4d5330304e6a4d354c5467324e7a45744d6a4a694d44497a5a6a45354d7a4a684c6e426b5a673d3d&fich=a75657b5-11c1-4639-8671-22b023f1932a.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8456",
      "Legislatura": null,

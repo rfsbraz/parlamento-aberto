@@ -1795,7 +1795,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-09-16",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938304f5746695a4751795a6930354e5749324c5451344e6a6b74595749305a5330314d6a5934597a41345a44526b4e5749756347526d&fich=49abdd2f-95b6-4869-ab4e-5268c08d4d5b.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8455",
      "Legislatura": null,
@@ -1893,7 +1900,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59314e324932596d55304c5759314e6a59744e4749334e4330354d6a466c4c5451324f5455354e6a51354e7a55795969356b62324e34&fich=657b6be4-f566-4b74-921e-46959649752b.docx&Inline=true",
+     "anexoNome": "Sugestão de Redação Final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -2031,7 +2043,7 @@
  ],
  "IniId": "356296",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4a694f5752695a5451774c544e6a4f4759744e4751314d5330355a6a52694c5467335a6d55794f5745315a6a6b325a69356b62324e34&fich=2b9dbe40-3c8f-4d51-9f4b-87fe29a5f96f.docx&Inline=true",
  "IniNr": "671",
  "IniObs": null,
  "IniSel": "1",

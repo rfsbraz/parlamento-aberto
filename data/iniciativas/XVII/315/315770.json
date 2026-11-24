@@ -215,7 +215,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5577595463324d7a4e6a4c54426a4e5755744e446869597931684f47597a4c54637a4f5756684d7a426a596a41334e7935775a47593d&fich=50a7633c-0c5e-48bc-a8f3-739ea30cb077.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "174",
    "Comissao": null,
    "DataFase": "2025-12-02",
@@ -270,6 +275,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=555"
+      },
+      {
+       "DataDocumento": "2026-01-13",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer - DECO",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d4f54493159544a6b4e533169595751354c5451784e7a4974596a526b4d43307a595449324e4441354e32566a4e4749756347526d&fich=f925a2d5-bad9-4172-b4d0-3a264097ec4b.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -312,12 +323,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325a6d5a4751334d4451774c5755324d5449744e4752694e4330354d4745344c5463344e7a677a593259345a6a4e6a4f5335775a47593d&fich=ffdd7040-e612-4db4-90a8-78783cf8f3c9.pdf&Inline=true",
-     "anexoNome": "Parecer"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2025-12-16",
@@ -2649,68 +2655,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-06-01",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Contributos - AdC",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938334d5467335a4459305969316d4d5749354c5451304f5441744f5467334e53316d5a446c6c4e57526d596d51304d5445756347526d&fich=7187d64b-f1b9-4490-9875-fd9e5dfbd411.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-05-26",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Contributos - AMT",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793878596d4d77595467784d7930344d7a5a6d4c54526c4d7a41744f54597a595330304e7a49335a4455315a474d784e4759756347526d&fich=1bc0a813-836f-4e30-963a-4727d55dc14f.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-04-10",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Contributos - ANM TVDE",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a4e5467344f5446684f4330775a5755314c54517a4e324d744f44466c596930344d5749345a5455325a5451355a6a63756347526d&fich=c58891a8-0ee5-437c-81eb-81b8e56e49f7.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-06-03",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Contributos - CNPD",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938324f444a6b4d6a63304f5330354d7a4e6d4c54526d5a4467744f54646b4d69316b4d6a6b344e446335595751345a6a55756347526d&fich=682d2749-933f-4fd8-97d2-d298479ad8f5.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-04-10",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Contributos - PRO TVDE",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938784d6d49354d544d78597930785a6a51774c54517a4d7a59744f5463354e533034593251794e7a41354f57497a4e6d45756347526d&fich=12b9131c-1f40-4336-9795-8cd27099b36a.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-04-27",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Contributos - PRO TVDE",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a5a44677a4d44646a4d5330334d4459784c5451354e7a5174596a4578595330794d54466a4d6a67774f545933597a41756347526d&fich=3d8307c1-7061-4974-b11a-211c280967c0.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-05-19",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Contributos - Somos TVDE",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774f546c6c5a6a566d4f5331694e5463794c54517a4d5455744f54526a4e79316a4e7a46695954466d4e7a4d304f5755756347526d&fich=099ef5f9-b572-4315-94c7-c71ba1f7349e.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-07-15",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório de Votações",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d4e7a63794e4455344e79316b4f4455324c5452694d5755744f4759334e69316c4d7a6735595456684e6a4d355a5751756347526d&fich=f7724587-d856-4b1e-8f76-e389a5a639ed.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-07-15",
-       "TipoDocumento": "Texto final",
-       "TituloDocumento": "Texto Final com Republicação Anexa",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938324f54417a4d544a68597930344d4445794c5451314f546b74595755324d7930784e44637a596a526a4d57466c5a5751756347526d&fich=690312ac-8012-4599-ae63-1473b4c1aeed.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-07-06",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Contributo APTAD - junho 2026",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684f474a694d44646b4e69316b595441334c54526d4d3255744f574d305969316d5a5755355a6d5a6a4e4755794e6d49756347526d&fich=a8bb07d6-da07-4f3e-9c4b-fee9ffc4e26b.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8460",
      "Legislatura": null,
@@ -3341,16 +3286,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45794d6a6b314d5456694c545269596a67744e47566a4f433035596a45774c546b344e6a566b4d7a466a59324e6c4d53356b62324e34&fich=1229515b-4bb8-4ec8-9b10-9865d31ccce1.docx&Inline=true",
-     "anexoNome": "Informação de Redação Final"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324a6b4d5467314f5441354c5755314e7a67744e474a684d5330354f546b344c57566d595751794e32466d4e5755324e69356b62324e34&fich=bd185909-e578-4ba1-9998-efad27af5e66.docx&Inline=true",
-     "anexoNome": "Projeto de Decreto"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -3371,20 +3307,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-07-24",
-       "TipoDocumento": "Informação",
-       "TituloDocumento": "Informação",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c4d574a6d4d7a417a4e6930304d4745784c54526d4e444974596a6b315a693032593252695a474d335a6a51344f4455756347526d&fich=e1bf3036-40a1-4f42-b95f-6cdbdc7f4885.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-07-24",
-       "TipoDocumento": "Redação final",
-       "TituloDocumento": "Redação Final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938785a445931596a55304e7930334d5445354c54517a4f475174595449334d79316c5a5455784d7a41794e7a4d334d7a55756347526d&fich=1d65b547-7119-438d-a273-ee5130273735.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8460",
      "Legislatura": null,

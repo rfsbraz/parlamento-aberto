@@ -107,7 +107,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324e6c4f575a6a5a574a6a4c5751344e5759744e44466d4d7930345a4467324c5449354d324e684d5755324f4445784e79356b62324e34&fich=ce9fcebc-d85f-41f3-8d86-293ca1e68117.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-07-10",
@@ -2265,10 +2270,112 @@
      "DistribuicaoSubcomissao": null,
      "Documentos": [
       {
+       "DataDocumento": "2026-02-24",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "01. PA_PJL95_JPP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684d6d4d345a546b325a5330785a54637a4c54526d4f444d744f4746695a533169596a686a4d544179597a6b344f4451756347526d&fich=a2c8e96e-1e73-4f83-8abe-bb8c102c9884.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-10",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributos - Académica da Madeira",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c596a5131597a4a6d595330304e4463304c5452694f545174595755324e53316d4e4467335a6a55314e5755354f4745756347526d&fich=eb45c2fa-4474-4b94-ae65-f487f555e98a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-06",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributos - ACIF",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a596a497a4e7a4a6b4e693033596a426a4c5451344f544174595441314d4331684d57466d4e5445315a54466b4d7a49756347526d&fich=3b2372d6-7b0c-4890-a050-a1af515e1d32.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-13",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributos - AMT",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793879596a4d77596a4d315979316a4d546b7a4c54526c5954597459574e694f4330324e7a64684e4459325932526a4d6a59756347526d&fich=2b30b35c-c193-4ea6-acb8-677a466cdc26.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-05",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributos - ANAC",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a4f44637a4d7a52694d4330785a6d597a4c545178596a55744f474d354d79316d597a4d334f4449784d6a686b5a6a41756347526d&fich=387334b0-1ff3-41b5-8c93-fc3782128df0.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-04",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributos - APAVT",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684e54566b5a574d354e6930774d6d4a6d4c5451314f4755744f546b795a4330784d546b775932466a59324d795a4751756347526d&fich=a55dec96-02bf-458e-992d-1190caccc2dd.pdf&Inline=true"
+      },
+      {
        "DataDocumento": "2025-08-05",
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=360"
+      },
+      {
+       "DataDocumento": "2025-10-27",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributos - CTT",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938354e32557a4e3259305a43316b595463354c5451354f5445744f44526c4d6930794e7a566d4e6d4e6d4e6a51334d7a45756347526d&fich=97e37f4d-da79-4991-84e2-275f6cf64731.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-17",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributos - easyJet",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939685a4445794e4759324e4330324e7a49774c5451304d7a4d74595459355979316c5a5445335932566a4d444977597a59756347526d&fich=ad124f64-6720-4433-a69c-ee17cec020c6.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-05",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributos - IMT",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938344e6a466a5a6d457a4d693078596a426a4c5451774e6d51744f5451324e79316a4f5441774e7a6468595451344e7a41756347526d&fich=861cfa32-1b0c-406d-9467-c90077aa4870.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-14",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributos - Provedor de Justiça",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a5a4468684e4441354d79316d4d54426c4c54526a4f445174595759334d69316c4e6d526a5a4745325a6a4d79597a59756347526d&fich=cd8a4093-f10e-4c84-af72-e6dcda6f32c6.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-17",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributos - SATA",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c4e6a52685a6d59334d53307a4e6a466b4c545131593251744f57517a4e53307a596a686c595445794f5441305a6d4d756347526d&fich=e64aff71-361d-45cd-9d35-3b8ea12904fc.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-05",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributos - TAP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939694e6d5a694d3259324d7930314d6d46694c5452685a6a557459574d784f4330304d32526c4d57466a4f5755324f446b756347526d&fich=b6fb3f63-52ab-4af5-ac18-43de1ac9e689.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-04",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributos DECO - CH",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774e3256684e575931597931684f57597a4c5451324f546774595445304e43316d5a6d4d794e574e6c4d44686c596a55756347526d&fich=07ea5f5c-a9f3-4698-a144-ffc25ce08eb5.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-04",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributos DECO - JPP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a4d3251784e6a4a695a5330794d574d304c54526b4e3251745954646c4e7930784e474d784d5751334f4459334d4441756347526d&fich=c3d162be-21c4-4d7d-a7e7-14c11d786700.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-04",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributos DECO - PS",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a4d7a49314d6a6b354e4330784d6d55794c54517a4f475574596d55794e7931684d7a4578595467795a5463794e7a41756347526d&fich=c3252994-12e2-438e-be27-a311a82e7270.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-04",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributos DECO - PSD",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684d5445325a44637a4d79316b4f5459794c54526b597a4d744f544d774e7930774f5467354d32566c4f444e684e7a51756347526d&fich=a116d733-d962-4dc3-9307-09893ee83a74.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-03",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório de Discussão e Votação na especialidade",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938354d6a557a4e4467324e693168596d52694c5451354d444574596a59795a5330354e4751314d47526d4f574d304f574d756347526d&fich=92534866-abdb-4901-b62e-94d50df9c49c.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -2311,7 +2418,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32526b5a444d335954637a4c5464694d4459744e4745324d6931684e3249794c5449794d6a466a5a6a56694e575a6d4f5335775a47593d&fich=ddd37a73-7b06-4a62-a7b2-2221cf5b5ff9.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "175",
    "Comissao": null,
    "DataFase": "2025-07-16",
@@ -2334,7 +2446,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d785a575531596d59794c5459794d6a4d744e4751344e4331694e324d774c54566c597a4d7a4e4449795a6a4e684f4335775a47593d&fich=c1ee5bf2-6223-4d84-b7c0-5ec33422f3a8.pdf&Inline=true",
+     "anexoNome": "Parecer "
+    }
+   ],
    "CodigoFase": "173",
    "Comissao": null,
    "DataFase": "2025-07-17",
@@ -2357,7 +2474,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45794e7a42685a4751354c544d334f5755744e446b794d4331684e6d4e6c4c5751354d7a646b5a6a51774f474a695a4335775a47593d&fich=1270add9-379e-4920-a6ce-d937df408bbd.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "174",
    "Comissao": null,
    "DataFase": "2025-07-23",
@@ -2380,7 +2502,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6c6c4d4755355954646d4c574e684d6a4d744e444d314f4331694e6d59354c5752694d5449794f545578595467324f5335775a47593d&fich=9e0e9a7f-ca23-4358-b6f9-db122951a869.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2025-07-28",

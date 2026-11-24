@@ -92,7 +92,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b344f546b32593251784c5745315a6a63744e444d314e533034597a426a4c57566c4d7a55784d6a55344d7a67344e79356b62324e34&fich=98996cd1-a5f7-4355-8c0c-ee3512583887.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-08-27",
@@ -142,6 +147,24 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Link dos Contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=375"
+      },
+      {
+       "DataDocumento": "2025-12-09",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e5749314d574d30595459744e6a67304d7930305a6a63314c5749314e3255744f546b77596d49354e6a417a4d6a4e6d4c6d52765933673d&fich=5b51c4a6-6843-4f75-b57e-990bb960323f.docx&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-10-06",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer ANAFRE",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e3251324d324e694d6d51744e6a41314f5330304e54417a4c5749305a4445744d3256694e4451314e546b79597a45304c6e426b5a673d3d&fich=7d63cb2d-6059-4503-b4d1-3eb445592c14.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-30",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer da ANMP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a51794d7a5a6a5a5451744f5445354d4330304e54417a4c574a6d4e7a59744e7a67345a47513259544a6c4f545a694c6e426b5a673d3d&fich=64236ce4-9190-4503-bf76-788dd6a2e96b.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

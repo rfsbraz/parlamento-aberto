@@ -291,7 +291,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6c6c4e6a6c6b4e44426d4c546c684d544d744e4452684e5330354d6d4d324c545a6d5a6a42694e4759334e324a694e7935775a47593d&fich=9e69d40f-9a13-44a5-92c6-6ff0b4f77bb7.pdf&Inline=true",
+     "anexoNome": "Despacho PAR"
+    }
+   ],
    "CodigoFase": "181",
    "Comissao": [
     {
@@ -312,7 +317,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-01",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Informação - Discussão para Plenário",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a63774e5445344e3256694c5756684d5445744e4745314e6930344d6a4a6d4c5755314f4755774e474d7959575a6b4d5335775a47593d&fich=705187eb-ea11-4a56-822f-e58e04c2afd1.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8452",
      "Legislatura": null,
@@ -361,7 +373,7 @@
  ],
  "IniId": "356632",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249334e444d7a4d47566b4c57517a596a51744e4441774e7931684d4463304c546c6b4d444e694f5459794e6a41334f43356b62324e34&fich=b74330ed-d3b4-4007-a074-9d03b9626078.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "883",
  "IniObs": null,
  "IniSel": "1",

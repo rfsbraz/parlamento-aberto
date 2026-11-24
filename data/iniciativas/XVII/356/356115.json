@@ -189,12 +189,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251315a6d4a6c4f44637a4c5745344f4751744e445577597930354d544d784c5441794f446c6d5a6d49314e7a466b4e43356b62324e34&fich=d5fbe873-a88d-450c-9131-0289ffb571d4.docx&Inline=true",
-     "anexoNome": "Nota de admissibilidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-02-13",
@@ -244,6 +239,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=692"
+      },
+      {
+       "DataDocumento": "2026-05-19",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica - PJL 415-XVII",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e475a6b4f4441774d5759744e4449344d6930304d7a526a4c5746684d7a4d744e7a6b354f44526b4d4445324d6d526d4c6e426b5a673d3d&fich=4fd8001f-4282-434c-aa33-79984d0162df.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-01",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório PJL 415-XVII-1",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a46695a475a6b597a51744d6a45334e5330304d6d5a6b4c546b344f5455744f5441324f475534597a5a694d6a686d4c6e426b5a673d3d&fich=c1bdfdc4-2175-42fd-9895-9068e8c6b28f.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -536,7 +543,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5a684d546b785a546c6d4c575a6a595467744e4746684e4331685a6a4d314c54517a5a546b784d4455794d6d597a5979356b62324e34&fich=6a191e9f-fca8-4aa4-af35-43e910522f3c.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {

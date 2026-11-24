@@ -1,7 +1,20 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d314d6a49324d4759354c5455344e574d744e4751354e7930355a6a63784c544a6c596a68694d545a6d4f474d345a4335775a47593d&fich=c52260f9-585c-4d97-9f71-2eb8b16f8c8d.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6c695a4749334d3259784c57566a4f5441744e444a6c4e5330354f445a684c544d314f474669597a49794e7a67334d4335775a47593d&fich=9bdb73f1-ec90-42e5-986a-358abc227870.pdf&Inline=true",
+   "anexoNome": "Texto da iniciativa - Versão assinada"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4131596a6b795a5759794c544931595467744e444d305969316859325a6c4c5456684f5751354f544d784f544e69597935775a47593d&fich=05b92ef2-25a8-434b-acfe-5a9d993193bc.pdf&Inline=true",
+   "anexoNome": "Ofício - Processo de urgência"
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -38,7 +51,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325131597a51314d4451354c546b7a4e4455744e4755345a4330355a4441774c5463774e7a4d334f5467334e444a6d4e43356b62324e34&fich=d5c45049-9345-4e8d-9d00-7073798742f4.docx&Inline=true",
+     "anexoNome": "Nota de Admissiblidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-12-03",
@@ -90,10 +108,28 @@
      "DistribuicaoSubcomissao": null,
      "Documentos": [
       {
+       "DataDocumento": "2025-12-12",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributo - Cidadão André Lima",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314e5464684f4759794e5330315954466b4c5451325a474d74595455314d4330784e7a56695a444d794e6a63794f5751756347526d&fich=557a8f25-5a1d-46dc-a550-175bd326729d.pdf&Inline=true"
+      },
+      {
        "DataDocumento": "2025-12-04",
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=556"
+      },
+      {
+       "DataDocumento": "2026-01-09",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774e6d4a6b4f54457a4d69316a4e6d45344c54526c4d546374595441794e4330324f546b794d6a59304d6a4a6a4e5755756347526d&fich=06bd9132-c6a8-4e17-a024-699226422c5e.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-12-19",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer - Ordem dos Arquitetos",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c4d444a694d7a4a6d597930334f4745784c5451795a5467744f474d324d4331684e474e68596a4d334d3251794f5751756347526d&fich=e02b32fc-78a1-42e8-8c60-a4cab373d29d.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -4986,7 +5022,7 @@
  ],
  "IniId": "315798",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4e694d4445774f54457a4c575977595441744e4455314e7930344e3255344c574577596a51785a54557a4d4467794d79356b62324e34&fich=3b010913-f0a0-4557-87e8-a0b41e530823.docx&Inline=true",
  "IniNr": "48",
  "IniObs": null,
  "IniSel": "1",

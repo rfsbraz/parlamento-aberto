@@ -78,7 +78,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a68694d544d354e4442694c574d355a5445744e4749784f5330355a6d45334c5459325a6d5133597a686c4e6d457a5a53356b62324e34&fich=8b13940b-c9e1-4b19-9fa7-66fd7c8e6a3e.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-09-23",
@@ -5162,7 +5167,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b32595451324d44686b4c575a6c4e546b744e4749794e5330354e546b344c54426a4e54686a4f5745334e546735595335775a47593d&fich=96a4608d-fe59-4b25-9598-0c58c9a7589a.pdf&Inline=true",
+     "anexoNome": "Requerimento L"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2025-09-26",
@@ -5251,7 +5261,68 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-10-27",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a52684f546b304d4755344c544d795a474d744e44426b4d4331684e44686b4c57526c5a57526c5a544e6b4e4442684d7935775a47593d&fich=4a9940e8-32dc-40d0-a48d-deedee3d40a3.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-10",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de alteração remetida pelo Grupo Parlamentar do L",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c3245795a6a6778597a46684c546b78597a51744e444d77595331694f5749334c54466b4d6d4d305a6a49344d4441324e4335775a47593d&fich=a2f81c1a-91c4-430a-b9b7-1d2c4f280064.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-12-10",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a42694e6a4d314f575a6b4c5746694e474d744e44526b4e4330344d7a417a4c5746694e7a6b354d7a51345a6a526c5a4335775a47593d&fich=0b6359fd-ab4c-44d4-8303-ab799348f4ed.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-22",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Relatório de Votações 6.ª - CECT",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a4e684f544534596a67334c5759344d6a55744e44646d4f5331694f44517a4c5751324e324d334d44646b59545179597935775a47593d&fich=3a918b87-f825-47f9-b843-d67c707da42c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-03",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Resposta da OMS às questões apresentadas pelos Grupos Parlamentares",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a646b5a54677a4e3255334c5755304f4463744e4759784e533035596d526c4c5749795a6d4a6c4e6a52684d7a6b334f4335775a47593d&fich=7de837e7-e487-4f15-9bde-b2fbe64a3978.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-02",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Resposta da SIBS FPS às questões apresentadas pelos Grupos Parlamentares",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a5a6a5a6a4d785a44457a4c574e6b4e544d744e446868596931685a6d566d4c546331596d5a684e44673459574e6a5a5335775a47593d&fich=6cf31d13-cd53-48ab-afef-75bfa488acce.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-11",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Resposta do Banco de Portugal às questões apresentadas pelos Grupos Parlamentares",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c325a695a6a4531596a55784c544e6d4e6d4d744e4449784d433168597a41304c54526a4d5749775a4456694f574d34597935775a47593d&fich=fbf15b51-3f6c-4210-ac04-4c1b0d5b9c8c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-02",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Resposta do SRIJ às questões Grupo Parlamentar do Livre",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c32566a4d6d4d35597a526d4c546c6a4d574d744e474d325a5331694d6d4d334c54633359574e6c5a474a685a6a646d5a5335775a47593d&fich=ec2c9c4f-9c1c-4c6e-b2c7-77acedbaf7fe.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-02",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Resposta do SRIJ às questões Grupo Parlamentar do PSD",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c7a646b595449784d6d4d344c5749784d4451744e4446694d5331695a6a457a4c574d7a4e4445784e6d55354d4449324f5335775a47593d&fich=7da212c8-b104-41b1-bf13-c34116e90269.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-12-19",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Prorrogação para nova apreciação na generalidade por 60 dias",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533832513056445643394562324e31625756756447397a5357357059326c6864476c3259554e7662576c7a633246764c32466c4e4745354e47566b4c544d7a597a6b744e4755315a4331694d6a49354c5452694f444a684e7a517a4e546c6d5a4335775a47593d&fich=ae4a94ed-33c9-4e5d-b229-4b82a74359fd.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8452",
      "Legislatura": null,
@@ -5332,7 +5403,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325535595759335a6a46694c57526a4e7a63744e44466a4f433169596a426a4c54526b5a5442694d544932593249354f5335775a47593d&fich=e9af7f1b-dc77-41c8-bb0c-4de0b126cb99.pdf&Inline=true",
+     "anexoNome": "Requerimento"
+    }
+   ],
    "CodigoFase": "280",
    "Comissao": null,
    "DataFase": "2026-04-23",

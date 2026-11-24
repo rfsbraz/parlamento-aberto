@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3259784d7a4a6d597a63774c544a6d4f5449744e445977597930355a6a6b324c57457a4e6a566b4d7a4d334e6a49334d4335775a47593d&fich=f132fc70-2f92-460c-9f96-a365d3376270.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "BE",
@@ -142,6 +147,12 @@
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
      "Documentos": [
+      {
+       "DataDocumento": "2025-07-04",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação não emissão de relatório",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6d55785a6d49785a5759745a475177596930305a6a45334c57466c5a574d74596d4d30596a42684e44637a4e574e684c6e426b5a673d3d&fich=2e1fb1ef-dd0b-4f17-aeec-bc4b0a4735ca.pdf&Inline=true"
+      },
       {
        "DataDocumento": "2025-06-27",
        "TipoDocumento": "Link",
@@ -2000,7 +2011,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a41304e5441794e6a49774c546c6d5a6a49744e475a6b4e7931694d6a457a4c544d78596d45314d4451785a475579596935775a47593d&fich=04502620-9ff2-4fd7-b213-31ba5041de2b.pdf&Inline=true",
+     "anexoNome": "Requerimento  BE"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2025-07-04",
@@ -2142,7 +2158,7 @@
  ],
  "IniId": "315223",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324533597a59325a57597a4c5467794e4751744e474d334f4330354f544d324c57466a4e5452694d444d324f44686b4d53356b62324e34&fich=a7c66ef3-824d-4c78-9936-ac54b03688d1.docx&Inline=true",
  "IniNr": "67",
  "IniObs": null,
  "IniSel": "1",

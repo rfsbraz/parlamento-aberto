@@ -3960,7 +3960,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a646b4e4455774d7a637a4c5463354e446b744e446c6b59793034596d49354c574a695932466c4e6a6b354f5749774f43356b62324e34&fich=7d450373-7949-49dc-8bb9-bbcae6999b08.docx&Inline=true",
+     "anexoNome": "Informação de redação final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a646c5a5759344d7a4d7a4c5445314f5451744e4759304e7930354d7a49774c5749794e7a4a6b5a4445334e7a63335953356b62324e34&fich=7eef8333-1594-4f47-9320-b272dd17777a.docx&Inline=true",
+     "anexoNome": "Projeto de decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {

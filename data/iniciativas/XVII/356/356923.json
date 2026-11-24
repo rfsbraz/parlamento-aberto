@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4a69593249795a44526c4c54677a4e3251744e4455324f5330344e54526c4c5756694d44686a5a44426d5954526d4d5335775a47593d&fich=2bcb2d4e-837d-4569-854e-eb08cd0fa4f1.pdf&Inline=true",
+   "anexoNome": "ACORDO RELATIVO AO ESPAÇO DE AVIAÇÃO COMUM"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324a6d4d6d4a6a4e4749784c54417a5a6a55744e474d7a5a6930344d4749774c545a6a4e6a52684e3251354e5745314d7935775a47593d&fich=bf2bc4b1-03f5-4c3f-80b0-6c64a7d95a53.pdf&Inline=true",
+   "anexoNome": "Texto da Iniciativa - Versão assinada"
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -82,7 +91,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-15",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938325a544934595749784d7930304e5759304c5451354f544d74596a64695969303359574531596a67774d6a4d784d7a63756347526d&fich=6e28ab13-45f4-4993-b7bb-7aa5b8023137.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8448",
      "Legislatura": null,
@@ -350,7 +366,7 @@
  ],
  "IniId": "356923",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245325a444d774e5441794c574e6a4d7a49744e4463775a6931685a4455314c5446685a474e6d4e5459774e6d59334d43356b62324e34&fich=a6d30502-cc32-470f-ad55-1adcf5606f70.docx&Inline=true",
  "IniNr": "16",
  "IniObs": null,
  "IniSel": "1",

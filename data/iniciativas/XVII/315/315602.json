@@ -215,7 +215,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d344d5442685a6d59354c545132596d51744e446b325a6930354e475a6c4c575578595455784d6d59794d4463324d43356b62324e34&fich=3810aff9-46bd-496f-94fe-e1a512f20760.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-09-23",
@@ -626,7 +631,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3259334d7a517a4d3259334c544578597a63744e446378596930354d5441314c5751794e6a4e6d4e6a526c4d546c6b4e53356b62324e34&fich=f73433f7-11c7-471b-9105-d263f64e19d5.docx&Inline=true",
+     "anexoNome": "Informação da redação final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a426a59574934595449784c5751314d4467744e4449794d5330354e6a466d4c57466d4d54417a4f444d785a6a497a4e79356b62324e34&fich=0cab8a21-d508-4221-961f-af103831f237.docx&Inline=true",
+     "anexoNome": "Proposta de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -647,7 +661,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-04-07",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876593255304f445578597a49744d4459304f4330305a44426b4c5746694f4441744e5756694d7a4134596a6b324d5441774c6e426b5a673d3d&fich=ce4851c2-0648-4d0d-ab80-5eb308b96100.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8459",
      "Legislatura": null,

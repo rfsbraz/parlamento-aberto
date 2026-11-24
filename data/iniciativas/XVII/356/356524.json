@@ -1165,7 +1165,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32517a4f44526b597a68694c544179595459744e4445344f5330355a4459354c5459354e446b344e7a426c4d4446695a69356b62324e34&fich=d384dc8b-02a6-4189-9d69-6949870e01bf.docx&Inline=true",
+     "anexoNome": "Sugestão de Redação Final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -1316,7 +1321,7 @@
  ],
  "IniId": "356524",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a686d4f4756694d324d304c544d334e4445744e445532597931695a6d45334c574e68597a6468595749325a6d49315a69356b62324e34&fich=8f8eb3c4-3741-456c-bfa7-cac7aab6fb5f.docx&Inline=true",
  "IniNr": "815",
  "IniObs": null,
  "IniSel": "1",

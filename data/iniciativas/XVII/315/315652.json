@@ -73,7 +73,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255784d4459305a6a5a6d4c5451355a446b744e47526a596931694e7a4d344c544d324d7a41335a6a45315a545a6a5a43356b62324e34&fich=e1064f6f-49d9-4dcb-b738-36307f15e6cd.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-09-30",
@@ -123,24 +128,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=483"
-      },
-      {
-       "DataDocumento": "2025-12-03",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota Técnica",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765954466a5a4441794f5449744d32517a596930304e7a646d4c546b334f4755744e6a413059575979596a51314e574d794c6e426b5a673d3d&fich=a1cd0292-3d3b-477f-978e-604af2b455c2.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-02-10",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório do PJL 242/XVII/1 (PS)",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e4441335a47517a5a575174595745775a4330305a545a6d4c546b7a5a4745745a5746694f4463324e6a49774d444d304c6e426b5a673d3d&fich=407dd3ed-aa0d-4e6f-93da-eab876620034.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-03-18",
-       "TipoDocumento": "Texto de Substituição",
-       "TituloDocumento": "Texto de Substituição ",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f4759304e444d784e5467744e4751345a5330305a4745344c57466c5a6a45745a6d466d5a5467344e4468694d3259324c6e426b5a673d3d&fich=8f443158-4d8e-4da8-aef1-fafe8848b3f6.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -463,7 +450,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49774d4463334d7a4a6d4c5749784e3245744e4464685a433034596d55314c574532596d5a694f44466c4e6a51335a69356b62324e34&fich=2007732f-b17a-47ad-8be5-a6bfb81e647f.docx&Inline=true",
+     "anexoNome": "Informação de redação final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325a6d4d474d314f5759774c54566d4e4755744e4451304e7930344e44646d4c574e6b4f5456694e6a6c6d4e544a6c4d79356b62324e34&fich=ff0c59f0-5f4e-4447-847f-cd95b69f52e3.docx&Inline=true",
+     "anexoNome": "Projeto de decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {

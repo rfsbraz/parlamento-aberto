@@ -1,7 +1,20 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a597a597a45324e7a55354c5451304e6a63744e444a6b4e5330354d4745304c5449774d6a4d33596d49335a4463794e4335775a47593d&fich=63c16759-4467-42d5-90a4-20237bb7d724.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a677a4f4449335a6a67344c5751334d7a55744e4759325a4331694e47466b4c544a6a4e544d315a6d4a6b595451344e5335775a47593d&fich=83827f88-d735-4f6d-b4ad-2c535fbda485.pdf&Inline=true",
+   "anexoNome": "Texto - versão assinada"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4a6b4e6a41334d7a466c4c5463784e6d4d744e44646a4d5331694f4752684c5445344f446c6c4e4451314d444d78597935775a47593d&fich=2d60731e-716c-47c1-b8da-1889e445031c.pdf&Inline=true",
+   "anexoNome": "Ofício - Processo de urgência"
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -38,7 +51,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324e6a4d446b314e574d344c5463314e3255744e446b77595331684e44466a4c545269597a67304d54566c59544e6a4d69356b62324e34&fich=cc0955c8-757e-490a-a41c-4bc8415ea3c2.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-10-29",
@@ -88,6 +106,36 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta Pública - Contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=535"
+      },
+      {
+       "DataDocumento": "2025-12-15",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Pareceres CNECV",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793835595463774e6d55774e79316d4e4446694c5451304f5459744f544d325a6930335a4441344f5441314d475a68597a6b756347526d&fich=9a706e07-f41b-4496-936f-7d089050fac9.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-12-10",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório da Comissão de Saúde",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938305957466b4e324d304f4330334d4456684c5451324e6a51745957466b4d6930314d6a63784e6d51335a446b785a5751756347526d&fich=4aad7c48-705a-4664-aad2-52716d7d91ed.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-27",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributo - Ordem dos Farmacêuticos",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684d474a6a4d54686d4f5330344d44686c4c5451344e7a6774596d51314e53307a4f54646c4d54646a596d4d304d6a59756347526d&fich=a0bc18f9-808e-4878-bd55-397e17cbc426.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-12-02",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributo - Associação Portuguesa de Bioindústria (P-Bio)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396b4e474d324d324e6d4f5330355a4449794c5451304d546b745954637a4e79316c4d6d45774e7a49794d6a6868593255756347526d&fich=d4c63cf9-9d22-4419-a737-e2a072228ace.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-19",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a4d6a4977596a51304e4330324e5759354c545130595445744f4749314e6930344d4459344f5445304f57466b4e3245756347526d&fich=3220b444-65f9-44a1-8b56-80689149ad7a.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -1168,16 +1216,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4e6a4e7a45324f47466a4c57566d4d6a55744e44517a4d6931684f544a694c544a69596a6b7a4e546b304d6a4d354d69356b62324e34&fich=3c7168ac-ef25-4432-a92b-2bb935942392.docx&Inline=true",
-     "anexoNome": "Informação de redação final"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4e6a4f47497a5a6a4e6b4c57597a4f444d744e44426a4d533168597a63324c544579595449324d6a526b4f5455775a69356b62324e34&fich=3c8b3f3d-f383-40c1-ac76-12a2624d950f.docx&Inline=true",
-     "anexoNome": "Projeto de decreto"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -1198,20 +1237,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-02-11",
-       "TipoDocumento": "Informação",
-       "TituloDocumento": "Informação de Redação Final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279383459544e6a4d7a45774d53316a4d7a566b4c545178597a6b74595467774f43316b4e3249774d47566859546379596a63756347526d&fich=8a3c3101-c35d-41c9-a808-d7b00eaa72b7.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-02-11",
-       "TipoDocumento": "Redação final",
-       "TituloDocumento": "Redação final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938794e44566c4f57466c5953316b4e546c6a4c5452684f4451744f574579595330344f5759774d5751314f544e695a5449756347526d&fich=245e9aea-d59c-4a84-9a2a-89f01d593be2.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8455",
      "Legislatura": null,
@@ -1390,7 +1416,7 @@
  ],
  "IniId": "315756",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4133597a686a597a5a6b4c5441774d3255744e444d304e4330354d6a4d7a4c5745794f5449304e444a6b59324e685a53356b62324e34&fich=07c8cc6d-003e-4344-9233-a292442dccae.docx&Inline=true",
  "IniNr": "40",
  "IniObs": null,
  "IniSel": "1",

@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4534596a4e694d4459784c54566b4f4745744e4459325a5330354d474d344c574e694f4745334d7a6377596a557a4d53356b62324e34&fich=18b3b061-5d8a-466e-90c8-cb8a7370b531.docx&Inline=true",
+   "anexoNome": "Texto - versão 1 de 04-07-2025"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a686a4e7a46684d7a51794c544e6b59324d744e4756684f433168596d4d774c5451794d4755785a5467784e7a67304d4335775a47593d&fich=8c71a342-3dcc-4ea8-abc0-420e1e817840.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "IL",
@@ -152,7 +161,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a526b4e7a59794e6a566b4c5755305a5751744e4759794e6931694e44646a4c546b784d6a497a4e7a45795a5759344e43356b62324e34&fich=4d76265d-e4ed-4f26-b47c-91223712ef84.docx&Inline=true",
+     "anexoNome": "Nota de Admissiblidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-07-09",
@@ -2653,7 +2667,7 @@
  ],
  "IniId": "315319",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55355a6a5579597a686b4c54686c4e6a67744e4451774d7931684f474d304c5745344e6a597759324579597a63324e79356b62324e34&fich=59f52c8d-8e68-4403-a8c4-a8660ca2c767.docx&Inline=true",
  "IniNr": "112",
  "IniObs": null,
  "IniSel": "1",

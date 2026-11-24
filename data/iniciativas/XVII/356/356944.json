@@ -246,7 +246,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251785a4442684f54597a4c5468695a546b744e444531597930344e7a526a4c5455324d445933595751794e574e6a597935775a47593d&fich=d1d0a963-8be9-415c-874c-56067ad25ccc.pdf&Inline=true",
+     "anexoNome": "Ofício de Redistribuição"
+    }
+   ],
    "CodigoFase": "181",
    "Comissao": [
     {
@@ -316,7 +321,7 @@
  ],
  "IniId": "356944",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32566b4d444d7a4d6d4d354c5445784e4755744e4455324d533168595751794c5749344d5755794d7a49314d546b785a53356b62324e34&fich=ed0332c9-114e-4561-aad2-b81e2325191e.docx&Inline=true",
  "IniNr": "1080",
  "IniObs": null,
  "IniSel": "1",

@@ -1324,7 +1324,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6732596a646a596a4a6d4c5749354d6a67744e4464694e6930354e4749354c575a684f5441324d475979597a67794d5335775a47593d&fich=86b7cb2f-b928-47b6-94b9-fa9060f2c821.pdf&Inline=true",
+     "anexoNome": "Requerimento PS"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2025-09-19",
@@ -1738,7 +1743,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4a6a5a6a466c4d6a52684c5456684d7a59744e444a6a4e5330355a574d314c5445315a4755304e445578596a55335a53356b62324e34&fich=2cf1e24a-5a36-42c5-9ec5-15de4451b57e.docx&Inline=true",
+     "anexoNome": "Informação de redação final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4a6a596d4d795a6d55784c574578596a6b744e4445315a5331684d574e6b4c54637a4d7a6c6b5a546778597a55314d53356b62324e34&fich=2cbc2fe1-a1b9-415e-a1cd-7339de81c551.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {

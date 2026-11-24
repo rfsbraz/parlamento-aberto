@@ -1,7 +1,24 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5a694e546b355a474d774c57526b4f4441744e4759784d4331684e47466b4c544d335a6d59304d6a49344e3259354e5335775a47593d&fich=6b599dc0-dd80-4f10-a4ad-37ff42287f95.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55784d5445794e6d52694c5463305a444d744e474d774d6931694f446c6a4c5449794e4451324e4751774e7a49335a53356b62324e34&fich=511126db-74d3-4c02-b89c-224464d0727e.docx&Inline=true",
+   "anexoNome": "Texto da iniciativa - versão 1, de 02.12.2025"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3259324d444a684d546c6b4c54526b4e7a63744e47597a4d533035595449324c5759785a54686a5a5751794d445933595335775a47593d&fich=f602a19d-4d77-4f31-9a26-f1e8ced2067a.pdf&Inline=true",
+   "anexoNome": "Texto da iniciativa - Versão assinada"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32517a4f574d79596a67774c5749325a6a67744e4755314e6930344d44517a4c57466c5a6a45774e6d4d314d4463314e7935775a47593d&fich=d39c2b80-b6f8-4e56-8043-aef106c50757.pdf&Inline=true",
+   "anexoNome": "Ofício - Processo de urgência"
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -38,7 +55,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a41325a6d4a6b5a474d784c546c6b5a6d55744e474d324f533035593252694c5451334d6d4e69597a56684d5455355953356b62324e34&fich=06fbddc1-9dfe-4c69-9cdb-472cbc5a159a.docx&Inline=true",
+     "anexoNome": "Nota de Admissiblidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-12-03",
@@ -88,6 +110,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos de Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=557"
+      },
+      {
+       "DataDocumento": "2026-01-05",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279383259324d334e324d304d4331694d574d784c54526d4d6a63744f4463305a69316d4e54566d4f444d774d4455334d7a49756347526d&fich=6cc77c40-b1c1-4f27-874f-f55f83005732.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-01-07",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774e324e695a54686b4e4330774f4441794c54526c4f5745744f544e6a4d7930335a5755794d6a41345a44466c5a4445756347526d&fich=07cbe8d4-0802-4e9a-93c3-7ee2208d1ed1.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -5305,7 +5339,7 @@
  ],
  "IniId": "315797",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63305a4456694d546b304c574d784e3251744e475a6a4e7930354e445a6c4c5467334d4755325a544d335a6d466c4d79356b62324e34&fich=74d5b194-c17d-4fc7-946e-870e6e37fae3.docx&Inline=true",
  "IniNr": "47",
  "IniObs": null,
  "IniSel": "1",

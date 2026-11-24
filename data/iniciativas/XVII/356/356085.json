@@ -67,7 +67,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a426a4e5459354e6a59784c5468694d3251744e446b324e7930344d474a684c575130596a526c4d6d5a684e544d354e79356b62324e34&fich=0c569661-8b3d-4967-80ba-d4b4e2fa5397.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-02-11",
@@ -112,6 +117,12 @@
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
      "Documentos": [
+      {
+       "DataDocumento": "2026-06-01",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a55324f544e6b4e5463744d575533595330304e7a686a4c546c6c597a41744d6d526a4f5459794d7a4e6b4d474e6b4c6e426b5a673d3d&fich=25693d57-1e7a-478c-9ec0-2dc96233d0cd.pdf&Inline=true"
+      },
       {
        "DataDocumento": "2026-02-11",
        "TipoDocumento": "Link",

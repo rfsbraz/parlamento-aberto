@@ -1,16 +1,7 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d315a5749334f445a684c574d7a5a5459744e446c695a5331694e44526c4c546334597a51794d6a6c694d44426b596935775a47593d&fich=35eb786a-c3e6-49be-b44e-78c4229b00db.pdf&Inline=true",
-   "anexoNome": "A.I.G."
-  },
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d31596a566d596a646a4c544d304e3259744e44426b4e4330344e546b324c545a69593249325a575268597a6b35595335775a47593d&fich=c5b5fb7c-347f-40d4-8596-6bcb6edac99a.pdf&Inline=true",
-   "anexoNome": "Texto da iniciativa - versão assinada"
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -155,7 +146,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255325a444d324e544e6a4c5749304e6a49744e4449344f5331694d54466c4c5459304e47466c4e5441304f444e6c4d4335775a47593d&fich=e6d3653c-b462-4289-b11e-644ae50483e0.pdf&Inline=true",
+     "anexoNome": "Ofício de redistribuição"
+    }
+   ],
    "CodigoFase": "180",
    "Comissao": [
     {
@@ -182,6 +178,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=694"
+      },
+      {
+       "DataDocumento": "2026-03-24",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e44526b4e7a597a5a4751744d6a5934595330304e4446684c5745325a6a45744e6a41304d324e684d324e694e4455784c6e426b5a673d3d&fich=44d763dd-268a-441a-a6f1-6043ca3cb451.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -1274,14 +1276,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-05-12",
-       "TipoDocumento": "Redação final",
-       "TituloDocumento": "Redação Final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e44646d4d7a56694e5449744e6a4a6b5a693030595445314c5749334f4459744f445a694e3259314d544e6a4d57517a4c6e426b5a673d3d&fich=47f35b52-62df-4a15-b786-86b7f513c1d3.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8459",
      "Legislatura": null,
@@ -1477,7 +1472,7 @@
  ],
  "IniId": "356117",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49315a54517a596a46694c574a6d596d45744e44597a595330354e54466d4c54517a4d7a67784e545a6b5a6a6b784e69356b62324e34&fich=25e43b1b-bfba-463a-951f-4338156df916.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "58",
  "IniObs": null,
  "IniSel": "1",

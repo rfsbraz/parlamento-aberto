@@ -1566,7 +1566,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49345a6a686a5a5451324c5452695a5463744e444d79596931694d4749304c545a6a4e6a6335597a637a4e6a646a596935775a47593d&fich=28f8ce46-4be7-432b-b0b4-6c679c7367cb.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255325954646c4e54637a4c544d345a5451744e4463325a433035593245324c574978597a677a5957593259575a684f4335775a47593d&fich=e6a7e573-38e4-476d-9ca6-b1c83af6afa8.pdf&Inline=true",
+     "anexoNome": "Parecer (aditamento)"
+    }
+   ],
    "CodigoFase": "175",
    "Comissao": null,
    "DataFase": "2026-05-27",

@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a466b5a6d526a4f574d354c54646b4e4755744e445a6c4e7931694e3249774c5445344d44466b4d5459334d4455795a4335775a47593d&fich=1dfdc9c9-7d4e-46e7-b7b0-1801d167052d.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "L",
@@ -181,7 +186,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55304d57457a4d3252694c544a6c4e5749744e47597a596931684d5745304c574533597a686a597a637a4d6a4e6b4d7935775a47593d&fich=541a33db-2e5b-4f3b-a1a4-a7c8cc7323d3.pdf&Inline=true",
+     "anexoNome": "Ofício de redistribuição"
+    }
+   ],
    "CodigoFase": "180",
    "Comissao": [
     {
@@ -306,7 +316,7 @@
  ],
  "IniId": "346024",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4130595745794e7a5a684c575a695a4455744e475579596930354e5751344c5449324d4752694d7a55784f5755325a43356b62324e34&fich=04aa276a-fbd5-4e2b-95d8-260db3519e6d.docx&Inline=true",
  "IniNr": "390",
  "IniObs": null,
  "IniSel": "1",

@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255784f575a695a544e6b4c546c684e7a63744e4464694f5330345a47497a4c57466c4e6a45304e44597a4d5745794d53356b62324e34&fich=e19fbe3d-9a77-47b9-8db3-ae6144631a21.docx&Inline=true",
+   "anexoNome": "Texto da iniciativa – versão 1, de 2026-01-05"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "BE",
@@ -92,7 +97,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-01-27",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação - Discussão em Plenário",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939695a475a6c59324934596931684d6d566b4c5451774e7a41744f4445324f5330784f474d324f475577596d56684d4449755a47396a65413d3d&fich=bdfecb8b-a2ed-4070-8169-18c68e0bea02.docx&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8448",
      "Legislatura": null,
@@ -377,7 +389,7 @@
  ],
  "IniId": "335938",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324e684d6a63315a4452694c57566b5a4759744e475578595330344d4755334c574a6b4d6d5134597a526c4d6a646b4f43356b62324e34&fich=ca275d4b-eddf-4e1a-80e7-bd2d8c4e27d8.docx&Inline=true",
  "IniNr": "472",
  "IniObs": null,
  "IniSel": "1",

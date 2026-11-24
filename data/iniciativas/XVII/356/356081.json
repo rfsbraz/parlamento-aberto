@@ -343,7 +343,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245324e7a67794f544d334c5464694d6a63744e444d794d4331684f4449794c5745304d6a64685a546377595745325a4335775a47593d&fich=a6782937-7b27-4320-a822-a427ae70aa6d.pdf&Inline=true",
+     "anexoNome": "Despacho de admissibilidade"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a41794e32513059574d304c5445335a4755744e4749794f4331694e446c684c5451335a4463775a444e684d4467794e79356b62324e34&fich=027d4ac4-17de-4b28-b49a-47d70d3a0827.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-02-13",

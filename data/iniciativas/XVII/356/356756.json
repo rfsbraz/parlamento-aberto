@@ -201,12 +201,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Gravação da discussão (a partir do minuto 12)",
        "URL": "https://media.parlamento.pt/site/XVIILEG/SL1/COM/08_CEC/CEC_20260526_3.mp3"
-      },
-      {
-       "DataDocumento": "2026-05-28",
-       "TipoDocumento": "Informação",
-       "TituloDocumento": "Informação da discussão em Comissão",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a6c6d4f474e6a4d6d49744d4464684f5330304f5756684c546b7a5a4759745a4459775a545a6c4d4467304f5445344c6e426b5a673d3d&fich=29f8cc2b-07a9-49ea-93df-d60e6e084918.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -317,6 +311,18 @@
      "Documentos": [
       {
        "DataDocumento": "2026-06-24",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d324933595467325a5751744e32526c4f4330305a6d59354c546b794f4441745a4467335a446777596d4a6a4e474d334c6e426b5a673d3d&fich=3b7a86ed-7de8-4ff9-9280-d87d80bbc4c7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-24",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório de discussão e votação na especialidade",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e5745334e6a56685a6a55744f44426d4e7930305a4467324c5749314f4449744e6a4d785a54557a5a5755325a6a67784c6e426b5a673d3d&fich=5a765af5-80f7-4d86-b582-631e53ee6f81.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-24",
        "TipoDocumento": "Link",
        "TituloDocumento": "Gravação áudio - discussão e votação na especialidade",
        "URL": "https://media.parlamento.pt/site/XVIILEG/SL1/COM/08_CEC/CEC_20260624_2.mp3"
@@ -419,7 +425,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249304d545a6a4e6a5a694c544d334f4451744e4459344d7931695a474d784c5755335a6d59784d545179596d4e6d4d79356b62324e34&fich=b416c66b-3784-4683-bdc1-e7ff1142bcf3.docx&Inline=true",
+     "anexoNome": "Sugestão de Redação Final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {

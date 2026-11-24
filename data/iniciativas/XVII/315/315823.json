@@ -1,12 +1,7 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32566a4e3252685a544a6b4c5467344e3255744e44646d4d6930355957526d4c57593359325978596a4a684e446333595335775a47593d&fich=ec7dae2d-887e-47f2-9adf-f7cf1b2a477a.pdf&Inline=true",
-   "anexoNome": "A.I.G."
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": [
   {
    "GP": "PS",
@@ -173,30 +168,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=552"
-      },
-      {
-       "DataDocumento": "2025-12-17",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório CACDLG",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6d51794f4459794e546b74597a686b59793030596a45774c54686d597a4d744d324d315a6d5a6d5a444d31596a5a6a4c6e426b5a673d3d&fich=2d286259-c8dc-4b10-8fc3-3c5fffd35b6c.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-12-17",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota Técnica ",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a4d334e7a55785a4449744e4463335a5330304d57566c4c546c684e4759744d5745785a6a63305a5755794e544e6a4c6e426b5a673d3d&fich=b37751d2-477e-41ee-9a4f-1a1f74ee253c.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-12-16",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Informação de não emissão de parecer - Conselho Superior de Magistratura",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596d49785a6a67324d3249744f57466b4e4330305a6d59334c574a6b4d4467745a6a45784d32497a5a6d45775a4449334c6e426b5a673d3d&fich=bb1f863b-9ad4-4ff7-bd08-f113b3fa0d27.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-12-16",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Parecer Me-CDPD",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f54426a4e7a6c68593255744e4455334d4330304e5459354c574a6b4f574d74596d4a694e6d55304d3249794f5749334c6e426b5a673d3d&fich=90c79ace-4570-4569-bd9c-bbb6e43b29b7.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -10309,7 +10280,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324a6b4d6a526b4f446b304c5756684e5745744e4749354e433169597a4e694c5441304d4451774e54526a4d7a566d5a4335775a47593d&fich=bd24d894-ea5a-4b94-bc3b-0404054c35fd.pdf&Inline=true",
+     "anexoNome": "Requerimento do PS"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2025-12-18",
@@ -10393,44 +10369,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-03-04",
-       "TipoDocumento": "Requerimento",
-       "TituloDocumento": "Requerimento  do DURP do BE",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d7a4935597a526d5a6d49744e4746695a5330304d7a466d4c546b774e5445744e444d335a6a4a6d4d5445784e6d4e6a4c6e426b5a673d3d&fich=329c4ffb-4abe-431f-9051-437f2f1116cc.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-03-11",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Contributo APMJ",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a5759314d446c6a4d6d55744f44466b4e7930304e325a694c5746684f4441744d4451774d4759334e4441794e475a6c4c6e426b5a673d3d&fich=ef509c2e-81d7-47fb-aa80-0400f74024fe.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-03-12",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Parecer - Ordem dos Médicos",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a49344e6a45314e474d7459325a6b5a5330304d3245324c574a6c5a4445744e4755774d32466c596d526c5a6d566d4c6e426b5a673d3d&fich=c286154c-cfde-43a6-bed1-4e03aebdefef.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-03-16",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Parecer - Conselho Superior da Magistratura",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a59334e475a6a5a6a45744d5463335a6930305a6a517a4c5749324f4463744d5756684d6a5131596a4269593245344c6e426b5a673d3d&fich=b674fcf1-177f-4f43-b687-1ea245b0bca8.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-03-23",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Parecer a requerimento PS do Observatório da Deficiência e Direitos Humanos - PJL 327 PAN 329 BE e 313 PS XVII 1",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e57526b4f4467304e4755745a6a67345a5330304f546c6b4c546c6c4f4759745a544579597a59304f5759784f44466a4c6e426b5a673d3d&fich=5dd8844e-f88e-499d-9e8f-e12c649f181c.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-07-31",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Parecer CNECV - Conselho Nacional de Ética para as Ciências da Vida",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6d4e685a546b784e3259744d5455784d5330304d3245794c57466a4e324d745a6a4a6d4d546331596a466b5a6a55324c6e426b5a673d3d&fich=6cae917f-1511-43a2-ac7c-f2f175b1df56.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -10489,7 +10428,7 @@
  ],
  "IniId": "315823",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55784f4745794e6d4a694c574a6a5a546b744e4759324f5331684e4745784c545a6c4e57457a4e6a52684d6a646b4e53356b62324e34&fich=518a26bb-bce9-4f69-a4a1-6e5a364a27d5.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "313",
  "IniObs": null,
  "IniSel": "1",

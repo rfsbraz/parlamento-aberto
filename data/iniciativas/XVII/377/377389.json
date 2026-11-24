@@ -1,7 +1,12 @@
 {
  "DataFimleg": null,
  "DataInicioleg": "2026-09-15",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a526a4d6a466a4d6a49794c544d354e7a51744e44686a4e7930354e6d55324c5759354f545a6b4f444533597a41304f4335775a47593d&fich=4c21c222-3974-48c7-96e6-f996d817c048.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PCP",
@@ -58,7 +63,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a67304e44646d4e5451324c546b794e7a6b744e444d79595330344e4445314c57597a5a54526d5a4445314f4746684e79356b62324e34&fich=8447f546-9279-432a-8415-f3e4fd158aa7.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-11-17",
@@ -173,12 +183,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249314e574d794f544d324c546868595463744e474d314d4331694d446c684c575533596d466a4d544d785a575668596935775a47593d&fich=b55c2936-8aa7-4c50-b09a-e7bac131eeab.pdf&Inline=true",
-     "anexoNome": "Despacho PAR"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "180",
    "Comissao": [
     {
@@ -240,7 +245,7 @@
  ],
  "IniId": "377389",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49325a57457a5a444a694c5451794e4445744e4755345a5330345a6d59324c5455325a44637a5a446b795a44646d5a69356b62324e34&fich=26ea3d2b-4241-4e8e-8ff6-56d73d92d7ff.docx&Inline=true",
  "IniNr": "820",
  "IniObs": null,
  "IniSel": "2",

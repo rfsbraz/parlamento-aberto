@@ -1,16 +1,7 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a56685957566b4f57457a4c5441355a574d744e44637a5a5330355a4442684c5451774f44597a4f4451324f575a6d4e7935775a47593d&fich=5aaed9a3-09ec-473e-9d0a-408638469ff7.pdf&Inline=true",
-   "anexoNome": "A.I.G"
-  },
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5930597a686c595751354c5467345a5463744e445a6d5a4331694f5464684c5445335a6d4a6c4d546c695a444d784d69356b62324e34&fich=64c8ead9-88e7-46fd-b97a-17fbe19bd312.docx&Inline=true",
-   "anexoNome": "Texto da Iniciativa - versão 1 de  2026-01-05"
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": [
   {
    "GP": "PS",
@@ -112,12 +103,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a457a593245355a6d51794c5451784e7a59744e475a6b4d533035596a59314c5751354d32466d4f5445304e475a695969356b62324e34&fich=13ca9fd2-4176-4fd1-9b65-d93af9144fbb.docx&Inline=true",
-     "anexoNome": "Nota de Admissibilidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-01-06",
@@ -4624,7 +4610,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249334d6d49774e7a49334c545a6b4e6a6b744e444d7a5a6931684e5445344c546b7a59545a6a4d4452684e7a49315a6935775a47593d&fich=b72b0727-6d69-433f-a518-93a6c04a725f.pdf&Inline=true",
+     "anexoNome": "Requerimento PS"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-01-09",
@@ -4687,30 +4678,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos de Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=619"
-      },
-      {
-       "DataDocumento": "2026-02-13",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Contributo UTAO",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938354f475577593245304d53307a4d4451774c5451304d5759744f4459334e4330774e4464694e6d4d30596d4e685a4467756347526d&fich=98e0ca41-3040-441f-8674-047b6c4bcad8.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-02-13",
-       "TipoDocumento": "Proposta de alteração",
-       "TituloDocumento": "Proposta de Alteração GP PS",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939694d6a4d314e3245354d693033595463784c5451304e57557459546c6b4f4330314e44413359574e6c5a4451785a5455756347526d&fich=b2357a92-7a71-445e-a9d8-5407aced41e5.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-02-16",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Guião de Votação",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938784e6a5a6a4f446b324e6930324d5446684c5451344e7a4d744f4459795a43307a4e446b305a5441334f544d334d444d756347526d&fich=166c8966-611a-4873-862d-3494e0793703.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-02-18",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Resultado da Votação",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938344d6a466a4d6a67784d4331684e6d526b4c5451334e546b74595759774d7930305a6d59304d54637a597a6b334e6a6b756347526d&fich=821c2810-a6dd-4759-af03-4ff4173c9769.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -5014,7 +4981,7 @@
  ],
  "IniId": "335929",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a526b4e54646b4e6d59304c57566a4e4459744e4467354e4330354e44526c4c574e6b4d54426c4d3249784f4449314f43356b62324e34&fich=4d57d6f4-ec46-4894-944e-cd10e3b18258.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "349",
  "IniObs": null,
  "IniSel": "1",

@@ -107,7 +107,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255354e7a6c6d4d6a59314c5452694f546b744e44426d4e433035596a46684c54673159325535596d49325a4463344e79356b62324e34&fich=e979f265-4b99-40f4-9b1a-85ce9bb6d787.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-06-17",
@@ -176,10 +181,22 @@
      "DistribuicaoSubcomissao": null,
      "Documentos": [
       {
+       "DataDocumento": "2025-07-07",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo DECO",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938795a5451794e4464694e6930344d7a597a4c5452694d7a59744f575268595330795a6d55794e544d7a4d54526a596a59756347526d&fich=2e4247b6-8363-4b36-9daa-2fe253314cb6.pdf&Inline=true"
+      },
+      {
        "DataDocumento": "2025-06-30",
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos de Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=282"
+      },
+      {
+       "DataDocumento": "2025-09-03",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d5a5455784e544e6d4d533031596d46684c545178596a67744f5464695a4330314d6a6b354e6d52684d7a51354d6a63756347526d&fich=fe5153f1-5baa-41b8-97bd-52996da34927.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

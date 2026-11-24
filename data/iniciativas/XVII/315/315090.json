@@ -107,7 +107,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4e68596a4e6a5a545a6d4c5468694e6a41744e444d324d4331684d324d7a4c544e6b4f445a6b4f47526c4f4468685a43356b62324e34&fich=3ab3ce6f-8b60-4360-a3c3-3d86d8de88ad.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-06-17",
@@ -176,10 +181,46 @@
      "DistribuicaoSubcomissao": null,
      "Documentos": [
       {
+       "DataDocumento": "2025-09-10",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório CACDLG",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e544a6c5a4463355a545174597a6733595330304e6a6b344c5745334d7a41745a47466b4e7a4a6c4d4451774e5745314c6e426b5a673d3d&fich=52ed79e4-c87a-4698-a730-dad72e0405a5.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-10",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica CACDLG",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a4451785954566a4e6a59744e6d59784f533030595441314c5745795a4455744f446732595755774d6a59354d54646a4c6e426b5a673d3d&fich=d41a5c66-6f19-4a05-a2d5-886ae026917c.pdf&Inline=true"
+      },
+      {
        "DataDocumento": "2025-06-27",
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=208"
+      },
+      {
+       "DataDocumento": "2025-09-03",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo  - APAV",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596d497a5a6a6c6d4d6a63744e5445794d4330304f4445334c5745304e6d5174596a6b794e47526a4e6d45795a6d45304c6e426b5a673d3d&fich=bb3f9f27-5120-4817-a46d-b924dc6a2fa4.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-14",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Ordem dos Advogados",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d324d305a446b344e546b744e474e6b4f5330304f4759304c5749304d6d45744f444a6b4e5751774e474d774d7a4e684c6e426b5a673d3d&fich=3c4d9859-4cd9-48f4-b42a-82d5d04c033a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-18",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Conselho Superior da Magistratura",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a6c6c4e3245794f4745744d4752684f4330305a5445334c5745304d5467744e546731596a45775a6a55794e446c694c6e426b5a673d3d&fich=29e7a28a-0da8-4e17-a418-585b10f5249b.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-10-06",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Conselho Superior do Ministério Público",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a45314f5746684d44517459324d3459693030597a59334c546b7a4f47457459574a6b5954566a5a47526b5a6d46684c6e426b5a673d3d&fich=b159aa04-cc8b-4c67-938a-abda5cdddfaa.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -3719,7 +3760,50 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-04-22",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Informação de não emissão de contributo escrito - Maria Teresa Féria Gonçalves de Almeida - Coordenadora do Observatório Judicial da Violência de Género e Doméstica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a5a6a4e7a63784d7a49744e7a4132595330304d5445314c546868596a59744d4455335a6a4a695a5442684f445a6c4c6e426b5a673d3d&fich=f6c77132-706a-4115-8ab6-057f2be0a86e.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-24",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Direção-Geral de Reinserção e Serviços Prisionais (DGRSP)-",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f4445344e546c6d4d5759744d545578596930304f54526a4c546c694f4459745a4445794e6d4a6a4d3256694d6a6c6d4c6e426b5a673d3d&fich=81859f1f-151b-494c-9b86-d126bc3eb29f.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-23",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Associação Quebrar o Silêncio",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f5745345a574a684f5467745957526a5a6930304d7a49774c574a6b4d4751745a444e6c4e7a517a4e3249794d3255334c6e426b5a673d3d&fich=9a8eba98-adcf-4320-bd0d-d3e7437b23e7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-30",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Ordem dos Psicólogos",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6d45774d5441354d574d74595745345a6930304d4749314c5745314e6d59744f4446684e3251335954597a5a47466b4c6e426b5a673d3d&fich=2a01091c-aa8f-40b5-a56f-81a7d7a63dad.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-05",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo da CGTP-IN remetido pelo CES",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a5a6a5a6a67775a6d4d744f544a6b4f5330304d7a63354c574a6b4e7a63745a6d46685a54526a5a6a6b334d7a41784c6e426b5a673d3d&fich=76cf80fc-92d9-4379-bd77-faae4cf97301.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-06",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Rui do Carmo",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a566a4e7a67775a475574596a6334597930305a57526d4c57466a4d7a4174595459314f474d7a4e6a526d597a42684c6e426b5a673d3d&fich=f5c780de-b78c-4edf-ac30-a658c364fc0a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-07",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Cruz Vermelha Portuguesa",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a5957387659544d774d4749344e4451745a6d51784e6930304e5745314c54686a4d4459744d44466a5a6d5a6d5a474d315a6a4a694c6e426b5a673d3d&fich=a300b844-fd16-45a5-8c06-01cfffdc5f2b.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,

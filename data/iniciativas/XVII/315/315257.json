@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a566b4d7a6b77597a6b314c5463304e5755744e445a6a4d4331694d574e6a4c544d334f5459785a4467354e574d344e7935775a47593d&fich=5d390c95-745e-46c0-b1cc-37961d895c87.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "IL",
@@ -1668,7 +1673,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45334d445579597a4a684c54417a4e446b744e4751325a4331694e7a526d4c5756684d7a646d595446684e44517a4e5335775a47593d&fich=17052c2a-0349-4d6d-b74f-ea37fa1a4435.pdf&Inline=true",
+     "anexoNome": "Parecer "
+    }
+   ],
    "CodigoFase": "173",
    "Comissao": null,
    "DataFase": "2025-07-17",
@@ -1758,38 +1768,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2025-11-28",
-       "TipoDocumento": "Quadro comparativo",
-       "TituloDocumento": "Quadro comparativo",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e4459304e6a56694d5451744d5749775a4330305a6a59794c54673059544d745a54517a597a4d335a5756694e5455354c6e426b5a673d3d&fich=46465b14-1b0d-4f62-84a3-e43c37eeb559.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-12-04",
-       "TipoDocumento": "Proposta de alteração",
-       "TituloDocumento": "PA 1 - Proposta de alteração GP PS e GP PSD",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6d49354d446c6a5a4455744d47566d4e6930304d574d334c5467784e3249745a6a55305a6d526a4e574e695932566b4c6e426b5a673d3d&fich=fb909cd5-0ef6-41c7-817b-f54fdc5cbced.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-12-04",
-       "TipoDocumento": "Proposta de alteração",
-       "TituloDocumento": "PA 2 - Proposta de alteração GP L",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a49344d4746695a4463745a6a64684f4330304d54466b4c5749784f4449744e545a69595451784d44426c4f546c694c6e426b5a673d3d&fich=7280abd7-f7a8-411d-b182-56ba4100e99b.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-12-04",
-       "TipoDocumento": "Proposta de alteração",
-       "TituloDocumento": "PA 3 - Proposta de alteração GP CH",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765957517a4d3252685a6a517459544d324e4330304f47466c4c5745354e7a4d74595456684e575a6a4f474e6c596a49794c6e426b5a673d3d&fich=ad33daf4-a364-48ae-a973-a5a5fc8ceb22.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-12-10",
-       "TipoDocumento": "Texto final",
-       "TituloDocumento": "Texto Final e relatório da discussão e votação na especialidade CACDLG ",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f5449304f57526a596d51744d5467774f4330305a6a49314c57457a4d5445744e4745785a544a6d5a47566a4d3259344c6e426b5a673d3d&fich=9249dcbd-1808-4f25-a311-4a1e2fdec3f8.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -2712,7 +2691,7 @@
  ],
  "IniId": "315257",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3256685a544e6d4d574a6a4c544933595445744e44646d5a4331684d6a59314c574d354e7a526d595449334e4749325953356b62324e34&fich=eae3f1bc-27a1-47fd-a265-c974fa274b6a.docx&Inline=true",
  "IniNr": "86",
  "IniObs": null,
  "IniSel": "1",

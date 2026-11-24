@@ -275,18 +275,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=628"
-      },
-      {
-       "DataDocumento": "2026-02-24",
-       "TipoDocumento": "Parecer",
-       "TituloDocumento": "Contributos - DECO",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938355a6d526c4d54637a5a6931694d3259794c5451334e444d744f4459334d69307a5a44426c4e446b30596d4a6a4d5451756347526d&fich=9fde173f-b3f2-4743-8672-3d0e494bbc14.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-10-13",
-       "TipoDocumento": "Parecer",
-       "TituloDocumento": "Relatório CIMH",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a4d546b304e324d334d79316a596a55784c54526b4e4455744f54566a4f4330334f4759794e6a4130596d566d5a5445756347526d&fich=c1947c73-cb51-4d45-95c8-78f2604befe1.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -384,7 +372,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a566c4e475a6b593255324c57597a4e6a49744e446c6d4e5330344f574a6c4c5459334d325a6a5a6a67775a4455794d5335775a47593d&fich=5e4fdce6-f362-49f5-89be-673fcf80d521.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2026-02-16",
@@ -407,12 +400,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a457a5a546c6b5a6a63774c5755775a6a6b744e444e685a4330355a6a49774c546468595449305a5459345a5455795a4335775a47593d&fich=13e9df70-e0f9-43ad-9f20-7aa24e68e52d.pdf&Inline=true",
-     "anexoNome": "Parecer"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "173",
    "Comissao": null,
    "DataFase": "2026-02-16",

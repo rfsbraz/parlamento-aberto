@@ -102,7 +102,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3252684d474a6d4e5445304c5755355a5755744e446469597930344e5463304c57466c5a575133596d49344f5468684e79356b62324e34&fich=da0bf514-e9ee-47bc-8574-aeed7bb898a7.docx&Inline=true",
+     "anexoNome": "Nota de Admissiblidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-07-09",
@@ -1585,6 +1590,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=337"
+      },
+      {
+       "DataDocumento": "2025-09-30",
+       "TipoDocumento": "Requerimento",
+       "TituloDocumento": "Despacho PAR do pedido de redistribuição",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d4d3255794e6d4d354e6930794f4441334c54526b4f544574596d45304f533035597a6c6c5a44566a4d4441314e5449756347526d&fich=f3e26c96-2807-4d91-ba49-9c9ed5c00552.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -1627,7 +1638,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d795a4463794f574d314c54526a5a5755744e4759775a4331694e7a51784c544d354d3249775a6d4e695a544578597935775a47593d&fich=c2d729c5-4cee-4f0d-b741-393b0fcbe11c.pdf&Inline=true",
+     "anexoNome": "Parecer "
+    }
+   ],
    "CodigoFase": "173",
    "Comissao": null,
    "DataFase": "2025-07-17",
@@ -1650,7 +1666,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a56695a4463315a5759784c544578597a63744e4752685a4331694e7a4d344c544a6a4e7a646a4d7a6c6c4d6a41304d7935775a47593d&fich=5bd75ef1-11c7-4dad-b738-2c77c39e2043.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "174",
    "Comissao": null,
    "DataFase": "2025-07-22",
@@ -1673,7 +1694,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55335a446b774e6a68694c5451304e6d51744e44526d4e5331694e6a466d4c54417a4e3249335a446b304f574d32596935775a47593d&fich=57d9068b-446d-44f5-b61f-037b7d949c6b.pdf&Inline=true",
+     "anexoNome": "Parecer (versão substituída)"
+    }
+   ],
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2025-07-28",
@@ -1696,7 +1722,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a51794e32566b596d566b4c5752684e6a49744e4449304d533035595451784c54466b4d7a517a596a4d795a6d4e6c5a4335775a47593d&fich=427edbed-da62-4241-9a41-1d343b32fced.pdf&Inline=true",
+     "anexoNome": "Ofício de redistribuição"
+    }
+   ],
    "CodigoFase": "270",
    "Comissao": [
     {
@@ -1717,7 +1748,38 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-11-28",
+       "TipoDocumento": "Quadro comparativo",
+       "TituloDocumento": "Quadro comparativo",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a68695a444d304d7a63744f44686c4d5330304d6d51344c574a6a4f4451745a546b784d57493559546b794f44566b4c6e426b5a673d3d&fich=28bd3437-88e1-42d8-bc84-e911b9a9285d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-12-04",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "PA 1 - Proposta de alteração GP PS e GP PSD",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a574a6a4e544d354d7a55744d4452685a5330304e6a6b324c546c6d5a4749744d5445324f4467314e5755304e5759324c6e426b5a673d3d&fich=ebc53935-04ae-4696-9fdb-1168855e45f6.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-12-04",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "PA 2 - Proposta de alteração GP L",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6d466d4d57466a593245744d7a417a595330304e4745324c54673359324d744e7a5a68593245304d6a4d784e474e6b4c6e426b5a673d3d&fich=2af1acca-303a-44a6-87cc-76aca42314cd.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-12-04",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "PA 3 - Proposta de alteração GP CH",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f57466959324e6d4f5441744d44517a5a5330305a5459324c574a6a4f4445744e6a426d4e3249315a546b305a4759354c6e426b5a673d3d&fich=9abccf90-043e-4e66-bc81-60f7b5e94df9.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-12-10",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final e relatório da discussão e votação na especialidade CACDLG ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a59315a544d305a446b744f446b79595330305a6a4d344c57466959545974596a41354d7a566c4f4459305a545a6a4c6e426b5a673d3d&fich=665e34d9-892a-4f38-aba6-b0935e864e6c.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -2461,14 +2523,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-01-07",
-       "TipoDocumento": "Redação final",
-       "TituloDocumento": "Redação final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d7a45334f546333596a51744d7a4933597930304f446b794c546b315a4755744d6a6b344e445135595445335a446b344c6e426b5a673d3d&fich=317977b4-327c-4892-95de-298449a17d98.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,

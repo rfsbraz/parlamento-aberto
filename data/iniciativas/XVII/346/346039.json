@@ -98,7 +98,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32526c4e575a6b5a4463334c5745324e5455744e446b775a433035597a51334c5459324d7a6c6b4e6a51314e57526b4d6935775a47593d&fich=de5fdd77-a655-490d-9c47-6639d6455dd2.pdf&Inline=true",
+     "anexoNome": "Pedido de conexão"
+    }
+   ],
    "CodigoFase": "180",
    "Comissao": [
     {
@@ -125,24 +130,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos de Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=655"
-      },
-      {
-       "DataDocumento": "2026-02-23",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota Técnica",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a4f474d304e4445304e69316d4d4751774c54526d4d544d744f4463785a53316b4f4455304e4464694f5441314d6a49756347526d&fich=38c44146-f0d0-4f13-871e-d85447b90522.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-03-03",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório elaborado pela 12.ª CCCJD",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793833593246684e7a466d5a6930794d324e6a4c5451784e5441744f544d335a6931684f44517a4f4756685a546468597a6b756347526d&fich=7caa71ff-23cc-4150-937f-a8438eae7ac9.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-03-04",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório 5.ª COFAP",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793834597a41335957497a4e5330314e3255774c54526c4f4459745954426b4f533034597a637a597a63355a6a6b304e4463756347526d&fich=8c07ab35-57e0-4e86-a0d9-8c73c79f9447.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -1749,44 +1736,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-04-17",
-       "TipoDocumento": "Proposta de alteração",
-       "TituloDocumento": "Proposta de Alteração GP CH",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d5a474a6b597a677a5a5330334e446c6c4c5451334e325574595751774e5330334d7a55324f4449775a444d334e5745756347526d&fich=fdbdc83e-749e-477e-ad05-7356820d375a.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-04-23",
-       "TipoDocumento": "Proposta de alteração",
-       "TituloDocumento": "Proposta de Alteração GP IL",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938335a5755304d3249795a4331684e6d49314c54526b4e5451744f47466d4f53316b4e6d5935596a466b5a6d4e684e574d756347526d&fich=7ee43b2d-a6b5-4d54-8af9-d6f9b1dfca5c.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-04-24",
-       "TipoDocumento": "Proposta de alteração",
-       "TituloDocumento": "Proposta de Alteração GP PS",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793831593249794e545a6b4d693079597a51324c5451334f4467744f54686a4e7930774e444a68593255335a5441344e7a6b756347526d&fich=5cb256d2-2c46-4788-98c7-042ace7e0879.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-04-24",
-       "TipoDocumento": "Proposta de alteração",
-       "TituloDocumento": "Proposta de Alteração GP L",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774e574e6d4d446c695979307a4d4441324c5451344d575974596d45315a4330794d32466a4d6a646b4e47466c4f5467756347526d&fich=05cf09bc-3006-481f-ba5d-23ac27d4ae98.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-05-06",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Resultado das Votações",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938334e7a49354e7a426d4d5331684d4451794c54526c5a4467744f5452684f4330334e444132596a466c5a6a646c4f4441756347526d&fich=772970f1-a042-4ed8-94a8-7406b1ef7e80.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-05-06",
-       "TipoDocumento": "Texto final",
-       "TituloDocumento": "Texto Final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938334e5451314e6a51784f43307859325a684c5451324f5463744f47553559693168597a637a4e3255794f57597759324d756347526d&fich=75456418-1cfa-4697-8e9b-ac737e29f0cc.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8451",
      "Legislatura": null,
@@ -2065,7 +2015,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-05-20",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938344e7a51794d44426d4f4331695a4755324c5451344d324d744f54637a5a69303059574a69596a526b4f5459345a6a41756347526d&fich=874200f8-bde6-483c-973f-4abbb4d968f0.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8451",
      "Legislatura": null,

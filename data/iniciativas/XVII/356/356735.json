@@ -7028,20 +7028,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-06-24",
-       "TipoDocumento": "Texto de Substituição",
-       "TituloDocumento": "Proposta de substituição integral conjunta IL e CDS-PP",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a45784d7a68684d444d744f4441334d4330304e54566d4c5745315a6a59745a546b344e546b775a6d4d355a475a6b4c6e426b5a673d3d&fich=61138a03-8070-455f-a5f6-e98590fc9dfd.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-06-24",
-       "TipoDocumento": "Texto final",
-       "TituloDocumento": "Relatório da discussão e votação na especialidade e texto final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765957497a4d4467345a6a67745a6d49344e6930304f544a684c574a695a4441745a6a63324d7a4d795a444a6c4f4459304c6e426b5a673d3d&fich=ab3088f8-fb86-492a-bbd0-f76332d2e864.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -7147,7 +7134,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a67354e546734595759354c544d354d5751744e444e6c4e4330344f5464694c5751775a5467794d6a4d324e6d59335979356b62324e34&fich=89588af9-391d-43e4-897b-d0e822366f7c.docx&Inline=true",
+     "anexoNome": "Sugestão de Redação Final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -7168,7 +7160,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-09",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d54566859544a6b4d5467744e6a6b324d4330304d7a49794c5467774e5449745a57466a4e7a513259544e6c4e4756684c6e426b5a673d3d&fich=15aa2d18-6960-4322-8052-eac746a3e4ea.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -7301,7 +7300,7 @@
  ],
  "IniId": "356735",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325534596d4e694e324e694c544d7a4d6a59744e444a6c4e4331695a6d4d7a4c544d324d6d59314d444a6c5954686b5a53356b62324e34&fich=e8bcb7cb-3326-42e4-bfc3-362f502ea8de.docx&Inline=true",
  "IniNr": "952",
  "IniObs": null,
  "IniSel": "1",

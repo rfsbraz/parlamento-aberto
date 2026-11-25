@@ -271,7 +271,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255314e7a67775a6a6c684c54466c596d45744e445134597930344e5746684c5751354f5445794f4456694f4456685a5335775a47593d&fich=e5780f9a-1eba-448c-85aa-d991285b85ae.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "175",
    "Comissao": null,
    "DataFase": "2026-05-04",
@@ -322,7 +327,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a41774e546b325a6a59314c574a68595751744e444d794e5330354d7a51304c5445794d57517a4e5467784f4455784e4335775a47593d&fich=00596f65-baad-4325-9344-121d35818514.pdf&Inline=true",
+     "anexoNome": "Ofício de redistribuição"
+    }
+   ],
    "CodigoFase": "180",
    "Comissao": [
     {
@@ -416,6 +426,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos de Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=902"
+      },
+      {
+       "DataDocumento": "2026-05-20",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938335a6d49325a474d784d6930794e3255334c5451354e444d74595467325969316a4d474a6c59574e68595442684f4749756347526d&fich=7fb6dc12-27e7-4943-a86b-c0beacaa0a8b.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -458,7 +474,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45334e445177595755304c545a6c4e4467744e47466d5a6931694f4459344c5449314d475a694e5456694e6d55794d7935775a47593d&fich=17440ae4-6e48-4aff-b868-250fb55b6e23.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2026-05-18",

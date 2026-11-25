@@ -4762,12 +4762,12 @@
    ],
    "ParlamentoJovens": [
     {
-     "CirculoEleitoral": null,
-     "Data": null,
-     "Estabelecimento": null,
-     "Legislatura": null,
-     "Sessao": null,
-     "TipoReuniao": null
+     "CirculoEleitoral": "Lisboa",
+     "Data": "2026-01-08",
+     "Estabelecimento": "Escola Básica Pêro de Alenquer, Alenquer",
+     "Legislatura": "XVII",
+     "Sessao": "Básico",
+     "TipoReuniao": "Debate na Escola"
     }
    ],
    "Rel": {
@@ -4775,6 +4775,24 @@
     "RelatoresContasPublicas": null,
     "RelatoresIniEuropeias": null,
     "RelatoresIniciativas": [
+     {
+      "AccDtrel": null,
+      "IniId": "357001",
+      "IniNr": "701",
+      "IniSelLg": "XVII",
+      "IniTi": "Revoga o monopólio público na gestão de resíduos ",
+      "IniTp": "Projeto de Lei",
+      "RelFase": "Baixa comissão distribuição inicial generalidade"
+     },
+     {
+      "AccDtrel": null,
+      "IniId": "315635",
+      "IniNr": "234",
+      "IniSelLg": "XVII",
+      "IniTi": "Determina o fim dos voos noturnos nos aeroportos nacionais",
+      "IniTp": "Projeto de Lei",
+      "RelFase": "Baixa comissão distribuição inicial generalidade"
+     },
      {
       "AccDtrel": "2025-09-10",
       "IniId": "315326",
@@ -6144,7 +6162,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-23",
+    "GpDtFim": "2026-11-24",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

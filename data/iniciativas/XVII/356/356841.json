@@ -1,7 +1,24 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4530596a6b7a4f44517a4c54566c4e5445744e475a6c4d5331695a4463334c5441354e7a63305932466d4e4759344e4335775a47593d&fich=14b93843-5e51-4fe1-bd77-09774caf4f84.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32597a4d47466c4d6a4e684c5752684d4751744e4467305a533169597a49324c5445324e3245324d7a4d305a44566d596935775a47593d&fich=f30ae23a-da0d-484e-bc26-167a6334d5fb.pdf&Inline=true",
+   "anexoNome": "Ofício"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6c6c4e7a4d334d44466b4c5755794d7a55744e44526a4e693169595441774c5745784e5745774e545a6c597a51774d4335775a47593d&fich=9e73701d-e235-44c6-ba00-a15a056ec400.pdf&Inline=true",
+   "anexoNome": "Tabela de correspondências"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d7a5a546b794f5755324c544933596a4d744e446731596931684d4467334c5441304d7a566d4d54526a4d54466d5a6935775a47593d&fich=33e929e6-27b3-485b-a087-0435f14c11ff.pdf&Inline=true",
+   "anexoNome": "Texto da Iniciativa - Versão assinada"
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -38,7 +55,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d7a4e5467775a574d354c5455774e6a51744e4449324e4330344e444d7a4c545531596a67354d54566d4e4464694e53356b62324e34&fich=c3580ec9-5064-4264-8433-55b8915f47b5.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-06-02",
@@ -296,16 +318,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3256695a574d344d5459314c5755304d7a41744e474e6b5a6930354d4445344c546b784e6a566c4e4759304d6d55774f5335775a47593d&fich=ebec8165-e430-4cdf-9018-9165e4f42e09.pdf&Inline=true",
-     "anexoNome": "Despacho 204-XVII do PAR"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a426b4e47566b4e54637a4c54566a596d59744e4446695a4331694e7a677a4c5751324d47526d4e4463784d54566a5a4335775a47593d&fich=0d4ed573-5cbf-41bd-b783-d60df47115cd.pdf&Inline=true",
-     "anexoNome": "Requerimento PSD"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-06-11",
@@ -1673,7 +1686,7 @@
  ],
  "IniId": "356841",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3259784e5749334d3245324c574a694d7a49744e475a695a6931694d32526a4c5449785a474e694f44457a4d6a4d794e69356b62324e34&fich=f15b73a6-bb32-4fbf-b3dc-21dcb8132326.docx&Inline=true",
  "IniNr": "82",
  "IniObs": null,
  "IniSel": "1",

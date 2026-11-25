@@ -151,14 +151,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-05-13",
-       "TipoDocumento": "Informação",
-       "TituloDocumento": "Informação de discussão",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533833513046515a584d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d4e6a637a5a4467774f4330344f5756684c5451794e545574596a5a695a4330354d32526a5a5445314e6a646b4e6a55756347526d&fich=f673d808-89ea-4255-b6bd-93dce1567d65.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8453",
      "Legislatura": null,
@@ -308,14 +301,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-06-24",
-       "TipoDocumento": "Texto final",
-       "TituloDocumento": "Texto Final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533833513046515a584d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a4e5751794d3245304d5330314e4752694c5451334f446b74595449334d4331684e325a694d5455335a5463304e5445756347526d&fich=c5d23a41-54db-4789-a270-a7fb157e7451.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8453",
      "Legislatura": null,
@@ -431,7 +417,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59794f574d784d3249774c5463314e5455744e4451774e5331685a54466c4c54673559324a694d6d55304d7a45304e53356b62324e34&fich=629c13b0-7555-4405-ae1e-89cbb2e43145.docx&Inline=true",
+     "anexoNome": "Sugestão de Redação Final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {

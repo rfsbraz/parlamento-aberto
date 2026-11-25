@@ -1702,7 +1702,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59774e4451324f4451324c544e6a4e4441744e446b34595331694e6d4d794c544d355a5446695a445a6d4d546b77596935775a47593d&fich=60446846-3c40-498a-b6c2-39e1bd6f190b.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2025-07-21",
@@ -1725,7 +1730,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d305a445668596d51344c5749304e5749744e4751784e6931694d7a41324c544a6b4f54686a5a5441305a6a45314d7935775a47593d&fich=34d5abd8-b45b-4d16-b306-2d98ce04f153.pdf&Inline=true",
+     "anexoNome": "Ofício de redistribuição"
+    }
+   ],
    "CodigoFase": "270",
    "Comissao": [
     {
@@ -2490,14 +2500,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-01-07",
-       "TipoDocumento": "Redação final",
-       "TituloDocumento": "Redação final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a566d4d54597a4f5745744e4755334d7930305a6a4a684c5746684e6a637459544932596a5978593246694d47566d4c6e426b5a673d3d&fich=25f1639a-4e73-4f2a-aa67-a26b61cab0ef.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,

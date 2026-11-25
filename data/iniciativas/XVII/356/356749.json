@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5a6c5a5745314e5467774c574e695a5459744e47497a5a5331694e6a59794c5755324d3249305a5449784d5463785a5335775a47593d&fich=6eea5580-cbe6-4b3e-b662-e63b4e21171e.pdf&Inline=true",
+   "anexoNome": "Versão assinada"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4533596d457a5a5746694c544a6d4d546b744e4463774d7931684e3249354c544d344f5452685954686a5a544177597935775a47593d&fich=17ba3eab-2f19-4703-a7b9-3894aa8ce00c.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -61,7 +70,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5a6b5a44526a5a4463334c57597a5a4749744e4463775a6931684d7a466c4c5445344d7a64694d575535597a5a694e69356b62324e34&fich=6dd4cd77-f3db-470f-a31e-1837b1e9c6b6.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-05-19",
@@ -1479,26 +1493,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-06-26",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Proposta de Alteração GP PS",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a4e4751324e7a45324d693030596a63344c54526d4d5751744f5459324e6931695a44466b5a5749354f47566d597a51756347526d&fich=34d67162-4b78-4f1d-9666-bd1deb98efc4.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-06-26",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Proposta de Alteração GP PSD e CDS-PP",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774e7a63784f574e6b4e4330315a5441334c545179596a49744f4463795a69316b4d574a6c4f57526a596a677a596a67756347526d&fich=07719cd4-5e07-42b2-872f-d1be9dcb83b8.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-07-01",
-       "TipoDocumento": "Texto final",
-       "TituloDocumento": "Texto Final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d4e446c684e324e6b4d6930344e5445794c5451304d4463744f446b794d43316b5a446b314d6a41785a4751335a6d55756347526d&fich=f49a7cd2-8512-4407-8920-dd95201dd7fe.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8451",
      "Legislatura": null,
@@ -1815,7 +1810,7 @@
  ],
  "IniId": "356749",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55314d4468694d6a55784c54466a5a6d45744e474a6d4f533169597a67334c546b7a4d7a4d784d445a6b4d5451305a69356b62324e34&fich=5508b251-1cfa-4bf9-bc87-9333106d144f.docx&Inline=true",
  "IniNr": "74",
  "IniObs": null,
  "IniSel": "1",

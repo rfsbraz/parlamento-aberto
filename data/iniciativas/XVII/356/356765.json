@@ -1,12 +1,7 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32566a596d59354d6a51314c5463785a6d51744e4749334f5331694e6d4d324c54426c4e7a63314e47497a59325a6a5a6935775a47593d&fich=ecbf9245-71fd-4b79-b6c6-0e7754b3cfcf.pdf&Inline=true",
-   "anexoNome": "Texto - Versão 1 de 18-05-2026"
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": [
   {
    "GP": "L",
@@ -145,7 +140,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-06-09",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação - Súmula da discussão",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765957597a4e5755314e324d744f5456694d6930304d4446684c57466a5a5749744d54426d596d5a694f546c6b5a6a5a6c4c6e426b5a673d3d&fich=af35e57c-95b2-401a-aceb-10fbfb99df6e.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -251,7 +253,7 @@
  ],
  "IniId": "356765",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251774d575a6c4d6a4a6d4c575130596a63744e445134596931694e6d45324c54686c596a55794f4755795a544930596935775a47593d&fich=d01fe22f-d4b7-448b-b6a6-8eb528e2e24b.pdf&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "973",
  "IniObs": null,
  "IniSel": "1",

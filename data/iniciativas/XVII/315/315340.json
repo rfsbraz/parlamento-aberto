@@ -2500,7 +2500,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324a6c4e6d466d4d6d46694c57466b5a4749744e44426a4d6931685a5449334c5456684e7a4d784f574d31596d4d785a53356b62324e34&fich=be6af2ab-addb-40c2-ae27-5a7319c5bc1e.docx&Inline=true",
+     "anexoNome": "Informação de redação final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5a684e6a4e6d4f544e684c545a684d5759744e47466a4d5331684d575a6c4c5463304d3246684e57466d5a6a59354e43356b62324e34&fich=6a63f93a-6a1f-4ac1-a1fe-743aa5aff694.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -2521,7 +2530,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-01-07",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e445a6d4e7a646b595745744e575a694e6930305a6a41774c546b784e5745744d6a55354f5455324d4441354e7a6b324c6e426b5a673d3d&fich=46f77daa-5fb6-4f00-915a-259956009796.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,

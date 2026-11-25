@@ -1704,7 +1704,26 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-05-20",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de Alteração do GP IL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d57526959324a6c4d4459744f4441784d5330304e47597a4c5467314f4751745932557a595468684d7a5a6a4e32597a4c6e426b5a673d3d&fich=1dbcbe06-8011-44f3-858d-ce3a8a36c7f3.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-20",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a63314d54686b4d544d745a44593059693030596a4e684c546b324d6a63745a5749335a4449784f546b334f474a6d4c6e426b5a673d3d&fich=67518d13-d64b-4b3a-9627-eb7d219978bf.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-20",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório de Discussão e Votação na Especialidade",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d54466d4f546b7a5a6a6b744e6a5a6b4d7930304d6a63334c5749304d3251744d7a4d344e5449784d445a68595445324c6e426b5a673d3d&fich=11f993f9-66d3-4277-b43d-33852106aa16.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8456",
      "Legislatura": null,
@@ -2381,7 +2400,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255794f54526c5a6d4d774c54466c4e4751744e4445305a4331694f5755794c545a694e3245305a474d354f4463304e69356b62324e34&fich=e294efc0-1e4d-414d-b9e2-6b7a4dc98746.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251344e6a4e6b4e446c6b4c574d324d3249744e446379597930344f4751344c5463334e7a426c4d7a45314e6a67354e79356b62324e34&fich=d863d49d-c63b-472c-88d8-7770e3156897.docx&Inline=true",
+     "anexoNome": "Informação de redação final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -2402,7 +2430,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-06-03",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final – Deliberação da Comissão",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876595463314e6a5533596a55744d54466a4d5330304e6a4d354c5467324e7a45744d6a4a694d44497a5a6a45354d7a4a684c6e426b5a673d3d&fich=a75657b5-11c1-4639-8671-22b023f1932a.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8456",
      "Legislatura": null,

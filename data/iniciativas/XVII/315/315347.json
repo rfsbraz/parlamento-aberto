@@ -197,42 +197,6 @@
      "DistribuicaoSubcomissao": null,
      "Documentos": [
       {
-       "DataDocumento": "2025-09-10",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório CACDLG",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6d49344d7a68684d4455745a6d5a695a5330304e7a55314c546c6b4e544d745a5455355954426b4d7a67784d6a59334c6e426b5a673d3d&fich=6b838a05-ffbe-4755-9d53-e59a0d381267.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-09-11",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota Técnica CACDLG",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d44526b5a544e6c4d4755744f574e6b4f5330304d4468694c5749324f4441744d544d775a44686c5a446b324e6d566b4c6e426b5a673d3d&fich=04de3e0e-9cd9-408b-b680-130d8ed966ed.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-08-26",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Parecer - Comissão Nacional de Eleições",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a67304e4449314e3245744e5759314e4330304e6d5a6b4c546c6a5a445974597a6332596d5a6b4e4755784f4745774c6e426b5a673d3d&fich=c844257a-5f54-46fd-9cd6-c76bfd4e18a0.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-09-02",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "CSM - Informação de não emissão de parecer",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a444e6d5a54686d4f5755745a5441334f5330304f546b794c5467324d6a41745a545a694d6d59774f57466d4f57466c4c6e426b5a673d3d&fich=d3fe8f9e-e079-4992-8620-e6b2f09af9ae.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-09-08",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Parecer - Conselho Superior do Ministério Público",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a45784e324a684d4449744f44517a4e7930304e4749784c54686b5a474d744e6d5a6d5a4745784d6d4e6b5a5749314c6e426b5a673d3d&fich=f117ba02-8437-44b1-8ddc-6ffda12cdeb5.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-09-02",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Parecer - Ordem dos Advogados",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6d4d7a4e7a55324e6a5574596a637a4e5330304e6d49794c54686a4d4745744f4749344e6a557a4d5755305a6d56684c6e426b5a673d3d&fich=6c375665-b735-46b2-8c0a-8b86531e4fea.pdf&Inline=true"
-      },
-      {
        "DataDocumento": "2025-07-16",
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos - Consulta pública",
@@ -467,7 +431,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b325a5467785a5445344c574e694e5459744e475578595330354f4463324c5449325a6a63334e445a694e47526d595335775a47593d&fich=96e81e18-cb56-4e1a-9876-26f7746b4dfa.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "174",
    "Comissao": null,
    "DataFase": "2025-07-31",
@@ -1127,7 +1096,20 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-05-14",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "PA1-PSD-Proposta de substituição integral",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a426c595759784e544174596a45774e433030597a63774c5467774d5749744e4449774e47517759575668596a417a4c6e426b5a673d3d&fich=20eaf150-b104-4c70-801b-4204d0aeab03.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-08",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final e relatório da discussão e votação na especialidade CACDLG",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d575534596a6c6c5a44457459574d33596930304d6d55334c546b794e3251744e6a67314f445978596a4a6a4e6a51344c6e426b5a673d3d&fich=1e8b9ed1-ac7b-42e7-927d-685861b2c648.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -1176,12 +1158,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a67344d7a52694e3256684c575177595467744e47566c597930354f5455774c546c6c4e7a6c6d4e3252684d5759774e6935775a47593d&fich=8834b7ea-d0a8-4eec-9950-9e79f7da1f06.pdf&Inline=true",
-     "anexoNome": "Parecer ALRAA"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2026-06-19",

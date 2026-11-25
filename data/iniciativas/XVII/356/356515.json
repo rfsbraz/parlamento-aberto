@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b305a5451794d4455784c5467304f4463744e4445774f5331695a44526c4c54426b596d55335957566c5a6d45774f5335775a47593d&fich=94e42051-8487-4109-bd4e-0dbe7aeefa09.pdf&Inline=true",
+   "anexoNome": "A. I. G."
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5134596d4e6b4f5446694c5451324e5745744e475a6d59533168596d59324c5459775a6a566c596a597a4e6a59794f5335775a47593d&fich=48bcd91b-465a-4ffa-abf6-60f5eb636629.pdf&Inline=true",
+   "anexoNome": "Texto (versão assinada)"
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -1770,24 +1779,6 @@
      "Documentos": [
       {
        "DataDocumento": "2026-06-24",
-       "TipoDocumento": "Proposta de alteração",
-       "TituloDocumento": "Proposta de alteração CH",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f5751325a54426a4e7a45744f546b354d6930304e6a49304c5749324f4745745a5455355a6d45774e7a4d355a6a6b794c6e426b5a673d3d&fich=9d6e0c71-9992-4624-b68a-e59fa0739f92.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-06-24",
-       "TipoDocumento": "Texto final",
-       "TituloDocumento": "Relatório da discussão e votação na especialidade da Proposta de Lei n.º 66-XVII-1 (GOV)",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a6c6b4e6d4d334e3249744e4467354d5330304d474a694c5467334d546b745a4759784f5455344d6a4d784e6a42684c6e426b5a673d3d&fich=c9d6c77b-4891-40bb-8719-df195823160a.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-06-24",
-       "TipoDocumento": "Texto final",
-       "TituloDocumento": "Texto Final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a55334d4446684e4459745a6a4d7a4d4330304e7a526d4c5749774d3259744f574e6c4d4455314e544a6d4d6a45324c6e426b5a673d3d&fich=75701a46-f330-474f-b03f-9ce05552f216.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-06-24",
        "TipoDocumento": "Link",
        "TituloDocumento": "Gravação da discussão e votação na especialidade da Proposta de Lei n.º 66/XVII/1 (GOV)",
        "URL": "https://media.parlamento.pt/site/XVIILEG/SL1/COM/13_CREPL/CREPL_20260624_2.mp3"
@@ -2141,7 +2132,7 @@
  ],
  "IniId": "356515",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a426c4f575668596a6b334c57466a4e7a59744e446b314e7931684e3255334c54426c4d54686a5a544d794f445a6c5a53356b62324e34&fich=0e9eab97-ac76-4957-a7e7-0e18ce3286ee.docx&Inline=true",
  "IniNr": "66",
  "IniObs": null,
  "IniSel": "1",

@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324a6b4d6a4a69597a45334c57566d4e5745744e474d784e7931684e7a6b7a4c5755324d5759325a546b355954466b4e4335775a47593d&fich=bd22bc17-ef5a-4c17-a793-e61f6e99a1d4.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PCP",
@@ -145,7 +150,16 @@
      "Prorrogado": null,
      "Publicacao": null,
      "PublicacaoRelatorio": null,
-     "Relatores": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "8888",
+       "motivoCessacao": null,
+       "nome": "Pedro Vaz"
+      }
+     ],
      "RemessaRedaccaoFinal": null,
      "Remessas": null,
      "Sessao": null,
@@ -196,7 +210,7 @@
  ],
  "IniId": "315635",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255354d4459304e7a59784c5445324f4751744e4463794e5330354d7a6c694c54686b4f47526b4f4456694d6d51304e53356b62324d3d&fich=e9064761-168d-4725-939b-8d8dd85b2d45.doc&Inline=true",
  "IniNr": "234",
  "IniObs": null,
  "IniSel": "1",

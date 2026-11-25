@@ -94,7 +94,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a686b597a6c6a4f5467774c546b7a4d6a59744e4441354e5330344d54426c4c57526c593245354d6d55315a5451344d53356b62324e34&fich=8dc9c980-9326-4095-810e-deca92e5e481.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-03-18",
@@ -144,6 +149,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Link dos Contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=867"
+      },
+      {
+       "DataDocumento": "2026-05-18",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f5459334d7a51324d574d744d5751324e5330304d446b324c5745794d546774597a6869596a63354d4459344e57457a4c6d52765933673d&fich=9673461c-1d65-4096-a218-c8bb790685a3.docx&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-26",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d446b774d446b7a4d6a6b744d6a5a6b597930304d474d7a4c5745315a5467744d544e6a4d5463335a5459334e3259794c6e426b5a673d3d&fich=09009329-26dc-40c3-a5e8-13c177e677f2.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

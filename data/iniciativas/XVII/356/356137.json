@@ -48,7 +48,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a51304e7a49785a4452684c54526c5a4451744e444d304d4330345a545a694c5441774d574e6c597a56694e6a5a6c5969356b62324e34&fich=44721d4a-4ed4-4340-8e6b-001cec5b66eb.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-02-18",
@@ -1323,16 +1328,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45344d544a6c4d7a41324c5745314d5751744e4759344d4331694f4759354c57466c4e3255784d47526a4e6d526c4e69356b62324e34&fich=1812e306-a51d-4f80-b8f9-ae7e10dc6de6.docx&Inline=true",
-     "anexoNome": "Informação de redação final"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d325a5441775a4467794c544977595751744e4749324d693034595441774c5451325a6a4269597a5930596a5a695a53356b62324e34&fich=36e00d82-20ad-4b62-8a00-46f0bc64b6be.docx&Inline=true",
-     "anexoNome": "Projeto de decreto"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "348",
    "Comissao": [
     {

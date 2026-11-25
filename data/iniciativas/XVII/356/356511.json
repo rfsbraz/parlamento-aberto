@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a466c4d7a41324e6d45354c574e684d6a63744e4759335a433035597a4d354c544d324e5445324e7a526b4e444d79595335775a47593d&fich=1e3066a9-ca27-4f7d-9c39-3651674d432a.pdf&Inline=true",
+   "anexoNome": "Carta do Presidente"
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -82,7 +87,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-04-07",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer CNECP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c4d474d32597a6c6b5a5330325a546c684c54526d4f544974595467794e7931694e546868596d51335a474a6b4d5749755a47396a65413d3d&fich=e0c6c9de-6e9a-4f92-a827-b58abd7dbd1b.docx&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8448",
      "Legislatura": null,
@@ -295,7 +307,7 @@
  ],
  "IniId": "356511",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59354f5459305a6a41304c5749345a6a4d744e444a685a5331694e6d45324c54686b4e544a6b5954526a4e7a45314d69356b62324d3d&fich=69964f04-b8f3-42ae-b6a6-8d52da4c7152.doc&Inline=true",
  "IniNr": "812",
  "IniObs": null,
  "IniSel": "1",

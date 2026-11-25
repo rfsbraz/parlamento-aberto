@@ -505,7 +505,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a67344d474a6b4d6d566d4c5755784e5745744e444d335a6931694d446b774c5752684d546b315a4751794e7a51314e6935775a47593d&fich=880bd2ef-e15a-437f-b090-da195dd27456.pdf&Inline=true",
+     "anexoNome": "Ofício de Redistribuição"
+    }
+   ],
    "CodigoFase": "180",
    "Comissao": [
     {
@@ -532,6 +537,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta Pública - Contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=835"
+      },
+      {
+       "DataDocumento": "2026-05-28",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f446b33596d59354f5441745a5449354d433030597a4a6b4c5749794f4455744e57517a595463775a6a526d4d6a5a6c4c6e426b5a673d3d&fich=897bf990-e290-4c2d-b285-5d3a70f4f26e.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

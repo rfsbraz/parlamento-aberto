@@ -76,7 +76,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d344d6a67785a6a55324c574e6a4d5451744e4451324e793034596d49784c54646b4e6a4d354d544d344d7a417a4f53356b62324e34&fich=c8281f56-cc14-4467-8bb1-7d6391383039.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-03-13",
@@ -126,6 +131,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=740"
+      },
+      {
+       "DataDocumento": "2026-03-16",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação - Não elaboração de parecer",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e3252694e7a4d7a4e7a55745a4755354f5330304e4467784c54686d4d7a55744e7a466c5a44517a5957466a4f5459334c6e426b5a673d3d&fich=7db73375-de99-4481-8f35-71ed43aac967.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

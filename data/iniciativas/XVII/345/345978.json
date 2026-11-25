@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45784d6d526c4e57566b4c54637a4f5455744e4442684e5331695a6a59774c57566b4d6d517959575a6a4d6a4e6c4f4335775a47593d&fich=112de5ed-7395-40a5-bf60-ed2d2afc23e8.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "BE",
@@ -117,28 +122,10 @@
      "DistribuicaoSubcomissao": null,
      "Documentos": [
       {
-       "DataDocumento": "2026-02-09",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota técnica",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938344d6d4d7859574d344f5330324d4759314c5452695a575174596a63354e793079596d466a595441794f5441784e6a63756347526d&fich=82c1ac89-60f5-4bed-b797-2baca0290167.pdf&Inline=true"
-      },
-      {
        "DataDocumento": "2026-01-23",
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta Pública - Contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=607"
-      },
-      {
-       "DataDocumento": "2026-05-05",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Contributo - Associação Portuguesa de Mulheres Juristas",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396859544934597a6b7a596930314f544d334c5451325a544d74596d45314d4330355a6d51314d7a4d784d4749344f546b756347526d&fich=aa28c93b-5937-46e3-ba50-9fd53310b899.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-09-16",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório da Comissão de Saúde",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684f4441344e32597a4f5330304d47466c4c54526c4d7a5174596d49354e7931694e4749774f5755794d6d4a68593251756347526d&fich=a8087f39-40ae-4e34-bb97-b4b09e22bacd.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -215,7 +202,7 @@
  ],
  "IniId": "345978",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4135596a42684e5467304c574933593249744e474d345a433169595445354c54426d593246694e6a51345a544a6b4d79356b62324e34&fich=09b0a584-b7cb-4c8d-ba19-0fcab648e2d3.docx&Inline=true",
  "IniNr": "360",
  "IniObs": null,
  "IniSel": "1",

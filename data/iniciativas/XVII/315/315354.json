@@ -43,12 +43,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245774d7a49784d5745784c5445315a6d49744e4467784e4330344f4441304c5456684e5759784e475135596a63355a53356b62324e34&fich=a03211a1-15fb-4814-8804-5a5f14d9b79e.docx&Inline=true",
-     "anexoNome": "Nota de Admissiblidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-07-16",
@@ -1549,7 +1544,26 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-10-14",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de Alteração GP PS",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938354e7a5a684e4455774e6930794e574d314c5451304d3259744f4451774e6931684e54566a596a52695a6a4e6d4e3251756347526d&fich=976a4506-25c5-443f-8406-a55cb4bf3f7d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-10-15",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Resultado da Votação",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684d6d526c4e6a6869596931684d5755354c54526a5a5745744f474d7a5a43316d4d5449775a5446694d7a41344e4467756347526d&fich=a2de68bb-a1e9-4cea-8c3d-f120e1b30848.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-10-15",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a4d444a694e6d45314f4330305954526b4c5451775a545974596a4d354d5330794e6a41775a444a6d4e47497a4e7a49756347526d&fich=c02b6a58-4a4d-40e6-b391-2600d2f4b372.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8451",
      "Legislatura": null,
@@ -1725,7 +1739,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3259795a44466c597a55334c5749334e324d744e44417a59693035595751344c545131596a4d795a54646c4e6d49784d53356b62324e34&fich=f2d1ec57-b77c-403b-9ad8-45b32e7e6b11.docx&Inline=true",
+     "anexoNome": "Informação"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255304d6a686a4d7a67344c5759774e474d744e444d774e4331685a6a4e6d4c5749315a44566b4f54566d4f574d794e79356b62324e34&fich=e428c388-f04c-4304-af3f-b5d5d95f9c27.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {

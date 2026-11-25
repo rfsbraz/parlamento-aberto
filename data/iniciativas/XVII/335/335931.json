@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251794d7a67314e7a566a4c5451315a6d4d744e4751304f533034597a51324c5459355a6a67305a5749354d6d526c597935775a47593d&fich=d238575c-45fc-4d49-8c46-69f84eb92dec.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PS",
@@ -2064,7 +2069,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32466a4d6a646a4f446c694c54686a597a59744e446b774f5330354d6a67304c5467335a6d56694f47526c596a6b345969356b62324e34&fich=ac27c89b-8cc6-4909-9284-87feb8deb98b.docx&Inline=true",
+     "anexoNome": "Informação da redação final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4a6c5a5467314f544d344c544e6b4e5455744e446b79597930354e4749344c545933597a63314d7a597a4d54457a4e43356b62324e34&fich=2ee85938-3d55-492c-94b8-67c753631134.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -2279,7 +2293,7 @@
  ],
  "IniId": "335931",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32517a5954426d4e54526b4c5449305a4467744e446469595330344e5745794c5463784f5749335a6a5a6b595445794e79356b62324e34&fich=d3a0f54d-24d8-47ba-85a2-719b7f6da127.docx&Inline=true",
  "IniNr": "351",
  "IniObs": null,
  "IniSel": "1",

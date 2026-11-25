@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324e6b4d7a597a4d7a637a4c5468695a6a63744e44686c5a6931694d7a426d4c54686c4d6d56684d5451354d6a526c597935775a47593d&fich=cd363373-8bf7-48ef-b30f-8e2ea14924ec.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "CH",
@@ -343,7 +348,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a426d4f5755344e5749334c574e6b4d6d45744e444e68597930354f54566d4c574e6a4d6d526c59574d334d7a6c6a5979356b62324e34&fich=0f9e85b7-cd2a-43ac-995f-cc2deac739cc.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-02-24",
@@ -478,18 +488,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=708"
-      },
-      {
-       "DataDocumento": "2026-05-19",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota Técnica - PJL 446-XVII-1",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6d5a6b4f446b785a6d51744d4749784e4330305a6d59334c5745794d5445744e325a6b5a444577595459354e574e6c4c6e426b5a673d3d&fich=6fd891fd-0b14-4ff7-a211-7fdd10a695ce.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-06-24",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório do Projeto de Lei n.º 446-XVII-1.ª (CH)",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a6b794f4459334e5463744e7a5a6d59533030595449784c574579595441744f4459334e4759304f54566b4d6a45344c6e426b5a673d3d&fich=69286757-76fa-4a21-a2a0-8674f495d218.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -584,7 +582,7 @@
  ],
  "IniId": "356204",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45304e5755795a47566d4c546730595463744e444d774f433034593255324c5749304e474579597a517a4d6a646b5953356b62324e34&fich=145e2def-84a7-4308-8ce6-b44a2c4327da.docx&Inline=true",
  "IniNr": "446",
  "IniObs": null,
  "IniSel": "1",

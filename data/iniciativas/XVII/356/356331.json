@@ -375,7 +375,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d7a4e445a6a4e5756694c574e694d6d49744e44646c5a533034597a6b784c574d304f575535595759334e6a4d304d43356b62324e34&fich=3346c5eb-cb2b-47ee-8c91-c49e9af76340.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-03-18",
@@ -425,6 +430,24 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta pública - contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=747"
+      },
+      {
+       "DataDocumento": "2026-03-31",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938784f5751354f44646b5a5330784d3249774c54526d5a474974596a686b4f53316d4d6a51355a47526b593252695a6a59756347526d&fich=19d987de-13b0-4fdb-b8d9-f249dddcdbf6.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-08",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d4f545135596a4530597930784d546b344c5451774d6d5574596a566a4e53316c5a6a4e6c4e545a6c4d544a6c4e7a49756347526d&fich=f949b14c-1198-402e-b5c5-ef3e56e12e72.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-28",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Comissão de trabalhadores da Unidade Local de Saúde Loures-Odivelas",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938324d474e68596a41775a4330305a6d4a6c4c545130595449744f5463334d53316c4e7a59345954426d4e474a6c4f4759756347526d&fich=60cab00d-4fbe-44a2-9771-e768a0f4be8f.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

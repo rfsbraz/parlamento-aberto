@@ -70,7 +70,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63314e3256684d6a49304c544a6d4e7a45744e47466b4d6931694e7a55354c54646a4e6a566b4d6a59354f4745354e53356b62324e34&fich=757ea224-2f71-4ad2-b759-7c65d2698a95.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a52684e44566b5a6a49344c574d32597a63744e4441324d6931694d3251304c57493559546c6a59546c684d4445305a5335775a47593d&fich=4a45df28-c6c7-4062-b3d4-b9a9ca9a014e.pdf&Inline=true",
+     "anexoNome": "Despacho n.º 271-XVII"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-09-01",
@@ -141,6 +150,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta pública - contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=970"
+      },
+      {
+       "DataDocumento": "2026-09-22",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684d5445304f444a6d4d6930324e5451334c54517a5a544d744f54646b4f433034596d59784f5749355a5468684e6d51756347526d&fich=a11482f2-6547-43e3-97d8-8bf19b9e8a6d.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -261,12 +276,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45784f57497a5a54566d4c546c6d4d7a6b744e44677a4e6930354f4749774c5751314d6a4e6c4e3259354f474e684d5335775a47593d&fich=119b3e5f-9f39-4836-98b0-d523e7f98ca1.pdf&Inline=true",
-     "anexoNome": "Parecer"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "175",
    "Comissao": null,
    "DataFase": "2026-09-15",

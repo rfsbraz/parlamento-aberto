@@ -70,12 +70,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b77593255785a4759784c54686b4d6a51744e445a6d4d5331684f4451794c5751324e6a59304d47557a5a5755305979356b62324e34&fich=90ce1df1-8d24-46f1-a842-d66640e3ee4c.docx&Inline=true",
-     "anexoNome": "Nota de admissibilidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-03-19",
@@ -1331,7 +1326,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-05-06",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938324e546b324d6d4d355a6930314e7a64684c54526b4d4463744f4751334d5330344e575132597a5977597a677a4e5467756347526d&fich=65962c9f-577a-4d07-8d71-85d6c60c8358.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8451",
      "Legislatura": null,

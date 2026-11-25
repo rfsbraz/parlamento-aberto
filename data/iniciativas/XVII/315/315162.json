@@ -1,16 +1,7 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b314f446b775a474d794c545177597a55744e47597a4e7930354e3249794c544e6c4d5463334f544e6d5a6a4e6b4f5335775a47593d&fich=95890dc2-40c5-4f37-97b2-3e17793ff3d9.pdf&Inline=true",
-   "anexoNome": "A.I.G."
-  },
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4e6d596a51784e7a42684c5751784d5441744e474d31597931694e44646b4c546b35593245794e7a426d4f4455344e4335775a47593d&fich=3fb4170a-d110-4c5c-b47d-99ca270f8584.pdf&Inline=true",
-   "anexoNome": "Ofício pedido de processo de urgência"
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -142,22 +133,10 @@
      "DistribuicaoSubcomissao": null,
      "Documentos": [
       {
-       "DataDocumento": "2025-07-04",
-       "TipoDocumento": "Informação",
-       "TituloDocumento": "Informação não emissão de relatório",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e5463774f44566c4d475974596d4e6a4d6930304e474d334c5745304e4455744d4459784e444e6a4e32466c4f4441304c6e426b5a673d3d&fich=57085e0f-bcc2-44c7-a445-06143c7ae804.pdf&Inline=true"
-      },
-      {
        "DataDocumento": "2025-06-27",
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=221"
-      },
-      {
-       "DataDocumento": "2025-07-07",
-       "TipoDocumento": "Quadro comparativo",
-       "TituloDocumento": "Quadro comparativo",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d7a52694e6d59314f5749745a57526c4e6930304e5468684c574a6a4d7a41744e5467794e7a6b344d574a6b4f4451314c6e426b5a673d3d&fich=34b6f59b-ede6-458a-bc30-5827981bd845.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -2305,7 +2284,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6731596a5a6d4d4446694c545a694d5451744e444e684e7931695a44566b4c546c685a57466c5a446c6a4e324d7a4d4335775a47593d&fich=85b6f01b-6b14-43a7-bd5d-9aeaed9c7c30.pdf&Inline=true",
+     "anexoNome": "Requerimento (substituído)"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2025-07-04",
@@ -2383,7 +2367,68 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2025-07-10",
+       "TipoDocumento": "Quadro comparativo",
+       "TituloDocumento": "Quadro comparativo",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a56684d5746684d4441744d32566b595330304d574a684c5468694e3245744f5463325a6d55324e5455794e6d4d784c6e426b5a673d3d&fich=b5a1aa00-3eda-41ba-8b7a-976fe65526c1.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-09",
+       "TipoDocumento": "Requerimento",
+       "TituloDocumento": "Requerimento audições PPL 3/XVII/1 (GOV)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f544979597a686a4f5759744e3245774d7930305957566b4c5467344f4441745a6a5a695a47566b4e6a41784f5445784c6e426b5a673d3d&fich=922c8c9f-7a03-4aed-8880-f6bded601911.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-09",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "PA 1 - Proposta de alteração CH",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a646d5a6a42694e474d745a6d566d5a6930304e6a677a4c5467775a4449745a5752684f444a6c4e7a4d314f5449794c6e426b5a673d3d&fich=c7ff0b4c-feff-4683-80d2-eda82e735922.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-10",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Informação de não emissão de parecer - Conselho Superior da Magistratura",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a574e6a4d6a63795a5749745a6a4e6c4e5330305a6a6b354c5745335a6d45744d7a51794f4745774e7a55334f574a6c4c6e426b5a673d3d&fich=ecc272eb-f3e5-4f99-a7fa-3428a07579be.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-11",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "PA 2 - Proposta de substituição integral do PSD",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a6777596a646d595467744d7a49324e5330304e57566c4c5749355a5749744d574e6d4e474668597a5a6c4d6a497a4c6e426b5a673d3d&fich=680b7fa8-3265-45ee-b9eb-1cf4aac6e223.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-11",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "PA 3 - Proposta de alteração CH",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6d45315957526b4d6a59745a474d314e6930304f5459344c546734597a67745957566a4d57466b4e6a41304e7a59774c6e426b5a673d3d&fich=fa5add26-dc56-4968-88c8-aec1ad604760.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-11",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Informação de não emissão de parecer - CSTAF",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a4134595464684d5441744f544a6d4d6930305a6a63774c5467784d6a5974595755774d7a526c59546c6d4f5756684c6e426b5a673d3d&fich=c08a7a10-92f2-4f70-8126-ae034ea9f9ea.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-11",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Fórum das Organizações Católicas para a Imigração e Asilo",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a57466b4e7a6735596a67744d4751314e6930304f546b334c5467345a574d744f47566d5a6a526b4f445a6a5a5749344c6e426b5a673d3d&fich=ead789b8-0d56-4997-88ec-8eff4d86ceb8.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-14",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Texto de substituição e relatório da nova apreciação",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a6b314e544a6b595445744d3255354e693030596d56694c574930597a6b744f47517a4d6a466d59544e6c4d32597a4c6e426b5a673d3d&fich=69552da1-3e96-4beb-b4c9-8d321fa3e3f3.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-18",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronúncia escrita - Professor Doutor Jorge Miranda e Professor Doutor Rui Tavares Lanceiro",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a5957387659544d304e4755304d6a5974595441785a693030597a4d794c5749334e324d744e444e694f475533595445794e54686c4c6e426b5a673d3d&fich=a344e426-a01f-4c32-b77c-43b8e7a1258e.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -2515,7 +2560,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a51354d5449345a54646b4c545a684e5445744e4449774e4330354d4468684c5451354e446869597a46685a5751304d6935775a47593d&fich=49128e7d-6a51-4204-908a-4948bc1aed42.pdf&Inline=true",
+     "anexoNome": "Requerimento do PS"
+    }
+   ],
    "CodigoFase": "225",
    "Comissao": null,
    "DataFase": "2025-07-16",
@@ -2538,7 +2588,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a67334d574e694f445a6d4c5445334f5463744e4751304d6930355a6d45314c5467314e545a684e6d56695a6a4d774e7935775a47593d&fich=871cb86f-1797-4d42-9fa5-8556a6ebf307.pdf&Inline=true",
+     "anexoNome": "Proposta de Alteração PSD"
+    }
+   ],
    "CodigoFase": "260",
    "Comissao": null,
    "DataFase": "2025-07-16",
@@ -2618,12 +2673,7 @@
   {
    "ActId": "61307",
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55325a54466d596d4a6b4c57466b4d7a4d744e4751324d6931684e54426d4c5749314e544d784d445a6a4e4452694f4335775a47593d&fich=56e1fbbd-ad33-4d62-a50f-b553106c44b8.pdf&Inline=true",
-     "anexoNome": "Resultado das votações"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "310",
    "Comissao": null,
    "DataFase": "2025-07-16",
@@ -4096,7 +4146,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325a6b4e54686c596a426b4c5451784d6a67744e47457a4d6930344f5467784c574e6b5a5759784e6a526b4d4468684d7935775a47593d&fich=fd58eb0d-4128-4a32-8981-cdef164d08a3.pdf&Inline=true",
+     "anexoNome": "Mensagem do Presidente da República"
+    }
+   ],
    "CodigoFase": "409",
    "Comissao": null,
    "DataFase": "2025-08-12",
@@ -4214,36 +4269,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59355a5755304e5452694c57466b4d5459744e44466c4d7931684e7a41784c57566c4e57466c597a56685a6a526c5a43356b62324e34&fich=69ee454b-ad16-41e3-a701-ee5aec5af4ed.docx&Inline=true",
-     "anexoNome": "Proposta de alteração - JPP"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5a6d5a574a6c4e4441314c5463314d4455744e445a6b4f533034596d45314c575132596d5577597a677a4d6a49304e43356b62324e34&fich=6febe405-7505-46d9-8ba5-d6be0c832244.docx&Inline=true",
-     "anexoNome": "Proposta de alteração - L"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3259324d475532593251324c546c6c4f546b744e475a6d4f5330355a4745324c544e694e574532595467315a5756685a43356b62324e34&fich=f60e6cd6-9e99-4ff9-9da6-3b5a6a85eead.docx&Inline=true",
-     "anexoNome": "Proposta de alteração - PS"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32457a4e5755784d6a41324c54517a4e3251744e44457a4d7930344d7a5a694c5467784f57566d4d32513559544d305a43356b62324e34&fich=a35e1206-437d-4133-836b-819ef3d9a34d.docx&Inline=true",
-     "anexoNome": "Proposta de alteração - CH"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63774e474d314e7a45784c575a6c4d7a63744e4449344f5330344f444d304c544d784e324a6d4e474533595449795a69356b62324e34&fich=704c5711-fe37-4289-8834-317bf4a7a22f.docx&Inline=true",
-     "anexoNome": "Proposta de alteração - JPP (Substituição)"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3256694e3249315a6a597a4c54686d5a6a67744e4467784e6930354e4749324c544a6c5a5745304e325668596a59794d69356b62324e34&fich=eb7b5f63-8ff8-4816-94b6-2eea47eab622.docx&Inline=true",
-     "anexoNome": "Proposta de alteração - PS (Substituição)"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6c6c4e7a526d5a6d4e6c4c54566a5a544d744e44597a5a4331685954686d4c574a6d596a5a6d4d544577597a466c4f53356b62324e34&fich=9e74ffce-5ce3-463d-aa8f-bfb6f110c1e9.docx&Inline=true",
-     "anexoNome": "Proposta de alteração - CH (Substituição)"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "460",
    "Comissao": null,
    "DataFase": "2025-09-29",
@@ -5166,12 +5192,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55774e546468597a67324c5751344d3255744e444a6b4e533168597a51784c5759785a6d4979596a526c4d6a466b4e5335775a47593d&fich=5057ac86-d83e-42d5-ac41-f1fb2b4e21d5.pdf&Inline=true",
-     "anexoNome": "Guião Suplementar (Decreto n.º 6/XVII/1.ª)"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "310",
    "Comissao": null,
    "DataFase": "2025-09-30",
@@ -5533,7 +5554,7 @@
  ],
  "IniId": "315162",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b325a47466b4d575a6b4c546869595759744e4452694f5331684d5441304c5451314d4451794e6d52684e5455315a69356b62324e34&fich=96dad1fd-8baf-44b9-a104-450426da555f.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "3",
  "IniObs": null,
  "IniSel": "1",

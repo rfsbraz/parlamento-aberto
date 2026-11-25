@@ -165,18 +165,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta pública - recolha de contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=323"
-      },
-      {
-       "DataDocumento": "2026-02-04",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota Técnica",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a4755774e47566d4e444d744d7a426d4d6930304d6a49774c5745355a57457459544a6d4e574533596d4d335a6a4e6c4c6e426b5a673d3d&fich=de04ef43-30f2-4220-a9ea-a2f5a7bc7f3e.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-02-04",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório ",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d5749324e5463784f4441744d444e6c4e5330304d6a466d4c57497a4f5449744d446c6c593245784d574e684e7a466b4c6e426b5a673d3d&fich=1b657180-03e5-421f-b392-09eca11ca71d.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -333,12 +321,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6c6c596a68694e6a597a4c5441334e7a41744e4441304e6930345a6d49794c5759314d54557a4d5441335a6a51344e5335775a47593d&fich=9eb8b663-0770-4046-8fb2-f5153107f485.pdf&Inline=true",
-     "anexoNome": "Parecer"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "175",
    "Comissao": null,
    "DataFase": "2025-08-04",
@@ -1471,7 +1454,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325a684f4756694f574d354c545131593255744e47466a4d433035595449304c5745334e544e684e6d526d4e6a59314d69356b62324e34&fich=fa8eb9c9-45ce-4ac0-9a24-a753a6df6652.docx&Inline=true",
+     "anexoNome": "Informação de Redação Final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63304d6a4d784f4755314c545a68597a41744e474e6b4f4330354e6a646b4c575131597a49314d6d4a6d5a446b354d43356b62324e34&fich=742318e5-6ac0-4cd8-967d-d5c252bfd990.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -1492,14 +1484,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-09-30",
-       "TipoDocumento": "Redação final",
-       "TituloDocumento": "Redação Final – Deliberação da Comissão",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d44646b4f57566c4d325174596a51304d433030596a41794c5749785a6d4d744d324d794e546b354d4449344d6d4e6d4c6e426b5a673d3d&fich=07d9ee3d-b440-4b02-b1fc-3c25990282cf.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8456",
      "Legislatura": null,

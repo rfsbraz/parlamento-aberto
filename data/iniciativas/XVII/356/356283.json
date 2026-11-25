@@ -76,7 +76,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324a6a5a4455315a5459304c5455774e3249744e444d7a4f4330354e7a5a6d4c5459315a44466a4e54517a4e325a6b4d79356b62324e34&fich=bcd55e64-507b-4338-976f-65d1c5437fd3.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-03-13",
@@ -126,6 +131,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=738"
+      },
+      {
+       "DataDocumento": "2026-03-16",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação - Não elaboração de parecer",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a44686d4d32466a4d544d745a446b77595330304e3259354c546c6c4d4459744f544e694f544d7a596d4d354f4441344c6e426b5a673d3d&fich=d8f3ac13-d90a-47f9-9e06-93b933bc9808.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -2684,7 +2695,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a51334f574934596a46694c54466d5a4467744e446c6c4e5330345a546b794c574d784e54417a597a466a4e6a426a4d6935775a47593d&fich=479b8b1b-1fd8-49e5-8e92-c1503c1c60c2.pdf&Inline=true",
+     "anexoNome": "Parecer "
+    }
+   ],
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2026-03-31",

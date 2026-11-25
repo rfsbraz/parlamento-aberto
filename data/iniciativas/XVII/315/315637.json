@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45335a6d51304d4449334c546b7a595749744e445a69595331694d5449794c574e694f574534597a686a4d4749794f4335775a47593d&fich=17fd4027-93ab-46ba-b122-cb9a8c8c0b28.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45314d544e684d546b794c5442684e5749744e44566c597930344e7a4e694c5467334d54646d5a6d4d7a4e4755794e43356b62324d3d&fich=1513a192-0a5b-45ec-873b-8717ffc34e24.doc&Inline=true",
+   "anexoNome": "Texto da iniciativa- versão 1, de 25-09-2025"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PCP",
@@ -113,6 +122,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta Pública - Recolha de contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=473"
+      },
+      {
+       "DataDocumento": "2025-12-03",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387a5130524f4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6d52684f4752684e5449744d7a45344f5330304e7a67344c5467774e4467744f4449775a6a59314d54557a596a51334c6e426b5a673d3d&fich=6da8da52-3189-4788-8048-820f65153b47.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-12-10",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório - Comissão de Defesa Nacional",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387a5130524f4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a637a4f4467325a6d55745a6a4a6a4e6930304d32526b4c546b774f474974596a49354e3259794f574d794d544d774c6e426b5a673d3d&fich=673886fe-f2c6-43dd-908b-b297f29c2130.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -314,7 +335,7 @@
  ],
  "IniId": "315637",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251784e6a51334d5755324c5442685a4445744e47466d597931684d6d59354c5455354e6a4e6b593255324d7a5a6a4e43356b62324d3d&fich=d16471e6-0ad1-4afc-a2f9-5963dce636c4.doc&Inline=true",
  "IniNr": "235",
  "IniObs": null,
  "IniSel": "1",

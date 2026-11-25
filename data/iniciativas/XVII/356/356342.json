@@ -76,7 +76,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49304e3251334d5449354c575a6d5a4759744e4449325a5330344d4467354c5749794f444e6c4e324d354d57497a5969356b62324e34&fich=247d7129-ffdf-426e-8089-b283e7c91b3b.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-03-18",
@@ -126,6 +131,24 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=755"
+      },
+      {
+       "DataDocumento": "2026-04-02",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Parecer Me-CDPD",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e54686c5a44517a4f5745744f546b325a5330304f5449334c546b324f4459744e6a517759544a684e5441354d6d51774c6e426b5a673d3d&fich=58ed439a-996e-4927-9686-640a2a5092d0.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-12",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d44686c596a6c6a5a6a63744e32526a5a5330305a546b304c546734596a45744d545a6d5a5463305a546b784d5759334c6e426b5a673d3d&fich=08eb9cf7-7dce-4e94-88b1-16fe74e911f7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-17",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a6b304f54497a596a51744e7a526c5a533030597a41324c5467344d5455744d5751324f544d304d4451304d5749334c6e426b5a673d3d&fich=294923b4-74ee-4c06-8815-1d69340441b7.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

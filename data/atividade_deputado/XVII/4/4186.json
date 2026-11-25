@@ -3602,7 +3602,18 @@
      "TevTp": null
     }
    ],
-   "DlE": null,
+   "DlE": [
+    {
+     "DevDtfim": "2026-12-02 00:00:00.0",
+     "DevDtini": "2026-11-29 00:00:00.0",
+     "DevId": "22889",
+     "DevLoc": "Luanda",
+     "DevNo": "Visita a Angola de Sua Excelência o Presidente da Assembleia da República",
+     "DevSelLg": "XVII",
+     "DevSelNr": "2",
+     "DevTp": "Internacional"
+    }
+   ],
    "DlP": null,
    "Eventos": null,
    "Gpa": [
@@ -4259,6 +4270,36 @@
      "ReqPerTp": "REQ",
      "ReqSl": "1",
      "ReqTp": "AC"
+    },
+    {
+     "ReqAs": "Assunto: Muito urgente. Atraso na entrega de manuais escolares traduzidos para braille. Desvantagens para os alunos. \n\n",
+     "ReqDt": "2026-11-20 00:00:00.0",
+     "ReqId": "232064",
+     "ReqLg": "XVII",
+     "ReqNr": "419",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Atraso na entrada em funcionamento da Base de Dados de Violência contra as Mulheres e Violência Doméstica (BDVMVD)",
+     "ReqDt": "2026-11-17 00:00:00.0",
+     "ReqId": "232055",
+     "ReqLg": "XVII",
+     "ReqNr": "411",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
+    },
+    {
+     "ReqAs": "Atraso na entrada em funcionamento da Base de Dados de Violência contra as Mulheres e Violência Doméstica (BDVMVD)",
+     "ReqDt": "2026-11-17 00:00:00.0",
+     "ReqId": "232054",
+     "ReqLg": "XVII",
+     "ReqNr": "410",
+     "ReqPerTp": "PER",
+     "ReqSl": "2",
+     "ReqTp": null
     },
     {
      "ReqAs": "Esclarecimentos sobre a atuação do INEM e a prestação de socorro médico durante as intervenções policiais no Rossio, em Lisboa, nas madrugadas de 25 de outubro e 1 de novembro de 2026",
@@ -5990,7 +6031,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-17",
+    "GpDtFim": "2026-11-24",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

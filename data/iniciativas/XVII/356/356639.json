@@ -312,18 +312,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=863"
-      },
-      {
-       "DataDocumento": "2026-05-15",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Parecer Tribunal de Contas",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a6468597a63324e7a63744e54466c4f433030593259354c574a694f5441745a44686a596d55354d3249354d6a67324c6e426b5a673d3d&fich=77ac7677-51e8-4cf9-bb90-d8cbe93b9286.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-05-20",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Parecer INTOSAI",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d7a426c5a6a5132595441744f546731596930304e4749774c546b324e4755745a6a56684d5464684e575a6d596a4d304c6e426b5a673d3d&fich=30ef46a0-985b-44b0-964e-f5a17a5ffb34.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -2404,12 +2392,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5a6a597a6c685a6d52694c5467775a4455744e44566a4e6931694e6a4a6d4c5468694e544e6b4d5445345a6d4a694e6935775a47593d&fich=6cc9afdb-80d5-45c6-b62f-8b53d118fbb6.pdf&Inline=true",
-     "anexoNome": "Parecer"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "173",
    "Comissao": null,
    "DataFase": "2026-05-28",
@@ -2464,6 +2447,100 @@
      "unanime": null
     }
    ]
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4e6c5a44566d596a637a4c5441795a5759744e4452684e5330354d6d4a6c4c5463334d546b324e6a5269595452694e53356b62324e34&fich=3ed5fb73-02ef-44a5-92be-7719664ba4b5.docx&Inline=true",
+     "anexoNome": "Informação de redação final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a41334d544a6b4e4759314c5445344e6a49744e474a695a693168595467794c544a6a4d32517a4e54417a59545a685a53356b62324e34&fich=0712d4f5-1862-4bbf-aa82-2c3d3503a6ae.docx&Inline=true",
+     "anexoNome": "Sugestão de decreto"
+    }
+   ],
+   "CodigoFase": "348",
+   "Comissao": [
+    {
+     "AccId": "120020",
+     "AguardaAgendamentoPlenario": null,
+     "Audicoes": null,
+     "Audiencias": null,
+     "Competente": "S",
+     "DataAgendamentoDiscussao": null,
+     "DataAgendamentoPlenario": "0001-01-01T00:00:00",
+     "DataDistribuicao": "2026-11-13",
+     "DataDistruibuicaoSubcomissao": null,
+     "DataEntrada": null,
+     "DataMotivoNaoParecer": null,
+     "DataRelatorio": null,
+     "DataRemessa": null,
+     "DataReqAgendamentoPlenario": null,
+     "DatafimApreciacaoPublica": null,
+     "DatainicioApreciacaoPublica": null,
+     "DistribuicaoSubcomissao": null,
+     "Documentos": null,
+     "GpAgendamentoPlenario": null,
+     "IdComissao": "8459",
+     "Legislatura": null,
+     "MotivoNaoParecer": null,
+     "Nome": "Comissão da Reforma do Estado e Poder Local",
+     "Numero": "8459",
+     "Observacao": null,
+     "PareceresRecebidos": null,
+     "PedidosParecer": null,
+     "Prorrogado": null,
+     "Publicacao": null,
+     "PublicacaoRelatorio": null,
+     "Relatores": null,
+     "RemessaRedaccaoFinal": null,
+     "Remessas": null,
+     "Sessao": null,
+     "Sigla": null,
+     "Votacao": null
+    }
+   ],
+   "DataFase": "2026-11-13",
+   "EvtId": "133",
+   "Fase": "Envio à Comissão para fixação da Redação final",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1754547",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "350",
+   "Comissao": null,
+   "DataFase": "2026-11-19",
+   "EvtId": "31",
+   "Fase": "Decreto (Publicação)",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1754575",
+   "OevTextId": "136060",
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": null,
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": "136060",
+   "Votacao": null
   }
  ],
  "IniId": "356639",

@@ -1,12 +1,7 @@
 {
  "DataFimleg": null,
  "DataInicioleg": "2026-09-15",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45784f475a684e5759774c54646c595463744e4459324e69303459546b304c5445784e446335596a566a4f4445354e5335775a47593d&fich=118fa5f0-7ea7-4666-8a94-11479b5c8195.pdf&Inline=true",
-   "anexoNome": "A.I.G"
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": [
   {
    "GP": "IL",
@@ -206,12 +201,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b784f5467314e5451774c5759784e5467744e4449314d4331694d6d59774c54466d4e44686a4e6d51324e7a59794e6935775a47593d&fich=91985540-f158-4250-b2f0-1f48c6d67626.pdf&Inline=true",
-     "anexoNome": "Ofício de redistribuição"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "180",
    "Comissao": [
     {
@@ -229,8 +219,8 @@
      "DataRelatorio": null,
      "DataRemessa": null,
      "DataReqAgendamentoPlenario": null,
-     "DatafimApreciacaoPublica": null,
-     "DatainicioApreciacaoPublica": null,
+     "DatafimApreciacaoPublica": "2026-12-12",
+     "DatainicioApreciacaoPublica": "2026-11-18",
      "DistribuicaoSubcomissao": null,
      "Documentos": [
       {
@@ -276,11 +266,53 @@
    "RecursoGP": null,
    "TextosAprovados": null,
    "Votacao": null
+  },
+  {
+   "ActId": null,
+   "ActividadesConjuntas": null,
+   "AnexosFase": null,
+   "CodigoFase": "55",
+   "Comissao": null,
+   "DataFase": "2026-11-18",
+   "EvtId": "49",
+   "Fase": "Publicação em Separata",
+   "IniciativasConjuntas": null,
+   "Intervencoesdebates": null,
+   "Links": null,
+   "ObsFase": null,
+   "OevId": "1754564",
+   "OevTextId": null,
+   "PcpublicasConjuntas": null,
+   "PeticoesConjuntas": null,
+   "PublicacaoFase": [
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/sep/17/02/051/2026-11-18?org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1036169",
+     "obs": null,
+     "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVII",
+     "pubNr": "51",
+     "pubSL": "2",
+     "pubTipo": "Separata",
+     "pubTp": "S",
+     "pubdt": "2026-11-18",
+     "supl": null
+    }
+   ],
+   "RecursoDeputados": null,
+   "RecursoGP": null,
+   "TextosAprovados": null,
+   "Votacao": null
   }
  ],
  "IniId": "377342",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d774e544530596a517a4c5441794d5445744e4463784e4331684d47466c4c546b344e54497a596a597859545a6c4f53356b62324e34&fich=c0514b43-0211-4714-a0ae-98523b61a6e9.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "803",
  "IniObs": null,
  "IniSel": "2",

@@ -2468,6 +2468,16 @@
    "Deslocacoes": null,
    "DlE": [
     {
+     "DevDtfim": "2026-12-02 00:00:00.0",
+     "DevDtini": "2026-11-29 00:00:00.0",
+     "DevId": "22889",
+     "DevLoc": "Luanda",
+     "DevNo": "Visita a Angola de Sua Excelência o Presidente da Assembleia da República",
+     "DevSelLg": "XVII",
+     "DevSelNr": "2",
+     "DevTp": "Internacional"
+    },
+    {
      "DevDtfim": "2026-10-10 00:00:00.0",
      "DevDtini": "2026-09-29 00:00:00.0",
      "DevId": "22864",
@@ -2553,9 +2563,35 @@
      "GplId": "627",
      "GplNo": "Portugal - México",
      "GplSelLg": "XVII"
+    },
+    {
+     "CgaCrg": "Membro",
+     "CgaDtfim": null,
+     "CgaDtini": "2025-12-19 00:00:00.0",
+     "GplId": "639",
+     "GplNo": "Portugal - Sérvia",
+     "GplSelLg": "XVII"
     }
    ],
    "Ini": [
+    {
+     "IniId": "377393",
+     "IniNr": "822",
+     "IniSelLg": "XVII",
+     "IniSelNr": "2",
+     "IniTi": "Alteração da denominação da freguesia de «Dornelas», no município de Boticas, para «Couto de Dornelas»",
+     "IniTp": "J",
+     "IniTpdesc": "Projeto de Lei"
+    },
+    {
+     "IniId": "377392",
+     "IniNr": "821",
+     "IniSelLg": "XVII",
+     "IniSelNr": "2",
+     "IniTi": "Alteração da denominação da freguesia de «Aves», no município de Santo Tirso, para «Vila das Aves»",
+     "IniTp": "J",
+     "IniTpdesc": "Projeto de Lei"
+    },
     {
      "IniId": "377336",
      "IniNr": "800",
@@ -2570,7 +2606,7 @@
      "IniNr": "759",
      "IniSelLg": "XVII",
      "IniSelNr": "2",
-     "IniTi": "Elevação da Povoação de Eiras, no concelho de Coimbra à Categoria de Vila",
+     "IniTi": "Elevação da Povoação de Eiras, no concelho de Coimbra à Categoria de Vila Histórica",
      "IniTp": "J",
      "IniTpdesc": "Projeto de Lei"
     },
@@ -2861,7 +2897,7 @@
     {
      "IntId": "505434",
      "IntSu": "Pelo fim de um Governo sem autoridade política, incapaz de assumir responsabilidades e de garantir confiança nas instituições.",
-     "IntTe": "Responde ao pedido de esclarecimento Marta Martins da Silva (CH)",
+     "IntTe": "Responde ao pedido de esclarecimento da Deputada Marta Martins da Silva (CH).",
      "PubDar": "44-45",
      "PubDtreu": "2026-09-08",
      "PubLg": "XVII",
@@ -3108,7 +3144,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-17",
+    "GpDtFim": "2026-11-24",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

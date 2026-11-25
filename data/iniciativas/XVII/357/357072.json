@@ -160,14 +160,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-09-08",
-       "TipoDocumento": "Informação",
-       "TituloDocumento": "Informação da discussão na generalidade",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793831596a5a6c4d6a5133596930354f44677a4c54526b4f5449744f57526b4e693077596a6330595759344e6d466b5a6a51755a47396a65413d3d&fich=5b6e247b-9883-4d92-9dd6-0b74af86adf4.docx&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8448",
      "Legislatura": null,
@@ -286,20 +279,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-10-06",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório de votação na especialidade",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938304d3245774d3255794f53307a4d4467774c54526c4f545174596d4d335a4330794f5455354e4451335a5445354d4455755a47396a65413d3d&fich=43a03e29-3080-4e94-bc7d-2959447e1905.docx&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-10-06",
-       "TipoDocumento": "Texto final",
-       "TituloDocumento": "Texto final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938354d4449354d324e6a4d793032596d4d334c5451354f444174596a6c694d4331694d474579597a4a6c4d6d4d7a4d6a63755a47396a65413d3d&fich=90293cc3-6bc7-4980-b9b0-b0a2c2e2c327.docx&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8448",
      "Legislatura": null,
@@ -338,7 +318,7 @@
    "Votacao": null
   },
   {
-   "ActId": null,
+   "ActId": "82789",
    "ActividadesConjuntas": null,
    "AnexosFase": null,
    "CodigoFase": "320",
@@ -346,8 +326,112 @@
    "DataFase": "2026-10-09",
    "EvtId": "18",
    "Fase": "Votação final global",
-   "IniciativasConjuntas": null,
-   "Intervencoesdebates": null,
+   "IniciativasConjuntas": [
+    {
+     "autor": "L",
+     "dataEntrada": null,
+     "descTipo": "Projeto de Resolução",
+     "id": "357037",
+     "leg": "XVII",
+     "nr": "1132",
+     "publicacao": [
+      {
+       "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/010/2026-10-10/98?pgs=98-99&org=PLC",
+       "debateDtReu": null,
+       "idAct": null,
+       "idDeb": null,
+       "idInt": null,
+       "idPag": "76947",
+       "obs": null,
+       "pag": [
+        "98-99"
+       ],
+       "pagFinalDiarioSupl": null,
+       "pubLeg": "XVII",
+       "pubNr": "10",
+       "pubSL": "2",
+       "pubTipo": "DAR I série",
+       "pubTp": "D",
+       "pubdt": "2026-10-10",
+       "supl": null
+      }
+     ],
+     "sel": "1",
+     "tipo": "R",
+     "titulo": "Recomenda o reforço da ajuda humanitária à Venezuela e do apoio consular à comunidade portuguesa e lusodescendente"
+    }
+   ],
+   "Intervencoesdebates": [
+    {
+     "dataReuniaoPlenaria": "2026-10-09",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PSD",
+         "idCadastro": "8783",
+         "nome": "Carlos Silva Santiago"
+        },
+        {
+         "GP": "PSD",
+         "idCadastro": "77",
+         "nome": "José Cesário"
+        },
+        {
+         "GP": "PSD",
+         "idCadastro": "6178",
+         "nome": "Paulo Neves"
+        },
+        {
+         "GP": "PSD",
+         "idCadastro": "2106",
+         "nome": "Regina Bastos"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "09:59",
+       "horaTermo": "14:28",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/010/2026-10-10/98?pgs=98-99&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "505980",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "98-99"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XVII",
+         "pubNr": "10",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2026-10-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda o reforço da ajuda humanitária à Venezuela e do apoio consular à comunidade portuguesa e lusodescendente; Recomenda ao Governo a criação de um Programa Especial de Apoio Urgente à Comunidade Portuguesa e Luso-venezuelana atingida pelos sismos de 24 de junho de 2026.",
+       "teor": null
+      }
+     ]
+    }
+   ],
    "Links": null,
    "ObsFase": "Texto final, apresentado pela Comissão de Negócios Estrangeiros e Comunidades Portuguesas, relativo aos Projetos de Resolução n.os 1132/XVII/1.ª (L) e 1158/XVII/1.ª (PS)",
    "OevId": "1754013",
@@ -364,6 +448,26 @@
      "idPag": "1036122",
      "obs": null,
      "pag": null,
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVII",
+     "pubNr": "10",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2026-10-10",
+     "supl": null
+    },
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/010/2026-10-10/98?pgs=98-99&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": null,
+     "idPag": "1036173",
+     "obs": null,
+     "pag": [
+      "98-99"
+     ],
      "pagFinalDiarioSupl": null,
      "pubLeg": "XVII",
      "pubNr": "10",
@@ -395,12 +499,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a677a4d5759345a6d5a6d4c5459324e6a6b744e4751784d693168596d51794c5459335a5467774e6a646b4e6a686b5969356b62324e34&fich=831f8fff-6669-4d12-abd2-67e8067d68db.docx&Inline=true",
-     "anexoNome": "Sugestão de Redação Final"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -421,14 +520,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-10-22",
-       "TipoDocumento": "Redação final",
-       "TituloDocumento": "Redação final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684e3255795a4745305a53307a4f4441354c54526c4e4463744f4455774e43316c4d4441785a44426a4e5455794d6a67755a47396a65413d3d&fich=a7e2da4e-3809-4e47-8504-e001d0c55228.docx&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8448",
      "Legislatura": null,
@@ -538,7 +630,7 @@
  ],
  "IniId": "357072",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d774e5441795a4455324c545979596a45744e4464684d4330354d6a526c4c5459304e5759305a4468684f4745304d79356b62324e34&fich=c0502d56-62b1-47a0-924e-645f4d8a8a43.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "1158",
  "IniObs": null,
  "IniSel": "1",

@@ -387,14 +387,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-09-22",
-       "TipoDocumento": "Informação",
-       "TituloDocumento": "Informação de discussão na generalidade",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774d4451354e3255785a4330354f446b324c5451344f5455744f5463314d4330344d7a63314d6a417a597a6333593249755a47396a65413d3d&fich=00497e1d-9896-4895-9750-8375203c77cb.docx&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8448",
      "Legislatura": null,
@@ -537,6 +530,217 @@
        },
        "deputadosOradores": [
         {
+         "GP": "PS",
+         "idCadastro": null,
+         "nome": null
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:02",
+       "horaTermo": "13:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/010/2026-10-10/101?pgs=101-102&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "505981",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "101-102"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XVII",
+         "pubNr": "10",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2026-10-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo que mova esforços no sentido da inclusão do Primeiro Comando da Capital (PCC) na lista de organizações terroristas da União Europeia.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "L",
+         "idCadastro": null,
+         "nome": null
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:02",
+       "horaTermo": "13:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/006/2026-09-26/44?pgs=44&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "505703",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "44-44"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XVII",
+         "pubNr": "6",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2026-09-26",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo que mova esforços no sentido da inclusão do Primeiro Comando da Capital (PCC) na lista de organizações terroristas da União Europeia.",
+       "teor": null
+      }
+     ]
+    },
+    {
+     "dataReuniaoPlenaria": "2026-09-25",
+     "oradores": [
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PCP",
+         "idCadastro": "817",
+         "nome": "Alfredo Maia"
+        },
+        {
+         "GP": "PCP",
+         "idCadastro": "8719",
+         "nome": "Paulo Raimundo"
+        },
+        {
+         "GP": "PCP",
+         "idCadastro": "4197",
+         "nome": "Paula Santos"
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:02",
+       "horaTermo": "13:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/006/2026-09-26/44?pgs=44&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "505702",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "44-44"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XVII",
+         "pubNr": "6",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2026-09-26",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo que mova esforços no sentido da inclusão do Primeiro Comando da Capital (PCC) na lista de organizações terroristas da União Europeia.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
+         "GP": "PS",
+         "idCadastro": null,
+         "nome": null
+        }
+       ],
+       "faseDebate": null,
+       "faseSessao": "P",
+       "horaInicio": "10:02",
+       "horaTermo": "13:09",
+       "linkVideo": null,
+       "membrosGoverno": {
+        "cargo": null,
+        "governo": null,
+        "nome": null
+       },
+       "publicacao": [
+        {
+         "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/010/2026-10-10/101?pgs=101-102&org=PLC",
+         "debateDtReu": null,
+         "idAct": null,
+         "idDeb": null,
+         "idInt": "505981",
+         "idPag": null,
+         "obs": null,
+         "pag": [
+          "101-102"
+         ],
+         "pagFinalDiarioSupl": null,
+         "pubLeg": "XVII",
+         "pubNr": "10",
+         "pubSL": "2",
+         "pubTipo": "DAR I série",
+         "pubTp": "D",
+         "pubdt": "2026-10-10",
+         "supl": null
+        }
+       ],
+       "sumario": "Recomenda ao Governo que mova esforços no sentido da inclusão do Primeiro Comando da Capital (PCC) na lista de organizações terroristas da União Europeia.",
+       "teor": null
+      },
+      {
+       "convidados": {
+        "cargo": null,
+        "honra": null,
+        "nome": null,
+        "pais": null
+       },
+       "deputadosOradores": [
+        {
          "GP": "L",
          "idCadastro": null,
          "nome": null
@@ -606,6 +810,26 @@
      "pubTp": "D",
      "pubdt": "2026-09-26",
      "supl": null
+    },
+    {
+     "URLDiario": "https://debates.parlamento.pt/catalogo/r3/dar/01/17/02/010/2026-10-10/101?pgs=101-102&org=PLC",
+     "debateDtReu": null,
+     "idAct": null,
+     "idDeb": null,
+     "idInt": "67568",
+     "idPag": null,
+     "obs": null,
+     "pag": [
+      "101-102"
+     ],
+     "pagFinalDiarioSupl": null,
+     "pubLeg": "XVII",
+     "pubNr": "10",
+     "pubSL": "2",
+     "pubTipo": "DAR I série",
+     "pubTp": "D",
+     "pubdt": "2026-10-10",
+     "supl": null
     }
    ],
    "RecursoDeputados": null,
@@ -629,7 +853,7 @@
  ],
  "IniId": "357049",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d354f5441785a54646d4c5745324f4441744e4751355a6930354e5749774c5441354f4445355954466b4e3255775953356b62324e34&fich=c9901e7f-a680-4d9f-95b0-09819a1d7e0a.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "1143",
  "IniObs": null,
  "IniSel": "1",

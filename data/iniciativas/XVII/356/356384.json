@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249304e3249774f5441334c574934595441744e4751314d7931694f475a6c4c5455775a475a694d324d314e5751794f4335775a47593d&fich=b47b0907-b8a0-4d53-b8fe-50dfb3c55d28.pdf&Inline=true",
+   "anexoNome": "Acordo PT"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251354d44526a4e54417a4c5756684d5759744e4463334d7930344e6a42694c574d304e6a6468596a6469597a45325a6935775a47593d&fich=d904c503-ea1f-4773-860b-c467ab7bc16f.pdf&Inline=true",
+   "anexoNome": "Texto - versão assinada"
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -110,7 +119,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-04-07",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer CNECP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c4d5745774f4467784d5330314e4459304c545131593251744f44553459693034596a55794e54686b4e4449345a6a41756347526d&fich=e1a08811-5464-45cd-858b-8b5258d428f0.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8448",
      "Legislatura": null,
@@ -348,7 +364,7 @@
  ],
  "IniId": "356384",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63794d6d4e68597a51774c5445355a5441744e4755344d5330344d5755314c5755774e47466c4e6a55344f47466b4d69356b62324e34&fich=722cac40-19e0-4e81-81e5-e04ae6588ad2.docx&Inline=true",
  "IniNr": "9",
  "IniObs": null,
  "IniSel": "1",

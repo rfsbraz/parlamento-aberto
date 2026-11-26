@@ -73,7 +73,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324a694d54646c4d444a6d4c5455794e6a49744e4759314d7931684d5755794c5755344d5455354e7a5534596a41314d69356b62324e34&fich=bb17e02f-5262-4f53-a1e2-e8159758b052.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-09-17",
@@ -141,12 +146,6 @@
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
      "Documentos": [
-      {
-       "DataDocumento": "2025-09-24",
-       "TipoDocumento": "Informação",
-       "TituloDocumento": "Informação de não emissão de relatório ",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d54593259545a6c4d575174596d55314f4330304e324d304c5749344f574d744d7a6c68596d5934595451314f54597a4c6e426b5a673d3d&fich=166a6e1d-be58-47c4-b89c-39abf8a45963.pdf&Inline=true"
-      },
       {
        "DataDocumento": "2025-09-18",
        "TipoDocumento": "Link",

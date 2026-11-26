@@ -98,7 +98,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a67794d6a63334d7a67784c5751785a574d744e4745354e693169595459354c54426c4d444a6d5a6d59335a6d466d4f53356b62324e34&fich=82277381-d1ec-4a96-ba69-0e02fff7faf9.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-09-17",
@@ -1324,12 +1329,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6732596a646a596a4a6d4c5749354d6a67744e4464694e6930354e4749354c575a684f5441324d475979597a67794d5335775a47593d&fich=86b7cb2f-b928-47b6-94b9-fa9060f2c821.pdf&Inline=true",
-     "anexoNome": "Requerimento PS"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2025-09-19",

@@ -146,7 +146,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-09-29",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Não elaboração de relatório",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a41354f4441334d325574596d51344e4330305a4745784c54686b4d6a51745a6a4134596a417a59546b795a57566b4c6e426b5a673d3d&fich=2098073e-bd84-4da1-8d24-f08b03a92eed.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8454",
      "Legislatura": null,
@@ -311,7 +318,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d314d545a684d54426a4c54597a4d5745744e4449795a6930355a47566d4c5755304f5463334f446c6b4d7a646d4d7935775a47593d&fich=3516a10c-631a-422f-9def-e497789d37f3.pdf&Inline=true",
+     "anexoNome": "Requerimento IL"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-09-30",
@@ -395,6 +407,36 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=1048"
+      },
+      {
+       "DataDocumento": "2026-11-10",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo da Associação de Estabelecimentos de Ensino Particular e Cooperativo (AEEP) -",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d5449784e6d4530597a41744d5745324d6930304e4759334c5467314f5455744d7a67784d6d45774e6a4531596d566a4c6e426b5a673d3d&fich=1216a4c0-1a62-44f7-8595-3812a0615bec.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-12",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo da Federação Nacional de Educação (FNE) -",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a5957387659574d354f545a6b4d574d744d54637a4e7930304d54426d4c546b784e5451745a4442695a5755304f5455344d5463324c6e426b5a673d3d&fich=ac996d1c-1737-410f-9154-d0bee4958176.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-23",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo Confederação Nacional das Associações de Pais (CONFAP) -",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a5449784f446c6d4d5441744d325a6c4e693030597a597a4c54686d4e6d5974595452694f4759345a6d55335a474e6b4c6e426b5a673d3d&fich=e2189f10-3fe6-4c63-8f6f-a4b8f8fe7dcd.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-24",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo Associação Portuguesa de Escolas Católicas (APEC) -",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d7a413359575a6b5a5749744d4749334d5330304d3245314c574a6d5a6a49745a54686a5954497a595759344d544e694c6e426b5a673d3d&fich=307afdeb-0b71-43a5-bff2-e8ca23af813b.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-24",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo Federação Nacional dos Professores (FENPROF) -",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6d497a4d7a49775a6a41744e5455324e533030596d51304c546b35595455744f54497a596a46684e6a49344f57457a4c6e426b5a673d3d&fich=2b3320f0-5565-4bd4-99a5-923b1a6289a3.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

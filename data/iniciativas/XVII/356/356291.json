@@ -1116,7 +1116,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324533597a466959324e6c4c5745794d7a45744e44526a4d6931684e4759314c54413059546b355a6a6b304e7a4d79597935775a47593d&fich=a7c1bcce-a231-44c2-a4f5-04a99f94732c.pdf&Inline=true",
+     "anexoNome": "Requerimento do PAN"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-03-20",

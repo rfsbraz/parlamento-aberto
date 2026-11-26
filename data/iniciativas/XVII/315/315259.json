@@ -1,16 +1,7 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d304f544d794f4759784c5441775a5445744e474a6a4f4331695a6a526b4c574e6d4f4749355a6d4a684d7a6b34597935775a47593d&fich=c49328f1-00e1-4bc8-bf4d-cf8b9fba398c.pdf&Inline=true",
-   "anexoNome": "A.I.G."
-  },
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a67795a6a45325954566b4c5459334e6d55744e4445344d6930354d7a4e6d4c54597a4e445a6a4d5441354d32566a4f4335775a47593d&fich=82f16a5d-676e-4182-933f-6346c1093ec8.pdf&Inline=true",
-   "anexoNome": "Ofício pedido de processo de urgência"
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -142,10 +133,52 @@
      "DistribuicaoSubcomissao": null,
      "Documentos": [
       {
+       "DataDocumento": "2025-07-09",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação de não emissão de relatório ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f546b77596d557a4d3259744d6a46694f4330305a6a6b784c5745304d546b744e546b344f444d35597a4e694d5745314c6e426b5a673d3d&fich=990be33f-21b8-4f91-a419-598839c3b1a5.pdf&Inline=true"
+      },
+      {
        "DataDocumento": "2025-06-27",
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=267"
+      },
+      {
+       "DataDocumento": "2025-07-08",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo ASJP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765954637759544579597a63744e6a49794e4330304e5455794c5745324e47597459574d334e57526b5a544d354d47557a4c6e426b5a673d3d&fich=a70a12c7-6224-4552-a64f-ac75dde390e3.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-08",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Conselho dos Oficiais de Justiça",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a5957387659324a695a4445354d5441744d545532597930305a5467794c54677a5a6d45744f544d354f57553459574d345a6d4d354c6e426b5a673d3d&fich=cbbd1910-156c-4e82-83fa-9399e8ac8fc9.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-09",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Conselho Superior da Magistratura",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e325a6b4d6d466b4e6a67744e5446695a5330304e574d794c54677959546b744d574d304e47526d4f546b795a6a55314c6e426b5a673d3d&fich=7fd2ad68-51be-45c2-82a9-1c44df992f55.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-11",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Conselho Superior dos Tribunais Administrativos e Fiscais",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a646a4e7a6b784e6d51744d446b324d693030593251774c546b32597a55745a5749344d474d334f54566d596d59334c6e426b5a673d3d&fich=b7c7916d-0962-4cd0-96c5-eb80c795fbf7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-25",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - SMMP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f5455774e4755304d7a6b74596a59784f5330305a4755334c546c6a5a6d51744f47526a596d457a5a44526a5a4751324c6e426b5a673d3d&fich=9504e439-b619-4de7-9cfd-8dcba3d4cdd6.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-21",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Ordem dos Advogados",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e3255334e4455354e6a49744e6d45354e7930304d4449314c54686d593245744e4755354e6d49324f5756695a4449354c6e426b5a673d3d&fich=7e745962-6a97-4025-8fca-4e96b69ebd29.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -1351,7 +1384,7 @@
  ],
  "IniId": "315259",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6c6d4d544577596d597a4c546777596d55744e4463794d533034596d55774c5752684d32493359544d30596a5a695969356b62324e34&fich=9f110bf3-80be-4721-8be0-da3b7a34b6bb.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "5",
  "IniObs": null,
  "IniSel": "1",

@@ -148,7 +148,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3256684e5463355a6a526c4c5451304e4449744e474931596930344d7a4d7a4c54566a5a54457a597a4e6a5a54646b5953356b62324e34&fich=ea579f4e-4442-4b5b-8333-5ce13c3ce7da.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-12-09",
@@ -10352,42 +10357,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=580"
-      },
-      {
-       "DataDocumento": "2026-02-19",
-       "TipoDocumento": "Parecer",
-       "TituloDocumento": "Parecer Mecanismo Nacional de Monitorização da Convenção sobre os Direitos das Pessoas com Deficiência (Me-CDPD) ",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d574e6b4f5756695a5749744e5449774f5330304d3251334c546732595451744f54426d5a546b774f5445354e47466a4c6e426b5a673d3d&fich=1cd9ebeb-5209-43d7-86a4-90fe909194ac.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-03-25",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Prorrogação do prazo de apreciação na especialidade (60 dias)",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6d5530597a51354e6d49745954513559793030596d4e6a4c5745315a6d5574597a55314e546c6a4d54686a5a4745344c6e426b5a673d3d&fich=2e4c496b-a49c-4bcc-a5fe-c5559c18cda8.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-05-22",
-       "TipoDocumento": "Proposta de alteração",
-       "TituloDocumento": "Proposta de alteração do PCP",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e574d324d5445775a546374596d51304e433030596a6c694c574a684d4459744f4451314d544d775a4459334d7a426c4c6e426b5a673d3d&fich=5c6110e7-bd44-4b9b-ba06-845130d6730e.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-05-22",
-       "TipoDocumento": "Proposta de alteração",
-       "TituloDocumento": "Proposta de alteração do PS",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d546b345a6d55304f474574597a4d304d693030595755774c5749304e5755745a4746694e7a46694d4745344e6d466c4c6e426b5a673d3d&fich=198fe48a-c342-4ae0-b45e-dab71b0a86ae.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-06-24",
-       "TipoDocumento": "Texto final",
-       "TituloDocumento": "Texto final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596d59334d7a4a6d4d5463744e5755774e4330304f54526d4c546b775a4467744f475a684f574a6a596a41325954646c4c6e426b5a673d3d&fich=bf732f17-5e04-494f-90d8-8fa9bcb06a7e.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-06-25",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório de discussão e votação na especialidade",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f5745784e7a5a694e6a59744d44677a4f5330304f5755774c54686c4e7a45744d446b344d6d566d5a6d45334e474d344c6e426b5a673d3d&fich=9a176b66-0839-49e0-8e71-0982effa74c8.pdf&Inline=true"
       },
       {
        "DataDocumento": "2026-06-09",

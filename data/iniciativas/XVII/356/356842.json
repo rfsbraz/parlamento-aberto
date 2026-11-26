@@ -989,7 +989,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a67314f474d784e6d4e694c54566a4f5459744e444a6b4d4331694e32566a4c5459795a5442685a546b335a6a4e6a597935775a47593d&fich=858c16cb-5c96-42d0-b7ec-62e0ae97f3cc.pdf&Inline=true",
+     "anexoNome": "Despacho 204-XVII do PAR"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a646b4d47466d4e6d566a4c574933596a45744e446b304f4331694d44566c4c5755354d575178596d4e694e6a42694d4335775a47593d&fich=7d0af6ec-b7b1-4948-b05e-e91d1bcb60b0.pdf&Inline=true",
+     "anexoNome": "Requerimento PSD"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-06-11",
@@ -1067,7 +1076,44 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-06",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "PA 1 - Proposta de alteração do GP do PSD",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a49314d444d355a474d74595455775a5330304e5445314c546b7a5a6d55744f5751314d5749305a44426d4e444e6b4c6e426b5a673d3d&fich=625039dc-a50e-4515-93fe-9d51b4d0f43d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-07",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "PA 2 - Proposta de alteração GP do  PSD",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f54497a4f54526d4d7a55744d6d597a4f5330304e5755314c5746695a6d51745a446b314f54466a4d5745344f5749314c6e426b5a673d3d&fich=92394f35-2f39-45e5-abfd-d9591c1a89b5.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-08",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "PA 3 - Proposta de alteração do GP do PSD",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d7a51324f5759344d5745744f54426a5a6930304f4459324c5749314e3249745a545a6d4e4451314d6a4a6b4d325a6a4c6e426b5a673d3d&fich=3469f81a-90cf-4866-b57b-e6f44522d3fc.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-09",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "PA 4 - Proposta de alteração do GP do PS",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a5957387659325a684f545a6d5a575174597a67334d4330304d544d794c546c6d596a4d74597a4d335932466d4e575934595441354c6e426b5a673d3d&fich=cfa96fed-c870-4132-9fb3-c37caf5f8a09.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-08",
+       "TipoDocumento": "Quadro comparativo",
+       "TituloDocumento": "Quadro comparativo",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6d466a4f44426c5a5751744d54646a596930304e7a566d4c574932596a59744f546b304e6a413259544e685a4467344c6e426b5a673d3d&fich=fac80eed-17cb-475f-b6b6-994606a3ad88.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-13",
+       "TipoDocumento": "Texto de Substituição",
+       "TituloDocumento": "Texto de substituição e relatório da nova apreciação",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a63334d4751304e7a45745a4459794d4330304f5749334c546730595441744e6a4a684d4446694e5445334d574a6b4c6e426b5a673d3d&fich=f770d471-d620-49b7-84a0-62a01b5171bd.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,

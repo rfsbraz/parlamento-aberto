@@ -1969,7 +1969,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b78596a4a68597a5a6a4c546733596a55744e4759784d4330355a574a6a4c5746694d32466d5a44457a5a4459334f4335775a47593d&fich=91b2ac6c-87b5-4f10-9ebc-ab3afd13d678.pdf&Inline=true",
+     "anexoNome": "Requerimento do PAN"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-03-20",
@@ -2047,7 +2052,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-04-01",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Redistribuição - despacho PAR",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d554e425257356c4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876593246684d7a41354d5455744f5746684d533030597a52694c5749324f575974596a5934593259334e6d4e684d7a45304c6e426b5a673d3d&fich=caa30915-9aa1-4c4b-b69f-b68cf76ca314.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8457",
      "Legislatura": null,
@@ -2088,7 +2100,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245305954457a4d446b334c5759324f4459744e47466a4f5330354f545a684c54646c4e4759774f4751355a6a6379595335775a47593d&fich=a4a13097-f686-4ac9-996a-7e4f08d9f72a.pdf&Inline=true",
+     "anexoNome": "Despacho"
+    }
+   ],
    "CodigoFase": "240",
    "Comissao": [
     {
@@ -2109,7 +2126,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-06-02",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Guião de Votações",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533833513046515a584d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938335a6d566b4e7a45334d6930345a6d56694c545269593255744f44466d4d69316b5a4445774d6a42694e32457a4f4459756347526d&fich=7fed7172-8feb-4bce-81f2-dd1020b7a386.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8453",
      "Legislatura": null,

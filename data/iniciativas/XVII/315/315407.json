@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6c6d4e57453359546b324c575178597a55744e4759785a5331685a446c694c575a694d7a526c596a67784d544d305a5335775a47593d&fich=9f5a7a96-d1c5-4f1e-ad9b-fb34eb81134e.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "BE",
@@ -245,12 +250,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Link dos Contributos - Apreciação Pública",
        "URL": "https://www.parlamento.pt/sites/COM/XVIILeg/10CTSSI/Paginas/Iniciativas-Apreciacao-Publica.aspx?t=5545704d4947347577726f674d5451784c56685753556b744d5337437169417449455256556c4167516b553d&Path=m9XKcp5GmC7mXw2JNPilUgthqI4tu8Z9M2gcfKH0K%2ffoVIWUwsLujK6%2f9kNw33qVGF12ULdveJOJZsrH6xrsUHZJFNnpPnd%2fcgYGE3DyNKgtPpXPowBvZ5v68i8eR%2b22Le600oPoUlotSlewxceADnfAH%2b0PUXvZfMWrcTJYtP1rkIyAN1za7EKSWmPKVoIsPSp6NTbSSDra87wqnFUN7ESoh9ccpsR8H2dG5ceCx2%2f7V78yD%2bU62%2brcYKqlsKJsmLNZh1y2Z7s8SxxSzCPk%2bkwjrI691UaQI1Z98H1mRvJSipXBzJfpqkFl%2b1uGpKT1dRiViQgB42kIPPg%2bcx%2b%2bP0kWVdu3ClkNHaPr8B1FSiWT9yHdvgBcXZJLIGdnXifaI8axTeBSmHUeI0xNxu0ylgX4E4H33JsngqNT8njyv5KV0KFNrbbgWehYulhkor5M"
-      },
-      {
-       "DataDocumento": "2026-05-26",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota Técnica",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f444d7a4f575268597a6b744d445a6d597930304d32497a4c546c69596a55744e32497759324532596a41335a6a497a4c6e426b5a673d3d&fich=8339dac9-06fc-43b3-9bb5-7b0ca6b07f23.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -400,12 +399,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5177593255795a4459354c5459314e6a45744e4755774e6931694d4441344c57526d4d32566d5a6a5935597a4a6d4d5335775a47593d&fich=40ce2d69-6561-4e06-b008-df3eff69c2f1.pdf&Inline=true",
-     "anexoNome": "Parecer"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2025-08-14",
@@ -428,12 +422,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d324e4445324d544a6a4c54566a4e6a51744e444d354d5331684f5467774c5459315a4449324e325a6c4f444931597935775a47593d&fich=c641612c-5c64-4391-a980-65d267fe825c.pdf&Inline=true",
-     "anexoNome": "Parecer"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "173",
    "Comissao": null,
    "DataFase": "2025-08-18",
@@ -479,7 +468,7 @@
  ],
  "IniId": "315407",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4a6b595445784d5755314c5752684f444d744e444e684e5331694d546c6c4c544534597a6b344d54597a5a4445354e79356b62324e34&fich=2da111e5-da83-43a5-b19e-18c98163d197.docx&Inline=true",
  "IniNr": "141",
  "IniObs": null,
  "IniSel": "1",

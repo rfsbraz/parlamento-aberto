@@ -51,7 +51,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325131597a51314d4451354c546b7a4e4455744e4755345a4330355a4441774c5463774e7a4d334f5467334e444a6d4e43356b62324e34&fich=d5c45049-9345-4e8d-9d00-7073798742f4.docx&Inline=true",
+     "anexoNome": "Nota de Admissiblidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-12-03",
@@ -103,10 +108,28 @@
      "DistribuicaoSubcomissao": null,
      "Documentos": [
       {
+       "DataDocumento": "2025-12-12",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributo - Cidadão André Lima",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314e5464684f4759794e5330315954466b4c5451325a474d74595455314d4330784e7a56695a444d794e6a63794f5751756347526d&fich=557a8f25-5a1d-46dc-a550-175bd326729d.pdf&Inline=true"
+      },
+      {
        "DataDocumento": "2025-12-04",
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=556"
+      },
+      {
+       "DataDocumento": "2026-01-09",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774e6d4a6b4f54457a4d69316a4e6d45344c54526c4d546374595441794e4330324f546b794d6a59304d6a4a6a4e5755756347526d&fich=06bd9132-c6a8-4e17-a024-699226422c5e.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-12-19",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer - Ordem dos Arquitetos",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c4d444a694d7a4a6d597930334f4745784c5451795a5467744f474d324d4331684e474e68596a4d334d3251794f5751756347526d&fich=e02b32fc-78a1-42e8-8c60-a4cab373d29d.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

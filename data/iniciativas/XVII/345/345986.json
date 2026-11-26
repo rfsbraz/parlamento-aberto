@@ -76,7 +76,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32593059324a6a5a5441784c54566c596d51744e444d33596930344f57566c4c5455774e47566b596a426d5a546b304e53356b62324e34&fich=f4cbce01-5ebd-437b-89ee-504edb0fe945.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-01-27",
@@ -132,18 +137,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta pública - recolha de contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=633"
-      },
-      {
-       "DataDocumento": "2026-04-29",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota Técnica",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a6335597a45795a6a6b744e5463775a6930304e32566a4c57466c5a5451744d7a5a6a4d5449784d54526b4f574d314c6e426b5a673d3d&fich=f79c12f9-570f-47ec-aee4-36c12114d9c5.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-04-29",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d7a5a694e6a59324d5467744d3251774e5330304e7a45784c5746684d546b744f475a694d6d51784d3255314d444a6b4c6e426b5a673d3d&fich=36b66618-3d05-4711-aa19-8fb2d13e502d.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

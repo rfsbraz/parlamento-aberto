@@ -451,7 +451,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251775957553259324e694c54637a4e5441744e4441344e4331684e4755344c574531597a426a4d575533597a6869596935775a47593d&fich=d0ae6ccb-7350-4084-a4e8-a5c0c1e7c8bb.pdf&Inline=true",
+     "anexoNome": "Ofício de redistribuição"
+    }
+   ],
    "CodigoFase": "181",
    "Comissao": [
     {
@@ -472,7 +477,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-15",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação - discussão em Plenário",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d5467784f445178595459744e574d7a4e6930304d4459344c5746684e5441744d6a45304d6a6c684d3245324d32466b4c6e426b5a673d3d&fich=181841a6-5c36-4068-aa50-21429a3a63ad.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -513,7 +525,7 @@
  ],
  "IniId": "356997",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63344d4464694e32526b4c546c6c4d3255744e446777596930344d54426d4c5452694d44517a4f5759794f44526a5a43356b62324e34&fich=7807b7dd-9e3e-480b-810f-4b0439f284cd.docx&Inline=true",
  "IniNr": "1105",
  "IniObs": null,
  "IniSel": "1",

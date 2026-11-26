@@ -202,7 +202,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251315a6d4a6c4f44637a4c5745344f4751744e445577597930354d544d784c5441794f446c6d5a6d49314e7a466b4e43356b62324e34&fich=d5fbe873-a88d-450c-9131-0289ffb571d4.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-02-13",
@@ -252,6 +257,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=692"
+      },
+      {
+       "DataDocumento": "2026-05-19",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica - PJL 415-XVII",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e475a6b4f4441774d5759744e4449344d6930304d7a526a4c5746684d7a4d744e7a6b354f44526b4d4445324d6d526d4c6e426b5a673d3d&fich=4fd8001f-4282-434c-aa33-79984d0162df.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-01",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório PJL 415-XVII-1",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a46695a475a6b597a51744d6a45334e5330304d6d5a6b4c546b344f5455744f5441324f475534597a5a694d6a686d4c6e426b5a673d3d&fich=c1bdfdc4-2175-42fd-9895-9068e8c6b28f.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -570,7 +587,26 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-21",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a42695954686d595445744f545a6c4d433030597a51304c57497a4f4455744e54466d4d6d52685a57517a4e5441314c6e426b5a673d3d&fich=f0ba8fa1-96e0-4c44-b385-51f2daed3505.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-21",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final - Anexo I",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f474e6b4d5449774d5463744d6a59354e793030597a41794c574668597a59745a4459774e6a41354d546778596a6b324c6e426b5a673d3d&fich=8cd12017-2697-4c02-aac6-d60609181b96.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-21",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final - Anexo II",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d304e535256424d4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596d56695a47557a4d4759744d324533596930304e4463314c574a6c5a544d745a5749794f574d314e6a55774e7a49784c6e426b5a673d3d&fich=bebde30f-3a7b-4475-bee3-eb29c5650721.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8459",
      "Legislatura": null,

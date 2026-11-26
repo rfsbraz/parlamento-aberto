@@ -1,7 +1,12 @@
 {
  "DataFimleg": null,
  "DataInicioleg": "2026-09-15",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d324f5459344e4745354c544131596a41744e475531597931694e5451344c54457a597a51324e4755354e544e685a4335775a47593d&fich=c69684a9-05b0-4e5c-b548-13c464e953ad.pdf&Inline=true",
+   "anexoNome": "A. I. G"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PS",
@@ -98,7 +103,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6732596a497959325a6d4c54526d59324d744e47517a4d6931694e5756684c5745354f545979596d4d78596a686b5a43356b62324e34&fich=86b22cff-4fcc-4d32-b5ea-a9962bc1b8dd.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-09-23",
@@ -349,7 +359,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-10-12",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo - Bicicultura",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938775a44686b4d6a67795a53307a5a6d45304c5451784d6d55744f4756694e793034595442694d6d49334e3251774d5451756347526d&fich=0d8d282e-3fa4-412e-8eb7-8a0b2b77d014.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8460",
      "Legislatura": null,
@@ -390,7 +407,7 @@
  ],
  "IniId": "377254",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32497a59574d314d5459354c544130596a49744e4755304d7930355a6d566d4c5759305932557a4f5759794f446b774e43356b62324e34&fich=b3ac5169-04b2-4e43-9fef-f4ce39f28904.docx&Inline=true",
  "IniNr": "774",
  "IniObs": null,
  "IniSel": "2",

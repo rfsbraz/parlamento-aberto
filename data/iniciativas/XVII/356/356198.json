@@ -348,7 +348,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a417a596d49334e545a6d4c5463785a5467744e47466d4e533169596d55334c545534597a426d4f4441784e7a46685969356b62324e34&fich=03bb756f-71e8-4af5-bbe7-58c0f80171ab.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-02-24",
@@ -456,7 +461,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324a695a6a51334f4445334c5749314d7a59744e446b304e5331684f4463344c54686b4d7a566c4e324d324d544e6b5a6935775a47593d&fich=bbf47817-b536-4945-a878-8d35e7c613df.pdf&Inline=true",
+     "anexoNome": "Ofício de redistribuição"
+    }
+   ],
    "CodigoFase": "180",
    "Comissao": [
     {
@@ -483,6 +493,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=723"
+      },
+      {
+       "DataDocumento": "2026-03-23",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938304d4755324f44646b4d5330354d6a6b304c5451794e446b744f474d785a69316c4e7a557a4d6a4d7a4d575a6a4e5467756347526d&fich=40e687d1-9294-4249-8c1f-e7532331fc58.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

@@ -76,7 +76,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251304e6a45314e5749354c544a69596d45744e4745354e69316859544d774c546b315954677a596a51784e446c6a4d43356b62324e34&fich=d46155b9-2bba-4a96-aa30-95a83b4149c0.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-01-23",
@@ -126,6 +131,24 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=606"
+      },
+      {
+       "DataDocumento": "2026-02-12",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d445577596a426b5a474d744f574d78595330304e4749324c546779596a51744e6a426b59325134597a557a4f5755784c6e426b5a673d3d&fich=050b0ddc-9c1a-44b6-82b4-60dcd8c539e1.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-24",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d7a4130596a686c4e6d49745a6a6c68597930304e5752684c5745354d6a6b745a44686a596a59325a5759794d3251324c6e426b5a673d3d&fich=304b8e6b-f9ac-45da-a929-d8cb66ef23d6.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-22",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo à iniciativa - Anna Kuzmina",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765932466d4f47526a5a4441744e324e6b4d5330304d574a6b4c57497a4f4455744d5759794d5463314e444d304d4451344c6e426b5a673d3d&fich=caf8dcd0-7cd1-41bd-b385-1f2175434048.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

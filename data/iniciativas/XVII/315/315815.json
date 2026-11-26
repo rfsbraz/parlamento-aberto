@@ -226,7 +226,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325668597a686d596a67334c574d7a4f4449744e44677a5a433035596d51774c5459344e6a45315a4449305957466c4d5335775a47593d&fich=eac8fb87-c382-483d-9bd0-68615d24aae1.pdf&Inline=true",
+     "anexoNome": "Redistribuição da iniciativa"
+    }
+   ],
    "CodigoFase": "181",
    "Comissao": [
     {
@@ -247,7 +252,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-01-28",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação - Súmula da discussão",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d444177596a466c4e324d745a6a6b7a4f5330305a6d59794c546b794f544174596a63354e3256694d7a4a6c5a44466b4c6e426b5a673d3d&fich=000b1e7c-f939-4ff2-9290-b797eb32ed1d.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,

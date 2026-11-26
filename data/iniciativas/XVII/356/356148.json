@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245344f44686d4e6d497a4c5749784d3255744e4755335a5331685a5451344c5455774d6d49324e7a59354f546b784f5335775a47593d&fich=a888f6b3-b13e-4e7e-ae48-502b67699919.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6379597a497759574a6d4c57566c4d6a67744e444d784d693035596a4a6a4c54686d4e7a49324e325130596a4e685969356b62324e34&fich=72c20abf-ee28-4312-9b2c-8f7267d4b3ab.docx&Inline=true",
+   "anexoNome": "Texto – versão 1, de 2026-02-13"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "L",
@@ -73,7 +82,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55794e5751355a5459314c5445344e7a67744e474d335a5331694f5463334c546b354d545978597a457a4e6a526d5a53356b62324e34&fich=525d9e65-1878-4c7e-b977-99161c1364fe.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-02-18",
@@ -3866,7 +3880,7 @@
  ],
  "IniId": "356148",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3259794e5751334e4449774c54426c4e4455744e444e6a4d5330354e5455324c54646c59546b324f5749344e444978597935775a47593d&fich=f25d7420-0e45-43c1-9556-7ea969b8421c.pdf&Inline=true",
  "IniNr": "431",
  "IniObs": null,
  "IniSel": "1",

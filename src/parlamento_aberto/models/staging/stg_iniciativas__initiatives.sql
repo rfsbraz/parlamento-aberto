@@ -23,8 +23,11 @@ select
         IniEventos,
         e -> {
             'event_id': cast(e.EvtId as bigint),
+            'oev_id': cast(e.OevId as bigint),
+            'phase_code': e.CodigoFase,
             'phase': e.Fase,
             'phase_date': cast(e.DataFase as date),
+            'observation': e.ObsFase,
             'votes': e.Votacao,
             'committees': list_transform(
                 e.Comissao,
@@ -55,8 +58,11 @@ from read_json(
         IniAutorGruposParlamentares: 'STRUCT(GP VARCHAR)[]',
         IniEventos: 'STRUCT(
             EvtId VARCHAR,
+            OevId VARCHAR,
+            CodigoFase VARCHAR,
             Fase VARCHAR,
             DataFase VARCHAR,
+            ObsFase VARCHAR,
             Votacao STRUCT(
                 id VARCHAR,
                 data VARCHAR,

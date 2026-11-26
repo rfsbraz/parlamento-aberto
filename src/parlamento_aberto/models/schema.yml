@@ -1,6 +1,6 @@
 # Version of the published schema, in manifest.json. Bump the major on a breaking change
 # (a column removed or renamed, a type changed); the site refuses an unknown major.
-schema_version: "1.6.0"
+schema_version: "1.7.0"
 
 # Every model, in run order, with a description of every column.
 # The data dictionary in docs/dictionary is generated from this file
@@ -33,6 +33,33 @@ models:
       session_number: Número da sessão dentro da legislatura (numSessao).
       start_date: Primeiro dia da sessão (dataInicio).
       end_date: Último dia da sessão (dataFim).
+      legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
+      source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
+
+
+  stg_agenda_parlamentar__events:
+    description: >-
+      AgendaParlamentar, uma linha por evento da fonte. As contagens de linhas por
+      legislatura batem com sources.lock.json. O ficheiro da AR é uma janela móvel, e
+      os da XV e da XVI são restos congelados.
+    columns:
+      event_id: Id do evento na AR (Id).
+      start_date: Data de início (EventStartDate), no formato dd/mm/aaaa na fonte.
+      start_time: Hora de início (EventStartTime). Nulo quando a fonte não a publica.
+      end_date: Data de fim (EventEndDate), no formato dd/mm/aaaa na fonte.
+      end_time: Hora de fim (EventEndTime). Nulo quando a fonte não a publica.
+      all_day: Verdadeiro quando o evento é de dia inteiro (AllDayEvent).
+      section: Secção da agenda (Section).
+      theme: Tema (Theme).
+      body: Órgão (OrgDes).
+      group_code: Código do grupo parlamentar (ParlamentGroup).
+      title: Título (Title).
+      subtitle: Subtítulo (Subtitle).
+      location: Local (Local).
+      internet_text: Texto da internet tal como publicado (InternetText), em HTML com entidades.
+      text: Texto simples, a partir do InternetText, sem etiquetas HTML nem entidades por descodificar.
+      link: Ligação (Link).
+      meeting_number: Número da reunião (ReuNumero).
       legislature: Legislatura em numeração romana, a partir do caminho do ficheiro.
       source_file: Ficheiro normalizado de onde a linha foi lida, relativo a data/.
 
@@ -99,6 +126,38 @@ models:
       session_number: Número da sessão dentro da legislatura.
       start_date: Primeiro dia da sessão.
       end_date: Último dia da sessão.
+
+
+  agenda:
+    description: >-
+      Uma linha por evento da agenda parlamentar da legislatura atual, a partir de
+      data/agenda_parlamentar/.
+    rolling: true
+    quirks:
+      - >-
+        Só a legislatura atual entra. Os ficheiros da XV e da XVI são restos congelados
+        da janela móvel da AR e ficam de fora ([lacunas conhecidas](../known-gaps.md)).
+      - >-
+        O mart só responde a esta semana e o que já está anunciado, e só é útil com
+        publicações diárias.
+    columns:
+      legislature: Legislatura em numeração romana, a atual.
+      event_id: Id do evento na AR.
+      start_date: Data de início.
+      start_time: Hora de início. Nulo quando a fonte não a publica.
+      end_date: Data de fim.
+      end_time: Hora de fim. Nulo quando a fonte não a publica.
+      all_day: Verdadeiro quando o evento é de dia inteiro.
+      section: Secção da agenda.
+      theme: Tema.
+      body: Órgão.
+      group_code: Código do grupo parlamentar.
+      title: Título.
+      subtitle: Subtítulo.
+      location: Local.
+      text: Texto simples, a partir do InternetText, sem etiquetas HTML nem entidades por descodificar.
+      link: Ligação.
+      meeting_number: Número da reunião.
 
   electoral_circles:
     description: Uma linha por círculo eleitoral e por legislatura.

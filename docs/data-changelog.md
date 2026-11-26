@@ -3,7 +3,7 @@
 Alterações aos marts publicados que quem usa os dados deve conhecer. A secção `## Unreleased` vai para a próxima publicação como o seu `CHANGELOG.md`.
 
 - Alterações ao schema: uma linha cada, por exemplo `- schema: votes gains committee_id.` Suba também `schema_version` em `src/parlamento_aberto/models/schema.yml`, a versão major numa alteração incompatível.
-- Quedas de linhas: um mart que perde mais de 5% das linhas numa legislatura, face à publicação anterior, bloqueia a publicação. Se a queda estiver correta, registe-a com `- drift: <mart> <legislature>: motivo`, usando `all` para marts sem coluna de legislatura. Uma linha que a publicação anterior já trazia não volta a contar.
+- Quedas de linhas: um mart que perde mais de 5% das linhas numa legislatura, face à publicação anterior, bloqueia a publicação. Se a queda estiver correta, registe-a com `- drift: <mart> <legislature>: motivo`, usando `all` para marts sem coluna de legislatura. Uma linha que a publicação anterior já trazia não volta a contar. Os marts com `rolling: true` no schema (hoje `agenda`) não bloqueiam por uma queda acima de 5%, nem quando a legislatura muda, porque a fonte é uma janela móvel; bloqueiam só se ficarem vazios.
 - Quedas de registos nas fontes: antes dos testes de dados, a publicação compara os registos de informacao_base, iniciativas, atividades e intervencoes, por legislatura, com o lock do commit da publicação anterior. Uma queda acima de 5% bloqueia a publicação. Se a AR publicou um ficheiro parcial, reponha-o a partir do histórico do git e não mexa nos pins dos testes. Se a queda estiver correta, registe-a com `- drift: <dataset> <legislature>: motivo`, por exemplo `- drift: intervencoes XVII: motivo`.
 
 Depois de uma publicação, passe as linhas publicadas para um título com a respetiva tag.
@@ -12,6 +12,7 @@ Os títulos `## Unreleased` e os prefixos `schema:` e `drift:` ficam em inglês,
 
 ## Unreleased
 
+- schema: novo mart agenda, com os eventos da agenda parlamentar da legislatura atual (schema 1.7.0, #73).
 - schema: primeira publicação, schema 1.0.0.
 - schema: interest_declarations ganha source, source_format, source_declaration_id, ept_holder_id, declaration_nature, declaration_state, supersedes_declaration_id, superseded_by_declaration_id, chain_root_declaration_id, submitted_at, submitted_date e is_current, no fim (schema 1.1.0).
 - schema: interests ganha source, paid_raw, entity_nipc, beneficiary, beneficiary_company, share_value_eur, share_pct, share_holder, is_professional_secrecy e observation, no fim.

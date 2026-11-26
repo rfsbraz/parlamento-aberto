@@ -230,3 +230,7 @@ Se a AR fechar esses períodos, o teste falha. Atualize o valor fixado e esta ta
 - Ficam 3 linhas sem `cadastro_id`, porque o apelido impresso não é o do deputado da AR mais provável: Jaime Adalberto Simões Fernandes (1979, Coimbra, AD), Henrique Aureliano Vieira Lopes (1983, Coimbra, PS) e Fernando Ribeiro Martins (1991, Braga, PS). Sem uma segunda fonte não se escolhe.
 - Eleito não é o mesmo que ter tido lugar. Quem foi para o governo ou renunciou continua na lista; os mandatos estão em `mandates`.
 - 1976 (I-A) fica de fora. A relação de 1976 não traz siglas, as correções vêm num ficheiro à parte, os círculos de então somam 263 lugares, e `ballot_list_seats` não tem linhas da I-A para conferir as contagens. Em 1976 nenhuma coligação elegeu deputados: só PS, PPD, CDS, PCP e UDP elegeram.
+
+## Agenda parlamentar
+
+O ficheiro da AR é uma janela móvel, não um histórico: os eventos passados saem do ficheiro e o sync apaga-os (#73). Os ficheiros da XV (1 evento, 25 de março de 2024) e da XVI (13 eventos, 25 de março a 10 de abril de 2025) são restos congelados dessa janela, com a data de recolha de 20 de outubro de 2026. O mart `agenda` fica só com a legislatura atual. Não é um calendário completo nem da legislatura em curso: só mostra esta semana e o que já está anunciado, e só é útil com publicações diárias.

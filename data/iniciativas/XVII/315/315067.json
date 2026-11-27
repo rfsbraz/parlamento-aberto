@@ -2394,7 +2394,20 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-02-23",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Contributo ADPC - Associação de Distribuidores de Propano Canalizado",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314d324d774d6a4e6b5a4330344f4759784c5451324e5759744f474a6a5a5330784e7a566a597a49794d7a59304e5445756347526d&fich=53c023dd-88f1-465f-8bce-175cc2236451.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-26",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Aditamento ao contributo enviado pela Autoridade Tributária e Aduaneira",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396b4f5464694e32517a5953316c59574e6b4c5451774e4451744f4455345a433033596a6c6a5a4755784d7a68684f4745756347526d&fich=d97b7d3a-eacd-4044-858d-7b9cde138a8a.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8451",
      "Legislatura": null,
@@ -2521,7 +2534,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251784e6a63344d6a49794c54426d4d7a55744e444d305a4330345a6d55324c5449304d7a59784e7a566b4d446c695a4335775a47593d&fich=d1678222-0f35-434d-8fe6-2436175d09bd.pdf&Inline=true",
+     "anexoNome": "Requerimento 5.ª Comissão"
+    }
+   ],
    "CodigoFase": "225",
    "Comissao": null,
    "DataFase": "2026-06-17",

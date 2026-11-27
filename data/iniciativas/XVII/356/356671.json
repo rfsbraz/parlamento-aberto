@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d32596a55344e7a51324c57497a4e546b744e445131597930354d3255334c5442684e32566b5a6a466b4e544d325969356b62324e34&fich=36b58746-b359-445c-93e7-0a7edf1d536b.docx&Inline=true",
+   "anexoNome": "Texto - versão 1 de 05-05-2026"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "CH",
@@ -2021,7 +2026,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32557a4e6a68684e44426a4c5467774e4459744e47566c4d533168595456684c574a6a5a474d325a6a566d596a63324e4335775a47593d&fich=e368a40c-8046-4ee1-aa5a-bcdc6f5fb764.pdf&Inline=true",
+     "anexoNome": "Requerimento CH"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-05-22",
@@ -2099,7 +2109,62 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-09-03",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer ERC",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a545932596a59315a544d74596a4931596930304f446c6d4c54686a5a444d7459325a685932457a4d4449334e6a67794c6e426b5a673d3d&fich=e66b65e3-b25b-489f-8cd3-cfaca3027682.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-03",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer da ANMP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a426c5954426b5a574574596a457a4d7930305a545a6c4c574533595745744e6a6c694e7a49794e6a4d34593249334c6e426b5a673d3d&fich=20ea0dea-b133-4e6e-a7aa-69b722638cb7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-03",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer da APECOM",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d5463304e7a6332595745745932566b595330304f5463344c546b774e6d55744d5451354d324533595467325932466a4c6e426b5a673d3d&fich=174776aa-ceda-4978-906e-1493a7a86cac.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-03",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer da APMEDIO",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d47526b5957566c4d3245744d546b314d6930304e4455314c5749784d544d744e7a41344d4441304d325a6a4d5449794c6e426b5a673d3d&fich=0ddaee3a-1952-4455-b113-7080043fc122.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-03",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer da Assembleia Legislativa da Região Autónoma dos Açores",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a557a4d6d4d344e4751744e6a55794f43303059324a684c5467794d7a6b745a6a5931596a49345a4459345a4456684c6e426b5a673d3d&fich=6532c84d-6528-4cba-8239-f65b28d68d5a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-03",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer da Comissão da Carteira  Profissional de Jornalista",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a51324e6a6734595459745a5751324d4330304e4441774c574a694e6d51744e7a45314e3251774d324e6c4d7a63314c6e426b5a673d3d&fich=f46688a6-ed60-4400-bb6d-7157d03ce375.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-08-07",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer da Comissão de Educação- Desporto e Cultura da Assembleia Legislativa da Região Autónoma da Madeira",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d5755314e574e684f4751744d7a63344d7930304e7a4d314c54677a4f4451745a4755354e4456684e474a6a4f4751784c6e426b5a673d3d&fich=1e55ca8d-3783-4735-8384-de945a4bc8d1.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-03",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer do Conselho das Comunidades Portuguesas",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f44566c4d325135597a41745a4759354e4330304f574e6b4c574533593249744e6d5a6d5a6a5178596a46685a6a67334c6e426b5a673d3d&fich=85e3d9c0-df94-49cd-a7cb-6fff41b1af87.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-13",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d6b4e44513070454c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a51335a5451795a4441745a5455334e693030596a426a4c574578595451745a5756684e7a59314e6d453059324d324c6e426b5a673d3d&fich=b47e42d0-e576-4b0c-a1a4-eea7656a4cc6.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8458",
      "Legislatura": null,
@@ -2233,7 +2298,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a426a59574a6a4d545a6d4c544e6b597a49744e47566d595330344e474d314c5451774d54526d5a4463314d4452685a53356b62324e34&fich=0cabc16f-3dc2-4efa-84c5-4014fd7504ae.docx&Inline=true",
+     "anexoNome": "Sugestão de redação final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -2295,7 +2365,7 @@
  ],
  "IniId": "356671",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a67355a44466d4d574a6b4c575a6d5a4449744e446b784e533035597a59314c545133595449794e7a51324f4459324d79356b62324e34&fich=89d1f1bd-ffd2-4915-9c65-47a227468663.docx&Inline=true",
  "IniNr": "906",
  "IniObs": null,
  "IniSel": "1",

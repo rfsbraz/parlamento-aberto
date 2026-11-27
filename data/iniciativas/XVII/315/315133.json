@@ -97,7 +97,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6c695a475530596d566d4c5463354e3251744e44426b4d6931694d446b774c5759325a54686d5a44426b4d4755354e43356b62324e34&fich=9bde4bef-797d-40d2-b090-f6e8fd0d0e94.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-06-25",
@@ -166,10 +171,52 @@
      "DistribuicaoSubcomissao": null,
      "Documentos": [
       {
+       "DataDocumento": "2025-09-15",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279383559574a6b4f47566a4e5331694e4451794c5451334d6a4574595441344d793078596d49775957457a596d466d4e5463756347526d&fich=9abd8ec5-b442-4721-a083-1bb0aa3baf57.pdf&Inline=true"
+      },
+      {
        "DataDocumento": "2025-06-27",
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta Pública - Contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=263"
+      },
+      {
+       "DataDocumento": "2025-08-14",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Apreciação Pública - Contributo Confederação Geral dos Trabalhadores Portugueses – Intersindical Nacional",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d4e446b7a4f47566d4d4330775a6a5a6c4c54517a4f4463744f4749304d53316d597a51304d5449784f44686b4e6a67756347526d&fich=f4938ef0-0f6e-4387-8b41-fc4412188d68.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-08-14",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Apreciação Pública - Contributo Comissão de Trabalhadores da Unidade Local de Saúde de Loures-Odivelas",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938784e6a41314d4441325a43316b5a6d457a4c545269595745744f44417a4e53316d595759345a474d784f4445334e7a55756347526d&fich=1605006d-dfa3-4baa-8035-faf8dc181775.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-08-14",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Apreciação Pública - Contributo da Federação dos Sindicatos de Agricultura, Alimentação, Bebidas, Hotelaria e Turismo de Portugal ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793878595755334d4455354f53316b4d7a64694c5451334d6a4174596d49344e7930324d6a59314e3255784e7a67774f5755756347526d&fich=1ae70599-d37b-4720-bb87-62657e17809e.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-08-14",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Apreciação Pública - Contributo da Federação Nacional dos Sindicatos dos Trabalhadores em Funções Públicas e Sociais",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a593259344f5441344d6930314d6a49324c5452684e546b74596a41784d6931695a4467334f5455305a6a63315a444d756347526d&fich=3cf89082-5226-4a59-b012-bd87954f75d3.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-08-14",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Apreciação Pública - Contributo do Sindicato dos Trabalhadores na Indústria de Hotelaria, Turismo, Restaurantes e Similares do Sul",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684d4464684e5449354d79316b4d6d52694c54517a596d4574596a45354e5330324d6a49354e32566d4d6a46694d5455756347526d&fich=a07a5293-d2db-43ba-b195-62297ef21b15.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-10-22",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c5a544d304d5441354d7931685a5449774c5451314e7a4d744f44637a5a43303159545a6c4f544e6b4d6d45774e546b756347526d&fich=ee341093-ae20-4573-873d-5a6e93d2a059.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

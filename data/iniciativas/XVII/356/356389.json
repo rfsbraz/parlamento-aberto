@@ -1903,7 +1903,20 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-06-09",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório de votação na especialidade",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396d595745794e474d3159793168596a52694c54526859325174596d49324e5330334f446c694e444d354f4459354f5745755a47396a65413d3d&fich=faa24c5c-ab4b-4acd-bb65-789b4398699a.docx&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-09",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387951303546513141765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793834595745354d545a694e69307a597a63314c54526b4d574d744f574a6859533035595459784e44557a4e6d466d4d5441755a47396a65413d3d&fich=8aa916b6-3c75-4d1c-9baa-9a614536af10.docx&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8448",
      "Legislatura": null,
@@ -3515,12 +3528,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4a68596d566c596a49794c5446695a6d49744e446c6c4d7930344d4449334c5749784e6a5a6959575131593246694e53356b62324e34&fich=2abeeb22-1bfb-49e3-8027-b166bad5cab5.docx&Inline=true",
-     "anexoNome": "Sugestão de redação final"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "348",
    "Comissao": [
     {

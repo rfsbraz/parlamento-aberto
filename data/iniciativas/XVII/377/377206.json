@@ -1,12 +1,7 @@
 {
  "DataFimleg": null,
  "DataInicioleg": "2026-09-15",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45314d545a684e47466a4c546b324e6a59744e47597a4d7931694d444e684c5464694d5463345a47466a596a646b597935775a47593d&fich=1516a4ac-9666-4f33-b03a-7b178dacb7dc.pdf&Inline=true",
-   "anexoNome": "A. I. G"
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": [
   {
    "GP": "L",
@@ -170,7 +165,16 @@
      "Prorrogado": null,
      "Publicacao": null,
      "PublicacaoRelatorio": null,
-     "Relatores": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "9641",
+       "motivoCessacao": null,
+       "nome": "Armando Mourisco"
+      }
+     ],
      "RemessaRedaccaoFinal": null,
      "Remessas": null,
      "Sessao": null,
@@ -198,12 +202,12 @@
  ],
  "IniId": "377206",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32566c4e7a67344f44637a4c574a694e5445744e474e6c4f4330345a5451784c574978596d597a4e544e685a4468684f4335775a47593d&fich=ee788873-bb51-4ce8-8e41-b1bf353ad8a8.pdf&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "751",
  "IniObs": null,
  "IniSel": "2",
- "IniTextoSubst": "NAO",
- "IniTextoSubstCampo": null,
+ "IniTextoSubst": "SIM",
+ "IniTextoSubstCampo": "Substituição do texto a pedido do autor em 2026-11-26.",
  "IniTipo": "J",
  "IniTitulo": "Reforça os mecanismos de proteção dos jogadores nas plataformas de jogos e apostas",
  "IniciativasEuropeias": null,

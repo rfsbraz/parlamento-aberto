@@ -76,12 +76,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a646c4e7a4e6b5a474d334c5755324e4459744e446c6b5a4330354e6d51794c54566d5a47453059575a6959545a6a4f53356b62324e34&fich=7e73ddc7-e646-49dd-96d2-5fda4afba6c9.docx&Inline=true",
-     "anexoNome": "Nota de admissibilidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-01-23",
@@ -2332,7 +2327,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325a6b4e5755774e444e6d4c54566d596a63744e446334595330344e5463774c546c684d7a426a4d4463324d6a41774e6935775a47593d&fich=fd5e043f-5fb7-478a-8570-9a30c0762006.pdf&Inline=true",
+     "anexoNome": "Requerimento 5.ª Comissão"
+    }
+   ],
    "CodigoFase": "225",
    "Comissao": null,
    "DataFase": "2026-06-17",

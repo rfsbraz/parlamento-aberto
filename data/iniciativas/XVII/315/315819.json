@@ -122,7 +122,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4578596d49305a4756684c546b324f4449744e4751794d793168596a5a6d4c5459345a6d5a6b595752684d57557a5a69356b62324e34&fich=11bb4dea-9682-4d23-ab6f-68ffdada1e3f.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-12-09",
@@ -237,7 +242,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a526b597a67774d3255314c5751324d5749744e444a6b597930344e445a6b4c5455774d44417a4f44566a4e54466d595335775a47593d&fich=4dc803e5-d61b-42dc-846d-5000385c51fa.pdf&Inline=true",
+     "anexoNome": "Redistribuição da iniciativa"
+    }
+   ],
    "CodigoFase": "180",
    "Comissao": [
     {
@@ -10491,16 +10501,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45304f47557a595449774c5449794e4449744e444934596930354e6a646c4c5751344d6a6b32593249354e6d55314d69356b62324e34&fich=148e3a20-2242-428b-967e-d8296cb96e52.docx&Inline=true",
-     "anexoNome": "Projeto de Decreto"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32526c4f544931596d59334c54686b4f5755744e4455334e6931684e5449774c54417a597a67315a4445784f546c6c4d69356b62324e34&fich=de925bf7-8d9e-4576-a520-03c85d1199e2.docx&Inline=true",
-     "anexoNome": "Informação de Redação Final"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "348",
    "Comissao": [
     {

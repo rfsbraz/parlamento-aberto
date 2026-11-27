@@ -1,12 +1,7 @@
 {
  "DataFimleg": null,
  "DataInicioleg": "2026-09-15",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4535597a63324e7a45354c5749354d6a55744e4455344f5331684d5445324c5455344f5756685a6a63355a544268597935775a47593d&fich=19c76719-b925-4589-a116-589eaf79e0ac.pdf&Inline=true",
-   "anexoNome": "A. I. G"
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": [
   {
    "GP": "L",
@@ -170,7 +165,16 @@
      "Prorrogado": null,
      "Publicacao": null,
      "PublicacaoRelatorio": null,
-     "Relatores": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "9641",
+       "motivoCessacao": null,
+       "nome": "Armando Mourisco"
+      }
+     ],
      "RemessaRedaccaoFinal": null,
      "Remessas": null,
      "Sessao": null,
@@ -198,7 +202,7 @@
  ],
  "IniId": "377204",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4177596d4a69596a6c684c544130593249744e446b32596930345a54417a4c575a685a5451314d44466a59546b7a597935775a47593d&fich=00bbbb9a-04cb-496b-8e03-fae4501ca93c.pdf&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "749",
  "IniObs": null,
  "IniSel": "2",

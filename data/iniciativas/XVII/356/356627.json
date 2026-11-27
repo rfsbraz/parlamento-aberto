@@ -138,6 +138,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Áudio da Reunião",
        "URL": "https://media.parlamento.pt/site/XVIILEG/SL1/COM/14_CIMH/CIMH_20260526_1.mp3"
+      },
+      {
+       "DataDocumento": "2026-05-28",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação da Discussão",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a4d54686b4f5751314e7930305957566a4c5452684d546374595463325a433035593259304d4456694d3259304f4751756347526d&fich=c18d9d57-4aec-4a17-a76d-9cf405b3f48d.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -239,7 +245,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d7a4f44426c4d54686d4c5759334d3249744e445a6b5a4330355a5751314c54466859325a684d7a55344d5749795953356b62324e34&fich=c380e18f-f73b-46dd-9ed5-1acfa3581b2a.docx&Inline=true",
+     "anexoNome": "Sugestão de redação final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": null,
    "DataFase": "2026-06-16",

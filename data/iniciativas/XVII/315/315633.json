@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a67775a4751795a444d354c5751334f5755744e47453259693168593249334c5745354d44466b4e44466b4f446334595335775a47593d&fich=80dd2d39-d79e-4a6b-acb7-a901d41d878a.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "JPP",
@@ -98,6 +103,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=499"
+      },
+      {
+       "DataDocumento": "2025-10-31",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a517a4e7a41334d6d49744d6d466b4e7930304d7a49344c57466d4f474d744d6d4d334d446c6c5a4452694e544e694c6e426b5a673d3d&fich=f437072b-2ad7-4328-af8c-2c709ed4b53b.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-12-03",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório CACDLG",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f475a6c597a4a684e4445744d44637a5a533030597a51304c5745304e475974596d566d4d4449324f57566d5a6d5a684c6e426b5a673d3d&fich=8fec2a41-073e-4c44-a44f-bef0269efffa.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -1184,12 +1201,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a426b4d6a63314d57457a4c5459334e6d51744e4759344d693169596a55774c5445345a6d55335a6a56684d6a67794e5335775a47593d&fich=0d2751a3-676d-4f82-bb50-18fe7f5a2825.pdf&Inline=true",
-     "anexoNome": "Requerimento do JPP"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-03-20",
@@ -1308,7 +1320,7 @@
  ],
  "IniId": "315633",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63784e6a5a6c4e32566d4c546c6c596a41744e445135596931695a6a45784c575a6c4f4745345a545a6b4d7a4d774d69356b62324e34&fich=7166e7ef-9eb0-449b-bf11-fe8a8e6d3302.docx&Inline=true",
  "IniNr": "233",
  "IniObs": null,
  "IniSel": "1",

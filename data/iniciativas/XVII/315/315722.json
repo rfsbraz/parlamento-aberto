@@ -2930,7 +2930,12 @@
   {
    "ActId": "82545",
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245785a6d59314f474e6a4c5759334d5445744e44686b59533035596a557a4c5467344f474d324e5459304d324d33596935775a47593d&fich=a1ff58cc-f711-48da-9b53-888c65643c7b.pdf&Inline=true",
+     "anexoNome": "Resultado das Votações (Guião Suplementar)"
+    }
+   ],
    "CodigoFase": "310",
    "Comissao": null,
    "DataFase": "2026-05-08",
@@ -3598,14 +3603,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-06-11",
-       "TipoDocumento": "Redação final",
-       "TituloDocumento": "Redação Final - Deliberação da Comissão",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a6b7a596a64694f4451744e7a63305a4330304d5459794c546778595467744e475131596a5a6b4f5445304d5451794c6e426b5a673d3d&fich=693b7b84-774d-4162-81a8-4d5b6d914142.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8454",
      "Legislatura": null,

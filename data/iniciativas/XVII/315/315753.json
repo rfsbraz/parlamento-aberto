@@ -236,7 +236,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324a6b4d446334596a5a6b4c5755775a4759744e474d304f4331685a6a466b4c5445315a5759344f544a685a6a5979595335775a47593d&fich=bd078b6d-e0df-4c48-af1d-15ef892af62a.pdf&Inline=true",
+     "anexoNome": "Redistribuição da iniciativa"
+    }
+   ],
    "CodigoFase": "181",
    "Comissao": [
     {
@@ -334,7 +339,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d325a4745795a6d51784c5463784d7a55744e47526a4d7930354e6a59344c5451344e5459794d44686d4d6a67785a53356b62324e34&fich=36da2fd1-7135-4dc3-9668-4856208f281e.docx&Inline=true",
+     "anexoNome": "Sugestão de redação final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -355,7 +365,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-02-04",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938785a6d526c5a44646a4d7930334f4445324c5451774f4459745954677a4d7930795a474a685a474a6a4e6a4a6d5a444d756347526d&fich=1fded7c3-7816-4086-a833-2dbadbc62fd3.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8451",
      "Legislatura": null,

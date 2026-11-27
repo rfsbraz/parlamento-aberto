@@ -112,6 +112,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=330"
+      },
+      {
+       "DataDocumento": "2025-09-19",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533833513046515a584d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684d6a4a6a596a55774e5330304d7a49794c54526c4e4451744f4759344d6930324d5455314f5445345a6d526d4d4451756347526d&fich=a22cb505-4322-4e44-8f82-6155918fdf04.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-30",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório da Comissão de Agricultura e Pescas",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533833513046515a584d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939684e325268595751784e43316b4d6a5a6d4c54526c4d324d744f54686d5a5330324e5449304e47493059544a6d4e5449756347526d&fich=a7daad14-d26f-4e3c-98fe-65244b4a2f52.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -255,7 +267,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a41794d32466a5a4441314c5455334d4449744e446868596930354d324a684c54526d4e44526a4e6a597a4f4445355a4335775a47593d&fich=023acd05-5702-48ab-93ba-4f44c663819d.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "174",
    "Comissao": null,
    "DataFase": "2025-08-06",
@@ -10394,7 +10411,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49784f5459334d7a5a684c544a6c4d4463744e475a6b5a6931684e6d59784c5755335a546c6d5a574d354e544e684e7935775a47593d&fich=2196736a-2e07-4fdf-a6f1-e7e9fec953a7.pdf&Inline=true",
+     "anexoNome": "Requerimento PAN"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2026-02-25",
@@ -10949,7 +10971,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32526a5a475a6d4e47566c4c5463304f5445744e4463334e7930344d7a4e6b4c545a6a4e7a41314f4751775a4442684d79356b62324e34&fich=dcdff4ee-7491-4777-833d-6c7058d0d0a3.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4e694f47497a596d52694c574d314d3259744e4441795a6931694f5463324c575a694d6d4e6b4f544d774d7a49785979356b62324e34&fich=3b8b3bdb-c53f-402f-b976-fb2cd930321c.docx&Inline=true",
+     "anexoNome": "Informação de redação final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {

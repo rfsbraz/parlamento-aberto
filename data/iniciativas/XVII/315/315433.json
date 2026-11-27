@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325a6d4f444e695a546b794c54557a595749744e4463794d6930344e7a59344c5749325932466b4d44637a4d6a4e6d595335775a47593d&fich=ff83be92-53ab-4722-8768-b6cad07323fa.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "L",
@@ -167,6 +172,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta Pública - Contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=364"
+      },
+      {
+       "DataDocumento": "2025-09-16",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938344e444669595464684e69316d4e5455784c545133596a49744f54646a4f53316c4f44497a597a45304e6d51345a474d756347526d&fich=841ba7a6-f551-47b2-97c9-e823c146d8dc.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-01-21",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório da Comissão de Saúde",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627939694e7a46694d6d55784e53307a4f574a6b4c54513059324d744f5441354d533169597a59304e5445304f4455784d6a45756347526d&fich=b71b2e15-39bd-44cc-9091-bc6451485121.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -2587,7 +2604,7 @@
  ],
  "IniId": "315433",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32526c4d7a41354f4456694c5745794e474d744e444a6d4e6931694d6a5a6a4c574d335a5746684e546b304e57457a4d43356b62324e34&fich=de30985b-a24c-42f6-b26c-c7eaa5945a30.docx&Inline=true",
  "IniNr": "149",
  "IniObs": null,
  "IniSel": "1",

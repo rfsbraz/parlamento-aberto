@@ -343,7 +343,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63314f574a6d5a6a56684c546c6a4f574d744e444e685a4330354f54497a4c5451794d6d45795a44466c4f57526a4d43356b62324e34&fich=759bff5a-9c9c-43ad-9923-422a2d1e9dc0.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-01-07",

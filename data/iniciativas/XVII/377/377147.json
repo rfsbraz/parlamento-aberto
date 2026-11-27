@@ -343,7 +343,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5a695a545a6a5a6a45794c546b774d6d4d744e4459354f4330344e54566c4c5463344d6d45345a5451334d4445305969356b62324e34&fich=6be6cf12-902c-4698-855e-782a8e47014b.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325933597a646b4d6a67304c5459324e5759744e44466c4e4331684d6d526a4c5745334e324d784e4745304e544d7a4d4335775a47593d&fich=f7c7d284-665f-41e4-a2dc-a77c14a45330.pdf&Inline=true",
+     "anexoNome": "Despacho n.º 283-XVII"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-09-01",
@@ -408,14 +417,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-09-16",
-       "TipoDocumento": "Informação",
-       "TituloDocumento": "Informação - discussão em Plenário",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d545a6c4e6a41794d574574595745795a4330304e7a51314c546b784f546774596d5a6b597a466a4e5449335a5751784c6e426b5a673d3d&fich=16e6021a-aa2d-4745-9198-bfdc1c527ed1.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,

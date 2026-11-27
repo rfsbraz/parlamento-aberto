@@ -413,12 +413,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324e6b4f44426a4e5451304c5441304d4449744e444934596931684f44417a4c57566d5a6a49784d6d45795a6d55324f5335775a47593d&fich=cd80c544-0402-428b-a803-eff212a2fe69.pdf&Inline=true",
-     "anexoNome": "Parecer Governo RAA"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "174",
    "Comissao": null,
    "DataFase": "2026-06-02",
@@ -441,12 +436,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325979595755324d6d466d4c544d774d544d744e474d304f43316959544a6d4c5755304f54597a4d7a6b314f5441324d5335775a47593d&fich=f2ae62af-3013-4c48-ba2f-e49633959061.pdf&Inline=true",
-     "anexoNome": "Parecer Governo RAM"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "175",
    "Comissao": null,
    "DataFase": "2026-06-02",
@@ -2154,7 +2144,12 @@
   {
    "ActId": "82601",
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32557a4d474d354d7a6c6c4c5449774d4451744e4463774f5330344e3259774c5745344d6a5932596a686a4e6a49314f4335775a47593d&fich=e30c939e-2004-4709-87f0-a8266b8c6258.pdf&Inline=true",
+     "anexoNome": "Requerimento L"
+    }
+   ],
    "CodigoFase": "280",
    "Comissao": null,
    "DataFase": "2026-07-17",
@@ -2760,7 +2755,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6377593249355a574a6c4c54566c4e4449744e4755794f5331685a57466b4c54646a4e7a526b4e6a45354e47566a596935775a47593d&fich=70cb9ebe-5e42-4e29-aead-7c74d6194ecb.pdf&Inline=true",
+     "anexoNome": "Resultado de votações"
+    }
+   ],
    "CodigoFase": "310",
    "Comissao": null,
    "DataFase": "2026-07-17",

@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55324d6a63354e54417a4c574d774e6d49744e444931596930345a6d466b4c546b345a4749794d5455324e6a4533596935775a47593d&fich=56279503-c06b-425b-8fad-98db2156617b.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -1863,14 +1868,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2025-09-29",
-       "TipoDocumento": "Texto final",
-       "TituloDocumento": "Relatório da discussão e votação na especialidade e texto final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f47557a596a68694f5749744d6d5a69596930304d57597a4c5467314d4441745a6d4a6c4e444d7a4e6d55324e6d466c4c6e426b5a673d3d&fich=8e3b8b9b-2fbb-41f3-8500-fbe4336e66ae.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -2178,7 +2176,7 @@
  ],
  "IniId": "315261",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3256694e7a5a6a4e6a6c6d4c5755775a6d51744e47566c4f5330354d7a56684c5463324d446b794f546b305a6a59344e53356b62324e34&fich=eb76c69f-e0fd-4ee9-935a-76092994f685.docx&Inline=true",
  "IniNr": "7",
  "IniObs": null,
  "IniSel": "1",

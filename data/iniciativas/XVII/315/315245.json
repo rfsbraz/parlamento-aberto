@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325a6b4e4441315a6a6b774c5445794f444d744e4463325a6930354d6a51774c546c6d593249354d54566d4e47566d4e6935775a47593d&fich=fd405f90-1283-476f-9240-9fcb915f4ef6.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "CH",
@@ -195,6 +200,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=275"
+      },
+      {
+       "DataDocumento": "2025-11-21",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396b5954566c4e57597a4d43316959575a6c4c5451314d446b744f446334597930334d7a566d5a47593359324e6b4e4751756347526d&fich=da5e5f30-bafe-4509-878c-735fdf7ccd4d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-18",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório CIMH",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279383459544d304d7a67325a533035596a466a4c5451324e474d744f5441334d53316b4e6d4a6a5a544d354d4468684f5755756347526d&fich=8a34386e-9b1c-464c-9071-d6bce3908a9e.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -246,7 +263,7 @@
  ],
  "IniId": "315245",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5179597a67324d5441784c5749314d444d744e47513059693168596a4a6b4c54426c597a417759544d3159575a694e43356b62324e34&fich=42c86101-b503-4d4b-ab2d-0ec00a35afb4.docx&Inline=true",
  "IniNr": "79",
  "IniObs": null,
  "IniSel": "1",

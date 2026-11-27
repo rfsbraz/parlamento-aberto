@@ -117,7 +117,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a566b4e44466b4f4467794c5459775a6a6b744e444d304d5330344d5445324c5755304d7a686d5a4468694e4745775953356b62324e34&fich=5d41d882-60f9-4341-8116-e438fd8b4a0a.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-08-27",
@@ -1483,7 +1488,20 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-06-19",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Faculdade de Ciências da Nutrição e Alimentação da Universidade do Porto",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a4e7a5530596d4a684d693169593255344c5452695a475974595467795a5330784f574d3559546c695a54686a4d7a4d756347526d&fich=3754bba2-bce8-4bdf-a82e-19c9a9be8c33.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-14",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Ordem dos Nutricionistas",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396b5954637a5a5451325a53316b4f54426a4c5451354f5459744f54526b4f43316d59324932595455324e6a51784d3259756347526d&fich=da73e46e-d90c-4996-94d8-fcb6a566413f.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8455",
      "Legislatura": null,

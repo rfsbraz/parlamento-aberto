@@ -416,6 +416,30 @@
      "DistribuicaoSubcomissao": null,
      "Documentos": [
       {
+       "DataDocumento": "2025-10-22",
+       "TipoDocumento": "Outro",
+       "TituloDocumento": "Contributo - ARLC",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396a5a6d59334d6a497a4d4330344d6d56694c5451785a4451745957597a4e6930324d7a64694e446c6d4d6a466b5a4459756347526d&fich=cff72230-82eb-41d4-af36-637b49f21dd6.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-11-21",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c4e6a51795a57466d4e6930344e325a684c5451774e6a597459574d325a4330344f544931596d59314d7a55795a4759756347526d&fich=e642eaf6-87fa-4066-ac6d-8925bf5352df.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-07-28",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Parecer - Cidadão Rui Brito da Silva",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938794d545532597a6b335953316c597a4e6a4c5451314e546b74596a63304e6930774d445a684e546734597a59334f5449756347526d&fich=2156c97a-ec3c-4559-b746-006a588c6792.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-18",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório CIMH",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793830596a6b794f54646b5a693078596d52684c5451784e545174596a686d4d6930354d574e6b4e6a597a4d446b304e4759756347526d&fich=4b9297df-1bda-4154-b8f2-91cd6630944f.pdf&Inline=true"
+      },
+      {
        "DataDocumento": "2025-07-17",
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
@@ -527,7 +551,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d344d4755344e4749784c54686a4f5455744e44466b5a4330344e7a4a6a4c5463355a474d7a5a6a5a6d4f5463794f5335775a47593d&fich=c80e84b1-8c95-41dd-872c-79dc3f6f9729.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2025-07-28",

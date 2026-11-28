@@ -48,7 +48,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a566b4e4463305a5464684c574d334e3251744e475132596931684e5755774c54526d4d6a646d595441334d7a6c6a4e69356b62324e34&fich=5d474e7a-c77d-4d6b-a5e0-4f27fa0739c6.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-02-12",
@@ -156,7 +161,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59324d474a6d4e7a4d354c5451334e324d744e44426d4f5330355a5759354c545131593255334e4456694d7a517a4e7935775a47593d&fich=660bf739-477c-40f9-9ef9-45ce745b3437.pdf&Inline=true",
+     "anexoNome": "Despacho de não admissão"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a566d4e6a6c6a4d5745324c544e6d4d5467744e4745784d6930344f475a6b4c57526b4e7a63355a6a55314e6a59344e53356b62324e34&fich=5f69c1a6-3f18-4a12-88fd-dd779f556685.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "30",
    "Comissao": null,
    "DataFase": "2026-02-19",

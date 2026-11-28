@@ -55,7 +55,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5978597a63334e5459794c57517a4d6a41744e4456684d7930354d6d466d4c54426a5954526b4d4459785954457a4e53356b62324e34&fich=61c77562-d320-45a3-92af-0ca4d061a135.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-09-23",
@@ -105,18 +110,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=524"
-      },
-      {
-       "DataDocumento": "2025-10-27",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota técnica",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e6862793832596a5a6c5a6d566d5a4330334f44566b4c54526a5a474974596a4d7a4d79316b4d4459314e6d526a5a6d4d794e474d756347526d&fich=6b6efefd-785d-4cdb-b333-d0656dcfc24c.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-12-10",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383151303947515641765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774e6a6b3559545a6c4e69316c5a5751334c5451774f546b7459545668596931694e5745354d4442684f4445324d6a45756347526d&fich=0699a6e6-eed7-4099-a5ab-b5a900a81621.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

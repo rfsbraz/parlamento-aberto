@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324e6b4d7a466b4e7a41794c5445324f5759744e444d33597931694e4442694c545a6d596a526c595756695a57566a4f4335775a47593d&fich=cd31d702-169f-437c-b40b-6fb4eaebeec8.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PCP",
@@ -58,7 +63,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325a684f5759354f544d354c574d314e3251744e4755794d5330345a6a517a4c546334595452695a6d45324d446b315a69356b62324e34&fich=fa9f9939-c57d-4e21-8f43-78a4bfa6095f.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-10-15",
@@ -9507,7 +9517,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-01",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Nova apreciação generalidade PJL 214-XVII-1.ª (PS) e 256-XVII-1.ª (PCP) remessa  votação plenário",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f47517a4f4752694e6d59745a57517a4e6930304d6d49334c5467324e574d744f574d7a4e4759354e3249314f4451314c6e426b5a673d3d&fich=8d38db6f-ed36-42b7-865c-9c34f97b5845.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8454",
      "Legislatura": null,
@@ -9613,7 +9630,7 @@
  ],
  "IniId": "315682",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5579596a4d7a4d6a5a694c5751784e324d744e4749794d4331684e5745324c5463344f5459795a6a457a596a4d315a43356b62324d3d&fich=52b3326b-d17c-4b20-a5a6-78962f13b35d.doc&Inline=true",
  "IniNr": "256",
  "IniObs": null,
  "IniSel": "1",

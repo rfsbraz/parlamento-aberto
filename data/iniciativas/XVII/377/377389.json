@@ -63,12 +63,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a67304e44646d4e5451324c546b794e7a6b744e444d79595330344e4445314c57597a5a54526d5a4445314f4746684e79356b62324e34&fich=8447f546-9279-432a-8415-f3e4fd158aa7.docx&Inline=true",
-     "anexoNome": "Nota de Admissibilidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-11-17",
@@ -183,7 +178,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249314e574d794f544d324c546868595463744e474d314d4331694d446c684c575533596d466a4d544d785a575668596935775a47593d&fich=b55c2936-8aa7-4c50-b09a-e7bac131eeab.pdf&Inline=true",
+     "anexoNome": "Despacho PAR"
+    }
+   ],
    "CodigoFase": "180",
    "Comissao": [
     {

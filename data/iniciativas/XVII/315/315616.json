@@ -63,7 +63,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63784d4745355a6d4d344c57566d4e4449744e445a6d4f5331685a4445324c544d794d444135595459324e5464684d43356b62324e34&fich=710a9fc8-ef42-46f9-ad16-32009a6657a0.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-09-23",
@@ -119,6 +124,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta pública - recolha de contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=465"
+      },
+      {
+       "DataDocumento": "2026-05-26",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e54566a4d4451794d7a51745a47557a4d6930304e4745344c546c6d4d574d74597a4d774d5745324d4751794e6d4a6b4c6e426b5a673d3d&fich=55c04234-de32-44a8-9f1c-c301a60d26bd.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

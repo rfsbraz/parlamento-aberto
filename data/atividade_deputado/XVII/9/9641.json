@@ -3,6 +3,17 @@
   {
    "ActP": [
     {
+     "ActAs": "De saudação ao Dia Internacional para a Eliminação da Violência contra as Mulheres",
+     "ActDtdeb": null,
+     "ActDtent": "25-11-2026",
+     "ActId": "248923",
+     "ActNr": "828",
+     "ActSelLg": "XVII",
+     "ActSelNr": "2",
+     "ActTp": "VOT",
+     "ActTpdesc": "Voto"
+    },
+    {
      "ActAs": "De congratulação pelos 50 anos de adesão de Portugal ao Conselho da Europa ",
      "ActDtdeb": null,
      "ActDtent": "25-09-2026",
@@ -2658,6 +2669,24 @@
    ],
    "Audiencias": [
     {
+     "AccDtaud": "2026-11-26",
+     "ActAs": "Audiência com Stefan Löfven, Presidente do PES e anterior primeiro-ministro da Suécia entre 2014 e 2021",
+     "ActDtdes1": null,
+     "ActDtdes2": null,
+     "ActDtent": null,
+     "ActId": "127844",
+     "ActLg": "XVII",
+     "ActLoc": null,
+     "ActNr": "24-CECT-XVII",
+     "ActSl": null,
+     "ActTp": "AUD",
+     "ActTpdesc": "Audiência",
+     "CmsAb": "CECT",
+     "CmsNo": "Comissão de Economia e Coesão Territorial ",
+     "NomeEntidadeExterna": "Stefan Löfven, Presidente do PES e anterior primeiro-ministro da Suécia entre 2014 e 2021",
+     "TevTp": null
+    },
+    {
      "AccDtaud": "2026-09-09",
      "ActAs": "Audiência com a Associação Portuguesa de Planos de Saúde (ASPTPS), no âmbito do Projeto de Lei n.º 710/XVII/1.ª (PSD/CDS-PP) - Regime Jurídico de Proteção dos Consumidores no âmbito dos Cartões de Descontos em Saúde",
      "ActDtdes1": null,
@@ -3753,10 +3782,55 @@
     "RelatoresIniciativas": [
      {
       "AccDtrel": null,
+      "IniId": "377209",
+      "IniNr": "754",
+      "IniSelLg": "XVII",
+      "IniTi": "Proíbe a venda de bilhetes de lotarias e de lotaria instantânea nos estabelecimentos de saúde",
+      "IniTp": "Projeto de Lei",
+      "RelFase": "Baixa comissão distribuição inicial generalidade"
+     },
+     {
+      "AccDtrel": null,
+      "IniId": "377207",
+      "IniNr": "752",
+      "IniSelLg": "XVII",
+      "IniTi": "Regula a publicidade e patrocínio a jogos e apostas, alterando o Código da Publicidade\n",
+      "IniTp": "Projeto de Lei",
+      "RelFase": "Baixa comissão distribuição inicial generalidade"
+     },
+     {
+      "AccDtrel": null,
+      "IniId": "377206",
+      "IniNr": "751",
+      "IniSelLg": "XVII",
+      "IniTi": "Reforça os mecanismos de proteção dos jogadores nas plataformas de jogos e apostas",
+      "IniTp": "Projeto de Lei",
+      "RelFase": "Baixa comissão distribuição inicial generalidade"
+     },
+     {
+      "AccDtrel": null,
       "IniId": "377205",
       "IniNr": "750",
       "IniSelLg": "XVII",
       "IniTi": "Reforça o combate à promoção e exploração ilegal de jogos e apostas online",
+      "IniTp": "Projeto de Lei",
+      "RelFase": "Baixa comissão distribuição inicial generalidade"
+     },
+     {
+      "AccDtrel": null,
+      "IniId": "377204",
+      "IniNr": "749",
+      "IniSelLg": "XVII",
+      "IniTi": "Reforça os mecanismos de autoexclusão em todas as plataformas licenciadas de jogos e apostas online",
+      "IniTp": "Projeto de Lei",
+      "RelFase": "Baixa comissão distribuição inicial generalidade"
+     },
+     {
+      "AccDtrel": null,
+      "IniId": "377203",
+      "IniNr": "748",
+      "IniSelLg": "XVII",
+      "IniTi": "Determina a obrigatoriedade da inclusão de advertências sobre o potencial de adição em todos os jogos e apostas",
       "IniTp": "Projeto de Lei",
       "RelFase": "Baixa comissão distribuição inicial generalidade"
      }
@@ -4994,7 +5068,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-25",
+    "GpDtFim": "2026-11-27",
     "GpDtInicio": "2025-06-03",
     "GpId": 7263.0,
     "GpSigla": "PS"

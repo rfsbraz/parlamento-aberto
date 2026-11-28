@@ -1824,7 +1824,26 @@
      "Nome": "Paulo Lopes Marcelo"
     }
    ],
-   "Deslocacoes": null,
+   "Deslocacoes": [
+    {
+     "AccDtaud": null,
+     "ActAs": "Conferência das Partes das Nações Unidas sobre as Alterações Climáticas (COP30)",
+     "ActDtdes1": "2025-11-17",
+     "ActDtdes2": "2025-11-21",
+     "ActDtent": null,
+     "ActId": "157716",
+     "ActLg": "XVII",
+     "ActLoc": "Belém, Pará, Brasil",
+     "ActNr": null,
+     "ActSl": null,
+     "ActTp": "DES",
+     "ActTpdesc": "Deslocação",
+     "CmsAb": "CAEne",
+     "CmsNo": "Comissão de Ambiente e Energia ",
+     "NomeEntidadeExterna": null,
+     "TevTp": null
+    }
+   ],
    "DlE": [
     {
      "DevDtfim": "2025-11-22 00:00:00.0",
@@ -1895,6 +1914,15 @@
      "IniTi": "Reforça a proteção dos advogados em matéria de parentalidade, doença grave e gravidez de risco",
      "IniTp": "J",
      "IniTpdesc": "Projeto de Lei"
+    },
+    {
+     "IniId": "377434",
+     "IniNr": "1362",
+     "IniSelLg": "XVII",
+     "IniSelNr": "2",
+     "IniTi": "Recomenda ao Governo a execução das recomendações da Comissão Técnica Independente para avaliação dos incêndios de agosto de 2025 em território de Portugal Continental",
+     "IniTp": "R",
+     "IniTpdesc": "Projeto de Resolução"
     },
     {
      "IniId": "356969",
@@ -2377,7 +2405,7 @@
   "DepCargo": null,
   "DepGP": [
    {
-    "GpDtFim": "2026-11-25",
+    "GpDtFim": "2026-11-27",
     "GpDtInicio": "2025-06-03",
     "GpId": 7261.0,
     "GpSigla": "PSD"

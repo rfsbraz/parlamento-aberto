@@ -73,12 +73,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251314d7a51774d7a41324c5467794d5759744e4446695a6930344d6a6c6c4c54566d5a6d59794f5745344e6a41325a53356b62324e34&fich=d5340306-821f-41bf-829e-5fff29a8606e.docx&Inline=true",
-     "anexoNome": "Nota de admissibilidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-12-18",
@@ -1427,7 +1422,68 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-02-11",
+       "TipoDocumento": "Requerimento",
+       "TituloDocumento": "Requerimento do GP do L",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a575134595449784e7a41744d54426c5a6930304d5751314c57466b4e47597459546c684d546b334d54526d4f54637a4c6e426b5a673d3d&fich=ed8a2170-10ef-41d5-ad4f-a9a19714f973.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-06",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Serviço Jesuíta aos Refugiados",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a63784e5749325a5445744f5467305a533030597a6c694c5745774f546b74596a49354d3245355a5456695a545a6a4c6e426b5a673d3d&fich=c715b6e1-984e-4c9b-a099-b293a9e5be6c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-06",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Conselho Português para os Refugiados",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d7a4a684e6a49345a4451744e57517a4e7930304f47526b4c5467794d6d55745a446731597a417a596a4e6a4f5755774c6e426b5a673d3d&fich=32a628d4-5d37-48dd-822e-d85c03b3c9e0.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-01",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronúncia escrita - APAV",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6d4a6a4e3246684d6d4d744f57526b4d6930304d6d55304c5749334e5751744d54466a5957526a4d545a69597a686a4c6e426b5a673d3d&fich=fbc7aa2c-9dd2-42e4-b75d-11cadc16bc8c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-09",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronuncia escrita - Alto Comissariado das Nações Unidas para os Refugiados – Portugal",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d574d354e7a4934597a51744d4759785a4330304e4449304c546b794d6a41744d7a59344d54526c4e7a566d4e574a6a4c6e426b5a673d3d&fich=1c9728c4-0f1d-4424-9220-36814e75f5bc.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-10",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Pronúncia escrita - Conservatória dos Registos Centrais de Lisboa- através do IRN- IP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a63774e5455344e3255744d57466c4f4330304d5464684c5749334e5749744f5445324e6a4e6a4e7a41784d4745784c6e426b5a673d3d&fich=f705587e-1ae8-417a-b75b-91663c7010a1.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-16",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de substituição 1 – PSD",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d4449305a546c684e4459744d324a69597930304f5745314c546c684e6a67744d6d59324d325a6d5a6a49314e3255334c6e426b5a673d3d&fich=024e9a46-3bbc-49a5-9a68-2f63fff257e7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-23",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de alteração 2 - GP do LIVRE",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596d4e6a4e32597a4e6a41744e6d5a6a4d533030597a46684c546c685a5459744d6d4d325a446732597a6b35595755324c6e426b5a673d3d&fich=bcc7f360-6fc1-4c1a-9ae6-2c6d86c99ae6.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-30",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de alteração  3 à proposta do texto de substituição do GP do PSD - GP do PS",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d325a6c4d5463304d7a6774597a59315a433030596a457a4c574a6d5a445574596d51344d7a59354d5442685a6d59314c6e426b5a673d3d&fich=3fe17438-c65d-4b13-bfd5-bd836910aff5.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-01",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Relatório da discussão e votação na especialidade e texto final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d5759314e6a6b334e4459744f47517a4d6930304d44566a4c546c6a4e6a59745a544d774d5459304e4463325a5445314c6e426b5a673d3d&fich=1f569746-8d32-405c-9c66-e30164476e15.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -1510,7 +1566,16 @@
   {
    "ActId": "82769",
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a526b597a49774e4451334c5745784f4749744e4467774e693034597a67334c5751354f44526b4d7a686d4d5468684d5335775a47593d&fich=4dc20447-a18b-4806-8c87-d984d38f18a1.pdf&Inline=true",
+     "anexoNome": "Requerimento LIVRE"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251774e5452695a4445354c5463314d5445744e47466c5a4330344d6d45794c575535595455354d4459794d6a64684e4335775a47593d&fich=d054bd19-7511-4aed-82a2-e9a5906227a4.pdf&Inline=true",
+     "anexoNome": "Requerimento PSD"
+    }
+   ],
    "CodigoFase": "280",
    "Comissao": null,
    "DataFase": "2026-07-02",
@@ -2193,7 +2258,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a41354e475a6d4d4451334c5441785a5759744e4445315a5331694d6d566d4c5451314e5459354e7a6333597a55774d69356b62324e34&fich=094ff047-01ef-415e-b2ef-45569777c502.docx&Inline=true",
+     "anexoNome": "Informação de Redação Final"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b324e7a566b4d324d774c54466c4e4455744e444e68597931695a4445304c5467304f4449774f545531596a55354d79356b62324e34&fich=9675d3c0-1e45-43ac-bd14-84820955b593.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {

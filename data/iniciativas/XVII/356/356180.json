@@ -1,16 +1,7 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4134596a4e684d5449794c5759794e3259744e4755324d6931694e5452684c5749784d6a55304f4445795a574a6b4f4335775a47593d&fich=08b3a122-f27f-4e62-b54a-b1254812ebd8.pdf&Inline=true",
-   "anexoNome": "A.I.G."
-  },
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b795a6d4e684d5467304c544d784d6a59744e44686d4e5330354d546b7a4c5749344e6d4d7a4d4467784d7a41355a6935775a47593d&fich=92fca184-3126-48f5-9193-b86c3081309f.pdf&Inline=true",
-   "anexoNome": "Texto da iniciativa - versão 1, de 18-02-2026"
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": [
   {
    "GP": "L",
@@ -82,7 +73,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d34596a4d7a596d5a6a4c544977597a59744e4445344e4330354d6d4e6c4c5751784f546b32597a466b4e6a6b784f53356b62324e34&fich=c8b33bfc-20c6-4184-92ce-d1996c1d6919.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-02-19",
@@ -3566,7 +3562,7 @@
  ],
  "IniId": "356180",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324a6b4d444d784e6a6b784c54557a4e574d744e444a684d4330345a6d466b4c5455324d6a677a4d4749774d6a4d344d4335775a47593d&fich=bd031691-535c-42a0-8fad-562830b02380.pdf&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "438",
  "IniObs": null,
  "IniSel": "1",

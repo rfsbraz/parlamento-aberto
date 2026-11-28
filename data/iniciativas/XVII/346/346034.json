@@ -366,7 +366,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55344f574e6b4e6a4d304c5745324f5451744e47593159533168596a45794c54466b5a6d46694e6d59325a5449345969356b62324e34&fich=589cd634-a694-4f5a-ab12-1dfab6f6e28b.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-01-27",
@@ -416,6 +421,30 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=643"
+      },
+      {
+       "DataDocumento": "2026-03-04",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório CACDLG",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d54686b4e7a5a6c59544d745a4452685a6930304d545a6b4c546b785a4755745a6d51354e47466b596d55775a6a51344c6e426b5a673d3d&fich=18d76ea3-d4af-416d-91de-fd94adbe0f48.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-04",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f574d78596a5933596a55744f54466b4e4330304d44566a4c5749334e545574596a51774e6a6c6a596a686b4d6d49334c6e426b5a673d3d&fich=9c1b67b5-91d4-405c-b755-b4069cb8d2b7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-11",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Conselho Superior da Magistratura",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a6c6d595451334f5449744f4445334d6930304e44677a4c5745324e7a41745a6a466d5a6a6c6d59544a6c595745784c6e426b5a673d3d&fich=c9fa4792-8172-4483-a670-f1ff9fa2eaa1.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-18",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Conselho Superior do Ministério Público",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d7a637a5a6d526d4f5755744e4745345a5330305a6a4a6a4c5468685a5455745a5751324e5746684e4759314f47566d4c6e426b5a673d3d&fich=373fdf9e-4a8e-4f2c-8ae5-ed65aa4f58ef.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

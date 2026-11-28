@@ -1,16 +1,7 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b324e3251304d6a55334c5459305a4755744e44526d4e4330354d6d49354c5759344e7a55775a5463334f445a6b4d7935775a47593d&fich=967d4257-64de-44f4-92b9-f8750e7786d3.pdf&Inline=true",
-   "anexoNome": "A.I.G"
-  },
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245324e445269596a417a4c5449354d6a67744e4751334e793169593245314c5468684d57566d5a4451314e6a566a4e6935775a47593d&fich=a644bb03-2928-4d77-bca5-8a1efd4565c6.pdf&Inline=true",
-   "anexoNome": "Texto da Iniciativa - Versão assinada"
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -70,12 +61,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255304f57526c5a6a566c4c5467354d4467744e475a6959793035597a4e6b4c5441344d4455774f57466b4e6a6b784e53356b62324e34&fich=e49def5e-8908-4fbc-9c3d-080509ad6915.docx&Inline=true",
-     "anexoNome": "Nota de admissibilidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-01-27",
@@ -1040,7 +1026,44 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-05-26",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de alteração 1 - GP CHEGA",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f47497a4d5752695a5445744e6a67784f4330304d474d334c5749354f4759744e3251324d5467344d54526b4f4451794c6e426b5a673d3d&fich=8b31dbe1-6818-40c7-b98f-7d618814d842.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-27",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de alteração 2 - GP PSD",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a6732597a51784e5445744e4756694d4330304f444d784c5746685a4467745a6a5134597a566d4e444d344d44566b4c6e426b5a673d3d&fich=f86c4151-4eb0-4831-aad8-f48c5f43805d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-28",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de alteração 3 -  GP PS",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a545a6d4d6a59774e4751745a4756684d6930304e4452694c54686b5a6a45745a4755304d6d51345a574d7a4f4467784c6e426b5a673d3d&fich=e6f2604d-dea2-444b-8df1-de42d8ec3881.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-29",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de alteração 4 - GP CH - Substituição parcial da PA1-CH",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a5a684f5751315a6a41745a6d4d7a4d5330305a54686b4c57497a4d5745744f474578596a49305a6d51775a47597a4c6e426b5a673d3d&fich=66a9d5f0-fc31-4e8d-b31a-8a1b24fd0df3.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-29",
+       "TipoDocumento": "Proposta de alteração",
+       "TituloDocumento": "Proposta de alteração 5 - GP PSD à PA3-PS",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f5455774d444d344d474d744d5755334d6930304d44466d4c574a684d6a6b745a5749304d6d5a68596a6c684e3245784c6e426b5a673d3d&fich=9500380c-1e72-401f-ba29-eb42fab9a7a1.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-29",
+       "TipoDocumento": "Texto final",
+       "TituloDocumento": "Texto Final e relatório da discussão e votação na especialidade CACDLG",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a575132596a41784e5451745a44526d4e6930304d7a526c4c5745784e6d55744f47566d4d4467314e7a6468595463314c6e426b5a673d3d&fich=ed6b0154-d4f6-434e-a16e-8ef08577aa75.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -1349,7 +1372,7 @@
  ],
  "IniId": "345972",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245305a44417a4d446b344c544d314d6a67744e44677a4e4331695a544d344c5751794d5746684e7a41775a5759334f43356b62324e34&fich=a4d03098-3528-4834-be38-d21aa700ef78.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "53",
  "IniObs": null,
  "IniSel": "1",

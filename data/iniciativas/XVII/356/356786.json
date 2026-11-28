@@ -359,7 +359,13 @@
     {
      "AccId": "119953",
      "AguardaAgendamentoPlenario": null,
-     "Audicoes": null,
+     "Audicoes": [
+      {
+       "data": "2026-12-02",
+       "id": "190640",
+       "tipo": "AUP"
+      }
+     ],
      "Audiencias": null,
      "Competente": "S",
      "DataAgendamentoDiscussao": null,

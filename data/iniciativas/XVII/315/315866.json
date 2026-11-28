@@ -53,12 +53,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a67774e32466b4e6a55774c544e68596a59744e444a6d4e533169596a6b7a4c575579595463774f575a6a4d5445344d53356b62324e34&fich=807ad650-3ab6-42f5-bb93-e2a709fc1181.docx&Inline=true",
-     "anexoNome": "Nota de admissibilidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-12-16",
@@ -10185,7 +10180,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a51314d574a6c596a4d7a4c5455774d7a49744e4441354e793034596a466b4c5464684d475669595455785a6a56694f5335775a47593d&fich=451beb33-5032-4097-8b1d-7a0eba51f5b9.pdf&Inline=true",
+     "anexoNome": "Requerimento do PAN"
+    }
+   ],
    "CodigoFase": "237",
    "Comissao": null,
    "DataFase": "2025-12-18",
@@ -10269,7 +10269,50 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-01-22",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Mecanismo Nacional de Monitorização da Implementação da Convenção sobre os Direitos das Pessoas com Deficiência",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a686c595759354f5451744d6a5934595330305a5459784c574532596a59744f54637a5a574d794d6a6469595751354c6e426b5a673d3d&fich=68eaf994-268a-4e61-a6b6-973ec227bad9.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-04",
+       "TipoDocumento": "Requerimento",
+       "TituloDocumento": "Requerimento do DURP do BE",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a4468684e7a64694e3249744e7a41324d4330304d5452684c5745775a6d51745a6d4a6a4d474931596d45794e3256684c6e426b5a673d3d&fich=d8a77b7b-7060-414a-a0fd-fbc0b5ba27ea.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-11",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo APMJ ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a497a4e4441794d574574596a55344e5330304e7a4d354c574a69596a59744e6d45344e54426a5a6a4a6c4e324a694c6e426b5a673d3d&fich=c234021a-b585-4739-bbb6-6a850cf2e7bb.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-13",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Ordem dos Médicos",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a474d344d6a5a6b593251744e474a6a4d7930304d544d354c546b30595445744d54593259545930595755345a4751324c6e426b5a673d3d&fich=dc826dcd-4bc3-4139-94a1-166a64ae8dd6.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-16",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Conselho Superior da Magistratura",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a6c6c4e574a68596d55744d6d55794d7930304d3255304c57457a4d324d744d474d355a5749794d6a4979597a686b4c6e426b5a673d3d&fich=79e5babe-2e23-43e4-a33c-0c9eb2222c8d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-23",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer a requerimento PS do Observatório da Deficiência e Direitos Humanos - PJL 327 PAN 329 BE e 313 PS XVII 1",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d324978595755354e32517459324d3159533030596a41344c5467345a4759744f54426b4d7a59334d574d784d32566d4c6e426b5a673d3d&fich=3b1ae97d-cc5a-4b08-88df-90d3671c13ef.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-31",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer CNECV - Conselho Nacional de Ética para as Ciências da Vida",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a5957387659574a6d4d6a52695a5455744e474e6c4e5330304d575a6c4c5467344e3259744d4441305a574d354d575a6d4d7a466a4c6e426b5a673d3d&fich=abf24be5-4ce5-41fe-887f-004ec91ff31c.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,

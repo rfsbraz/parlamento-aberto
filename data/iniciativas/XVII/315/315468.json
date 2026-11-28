@@ -97,7 +97,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b345a44457a4e5455304c5459314d4445744e44526d597931684d445a694c575a684f546b305a4467794f4451315969356b62324e34&fich=98d13554-6501-44fc-a06b-fa994d82845b.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-08-27",
@@ -143,10 +148,34 @@
      "DistribuicaoSubcomissao": null,
      "Documentos": [
       {
+       "DataDocumento": "2025-09-24",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório CACDLG",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a446b774e54426b595441744f4445774f4330304e444d784c5467354d4463744d6a49794e325178596a457a4f4756694c6e426b5a673d3d&fich=d9050da0-8108-4431-8907-2227d1b138eb.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-24",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica CACDLG",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a426c4d544d7a593251744e7a5930597930304e54517a4c5749345a544d744f575179593249354e444e685a5451774c6e426b5a673d3d&fich=70e133cd-764c-4543-b8e3-9d2cb943ae40.pdf&Inline=true"
+      },
+      {
        "DataDocumento": "2025-09-10",
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=391"
+      },
+      {
+       "DataDocumento": "2025-09-23",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Ordem dos Advogados",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d54637759324935595441744f444a6a5a693030593251344c546b7a4d574d74596a59334f444e6a4e6a67354d44526b4c6e426b5a673d3d&fich=170cb9a0-82cf-4cd8-931c-b6783c68904d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2025-09-30",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Conselho Superior da Magistratura",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f5759334e5451304f5455745a44526c4f5330304f4745304c5745305a574974596a64684e6a49354d5441785a54426d4c6e426b5a673d3d&fich=9f754495-d4e9-48a4-a4eb-b7a629101e0f.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

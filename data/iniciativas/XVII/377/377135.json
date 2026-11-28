@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4e6a597a55335a5752694c5745784d6d51744e445933595331684e444d784c546b344e6a4532597a59794e574e6d4e5335775a47593d&fich=3cc57edb-a12d-467a-a431-98616c625cf5.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3259314e6d56694d4745334c546b784f5445744e444e6b5a4331694e5745334c54466d4e3246684e545668597a46694e7935775a47593d&fich=f56eb0a7-9191-43dd-b5a7-1f7aa55ac1b7.pdf&Inline=true",
+   "anexoNome": "PPL 103-XVII (Versão assinada)"
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -361,14 +370,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-11-05",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Contributo - CPPME",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314e4445305a44686d5a693077596d49314c54517a596d59744f544e6b4d7930344f57566d4e5452684e325a694d6a4d756347526d&fich=5414d8ff-0bb5-43bf-93d3-89ef54a7fb23.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8460",
      "Legislatura": null,
@@ -409,7 +411,7 @@
  ],
  "IniId": "377135",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d77597a5a6c4d6a64684c544e6a5a5451744e446c694f4331684d6d55334c5451784d6d597759544d345a6a646c5979356b62324e34&fich=c0c6e27a-3ce4-49b8-a2e7-412f0a38f7ec.docx&Inline=true",
  "IniNr": "103",
  "IniObs": null,
  "IniSel": "1",

@@ -1,7 +1,12 @@
 {
  "DataFimleg": null,
  "DataInicioleg": "2026-09-15",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a51355a4449324e575a6c4c5751784d4445744e4755324e4331685a6a67354c5455784e5455304d444d7a595467344d4335775a47593d&fich=49d265fe-d101-4e64-af89-51554033a880.pdf&Inline=true",
+   "anexoNome": "A. I. G"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PCP",
@@ -81,7 +86,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32466a4d444e684d5756694c546b324e3259744e444a6d4d4331694d6a646d4c5441774d32566b59546b794f4467324e69356b62324e34&fich=ac03a1eb-967f-42f0-b27f-003eda928866.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-09-24",
@@ -137,6 +147,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Apreciação Pública",
        "URL": "https://www.parlamento.pt/sites/COM/XVIILeg/10CTSSI/Paginas/Iniciativas-Apreciacao-Publica.aspx?t=5545704d49473475494463344d693159566b6c4a4c54497577716f674c534248554342515131413d&Path=y9BQpDSzw0IC%2fYVVS5jQbZ4tGoIW6pFMRRVn75f5imeUDSk%2fx9WVl7nQFpc2T5b2xl2BCkvveGYBlKwMrseAtthyVKSuJKEFrhwO3jq%2bH7fwImEGZLdO4Z14JwqoMb2AXK37c0BkeiwXtQxWOl8HGy107uebd%2b0fy0bdV8atF%2brPB14IYh6IIVmqzPhMgwvul5az7DKjCbnwpuzn2U4V4tMCMSceb%2bvyHPEVv4HVdM%2by%2b6rH%2bIn671Xamvf%2bXOYyPYkkyk0se59%2f5YmabKbI4Shbx5y6akylt28Rxhs0gRl4CnN7Q1W%2bjAdofFEB78Pz25IVjCBKyYBg71cuqYcYjE7g7qOvXxRmZLkbn7tgyv2W3h3Dm7CkvcB21yCaBusED%2flAVb%2bxR5xPtttPoHxB0T79EFMZhTG3VWhbmnLtXiLehwAeZj7D1%2fJlAkDUcLoA"
+      },
+      {
+       "DataDocumento": "2026-11-04",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e545a695a57466d5a6a4d744e5464694e7930304d4749314c574a6c4e5749744e4751315a5745354d7a4d315a575a694c6e426b5a673d3d&fich=56beaff3-57b7-40b5-be5b-4d5ea9335efb.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -233,7 +249,7 @@
  ],
  "IniId": "377282",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b314d44466a4f444e684c546869595449744e47526d4f433169596a426d4c5445325a6a6b784d4441355a6a42694d43356b62324e34&fich=9501c83a-8ba2-4df8-bb0f-16f91009f0b0.docx&Inline=true",
  "IniNr": "782",
  "IniObs": null,
  "IniSel": "2",

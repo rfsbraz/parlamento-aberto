@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4533597a597a4d6a59794c5459775a4463744e4751324f5330354f4759774c5445344e474e684d57526a4f54426d596935775a47593d&fich=17c63262-60d7-4d69-98f0-184ca1dc90fb.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PSD",
@@ -373,7 +378,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3249314e44417a4e6a4e6a4c574979595759744e444a6d4d53303459546c694c574d32596a45344e324d775a5451344d43356b62324e34&fich=b540363c-b2af-42f1-8a9b-c6b187c0e480.docx&Inline=true",
+     "anexoNome": "Nota de Admissiblidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-02-03",
@@ -423,6 +433,60 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=650"
+      },
+      {
+       "DataDocumento": "2026-02-12",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Autoridade Nacional de Comunicações (ANACOM)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d574d324f5463304d7a63744f54466d4d533030596a49334c5745784f546b74597a59314d4749334e57526d597a63304c6e426b5a673d3d&fich=1c697437-91f1-4b27-a199-c650b75dfc74.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-12",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Comentários ANACOM ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a45784e44646a4d575574593245775a5330304f474d314c546b315a4755744d6a68695a6a686c4e6a45304e5451304c6d52765933673d&fich=b1147c1e-ca0e-48c5-95de-28bf8e614544.docx&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-11",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Conselho Superior da Magistratura",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765957526a4e7a49314e5451744e5463774f4330304f5441784c546b334f5441744d6d457a4e6a4a6d5a54686c4d7a4e6a4c6e426b5a673d3d&fich=adc72554-5708-4901-9790-2a362fe8e33c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-11",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Ordem dos Advogados",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d5456684f4467795a4455744e446b794f4330304e4445314c5749795a4749744e5749304e47466b4e44646c4d6a67314c6e426b5a673d3d&fich=15a882d5-4928-4415-b2db-5b44ad47e285.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-12",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Associação Portuguesa de Mulheres Juristas",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e5456695a4451774f5759744e575a684d4330304d444d324c5745344e7a49744f444532596a513459545535597a59784c6e426b5a673d3d&fich=55bd409f-5fa0-4036-a872-816b48a59c61.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-12",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a4745355a475135596d59745a6a6b324d7930304e54566b4c54686b5a6a41744e6a4a6d5a5463794d47466a4e44517a4c6e426b5a673d3d&fich=da9dd9bf-f963-455d-8df0-62fe720ac443.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-13",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Associação Portuguesa  para a Defesa do Consumidor (DECO)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a686c597a457a5a6a51745a57457a4e7930305a6a557a4c5467315a6d49744d6d5a6c5a47466c4e5442694d6d55794c6e426b5a673d3d&fich=f8ec13f4-ea37-4f53-85fb-2fedae50b2e2.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-25",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Comissão Nacional de Proteção de Dados",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6d55794e6d45785a6a6b744f474e685a6930305a54426d4c5745794f5751744d6d4e684e574e6a5a446b794f546c6d4c6e426b5a673d3d&fich=fe26a1f9-8caf-4e0f-a29d-2ca5ccd9299f.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-04",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Conselho Superior do Ministério Público",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a54426b4f5442694d475974596a49344f43303059546c684c546b354f4449744e6d566b593251324d324e6a596a42684c6e426b5a673d3d&fich=e0d90b0f-b288-4a9a-9982-6edcd63ccb0a.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -2982,7 +3046,7 @@
  ],
  "IniId": "356058",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55315a545a6b4d6d597a4c5445314d546b744e4445794d433034597a4d784c5745304d44553259546b314d446c6d5a43356b62324e34&fich=55e6d2f3-1519-4120-8c31-a4056a9509fd.docx&Inline=true",
  "IniNr": "398",
  "IniObs": null,
  "IniSel": "1",

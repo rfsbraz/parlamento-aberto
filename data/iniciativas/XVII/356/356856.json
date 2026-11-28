@@ -1,12 +1,7 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32466c4e5455334e32597a4c5455354d4459744e44566d596930355a54646a4c54426c4e445a6b4e7a5a6c4d5449354d53356b62324e34&fich=ae5577f3-5906-45fb-9e7c-0e46d76e1291.docx&Inline=true",
-   "anexoNome": "Texto da iniciativa - versão 1- de 02-06-2026"
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": [
   {
    "GP": "CH",
@@ -456,7 +451,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245794e7a6b314d3259794c545a6b597a41744e4445315a6931685a6a6b7a4c5751335a5467324d7a566b4e32526d595335775a47593d&fich=a27953f2-6dc0-415f-af93-d7e8635d7dfa.pdf&Inline=true",
+     "anexoNome": "Despacho PAR"
+    }
+   ],
    "CodigoFase": "181",
    "Comissao": [
     {
@@ -518,7 +518,7 @@
  ],
  "IniId": "356856",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b7a5a6a59354d7a63324c5446684e5463744e44457a595330345a6d4d774c5755324e47513159575a6a4d6a6b7a5a43356b62324e34&fich=93f69376-1a57-413a-8fc0-e64d5afc293d.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "1029",
  "IniObs": null,
  "IniSel": "1",

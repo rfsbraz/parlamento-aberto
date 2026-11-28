@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a51794d6a56684d6a5a684c54517a4e6a6b744e44526c4e6930344d7a566c4c5441794d6d5a684d6a4d314f4468695a4335775a47593d&fich=4225a26a-4369-44e6-835e-022fa23588bd.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324a6a596a4e6b5a446b344c5441794e6d49744e475a6a4e4330354d7a6b334c54466b597a646b4d54526b5a544d304d69356b62324e34&fich=bcb3dd98-026b-4fc4-9397-1dc7d14de342.docx&Inline=true",
+   "anexoNome": "Texto – versão 1, de 2026-01-22"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "CH",
@@ -366,7 +375,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324979597a63784d3249354c545532595445744e474a695969316959324d344c5459314f4455324e6d45304e474a695a53356b62324e34&fich=b2c713b9-56a1-4bbb-bcc8-658566a44bbe.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-01-27",
@@ -416,6 +430,120 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=642"
+      },
+      {
+       "DataDocumento": "2026-02-19",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Informação de não emissão de parecer - Conselho Superior de Magistratura",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a4455344d57526a4e544974597a56684e7930304f575a6c4c546c695a6a6b744d5467314d545269596a4d794d6a55324c6e426b5a673d3d&fich=d581dc52-c5a7-49fe-9bf9-18514bb32256.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-02-26",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo Sociedade Portuguesa de Sexologia Clínica ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f54466a4d6a466d596d45744f475a68596930305954466c4c5467345a4445744d6a68694e446c6a4d446c69597a4d334c6e426b5a673d3d&fich=91c21fba-8fab-4a1e-88d1-28b49c09bc37.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-16",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo  - Grupo de Investigação em Sexualidade e Género do Centro de Psicologia da Universidade do Porto",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a474e6b5a474931596a4d745a544e6d596930305a6d4d324c574535596a677459324d78597a55314d6d59314f5745334c6e426b5a673d3d&fich=dcddb5b3-e3fb-4fc6-a9b8-cc1c552f59a7.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-13",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Grupo de profissionais de saúde e da academia (sobre iniciativa conexa, Projeto de Lei n.º 486XVII1.ª )",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a4e6b4e4449304d6a49744d5451784f5330304f4751794c5745334f4455745a4749324e475535597a4a684d4445354c6e426b5a673d3d&fich=73d42422-1419-48d2-a785-db64e9c2a019.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-16",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Conjunto de profissionais de saúde e da academia - Projeto de Lei 391 XVII 1 (CH) e iniciativa conexas",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f444e694e6d51794d5745744d444d774f4330304d47597a4c5749335a446b744e5451794e4751794e6d51774e6a55324c6e426b5a673d3d&fich=83b6d21a-0308-40f3-b7d9-5424d26d0656.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-16",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo Técnico-Científico da Sociedade Portuguesa de Sexologia Clínica, sobre iniciativas conexas - Projeto de Lei 479 XVII 1 (CDS-PP) e 486 XVII 1 (PSD)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a5a6b4f5441344e3251744f4752684e5330304d47466b4c5467315a5451744e5452694d4756684d6d59344f574e6c4c6e426b5a673d3d&fich=26d9087d-8da5-40ad-85e4-54b0ea2f89ce.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-17",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo OPP sobre o PJL 391/XVII/1 (CH)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d474d354e5749344d7a45745a546730597930304e5463334c546b305a446b745a574d795a6a4d34596a4934596a6b334c6e426b5a673d3d&fich=0c95b831-e84c-4577-94d9-ec2f38b28b97.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-17",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo OPP sobre iniciativa conexa PJL 486/XVII/1 (PSD)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d4468684d6d4d784e6a63744f4451794e5330305a446c694c5467314f4751744d6d4d784e544d774d4751354d575a6c4c6e426b5a673d3d&fich=08a2c167-8425-4d9b-858d-2c15300d91fe.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-17",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Associação para o Planeamento da Família ",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6d51305a5467784d4751744d44686d4e5330304d7a51324c546b345a5463744d4746694e325a6b5a6a557a5a5441304c6e426b5a673d3d&fich=fd4e810d-08f5-4346-98e7-0ab7fdf53e04.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-17",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo conjunto de profissionais de saúde e da academia, especialistas nas questões de identidade de género \t",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d574a6c4d544130596a41744e4449794f533030597a6b304c5745784e7a51744e5455354f54426a595451354e6a4d314c6e426b5a673d3d&fich=1be104b0-4229-4c94-a174-55990ca49635.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-17",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo conjunto Multidisciplinar-Grupo de profissionais de saúde e da academia, sobre iniciativa conexa-Projeto de lei 479XVII1ª",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a5957387659325934597a4935596a4d745a5745784d6930304d474a6d4c546c68596a67744e4751314f5442694e47526a4d7a55334c6e426b5a673d3d&fich=cf8c29b3-ea12-40bf-9ab8-4d590b4dc357.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-18",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876595445784e7a497a4e5749745a474a684d4330305a5751794c5467794e4441744d6a67794e6a67785a446c694e6a566a4c6e426b5a673d3d&fich=a117235b-dba0-4ed2-8240-282681d9b65c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-18",
+       "TipoDocumento": "Parecer",
+       "TituloDocumento": "Relatório CACDLG",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a4e6c4d7a686c4e445174595467794d6930304f4756684c5467794d6d4d744f474668597a45785a544a6a596a49344c6e426b5a673d3d&fich=73e38e44-a822-48ea-822c-8aac11e2cb28.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-03-18",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo de rede ex aequo - associação de jovens LGBTI e apoiantes AMPLOS - Associação de Mães e Pais pela Liberdade de Orientação Sexual e Identidade de Género Casa Qui ILGA Portugal Opus Diversidades",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f4745354d47553159324d745a54566c4e4330304d6d4a684c5745794d6a45745a44466b4e4459795a6a55784d7a63354c6e426b5a673d3d&fich=8a90e5cc-e5e4-42ba-a221-d1d462f51379.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-10",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo de Ricardo Gusmão, médico psiquiatra e Professor FM Universidade Porto",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a4d314e6d5931596d4d744e6d466b4d693030596a59304c5749324d7a45744d4449334f4467334e7a68684f47457a4c6e426b5a673d3d&fich=c356f5bc-6ad2-4b64-b631-02788778a8a3.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-28",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Conselho Superior do Ministério Público",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876593259774f446b334d3251744d7a46695a693030595755314c5749354e7a5174596a49325a475978597a686a5a57457a4c6e426b5a673d3d&fich=cf08973d-31bf-4ae5-b974-b26df1c8cea3.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-10",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Comentário de um conjunto de médicos sobre o parecer da OM",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876593256694f4459794d4751744e546b344e6930305a54566a4c546b77597a49744e5759325a5445344e7a45345a4451344c6e426b5a673d3d&fich=ceb8620d-5986-4e5c-90c2-5f6e18718d48.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-14",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo SALL - Associação de Defesa da Liberdade",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a453459574d785a6a4574593245334e7930304e6a566a4c5467784f4759744f446c6d4d54677a4e6a6b32597a466a4c6e426b5a673d3d&fich=618ac1f1-ca77-465c-818f-89f183696c1c.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-08-25",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Alto Comissariado das Nações Unidas para os Direitos Humanos",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a4a694d4445354e324d744f5442684d7930304d574a684c54686c4e546b744f575132597a686d596d4d314d6d4d794c6e426b5a673d3d&fich=f2b0197c-90a3-41ba-8e59-9d6c8fbc52c2.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -2397,7 +2525,152 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-03-23",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Sociedade Portuguesa de Psicossomática",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876595463314d324e6a4e4441744d444d79595330304d7a59354c574a6c5a6d45744f5467344e6d566b4d6a497a4e444e6b4c6e426b5a673d3d&fich=a753cc40-032a-4369-befa-9886ed22343d.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-25",
+       "TipoDocumento": "Requerimento",
+       "TituloDocumento": "Requerimento do GP da IL",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e5445344d6a6c6c5a4463744d6a6c6b595330304e32566c4c546735596a63745954526a5a5451785a6a4a6d596a646d4c6e426b5a673d3d&fich=51829ed7-29da-47ee-89b7-a4ce41f2fb7f.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-08",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Associação dos Juristas Católicos",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f54677a4f4751314e446b744d445a6a5a4330304e444a684c546c694e4459744f44426d4d7a59324d7a51794f545a684c6e426b5a673d3d&fich=9838d549-06cd-442a-9b46-80f36634296a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-04-10",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Comunicado - Associação de Médicos Católicos Portugueses",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d5455344d54453059546b744d6d52685a6930304d6a6b774c546b775a6d4d745a6d59304f5463344d6a51335a6d4e6b4c6e426b5a673d3d&fich=158114a9-2daf-4290-90fc-ff4978247fcd.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-05-13",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Teresa de Melo Ribeiro",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f4745324f4445354f4745745a546b79596930305a4445794c574a6c597a49744e3251314f475a6d4e574e6a4e6d59354c6e426b5a673d3d&fich=8a68198a-e92b-4d12-bec2-7d58ff5cc6f9.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-17",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer técnico cientifico -  Ordem dos Médicos",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765954677a4d5759344d3255744e544134595330304d5442694c574a684d5445744d32466d59544a694e544e6d5a6a6b344c6e426b5a673d3d&fich=a831f83e-508a-410b-ba11-3afa2b53ff98.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-17",
+       "TipoDocumento": "Requerimento",
+       "TituloDocumento": "Requerimento GP do CHEGA",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e3255794e54553559546b744d3259794e7930304d444d334c5749344f4751744d6a59355a6a6c684d5441344e6d466d4c6e426b5a673d3d&fich=7e2559a9-3f27-4037-b88d-269f9a1086af.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-17",
+       "TipoDocumento": "Requerimento",
+       "TituloDocumento": "Requerimento GP do PSD",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6d4d7a596a52684d7a67744e6d51784d693030597a6b324c546c6c4e544d745a444a6d5a444135596d59354d47557a4c6e426b5a673d3d&fich=6c3b4a38-6d12-4c96-9e53-d2fd09bf90e3.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-17",
+       "TipoDocumento": "Requerimento",
+       "TituloDocumento": "Requerimento GP do CDS-PP",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6a6b7a4e545930597a49744e5463774d7930304d4441794c57466c5a6a63744e474e6d5a574e695a5746694f57457a4c6e426b5a673d3d&fich=f93564c2-5703-4002-aef7-4cfecbeab9a3.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-23",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo escrito de Francisca Silva - Coordenadora do Observatório da Ideologia de Género",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a6d59324d4759774e6d55744d32597a595330304d4759794c5746694d5749744f54417a4e4445785954646c5a574e694c6e426b5a673d3d&fich=ff60f06e-3f3a-40f2-ab1b-903411a7eecb.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-06-27",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Associação Família Conservadora",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e54453259545a684e7a45745a6a49355a533030596a4d774c574a6b4e6a4d744f54686d4d4456684f4752694d7a4a6d4c6e426b5a673d3d&fich=516a6a71-f29e-4b30-bd63-98f05a8db32f.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-06",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Parecer - Centro de Conhecimento NOVA Centre for the Study of Gender- Family- and the Law",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a446b3359324e6c4e6d5174593251785a4330305a4449324c574978593245744e7a6468596d4d774e6a4e6c5a4467344c6e426b5a673d3d&fich=d97cce6d-cd1d-4d26-b1ca-77abc063ed88.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-21",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo de Do No Harm",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a566d4d7a5a6d5a5751744e6d5532596930304e474e6d4c5745774d4449744e5751334d54466b4d446b314e44597a4c6e426b5a673d3d&fich=25f36fed-6e6b-44cf-a002-5d711d095463.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-21",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo de Genspect Portugal",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a544d774e6d55795a4759745a6a4d324f4330304e6a55794c54686c4d444d744d325a6a4e444e694d7a49784e6a6b334c6e426b5a673d3d&fich=e306e2df-f368-4652-8e03-3fc43b321697.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-21",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo de Genspect Portugal",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6d4933593251784d4759744f54526b5a4330305a6d4a6b4c54677a4d6d49744d47566d4f575a694e5467345a6d597a4c6e426b5a673d3d&fich=6b7cd10f-94dd-4fbd-832b-0ef9fb588ff3.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-21",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo de LGB Alliance Portugal",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a4751344e446779595755745a6a4a68595330304d6d51344c5749344e47457459544931597a646a596a55324d3246694c6e426b5a673d3d&fich=dd8482ae-f2aa-42d8-b84a-a25c7cb563ab.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-21",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo de LGB Alliance Portugal",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a49354d546b34593259744d6d59354e5330304e5459774c5749344f5759744e7a49314d4755344e6d526c4e6a646d4c6e426b5a673d3d&fich=b29198cf-2f95-4560-b89f-7250e86de67f.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-21",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo de LGB International",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a474931597a42694e5467744e7a63334e5330305a444d354c54686a597a4d745932466c596a566b4e5467794d6a67334c6e426b5a673d3d&fich=db5c0b58-7775-4d39-8cc3-caeb5d582287.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-21",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo de Maria Helena Costa",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a67324d54646d4f546b745a4442684f4330304e324e6d4c5467334d5455744f546331595759795a6a41344f546c694c6e426b5a673d3d&fich=78617f99-d0a8-47cf-8715-975af2f0899b.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-08",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo Society for Evidence Based Gender Medicine (SEGM)",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876595755335a4759334e7a55744e54553059693030596a4d324c546c6d5a6a45745932526d4f444a694f5749354e544a684c6e426b5a673d3d&fich=ae7df775-554b-4b36-9ff1-cdf82b9b952a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-23",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo escrito - Grupo de Investigação em Sexualidade e Género do Centro de Psicologia da Universidade do Porto",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e544d34597a646d4e5467744f474a6d4e6930304e4455774c5749344d5751744e575a6d5a6a6b344e6a63354d4468684c6e426b5a673d3d&fich=538c7f58-8bf6-4450-b81d-5fff9867908a.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-09-23",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo escrito  do movimento cívico Juventude em Transição",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d44566b5a474a6a4d4759745a575a695a5330305a44497a4c5745334e7a49745932517a4e5755794e57517a595751324c6e426b5a673d3d&fich=05ddbc0f-efbe-4d23-a772-cd35e25d3ad6.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-04",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo da TGEU- IGLYO- ILGA-Europe e OII Europe",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596a45335a4463344d7a41744e32566a4e6930304f4451784c546b79596a45744f54566c597a6c6d4e6a466b4e4756694c6e426b5a673d3d&fich=b17d7830-7ec6-4841-92b1-95ec9f61d4eb.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-11-12",
+       "TipoDocumento": "Parecer AP",
+       "TituloDocumento": "Contributo - Carta da Human Rights Watch",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e7a6b334d6d4a6c596d51744e6d59324f5330304e5749304c546b34596a51744f574933596a51324d4449794f44557a4c6e426b5a673d3d&fich=7972bebd-6f69-45b4-98b4-9b7b46022853.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -2438,7 +2711,7 @@
  ],
  "IniId": "346025",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a686c4d7a63794d6d51354c5455334e3249744e4759794d6930345a546b314c5449334d7a41314d6d466a4e5745315a69356b62324e34&fich=8e3722d9-577b-4f22-8e95-273052ac5a5f.docx&Inline=true",
  "IniNr": "391",
  "IniObs": null,
  "IniSel": "1",

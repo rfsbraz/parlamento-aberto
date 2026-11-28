@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63794f47466c4e7a4e6d4c5441334d3245744e446b304d5330354f47566b4c5452694f444d304e475a6b4e5442684e7935775a47593d&fich=728ae73f-073a-4941-98ed-4b8344fd50a7.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c325a684d4445345a446c6b4c5455794e5749744e4451344e5331694f5451344c57466d4f47466b4f445577597a41334f4335775a47593d&fich=fa018d9d-525b-4485-b948-af8ad850c078.pdf&Inline=true",
+   "anexoNome": "Texto - versão assinada"
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -132,12 +141,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=1053"
-      },
-      {
-       "DataDocumento": "2026-10-16",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota Técnica",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533833513046515a584d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938795a4455785a546c6c5a5331694f4467774c5452694f5749744f544d30597930325a6a59324e6a51785a5745774e4455756347526d&fich=2d51e9ee-b880-4b9b-934c-6f66641ea045.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -332,7 +335,7 @@
  ],
  "IniId": "357085",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4e6a4d7a41325a4751334c545a6a4f4467744e474a695a5330354d3249334c54466d5a4451315a5445794f475a6b4d69356b62324d3d&fich=3c306dd7-6c88-4bbe-93b7-1fd45e128fd2.doc&Inline=true",
  "IniNr": "93",
  "IniObs": null,
  "IniSel": "1",

@@ -3016,16 +3016,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d794e6a68684e7a49334c5455324d4467744e474977596930354d5449324c545133597a566d4d5459774f54566a5a69356b62324e34&fich=c268a727-5608-4b0b-9126-47c5f16095cf.docx&Inline=true",
-     "anexoNome": "Informação de Redação Final"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49784f5445314f5459784c5463324e6a67744e47526c4d533035596a41344c575531596a41794d575a6a4f5463344d53356b62324e34&fich=21915961-7668-4de1-9b08-e5b021fc9781.docx&Inline=true",
-     "anexoNome": "Projeto de Decreto"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -3046,7 +3037,20 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-24",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Informação",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a4e3251344e575a6b4d5330344d6d566d4c5451354e6a4174596a55314f4330785a4459784d7a41324e6d4d774e3255756347526d&fich=37d85fd1-82ef-4960-b558-1d613066c07e.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-07-24",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação Final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e454e4a545567765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c5a5759314d5755324d4330334e7a4a6b4c5451344d4755744f4449324f4330324e44646c4e5749794d3251784e5745756347526d&fich=eef51e60-772d-480e-8268-647e5b23d15a.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8460",
      "Legislatura": null,

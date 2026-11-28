@@ -101,7 +101,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251354e7a64695a445a6a4c5463794e6a55744e444579597930355a6a68694c574d334d546b355932566c596d45774e69356b62324e34&fich=d977bd6c-7265-412c-9f8b-c7199ceeba06.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-09-23",
@@ -165,7 +170,16 @@
      "Prorrogado": null,
      "Publicacao": null,
      "PublicacaoRelatorio": null,
-     "Relatores": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "9641",
+       "motivoCessacao": null,
+       "nome": "Armando Mourisco"
+      }
+     ],
      "RemessaRedaccaoFinal": null,
      "Remessas": null,
      "Sessao": null,
@@ -179,7 +193,7 @@
    "IniciativasConjuntas": null,
    "Intervencoesdebates": null,
    "Links": null,
-   "ObsFase": null,
+   "ObsFase": "Conexão à 9.ª",
    "OevId": "1753138",
    "OevTextId": null,
    "PcpublicasConjuntas": null,

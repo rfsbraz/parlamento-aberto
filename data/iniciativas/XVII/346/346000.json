@@ -1,7 +1,16 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4d304d44557a4e5463334c5441784f4749744e445669596931685a5467324c574d344e574e6b5a6a45344e4451354d6935775a47593d&fich=34053577-018b-45bb-ae86-c85cdf184492.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  },
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a5a6d4e6a51304e6a6b774c546331595755744e44686a596931694e3255334c5441334e7a4a695a6a68694d7a4e6b4e53356b62324e34&fich=6f644690-75ae-48cb-b7e7-0772bf8b33d5.docx&Inline=true",
+   "anexoNome": "Texto da iniciativa – versão 1, de 2026-01-16"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PAN",
@@ -71,7 +80,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3246694e6a497a4f5455334c5459344d6a4d744e445935595330354d6d51774c574a6c5a544a6a4e575533593255334f53356b62324e34&fich=ab623957-6823-469a-92d0-bee2c5e7ce79.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-01-23",
@@ -2509,7 +2523,7 @@
  ],
  "IniId": "346000",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a566d595751795a54526a4c575668596d49744e4449775a5330354f4751324c575a6c597a4d785a444e685a6a55775a43356b62324e34&fich=5fad2e4c-eabb-420e-98d6-fec31d3af50d.docx&Inline=true",
  "IniNr": "380",
  "IniObs": null,
  "IniSel": "1",

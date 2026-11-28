@@ -116,7 +116,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b315a47497a5a4468684c5755334d7a6b744e446c68596931684d7a566d4c5749794e7a686a4e546c69593245794e79356b62324e34&fich=95db3d8a-e739-49ab-a35f-b278c59bca27.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-09-29",
@@ -166,6 +171,18 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta pública - contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=1035"
+      },
+      {
+       "DataDocumento": "2026-10-09",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938314e4759794e5756684d5331684d574d344c54526a4e44557459544d794f533078596a56684f5449324f574d774e6a63756347526d&fich=54f25ea1-a1c8-4c45-a329-1b5a9269c067.pdf&Inline=true"
+      },
+      {
+       "DataDocumento": "2026-10-14",
+       "TipoDocumento": "Relatório",
+       "TituloDocumento": "Relatório da Comissão de Saúde",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938794e545578597a6b78597930795a546b7a4c54526c596a45744f5467345a53316c59324d304d7a566d5a6a59794d5755756347526d&fich=2551c91c-2e93-4eb1-988e-ecc435ff621e.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

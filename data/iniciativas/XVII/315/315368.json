@@ -1,12 +1,7 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32466c4e4752685a4459314c546b774d6d51744e4749774d6931695a4441794c54466b4e7a41774d6a67354d325269596935775a47593d&fich=ae4dad65-902d-4b02-bd02-1d7002893dbb.pdf&Inline=true",
-   "anexoNome": "A.I.G."
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -142,24 +137,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta pública - recolha de contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=324"
-      },
-      {
-       "DataDocumento": "2025-10-17",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota Técnica",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a5957387659574d79596d4d314f446b744d44637a4e7930304f445a694c5749344d7a6b744e3249774e4455304e6a67784d3259334c6e426b5a673d3d&fich=ac2bc589-0737-486b-b839-7b04546813f7.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-10-02",
-       "TipoDocumento": "Parecer AP",
-       "TituloDocumento": "Parecer da Procuradoria-Geral da República",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876596d4d324d475179597a63744f4463314e7930305a54526c4c5467344d4459745a444d77593249774f5467315a6d51324c6e426b5a673d3d&fich=bc60d2c7-8757-4e4e-8806-d30cb0985fd6.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-10-15",
-       "TipoDocumento": "Outro",
-       "TituloDocumento": "Relatório PPL 14/XVII/1.ª (GOV)",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d4746684d4467354e6a49744e7a49784e4330305a544d304c5745314d444174597a557a4d6d49324d3249355954566a4c6e426b5a673d3d&fich=0aa08962-7214-4e34-a500-c532b63b9a5c.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -2762,7 +2739,16 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a59784d544a6c5954457a4c544e6b5a4463744e444a684e5330354e6a4d344c5442694d6d5134593245354e5449344e69356b62324e34&fich=6112ea13-3dd7-42a5-9638-0b2d8ca95286.docx&Inline=true",
+     "anexoNome": "Projeto de Decreto"
+    },
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4a6c4f574a69596a6b324c546b794e3255744e4445335a6931684f5445344c546b304f445a6d4e474e694d6a46684f43356b62324e34&fich=2e9bbb96-927e-417f-a918-9486f4cb21a8.docx&Inline=true",
+     "anexoNome": "Informação de Redação Final"
+    }
+   ],
    "CodigoFase": "348",
    "Comissao": [
     {
@@ -2969,7 +2955,7 @@
  ],
  "IniId": "315368",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3251334e5755335a6d4a694c575977597a49744e4749794e7930355a4449794c574e6c4d5456695954426b4e57466c4d43356b62324e34&fich=d75e7fbb-f0c2-4b27-9d22-ce15ba0d5ae0.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "14",
  "IniObs": null,
  "IniSel": "1",

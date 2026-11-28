@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a56694d4455344f544d774c5459345a6a45744e445a684e6931684d7a4d324c574d795954526b5932597959544e6c596935775a47593d&fich=5b058930-68f1-46a6-a336-c2a4dcf2a3eb.pdf&Inline=true",
+   "anexoNome": "A. I. G."
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "PCP",
@@ -136,6 +141,12 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta pública - Recolha de contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=445"
+      },
+      {
+       "DataDocumento": "2026-05-26",
+       "TipoDocumento": "Nota técnica",
+       "TituloDocumento": "Nota Técnica",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765932557859544d324e6a51745a5759785a4330304f57497a4c57457a5a4745745a444e6c596d51314f4467794e6d59794c6e426b5a673d3d&fich=ce1a3664-ef1d-49b3-a3da-d3ebd58826f2.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -229,7 +240,7 @@
  ],
  "IniId": "315545",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a46685a4451774d474a6c4c5463314e7a55744e446333595330355a44597a4c544268596a6b78595451784e6a41775a53356b62324d3d&fich=1ad400be-7575-477a-9d63-0ab91a41600e.doc&Inline=true",
  "IniNr": "185",
  "IniObs": null,
  "IniSel": "1",

@@ -1,7 +1,12 @@
 {
  "DataFimleg": null,
  "DataInicioleg": "2026-09-15",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a49794d5749314e5449794c545a6c4d6d59744e44646d4d433034595749334c574a6b596a5a6a5a6a566c59575a6a4e6935775a47593d&fich=221b5522-6e2f-47f0-8ab7-bdb6cf5eafc6.pdf&Inline=true",
+   "anexoNome": "A. I. G"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "L",
@@ -96,7 +101,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6b314d7a5a684e7a64694c545931597a6b744e446333596931694d54517a4c5449784e3255314d6d466d4e6a51344d79356b62324e34&fich=9536a77b-65c9-477b-b143-217e52af6483.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-09-23",
@@ -160,7 +170,16 @@
      "Prorrogado": null,
      "Publicacao": null,
      "PublicacaoRelatorio": null,
-     "Relatores": null,
+     "Relatores": [
+      {
+       "dataCessacao": null,
+       "dataNomeacao": null,
+       "gp": "PS",
+       "id": "9641",
+       "motivoCessacao": null,
+       "nome": "Armando Mourisco"
+      }
+     ],
      "RemessaRedaccaoFinal": null,
      "Remessas": null,
      "Sessao": null,
@@ -188,7 +207,7 @@
  ],
  "IniId": "377209",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a67785a6d5533596a49344c5755305a6a4d744e4455774e5331694f44566c4c57566d5932497a596d5a6a5a4441355a5335775a47593d&fich=81fe7b28-e4f3-4505-b85e-efcb3bfcd09e.pdf&Inline=true",
  "IniNr": "754",
  "IniObs": null,
  "IniSel": "2",

@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324a684e574d33597a42694c5455325a574d744e4451325a4331684e4455324c575131593245314e6a51314f475a6a5a4335775a47593d&fich=ba5c7c0b-56ec-446d-a456-d5ca56458fcd.pdf&Inline=true",
+   "anexoNome": "A.I.G"
+  }
+ ],
  "IniAutorDeputados": [
   {
    "GP": "BE",
@@ -71,7 +76,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324d344f575133596a466b4c5751344e4463744e4441784e693169597a67304c5455324f546b7a596d45784f5755324e69356b62324e34&fich=c89d7b1d-d847-4016-bc84-56993ba19e66.docx&Inline=true",
+     "anexoNome": "Nota de Admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-01-23",
@@ -1106,32 +1116,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-02-06",
-       "TipoDocumento": "Proposta de alteração",
-       "TituloDocumento": "PA 1 - Proposta de substituição integral do GP do PSD",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f4759325a6d49335a6a59744f57566a597930304d446b304c5468685a4751744e44566a4f4455344d6a5a6a5a6d4d784c6e426b5a673d3d&fich=8f6fb7f6-9ecc-4094-8add-45c85826cfc1.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-02-09",
-       "TipoDocumento": "Proposta de alteração",
-       "TituloDocumento": "PA 2 - Proposta de alteração GP do L",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a59573876597a4d324d7a497a5a4755744d5749314f4330305a5455334c5745794e7a45744d6a55314e32566b596d45795954677a4c6e426b5a673d3d&fich=c36323de-1b58-4e57-a271-2557edba2a83.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-02-10",
-       "TipoDocumento": "Quadro comparativo",
-       "TituloDocumento": "Quadro comparativo",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f445933596a673059544974596a4e685a693030593246694c546b784e5751744f54517a5a6a46695a5463784f5749314c6e426b5a673d3d&fich=867b84a2-b3af-4cab-915d-943f1be719b5.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-02-11",
-       "TipoDocumento": "Texto final",
-       "TituloDocumento": "Texto Final e relatório da discussão e votação na especialidade CACDLG",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a546c6d4e6d517a4f5745744e6d59785a5330304e6a56694c574a694d6a4d744d6a64695a6a67314f574d304d6a68694c6e426b5a673d3d&fich=e9f6d39a-6f1e-465b-bb23-27bf859c428b.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -1195,7 +1180,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4e6d4f47557a4d4467344c5755344e6a41744e446b324d4331684e6a5a684c5749794e47466c4e324d344d6a6334595335775a47593d&fich=3f8e3088-e860-4960-a66a-b24ae7c8278a.pdf&Inline=true",
+     "anexoNome": "Parecer"
+    }
+   ],
    "CodigoFase": "173",
    "Comissao": null,
    "DataFase": "2026-02-09",
@@ -1328,14 +1318,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-02-25",
-       "TipoDocumento": "Redação final",
-       "TituloDocumento": "Redação final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d44686d4e6d59345a5449744e445533595330304f4451774c5467324f4459745a4446694d7a417a4d32566a4e6a45344c6e426b5a673d3d&fich=08f6f8e2-457a-4840-8686-d1b3033ec618.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,
@@ -1535,7 +1518,7 @@
  ],
  "IniId": "345994",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245324e3259334e54646d4c5752684d7a49744e44637a4e7930355a6d466d4c5468694e7a6b794f4455794e4442695a53356b62324d3d&fich=a67f757f-da32-4737-9faf-8b79285240be.doc&Inline=true",
  "IniNr": "375",
  "IniObs": null,
  "IniSel": "1",

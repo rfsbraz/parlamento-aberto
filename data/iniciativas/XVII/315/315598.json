@@ -1,12 +1,7 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4e6a5a4446694e54646a4c575933597a4d744e4467304d6931684e6a6c6a4c57566a596d5a6b5a6a5668593249774e4335775a47593d&fich=3cd1b57c-f7c3-4842-a69c-ecbfdf5acb04.pdf&Inline=true",
-   "anexoNome": "A.I.G."
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": [
   {
    "GP": "PS",
@@ -9588,7 +9583,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-07-01",
+       "TipoDocumento": "Informação",
+       "TituloDocumento": "Nova apreciação generalidade PJL 214-XVII-1.ª (PS) e 256-XVII-1.ª (PCP) remessa  votação plenário",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e544e6a4e444d784f546b744e6d566959533030596a52694c57466c597a55744e6d5179596a5a68596d49304e6a41774c6e426b5a673d3d&fich=53c43199-6eba-4b4b-aec5-6d2b6abb4600.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8454",
      "Legislatura": null,
@@ -9694,7 +9696,7 @@
  ],
  "IniId": "315598",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63314f444e6d4d474a6a4c5459315a6a41744e4749344e7931685a6a4a6d4c54426d4d6a41354f475a6c5932566b4f43356b62324e34&fich=7583f0bc-65f0-4b87-af2f-0f2098feced8.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "214",
  "IniObs": null,
  "IniSel": "1",

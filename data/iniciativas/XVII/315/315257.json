@@ -1625,12 +1625,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Recolha de contributos - Consulta pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=335"
-      },
-      {
-       "DataDocumento": "2025-09-30",
-       "TipoDocumento": "Requerimento",
-       "TituloDocumento": "Despacho PAR do pedido de redistribuição",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784e554e55525551765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e68627938774d4463784d4746695a4330354e6a59314c5452695a4751744f5459774d7930794e4441354e6a55795a6d4a6b4d7a59756347526d&fich=00710abd-9665-4bdd-9603-2409652fbd36.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -1673,12 +1667,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45334d445579597a4a684c54417a4e446b744e4751325a4331694e7a526d4c5756684d7a646d595446684e44517a4e5335775a47593d&fich=17052c2a-0349-4d6d-b74f-ea37fa1a4435.pdf&Inline=true",
-     "anexoNome": "Parecer "
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "173",
    "Comissao": null,
    "DataFase": "2025-07-17",
@@ -1724,7 +1713,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a686b595752684f544d324c544d355a444d744e475535595331684d6a49774c5751795a5745794d54566c59325132595335775a47593d&fich=8dada936-39d3-4e9a-a220-d2ea215ecd6a.pdf&Inline=true",
+     "anexoNome": "Parecer (versão substituída)"
+    }
+   ],
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2025-07-28",
@@ -2512,7 +2506,14 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": null,
+     "Documentos": [
+      {
+       "DataDocumento": "2026-01-07",
+       "TipoDocumento": "Redação final",
+       "TituloDocumento": "Redação final",
+       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453387851304644524578484c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d6a566c4e7a67304f444574596a4a68595330305957526d4c574a694d5467744d6a59344e47557a4e475669593251774c6e426b5a673d3d&fich=25e78481-b2aa-4adf-bb18-2684e34ebcd0.pdf&Inline=true"
+      }
+     ],
      "GpAgendamentoPlenario": null,
      "IdComissao": "8447",
      "Legislatura": null,

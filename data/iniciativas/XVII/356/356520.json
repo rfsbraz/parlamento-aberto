@@ -1,16 +1,7 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": [
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63774d444d344e6a41354c544d784e6a4d744e4467304e7931694d4455774c546c6c4d5749304e6a59344e3245324d4335775a47593d&fich=70038609-3163-4847-b050-9e1b46687a60.pdf&Inline=true",
-   "anexoNome": "A. I. G."
-  },
-  {
-   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a42695a5468694f574d784c54646a5a574d744e446c6d4d693034595441314c54526d595463314e7a67345a575977596935775a47593d&fich=0be8b9c1-7cec-49f2-8a05-4fa75788ef0b.pdf&Inline=true",
-   "anexoNome": "Ofício - Processo de urgência"
-  }
- ],
+ "IniAnexos": null,
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -47,12 +38,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a63304f4441304e4755794c5749794e6a63744e475a6c4f4331684e7a59304c54466d593249304d6a56694d324d334f43356b62324e34&fich=748044e2-b267-4fe8-a764-1fcb425b3c78.docx&Inline=true",
-     "anexoNome": "Nota de admissibilidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-04-08",
@@ -75,28 +61,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a466859544e6c4e5749794c544135596d45744e4755794e7930345a54417a4c5467774e7a55344d5745794f5745344d7935775a47593d&fich=1aa3e5b2-09ba-4e27-8e03-807581a29a83.pdf&Inline=true",
-     "anexoNome": "Despacho de não admissão das Propostas de Alteração da IL"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3245775a474e694d6a59774c5463314d6a51744e444d334e5331694d6a6b344c57526c4e5745334f5751794e3252694d4335775a47593d&fich=a0dcb260-7524-4375-b298-de5a79d27db0.pdf&Inline=true",
-     "anexoNome": "Despacho de não admissão das Propostas de Alteração do BE e do CH"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324e6c596a6b774e6d4e684c574d325a444d744e4449344f5331685a4751354c5451345a4464694e475a6b5a47526c5a43356b62324e34&fich=ceb906ca-c6d3-4289-add9-48d7b4fddded.docx&Inline=true",
-     "anexoNome": "Proposta de alteração n.º 1 (BE)"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c324e6a4d4455334f44466a4c546b7a4e7a49744e44457859693035596a6b314c544a684e6a4e6a595759354d6a63324d53356b62324e34&fich=cc05781c-9372-411b-9b95-2a63caf92761.docx&Inline=true",
-     "anexoNome": "Proposta de alteração n.º 2 (CH)"
-    },
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c32566a4d5449795a5746684c5759314e5759744e445178595331694d446c694c5459344e6a466b4e475a6d4e3249775a53356b62324e34&fich=ec122eaa-f55f-441a-b09b-6861d4ff7b0e.docx&Inline=true",
-     "anexoNome": "Proposta de alteração n.º 3 (IL)"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "260",
    "Comissao": null,
    "DataFase": "2026-04-08",
@@ -1627,7 +1592,7 @@
  ],
  "IniId": "356520",
  "IniLeg": "XVII",
- "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a55795a6a646b4e7a6c6c4c5446685a4759744e4441794d6930344d5449344c57517759324931597a526d4e474d794d43356b62324e34&fich=52f7d79e-1adf-4022-8128-d0cb5c4f4c20.docx&Inline=true",
+ "IniLinkTexto": "",
  "IniNr": "67",
  "IniObs": null,
  "IniSel": "1",

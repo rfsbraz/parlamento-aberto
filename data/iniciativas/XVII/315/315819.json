@@ -122,7 +122,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4578596d49305a4756684c546b324f4449744e4751794d793168596a5a6d4c5459345a6d5a6b595752684d57557a5a69356b62324e34&fich=11bb4dea-9682-4d23-ab6f-68ffdada1e3f.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-12-09",
@@ -237,7 +242,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a526b597a67774d3255314c5751324d5749744e444a6b597930344e445a6b4c5455774d44417a4f44566a4e54466d595335775a47593d&fich=4dc803e5-d61b-42dc-846d-5000385c51fa.pdf&Inline=true",
+     "anexoNome": "Redistribuição da iniciativa"
+    }
+   ],
    "CodigoFase": "180",
    "Comissao": [
     {
@@ -10402,20 +10412,7 @@
      "DatafimApreciacaoPublica": null,
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
-     "Documentos": [
-      {
-       "DataDocumento": "2026-01-21",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório de discussão e votação",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279396c4e57566b4f5756694d5330344e7a55784c545179596d5174596a49315a69303059574d7a4e446868597a6b7a4e5759756347526d&fich=e5ed9eb1-8751-42bd-b25f-4ac348ac935f.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-01-21",
-       "TipoDocumento": "Texto final",
-       "TituloDocumento": "Texto final",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e505453383551314d765247396a6457316c626e527663306c7561574e7059585270646d46446232317063334e686279387a4e444a6a4e4455774d5330324f446c6b4c5451324d446774595459334f4330314d474530593249794d3255334d5455756347526d&fich=342c4501-689d-4608-a678-50a4cb23e715.pdf&Inline=true"
-      }
-     ],
+     "Documentos": null,
      "GpAgendamentoPlenario": null,
      "IdComissao": "8455",
      "Legislatura": null,

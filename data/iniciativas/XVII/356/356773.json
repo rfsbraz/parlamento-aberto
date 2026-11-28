@@ -70,12 +70,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a4a694d6a49784f47457a4c5441314f574d744e4759784e4331684d4463344c544d324d4445344e6a6b304d4751315a69356b62324e34&fich=2b2218a3-059c-4f14-a078-360186940d5f.docx&Inline=true",
-     "anexoNome": "Nota de Admissibilidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2026-05-26",
@@ -120,18 +115,6 @@
      "DatainicioApreciacaoPublica": null,
      "DistribuicaoSubcomissao": null,
      "Documentos": [
-      {
-       "DataDocumento": "2026-06-22",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota Técnica",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764f4464694d446b784e5441744e546c6c5a6930305a544d334c546b775a4749744e4756685a544a6b597a6b354d47566b4c6e426b5a673d3d&fich=87b09150-59ef-4e37-90db-4eae2dc990ed.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-07-08",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório CEC",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e5054533834513056444c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d7a51324e446c6d5a4449744f544133595330304e545a684c5467344f5463744e5759354d444e684e6a4e694d44557a4c6e426b5a673d3d&fich=34649fd2-907a-456a-8897-5f903a63b053.pdf&Inline=true"
-      },
       {
        "DataDocumento": "2026-05-27",
        "TipoDocumento": "Link",
@@ -308,12 +291,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a51344d7a686b5a6d466b4c5759304e4459744e4449785a4330344e4441314c5756685a6a566b4d32526d4e6a49325a5335775a47593d&fich=4838dfad-f446-421d-8405-eaf5d3df626e.pdf&Inline=true",
-     "anexoNome": "Parecer Governo RAM"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "175",
    "Comissao": null,
    "DataFase": "2026-06-11",
@@ -336,7 +314,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a566c4e44686d597a41334c5759784e6a49744e474e6a4d7930344e47597a4c5752684d446c6d4e7a5535595755354d6935775a47593d&fich=5e48fc07-f162-4cc3-84f3-da09f759ae92.pdf&Inline=true",
+     "anexoNome": "Parecer ALRAA"
+    }
+   ],
    "CodigoFase": "172",
    "Comissao": null,
    "DataFase": "2026-06-16",

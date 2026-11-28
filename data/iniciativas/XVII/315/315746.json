@@ -63,7 +63,12 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": null,
+   "AnexosFase": [
+    {
+     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a6c6c4e544a6859324d794c5459784f5467744e445534595330354d4441304c546c6b5a4759325a54526a4d6d526d5969356b62324e34&fich=9e52acc2-6198-458a-9004-9ddf6e4c2dfb.docx&Inline=true",
+     "anexoNome": "Nota de admissibilidade"
+    }
+   ],
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-10-27",
@@ -113,18 +118,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Contributos - Consulta Pública",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=526"
-      },
-      {
-       "DataDocumento": "2026-02-25",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Nota Técnica",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e5467774d5759345a546b745a6d4a6a4d793030596a426b4c5746684d445174595455335a4467784d474d784f5749344c6e426b5a673d3d&fich=5801f8e9-fbc3-4b0d-aa04-a57d810c19b8.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-02-25",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório ",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764d4451784e444d794e5449745a5464694d7930304e544d324c5745784f4459745a6a5a695932526c597a49794d3259334c6e426b5a673d3d&fich=04143252-e7b3-4536-a186-f6bcdec223f7.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,

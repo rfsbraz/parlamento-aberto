@@ -1,7 +1,12 @@
 {
  "DataFimleg": "2026-09-15",
  "DataInicioleg": "2025-06-03",
- "IniAnexos": null,
+ "IniAnexos": [
+  {
+   "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a45784d5449795a446b7a4c545a6c5a5745744e444132596931695a6d517a4c5445344d5755314e574e6d597a59774e7935775a47593d&fich=11122d93-6eea-406b-bfd3-181e55cfc607.pdf&Inline=true",
+   "anexoNome": "A.I.G."
+  }
+ ],
  "IniAutorDeputados": null,
  "IniAutorGruposParlamentares": null,
  "IniAutorOutros": {
@@ -82,12 +87,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a466b4e324e6c4d44646c4c5745334f4449744e446b354d5331684d5441314c574a694d7a49794e6a4a6a5a4452685969356b62324e34&fich=1d7ce07e-a782-4991-a105-bb32262cd4ab.docx&Inline=true",
-     "anexoNome": "Nota de Admissibilidade"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "20",
    "Comissao": null,
    "DataFase": "2025-08-27",
@@ -137,24 +137,6 @@
        "TipoDocumento": "Link",
        "TituloDocumento": "Consulta pública - Recolha de contributos",
        "URL": "https://www.parlamento.pt/Cidadania/Paginas/08_ContributosIniciativasII.aspx?ID_Ini=365"
-      },
-      {
-       "DataDocumento": "2025-12-24",
-       "TipoDocumento": "Nota técnica",
-       "TituloDocumento": "Nota Técnica",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a444e694e6a6b344f4449744e6d4a6b4f5330304d546b794c5749314d446b7459544d324e3249794e324e6d4e6d45344c6e426b5a673d3d&fich=d3b69882-6bd9-4192-b509-a367b27cf6a8.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2025-12-03",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Parecer sobre constitucionalidade - CACDLG",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738764e6a4935596a55784e5445745a5749324d6930304d4455774c574a684f545174593249305a44566c595459304f4445784c6e426b5a673d3d&fich=629b5151-eb62-4050-ba94-cb4d5ea64811.pdf&Inline=true"
-      },
-      {
-       "DataDocumento": "2026-02-18",
-       "TipoDocumento": "Relatório",
-       "TituloDocumento": "Relatório ",
-       "URL": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c304e50545338784d454e5555314e4a4c305276593356745a57353062334e4a626d6c6a6157463061585a685132397461584e7a595738765a545933597a41315a475974596d5a6d5a4330304d5441314c546b34596a45744e5752684d32526b4e7a646d4d5455314c6e426b5a673d3d&fich=e67c05df-bffd-4105-98b1-5da3dd77f155.pdf&Inline=true"
       }
      ],
      "GpAgendamentoPlenario": null,
@@ -326,12 +308,7 @@
   {
    "ActId": null,
    "ActividadesConjuntas": null,
-   "AnexosFase": [
-    {
-     "anexoFich": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c3255784e575a6c595755784c546b345a4751744e4759315a5331694e5467344c546b324f444d354d6d4e6c4e475133597935775a47593d&fich=e15feae1-98dd-4f5e-b588-968392ce4d7c.pdf&Inline=true",
-     "anexoNome": "Parecer"
-    }
-   ],
+   "AnexosFase": null,
    "CodigoFase": "174",
    "Comissao": null,
    "DataFase": "2025-09-11",
@@ -382,7 +359,7 @@
  ],
  "IniId": "315430",
  "IniLeg": "XVII",
- "IniLinkTexto": "",
+ "IniLinkTexto": "http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c63793959566b6c4a5447566e4c305276593356745a57353062334e4a626d6c6a6157463061585a684c7a466c4e444a6c5a446b344c5449774e7a51744e444a6d4e5330344d4455324c5455344d4755344d325a684e7a45344f53356b62324e34&fich=1e42ed98-2074-42f5-8056-580e83fa7189.docx&Inline=true",
  "IniNr": "21",
  "IniObs": null,
  "IniSel": "1",
